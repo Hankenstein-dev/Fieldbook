@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":56617,"scientificName":"Ceanothus thyrsiflorus","commonName":"blueblossom","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Ceanothus thyrsiflorus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Ceanothus thyrsiflorus, known as blueblossom or blue blossom ceanothus, is an evergreen shrub in the buckthorn family Rhamnaceae that is endemic to Oregon and California in the US. The terms 'Californian lilac' and 'Mountain lilac' are also applied to this and other varieties of ceanothus, though it is not closely related to Syringa, the true lilac."},{"id":"s1:p2","text":"Description\nCeanothus thyrsiflorus can grow more than {{convert|6|m|sp=us}} tall and broad in its native chaparral habitat, with glossy green leaves. The clusters of tiny flowers, borne in spring, vary from different shades of blue to close to white. The evergreen leaves are shiny and about {{Convert|4|cm|abbr=on|frac=2}} long."},{"id":"s1:p3","text":"Etymology\nThe Latin genus name Ceanothus is derived from the Ancient Greek {{Lang|grc-Latn|keánōthos}} ({{Lang|grc|κεάνωθος}}) 'a spiny plant'. The name was originally used by Theophrastus for another plant, and Linnaeus reused it for Ceanothus."},{"id":"s1:p4","text":"Ecology\nIt is popular with birds, butterflies, and other pollinators. It is often visited by honeybees for its pollen."},{"id":"s1:p5","text":"Cultivation\nCeanothus thyrsiflorus has been used in gardens extensively. It prefers a warm, sheltered position in full sun. Several cultivars have been selected, including:\n'Blue Mound' which can grow to {{convert|1.5|m|abbr=on}} tall \n'Cascade' which may reach {{convert|8|m|abbr=on}} of height\n'El Dorado', a variegated cultivar with gold edge foliage and powder blue flowers \n'Repens' which stays as a shrub around {{convert|1|-|3|m|abbr=on}} tall\n'Repens Victoria', forming a sturdy evergreen mound and most useful groundcover with powder blue flowers\n'Skylark', a tall type with blue flowers (this cultivar has gained the Royal Horticultural Society's Award of Garden Merit)\n'Snow Flurry', with white flowers"}]}]}

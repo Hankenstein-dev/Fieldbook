@@ -1,0 +1,38 @@
+{
+  "taxonId": 167681,
+  "name": "Racomitrium elongatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:16.129586+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/e2a9f995314c5949a8be4eeef941d5c3b1efd40a76807309b7c500518bd02341.json",
+      "title": "Verlängerte Zackenmütze",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Racomitrium elongatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Elongate Rock Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Racomitrium+elongatum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Racomitrium+elongatum&limit=100",
+      "status": 200
+    }
+  ]
+}

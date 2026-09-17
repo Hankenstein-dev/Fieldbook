@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":75917,"scientificName":"Buddleja saligna","commonName":"False Olive","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Buddleja saligna","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Buddleja saligna, the false olive or bastard olive, is native to South Africa and Zimbabwe, where it has a wide distribution. It occurs most often in ravines and against outcrops, and is distributed from coastal elevations to the central plateau at elevations of < 2000 m. The species was first described and named by Willdenow in 1809."},{"id":"s1:p2","text":"Description"},{"id":"s1:p3","text":"Buddleja saligna is an evergreen shrub or small tree, growing < 15 m in height with a trunk diameter of 40 cm, and very similar to Salix and Olea. The bark becomes longitudinally furrowed with age. The branchlets are quadrangular in section, and winged. The opposite, subcoriaceous narrowly elliptic to linear leaves vary considerably in size and shape, from 1.2 – 15 cm long by 0.2 – 3 cm wide. The upper surface of the leaf is medium to dark green, glabrous and smooth, while the underside is clothed in pale stellate hairs. The honey-scented flowers are cream or white, occasionally with a reddish orange throat, appearing as large terminal heads 12 cm × 12 cm in spring and summer; the corollas are 4 mm in length. The dense timber (specific gravity 0.98) is of exceptionally high quality, though rarely found in sizes suitable for furniture."},{"id":"s1:p4","text":"Cultivation\nBuddleja saligna is hardy and frost resistant. In the UK, a specimen is grown as part of the NCCPG national collection held by Longstock Park Nursery, near Stockbridge, Hampshire. The shrub grows easily in well-drained soil, and is notably tolerant of drought. Hardiness: USDA zone 9."}]}]}

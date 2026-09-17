@@ -1,0 +1,22 @@
+{
+  "taxonId": 67672,
+  "name": "Hypnea musciformis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:37.211921+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hypnea+musciformis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hypnea+musciformis&limit=100",
+      "status": 200
+    }
+  ]
+}

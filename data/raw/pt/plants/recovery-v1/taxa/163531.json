@@ -1,0 +1,63 @@
+{
+  "taxonId": 163531,
+  "name": "Hechtia glomerata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:52.795571+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hechtia glomerata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Hechtia glomerata, commonly known as guapilla, is a species of bromeliad that is native to southern Texas in the United States, Mexico, and Guatemala.\n\nCultivars\n Hechtia 'Ventura' (H. marnier-lapostollei × H. glomerata)",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/09be3b9c6f94713b6fc8a72051d791ba6752c711e3a5f0a2590cf785984d6f7c.json",
+      "sha256": "98d5d659c82cfa3dc9d9432b269fb9a25ab70ec083d933c3b92fbab734bdbcb7",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1297842406",
+      "revisionId": 1297842406,
+      "credit": {
+        "title": "Hechtia glomerata",
+        "url": "https://en.wikipedia.org/wiki/Hechtia_glomerata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1297842406",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Hechtia glomerata Zucc.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Hechtia glomerata, commonly known as guapilla, is a species of bromeliad that is native to southern Texas in the United States, Mexico, and Guatemala.Kew World Checklist of Selected Plant FamiliesFlora of North America, Hechtia glomerata Zuccarini, Abh. Math.-Phys. Cl. Konigl. Bayer. Akad. Wiss. 3: 240, plate 6. 1840.Biota of North America Program, 2013 county distribution map\n\nHechtia 'Ventura' (H. marnier-lapostollei × H. glomerata)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165679052.json",
+      "sha256": "fdf6e5fbbed0ded401165442a8caf554a807ba93745662bf65f1aec31a20562a",
+      "url": "https://api.gbif.org/v1/species/165679052",
+      "credit": {
+        "title": "Hechtia glomerata Zucc.",
+        "url": "https://www.gbif.org/species/165679052",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hechtia glomerata"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hechtia+glomerata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hechtia+glomerata&limit=100",
+      "status": 200
+    }
+  ]
+}

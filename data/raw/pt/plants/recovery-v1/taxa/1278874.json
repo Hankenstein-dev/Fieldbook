@@ -1,0 +1,55 @@
+{
+  "taxonId": 1278874,
+  "name": "Coleus hadiensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:49.598043+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Coleus hadiensis (Forssk.) A.J.Paton",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Distribution. Widespread, Egypt to South Africa, Arabian Peninsula, Maldives, Sri Lanka.\n\nDistribution. Widespread, Egypt to South Africa, Arabian Peninsula, Maldives, Sri Lanka.\n\nDescription. Paton et al. (2009: 300), Paton et al. (2013: 247), as Plectranthus hadiensis (Forssk.) Sprenger.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/10964472.json",
+      "sha256": "6ae3f8a16273c74acaca1c6c335ee26a0fcc5d62c323e0f90dfb37f8aa257672",
+      "url": "https://api.gbif.org/v1/species/10964472",
+      "credit": {
+        "title": "Coleus hadiensis (Forssk.) A.J.Paton",
+        "url": "https://www.gbif.org/species/10964472",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c870fb47579e6d644199ba747c300faee2e184dc0f15a5f73e9216a13472d105.json",
+      "title": "Plectranthus hadiensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Coleus hadiensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Vicks Plant"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Coleus+hadiensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Coleus+hadiensis&limit=100",
+      "status": 200
+    }
+  ]
+}

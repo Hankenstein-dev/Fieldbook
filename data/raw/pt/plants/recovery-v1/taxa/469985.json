@@ -1,0 +1,28 @@
+{
+  "taxonId": 469985,
+  "name": "Narcissus confusus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:44.154389+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/dc2d178c40af8c906f33237fd620125ef083ef4144c9ca3ae93898f2d87ce628.json",
+      "title": "Narcissus hispanicus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Narcissus+confusus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Narcissus+confusus&limit=100",
+      "status": 200
+    }
+  ]
+}

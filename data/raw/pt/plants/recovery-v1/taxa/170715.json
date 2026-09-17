@@ -1,0 +1,32 @@
+{
+  "taxonId": 170715,
+  "name": "Epidendrum × obrienianum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:33.448922+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Epidendrum × obrienianum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "O'Brien's Star Orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Epidendrum+%C3%97+obrienianum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Epidendrum+%C3%97+obrienianum&limit=100",
+      "status": 200
+    }
+  ]
+}

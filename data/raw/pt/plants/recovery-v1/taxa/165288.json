@@ -1,0 +1,82 @@
+{
+  "taxonId": 165288,
+  "name": "Melilotus elegans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:58.568186+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Melilotus elegans",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Melilotus elegans, the elegant sweetclover, is a species of annual herb in the family Fabaceae. They have a self-supporting growth form. Individuals can grow to 0.39 m.\n\n Sources \n{{Free-content attribution\n| title = Melilotus elegans\n| source = Encyclopedia of Life\n| documentURL = https://eol.org/pages/703241\n| license statement URL = https://eol.org/docs/what-is-eol/copyright-and-linking-policy\n| license = CC0\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/172d91faf4dc94e5eea04d15c0c854c67affbb954b294e8e6688424e5bff3188.json",
+      "sha256": "70db3930abb71ad18b5a360438bfbf4edfdc32781d4445f65294d220096b9c30",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1077899140",
+      "revisionId": 1077899140,
+      "credit": {
+        "title": "Melilotus elegans",
+        "url": "https://en.wikipedia.org/wiki/Melilotus_elegans",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1077899140",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Melilotus elegans",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Melilotus elegans''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Fabales]]\n| família = [[Fabaceae]]\n| género = ''[[Melilotus]]''\n| espécie = '''''M. elegans'''''\n| binomial = ''Melilotus elegans''\n| binomial_autoridade = Salzm. ex Ser.\n}}\nMelilotus elegans é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é Salzm. ex Ser., tendo sido publicada em Prodromus Systematis Naturalis Regni Vegetabilis 2: 188. 1825.\n\nOs seus nomes comuns são coroa-de-rei, meliloto ou trevo-de-cheiro.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa das duas regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/172d91faf4dc94e5eea04d15c0c854c67affbb954b294e8e6688424e5bff3188.json",
+      "sha256": "4cab9c02da52b0da0a4b92a9a7168f44e391b69e9daa985aa8609f6df97c7634",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=71599989",
+      "revisionId": 71599989,
+      "credit": {
+        "title": "Melilotus elegans",
+        "url": "https://pt.wikipedia.org/wiki/Melilotus_elegans",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=71599989",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Melilotus elegans Salzm.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Fruit cobert de plecs transversals, arcuats, molt acusats; sutura ventral del fruit molt prominent;..ovari sèssil, amb 2-3 primordis seminals; peduncle en general no aristat; pètals tots +- iguals; herba anual. Planta erecta, ramificada, glabrescent; estípules enteres; folíols ovats o cuneïformes, dentats a la part superior; raïm lax amb 20-30 flors flairoses, de 4-5 mm; fruit de 3,5-4 mm, groguenc a la maturitat; 1(2) granes. Th. e. 0,2-2 m. III-VI.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9486618.json",
+      "sha256": "99e47f0b521abe5df61238921c74a984f40a2297664c6e7cf0445edc34cf865d",
+      "url": "https://api.gbif.org/v1/species/9486618",
+      "credit": {
+        "title": "Melilotus elegans Salzm.",
+        "url": "https://www.gbif.org/species/9486618",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Melilotus elegans"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Melilotus+elegans&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Melilotus+elegans&limit=100",
+      "status": 200
+    }
+  ]
+}

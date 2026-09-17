@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":77719,"scientificName":"Leucanthemum maximum","commonName":"max chrysanthemum","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Leucanthemum maximum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Leucanthemum maximum, known as max chrysanthemum and Shasta daisy, is a species of flowering plant in the aster family. "},{"id":"s1:p2","text":"Range\nIt is native to France and Spain but it can be found growing wild in other parts of the world as an introduced species and sometimes a garden escapee. "},{"id":"s1:p3","text":"Description\nIt is a rhizomatous perennial herb growing 30 to 70 centimeters tall with many large serrated leaves around the base of the stem on winged petioles. There are smaller lance-shaped leaves alternately arranged along the stem. The inflorescence is generally a large, solitary flower head which may exceed 8 centimeters in diameter. It has a fringe of 20 to 30 white ray florets around a center of many densely packed yellow disc florets. The fruit is a small ribbed achene without a pappus."},{"id":"s1:p4","text":"Taxonomy\nThis species is one of the wild chrysanthemums Luther Burbank crossed to produce the popular garden hybrid known as the Shasta daisy, Leucanthemum × superbum."}]}]}

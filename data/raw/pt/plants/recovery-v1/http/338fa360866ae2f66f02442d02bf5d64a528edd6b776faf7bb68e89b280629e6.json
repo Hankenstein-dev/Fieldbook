@@ -1,0 +1,178 @@
+{
+  "url": "https://api.gbif.org/v1/dataset/cbb6498e-8927-405a-916b-576d00a6289b",
+  "fetchedAt": "2026-09-15T07:52:25.375470+00:00",
+  "status": 200,
+  "sha256": "8e677ba68dd1d4d06d7fcc74a54e5cdd3bbd04a16c8f08a9ea38d4c448778c0e",
+  "data": {
+    "key": "cbb6498e-8927-405a-916b-576d00a6289b",
+    "installationKey": "995eed50-f762-11e1-a439-00145eb45e9a",
+    "publishingOrganizationKey": "b289cfec-b50c-4845-b142-d20a1739b9fd",
+    "doi": "10.15468/c3kkgh",
+    "external": false,
+    "numConstituents": 0,
+    "type": "CHECKLIST",
+    "title": "English Wikipedia - Species Pages",
+    "description": "Species pages extracted from the English Wikipedia article XML dump from 2022-08-02.\nMultimedia, vernacular names and textual descriptions are extracted, but only pages with a taxobox or speciesbox template are recognized.\n\nSee https://github.com/mdoering/wikipedia-dwca for details.",
+    "language": "eng",
+    "homepage": "https://en.wikipedia.org",
+    "citation": {
+      "text": "Döring M (2022). English Wikipedia - Species Pages. Wikimedia Foundation. Checklist dataset https://doi.org/10.15468/c3kkgh accessed via GBIF.org on 2026-09-15.",
+      "citationProvidedBySource": false
+    },
+    "contactsCitation": [
+      {
+        "key": 3872914,
+        "abbreviatedName": "Döring M",
+        "firstName": "Markus",
+        "lastName": "Döring",
+        "roles": [
+          "METADATA_AUTHOR",
+          "ORIGINATOR"
+        ],
+        "userId": []
+      }
+    ],
+    "lockedForAutoUpdate": false,
+    "createdBy": "registry-migration.gbif.org",
+    "modifiedBy": "crawler.gbif.org",
+    "created": "2011-09-05T11:17:31.000+00:00",
+    "modified": "2022-08-23T10:22:08.627+00:00",
+    "contacts": [
+      {
+        "key": 3872914,
+        "type": "ORIGINATOR",
+        "primary": true,
+        "userId": [],
+        "firstName": "Markus",
+        "lastName": "Döring",
+        "position": [],
+        "email": [
+          "mdoering@gbif.org"
+        ],
+        "phone": [],
+        "homepage": [],
+        "address": [],
+        "city": "Berlin",
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2022-08-23T10:22:08.606+00:00",
+        "modified": "2022-08-23T10:22:08.606+00:00"
+      },
+      {
+        "key": 3872915,
+        "type": "METADATA_AUTHOR",
+        "primary": true,
+        "userId": [],
+        "firstName": "Markus",
+        "lastName": "Döring",
+        "position": [],
+        "email": [
+          "mdoering@gbif.org"
+        ],
+        "phone": [],
+        "homepage": [],
+        "address": [],
+        "city": "Berlin",
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2022-08-23T10:22:08.611+00:00",
+        "modified": "2022-08-23T10:22:08.611+00:00"
+      },
+      {
+        "key": 3872916,
+        "type": "ADMINISTRATIVE_POINT_OF_CONTACT",
+        "primary": true,
+        "userId": [],
+        "firstName": "Markus",
+        "lastName": "Döring",
+        "position": [],
+        "email": [
+          "mdoering@gbif.org"
+        ],
+        "phone": [],
+        "homepage": [],
+        "address": [],
+        "city": "Berlin",
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2022-08-23T10:22:08.613+00:00",
+        "modified": "2022-08-23T10:22:08.613+00:00"
+      }
+    ],
+    "endpoints": [
+      {
+        "key": 3839,
+        "type": "DWC_ARCHIVE",
+        "url": "https://hosted-datasets.gbif.org/datasets/wikipedia/wikipedia-en-dwca.zip",
+        "createdBy": "registry-migration.gbif.org",
+        "modifiedBy": "registry-migration.gbif.org",
+        "created": "2012-09-04T19:13:55.000+00:00",
+        "modified": "2012-09-04T19:13:55.000+00:00",
+        "machineTags": []
+      }
+    ],
+    "machineTags": [
+      {
+        "key": 32794560,
+        "namespace": "crawler.gbif.org",
+        "name": "crawl_attempt",
+        "value": "430",
+        "createdBy": "crawler.gbif.org",
+        "created": "2026-09-10T19:26:27.261+00:00"
+      }
+    ],
+    "tags": [
+      {
+        "key": 12290,
+        "value": "wikipedia",
+        "createdBy": "registry-migration.gbif.org",
+        "created": "2011-09-05T11:17:32.000+00:00"
+      }
+    ],
+    "identifiers": [
+      {
+        "key": 11494,
+        "type": "GBIF_PORTAL",
+        "identifier": "13566",
+        "createdBy": "registry-migration.gbif.org",
+        "created": "2012-09-05T14:04:22.000+00:00",
+        "primary": false
+      }
+    ],
+    "comments": [],
+    "bibliographicCitations": [],
+    "curatorialUnits": [],
+    "taxonomicCoverages": [],
+    "geographicCoverages": [],
+    "temporalCoverages": [],
+    "keywordCollections": [],
+    "countryCoverage": [],
+    "collections": [],
+    "dataDescriptions": [
+      {
+        "name": "Wikipedia Article Dump",
+        "charset": "",
+        "url": "https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2",
+        "format": "XML"
+      }
+    ],
+    "dataLanguage": "eng",
+    "pubDate": "2022-08-02T00:00:00.000+00:00",
+    "license": "unsupported",
+    "dwca": {
+      "coreType": "http://rs.tdwg.org/dwc/terms/Taxon",
+      "extensions": [
+        "http://rs.gbif.org/terms/1.0/Multimedia",
+        "http://rs.gbif.org/terms/1.0/VernacularName",
+        "http://rs.gbif.org/terms/1.0/TypesAndSpecimen",
+        "http://rs.gbif.org/terms/1.0/Description",
+        "http://rs.gbif.org/terms/1.0/SpeciesProfile"
+      ],
+      "modified": "2026-09-10T19:26:44.155+00:00"
+    }
+  },
+  "text": null
+}

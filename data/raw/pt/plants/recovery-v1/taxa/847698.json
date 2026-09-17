@@ -1,0 +1,28 @@
+{
+  "taxonId": 847698,
+  "name": "Billbergia distachia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:23.488607+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/87641593ee804cef606bcfbb9112d5b4f8824395c7fde80d10abc4ea7c1861bb.json",
+      "title": "Billbergia distachya",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Billbergia+distachia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Billbergia+distachia&limit=100",
+      "status": 200
+    }
+  ]
+}

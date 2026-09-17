@@ -1,0 +1,38 @@
+{
+  "taxonId": 1511165,
+  "name": "Patzkea paniculata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:56.656889+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/07759db15c2ef1be190e3ac98dcf8f2492edfdd66c034d0fe1df5b79672d7347.json",
+      "title": "Festuca paniculata",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ce1b5e11bcea11fb966f2521d79a8555ed933625481ec458b14f04913cb0094f.json",
+      "title": "Festuca paniculata",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9ac3c532ddee61fee57887c8f234b7e3faef0c49ac5844f895b34df2851d79bb.json",
+      "title": "Festuca paniculata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Patzkea+paniculata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Patzkea+paniculata&limit=100",
+      "status": 200
+    }
+  ]
+}

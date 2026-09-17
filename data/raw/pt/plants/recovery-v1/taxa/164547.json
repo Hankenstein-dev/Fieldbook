@@ -1,0 +1,32 @@
+{
+  "taxonId": 164547,
+  "name": "Leptodon smithii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:56.171917+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Leptodon smithii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Prince-of-Wales Feather-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Leptodon+smithii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Leptodon+smithii&limit=100",
+      "status": 200
+    }
+  ]
+}

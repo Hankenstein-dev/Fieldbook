@@ -1,0 +1,28 @@
+{
+  "taxonId": 272784,
+  "name": "Rhynchostegiella",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:39:48.986849+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/877777ef427fa5e4c8a38b66519c0b95a5b75c1acbc0cbd2d951a47021b8a164.json",
+      "title": "Rhynchostegiella",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhynchostegiella&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhynchostegiella&limit=100",
+      "status": 200
+    }
+  ]
+}

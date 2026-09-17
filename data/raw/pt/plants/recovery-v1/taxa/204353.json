@@ -1,0 +1,53 @@
+{
+  "taxonId": 204353,
+  "name": "Lysimachia minima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:42.249715+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lysimachia minima",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Lysimachia minima (chaffweed) is a 1-4 inch (2–10 cm) perennial herb in the primula family (Primulaceae). A cosmopolitan species, this small plant is native widely across North America and Eurasia. It can be found growing in moist soils and seasonal pools.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/973f75877286ed25fd290f64507e347287e5b54d2669457881e09df8608a80e2.json",
+      "sha256": "18d503a0400bb791bfa801ed3f40cecfd52be6aadf41ad6fbaa8556d0bc97cb2",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1306412214",
+      "revisionId": 1306412214,
+      "credit": {
+        "title": "Lysimachia minima",
+        "url": "https://en.wikipedia.org/wiki/Lysimachia_minima",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1306412214",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/7838cdf34cb47f9363032e7480bb7310a40f0343abbdac965e7ec8557f0503f7.json",
+      "title": "Centunculus minimus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lysimachia minima"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lysimachia+minima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lysimachia+minima&limit=100",
+      "status": 200
+    }
+  ]
+}

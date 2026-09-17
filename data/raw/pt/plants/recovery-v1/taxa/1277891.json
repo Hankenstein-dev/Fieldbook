@@ -1,0 +1,38 @@
+{
+  "taxonId": 1277891,
+  "name": "Torminalis glaberrima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:48.019192+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e44ba31334274108990a215b244e4c5d9e08e3ad0c37790575b79f03bc5e77e9.json",
+      "title": "Aria torminalis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Torminalis glaberrima"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Wild Service-tree"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Torminalis+glaberrima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Torminalis+glaberrima&limit=100",
+      "status": 200
+    }
+  ]
+}

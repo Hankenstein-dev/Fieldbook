@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":69930,"scientificName":"Juncus tenuis","commonName":"Slender Path Rush","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Juncus tenuis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Juncus tenuis, the slender rush, is a clump-forming, round-stemmed perennial in the Juncaceae (rush family). Native to North America and introduced to Europe, Australia, and parts of Asia, slender rush grows to be between 15 and 60 cm tall. Generally considered a weed, it is rarely sold by retailers as a household container plant. Where it is introduced, it is colloquially called path rush, field rush, slender yard rush, poverty rush or wiregrass."},{"id":"s1:p2","text":"The leaves of the plant all come from the base and are not nearly as tall as the stems. The stems are partly covered by sheaths, and have the most distinctive characteristic of the plant on them: clusters or cymes at the top. These cymes consist of branches that have small egg-shaped seed capsules at the end of them. The seeds split into three parts when they become ripe. The plant also spreads via rhizomatous root growth."},{"id":"s1:p3","text":" Habitat \nSlender rush grows in landscapes, crops, roadsides, and all types of fields. It can grow on both wet and dry sites, in soils consisting mainly of sand or clay. Because of its high tolerance of compacted soils, it can outcompete other plant species in such places, hence the name \"path rush\". It is native throughout all fifty states of United States, most of Canada, and parts of northern Europe."}]}]}

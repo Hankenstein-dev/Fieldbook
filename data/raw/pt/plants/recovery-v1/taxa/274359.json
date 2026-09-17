@@ -1,0 +1,42 @@
+{
+  "taxonId": 274359,
+  "name": "Opuntia dejecta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:50.514811+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Opuntia dejecta",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Opuntia dejecta is a species of plant in the cactus family. They are listed in cites appendix ii. Flowers are visited by the broad-billed hummingbird.\n\n Source \n{{Free-content attribution\n| title = Nopalea dejecta\n| source = Encyclopedia of Life\n| documentURL = https://eol.org/pages/5177743\n| license statement URL = https://eol.org/docs/what-is-eol/copyright-and-linking-policy\n| license = CC0\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/b64c0b51481cf0259a0c5df7f8fe2f229a696917812fa6f19424a2bb2d8d26d9.json",
+      "sha256": "bfd29c488a1b620055a948d71d5e84034d8d670f668903b10c4733716693004c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1306712402",
+      "revisionId": 1306712402,
+      "credit": {
+        "title": "Opuntia dejecta",
+        "url": "https://en.wikipedia.org/wiki/Opuntia_dejecta",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1306712402",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Opuntia+dejecta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Opuntia+dejecta&limit=100",
+      "status": 200
+    }
+  ]
+}

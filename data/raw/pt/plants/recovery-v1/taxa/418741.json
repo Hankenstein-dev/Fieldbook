@@ -1,0 +1,58 @@
+{
+  "taxonId": 418741,
+  "name": "Polystichum drepanum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:01.160037+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Polystichum drepanum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Polystichum drepanum, also known as Madeira shield-fern, is a species of fern in the Dryopteridaceae family.\n \nIt is native to Madeira. Its natural habitat is subtropical moist lowland forests. It is threatened by habitat loss.\n\nTaxonomy\nIt was first described by Olof Swartz as Aspidium drepanum in 1801, and was moved to the genus Polystichum by Carl Borivoj Presl in 1836.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/76e24b491f09a27e80343e209539713cad9d3a2bea0ad02c7304128de46ffed0.json",
+      "sha256": "33aa60f0a1a99d4f8a1631d00d3fbcde682a95c928c14a1d944f9daaea1f7097",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1344181925",
+      "revisionId": 1344181925,
+      "credit": {
+        "title": "Polystichum drepanum",
+        "url": "https://en.wikipedia.org/wiki/Polystichum_drepanum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1344181925",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Polystichum drepanum (Sw.) C.Presl",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Polystichum drepanum, also known as Madeira shield-fern, is a species of fern in the Dryopteridaceae family. It is native to Madeira. Its natural habitat is tropical moist lowland forests. It is threatened by habitat loss.\n\nIt was first described by Olof Swartz as Aspidium drepanum in 1801, and moved to the genus Polystichum by Carl Borivoj Presl in 1836.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/193660173.json",
+      "sha256": "4bd2b7eba821ddff75341efa89d7f922306491d2c3ab3319558fd5bfbe3e9bd4",
+      "url": "https://api.gbif.org/v1/species/193660173",
+      "credit": {
+        "title": "Polystichum drepanum (Sw.) C.Presl",
+        "url": "https://www.gbif.org/species/193660173",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Polystichum+drepanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Polystichum+drepanum&limit=100",
+      "status": 200
+    }
+  ]
+}

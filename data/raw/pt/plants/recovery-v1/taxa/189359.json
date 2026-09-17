@@ -1,0 +1,32 @@
+{
+  "taxonId": 189359,
+  "name": "Helosciadium inundatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:42.027920+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Helosciadium inundatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "lesser marshwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Helosciadium+inundatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Helosciadium+inundatum&limit=100",
+      "status": 200
+    }
+  ]
+}

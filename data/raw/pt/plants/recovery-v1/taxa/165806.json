@@ -1,0 +1,39 @@
+{
+  "taxonId": 165806,
+  "name": "Oenothera mollissima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:59.021674+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Oenothera mollissima L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Dietrich in Ann. Missouri Bot. Gard. 64: 532. 1978 [1977]): Herb. Clifford: 144, Oenothera 2 (BM- 000558613).\n\n\" Habitat in agro Bonariensi. \" RCN: 2657.\n\nNote: See discussion by Munz (in Amer. J. Bot. 22: 659. 1935).\n\nHabitat in agro Bonariensi. ☉\n\n2. Oenothera foliis lanceolatis undulatis. Vir. cliff. 33. Gron. virg. 42. Roy. lugdb. 251. Oenothera foliis lineari-lanceolatis dentatis, floribus e medio caule. Hort. ups. 144. Onagra bonariensis villosa, flore mutabili. Dill. elth. 297. t. 219. f. 286.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3188811.json",
+      "sha256": "4f1e9c999ab03a7ab6aa33f402a07f1909fd3af8458105ce83a1544f552aa692",
+      "url": "https://api.gbif.org/v1/species/3188811",
+      "credit": {
+        "title": "Oenothera mollissima L.",
+        "url": "https://www.gbif.org/species/3188811",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Oenothera+mollissima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Oenothera+mollissima&limit=100",
+      "status": 200
+    }
+  ]
+}

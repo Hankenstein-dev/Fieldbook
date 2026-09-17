@@ -1,0 +1,38 @@
+{
+  "taxonId": 167978,
+  "name": "Rosa cinnamomea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:21.646363+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/220efedea414f1949ef70d22438305c1ea7ebf55779e846174197a4d5f787ebf.json",
+      "title": "Rosa majalis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rosa cinnamomea"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cinnamon Rose"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rosa+cinnamomea&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rosa+cinnamomea&limit=100",
+      "status": 200
+    }
+  ]
+}

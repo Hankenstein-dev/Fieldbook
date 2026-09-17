@@ -1,0 +1,43 @@
+{
+  "taxonId": 1472802,
+  "name": "Eucalyptus maidenii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:46.018330+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3e25034e3fc7b1469f3815d3fafe3dc0f7959db5e20b8da498862a1aafe45f57.json",
+      "title": "Eucalyptus globulus subsp. maidenii",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/967eceed910890c07f4b1a9601f754dca4b95a964a6ec0f563cbc0fc5c88b19f.json",
+      "title": "Eucalyptus globulus subsp. maidenii",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Eucalyptus maidenii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Maiden's blue gum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Eucalyptus+maidenii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Eucalyptus+maidenii&limit=100",
+      "status": 200
+    }
+  ]
+}

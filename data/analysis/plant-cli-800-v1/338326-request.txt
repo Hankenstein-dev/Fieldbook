@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":338326,"scientificName":"Agave mitis","commonName":"Mitis Century Plant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Agave mitis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Agave mitis is a plant species native to the Mexican states of Hidalgo, Tamaulipas and San Luis Potosí, referred to as Agave celsii in many publications."},{"id":"s1:p2","text":"Agave mitis forms rosettes of blue-green to yellow-green, fleshy leaves up to 60 cm (2 feet) long. The leaves have soft brown spines not nearly as imposing as those of other agaves. The flowering stalk is up to 2.5 m (8 feet) tall, with the flowers closely appressed against the stem forming a narrow column much more compact than most other species of the genus. Flowers are green, each up to 60 mm (2.4 inches) long."},{"id":"s1:p3","text":"Because the species is widespread and grows in several protected areas, it is not considered by the IUCN to be threatened."}]}]}

@@ -1,0 +1,55 @@
+{
+  "taxonId": 164185,
+  "name": "Isothecium alopecuroides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:52.991579+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Isothecium alopecuroides (Lam. ex Dubois) Isov.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "woodlands\n\nplant\n\nnon cuddly\n\nmobile\n\nmesotrophic\n\nlonglived\n\nepiphytic\n\nRECORDS. — Bescherelle (1882): Djurjura. Bescherelle (1882), Jelenc (1955 a): Kabylie du Djurdjura, Tizi Ouzou. Bescherelle (1882), Jelenc (1955 a, 1967): Djebel Goufi. Lapie (1909): Kabylie du Djurjura. Jelenc (1955 a): Atlas de Blida; Boghar; Djidjelli; Kabyblie du Djurdjura, Aït Idjer; Kabyblie du Djurdjura, Akfadou; Kabylie du Djurdjura, Izer Zouggaren. Jelenc (1955 a), Ahayoun et al. (2007): Kabylie du Djurdjura, Tala Ghizan. Boukhatem et al. (2017): El-Kala National Park, Tonga lake watershed. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2679735.json",
+      "sha256": "4f5351099d49abd2a29241da70e980bc9b4b3ba7041a7ef8c8a0125de7eb067d",
+      "url": "https://api.gbif.org/v1/species/2679735",
+      "credit": {
+        "title": "Isothecium alopecuroides (Lam. ex Dubois) Isov.",
+        "url": "https://www.gbif.org/species/2679735",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/b4055ce94209af0fc17dbb77d48d6d3bcc27107c14984a69e191179790bcb97d.json",
+      "title": "Großes Mausschwanzmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Isothecium alopecuroides"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Larger Mouse-tail Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Isothecium+alopecuroides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Isothecium+alopecuroides&limit=100",
+      "status": 200
+    }
+  ]
+}

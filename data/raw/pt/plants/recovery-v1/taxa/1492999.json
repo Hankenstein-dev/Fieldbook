@@ -1,0 +1,38 @@
+{
+  "taxonId": 1492999,
+  "name": "Opuntia engelmannii",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:50.987570+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/2ee84e257ed3558395ecb7d5bb073f37d2e9256da0a0c14cd4ead9c683af37c9.json",
+      "title": "Opuntia engelmannii",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Opuntia engelmannii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Engelmann Prickly Pear Complex"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Opuntia+engelmannii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Opuntia+engelmannii&limit=100",
+      "status": 200
+    }
+  ]
+}

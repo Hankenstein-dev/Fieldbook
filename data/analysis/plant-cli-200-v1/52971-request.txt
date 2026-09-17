@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":52971,"scientificName":"Epilobium brachycarpum","commonName":"panicled willowherb","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Epilobium brachycarpum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Epilobium brachycarpum is a species of willowherb known by the common names tall willowherb, tall annual willowherb, panicled willowherb and tall fireweed. It is native to North America, including Canada from Quebec to British Columbia, the western United States and the Dakotas, and southwestern and Central Mexico. It is a resident of varied open and woodland habitats. It has also been introduced to some areas in South America. This is a tall glandular, hairy annual herb occasionally reaching {{convert|2|m}} in height. It is somewhat gangly and thin like an erect weed, with narrow, curving, pointed leaves up to a few centimetres in length. The flower has four petals which may be so deeply notched that they look like four pairs. They are generally light purple or pink, with darker veining. The fruit is a capsule {{convert|1 to 3|cm}} long."}]}]}

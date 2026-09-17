@@ -1,0 +1,58 @@
+{
+  "taxonId": 347860,
+  "name": "Teucrium pseudochamaepitys",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:47.701692+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Teucrium pseudochamaepitys",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Teucrium pseudochamaepitys é uma espécie de planta com flor pertencente à família Lamiaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 2: 562. 1753.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/4aaf4f2825dc292e192e52b6acd5779342cf9b8f3ca13e5bb29ba1f36f9f8a8d.json",
+      "sha256": "7e45ee26c31b147f6f2580cc10bccd043ce5aaf57ac2b63eb762415fa5459bf1",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62904432",
+      "revisionId": 62904432,
+      "credit": {
+        "title": "Teucrium pseudochamaepitys",
+        "url": "https://pt.wikipedia.org/wiki/Teucrium_pseudochamaepitys",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62904432",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Teucrium pseudochamaepitys L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Navarro & El Oualidi in Acta Bot. Malac. 22: 188. 1997): Herb. Linn. No. 722.6 (LINN).\n\n\" Habitat- - - - \" RCN: 4122.\n\nLectotype (Navarro & El Oualidi in Acta Bot. Malac. 22: 189. 1997): Herb. Burser XIV (1): 62 (UPS).\n\n\" Habitat in Hispania. \" RCN: 4123 b.\n\nLectotype (Navarro & El Oualidi in Acta Bot. Malac. 22: 189. 1997): [icon] \" Teucrium Delphinii folio, non ramosum \" in Shaw, Cat. Pl. Afr. As.: 46, f. 575. 1738 (see p. 159).\n\n\" Habitat in Mauritania. \" RCN: 4125.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3894066.json",
+      "sha256": "af914b2105a9bd36c5c88383076f94f2c54b8fefa6e0c21e936dce9dd2b02d72",
+      "url": "https://api.gbif.org/v1/species/3894066",
+      "credit": {
+        "title": "Teucrium pseudochamaepitys L.",
+        "url": "https://www.gbif.org/species/3894066",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Teucrium+pseudochamaepitys&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Teucrium+pseudochamaepitys&limit=100",
+      "status": 200
+    }
+  ]
+}

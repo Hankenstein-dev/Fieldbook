@@ -1,0 +1,70 @@
+{
+  "count": 6142,
+  "validatedCount": 6142,
+  "unresolvedFailureCount": 0,
+  "savedCliSuccessCount": 6029,
+  "directCompletionCount": 113,
+  "nullSummaryCount": 74,
+  "speciesWithoutMatchedSources": 1208,
+  "sourceGapReasons": {
+    "text_needs_scope_review": 416,
+    "taxonomy_only": 792
+  },
+  "generationCallCount": 1533,
+  "generationUsage": {
+    "input_tokens": 16951313,
+    "cached_input_tokens": 8433408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1419675,
+    "reasoning_output_tokens": 775533,
+    "uncached_input_tokens": 8517905
+  },
+  "missingUsageCallCount": 5,
+  "totalRecordedGenerationSeconds": 38752.715764312976,
+  "coordinatingChatUsage": null,
+  "usageScope": "Original CLI calls only; no new generation calls for this release. Direct completion is coordinating-chat work and its usage is not measured here. Cached and reasoning tokens are subsets. Missing call usage is excluded.",
+  "validation": "All records passed JSON/schema, word and sentence limits, and evidence-ID checks against their own frozen packets.",
+  "reviewScope": "113 failed records completed directly from sources. No independent botanical accuracy review of all saved CLI content.",
+  "sourceRuns": [
+    {
+      "path": "data/analysis/plant-cli-20-v1",
+      "count": 20,
+      "report": "data/analysis/plant-cli-20-v1/report.json"
+    },
+    {
+      "path": "data/analysis/plant-cli-200-v1",
+      "count": 200,
+      "report": "data/analysis/plant-cli-200-v1/report.json"
+    },
+    {
+      "path": "data/analysis/plant-cli-800-v1",
+      "count": 800,
+      "report": "data/analysis/plant-cli-800-v1/report.json"
+    },
+    {
+      "path": "data/analysis/plant-cli-batched-2000-v1",
+      "count": 2000,
+      "report": "data/analysis/plant-cli-batched-2000-v1/report.json"
+    },
+    {
+      "path": "data/analysis/plant-cli-batched-50-v1",
+      "count": 50,
+      "report": "data/analysis/plant-cli-batched-50-v1/report.json"
+    },
+    {
+      "path": "data/analysis/plant-cli-batched-remainder-v1",
+      "count": 3072,
+      "report": "data/analysis/plant-cli-batched-remainder-v1/report.json"
+    }
+  ],
+  "firstGenerationStartedAt": "2026-09-13T11:25:29.310101+00:00",
+  "lastGenerationCompletedAt": "2026-09-14T16:13:41.991729+00:00",
+  "generationElapsedWallSecondsIncludingDowntime": 103692.681628,
+  "publication": {
+    "url": "https://fieldbook.demos.boombop.io",
+    "at": "2026-09-14T16:23:41.950Z",
+    "uploaded": 16,
+    "files": 56
+  },
+  "verification": "verification.json"
+}

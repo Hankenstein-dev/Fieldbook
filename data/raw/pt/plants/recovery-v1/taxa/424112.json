@@ -1,0 +1,63 @@
+{
+  "taxonId": 424112,
+  "name": "Delosperma echinatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:03.644488+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Delosperma echinatum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Delosperma echinatum is a succulent plant, native to South Africa. It is also known as the pickle plant. The new genus Delosperma was erected by English botanist N. E. Brown in 1925, with this species later acknowledged as the type species.\n\nScottish plant-hunter Francis Masson collected this species for Kew Gardens in 1774. French naturalist Jean-Baptiste Lamarck described it as Mesembryanthemum echinatum in 1786, from material in France that most likely had come from England.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/b3b08c420c17246bf51a653f92e1179244508f104d64eb9c24cefc88e0665057.json",
+      "sha256": "7c428721690bb5fd8212441a630f727d91566c7dd1c9c99b70ea73cf458b0b3d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1335870132",
+      "revisionId": 1335870132,
+      "credit": {
+        "title": "Delosperma echinatum",
+        "url": "https://en.wikipedia.org/wiki/Delosperma_echinatum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1335870132",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Delosperma echinatum (Lam.) Schwantes",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Delosperma echinatum is a succulent plant, native to South Africa. It is also known as the pickle plant. The new genus Delosperma was erected by English botanist N. E. Brown in 1925, with this species later acknowledged as the type species. Scottish plant-hunter Francis Masson collected this species for Kew Gardens in 1774. French naturalist Jean-Baptiste Lamarck described it as Mesembryanthemum echinatum in 1786, from material in France that most likely had come from England. a flower on D. echinatum.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165547438.json",
+      "sha256": "eefb0e93f94a3d503ccaf71a9d94c5df50799fc4c2264f9a084c2009de4eaaa3",
+      "url": "https://api.gbif.org/v1/species/165547438",
+      "credit": {
+        "title": "Delosperma echinatum (Lam.) Schwantes",
+        "url": "https://www.gbif.org/species/165547438",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Delosperma echinatum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Delosperma+echinatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Delosperma+echinatum&limit=100",
+      "status": 200
+    }
+  ]
+}

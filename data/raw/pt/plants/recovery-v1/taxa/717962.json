@@ -1,0 +1,58 @@
+{
+  "taxonId": 717962,
+  "name": "Dorycnopsis gerardi",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:35.521988+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Dorycnopsis gerardi",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Dorycnopsis gerardi''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Fabales]]\n| família = [[Fabaceae]]\n| género = ''[[Dorycnopsis]]''\n| espécie = '''''D. gerardi'''''\n| binomial = ''Dorycnopsis gerardi''\n| binomial_autoridade = (L.) Boiss.\n}}\nDorycnopsis gerardi é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é (L.) Boiss., tendo sido publicada em Voy. Bot. Espagne 2: 164 (1840).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/2665582072c9948c415d86698ec891d4ec18effec1a179f1da540847ced4306a.json",
+      "sha256": "72ba2a215c83f584890f9d4e123c4192a166b3a541af71572a9b85059ad31f38",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40257079",
+      "revisionId": 40257079,
+      "credit": {
+        "title": "Dorycnopsis gerardi",
+        "url": "https://pt.wikipedia.org/wiki/Dorycnopsis_gerardi",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40257079",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Dorycnopsis gerardi (L.) Boiss.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Sokoloff in Turland & Jarvis in Taxon 46: 463. 1997): [icon] \" Anthyllis herbacea, floliis pinnatis inaequalibus, pedunculis axillaribus folio longioribus, capitulis nudis \" in Gerard, Fl. Gallo-Provincialis: 490, t. 18. 1761.\n\n\" Habitat in Galloprovinciae maritimis versus S. Tropes sub Pinubus. \" RCN: 5295.\n\nNote: Specific epithet spelled \" gerardi \" in the protologue.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3972689.json",
+      "sha256": "90436ff3042bf067a1375ea31d26ec843a13a3cdb59719709fdddeb69522d070",
+      "url": "https://api.gbif.org/v1/species/3972689",
+      "credit": {
+        "title": "Dorycnopsis gerardi (L.) Boiss.",
+        "url": "https://www.gbif.org/species/3972689",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dorycnopsis+gerardi&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dorycnopsis+gerardi&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-13T17:06:20.939877+00:00",
+  "completedAt": "2026-09-13T17:07:24.943194+00:00",
+  "elapsedSeconds": 64.00321617900045,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0101",
+  "taxonIds": [
+    338052,
+    451461,
+    132118,
+    124544,
+    771658,
+    56022,
+    1363872,
+    707316,
+    344679,
+    563537
+  ],
+  "usage": {
+    "input_tokens": 12331,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2630,
+    "reasoning_output_tokens": 1627
+  },
+  "requestTextTokens": 4922,
+  "savedOutputTokens": 997,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 338052,
+      "name": "Cytisus grandiflorus",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant whose subspecies have different documented origins: subsp. cabezudoi is endemic to the Iberian Peninsula, while subsp. grandiflorus is native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 451461,
+      "name": "Orobanche foetida",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering geophyte native to mainland Portugal. It has dark purple, glandular-hairy stems and spikes of dark reddish-purple flowers.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p5",
+            "s1:p6",
+            "s1:p8"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 132118,
+      "name": "Veronica spicata",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant with no native origin given in the supplied information. It bears long spikes of blue, pink, purple or white flowers; cultivated varieties also include red and white forms.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 124544,
+      "name": "Anthriscus sylvestris",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Herbaceous biennial or short-lived perennial native to Europe, western Asia and northwestern Africa. It has hollow, furrowed stems often flushed purple, feathery leaves and clusters of tiny white flowers.",
+        "humanEdibility": "unknown",
+        "edibilityNote": "Accounts call all above-ground parts edible, but some suspect mild toxicity; dangerous lookalikes mean wild foraging is strongly discouraged.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": [
+            "s1:p9"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 771658,
+      "name": "Erica platycodon",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Erica plant endemic to the Canary Islands and Madeira. It includes the subspecies Erica platycodon subsp. maderincola.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 56022,
+      "name": "Alchemilla mollis",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Herbaceous perennial native to Southern Europe. Its scalloped leaves hold beads of water in wet weather, while dense clusters of chartreuse-yellow flowers rise above the foliage.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1363872,
+      "name": "Alchemilla microcarpa",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": null,
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 707316,
+      "name": "Cytisus arboreus",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant whose subsp. baeticus is documented as native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 344679,
+      "name": "Iberis saxatilis",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Low, spreading perennial native to southern Europe and northwest Africa. It may be evergreen or semi-evergreen depending on winter harshness, with snowflake-like white flowers that develop pink or purple tinges as they age.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:06:20.939877+00:00",
+      "completedAt": "2026-09-13T17:07:24.943194+00:00",
+      "elapsedSeconds": 64.00321617900045,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 563537,
+      "name": "Alstroemeria ligtu",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant native to Peru, northwestern Argentina and central Chile.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

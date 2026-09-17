@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":526976,"scientificName":"Cordyline petiolaris","commonName":"Broad leaved Palm Lily","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cordyline petiolaris","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use Australian English|date=August 2024}}"},{"id":"s1:p2","text":"Cordyline petiolaris, known as the broad leaved palm lily is an evergreen Australian plant. A shrub to around 5 metres tall. Found in warm rainforest and moist eucalyptus forest. The range of natural distribution is from the Nambucca River to near Gladstone, Queensland."},{"id":"s1:p3","text":"Leaves 30 to 80 cm long, and 4 to 12 cm wide, elliptic in shape. Leaves on long unrolled leaf stalks. The species name petiolaris refers to these long stems."},{"id":"s1:p4","text":"Flowering occurs from late winter to spring, being white or lilac in colour. Fruit is a red berry, 7 to 10 mm in diameter. The fruit can persist on the plant for many months. This species propagates easily from seeds or stem cuttings."},{"id":"s1:p5","text":"Not as widely seen in cultivation as Cordyline australis, however it is also well suited to gardens with moist soils in semi shade. It is not frost tolerant. Also suited as an indoor pot plant."}]}]}

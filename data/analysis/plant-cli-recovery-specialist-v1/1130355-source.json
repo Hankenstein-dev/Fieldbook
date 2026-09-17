@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 1130355,
+    "scientificName": "Iochroma gesnerioides",
+    "commonName": "Red Bells",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Iochroma gesnerioides",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Iochroma gesnerioides är en potatisväxtart som först beskrevs av Carl Sigismund Kunth, och fick sitt nu gällande namn av John Miers. Iochroma gesnerioides ingår i släktet Iochroma och familjen potatisväxter. Utöver nominatformen finns också underarten I. g. flavum."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Potatisväxter\ngesnerioides"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Iochroma gesnerioides (Kunth) Miers — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Iochroma gesnerioides (Kunth) Miers."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Central Colombia to Central Ecuador. It is a tree and grows primarily in the wet tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/627073e49f3fe28a23af60aaedac4622ce566a5d5bec176fc77234301e8dc77d.json",
+      "sha256": "ea4dd8f7469b1b8daa9388765ee93883519d635f28348521fe5fa85882cc9d26",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=55975543",
+      "revisionId": 55975543,
+      "credit": {
+        "title": "Iochroma gesnerioides",
+        "url": "https://sv.wikipedia.org/wiki/Iochroma_gesnerioides",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=55975543",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1130355-e6352b6ebf08f17e.json",
+      "sha256": "e6352b6ebf08f17ec206b73994e195f7cadea3908764fce67bb9f2d08bb0c60d",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A815978-1",
+      "credit": {
+        "title": "Iochroma gesnerioides (Kunth) Miers — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A815978-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1130355,
+    "name": "Iochroma gesnerioides",
+    "language": "sv,en",
+    "sourceTextTokens": 145,
+    "packetTokens": 317,
+    "standaloneInputTextTokens": 769,
+    "packetSha256": "da657a9f68d74e69751dbc165562148e58c61a0914c6063ef6af67e294272c45"
+  }
+}

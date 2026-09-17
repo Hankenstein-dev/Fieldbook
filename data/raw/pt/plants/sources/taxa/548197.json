@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 548197,
+  "scientificName": "Thymus albicans",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 548197,
+    "scientificName": "Thymus albicans",
+    "commonName": "Thymus albicans",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://static.inaturalist.org/photos/38694625/medium.jpeg",
+      "attribution": "(c) mjcorreia, all rights reserved, uploaded by mjcorreia",
+      "license": "all-rights-reserved",
+      "sourceUrl": "https://www.inaturalist.org/photos/38694625"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 548197,
+      "count": 59,
+      "name": "Thymus albicans",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1120457,
+      "descendant_obs_count": 59,
+      "direct_obs_count": 59
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "fe90818e48ae67a3e124250dbeadbae8d2f550964daac43037aa27e9fdba400d"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Thymus albicans",
+      "title": "Thymus albicans",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/1c20f1250e64d7f5c5dd10cb9485b3d68f00b00a2571b56348055f46512e0653.json",
+      "url": "https://en.wikipedia.org/wiki/Thymus_albicans",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Thymus albicans",
+      "title": "Thymus albicans",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/1c20f1250e64d7f5c5dd10cb9485b3d68f00b00a2571b56348055f46512e0653.json",
+      "url": "https://pt.wikipedia.org/wiki/Thymus_albicans",
+      "revisionId": 40241237,
+      "contentSha256": "b74306c4dcefb446b3b3aa9542f7189411fa5b328161aec23ad8a6626149f9b2"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868633,
+      "canonicalName": "Thymus albicans",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868633",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868633.json",
+      "recordSha256": "1c70d1cf7f4821b517e9e09f66a90d66b50516b8a7c077b44ed397ec73173c53"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

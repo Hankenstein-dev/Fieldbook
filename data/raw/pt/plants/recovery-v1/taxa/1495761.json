@@ -1,0 +1,33 @@
+{
+  "taxonId": 1495761,
+  "name": "Cerastium fontanum",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:50.379417+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/90a967c89ffaf1d842a5dace475eb52f50e31bb66d111c49bb27aba0aa0e6f8b.json",
+      "title": "Cerastium fontanum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/90a967c89ffaf1d842a5dace475eb52f50e31bb66d111c49bb27aba0aa0e6f8b.json",
+      "title": "Cerastium fontanum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cerastium+fontanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cerastium+fontanum&limit=100",
+      "status": 200
+    }
+  ]
+}

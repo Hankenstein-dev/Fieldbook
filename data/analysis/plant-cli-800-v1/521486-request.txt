@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":521486,"scientificName":"Euphorbia horrida","commonName":"African milk barrel","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Euphorbia horrida","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Euphorbia horrida, the African milk barrel, or horrid spurge, is a species of flowering plant in the family Euphorbiaceae, native to South Africa. It is a cactus-like shrub showing remarkable similarities to the true cacti of the New World, and thus an example of convergent evolution. Growing to {{convert|1.5|m|0|abbr=on}}, it has blue-green, heavily ridged spiny stems carrying solitary green flowers in summer. In temperate regions it must be grown in heated conditions under glass, or as a houseplant on a sunny windowsill."},{"id":"s1:p2","text":" Range and habitat \nEuphorbia horrida is found in arid deserts in the southeastern cape of Africa. It is found in sandy, gravely soils that remain dry for most of the year. When it does rain, Euphorbia horrida rapidly absorbs water, expanding the ribs and swelling into a rotund, cylindrical shape. "},{"id":"s1:p3","text":" Toxicity. \nWhen damaged, Euphorbia horrida rapidly releases a white sap, like of most plants in the Euphorbia genus. The sap is toxic, and causes eye and skin irritation. Left to dry, the sap becomes a sticky, clear, and hard-to-remove resin that remains toxic."}]}]}

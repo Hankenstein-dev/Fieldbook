@@ -1,0 +1,3519 @@
+{
+  "schemaVersion": 2,
+  "rank": 187,
+  "observationCount": 1419,
+  "speciesCountRecord": {
+    "count": 1419,
+    "taxon": {
+      "id": 55775,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47181,
+        133387,
+        634911,
+        920523,
+        55776,
+        711824,
+        55775
+      ],
+      "is_active": true,
+      "name": "Erica cinerea",
+      "parent_id": 711824,
+      "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 401262195,
+        "license_code": "cc-by-sa",
+        "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+        "original_dimensions": {
+          "height": 1469,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Paulo Martins",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 5,
+      "observations_count": 15128,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Bell Heather"
+    }
+  },
+  "taxonSource": {
+    "url": "https://api.inaturalist.org/v1/taxa/76598,76363,75255,78247,1488674,82685,55775,82303,341026,59270,337788,203000,324710,55440,982856,765394,59322,55666,82641,82895,57470,82861,82662,320929,82922,153933,57635,59417,82647,1197768?all_names=true&locale=en&preferred_place_id=7122",
+    "fetchedAt": "2026-09-08T13:22:46.876254+00:00"
+  },
+  "taxon": {
+    "id": 55775,
+    "rank": "species",
+    "rank_level": 10,
+    "iconic_taxon_id": 47126,
+    "ancestor_ids": [
+      48460,
+      47126,
+      211194,
+      47125,
+      47124,
+      47181,
+      133387,
+      634911,
+      920523,
+      55776,
+      711824
+    ],
+    "is_active": true,
+    "name": "Erica cinerea",
+    "parent_id": 711824,
+    "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+    "names": [
+      {
+        "name": "Erica cinerea",
+        "locale": "sci",
+        "lexicon": "scientific-names",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Bell Heather",
+        "locale": "en",
+        "lexicon": "english",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Negrela",
+        "locale": "pt",
+        "lexicon": "portuguese",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Queiroga",
+        "locale": "pt",
+        "lexicon": "portuguese",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Urze-roxa",
+        "locale": "pt",
+        "lexicon": "portuguese",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Graue Heide",
+        "locale": "de",
+        "lexicon": "german",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Graue Glockenheide",
+        "locale": "de",
+        "lexicon": "german",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "Bruyère cendrée",
+        "locale": "fr",
+        "lexicon": "french",
+        "position": 0,
+        "is_valid": true
+      },
+      {
+        "name": "carpaza",
+        "locale": "es",
+        "lexicon": "spanish",
+        "position": 8,
+        "is_valid": true
+      },
+      {
+        "name": "purpurlyng",
+        "locale": "nb",
+        "lexicon": "norwegian",
+        "position": 9,
+        "is_valid": true
+      },
+      {
+        "name": "Rode Dophei",
+        "locale": "nl",
+        "lexicon": "dutch",
+        "position": 10,
+        "is_valid": true
+      },
+      {
+        "name": "vřesovec popelavý",
+        "locale": "cs",
+        "lexicon": "czech",
+        "position": 11,
+        "is_valid": true
+      },
+      {
+        "name": "gurbizu",
+        "locale": "und",
+        "lexicon": "asturian",
+        "position": 12,
+        "is_valid": true
+      },
+      {
+        "name": "purpurljung",
+        "locale": "sv",
+        "lexicon": "swedish",
+        "position": 13,
+        "is_valid": true
+      },
+      {
+        "name": "Fraoch cloigíneach",
+        "locale": "und",
+        "lexicon": "irish",
+        "position": 14,
+        "is_valid": true
+      },
+      {
+        "name": "Carrasco",
+        "locale": "gl",
+        "lexicon": "galician",
+        "position": 15,
+        "is_valid": true
+      },
+      {
+        "name": "Bruc roig",
+        "locale": "ca",
+        "lexicon": "catalan",
+        "position": 16,
+        "is_valid": true
+      },
+      {
+        "name": "枞枝欧石楠",
+        "locale": "zh-CN",
+        "lexicon": "chinese-simplified",
+        "position": 17,
+        "is_valid": true
+      },
+      {
+        "name": "Grålyng",
+        "locale": "da",
+        "lexicon": "danish",
+        "position": 18,
+        "is_valid": true
+      },
+      {
+        "name": "føroyskur klokkulyngur",
+        "locale": "und",
+        "lexicon": "faroese",
+        "position": 19,
+        "is_valid": true
+      },
+      {
+        "name": "Эрика сизая",
+        "locale": "ru",
+        "lexicon": "russian",
+        "position": 20,
+        "is_valid": true
+      },
+      {
+        "name": "wrzosiec popielaty",
+        "locale": "pl",
+        "lexicon": "polish",
+        "position": 21,
+        "is_valid": true
+      },
+      {
+        "name": "cotolha",
+        "locale": "und",
+        "lexicon": "asturian",
+        "position": 22,
+        "is_valid": true
+      },
+      {
+        "name": "Erica cenerina",
+        "locale": "it",
+        "lexicon": "italian",
+        "position": 23,
+        "is_valid": true
+      },
+      {
+        "name": "樅枝歐石南",
+        "locale": "zh",
+        "lexicon": "chinese-traditional",
+        "position": 24,
+        "is_valid": true
+      },
+      {
+        "name": "harmaakellokanerva",
+        "locale": "fi",
+        "lexicon": "finnish",
+        "position": 25,
+        "is_valid": true
+      },
+      {
+        "name": "Grug y mêl",
+        "locale": "und",
+        "lexicon": "welsh",
+        "position": 26,
+        "is_valid": true
+      },
+      {
+        "name": "vresovec popolavý",
+        "locale": "sk",
+        "lexicon": "slovak",
+        "position": 27,
+        "is_valid": true
+      }
+    ],
+    "extinct": false,
+    "provisional": false,
+    "default_photo": {
+      "id": 401262195,
+      "license_code": "cc-by-sa",
+      "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+      "original_dimensions": {
+        "height": 1469,
+        "width": 2048
+      },
+      "flags": [],
+      "attribution_name": "Paulo Martins",
+      "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+      "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+    },
+    "taxon_changes_count": 0,
+    "taxon_schemes_count": 5,
+    "observations_count": 15128,
+    "photos_locked": false,
+    "flag_counts": {
+      "resolved": 0,
+      "unresolved": 0
+    },
+    "current_synonymous_taxon_ids": null,
+    "taxon_photos": [
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 401262195,
+          "license_code": "cc-by-sa",
+          "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+          "original_dimensions": {
+            "height": 1469,
+            "width": 2048
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "Paulo Martins",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+          "small_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/small.jpeg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg",
+          "large_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/large.jpeg",
+          "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/original.jpeg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      },
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 376722625,
+          "license_code": "cc-by",
+          "attribution": "(c) Connor Connolly-Moyls, some rights reserved (CC BY), uploaded by Connor Connolly-Moyls",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376722625/square.jpeg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1365
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "Connor Connolly-Moyls",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376722625/square.jpeg",
+          "small_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376722625/small.jpeg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376722625/medium.jpeg",
+          "large_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376722625/large.jpeg",
+          "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376722625/original.jpeg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      },
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 146611288,
+          "license_code": null,
+          "attribution": "(c) Pedro Martins, all rights reserved, uploaded by Pedro Martins",
+          "url": "https://static.inaturalist.org/photos/146611288/square.jpeg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1536
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "Pedro Martins",
+          "square_url": "https://static.inaturalist.org/photos/146611288/square.jpeg",
+          "small_url": "https://static.inaturalist.org/photos/146611288/small.jpeg",
+          "medium_url": "https://static.inaturalist.org/photos/146611288/medium.jpeg",
+          "large_url": "https://static.inaturalist.org/photos/146611288/large.jpeg",
+          "original_url": "https://static.inaturalist.org/photos/146611288/original.jpeg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      },
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 146611277,
+          "license_code": null,
+          "attribution": "(c) Pedro Martins, all rights reserved, uploaded by Pedro Martins",
+          "url": "https://static.inaturalist.org/photos/146611277/square.jpeg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1536
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "Pedro Martins",
+          "square_url": "https://static.inaturalist.org/photos/146611277/square.jpeg",
+          "small_url": "https://static.inaturalist.org/photos/146611277/small.jpeg",
+          "medium_url": "https://static.inaturalist.org/photos/146611277/medium.jpeg",
+          "large_url": "https://static.inaturalist.org/photos/146611277/large.jpeg",
+          "original_url": "https://static.inaturalist.org/photos/146611277/original.jpeg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      },
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 11664527,
+          "license_code": "cc-by-nc",
+          "attribution": "(c) Pedro Beja, some rights reserved (CC BY-NC), uploaded by Pedro Beja",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664527/square.jpeg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1365
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "Pedro Beja",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664527/square.jpeg",
+          "small_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664527/small.jpeg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664527/medium.jpeg",
+          "large_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664527/large.jpeg",
+          "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11664527/original.jpeg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      },
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 104939382,
+          "license_code": "cc-by-nc-sa",
+          "attribution": "(c) M Ferreira, some rights reserved (CC BY-NC-SA), uploaded by M Ferreira",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104939382/square.jpg",
+          "original_dimensions": {
+            "height": 1800,
+            "width": 1800
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "M Ferreira",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104939382/square.jpg",
+          "small_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104939382/small.jpg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104939382/medium.jpg",
+          "large_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104939382/large.jpg",
+          "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104939382/original.jpg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      },
+      {
+        "taxon_id": 55775,
+        "photo": {
+          "id": 8858346,
+          "license_code": "cc-by-nc",
+          "attribution": "(c) mpstevenson, some rights reserved (CC BY-NC), uploaded by mpstevenson",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8858346/square.jpeg",
+          "original_dimensions": {
+            "height": 1365,
+            "width": 2048
+          },
+          "flags": [],
+          "native_page_url": null,
+          "native_photo_id": null,
+          "type": "LocalPhoto",
+          "attribution_name": "mpstevenson",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8858346/square.jpeg",
+          "small_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8858346/small.jpeg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8858346/medium.jpeg",
+          "large_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8858346/large.jpeg",
+          "original_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8858346/original.jpeg"
+        },
+        "taxon": {
+          "id": 55775,
+          "rank": "species",
+          "rank_level": 10,
+          "iconic_taxon_id": 47126,
+          "ancestor_ids": [
+            48460,
+            47126,
+            211194,
+            47125,
+            47124,
+            47181,
+            133387,
+            634911,
+            920523,
+            55776,
+            711824,
+            55775
+          ],
+          "is_active": true,
+          "name": "Erica cinerea",
+          "parent_id": 711824,
+          "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776/711824",
+          "names": [
+            {
+              "name": "Erica cinerea",
+              "locale": "sci",
+              "lexicon": "scientific-names",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bell Heather",
+              "locale": "en",
+              "lexicon": "english",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Negrela",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Queiroga",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Urze-roxa",
+              "locale": "pt",
+              "lexicon": "portuguese",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Heide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Graue Glockenheide",
+              "locale": "de",
+              "lexicon": "german",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "Bruyère cendrée",
+              "locale": "fr",
+              "lexicon": "french",
+              "position": 0,
+              "is_valid": true
+            },
+            {
+              "name": "carpaza",
+              "locale": "es",
+              "lexicon": "spanish",
+              "position": 8,
+              "is_valid": true
+            },
+            {
+              "name": "purpurlyng",
+              "locale": "nb",
+              "lexicon": "norwegian",
+              "position": 9,
+              "is_valid": true
+            },
+            {
+              "name": "Rode Dophei",
+              "locale": "nl",
+              "lexicon": "dutch",
+              "position": 10,
+              "is_valid": true
+            },
+            {
+              "name": "vřesovec popelavý",
+              "locale": "cs",
+              "lexicon": "czech",
+              "position": 11,
+              "is_valid": true
+            },
+            {
+              "name": "gurbizu",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 12,
+              "is_valid": true
+            },
+            {
+              "name": "purpurljung",
+              "locale": "sv",
+              "lexicon": "swedish",
+              "position": 13,
+              "is_valid": true
+            },
+            {
+              "name": "Fraoch cloigíneach",
+              "locale": "und",
+              "lexicon": "irish",
+              "position": 14,
+              "is_valid": true
+            },
+            {
+              "name": "Carrasco",
+              "locale": "gl",
+              "lexicon": "galician",
+              "position": 15,
+              "is_valid": true
+            },
+            {
+              "name": "Bruc roig",
+              "locale": "ca",
+              "lexicon": "catalan",
+              "position": 16,
+              "is_valid": true
+            },
+            {
+              "name": "枞枝欧石楠",
+              "locale": "zh-CN",
+              "lexicon": "chinese-simplified",
+              "position": 17,
+              "is_valid": true
+            },
+            {
+              "name": "Grålyng",
+              "locale": "da",
+              "lexicon": "danish",
+              "position": 18,
+              "is_valid": true
+            },
+            {
+              "name": "føroyskur klokkulyngur",
+              "locale": "und",
+              "lexicon": "faroese",
+              "position": 19,
+              "is_valid": true
+            },
+            {
+              "name": "Эрика сизая",
+              "locale": "ru",
+              "lexicon": "russian",
+              "position": 20,
+              "is_valid": true
+            },
+            {
+              "name": "wrzosiec popielaty",
+              "locale": "pl",
+              "lexicon": "polish",
+              "position": 21,
+              "is_valid": true
+            },
+            {
+              "name": "cotolha",
+              "locale": "und",
+              "lexicon": "asturian",
+              "position": 22,
+              "is_valid": true
+            },
+            {
+              "name": "Erica cenerina",
+              "locale": "it",
+              "lexicon": "italian",
+              "position": 23,
+              "is_valid": true
+            },
+            {
+              "name": "樅枝歐石南",
+              "locale": "zh",
+              "lexicon": "chinese-traditional",
+              "position": 24,
+              "is_valid": true
+            },
+            {
+              "name": "harmaakellokanerva",
+              "locale": "fi",
+              "lexicon": "finnish",
+              "position": 25,
+              "is_valid": true
+            },
+            {
+              "name": "Grug y mêl",
+              "locale": "und",
+              "lexicon": "welsh",
+              "position": 26,
+              "is_valid": true
+            },
+            {
+              "name": "vresovec popolavý",
+              "locale": "sk",
+              "lexicon": "slovak",
+              "position": 27,
+              "is_valid": true
+            }
+          ],
+          "extinct": false,
+          "provisional": false,
+          "default_photo": {
+            "id": 401262195,
+            "license_code": "cc-by-sa",
+            "attribution": "(c) Paulo Martins, some rights reserved (CC BY-SA), uploaded by Paulo Martins",
+            "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "original_dimensions": {
+              "height": 1469,
+              "width": 2048
+            },
+            "flags": [],
+            "attribution_name": "Paulo Martins",
+            "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/square.jpeg",
+            "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401262195/medium.jpeg"
+          },
+          "taxon_changes_count": 0,
+          "taxon_schemes_count": 5,
+          "observations_count": 15128,
+          "photos_locked": false,
+          "flag_counts": {
+            "resolved": 0,
+            "unresolved": 0
+          },
+          "current_synonymous_taxon_ids": null,
+          "atlas_id": null,
+          "complete_species_count": null,
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Erica_cinerea",
+          "iconic_taxon_name": "Plantae",
+          "preferred_common_name": "Negrela"
+        }
+      }
+    ],
+    "atlas_id": null,
+    "complete_species_count": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Erica cinerea",
+    "iconic_taxon_name": "Plantae",
+    "preferred_common_name": "Negrela",
+    "ancestors": [
+      {
+        "id": 47126,
+        "rank": "kingdom",
+        "rank_level": 70,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126
+        ],
+        "is_active": true,
+        "name": "Plantae",
+        "parent_id": 48460,
+        "ancestry": "48460",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 221143410,
+          "license_code": null,
+          "attribution": "(c) Rocío Ramírez Barrios, all rights reserved, uploaded by Rocío Ramírez Barrios",
+          "url": "https://static.inaturalist.org/photos/221143410/square.jpeg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1462
+          },
+          "flags": [],
+          "attribution_name": "Rocío Ramírez Barrios",
+          "square_url": "https://static.inaturalist.org/photos/221143410/square.jpeg",
+          "medium_url": "https://static.inaturalist.org/photos/221143410/medium.jpeg"
+        },
+        "taxon_changes_count": 8,
+        "taxon_schemes_count": 2,
+        "observations_count": 157191646,
+        "flag_counts": {
+          "resolved": 34,
+          "unresolved": 3
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Plant",
+        "complete_rank": "phylum",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "plantas"
+      },
+      {
+        "id": 211194,
+        "rank": "phylum",
+        "rank_level": 60,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194
+        ],
+        "is_active": true,
+        "name": "Tracheophyta",
+        "parent_id": 47126,
+        "ancestry": "48460/47126",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 301768574,
+          "license_code": "cc-by-sa",
+          "attribution": "(c) Douglas Goldman, some rights reserved (CC BY-SA), uploaded by Douglas Goldman",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301768574/square.jpg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1371
+          },
+          "flags": [],
+          "attribution_name": "Douglas Goldman",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301768574/square.jpg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301768574/medium.jpg"
+        },
+        "taxon_changes_count": 3,
+        "taxon_schemes_count": 2,
+        "observations_count": 152513628,
+        "flag_counts": {
+          "resolved": 8,
+          "unresolved": 1
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vascular_plant",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "Plantas Vasculares"
+      },
+      {
+        "id": 47125,
+        "rank": "subphylum",
+        "rank_level": 57,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125
+        ],
+        "is_active": true,
+        "name": "Angiospermae",
+        "parent_id": 211194,
+        "ancestry": "48460/47126/211194",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 6943609,
+          "license_code": "cc-by-nc",
+          "attribution": "(c) Amy, some rights reserved (CC BY-NC), uploaded by Amy",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6943609/square.jpg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 2048
+          },
+          "flags": [],
+          "attribution_name": "Amy",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6943609/square.jpg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6943609/medium.jpg"
+        },
+        "taxon_changes_count": 5,
+        "taxon_schemes_count": 2,
+        "observations_count": 144037500,
+        "flag_counts": {
+          "resolved": 15,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flowering_plant",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "angiospérmicas"
+      },
+      {
+        "id": 47124,
+        "rank": "class",
+        "rank_level": 50,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124
+        ],
+        "is_active": true,
+        "name": "Magnoliopsida",
+        "parent_id": 47125,
+        "ancestry": "48460/47126/211194/47125",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 10307058,
+          "license_code": null,
+          "attribution": "(c) KC Corcoran, all rights reserved, uploaded by KC Corcoran",
+          "url": "https://static.inaturalist.org/photos/10307058/square.jpg",
+          "original_dimensions": {
+            "height": 978,
+            "width": 978
+          },
+          "flags": [],
+          "attribution_name": "KC Corcoran",
+          "square_url": "https://static.inaturalist.org/photos/10307058/square.jpg",
+          "medium_url": "https://static.inaturalist.org/photos/10307058/medium.jpg"
+        },
+        "taxon_changes_count": 4,
+        "taxon_schemes_count": 2,
+        "observations_count": 120753220,
+        "flag_counts": {
+          "resolved": 10,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Magnoliopsida",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "dicotiledóneas"
+      },
+      {
+        "id": 47181,
+        "rank": "order",
+        "rank_level": 40,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124,
+          47181
+        ],
+        "is_active": true,
+        "name": "Ericales",
+        "parent_id": 47124,
+        "ancestry": "48460/47126/211194/47125/47124",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 121441132,
+          "license_code": "cc-by-nc",
+          "attribution": "(c) Apipa, some rights reserved (CC BY-NC), uploaded by Apipa",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121441132/square.jpeg",
+          "original_dimensions": {
+            "height": 1365,
+            "width": 2048
+          },
+          "flags": [],
+          "attribution_name": "Apipa",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121441132/square.jpeg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121441132/medium.jpeg"
+        },
+        "taxon_changes_count": 3,
+        "taxon_schemes_count": 2,
+        "observations_count": 5371071,
+        "flag_counts": {
+          "resolved": 1,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Ericales",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "Heathers, Balsams, Primroses, and Allies"
+      },
+      {
+        "id": 133387,
+        "rank": "family",
+        "rank_level": 30,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124,
+          47181,
+          133387
+        ],
+        "is_active": true,
+        "name": "Ericaceae",
+        "parent_id": 47181,
+        "ancestry": "48460/47126/211194/47125/47124/47181",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 27053770,
+          "license_code": null,
+          "attribution": "(c) Chris Whitehouse, all rights reserved, uploaded by Chris Whitehouse",
+          "url": "https://static.inaturalist.org/photos/27053770/square.jpg",
+          "original_dimensions": {
+            "height": 900,
+            "width": 1200
+          },
+          "flags": [],
+          "attribution_name": "Chris Whitehouse",
+          "square_url": "https://static.inaturalist.org/photos/27053770/square.jpg",
+          "medium_url": "https://static.inaturalist.org/photos/27053770/medium.jpg"
+        },
+        "taxon_changes_count": 0,
+        "taxon_schemes_count": 2,
+        "observations_count": 2765983,
+        "flag_counts": {
+          "resolved": 2,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Ericaceae",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "urzes, mirtilos, medronheiros e afins"
+      },
+      {
+        "id": 634911,
+        "rank": "subfamily",
+        "rank_level": 27,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124,
+          47181,
+          133387,
+          634911
+        ],
+        "is_active": true,
+        "name": "Ericoideae",
+        "parent_id": 133387,
+        "ancestry": "48460/47126/211194/47125/47124/47181/133387",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 146882114,
+          "license_code": "cc-by-nc",
+          "attribution": "(c) kaatiuut, some rights reserved (CC BY-NC)",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146882114/square.jpg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1536
+          },
+          "flags": [],
+          "attribution_name": "kaatiuut",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146882114/square.jpg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146882114/medium.jpg"
+        },
+        "taxon_changes_count": 0,
+        "taxon_schemes_count": 0,
+        "observations_count": 984537,
+        "flag_counts": {
+          "resolved": 0,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Ericoideae",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "urzes, azáleas e afins"
+      },
+      {
+        "id": 920523,
+        "rank": "tribe",
+        "rank_level": 25,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124,
+          47181,
+          133387,
+          634911,
+          920523
+        ],
+        "is_active": true,
+        "name": "Ericeae",
+        "parent_id": 634911,
+        "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 276199700,
+          "license_code": "cc-by-sa",
+          "attribution": "(c) magriet b, some rights reserved (CC BY-SA), uploaded by magriet b",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276199700/square.jpg",
+          "original_dimensions": {
+            "height": 1365,
+            "width": 2048
+          },
+          "flags": [],
+          "attribution_name": "magriet b",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276199700/square.jpg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276199700/medium.jpg"
+        },
+        "taxon_changes_count": 0,
+        "taxon_schemes_count": 0,
+        "observations_count": 303794,
+        "flag_counts": {
+          "resolved": 0,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ericeae",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "urzes"
+      },
+      {
+        "id": 55776,
+        "rank": "genus",
+        "rank_level": 20,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124,
+          47181,
+          133387,
+          634911,
+          920523,
+          55776
+        ],
+        "is_active": true,
+        "name": "Erica",
+        "parent_id": 920523,
+        "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 26813,
+          "license_code": "cc-by-nc-nd",
+          "attribution": "(c) Eric in SF, some rights reserved (CC BY-NC-ND)",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26813/square.jpg",
+          "original_dimensions": {
+            "height": 1200,
+            "width": 900
+          },
+          "flags": [],
+          "attribution_name": "Eric in SF",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26813/square.jpg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26813/medium.jpg"
+        },
+        "taxon_changes_count": 2,
+        "taxon_schemes_count": 2,
+        "observations_count": 234618,
+        "flag_counts": {
+          "resolved": 12,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Erica_(plant)",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "Heaths",
+        "establishment_means": {
+          "id": 4832971,
+          "establishment_means": "native",
+          "place": {
+            "id": 7122,
+            "name": "Portugal",
+            "display_name": "Portugal",
+            "ancestry": "97391"
+          }
+        },
+        "preferred_establishment_means": "native"
+      },
+      {
+        "id": 711824,
+        "rank": "section",
+        "rank_level": 13,
+        "iconic_taxon_id": 47126,
+        "ancestor_ids": [
+          48460,
+          47126,
+          211194,
+          47125,
+          47124,
+          47181,
+          133387,
+          634911,
+          920523,
+          55776,
+          711824
+        ],
+        "is_active": true,
+        "name": "Erica",
+        "parent_id": 55776,
+        "ancestry": "48460/47126/211194/47125/47124/47181/133387/634911/920523/55776",
+        "extinct": false,
+        "provisional": false,
+        "default_photo": {
+          "id": 178558886,
+          "license_code": "cc-by-nc-sa",
+          "attribution": "(c) M Ferreira, some rights reserved (CC BY-NC-SA), uploaded by M Ferreira",
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178558886/square.jpeg",
+          "original_dimensions": {
+            "height": 2048,
+            "width": 1536
+          },
+          "flags": [],
+          "attribution_name": "M Ferreira",
+          "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178558886/square.jpeg",
+          "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178558886/medium.jpeg"
+        },
+        "taxon_changes_count": 0,
+        "taxon_schemes_count": 0,
+        "observations_count": 76138,
+        "flag_counts": {
+          "resolved": 0,
+          "unresolved": 0
+        },
+        "current_synonymous_taxon_ids": null,
+        "atlas_id": null,
+        "complete_species_count": null,
+        "wikipedia_url": "http://en.wikipedia.org/wiki/Erica",
+        "iconic_taxon_name": "Plantae",
+        "preferred_common_name": "European Heaths",
+        "establishment_means": {
+          "id": 80858,
+          "establishment_means": "native",
+          "place": {
+            "id": 7122,
+            "name": "Portugal",
+            "display_name": "Portugal",
+            "ancestry": "97391"
+          }
+        },
+        "preferred_establishment_means": "native"
+      }
+    ],
+    "conservation_statuses": [
+      {
+        "id": 79724,
+        "taxon_id": 55775,
+        "taxon_name": "Erica cinerea",
+        "taxon_rank": "species",
+        "status": "LC",
+        "authority": "IUCN Red List",
+        "iucn": 10,
+        "url": "https://www.iucnredlist.org/species/203006/209243652",
+        "description": "",
+        "source_id": 9164,
+        "geoprivacy": null,
+        "updater_id": 3042,
+        "created_at": "2015-02-18T08:08:19+00:00",
+        "updated_at": "2026-07-25T23:35:07+00:00",
+        "updater": {
+          "id": 3042,
+          "login": "duarte",
+          "icon_url": null,
+          "orcid": null
+        },
+        "place": null
+      },
+      {
+        "id": 495154,
+        "taxon_id": 55775,
+        "taxon_name": "Erica cinerea",
+        "taxon_rank": "species",
+        "status": "Stark gefährdet",
+        "authority": "Rote Liste Zentrum",
+        "iucn": 40,
+        "url": "https://www.rote-liste-zentrum.de/de/Detailseite.html?species_uuid=b5b4cfb4-249c-4806-93d3-cd9c2028bc0a&species_organismGroup=Farn-%2520und%2520Bl%C3%BCtenpflanzen&q=Erica",
+        "description": null,
+        "source_id": null,
+        "geoprivacy": "open",
+        "updater_id": 1432726,
+        "created_at": "2025-10-13T19:33:30+00:00",
+        "updated_at": "2025-10-13T19:33:30+00:00",
+        "user": {
+          "id": 1432726,
+          "login": "jochenessig",
+          "icon_url": null,
+          "orcid": null
+        },
+        "updater": {
+          "id": 1432726,
+          "login": "jochenessig",
+          "icon_url": null,
+          "orcid": null
+        },
+        "place": {
+          "id": 7207,
+          "name": "Germany",
+          "display_name": "Germany",
+          "admin_level": 0,
+          "ancestor_place_ids": [
+            97391,
+            7207
+          ]
+        }
+      }
+    ],
+    "conservation_status": null,
+    "listed_taxa_count": 32,
+    "listed_taxa": [
+      {
+        "id": 6246654,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 6803,
+          "name": "New Zealand",
+          "display_name": "New Zealand",
+          "admin_level": 0,
+          "ancestor_place_ids": [
+            97393,
+            6803
+          ]
+        },
+        "list": {
+          "id": 7126,
+          "title": "New Zealand Check List"
+        }
+      },
+      {
+        "id": 39680507,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 10,
+          "name": "Oregon",
+          "display_name": "Oregon, US",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97394,
+            1,
+            10
+          ]
+        },
+        "list": {
+          "id": 308,
+          "title": "Oregon Check List"
+        }
+      },
+      {
+        "id": 13697370,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 11510,
+          "name": "Manawatu-Wanganui",
+          "display_name": "Manawatu-Wanganui, NZ",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            11510
+          ]
+        },
+        "list": {
+          "id": 14271,
+          "title": "Manawatu-Wanganui Check List"
+        }
+      },
+      {
+        "id": 100440192,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 8335,
+          "name": "Bay of Plenty",
+          "display_name": "Bay of Plenty, NZ",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            8335
+          ]
+        },
+        "list": {
+          "id": 8988,
+          "title": "Bay of Plenty Check List"
+        }
+      },
+      {
+        "id": 103074307,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 8479,
+          "name": "Canterbury",
+          "display_name": "Canterbury, NZ",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            8479
+          ]
+        },
+        "list": {
+          "id": 9157,
+          "title": "Canterbury Check List"
+        }
+      },
+      {
+        "id": 124565325,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 6804,
+          "name": "Waikato",
+          "display_name": "Waikato, NZ",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            6804
+          ]
+        },
+        "list": {
+          "id": 7127,
+          "title": "Waikato Check List"
+        }
+      },
+      {
+        "id": 103074308,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 40473,
+          "name": "Selwyn",
+          "display_name": "Selwyn, CA, NZ",
+          "admin_level": 20,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            8479,
+            40473
+          ]
+        },
+        "list": {
+          "id": 43236,
+          "title": "Selwyn Check List"
+        }
+      },
+      {
+        "id": 100440193,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 40463,
+          "name": "Rotorua",
+          "display_name": "Rotorua, BP, NZ",
+          "admin_level": 20,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            8335,
+            40463
+          ]
+        },
+        "list": {
+          "id": 43226,
+          "title": "Rotorua Check List"
+        }
+      },
+      {
+        "id": 13697371,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 40490,
+          "name": "Ruapehu",
+          "display_name": "Ruapehu, MW, NZ",
+          "admin_level": 20,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            11510,
+            40490
+          ]
+        },
+        "list": {
+          "id": 43253,
+          "title": "Ruapehu Check List"
+        }
+      },
+      {
+        "id": 39680508,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 981,
+          "name": "Lane",
+          "display_name": "Lane County, OR, US",
+          "admin_level": 20,
+          "ancestor_place_ids": [
+            97394,
+            1,
+            10,
+            981
+          ]
+        },
+        "list": {
+          "id": 1279,
+          "title": "Lane Check List"
+        }
+      },
+      {
+        "id": 124565326,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 40519,
+          "name": "Taupo",
+          "display_name": "Taupo, WK, NZ",
+          "admin_level": 20,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            6804,
+            40519
+          ]
+        },
+        "list": {
+          "id": 43282,
+          "title": "Taupo Check List"
+        }
+      },
+      {
+        "id": 103074309,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 50429,
+          "name": "South Island",
+          "display_name": "South Island, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            50429
+          ]
+        },
+        "list": {
+          "id": 55478,
+          "title": "South Island Check List"
+        }
+      },
+      {
+        "id": 59365413,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 152384,
+          "name": "NCLC_BYPRJ",
+          "display_name": "NCLC_BYPRJ, OR, US",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97394,
+            1,
+            10,
+            152384
+          ]
+        },
+        "list": {
+          "id": 3257098,
+          "title": "NCLC_BYPRJ Check List"
+        }
+      },
+      {
+        "id": 13697373,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 82112,
+          "name": "Manawatu-Wanganui Regional Council",
+          "display_name": "Manawatu-Wanganui Regional Council, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            82112
+          ]
+        },
+        "list": {
+          "id": 221302,
+          "title": "Manawatu-Wanganui Regional Council Check List"
+        }
+      },
+      {
+        "id": 13697374,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 89743,
+          "name": "Tongariro National Park",
+          "display_name": "Tongariro National Park, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            89743
+          ]
+        },
+        "list": {
+          "id": 232230,
+          "title": "Tongariro National Park Check List"
+        }
+      },
+      {
+        "id": 39680509,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 121909,
+          "name": "Coastal Oregon",
+          "display_name": "Coastal Oregon, US, OR",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97394,
+            1,
+            10,
+            121909
+          ]
+        },
+        "list": {
+          "id": 779903,
+          "title": "Oregon Coast Check List"
+        }
+      },
+      {
+        "id": 124565327,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 143139,
+          "name": "Waikato Regional Council",
+          "display_name": "Waikato Regional Council, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            143139
+          ]
+        },
+        "list": {
+          "id": 2478313,
+          "title": "Waikato Regional Council Check List"
+        }
+      },
+      {
+        "id": 7679859,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 50431,
+          "name": "North Island",
+          "display_name": "North Island, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            50431
+          ]
+        },
+        "list": {
+          "id": 55480,
+          "title": "North Island Check List"
+        }
+      },
+      {
+        "id": 27330987,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 131030,
+          "name": "Tongariro",
+          "display_name": "Tongariro National Park World Heritage Site, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            131030
+          ]
+        },
+        "list": {
+          "id": 1557133,
+          "title": "Tongario National Park World Heritage Site Check List"
+        }
+      },
+      {
+        "id": 103074314,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 88843,
+          "name": "Arthur's Pass National Park",
+          "display_name": "Arthur's Pass National Park, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            88843
+          ]
+        },
+        "list": {
+          "id": 232226,
+          "title": "Arthur's Pass National Park Check List"
+        }
+      },
+      {
+        "id": 103074310,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 67570,
+          "name": "Canterbury Region rough outline",
+          "display_name": "Canterbury Region rough outline, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            67570
+          ]
+        },
+        "list": {
+          "id": 144984,
+          "title": "Canterbury Region rough outline Check List"
+        }
+      },
+      {
+        "id": 103074313,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 82108,
+          "name": "Canterbury Regional Council (ECan)",
+          "display_name": "Canterbury Regional Council (ECan), NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            82108
+          ]
+        },
+        "list": {
+          "id": 221284,
+          "title": "Environment Canterbury (ECan) Check List"
+        }
+      },
+      {
+        "id": 100440194,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 82109,
+          "name": "Bay of Plenty Regional Council",
+          "display_name": "Bay of Plenty Regional Council, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            82109
+          ]
+        },
+        "list": {
+          "id": 221298,
+          "title": "Bay of Plenty Regional Council Check List"
+        }
+      },
+      {
+        "id": 13697375,
+        "taxon_id": 55775,
+        "establishment_means": "introduced",
+        "place": {
+          "id": 94916,
+          "name": "New Zealand Zone",
+          "display_name": "New Zealand Zone, NZ",
+          "admin_level": null,
+          "ancestor_place_ids": [
+            97393,
+            6803,
+            94916
+          ]
+        },
+        "list": {
+          "id": 288679,
+          "title": "New Zealand Zone Check List"
+        }
+      },
+      {
+        "id": 8766288,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 97391,
+          "name": "Europe",
+          "display_name": "Europe",
+          "admin_level": -10,
+          "ancestor_place_ids": [
+            97391
+          ]
+        },
+        "list": {
+          "id": 313166,
+          "title": "Europe Check List"
+        }
+      },
+      {
+        "id": 4835519,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 6857,
+          "name": "United Kingdom",
+          "display_name": "United Kingdom",
+          "admin_level": 0,
+          "ancestor_place_ids": [
+            97391,
+            6857
+          ]
+        },
+        "list": {
+          "id": 7190,
+          "title": "United Kingdom Check List"
+        }
+      },
+      {
+        "id": 9323015,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 6753,
+          "name": "France",
+          "display_name": "France",
+          "admin_level": 0,
+          "ancestor_place_ids": [
+            97391,
+            6753
+          ]
+        },
+        "list": {
+          "id": 7069,
+          "title": "France Check List"
+        }
+      },
+      {
+        "id": 10240493,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 7008,
+          "name": "Belgium",
+          "display_name": "Belgium",
+          "admin_level": 0,
+          "ancestor_place_ids": [
+            97391,
+            7008
+          ]
+        },
+        "list": {
+          "id": 7347,
+          "title": "Belgium Check List"
+        }
+      },
+      {
+        "id": 15475320,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 7207,
+          "name": "Germany",
+          "display_name": "Germany",
+          "admin_level": 0,
+          "ancestor_place_ids": [
+            97391,
+            7207
+          ]
+        },
+        "list": {
+          "id": 7548,
+          "title": "Germany Check List"
+        }
+      },
+      {
+        "id": 64296088,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 8074,
+          "name": "Auvergne",
+          "display_name": "Auvergne, FR",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97391,
+            6753,
+            8074
+          ]
+        },
+        "list": {
+          "id": 8572,
+          "title": "Auvergne Check List"
+        }
+      },
+      {
+        "id": 10240496,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 96793,
+          "name": "Vlaanderen",
+          "display_name": "Vlaanderen, BE",
+          "admin_level": 10,
+          "ancestor_place_ids": [
+            97391,
+            7008,
+            96793
+          ]
+        },
+        "list": {
+          "id": 312517,
+          "title": "Vlaanderen Check List"
+        }
+      },
+      {
+        "id": 88367104,
+        "taxon_id": 55775,
+        "establishment_means": "native",
+        "place": {
+          "id": 30144,
+          "name": "Cantal",
+          "display_name": "Cantal, Auvergne, FR",
+          "admin_level": 20,
+          "ancestor_place_ids": [
+            97391,
+            6753,
+            8074,
+            30144
+          ]
+        },
+        "list": {
+          "id": 32907,
+          "title": "Cantal Check List"
+        }
+      }
+    ],
+    "wikipedia_summary": "...",
+    "vision": true
+  },
+  "names": {
+    "en": [
+      "Bell Heather"
+    ],
+    "pt": [
+      "Negrela",
+      "Queiroga",
+      "Urze-roxa"
+    ]
+  },
+  "wikipedia": {
+    "status": "ok",
+    "language": "en",
+    "requestedTitle": "Erica cinerea",
+    "sourceUrl": "https://en.wikipedia.org/w/api.php?action=query&exintro=1&exlimit=20&explaintext=1&format=json&formatversion=2&inprop=url&meta=siteinfo&ppprop=disambiguation&prop=extracts%7Cinfo%7Cpageprops&redirects=1&siprop=rightsinfo&titles=Erica+cinerea%7CErica+umbellata%7CErigeron+karvinskianus%7CEriobotrya+japonica%7CErodium+moschatum%7CErophaca+baetica%7CEryngium+maritimum%7CEucalyptus+globulus%7CEuphorbia+characias%7CEuphorbia+helioscopia%7CEuphorbia+peplus%7CFicus+carica%7CFoeniculum+vulgare%7CFragaria+vesca%7CFrangula+alnus%7CFraxinus+angustifolia%7CGalactites+tomentosus%7CGalium+aparine%7CGeranium+molle%7CGeranium+purpureum",
+    "fetchedAt": "2026-09-08T13:23:01.966284+00:00",
+    "rights": {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "text": "Creative Commons Attribution-Share Alike 4.0"
+    },
+    "page": {
+      "pageid": 2180583,
+      "ns": 0,
+      "title": "Erica cinerea",
+      "extract": "Erica cinerea, the bell heather, is a species of flowering plant in the heath family Ericaceae, native to western and central Europe.",
+      "contentmodel": "wikitext",
+      "pagelanguage": "en",
+      "pagelanguagehtmlcode": "en",
+      "pagelanguagedir": "ltr",
+      "touched": "2026-09-04T01:24:45Z",
+      "lastrevid": 1371143647,
+      "length": 5718,
+      "fullurl": "https://en.wikipedia.org/wiki/Erica_cinerea",
+      "editurl": "https://en.wikipedia.org/w/index.php?title=Erica_cinerea&action=edit",
+      "canonicalurl": "https://en.wikipedia.org/wiki/Erica_cinerea"
+    }
+  },
+  "wikipediaArticle": {
+    "status": "ok",
+    "language": "en",
+    "requestedTitle": "Erica cinerea",
+    "sourceUrl": "https://en.wikipedia.org/w/api.php?action=query&exlimit=1&explaintext=1&format=json&formatversion=2&inprop=url&meta=siteinfo&ppprop=disambiguation&prop=extracts%7Cinfo%7Cpageprops&redirects=1&siprop=rightsinfo&titles=Erica+cinerea",
+    "fetchedAt": "2026-09-08T13:51:00.794089+00:00",
+    "rights": {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "text": "Creative Commons Attribution-Share Alike 4.0"
+    },
+    "page": {
+      "pageid": 2180583,
+      "ns": 0,
+      "title": "Erica cinerea",
+      "extract": "Erica cinerea, the bell heather, is a species of flowering plant in the heath family Ericaceae, native to western and central Europe.\n\n\n== Description ==\nIt is a low, spreading shrub growing to 15–60 centimetres (6–23+1⁄2 inches) tall, with fine needle-like leaves 4–8 millimetres (1⁄8–3⁄8 in) long arranged in whorls of three. The flowers are bell-shaped, purple (rarely white), 4–7 mm (1⁄8–1⁄4 in) long, produced in mid- to late summer. The flowers are dry, similar in texture to the strawflower.\n\n\n== Etymology ==\nThe Latin specific epithet cinerea means \"ash coloured\".\n\n\n== Distribution and habitat ==\nE. cinerea is native to the west of Europe, where it is most abundant in Britain and Ireland, France, northern Spain and southern Norway. It also occurs in the Faroe Islands, Belgium, Germany, north-western Italy, and the Netherlands.\nIt mostly occurs on moors and heathland with relatively dry, acidic, nutrient poor soils. It occurs in coastal dune heath and dune slack and occasionally in woodland.\n\n\n== Ecology ==\nThe plant provides a great deal of nectar for pollinators. It was rated in the top 5 for most nectar production (nectar per unit cover per year) in a UK plants survey conducted by the AgriLand project which is supported by the UK Insect Pollinators Initiative.\nIt is described as \"of least concern\" on the IUCN Red List of Threatened Species.\n\n\n== Cultivation ==\nIt is grown as an ornamental plant, cultivated in a wider range of colors. It is drought-tolerant and grows well in full sun with well-drained soil. Like most heathers, it is a calcifuge and dislikes alkaline soils (e.g. calcareous) which cause the symptoms of iron deficiency. Like other cultivated heathers, it is often seen as groundcover among plantings of dwarf conifers.\nThese cultivars have gained the Royal Horticultural Society's Award of Garden Merit: \n\n'C.D. Eason'\n'Pink Ice'\n'Stephen Davis' \n'Velvet Night'\n'Eden Valley' has lavender flowers shading to white at the base of the corolla and a prostrate habit. The original plant was found on Trink Hill, Cornwall, by Miss Gertrude Waterer.\n\n\n== Uses ==\nBell heather is a source of heather honey.\n\n\n== References ==\n\n\n== External links ==\n Media related to Erica cinerea at Wikimedia Commons\nErica cinerea on Alamy",
+      "contentmodel": "wikitext",
+      "pagelanguage": "en",
+      "pagelanguagehtmlcode": "en",
+      "pagelanguagedir": "ltr",
+      "touched": "2026-09-04T01:24:45Z",
+      "lastrevid": 1371143647,
+      "length": 5718,
+      "fullurl": "https://en.wikipedia.org/wiki/Erica_cinerea",
+      "editurl": "https://en.wikipedia.org/w/index.php?title=Erica_cinerea&action=edit",
+      "canonicalurl": "https://en.wikipedia.org/wiki/Erica_cinerea"
+    }
+  },
+  "keywordMatches": [],
+  "articleKeywordMatches": []
+}

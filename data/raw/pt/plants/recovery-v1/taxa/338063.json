@@ -1,0 +1,28 @@
+{
+  "taxonId": 338063,
+  "name": "Juncus heterophyllus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:47.425839+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/2fad3ff3f3df229fa1a6dd5f6b3f24d4eb5ec193c9d46b85ccc4f87c587aa49c.json",
+      "title": "Juncus heterophyllus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Juncus+heterophyllus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Juncus+heterophyllus&limit=100",
+      "status": 200
+    }
+  ]
+}

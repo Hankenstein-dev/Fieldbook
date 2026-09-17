@@ -1,0 +1,58 @@
+{
+  "taxonId": 1251643,
+  "name": "Aechmea coelestis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:40.233375+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Aechmea coelestis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Aechmea coelestis is a species of flowering plant in the family Bromeliaceae. It is native to southeastern Brazil from Espírito Santo to Santa Catarina.\n\nCultivars\nCultivars include:\n\n Aechmea 'Beads of Coral'\n Aechmea 'Golden Beads'\n Aechmea 'Hal Ellis'\n Aechmea 'Mauve Beads'\n Aechmea 'Mondamin'\n Aechmea 'Pink Beads'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/94f3a56ecc2dc074d6c2dc690447c0f9f8aab197847b9d083e3c3522dca3f50f.json",
+      "sha256": "1791d782d716cad043459a7103bfdef6708d82404784cb81a0633f48da627f72",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1290071233",
+      "revisionId": 1290071233,
+      "credit": {
+        "title": "Aechmea coelestis",
+        "url": "https://en.wikipedia.org/wiki/Aechmea_coelestis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1290071233",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Aechmea coelestis (K.Koch) E.Morren",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Aechmea coelestis is a species in the genus Aechmea. This is a species that is native to southeastern Brazil from Espírito Santo to Santa Catarina.Kew World Checklist of Selected Plant FamiliesSant'Ana Melhem, T., das Graças Lapa Wanderley, M., Ehlin Martins, S., Jung-Mendaçolli, S.L., Shepherd, G.J. & Kirizawa, M. (eds.) (2007). Flora Fanerogâmica do Estado de São Paulo 5: 1-476. Instituto de Botânica, São Paulo.da Costa, A.F. & Wendt, T. (2007). Bromeliaceae na região de Macaé de Cima, Nova Friburgo, Rio de Janeiro, Brasil. Rodriguésia; Revista do Instituto de Biologia Vegetal, Jardim Botânico e Estaçao Biologica do Itatiaya 58: 905-939.Martinelli, G., Magalhães Vieira, C., Gonzalez, M., Leitman, P., Piratininga, A. Ferreira da Costa, A. & Campostrini Forzza, R. (2008). Bromeliaceae da Mata Atlântica Brasileira: lista de espécies, distribuição e conservação. Rodriguésia; Revista do Instituto de Biologia Vegetal, Jardim Botânico e Estaçao Biologica do Itatiaya 59: 209-258.Wendt, T., do Santos Coser, T., Fernandes, H.B. & Martinelli, G. (2010). Bromaliaceae do município de Santa Teresa, Espírito Santo: lista de espécies, distribuição, Conservação e comentérios taxonômicos. Boletim do Museu de Biologia Mello Leitão 27: 21-53.\n\nCultivars include:BSI Cultivar Registry Retrieved 11 October 2009 Aechmea 'Beads of Coral' Aechmea 'Golden Beads' Aechmea 'Hal Ellis' Aechmea 'Mauve Beads' Aechmea 'Mondamin' Aechmea 'Pink Beads'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165610941.json",
+      "sha256": "a1ba5c535c419ba9d9d9891eb513e3b167f45b7da7989626b0db8976f190aa3f",
+      "url": "https://api.gbif.org/v1/species/165610941",
+      "credit": {
+        "title": "Aechmea coelestis (K.Koch) E.Morren",
+        "url": "https://www.gbif.org/species/165610941",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aechmea+coelestis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aechmea+coelestis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "input": {
+    "taxonId": 861809,
+    "scientificName": "Fissidens serrulatus",
+    "commonName": "Fissidens serrulatus",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Fissidens serrulatus Brid.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "RECORDS. — Bescherelle (1882), Jelenc (1955 a): Djebel Édough, fond des ravins; Stora. Jelenc (1955 a): Kabylie de Collo; Kabylie du Djurdjura, Aït Daoud; Kabylie du Djurdjura, forêt d’Akfadou. Rare."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5283227.json",
+      "sha256": "8b4bf63da20d3b8470c8139ea5572c64dd45bb6b912995468f95256647dd7512",
+      "url": "https://api.gbif.org/v1/species/5283227",
+      "credit": {
+        "title": "Fissidens serrulatus Brid.",
+        "url": "https://www.gbif.org/species/5283227",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 861809,
+    "name": "Fissidens serrulatus",
+    "language": "unspecified",
+    "sourceTextTokens": 76,
+    "packetTokens": 169,
+    "standaloneInputTextTokens": 621,
+    "packetSha256": "90925ddcb3043fd79bc4bc648db7db0d8adcfd783d19bcdb6f1c4faee26c9ef5"
+  }
+}

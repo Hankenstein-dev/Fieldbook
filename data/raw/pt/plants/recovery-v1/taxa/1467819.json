@@ -1,0 +1,38 @@
+{
+  "taxonId": 1467819,
+  "name": "Lysimachia loeflingii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:43.815140+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0db700d3ec182a329e8b134fd500ccbc35004920ab5360971ba740d8e1b46864.json",
+      "title": "Lysimachia foemina",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lysimachia loeflingii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Morrião-Azul"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lysimachia+loeflingii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lysimachia+loeflingii&limit=100",
+      "status": 200
+    }
+  ]
+}

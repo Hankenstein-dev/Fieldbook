@@ -1,0 +1,47 @@
+{
+  "taxonId": 162826,
+  "name": "Euphorbia graminea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:50.645949+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Euphorbia graminea",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Euphorbia graminea is a species of plant in the family Euphorbiaceae. It is native to Mexico, Central America, the Caribbean (Cuba, the Dominican Republic, Windward Islands, Aruba, and the Netherlands Antilles) Andean South America (Colombia, Venezuela, Ecuador, Peru, Bolivia, and northwestern Argentina), Suriname, and French Guiana.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/4972b6982a3c188ca289ccf316c4fa54495cbbc3ce27ee1d405f4a5f1cc105f2.json",
+      "sha256": "a3e24a41081c5d891f3755f5ca0857c70e9636e2172eb2445d01390f5094698b",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1373903712",
+      "revisionId": 1373903712,
+      "credit": {
+        "title": "Euphorbia graminea",
+        "url": "https://en.wikipedia.org/wiki/Euphorbia_graminea",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1373903712",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Euphorbia graminea"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Euphorbia+graminea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Euphorbia+graminea&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 484853,
+  "scientificName": "Silene mellifera",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 484853,
+    "scientificName": "Silene mellifera",
+    "commonName": "Silene mellifera",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/471035331/medium.jpg",
+      "attribution": "(c) Francisco Javier Carela Quilez, some rights reserved (CC BY-NC), uploaded by Francisco Javier Carela Quilez",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/471035331"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 484853,
+      "count": 11,
+      "name": "Silene mellifera",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1395975,
+      "descendant_obs_count": 11,
+      "direct_obs_count": 11
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "3d70b263d1c739cf122738b1e6a026561d6864e087d336f7e6432f12e3d279cb"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Silene mellifera",
+      "title": "Silene mellifera",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/5c3de7c24b72328827d2ccf1e353ea9b1045d31f29632524dbe3994efce48cb9.json",
+      "url": "https://en.wikipedia.org/wiki/Silene_mellifera",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Silene mellifera",
+      "title": "Silene mellifera",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/5c3de7c24b72328827d2ccf1e353ea9b1045d31f29632524dbe3994efce48cb9.json",
+      "url": "https://pt.wikipedia.org/wiki/Silene_mellifera",
+      "revisionId": 40256233,
+      "contentSha256": "0acbb9799d0c5b88c8ef5fdbe97c9650e1758707183fe02e3520c8a1f7e6bdae"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314869007,
+      "canonicalName": "Silene mellifera",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314869007",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314869007.json",
+      "recordSha256": "7a7e69f77ef0908886e24dfcb7eddd152d049f06a84038d94ce4988ec9a590f9"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

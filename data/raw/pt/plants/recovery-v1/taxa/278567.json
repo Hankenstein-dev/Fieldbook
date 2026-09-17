@@ -1,0 +1,28 @@
+{
+  "taxonId": 278567,
+  "name": "Palicourea padifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:55.298566+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/468265560dd8856e0b7daadedeb4d04defb1df40deaf428361864f3c5b58b2d7.json",
+      "title": "Palicourea padifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Palicourea+padifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Palicourea+padifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "input": {
+    "taxonId": 133308,
+    "scientificName": "Ixora chinensis",
+    "commonName": "Chinese Ixora",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Ixora chinensis",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Ixora chinensis, commonly known as Chinese ixora, is a species of plant of the genus Ixora. It is a shrub native to southeastern China, Indochina, and the Philippines."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Distribution \nThis species is native to Cambodia, southeastern China, Laos, Myanmar, the Philippines, Thailand and Vietnam. It has been introduced into Bangladesh, the Caroline Islands, Colombia, Peninsular Malaysia, and the Marianas."
+          },
+          {
+            "id": "s1:p3",
+            "text": " Growth form and ecology \nIxora chinensis is a shrub and grows primarily in the wet tropical biome."
+          },
+          {
+            "id": "s1:p4",
+            "text": " Synonyms \nThe Catalogue of Life recognises the following synonyms:\n{{Specieslist|\nBemsetia paniculata|[[Constantine Samuel Rafinesque|Raf.]]|\nGaertnera hongkongensis|[[Seem.]]|\nIxora blanda|[[Ker Gawl.]]|\nIxora coccinea|[[William Curtis|Curtis]], ''[[nom. illeg.]]''|\nIxora colei|[[W.Bull]]|\nIxora crocata|[[Lindl.]]|\nIxora dixiana|[[W.Bull]]|\nIxora dubia|[[Schult.]] & [[Schult.f.]]|\nIxora flammea|[[Salisb.]]|\nIxora incarnata|[[Roxb.]] ex [[Sm.]]|\nIxora kroneana|([[Miq.]]) [[Bremek.]]|\nIxora pallida|[[Reinw.]] ex [[Miq.]]|\nIxora rosea|[[John Sims (taxonomist)|Sims]], ''nom. illeg.''|\nIxora speciosa|[[Willd.]]|\nIxora stricta|[[Roxb.]]|\nIxora stricta var. mekongensis|[[Jean Baptiste Louis Pierre|Pierre]] ex [[Pit.]]|\nPavetta arborea|[[Francisco Manuel Blanco|Blanco]]|\nPavetta chinensis|([[Jean-Baptiste Lamarck|Lam.]]) [[Roem.]] & [[Schult.]]|\nPavetta kroneana|[[Miq.]]|\nPavetta stricta|([[Roxb.]]) [[Carl Ludwig Blume|Blume]]|\nSykesia hongkongensis|([[Seem.]]) [[Otto Kuntze|Kuntze]]|\nTsiangia hongkongensis|([[Seem.]]) But, H.H.Hsue & P.T.Li\n}}"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Ixora chinensis Lam.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Ixora chinensis Lam. Names. Myanmar: pon-na-yeik. English: Chinese ixora. Range. Malay Peninsula and China. In Myanmar found in Yangon. Uses. Flower: Used to treat tuberculosis and hemorrhage. Notes. In China the plant is used as an anodyne and resolvent; for abscesses, bruises, extravasated blood, rheumatism, wounds; also considered beneficial to bone marrow and the uterus of pregnant women (Duke and Ayensu 1985). Reference. Nordal (1963)."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/becb417e658204b68630a225dd1a070cbdc8f179b9fb356619201fb299f4a61f.json",
+      "sha256": "d4beaa045927ea5002d2bcffb9441ecbf79ffa2ca867377abf47b1bc530114dc",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1344340585",
+      "revisionId": 1344340585,
+      "credit": {
+        "title": "Ixora chinensis",
+        "url": "https://en.wikipedia.org/wiki/Ixora_chinensis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1344340585",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2905600.json",
+      "sha256": "96a662d7544bf2b58ec3b1514a80dfa4684fe8ebcdadc3b9ac13f33898a2b4e1",
+      "url": "https://api.gbif.org/v1/species/2905600",
+      "credit": {
+        "title": "Ixora chinensis Lam.",
+        "url": "https://www.gbif.org/species/2905600",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 133308,
+    "name": "Ixora chinensis",
+    "language": "en,unspecified",
+    "sourceTextTokens": 625,
+    "packetTokens": 803,
+    "standaloneInputTextTokens": 1255,
+    "packetSha256": "6951b88ba1ccfb732a750abbb1d7a068b53c853c304c6d530d419712ef99656a"
+  }
+}

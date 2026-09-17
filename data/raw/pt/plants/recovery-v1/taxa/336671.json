@@ -1,0 +1,53 @@
+{
+  "taxonId": 336671,
+  "name": "Myosotis ramosissima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:44.620039+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Myosotis ramosissima",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Myosotis ramosissima''\n| imagem = Myosotis ramosissima W.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Polemoniales]]\n| família = [[Boraginaceae]]\n| género = ''[[Myosotis]]''\n| espécie = '''''M. ramosissima'''''\n| binomial = ''Myosotis ramosissima''\n| binomial_autoridade = Rochel\n}}\nMyosotis ramosissima é uma espécie de planta com flor pertencente à família Boraginaceae. \n\nA autoridade científica da espécie é Rochel, tendo sido publicada em Oesterreichs Flora. Ein Taschenbuch auf botanischen Excursionen, ed. 2 1: 366. 1814.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Myosotis ramosissima subsp. globularis - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.\n Myosotis ramosissima subsp. ramosissima - presente em Portugal Continental e no Arquipélago dos Açores. Em termos de naturalidade é nativa de Portugal Continental e introduzida no Arquipélago dos Açores. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/14af7ada75a7aa46c11787132cb669430bd27ab1890322fe0570d1ba0e75933a.json",
+      "sha256": "707a152fc27d26a9207a4388a64151c0cecec9dbffc20ac1492dda30f54180de",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55071729",
+      "revisionId": 55071729,
+      "credit": {
+        "title": "Myosotis ramosissima",
+        "url": "https://pt.wikipedia.org/wiki/Myosotis_ramosissima",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55071729",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/14af7ada75a7aa46c11787132cb669430bd27ab1890322fe0570d1ba0e75933a.json",
+      "title": "Myosotis ramosissima",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Myosotis ramosissima"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Myosotis+ramosissima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Myosotis+ramosissima&limit=100",
+      "status": 200
+    }
+  ]
+}

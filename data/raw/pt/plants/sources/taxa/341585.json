@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 341585,
+  "scientificName": "Picris willkommii",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 341585,
+    "scientificName": "Picris willkommii",
+    "commonName": "Picris willkommii",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373251396/medium.jpeg",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY), uploaded by Duarte Frade",
+      "license": "cc-by",
+      "sourceUrl": "https://www.inaturalist.org/photos/373251396"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 341585,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47605,
+        47604,
+        447425,
+        359450,
+        558819,
+        53176,
+        341585
+      ],
+      "is_active": true,
+      "name": "Picris willkommii",
+      "parent_id": 53176,
+      "ancestry": "48460/47126/211194/47125/47124/47605/47604/447425/359450/558819/53176",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 373251396,
+        "license_code": "cc-by",
+        "attribution": "(c) Duarte Frade, some rights reserved (CC BY), uploaded by Duarte Frade",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373251396/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Duarte Frade",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373251396/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373251396/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 9,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "conservation_status": {
+        "id": 66294,
+        "place_id": null,
+        "source_id": null,
+        "user_id": null,
+        "authority": "IUCN Red List",
+        "status": "en",
+        "status_name": "endangered",
+        "geoprivacy": "obscured",
+        "iucn": 40
+      }
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=52&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:02.479586+00:00",
+    "retainedFrom": "data/models/http/1e35073c33727adc23460f00907b74c57d9a71092dc61e1cb1e3e7bc6e58fbb8.json",
+    "recordSha256": "2aff3c5c5d08db659f7540df5dd524d8d6c166cc3aec75d2c6c90c5fe8840805"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Picris willkommii",
+      "title": "Picris willkommii",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/685b8342db5d12d2f84336be86420e3ca2cd2cf3220f8a5d8f65bae674c9fb84.json",
+      "url": "https://en.wikipedia.org/wiki/Picris_willkommii",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Picris willkommii",
+      "title": "Picris willkommii",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/685b8342db5d12d2f84336be86420e3ca2cd2cf3220f8a5d8f65bae674c9fb84.json",
+      "url": "https://pt.wikipedia.org/wiki/Picris_willkommii",
+      "revisionId": 55134964,
+      "contentSha256": "149c8f9b146e08cd96b1cd2ad6bc460e0777d226db1a3812c1f42b8d236e46ee"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868914,
+      "canonicalName": "Picris willkommii",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868914",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868914.json",
+      "recordSha256": "5b3ca1debd7b0f5ad9046b9d6f55c364d32fab4d0ead3514873dc34b88f6805c"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

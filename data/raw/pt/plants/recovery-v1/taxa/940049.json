@@ -1,0 +1,32 @@
+{
+  "taxonId": 940049,
+  "name": "Veronica × andersonii",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:45:06.411094+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Veronica × andersonii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Anderson's Hebe"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Veronica+%C3%97+andersonii&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Veronica+%C3%97+andersonii&limit=100",
+      "status": 200
+    }
+  ]
+}

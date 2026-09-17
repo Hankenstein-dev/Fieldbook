@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":209714,"scientificName":"Caulerpa sertularioides","commonName":"Green Feather Alga","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Caulerpa sertularioides","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Caulerpa sertularioides, also known as green feather algae, is a species of seaweed in the Caulerpaceae family found in warm water environments."},{"id":"s1:p2","text":"Description"},{"id":"s1:p3","text":"The seaweed has a pale to dark-green thallus that typically grows to outward to around {{convert|0.35|to|2|m|ft|2}}. It has feather-like fronds that arise from a common stolon. Each of the fronds is upright and branched. The oppositely arranged branchlets are cylindrical to needle-shaped with upcurved tips with a blunt point at the end. Each branchlet has a length of {{convert|3|to|11|mm|in|3}} and is attached to a cylindrical axis in the middle with a diameter of {{convert|1|to|1.5|mm|in|3|abbr=on}}. Each axis connects each frond to a creeping stolon with a diameter of {{convert|2|to|2.5|mm|in|3|abbr=on}} and a length of up to {{convert|2|m|ft|0}}. Stolons are branched out to slim points and rhizoids then form from bottom surface these fork and penetrate the sandy substrate firmly anchoring the seaweed to the seafloor.\n{{clear|left}}"},{"id":"s1:p4","text":"Taxonomy"},{"id":"s1:p5","text":"The species was first formally described by the botanist and taxonomist Marshall Avery Howe in 1905 as part of the work Phycological studies - II. New Chlorophyceae, new Rhodophyceae and miscellaneous notes as published in the Bulletin of the Torrey Botanical Club. The basionym is Fucus sertularioides as described by Samuel Gottlieb Gmelin in 1768."},{"id":"s1:p6","text":"Distribution\nThe species is found widely through tropical waters. In the United States it is found from North Carolina to Florida. It is also found throughout the Caribbean around Bermuda, Bahamas, Greater and Lesser Antilles and in the Gulf of Mexico and in the southern Atlantic Ocean to Brazil (Taylor 1979). It is also found in the Pacific Ocean along the Great Barrier Reef in Australia, Papua New Guinea, Philippines and Palau. In Western Australia, it is found along the coast in the Kimberley region extending south to the Gascoyne."},{"id":"s1:p7","text":"The species is usually part of coastal and estuarine environments where it grows in sandy areas, as seagrass beds or on and around mangrove roots. It is mostly found as a shallow-water specimen to depths of around {{convert|10|m|ft|0}} although sparse individuals have been taken from depths of up to {{convert|110|m|ft|0}}."}]}]}

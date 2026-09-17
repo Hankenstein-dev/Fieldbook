@@ -1,0 +1,33 @@
+{
+  "taxonId": 1465228,
+  "name": "Thesium humifusum",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:42.237889+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c56811c7c69d500091e335865949c1f0eb170b18b1e92412dd0d5c9e6fa6c48a.json",
+      "title": "Thesium humifusum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/c56811c7c69d500091e335865949c1f0eb170b18b1e92412dd0d5c9e6fa6c48a.json",
+      "title": "Thesium humifusum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thesium+humifusum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thesium+humifusum&limit=100",
+      "status": 200
+    }
+  ]
+}

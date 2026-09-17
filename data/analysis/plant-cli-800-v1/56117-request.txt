@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":56117,"scientificName":"Grimmia pulvinata","commonName":"Grey-cushioned Grimmia","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Grimmia pulvinata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Grimmia pulvinata, otherwise known as grey-cushioned grimmia or pulvinate dry rock moss, is a bryophyte moss common in temperate climates worldwide."},{"id":"s1:p2","text":" Characteristics "},{"id":"s1:p3","text":"Grimmia pulvinata grows in a small, cushion-like shape, around {{cvt|1–2|cm}} tall. Its color ranges from a grey-green to an orange-yellow. Its leaves are lanceolate, being broad and oval-shaped at the base and very narrow toward the tip. They may show a silvery hue near the tip in some specimens. Its capsules are oval-shaped, and bend back into the leaves when the plant is dry, and stand out when it is moist."},{"id":"s1:p4","text":" Habitat "},{"id":"s1:p5","text":"Grimmia pulvinata colonizes a variety of surfaces including rocks, concrete, and tree trunks. It is tolerant of a wide range of pH levels on surfaces, allowing it to live on many types of rock."},{"id":"s1:p6","text":"However, it prefers surfaces such as old mortar and tree trunks."},{"id":"s1:p7","text":" Distribution "},{"id":"s1:p8","text":"Grimmia pulvinata is the most common species in the genus Grimmia, with a nearly worldwide distribution. It is particularly common in Britain and the west coast of North America. It lives primarily in temperate regions, from sea level to elevations up to {{cvt|9800|ft}}."},{"id":"s1:p9","text":" Ecological role "},{"id":"s1:p10","text":"Grimmia pulvinata is a pioneer species, meaning it is among the first organisms to colonize habitat which has been disturbed by an event, such as a forest fire. Its resistance to pollution allows it to colonize urban areas, such as roofs, walls, and tarmac."}]}]}

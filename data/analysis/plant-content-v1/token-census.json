@@ -1,0 +1,213 @@
+{
+  "encoding": "o200k_base",
+  "versions": {
+    "tiktoken": "0.14.0",
+    "mwparserfromhell": "0.7.2"
+  },
+  "scriptSha256": "9178d1bb5a42d978f64627fdc6490bd1b21a4af066fdc3408ff6348f906d0980",
+  "sourceManifestSha256": "cd7c4b1f3f0d603d4e3796612b954eb2f4a190f05bf58040f3b31febb9ea388c",
+  "promptTokens": 790,
+  "promptSha256": "d13112c1beab2cd5e212d6dc77b65dd50e91c16a84a36d4b810d229e2a8de328",
+  "cohorts": {
+    "all_catalogue_entries": {
+      "allRawSourceTokens": {
+        "count": 8523,
+        "total": 25361772,
+        "mean": 2975.7,
+        "median": 1721,
+        "p90": 6784,
+        "p95": 10304,
+        "max": 52787
+      },
+      "selectedRawSourceTokens": {
+        "count": 8523,
+        "total": 18497353,
+        "mean": 2170.3,
+        "median": 1276,
+        "p90": 4825,
+        "p95": 7296,
+        "max": 52787
+      },
+      "selectedCleanSourceTokens": {
+        "count": 8523,
+        "total": 6256051,
+        "mean": 734.0,
+        "median": 373,
+        "p90": 1748,
+        "p95": 2695,
+        "max": 16708
+      },
+      "evidencePacketTokens": {
+        "count": 8523,
+        "total": 7678514,
+        "mean": 900.9,
+        "median": 512,
+        "p90": 2013,
+        "p95": 3088,
+        "max": 18103
+      },
+      "draftRequestTextTokens": {
+        "count": 8523,
+        "total": 14411684,
+        "mean": 1690.9,
+        "median": 1302,
+        "p90": 2803,
+        "p95": 3878,
+        "max": 18893
+      }
+    },
+    "species_with_text": {
+      "allRawSourceTokens": {
+        "count": 6558,
+        "total": 20396841,
+        "mean": 3110.2,
+        "median": 1900.0,
+        "p90": 6544,
+        "p95": 9954,
+        "max": 50917
+      },
+      "selectedRawSourceTokens": {
+        "count": 6558,
+        "total": 14784369,
+        "mean": 2254.4,
+        "median": 1342.0,
+        "p90": 4631,
+        "p95": 6980,
+        "max": 34295
+      },
+      "selectedCleanSourceTokens": {
+        "count": 6558,
+        "total": 4764165,
+        "mean": 726.5,
+        "median": 414.5,
+        "p90": 1629,
+        "p95": 2434,
+        "max": 14976
+      },
+      "evidencePacketTokens": {
+        "count": 6558,
+        "total": 5924276,
+        "mean": 903.4,
+        "median": 561.5,
+        "p90": 1892,
+        "p95": 2792,
+        "max": 16746
+      },
+      "draftRequestTextTokens": {
+        "count": 6558,
+        "total": 11105096,
+        "mean": 1693.4,
+        "median": 1351.5,
+        "p90": 2682,
+        "p95": 3582,
+        "max": 17536
+      }
+    },
+    "species_name_matched": {
+      "allRawSourceTokens": {
+        "count": 6142,
+        "total": 18028188,
+        "mean": 2935.2,
+        "median": 1886.0,
+        "p90": 6129,
+        "p95": 8806,
+        "max": 50917
+      },
+      "selectedRawSourceTokens": {
+        "count": 6142,
+        "total": 12917818,
+        "mean": 2103.2,
+        "median": 1328.0,
+        "p90": 4397,
+        "p95": 6271,
+        "max": 26669
+      },
+      "selectedCleanSourceTokens": {
+        "count": 6142,
+        "total": 4139044,
+        "mean": 673.9,
+        "median": 398.0,
+        "p90": 1505,
+        "p95": 2196,
+        "max": 9164
+      },
+      "evidencePacketTokens": {
+        "count": 6142,
+        "total": 5188836,
+        "mean": 844.8,
+        "median": 541.0,
+        "p90": 1758,
+        "p95": 2541,
+        "max": 10159
+      },
+      "draftRequestTextTokens": {
+        "count": 6142,
+        "total": 10041016,
+        "mean": 1634.8,
+        "median": 1331.0,
+        "p90": 2548,
+        "p95": 3331,
+        "max": 10949
+      }
+    },
+    "all_ranks_with_text": {
+      "allRawSourceTokens": {
+        "count": 7540,
+        "total": 25361772,
+        "mean": 3363.6,
+        "median": 1992.0,
+        "p90": 7283,
+        "p95": 10990,
+        "max": 52787
+      },
+      "selectedRawSourceTokens": {
+        "count": 7540,
+        "total": 18497353,
+        "mean": 2453.2,
+        "median": 1398.0,
+        "p90": 5227,
+        "p95": 7849,
+        "max": 52787
+      },
+      "selectedCleanSourceTokens": {
+        "count": 7540,
+        "total": 6256051,
+        "mean": 829.7,
+        "median": 453.5,
+        "p90": 1879,
+        "p95": 2899,
+        "max": 16708
+      },
+      "evidencePacketTokens": {
+        "count": 7540,
+        "total": 7635674,
+        "mean": 1012.7,
+        "median": 601.0,
+        "p90": 2157,
+        "p95": 3283,
+        "max": 18103
+      },
+      "draftRequestTextTokens": {
+        "count": 7540,
+        "total": 13592274,
+        "mean": 1802.7,
+        "median": 1391.0,
+        "p90": 2947,
+        "p95": 4073,
+        "max": 18893
+      }
+    }
+  },
+  "uniqueRetainedSources": {
+    "rawTokens": 24677561,
+    "cleanTokens": 8706509,
+    "count": 11364
+  },
+  "notes": [
+    "Counts are exact for o200k_base strings, not a provider-neutral billing count.",
+    "Draft request counts include prompt and compact evidence JSON; exclude API message framing, any future formal JSON schema, retries, outputs and reasoning.",
+    "Source selection is a cost baseline: one preferred-language name-matched Wikipedia article, or a flagged review candidate, plus retained botanical descriptions. No content truncation.",
+    "Clean derivatives remove recognized backmatter sections, reference tags, file/category links and common metadata templates. Unknown templates and inline warning templates remain raw, including some multilingual infoboxes and media templates. Facts in removed infoboxes/captions are excluded from this prose baseline; originals remain available.",
+    "Source presence/name match is not claim verification. Gaps and scope-review cases must not be sent blindly to automatic publishing."
+  ]
+}

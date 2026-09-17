@@ -1,0 +1,43 @@
+{
+  "taxonId": 1520309,
+  "name": "Quercus robur",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:01.671483+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/409741c5b3e490e5f4ebc359582548d1e8acdb9dc6dd99a77fc7d54e89b34cf9.json",
+      "title": "Quercus robur",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/4b972ecf3ec88f78173c0cdb6d85d23b763808251813ff7c0eff5d62d84b11ca.json",
+      "title": "Carvalho-roble",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Quercus robur"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pedunculate Oak Complex"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quercus+robur&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quercus+robur&limit=100",
+      "status": 200
+    }
+  ]
+}

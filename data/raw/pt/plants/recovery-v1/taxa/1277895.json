@@ -1,0 +1,43 @@
+{
+  "taxonId": 1277895,
+  "name": "Scandosorbus intermedia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:48.060509+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/89351b6a3bc107b5c818cee6ddd180cdb0b548b29dcbea00da896f769611815e.json",
+      "title": "Hedlundia intermedia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/69281146e45b69b93dd53567089192bb8459f28f94fd76c838f0175997a6dc4f.json",
+      "title": "Hedlundia intermedia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Scandosorbus intermedia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Swedish Whitebeam"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Scandosorbus+intermedia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Scandosorbus+intermedia&limit=100",
+      "status": 200
+    }
+  ]
+}

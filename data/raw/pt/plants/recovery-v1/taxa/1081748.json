@@ -1,0 +1,33 @@
+{
+  "taxonId": 1081748,
+  "name": "Sanguisorba",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:45:48.751640+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b34ec4fcb5cdbc9efc2c8ee169c145dd9589893a2f11e30a1a1cf768ad4db7e8.json",
+      "title": "Sanguisorba",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/b34ec4fcb5cdbc9efc2c8ee169c145dd9589893a2f11e30a1a1cf768ad4db7e8.json",
+      "title": "Sanguisorba",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sanguisorba&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sanguisorba&limit=100",
+      "status": 200
+    }
+  ]
+}

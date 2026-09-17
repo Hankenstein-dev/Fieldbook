@@ -1,0 +1,88 @@
+{
+  "input": {
+    "taxonId": 747501,
+    "scientificName": "Bonnemaisonia asparagoides",
+    "commonName": "Bonnemaisonia asparagoides",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Bonnemaisonia asparagoides",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Bonnemaisonia asparagoides is a species of red alga in the family Bonnemaisoniaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Bonnemaisonia asparagoides - Marine Life Encyclopedia",
+        "language": "en",
+        "scope": "Regional account; local occurrence is not native origin",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Bonnemaisonia asparagoides — Regional account; local occurrence is not native origin."
+          },
+          {
+            "id": "s2:p2",
+            "text": "Description: The gametangial thallus is somewhat flattened and much branched to 30 cms in length, opposite lateral branches alternately unequal in length. The tetrasporangial phase is a prostrate crust."
+          },
+          {
+            "id": "s2:p3",
+            "text": "Habitat: Both the gametangial and tetrasporangial phases are low littoral or sublittoral to 15 m."
+          },
+          {
+            "id": "s2:p4",
+            "text": "Distribution: Generally found around the British Isles: England, except the eastern coast, Ireland, Wales and Scotland including the Shetlands, the Isle of Man and the Channel Isles. Europe: Mediterranean, Portugal to Norway. Further afield: Morocco."
+          },
+          {
+            "id": "s2:p5",
+            "text": "Distribution Map: NBN map : National Biodiversity Network mapping facility, data for UK."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/0d41c9c585c4ea65d2407df24b058b8f57df6ecf682e000c895ac033de082787.json",
+      "sha256": "53bcde0336a42c78ab9a1dfe06e4ad1edf3f37021a818b45777b51019efd6c99",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1355382036",
+      "revisionId": 1355382036,
+      "credit": {
+        "title": "Bonnemaisonia asparagoides",
+        "url": "https://en.wikipedia.org/wiki/Bonnemaisonia_asparagoides",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1355382036",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in returned specialist species-account title; descriptive sections only",
+      "path": "data/raw/pt/plants/recovery-v1/botanical-web-originals/747501-ebdcfd3a184f3e3c.json",
+      "sha256": "ebdcfd3a184f3e3c34f5dad519ec0eb714a7eb4ef52cdd84ff74848f09bcfbc0",
+      "url": "https://www.habitas.org.uk/marinelife/species.asp?item=ZM2080",
+      "credit": {
+        "title": "Bonnemaisonia asparagoides - Marine Life Encyclopedia",
+        "url": "https://www.habitas.org.uk/marinelife/species.asp?item=ZM2080",
+        "attribution": "National Museums Northern Ireland, Habitas"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 747501,
+    "name": "Bonnemaisonia asparagoides",
+    "language": "en,en",
+    "sourceTextTokens": 189,
+    "packetTokens": 376,
+    "standaloneInputTextTokens": 828,
+    "packetSha256": "fb8d75dd0f73db195601211a06c4d0ced0b85d376f659fd0b0cb6dd7820e5fd2"
+  }
+}

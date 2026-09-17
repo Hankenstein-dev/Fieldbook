@@ -1,0 +1,21 @@
+{
+  "attemptedCount": 3000,
+  "validatedCount": 2907,
+  "failedCount": 93,
+  "usage": {
+    "input_tokens": 11771982,
+    "cached_input_tokens": 6850560,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 682550,
+    "reasoning_output_tokens": 371170,
+    "uncached_input_tokens": 4921422
+  },
+  "missingUsageCalls": 3,
+  "totalGenerationSeconds": 19868.89640777797,
+  "runs": [
+    "data/analysis/plant-cli-200-v1",
+    "data/analysis/plant-cli-800-v1",
+    "data/analysis/plant-cli-batched-2000-v1"
+  ],
+  "scope": "Main runs only. Separate 20-plant and 50-plant tests and coordinating-chat usage excluded. Cached/reasoning counts are subsets; no usage reported for three failed CLI calls."
+}

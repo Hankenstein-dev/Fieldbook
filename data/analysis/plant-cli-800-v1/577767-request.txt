@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":577767,"scientificName":"Euphorbia caerulescens","commonName":"Green Noors","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Euphorbia caerulescens","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón\n| name = ''Euphorbia caerulescens''\n| image = Gardenology.org-IMG 0365 hunt07mar.jpg\n| image_width = 250 px\n| status = \n| regnum = [[Plantae]]\n| subregnum = [[Tracheobionta]]\n| divisio = [[Magnoliophyta]]\n| classis = [[Magnoliopsida]]\n| subclassis = [[Rosidae]]\n| ordo = [[Malpighiales]]\n| familia = [[Euphorbiaceae]]\n| subfamilia = [[Euphorbioideae]]\n| tribus = [[Euphorbieae]]\n| subtribus = [[Euphorbiinae]]\n| genus = ''[[Euphorbia]]''\n| species = E. caerulescens\n| binomial = ''Euphorbia caerulescens''\n| binomial_authority = [[Haw.]]\n| synonyms = }}\nEuphorbia caerulescens es una especie fanerógama perteneciente a la familia de las euforbiáceas. Es endémica del sur de Sudáfrica en la Provincia del Cabo."},{"id":"s1:p2","text":"Descripción\nEs una planta suculenta perennifolia, arbustiva y espinosa que alcanza un tamaño de 0.5 - 1.7 m de altura. A una altitud de 425 - 1300 metros."},{"id":"s1:p3","text":" Taxonomía \nEuphorbia caerulescens fue descrita por Adrian Hardy Haworth y publicado en Philosophical Magazine and Journal 68: 276. 1826."},{"id":"s1:p4","text":"Etimología\nEuphorbia: nombre genérico que deriva del médico griego del rey Juba II de Mauritania (52 a 50 a. C. - 23), Euphorbus, en su honor – o en alusión a su gran vientre – ya que usaba médicamente Euphorbia resinifera. En 1753 Carlos Linneo asignó el nombre a todo el género."},{"id":"s1:p5","text":"caerulescens: epíteto latino que significa \"azulado\"."}]}]}

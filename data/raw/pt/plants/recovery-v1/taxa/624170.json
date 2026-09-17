@@ -1,0 +1,28 @@
+{
+  "taxonId": 624170,
+  "name": "Macadamieae",
+  "rank": "tribe",
+  "completedAt": "2026-09-15T07:43:31.924396+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/24bacfd9f0173b4b510d78270c8acdbda702430557ffd3b36cbeed6870522133.json",
+      "title": "Grevilleoideae",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Macadamieae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Macadamieae&limit=100",
+      "status": 200
+    }
+  ]
+}

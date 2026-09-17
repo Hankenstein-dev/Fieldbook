@@ -1,0 +1,38 @@
+{
+  "taxonId": 1501877,
+  "name": "Dryopteris affinis",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:54.112847+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5f21eb9c89d8e8b88d2db4f87cba8239bf012e9337f6be80562d3bc68a1b8076.json",
+      "title": "Dryopteris affinis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dryopteris affinis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Scaly male fern"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dryopteris+affinis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dryopteris+affinis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "taxonId": 1452733,
+  "name": "Metrosideros excelsa × kermadecensis",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:38.864057+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Metrosideros excelsa × kermadecensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hybrid pōhutukawa"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Metrosideros+excelsa+%C3%97+kermadecensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Metrosideros+excelsa+%C3%97+kermadecensis&limit=100",
+      "status": 200
+    }
+  ]
+}

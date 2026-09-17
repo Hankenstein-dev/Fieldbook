@@ -1,0 +1,38 @@
+{
+  "taxonId": 1498672,
+  "name": "Tortella tortuosa",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:52.570926+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/b38e9548a6d30c4c4c784503dfb4f49ca91089e61439acb9958b3cae2c71dee3.json",
+      "title": "Tortella tortuosa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tortella tortuosa"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Twisted Mosses"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tortella+tortuosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tortella+tortuosa&limit=100",
+      "status": 200
+    }
+  ]
+}

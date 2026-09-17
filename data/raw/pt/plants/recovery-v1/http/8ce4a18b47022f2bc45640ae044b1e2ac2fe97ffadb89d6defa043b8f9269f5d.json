@@ -1,0 +1,2517 @@
+{
+  "url": "https://api.gbif.org/v1/dataset/39f36f10-559b-427f-8c86-2d28afff68ca",
+  "fetchedAt": "2026-09-15T07:52:23.163195+00:00",
+  "status": 200,
+  "sha256": "50e8a6604030ed9d7c7e88765856dcef6f3cf04d7a0ee8bcc67173ebebf8460e",
+  "data": {
+    "key": "39f36f10-559b-427f-8c86-2d28afff68ca",
+    "installationKey": "9f25fd85-85dc-4dcd-a1b4-b31165442e2b",
+    "publishingOrganizationKey": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+    "doi": "10.15468/ybwd3x",
+    "version": "1.7",
+    "external": false,
+    "numConstituents": 0,
+    "type": "CHECKLIST",
+    "subtype": "INVENTORY_THEMATIC",
+    "title": "DAISIE - Inventory of alien invasive species in Europe",
+    "description": "<p>The DAISIE - inventory of alien invasive species in Europe is a species checklist dataset published by the Research Institute for Nature and Forest (INBO) and the Centre for Ecology and Hydrology (CEH). It contains information on 12,104 taxa (mostly species and mostly introduced) occurring in the wild in Europe since 1500. It covers a broad taxonomic spectrum of terrestrial and aquatic free living and parasitic organisms. The collation of the alien species list is the result of the efforts of the DAISIE (http://www.europe-aliens.org/) project partners and more than 300 collaborators from Europe and neighbouring countries, involved in different fields of expertise and organisations. Here the DAISIE checklist is published as a standardized Darwin Core Archive and includes for each species: the scientific name, higher classification, and stable taxon identifier (in the taxon core), the vernacular names (in the vernacular names extension), the presence in a specific region, the year of the first introduction (first collection) and/or last assessment/observation in that region, as well as extra information (in the distribution extension), and the habitat, native range, and ecofunctional group (in the description extension). The DAISIE dataset is no longer maintained, but can be used as a historical archive for researching and managing alien plants or compiling regional and national registries of alien species. Issues with the dataset can be reported at https://github.com/trias-project/daisie-checklist</p>\n<p>We have released this dataset under a Creative Commons Attribution license (CC-BY 4.0). We would appreciate it if you follow the GBIF citation guidelines (https://www.gbif.org/citation-guidelines) when using the data. If you have any questions regarding this dataset, don’t hesitate to contact us via the contact information provided in the metadata or via https://twitter.com/trias_project.</p>\n<p>The publication of the checklist to GBIF was supported by the European Cooperation in Science and Technology (COST) action Alien CSI “CA17122 - Increasing understanding of alien species through citizen science” as a Short Term Scientific Mission “Publishing alien species checklist data for Europe through repeatable, open workflows”,  with technical support provided by the Research Institute for Nature and Forest (INBO).</p>",
+    "language": "eng",
+    "homepage": "http://www.europe-aliens.org",
+    "logoUrl": "https://alien-csi.eu/sites/default/files/AlienCSI_Logo_Parakeet_Positive_RGB_100pxHigh.png",
+    "citation": {
+      "text": "Roy D, Alderman D, Anastasiu P, Arianoutsou M, Augustin S, Bacher S, Başnou C, Beisel J, Bertolino S, Bonesi L, Bretagnolle F, Chapuis J L, Chauvel B, Chiron F, Clergeau P, Cooper J, Cunha T, Delipetrou P, Desprez-Loustau M, Détaint M, Devin S, Didžiulis V, Essl F, Galil B S, Genovesi P, Gherardi F, Gollasch S, Hejda M, Hulme P E, Josefsson M, Kark S, Kauhala K, Kenis M, Klotz S, Kobelt M, Kühn I, Lambdon P W, Larsson T, Lopez-Vaamonde C, Lorvelec O, Marchante H, Minchin D, Nentwig W, Occhipinti-Ambrogi A, Olenin S, Olenina I, Ovcharenko I, Panov V E, Pascal M, Pergl J, Perglová I, Pino J, Pyšek P, Rabitsch W, Rasplus J, Rathod B, Roques A, Roy H, Sauvard D, Scalera R, Shiganova T A, Shirley S, Shwartz A, Solarz W, Vilà M, Winter M, Yésou P, Zaiko A, Adriaens T, Desmet P, Reyserhove L (2020). DAISIE - Inventory of alien invasive species in Europe. Version 1.7. Research Institute for Nature and Forest (INBO). Checklist dataset https://doi.org/10.15468/ybwd3x accessed via GBIF.org on 2026-09-15.",
+      "citationProvidedBySource": false
+    },
+    "contactsCitation": [
+      {
+        "key": 2119722,
+        "abbreviatedName": "Roy D",
+        "firstName": "David",
+        "lastName": "Roy",
+        "roles": [
+          "METADATA_AUTHOR",
+          "ORIGINATOR"
+        ],
+        "userId": [
+          "http://orcid.org/0000-0002-5147-0331"
+        ]
+      },
+      {
+        "key": 2119723,
+        "abbreviatedName": "Alderman D",
+        "firstName": "David",
+        "lastName": "Alderman",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119724,
+        "abbreviatedName": "Anastasiu P",
+        "firstName": "Pauline",
+        "lastName": "Anastasiu",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119725,
+        "abbreviatedName": "Arianoutsou M",
+        "firstName": "Margarita",
+        "lastName": "Arianoutsou",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119726,
+        "abbreviatedName": "Augustin S",
+        "firstName": "Sylvie",
+        "lastName": "Augustin",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119727,
+        "abbreviatedName": "Bacher S",
+        "firstName": "Sven",
+        "lastName": "Bacher",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119728,
+        "abbreviatedName": "Başnou C",
+        "firstName": "Corina",
+        "lastName": "Başnou",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119729,
+        "abbreviatedName": "Beisel J",
+        "firstName": "Jean-Nicolas",
+        "lastName": "Beisel",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119730,
+        "abbreviatedName": "Bertolino S",
+        "firstName": "Sandro",
+        "lastName": "Bertolino",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119731,
+        "abbreviatedName": "Bonesi L",
+        "firstName": "Laura",
+        "lastName": "Bonesi",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119732,
+        "abbreviatedName": "Bretagnolle F",
+        "firstName": "François",
+        "lastName": "Bretagnolle",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119733,
+        "abbreviatedName": "Chapuis J L",
+        "firstName": "Jean Louis",
+        "lastName": "Chapuis",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119734,
+        "abbreviatedName": "Chauvel B",
+        "firstName": "Bruno",
+        "lastName": "Chauvel",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119735,
+        "abbreviatedName": "Chiron F",
+        "firstName": "François",
+        "lastName": "Chiron",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119736,
+        "abbreviatedName": "Clergeau P",
+        "firstName": "Philippe",
+        "lastName": "Clergeau",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119737,
+        "abbreviatedName": "Cooper J",
+        "firstName": "Jonathan",
+        "lastName": "Cooper",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119738,
+        "abbreviatedName": "Cunha T",
+        "firstName": "Teresa",
+        "lastName": "Cunha",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119739,
+        "abbreviatedName": "Delipetrou P",
+        "firstName": "Pinelopi",
+        "lastName": "Delipetrou",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119740,
+        "abbreviatedName": "Desprez-Loustau M",
+        "firstName": "Marie-Laure",
+        "lastName": "Desprez-Loustau",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119741,
+        "abbreviatedName": "Détaint M",
+        "firstName": "Mathieu",
+        "lastName": "Détaint",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119742,
+        "abbreviatedName": "Devin S",
+        "firstName": "Simon",
+        "lastName": "Devin",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119743,
+        "abbreviatedName": "Didžiulis V",
+        "firstName": "Viktoras",
+        "lastName": "Didžiulis",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119744,
+        "abbreviatedName": "Essl F",
+        "firstName": "Franz",
+        "lastName": "Essl",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119745,
+        "abbreviatedName": "Galil B S",
+        "firstName": "Bella S.",
+        "lastName": "Galil",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119746,
+        "abbreviatedName": "Genovesi P",
+        "firstName": "Piero",
+        "lastName": "Genovesi",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119747,
+        "abbreviatedName": "Gherardi F",
+        "firstName": "Francesca",
+        "lastName": "Gherardi",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119748,
+        "abbreviatedName": "Gollasch S",
+        "firstName": "Stephan",
+        "lastName": "Gollasch",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119749,
+        "abbreviatedName": "Hejda M",
+        "firstName": "Martin",
+        "lastName": "Hejda",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119750,
+        "abbreviatedName": "Hulme P E",
+        "firstName": "Philip E.",
+        "lastName": "Hulme",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119751,
+        "abbreviatedName": "Josefsson M",
+        "firstName": "Melanie",
+        "lastName": "Josefsson",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119752,
+        "abbreviatedName": "Kark S",
+        "firstName": "Salit",
+        "lastName": "Kark",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119753,
+        "abbreviatedName": "Kauhala K",
+        "firstName": "Kaarina",
+        "lastName": "Kauhala",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119754,
+        "abbreviatedName": "Kenis M",
+        "firstName": "Marc",
+        "lastName": "Kenis",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119755,
+        "abbreviatedName": "Klotz S",
+        "firstName": "Stefan",
+        "lastName": "Klotz",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119756,
+        "abbreviatedName": "Kobelt M",
+        "firstName": "Manuel",
+        "lastName": "Kobelt",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119757,
+        "abbreviatedName": "Kühn I",
+        "firstName": "Ingolf",
+        "lastName": "Kühn",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119758,
+        "abbreviatedName": "Lambdon P W",
+        "firstName": "Philip W.",
+        "lastName": "Lambdon",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119759,
+        "abbreviatedName": "Larsson T",
+        "firstName": "Tor-Björn",
+        "lastName": "Larsson",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119760,
+        "abbreviatedName": "Lopez-Vaamonde C",
+        "firstName": "Carlos",
+        "lastName": "Lopez-Vaamonde",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119761,
+        "abbreviatedName": "Lorvelec O",
+        "firstName": "Olivier",
+        "lastName": "Lorvelec",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119762,
+        "abbreviatedName": "Marchante H",
+        "firstName": "Hélia",
+        "lastName": "Marchante",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119763,
+        "abbreviatedName": "Minchin D",
+        "firstName": "Dan",
+        "lastName": "Minchin",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119764,
+        "abbreviatedName": "Nentwig W",
+        "firstName": "Wolfgang",
+        "lastName": "Nentwig",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119765,
+        "abbreviatedName": "Occhipinti-Ambrogi A",
+        "firstName": "Anna",
+        "lastName": "Occhipinti-Ambrogi",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119766,
+        "abbreviatedName": "Olenin S",
+        "firstName": "Sergej",
+        "lastName": "Olenin",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119767,
+        "abbreviatedName": "Olenina I",
+        "firstName": "Irina",
+        "lastName": "Olenina",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119768,
+        "abbreviatedName": "Ovcharenko I",
+        "firstName": "Irina",
+        "lastName": "Ovcharenko",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119769,
+        "abbreviatedName": "Panov V E",
+        "firstName": "Vadim E",
+        "lastName": "Panov",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119770,
+        "abbreviatedName": "Pascal M",
+        "firstName": "Michel",
+        "lastName": "Pascal",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119771,
+        "abbreviatedName": "Pergl J",
+        "firstName": "Jan",
+        "lastName": "Pergl",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119772,
+        "abbreviatedName": "Perglová I",
+        "firstName": "Irena",
+        "lastName": "Perglová",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119773,
+        "abbreviatedName": "Pino J",
+        "firstName": "Joan",
+        "lastName": "Pino",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119774,
+        "abbreviatedName": "Pyšek P",
+        "firstName": "Petr",
+        "lastName": "Pyšek",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119775,
+        "abbreviatedName": "Rabitsch W",
+        "firstName": "Wolfgang",
+        "lastName": "Rabitsch",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119776,
+        "abbreviatedName": "Rasplus J",
+        "firstName": "Jean-Yves",
+        "lastName": "Rasplus",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119777,
+        "abbreviatedName": "Rathod B",
+        "firstName": "Biren",
+        "lastName": "Rathod",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119778,
+        "abbreviatedName": "Roques A",
+        "firstName": "Alain",
+        "lastName": "Roques",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119779,
+        "abbreviatedName": "Roy H",
+        "firstName": "Helen",
+        "lastName": "Roy",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119780,
+        "abbreviatedName": "Sauvard D",
+        "firstName": "Daniel",
+        "lastName": "Sauvard",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119781,
+        "abbreviatedName": "Scalera R",
+        "firstName": "Riccardo",
+        "lastName": "Scalera",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119782,
+        "abbreviatedName": "Shiganova T A",
+        "firstName": "Tamara A.",
+        "lastName": "Shiganova",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119783,
+        "abbreviatedName": "Shirley S",
+        "firstName": "Susan",
+        "lastName": "Shirley",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119784,
+        "abbreviatedName": "Shwartz A",
+        "firstName": "Assaf",
+        "lastName": "Shwartz",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119785,
+        "abbreviatedName": "Solarz W",
+        "firstName": "Wojciech",
+        "lastName": "Solarz",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119786,
+        "abbreviatedName": "Vilà M",
+        "firstName": "Montserrat",
+        "lastName": "Vilà",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119787,
+        "abbreviatedName": "Winter M",
+        "firstName": "Marten",
+        "lastName": "Winter",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119788,
+        "abbreviatedName": "Yésou P",
+        "firstName": "Pierre",
+        "lastName": "Yésou",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119789,
+        "abbreviatedName": "Zaiko A",
+        "firstName": "Anastasija",
+        "lastName": "Zaiko",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 2119790,
+        "abbreviatedName": "Adriaens T",
+        "firstName": "Tim",
+        "lastName": "Adriaens",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": [
+          "http://orcid.org/0000-0001-7268-4200"
+        ]
+      },
+      {
+        "key": 2119791,
+        "abbreviatedName": "Desmet P",
+        "firstName": "Peter",
+        "lastName": "Desmet",
+        "roles": [
+          "METADATA_AUTHOR",
+          "ORIGINATOR"
+        ],
+        "userId": [
+          "http://orcid.org/0000-0002-8442-8025"
+        ]
+      },
+      {
+        "key": 2119792,
+        "abbreviatedName": "Reyserhove L",
+        "firstName": "Lien",
+        "lastName": "Reyserhove",
+        "roles": [
+          "METADATA_AUTHOR",
+          "ORIGINATOR"
+        ],
+        "userId": [
+          "http://orcid.org/0000-0001-7484-9267"
+        ]
+      }
+    ],
+    "lockedForAutoUpdate": false,
+    "createdBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+    "modifiedBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+    "created": "2019-09-20T12:29:51.625+00:00",
+    "modified": "2025-09-30T11:53:27.381+00:00",
+    "contacts": [
+      {
+        "key": 2119722,
+        "type": "ORIGINATOR",
+        "primary": true,
+        "userId": [
+          "http://orcid.org/0000-0002-5147-0331"
+        ],
+        "firstName": "David",
+        "lastName": "Roy",
+        "position": [],
+        "email": [
+          "dbr@ceh.ac.uk"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Centre for Ecology & Hydrology",
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.713+00:00",
+        "modified": "2020-06-12T15:48:46.713+00:00"
+      },
+      {
+        "key": 2119723,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "David",
+        "lastName": "Alderman",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "CEFAS Weymouth Laboratory",
+        "address": [],
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.717+00:00",
+        "modified": "2020-06-12T15:48:46.717+00:00"
+      },
+      {
+        "key": 2119724,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Pauline",
+        "lastName": "Anastasiu",
+        "position": [],
+        "email": [
+          "anastasiup@yahoo.com"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "University of Bucharest",
+        "address": [],
+        "country": "RO",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.719+00:00",
+        "modified": "2020-06-12T15:48:46.719+00:00"
+      },
+      {
+        "key": 2119725,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Margarita",
+        "lastName": "Arianoutsou",
+        "position": [],
+        "email": [
+          "marianou@biol.uoa.gr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "University of Athens",
+        "address": [],
+        "country": "GR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.720+00:00",
+        "modified": "2020-06-12T15:48:46.720+00:00"
+      },
+      {
+        "key": 2119726,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Sylvie",
+        "lastName": "Augustin",
+        "position": [],
+        "email": [
+          "sylvie.augustin@orleans.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, Zoologie Forestière, Centre de recherche d’Orléans",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.722+00:00",
+        "modified": "2020-06-12T15:48:46.722+00:00"
+      },
+      {
+        "key": 2119727,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Sven",
+        "lastName": "Bacher",
+        "position": [],
+        "email": [
+          "sven.bacher@unifr.ch"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Biology, Ecology & Evolution Unit, University of Fribourg",
+        "address": [],
+        "country": "CH",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.723+00:00",
+        "modified": "2020-06-12T15:48:46.723+00:00"
+      },
+      {
+        "key": 2119728,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Corina",
+        "lastName": "Başnou",
+        "position": [],
+        "email": [
+          "c.basnou@creaf.uab.es"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Centre for Ecological Research and Forestry Applications, Campus de Bellaterra",
+        "address": [],
+        "country": "ES",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.725+00:00",
+        "modified": "2020-06-12T15:48:46.725+00:00"
+      },
+      {
+        "key": 2119729,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Jean-Nicolas",
+        "lastName": "Beisel",
+        "position": [],
+        "email": [
+          "beisel@univ-metz.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Laboratory Biodiversity and Ecosysteme Functioning, University of Metz",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.726+00:00",
+        "modified": "2020-06-12T15:48:46.726+00:00"
+      },
+      {
+        "key": 2119730,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Sandro",
+        "lastName": "Bertolino",
+        "position": [],
+        "email": [
+          "sandro.bertolino@unito.it"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Laboratory of Entomology and Zoology, DIVAPRA, University of Turin",
+        "address": [],
+        "country": "IT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.726+00:00",
+        "modified": "2020-06-12T15:48:46.726+00:00"
+      },
+      {
+        "key": 2119731,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Laura",
+        "lastName": "Bonesi",
+        "position": [],
+        "email": [
+          "lbonesi@units.it"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Dipartimento di Biologia, Università di Trieste",
+        "address": [],
+        "country": "IT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.728+00:00",
+        "modified": "2020-06-12T15:48:46.728+00:00"
+      },
+      {
+        "key": 2119732,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "François",
+        "lastName": "Bretagnolle",
+        "position": [],
+        "email": [
+          "francois.bretagnolle@bota.unine.ch"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Muséum National d’Histoire Naturelle, Département Ecologie et Gestion de la Biodiversité",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.729+00:00",
+        "modified": "2020-06-12T15:48:46.729+00:00"
+      },
+      {
+        "key": 2119733,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Jean Louis",
+        "lastName": "Chapuis",
+        "position": [],
+        "email": [
+          "chapuis@mnhn.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Muséum National d’Histoire Naturelle, Département Ecologie et Gestion de la Biodiversité",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.730+00:00",
+        "modified": "2020-06-12T15:48:46.730+00:00"
+      },
+      {
+        "key": 2119734,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Bruno",
+        "lastName": "Chauvel",
+        "position": [],
+        "email": [
+          "bruno.chauvel@dijon.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "UMR, INRA/ENESAD/UB, Biologie et Gestion des Adventices",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.731+00:00",
+        "modified": "2020-06-12T15:48:46.731+00:00"
+      },
+      {
+        "key": 2119735,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "François",
+        "lastName": "Chiron",
+        "position": [],
+        "email": [
+          "chironfrancois@gmail.com"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Ecology, Systematics and Evolution, The Institute of Life Sciences, The Hebrew University of Jerusalem",
+        "address": [],
+        "country": "IL",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.732+00:00",
+        "modified": "2020-06-12T15:48:46.732+00:00"
+      },
+      {
+        "key": 2119736,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Philippe",
+        "lastName": "Clergeau",
+        "position": [],
+        "email": [
+          "philippe.clergeau@rennes.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, SCRIBE, IFR 140, Campus de Beaulieu",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.733+00:00",
+        "modified": "2020-06-12T15:48:46.733+00:00"
+      },
+      {
+        "key": 2119737,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Jonathan",
+        "lastName": "Cooper",
+        "position": [],
+        "email": [
+          "jcoop@ceh.ac.uk"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Centre for Ecology & Hydrology",
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.734+00:00",
+        "modified": "2020-06-12T15:48:46.734+00:00"
+      },
+      {
+        "key": 2119738,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Teresa",
+        "lastName": "Cunha",
+        "position": [],
+        "email": [
+          "teresa.cunha@ec.europa.eu"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "teresa.cunha@ec.europa.eu",
+        "address": [],
+        "country": "BE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.735+00:00",
+        "modified": "2020-06-12T15:48:46.735+00:00"
+      },
+      {
+        "key": 2119739,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Pinelopi",
+        "lastName": "Delipetrou",
+        "position": [],
+        "email": [
+          "pindel@biol.uoa.gr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "University of Athens, Faculty of Biology, Department of Botany",
+        "address": [],
+        "country": "GR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.737+00:00",
+        "modified": "2020-06-12T15:48:46.737+00:00"
+      },
+      {
+        "key": 2119740,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Marie-Laure",
+        "lastName": "Desprez-Loustau",
+        "position": [],
+        "email": [
+          "loustau@bordeaux.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, Domaine de la Grande Ferrade, UMR 1202 BIOGECO, Pathologie forestière",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.738+00:00",
+        "modified": "2020-06-12T15:48:46.738+00:00"
+      },
+      {
+        "key": 2119741,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Mathieu",
+        "lastName": "Détaint",
+        "position": [],
+        "email": [
+          "mathieu.detaint@cistude.org"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Association Cistude Nature",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.740+00:00",
+        "modified": "2020-06-12T15:48:46.740+00:00"
+      },
+      {
+        "key": 2119742,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Simon",
+        "lastName": "Devin",
+        "position": [],
+        "email": [
+          "s.devin@laposte.net"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Laboratory Biodiversity and Ecosysteme Functioning, University of Metz",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.741+00:00",
+        "modified": "2020-06-12T15:48:46.741+00:00"
+      },
+      {
+        "key": 2119743,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Viktoras",
+        "lastName": "Didžiulis",
+        "position": [],
+        "email": [
+          "viktoras@ekoinf.net"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Coastal Research and Planning Institute, Klaipėda University",
+        "address": [],
+        "country": "LT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.743+00:00",
+        "modified": "2020-06-12T15:48:46.743+00:00"
+      },
+      {
+        "key": 2119744,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Franz",
+        "lastName": "Essl",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "Vienna University",
+        "address": [],
+        "country": "AT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.745+00:00",
+        "modified": "2020-06-12T15:48:46.745+00:00"
+      },
+      {
+        "key": 2119745,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Bella S.",
+        "lastName": "Galil",
+        "position": [],
+        "email": [
+          "bella@ocean.org.il"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "National Institute of Oceanography",
+        "address": [],
+        "country": "IL",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.746+00:00",
+        "modified": "2020-06-12T15:48:46.746+00:00"
+      },
+      {
+        "key": 2119746,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Piero",
+        "lastName": "Genovesi",
+        "position": [],
+        "email": [
+          "piero.genovesi@infs.it"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Chair European Section IUCN SSC ISSG, INFS (National Wildlife Institute)",
+        "address": [],
+        "country": "IT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.748+00:00",
+        "modified": "2020-06-12T15:48:46.748+00:00"
+      },
+      {
+        "key": 2119747,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Francesca",
+        "lastName": "Gherardi",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "Dipartimento di Biologia Evoluzionistica, Università di Firenze",
+        "address": [],
+        "country": "IT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.749+00:00",
+        "modified": "2020-06-12T15:48:46.749+00:00"
+      },
+      {
+        "key": 2119748,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Stephan",
+        "lastName": "Gollasch",
+        "position": [],
+        "email": [
+          "sgollasch@aol.com"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "GoConsult",
+        "address": [],
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.750+00:00",
+        "modified": "2020-06-12T15:48:46.750+00:00"
+      },
+      {
+        "key": 2119749,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Martin",
+        "lastName": "Hejda",
+        "position": [],
+        "email": [
+          "hejda@ibot.cas.cz"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Invasion Ecology, Institute of Botany, Academy of Sciences of the Czech Republic",
+        "address": [],
+        "country": "CZ",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.751+00:00",
+        "modified": "2020-06-12T15:48:46.751+00:00"
+      },
+      {
+        "key": 2119750,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Philip E.",
+        "lastName": "Hulme",
+        "position": [],
+        "email": [
+          "hulmep@lincoln.ac.nz"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "National Centre for Advanced Bio-Protection Technologies",
+        "address": [],
+        "country": "NZ",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.752+00:00",
+        "modified": "2020-06-12T15:48:46.752+00:00"
+      },
+      {
+        "key": 2119751,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Melanie",
+        "lastName": "Josefsson",
+        "position": [],
+        "email": [
+          "melanie.josefsson@snv.slu.se"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Swedish Environmental Protection Agency, c/o Department of Environmental",
+        "address": [],
+        "country": "SE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.753+00:00",
+        "modified": "2020-06-12T15:48:46.753+00:00"
+      },
+      {
+        "key": 2119752,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Salit",
+        "lastName": "Kark",
+        "position": [],
+        "email": [
+          "salit@cc.huji.ac.il"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Ecology, Systematics and Evolution, The Institute of Life Sciences, The Hebrew University of Jerusalem",
+        "address": [],
+        "country": "IL",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.754+00:00",
+        "modified": "2020-06-12T15:48:46.754+00:00"
+      },
+      {
+        "key": 2119753,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Kaarina",
+        "lastName": "Kauhala",
+        "position": [],
+        "email": [
+          "kaarina.kauhala@rktl.fi"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Turku Game and Fisheries Research",
+        "address": [],
+        "country": "FI",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.755+00:00",
+        "modified": "2020-06-12T15:48:46.755+00:00"
+      },
+      {
+        "key": 2119754,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Marc",
+        "lastName": "Kenis",
+        "position": [],
+        "email": [
+          "m.kenis@cabi.org"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Forestry and Ornamental Pest Research, CABI Europe",
+        "address": [],
+        "country": "CH",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.756+00:00",
+        "modified": "2020-06-12T15:48:46.756+00:00"
+      },
+      {
+        "key": 2119755,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Stefan",
+        "lastName": "Klotz",
+        "position": [],
+        "email": [
+          "stefan.klotz@ufz.de"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Helmholtz Centre for Environmental Research – UFZ, Department of Community Ecology",
+        "address": [],
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.757+00:00",
+        "modified": "2020-06-12T15:48:46.757+00:00"
+      },
+      {
+        "key": 2119756,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Manuel",
+        "lastName": "Kobelt",
+        "position": [],
+        "email": [
+          "manuel.kobelt@zos.unibe.ch"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Community Ecology, Zoological Institute, University of Bern",
+        "address": [],
+        "country": "CH",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.759+00:00",
+        "modified": "2020-06-12T15:48:46.759+00:00"
+      },
+      {
+        "key": 2119757,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Ingolf",
+        "lastName": "Kühn",
+        "position": [],
+        "email": [
+          "ingolf.kuehn@ufz.de"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Helmholtz Centre for Environmental Research – UFZ, Department of Community Ecology",
+        "address": [],
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.760+00:00",
+        "modified": "2020-06-12T15:48:46.760+00:00"
+      },
+      {
+        "key": 2119758,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Philip W.",
+        "lastName": "Lambdon",
+        "position": [],
+        "email": [
+          "plambdon@googlemail.com"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "RSPB, c/o Royal Botanic Gardens, Kew",
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.760+00:00",
+        "modified": "2020-06-12T15:48:46.760+00:00"
+      },
+      {
+        "key": 2119759,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Tor-Björn",
+        "lastName": "Larsson",
+        "position": [],
+        "email": [
+          "tor-bjorn.larsson@eea.europa.eu"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "European Environment Agency",
+        "address": [],
+        "country": "DK",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.761+00:00",
+        "modified": "2020-06-12T15:48:46.761+00:00"
+      },
+      {
+        "key": 2119760,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Carlos",
+        "lastName": "Lopez-Vaamonde",
+        "position": [],
+        "email": [
+          "carlos.lopez-vaamonde@orleans.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, Zoologie Forestière, Centre de recherche d’Orléans",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.762+00:00",
+        "modified": "2020-06-12T15:48:46.762+00:00"
+      },
+      {
+        "key": 2119761,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Olivier",
+        "lastName": "Lorvelec",
+        "position": [],
+        "email": [
+          "olivier.lorvelec@inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, UMR ESE, INRA",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.763+00:00",
+        "modified": "2020-06-12T15:48:46.763+00:00"
+      },
+      {
+        "key": 2119762,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Hélia",
+        "lastName": "Marchante",
+        "position": [],
+        "email": [
+          "hmarchante@mail.esac.pt"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Escola Superior Agrária de Coimbra Departamento de Ciências Exactas e Ambiente Sector de Biologia e Ecologia",
+        "address": [],
+        "country": "PT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.764+00:00",
+        "modified": "2020-06-12T15:48:46.764+00:00"
+      },
+      {
+        "key": 2119763,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Dan",
+        "lastName": "Minchin",
+        "position": [],
+        "email": [
+          "moiireland@yahoo.ie"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Marine Organism Investigations",
+        "address": [],
+        "country": "IE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.778+00:00",
+        "modified": "2020-06-12T15:48:46.778+00:00"
+      },
+      {
+        "key": 2119764,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Wolfgang",
+        "lastName": "Nentwig",
+        "position": [],
+        "email": [
+          "wolfgang.nentwig@zos.unibe.ch"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Community Ecology, Zoological Institute, University of Bern",
+        "address": [],
+        "country": "CH",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.781+00:00",
+        "modified": "2020-06-12T15:48:46.781+00:00"
+      },
+      {
+        "key": 2119765,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Anna",
+        "lastName": "Occhipinti-Ambrogi",
+        "position": [],
+        "email": [
+          "occhipin@unipv.it"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Dipartimento di Ecologia del Territorio, Università di Pavia",
+        "address": [],
+        "country": "IT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.784+00:00",
+        "modified": "2020-06-12T15:48:46.784+00:00"
+      },
+      {
+        "key": 2119766,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Sergej",
+        "lastName": "Olenin",
+        "position": [],
+        "email": [
+          "sergej@corpi.ku.lt"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Coastal Research and Planning Institute, Klaipėda University",
+        "address": [],
+        "country": "LT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.787+00:00",
+        "modified": "2020-06-12T15:48:46.787+00:00"
+      },
+      {
+        "key": 2119767,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Irina",
+        "lastName": "Olenina",
+        "position": [],
+        "email": [
+          "irina.olenina@balticum-tv.lt"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Coastal Research and Planning Institute, Klaipeda University",
+        "address": [],
+        "country": "LT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.790+00:00",
+        "modified": "2020-06-12T15:48:46.790+00:00"
+      },
+      {
+        "key": 2119768,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Irina",
+        "lastName": "Ovcharenko",
+        "position": [],
+        "email": [
+          "irinaovcarenko@yahoo.com"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Coastal Research and Planning Institute",
+        "address": [],
+        "country": "LT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.792+00:00",
+        "modified": "2020-06-12T15:48:46.792+00:00"
+      },
+      {
+        "key": 2119769,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Vadim E",
+        "lastName": "Panov",
+        "position": [],
+        "email": [
+          "rbic@mail.ru"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Faculty of Geography and Geoecology, St. Petersburg State University",
+        "address": [],
+        "country": "RU",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.795+00:00",
+        "modified": "2020-06-12T15:48:46.795+00:00"
+      },
+      {
+        "key": 2119770,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Michel",
+        "lastName": "Pascal",
+        "position": [],
+        "email": [
+          "michel.pascal@rennes.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.798+00:00",
+        "modified": "2020-06-12T15:48:46.798+00:00"
+      },
+      {
+        "key": 2119771,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Jan",
+        "lastName": "Pergl",
+        "position": [],
+        "email": [
+          "pergl@ibot.cas.cz"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Invasion Ecology, Institute of Botany, Academy of Sciences of the Czech Republic",
+        "address": [],
+        "country": "CZ",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.802+00:00",
+        "modified": "2020-06-12T15:48:46.802+00:00"
+      },
+      {
+        "key": 2119772,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Irena",
+        "lastName": "Perglová",
+        "position": [],
+        "email": [
+          "perglova@ibot.cas.cz"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Invasion Ecology, Institute of Botany, Academy of Sciences of the Czech Republic",
+        "address": [],
+        "country": "CZ",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.803+00:00",
+        "modified": "2020-06-12T15:48:46.803+00:00"
+      },
+      {
+        "key": 2119773,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Joan",
+        "lastName": "Pino",
+        "position": [],
+        "email": [
+          "joan.pino@uab.es"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Centre for Ecological Research and Forestry Applications, Campus de Bellaterra, Uníversitat Autònoma de Barcelona",
+        "address": [],
+        "country": "ES",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.806+00:00",
+        "modified": "2020-06-12T15:48:46.806+00:00"
+      },
+      {
+        "key": 2119774,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Petr",
+        "lastName": "Pyšek",
+        "position": [],
+        "email": [
+          "pysek@ibot.cas.cz"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Invasion Ecology, Institute of Botany, Academy of Sciences of the Czech Republic",
+        "address": [],
+        "country": "CZ",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.808+00:00",
+        "modified": "2020-06-12T15:48:46.808+00:00"
+      },
+      {
+        "key": 2119775,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Wolfgang",
+        "lastName": "Rabitsch",
+        "position": [],
+        "email": [
+          "wolfgang.rabitsch@umweltbundesamt.at"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Federal Environment Agency Ltd, Biodiversity and Nature Conservation",
+        "address": [],
+        "country": "AT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.810+00:00",
+        "modified": "2020-06-12T15:48:46.810+00:00"
+      },
+      {
+        "key": 2119776,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Jean-Yves",
+        "lastName": "Rasplus",
+        "position": [],
+        "email": [
+          "rasplus@ensam.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, INRA, Centre de Biologie et de Gestion des Populations, Campus International de Baillarguet",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.813+00:00",
+        "modified": "2020-06-12T15:48:46.813+00:00"
+      },
+      {
+        "key": 2119777,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Biren",
+        "lastName": "Rathod",
+        "position": [],
+        "email": [
+          "bire@ceh.ac.uk"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Biological Records Centre, Centre for Ecology & Hydrology",
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.815+00:00",
+        "modified": "2020-06-12T15:48:46.815+00:00"
+      },
+      {
+        "key": 2119778,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Alain",
+        "lastName": "Roques",
+        "position": [],
+        "email": [
+          "alain.roques@orleans.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, Zoologie Forestière, Centre de recherche d’Orléans",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.817+00:00",
+        "modified": "2020-06-12T15:48:46.817+00:00"
+      },
+      {
+        "key": 2119779,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Helen",
+        "lastName": "Roy",
+        "position": [],
+        "email": [
+          "hele@ceh.ac.uk"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Biological Records Centre, Centre for Ecology & Hydrology",
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.818+00:00",
+        "modified": "2020-06-12T15:48:46.818+00:00"
+      },
+      {
+        "key": 2119780,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Daniel",
+        "lastName": "Sauvard",
+        "position": [],
+        "email": [
+          "Daniel.Sauvard@orleans.inra.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institut National de la Recherche Agronomique, Zoologie Forestière, Centre de recherche d’Orléans",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.820+00:00",
+        "modified": "2020-06-12T15:48:46.820+00:00"
+      },
+      {
+        "key": 2119781,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Riccardo",
+        "lastName": "Scalera",
+        "position": [],
+        "email": [
+          "riccardo.scalera@alice.it"
+        ],
+        "phone": [],
+        "homepage": [],
+        "address": [],
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.822+00:00",
+        "modified": "2020-06-12T15:48:46.822+00:00"
+      },
+      {
+        "key": 2119782,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Tamara A.",
+        "lastName": "Shiganova",
+        "position": [],
+        "email": [
+          "shiganov@ocean.ru"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "P.P. Shirshov Institute of Oceanology, Russian Academy of Sciences",
+        "address": [],
+        "country": "RU",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.824+00:00",
+        "modified": "2020-06-12T15:48:46.824+00:00"
+      },
+      {
+        "key": 2119783,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Susan",
+        "lastName": "Shirley",
+        "position": [],
+        "email": [
+          "susanshir@gmail.com"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Forest Science, Oregon State Universit",
+        "address": [],
+        "country": "US",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.826+00:00",
+        "modified": "2020-06-12T15:48:46.826+00:00"
+      },
+      {
+        "key": 2119784,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Assaf",
+        "lastName": "Shwartz",
+        "position": [],
+        "email": [
+          "assaf.sh@mail.huji.ac.il"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Department of Ecology, Systematics and Evolution, The Institute of Life Sciences, The Hebrew University of Jerusalem",
+        "address": [],
+        "country": "IL",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.827+00:00",
+        "modified": "2020-06-12T15:48:46.827+00:00"
+      },
+      {
+        "key": 2119785,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Wojciech",
+        "lastName": "Solarz",
+        "position": [],
+        "email": [
+          "solarz@iop.krakow.pl"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Institute of Nature Conservation, Polish Academy of Sciences",
+        "address": [],
+        "country": "PL",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.829+00:00",
+        "modified": "2020-06-12T15:48:46.829+00:00"
+      },
+      {
+        "key": 2119786,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Montserrat",
+        "lastName": "Vilà",
+        "position": [],
+        "email": [
+          "montse.vila@ebd.csic.es"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Estación Biológica de Doñana",
+        "address": [],
+        "country": "ES",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.830+00:00",
+        "modified": "2020-06-12T15:48:46.830+00:00"
+      },
+      {
+        "key": 2119787,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Marten",
+        "lastName": "Winter",
+        "position": [],
+        "email": [
+          "marten.winter@ufz.de"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Helmholtz Centre for Environmental Research – UFZ, Department of Community Ecology",
+        "address": [],
+        "country": "DE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.832+00:00",
+        "modified": "2020-06-12T15:48:46.832+00:00"
+      },
+      {
+        "key": 2119788,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Pierre",
+        "lastName": "Yésou",
+        "position": [],
+        "email": [
+          "p.yesou@oncfs.gouv.fr"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Office National de la Chasse et de la Faune Sauvage",
+        "address": [],
+        "country": "FR",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.833+00:00",
+        "modified": "2020-06-12T15:48:46.833+00:00"
+      },
+      {
+        "key": 2119789,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [],
+        "firstName": "Anastasija",
+        "lastName": "Zaiko",
+        "position": [],
+        "email": [
+          "nastiusha@takas.lt"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Coastal Research and Planning Institute, Klaipėda University",
+        "address": [],
+        "country": "LT",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.834+00:00",
+        "modified": "2020-06-12T15:48:46.834+00:00"
+      },
+      {
+        "key": 2119790,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [
+          "http://orcid.org/0000-0001-7268-4200"
+        ],
+        "firstName": "Tim",
+        "lastName": "Adriaens",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "Research Institute for Nature and Forest (INBO)",
+        "address": [],
+        "country": "BE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.836+00:00",
+        "modified": "2020-06-12T15:48:46.836+00:00"
+      },
+      {
+        "key": 2119791,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [
+          "http://orcid.org/0000-0002-8442-8025"
+        ],
+        "firstName": "Peter",
+        "lastName": "Desmet",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "Research Institute for Nature and Forest (INBO)",
+        "address": [],
+        "country": "BE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.837+00:00",
+        "modified": "2020-06-12T15:48:46.837+00:00"
+      },
+      {
+        "key": 2119792,
+        "type": "ORIGINATOR",
+        "primary": false,
+        "userId": [
+          "http://orcid.org/0000-0001-7484-9267"
+        ],
+        "firstName": "Lien",
+        "lastName": "Reyserhove",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "Research Institute for Nature and Forest (INBO)",
+        "address": [],
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.838+00:00",
+        "modified": "2020-06-12T15:48:46.838+00:00"
+      },
+      {
+        "key": 2119793,
+        "type": "METADATA_AUTHOR",
+        "primary": true,
+        "userId": [],
+        "firstName": "David",
+        "lastName": "Roy",
+        "position": [],
+        "email": [
+          "dbr@ceh.ac.uk"
+        ],
+        "phone": [],
+        "homepage": [],
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.839+00:00",
+        "modified": "2020-06-12T15:48:46.839+00:00"
+      },
+      {
+        "key": 2119794,
+        "type": "METADATA_AUTHOR",
+        "primary": false,
+        "userId": [
+          "http://orcid.org/0000-0002-8442-8025"
+        ],
+        "firstName": "Peter",
+        "lastName": "Desmet",
+        "position": [],
+        "email": [
+          "peter.desmet@inbo.be"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Research Institute for Nature and Forest (INBO)",
+        "address": [],
+        "country": "BE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.842+00:00",
+        "modified": "2020-06-12T15:48:46.842+00:00"
+      },
+      {
+        "key": 2119795,
+        "type": "METADATA_AUTHOR",
+        "primary": false,
+        "userId": [
+          "http://orcid.org/0000-0001-7484-9267"
+        ],
+        "firstName": "Lien",
+        "lastName": "Reyserhove",
+        "position": [],
+        "email": [
+          "lien.reyserhove@inbo.be"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Research Institute for Nature and Forest (INBO)",
+        "address": [],
+        "country": "BE",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2020-06-12T15:48:46.844+00:00",
+        "modified": "2020-06-12T15:48:46.844+00:00"
+      },
+      {
+        "key": 2119796,
+        "type": "ADMINISTRATIVE_POINT_OF_CONTACT",
+        "primary": true,
+        "userId": [],
+        "firstName": "David",
+        "lastName": "Roy",
+        "position": [],
+        "email": [
+          "dbr@ceh.ac.uk"
+        ],
+        "phone": [],
+        "homepage": [],
+        "organization": "Centre for Ecology and Hydrology",
+        "address": [],
+        "country": "GB",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+        "created": "2020-06-12T15:48:46.846+00:00",
+        "modified": "2025-09-30T11:53:27.558+00:00"
+      }
+    ],
+    "endpoints": [
+      {
+        "key": 1147291,
+        "type": "DWC_ARCHIVE",
+        "url": "https://ipt.inbo.be/archive.do?r=daisie-checklist",
+        "createdBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+        "modifiedBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+        "created": "2025-09-30T11:53:27.785+00:00",
+        "modified": "2025-09-30T11:53:27.785+00:00",
+        "machineTags": []
+      },
+      {
+        "key": 1147290,
+        "type": "EML",
+        "url": "https://ipt.inbo.be/eml.do?r=daisie-checklist",
+        "createdBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+        "modifiedBy": "1cd669d0-80ea-11de-a9d0-f1765f95f18b",
+        "created": "2025-09-30T11:53:27.699+00:00",
+        "modified": "2025-09-30T11:53:27.699+00:00",
+        "machineTags": []
+      }
+    ],
+    "machineTags": [
+      {
+        "key": 32755817,
+        "namespace": "crawler.gbif.org",
+        "name": "crawl_attempt",
+        "value": "334",
+        "createdBy": "crawler.gbif.org",
+        "created": "2026-09-09T17:40:49.539+00:00"
+      }
+    ],
+    "tags": [],
+    "identifiers": [
+      {
+        "key": 408961,
+        "type": "CLB_DATASET_KEY",
+        "identifier": "25428",
+        "createdBy": "clb-bot",
+        "created": "2025-02-21T09:55:16.414+00:00",
+        "primary": false
+      },
+      {
+        "key": 181546,
+        "type": "UUID",
+        "identifier": "39f36f10-559b-427f-8c86-2d28afff68ca",
+        "createdBy": "crawler.gbif.org",
+        "created": "2019-09-20T13:05:57.268+00:00",
+        "primary": false
+      },
+      {
+        "key": 181538,
+        "type": "URL",
+        "identifier": "https://ipt.inbo.be/resource?r=daisie-checklist",
+        "createdBy": "crawler.gbif.org",
+        "created": "2019-09-20T12:30:53.278+00:00",
+        "primary": false
+      }
+    ],
+    "comments": [],
+    "bibliographicCitations": [
+      {
+        "text": "DAISIE (2009) Handbook of alien species in Europe. Springer, Dordrecht ISBN 978-1-4020-8279-5, available by 17 November 2008",
+        "citationProvidedBySource": false
+      }
+    ],
+    "curatorialUnits": [],
+    "taxonomicCoverages": [
+      {
+        "description": "In total, this dataset includes taxa from 5 kingdoms and 53 phyla recorded in the database. The phyla of Spermatophyta, Arthropoda and Chordata contain the highest numbers of the alien species: 56, 24 and 5 %, respectively. Many phyla (32 out of 53) contain less than 10 recorded species, and 12 phyla are represented by only one recorded alien species.",
+        "coverages": [
+          {
+            "scientificName": "Plantae",
+            "commonName": "plants",
+            "rank": {
+              "verbatim": "kingdom",
+              "interpreted": "KINGDOM"
+            }
+          },
+          {
+            "scientificName": "Animalia",
+            "commonName": "animals",
+            "rank": {
+              "verbatim": "kingdom",
+              "interpreted": "KINGDOM"
+            }
+          },
+          {
+            "scientificName": "Fungi",
+            "commonName": "fungi",
+            "rank": {
+              "verbatim": "kingdom",
+              "interpreted": "KINGDOM"
+            }
+          },
+          {
+            "scientificName": "Bacteria",
+            "commonName": "bacteria",
+            "rank": {
+              "verbatim": "kingdom",
+              "interpreted": "KINGDOM"
+            }
+          },
+          {
+            "scientificName": "Chromista",
+            "rank": {
+              "verbatim": "kingdom",
+              "interpreted": "KINGDOM"
+            }
+          }
+        ]
+      }
+    ],
+    "geographicCoverages": [
+      {
+        "description": "This checklist contains documented introduction records of the alien taxa for 71 terrestrial and nine marine regions of Europe, the Levantine Basin and the North African coast of the Mediterranean Sea. These regions mostly match political borders of countries as they are known today. Where data were available at a finer political or biogeographic level, these are also presented e.g., the administrative regions of the United Kingdom (Wales, Scotland, England, Northern Ireland) or islands such as Corsica, Sicily, Crete, Greenland or Svalbard.",
+        "boundingBox": {
+          "minLatitude": 27.68,
+          "maxLatitude": 70.96,
+          "minLongitude": -23.2,
+          "maxLongitude": 43.94,
+          "globalCoverage": false
+        }
+      }
+    ],
+    "temporalCoverages": [
+      {
+        "@type": "range",
+        "start": "1499-12-23T00:00:00.000+00:00",
+        "end": "2005-12-31T00:00:00.000+00:00"
+      }
+    ],
+    "keywordCollections": [
+      {
+        "thesaurus": "GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml",
+        "keywords": [
+          "Checklist"
+        ]
+      },
+      {
+        "thesaurus": "GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml",
+        "keywords": [
+          "Inventorythematic"
+        ]
+      },
+      {
+        "thesaurus": "na/",
+        "keywords": [
+          "Europe",
+          "alien species",
+          "checklist",
+          "inventory",
+          "AlienCSI"
+        ]
+      }
+    ],
+    "samplingDescription": {
+      "studyExtent": "See DAISIE (2009)",
+      "sampling": "See DAISIE (2009)",
+      "qualityControl": "See DAISIE (2009) and step description.",
+      "methodSteps": [
+        "The source data is extracted from the DAISIE database, a MySQL database managed by the Centre for Hydrology and Ecology (CEH).",
+        "Multiple raw data files were generated from this database to make the mapping process more structured and easy to comprehend. These raw files were uploaded to a GitHub repository (https://github.com/trias-project/daise-checklist. See https://trias-project.github.io/daisie-checklist/ for an introduction to this repository and the mapping of this dataset.",
+        "We developed multiple RMarkdown scripts to document and perform the transformation of the data to Darwin Core, which includes the following steps:",
+        "Perform some basic data processing and restructuring (https://trias-project.github.io/daisie-checklist/1_pre_processing.html).",
+        "Create a taxon core file (http://rs.gbif.org/core/dwc_taxon.xml) including cleaning of the taxon rank information (https://trias-project.github.io/daisie-checklist/2_dwc_taxon_mapping.html).",
+        "Create a vernacular name extension (https://trias-project.github.io/daisie-checklist/3_dwc_vernacularname_mapping.html).",
+        "Create a distribution extension file (http://rs.gbif.org/extension/gbif/1.0/distribution.xml, including standardization of the location information, occurrence status, means of establishment and event dates (https://trias-project.github.io/daisie-checklist/4_dwc_distribution_mapping.html).",
+        "Create a description extension file (http://rs.gbif.org/extension/gbif/1.0/description.xml), including information about habitat, native range, and ecofunctional group (https://trias-project.github.io/daisie-checklist/5_dwc_description_mapping.html).",
+        "The resulting Darwin Core data files are uploaded to the INBO IPT and documented with metadata.",
+        "The dataset is published and registered with GBIF."
+      ]
+    },
+    "countryCoverage": [],
+    "collections": [],
+    "dataDescriptions": [],
+    "dataLanguage": "eng",
+    "pubDate": "2020-06-12T00:00:00.000+00:00",
+    "maintenanceUpdateFrequency": "NOT_PLANNED",
+    "maintenanceDescription": "",
+    "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "dwca": {
+      "coreType": "http://rs.tdwg.org/dwc/terms/Taxon",
+      "extensions": [
+        "http://rs.gbif.org/terms/1.0/Distribution",
+        "http://rs.gbif.org/terms/1.0/VernacularName",
+        "http://rs.gbif.org/terms/1.0/Description"
+      ],
+      "modified": "2026-09-09T18:10:10.700+00:00"
+    }
+  },
+  "text": null
+}

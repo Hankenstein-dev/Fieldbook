@@ -1,0 +1,42 @@
+{
+  "taxonId": 823599,
+  "name": "Thapsia gummifera",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:46.079267+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Thapsia gummifera",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Thapsia gummifera (syn. Margotia gummifera) is a species of flowering plant in the family Apiaceae, native to the western Mediterranean; Portugal, Spain, Morocco, Algeria, and Tunisia. It has been proposed as a candidate for the plant known in antiquity as silphium and gone extinct in Libya in the 5th century.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/f884c173dd7b62ecf05e72e1c9b41fcbbd76a6e460639f18d5863b3d71e39847.json",
+      "sha256": "1c82f5aa891cecc406ce8ef4b74a6bcc86d53d4184287887225cfd9f0763d85b",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1366896606",
+      "revisionId": 1366896606,
+      "credit": {
+        "title": "Thapsia gummifera",
+        "url": "https://en.wikipedia.org/wiki/Thapsia_gummifera",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1366896606",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thapsia+gummifera&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thapsia+gummifera&limit=100",
+      "status": 200
+    }
+  ]
+}

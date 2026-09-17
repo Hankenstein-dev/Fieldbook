@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":136896,"scientificName":"Abies pinsapo","commonName":"Spanish fir","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Abies pinsapo","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Abies pinsapo, Spanish fir, is a species of tree in the family Pinaceae, native to southern Spain and northern Morocco. Related to other species of Mediterranean firs, it appears at elevations of {{convert|900|-|1800|m|ft}} in the Sierra de Grazalema in the Province of Cádiz and the Sierra de las Nieves and {{ill|Sierra Bermeja (Spain)|lt=Sierra Bermeja|es|Sierra Bermeja}}, both near Ronda in the province of Málaga. In Morocco, it is limited to the Rif Mountains at elevations of {{convert|1400|-|2100|m|ft}} on {{ill|Jebel Tisouka|ar}} and Jebel Tasaot. The scientific name pinsapo is from the Spanish vernacular name for the species."},{"id":"s1:p2","text":"Description\nAbies pinsapo is an evergreen conifer growing to m {{Convert abbreviated|20-30|m}} tall, with a conic crown, often becoming irregular with age. The leaves are {{Convert abbreviated|1.5-2|cm|4=1}} long, arranged radially all round the shoots, and are strongly glaucous pale blue-green, with broad bands of whitish wax on both sides. The cones are cylindrical, measuring {{Convert abbreviated|9-18|cm}} long. They are green to pinkish-purple before maturity, and have a smooth surface, with short bract scales that do not protrude. When mature, they disintegrate to release the winged seeds."},{"id":"s1:p3","text":"There are two subspecies:\nAbies pinsapo subsp. pinsapo Boiss. – southern Spain.\nAbies pinsapo subsp. marocana (Trab.) Emb. & Maire – northern Morocco."},{"id":"s1:p4","text":"The Moroccan subspecies, Moroccan fir, differs in the leaves being less strongly glaucous and the cones slightly longer, {{Convert abbreviated|11-20|cm}} long. It is sometimes treated as a separate species, Abies marocana."},{"id":"s1:p5","text":"Conservation\nDespite the best conservation and reforestation efforts that have greatly increased the abundance of Spanish fir, it still has several threats such as fires, urban projects, erosion, excessive visitors and tourists, etc."},{"id":"s1:p6","text":"Cultivation\nThe cultivars A. pinsapo 'Aurea' (to 8m, with golden new growth) and A. pinsapo 'Glauca' (to 12m plus, with grey-green leaves) have gained the Royal Horticultural Society's Award of Garden Merit."}]}]}

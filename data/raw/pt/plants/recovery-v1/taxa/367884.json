@@ -1,0 +1,42 @@
+{
+  "taxonId": 367884,
+  "name": "Asparagus umbellatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:52.323480+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Asparagus umbellatus",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Asparagus umbellatus''\n| imagem = Asparagus umbellatus (La Fajana) 03 ies.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[monocotiledónea]]s\n| clado3 = \n| ordem = [[Liliales]]\n| família = [[Liliaceae]]\n| género = ''[[Asparagus]]''\n| espécie = '''''A. umbellatus'''''\n| binomial = ''Asparagus umbellatus''\n| binomial_autoridade = Link\n}}\nAsparagus umbellatus é uma espécie de planta com flor pertencente à família Liliaceae. \n\nA autoridade científica da espécie é Link, tendo sido publicada em Phys. Beschr. Canar. Ins. (Buch) 140. 1825.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Asparagus umbellatus subsp. lowei - presente no Arquipélago da Madeira. Em termos de naturalidade é endémica da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/bf667d62f6016d95f38ece1c03b6fd373209068dc8ccf18773c47ded951e03a3.json",
+      "sha256": "999a85acf1361087e107c43435d1db25d8f1a594852cffd3162653c27c444a61",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40931502",
+      "revisionId": 40931502,
+      "credit": {
+        "title": "Asparagus umbellatus",
+        "url": "https://pt.wikipedia.org/wiki/Asparagus_umbellatus",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40931502",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Asparagus+umbellatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Asparagus+umbellatus&limit=100",
+      "status": 200
+    }
+  ]
+}

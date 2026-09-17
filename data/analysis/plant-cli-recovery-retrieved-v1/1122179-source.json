@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 1122179,
+    "scientificName": "Ptychostomum schleicheri",
+    "commonName": "Schleicher's Bryum",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Ptychostomum schleicheri",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Ptychostomum schleicheri, the Schleicher's bryum moss, is a species of moss belonging to the family Bryaceae. The leaves' color ranges from yellow to yellow-copper."
+          },
+          {
+            "id": "s1:p2",
+            "text": "It is native to the Northern Hemisphere."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Ptychostomum schleicheri (DC.) D. Bell & Holyoak",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "COMMENT Bryum schleicheri fo. peracutifolium Thér. and B. schleicheri fo. stenophyllum were described from Algeria by Thériot (1931) from Hoggar, Tamanghasset (in Tehi- n-Tekart, at 2000 m the first, and in Tessekimt at 1900 m the second), and later compiled in Jelenc (1955 a). Its identity has not been reassessed since its description (Ros et al. 2013). They are probably synonyms of P. schleicheri."
+          },
+          {
+            "id": "s2:p2",
+            "text": "RECORDS. — Corbière (1904), Jelenc (1955 a): Bône, ravin aux flancs de l’Édough, 200 m. Trabut (1914), Jelenc (1955 a): Djurdjura. Thériot (1931, 1933): Atakor-n-Ahaggar; Tarouda, 2100 m; Tehi-n-Tekart, 2000 m. Thériot (1931, 1933), Jelenc (1955 a): Ahaggar, Ideles, 1500 m; Hoggar, Imarera, 2000 m; Hoggar, Tessekimt, 1900 m; Tamanghasset, 1500 m; Tefedest, Ahetes, 1150 m. Thériot (1931), Jelenc (1955 a), Frahm (1978): Hoggar, Gueltas von Issakarassene, 1880 m. Frahm (1978): Hoggar, Gueltas von Afilale, 2000 m. Frequent."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/0ed2f5b7648287cabaf3dfb9242d58a1c546c3f068262ee1f86ae15017f01c4d.json",
+      "sha256": "fdce5cf9616f725cc2bc13b94802f4fc7888eca2e08871511755e212649714e1",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1234724417",
+      "revisionId": 1234724417,
+      "credit": {
+        "title": "Ptychostomum schleicheri",
+        "url": "https://en.wikipedia.org/wiki/Ptychostomum_schleicheri",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1234724417",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251097901.json",
+      "sha256": "13c5d77833f258a7e82c49459342b077e1da6f4c87ae73d2d48e8196ee5838fc",
+      "url": "https://api.gbif.org/v1/species/251097901",
+      "credit": {
+        "title": "Ptychostomum schleicheri (DC.) D. Bell & Holyoak",
+        "url": "https://www.gbif.org/species/251097901",
+        "attribution": "Ros R M, Olaf S R, Eloy O W, Cerón E, plazi (2024). Revisiting the Bryophyte Checklist of Algeria: Exploring Diversity and Distribution. Cryptogamie, Bryologie. Checklist dataset https://doi.org/10.15468/6xu7ry accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/febd8172-1ecf-4a6e-91a7-0456932f3afc",
+        "fetchedAt": "2026-09-15T07:52:21.984697+00:00",
+        "title": "Revisiting the Bryophyte Checklist of Algeria: Exploring Diversity and Distribution"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1122179,
+    "name": "Ptychostomum schleicheri",
+    "language": "en,unspecified",
+    "sourceTextTokens": 403,
+    "packetTokens": 569,
+    "standaloneInputTextTokens": 1021,
+    "packetSha256": "c0a47a53c0d645ee90dd6efc8215c124f0f2076e351deddcf4ddd3fc5bd2ea35"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 1259711,
+  "name": "Fontanesia fortunei",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:42.111151+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/93649a4365b8d00be3d551d511ab845b2e4dad0c985225c9327f6145a47e651f.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3c9e9b2f55b26e0c44622d5c0af8269e0527c3e41708f3bc6f13f2f23bda7c22.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/93649a4365b8d00be3d551d511ab845b2e4dad0c985225c9327f6145a47e651f.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fontanesia+fortunei&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fontanesia+fortunei&limit=100",
+      "status": 200
+    }
+  ]
+}

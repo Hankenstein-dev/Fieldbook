@@ -1,0 +1,45 @@
+{
+  "taxonId": 469091,
+  "name": "Allium massaessylum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:46.820033+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Allium massaessylum Batt. & Trab.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Allium massaessylum is a Western Mediterranean species of wild onion native to Spain, Portugal, Morocco, and Algeria.Battandier, Jules Aimé & Trabut, Louis. 1892. Bulletin de la Société Botanique de France 39: 74-75 description in Latin, commentary in FrenchBattandier, Jules Aimé & Trabut, Louis. 1892. Bulletin de la Société Botanique de France 39: plate III (3) full-page line drawing of Allium massaessylumTropicos, Allium massaessylum Batt. & Trab.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165774178.json",
+      "sha256": "0e1ad2379255eaa93d96af9ebe291fe07e2d42fb821767ac289507b345084fcf",
+      "url": "https://api.gbif.org/v1/species/165774178",
+      "credit": {
+        "title": "Allium massaessylum Batt. & Trab.",
+        "url": "https://www.gbif.org/species/165774178",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/59c844e3dd66cb7316a5173e298c11f040ec34f6952a7264490ba7402c195173.json",
+      "title": "Allium massaessylum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Allium+massaessylum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Allium+massaessylum&limit=100",
+      "status": 200
+    }
+  ]
+}

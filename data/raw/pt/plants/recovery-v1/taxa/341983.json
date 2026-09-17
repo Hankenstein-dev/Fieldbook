@@ -1,0 +1,42 @@
+{
+  "taxonId": 341983,
+  "name": "Brassica oxyrrhina",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:35.161123+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Brassica oxyrrhina",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Brassica oxyrrhina''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Capparales]]\n| família = [[Brassicaceae]]\n| género = ''[[Brassica]]''\n| espécie = '''''B. oxyrrhina'''''\n| binomial = ''Brassica oxyrrhina''\n| binomial_autoridade = Coss.\n}}\nBrassica oxyrrhina é uma espécie de planta com flor pertencente à família Brassicaceae. \n\nA autoridade científica da espécie é Coss., tendo sido publicada em Notes Pl. Crit. 2: 26 (1849).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d8f3ca34075324f1a05c7695b263f43e321acf0ea884994d83b5c3d17ed5707e.json",
+      "sha256": "9a20d8395950a7a54fcba7b84722f53ca873f224d112c0c7f590cc9fefcc0ae7",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069481",
+      "revisionId": 60069481,
+      "credit": {
+        "title": "Brassica oxyrrhina",
+        "url": "https://pt.wikipedia.org/wiki/Brassica_oxyrrhina",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069481",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Brassica+oxyrrhina&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Brassica+oxyrrhina&limit=100",
+      "status": 200
+    }
+  ]
+}

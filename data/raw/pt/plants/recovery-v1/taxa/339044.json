@@ -1,0 +1,32 @@
+{
+  "taxonId": 339044,
+  "name": "Ahnfeltiopsis linearis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:29.901454+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ahnfeltiopsis linearis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "flattened ahnfelts seaweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ahnfeltiopsis+linearis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ahnfeltiopsis+linearis&limit=100",
+      "status": 200
+    }
+  ]
+}

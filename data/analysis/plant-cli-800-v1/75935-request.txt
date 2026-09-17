@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":75935,"scientificName":"Callitriche heterophylla","commonName":"Large Water-starwort","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Callitriche heterophylla","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Callitriche heterophylla, commonly called twoheaded water-starwort, is a species of flowering plant in the family Plantaginaceae. It is native to North America, where it found in the north from Greenland to Alaska, south to Mexico. It is widespread in the United States. Its natural habitat is in a wide variety of wetlands, including ponds, streams, and mudflats. It is typically found in areas of still or slow moving water."},{"id":"s1:p2","text":"Callitriche heterophylla is an aquatic plant, growing almost entirely submerged except for its floating stem tips. It produces minutely small flowers throughout the growing season."},{"id":"s1:p3","text":"Taxonomy\nCallitriche heterophylla was scientifically described and named in 1813 by Frederick Traugott Pursh. It is part of the genus Callitriche which is classified in the family Plantaginaceae. According to Plants of the World Online it has eleven heterotypic synonyms."},{"id":"s1:p4","text":" Table of Synonyms\n Name\n Year\n Rank\n Notes\n Callitriche anceps \n 1908\n species"},{"id":"s1:p5","text":" Callitriche asagraei \n 1864\n species"},{"id":"s1:p6","text":" Callitriche bolanderi \n 1868\n species"},{"id":"s1:p7","text":" Callitriche brevifolia \n 1813\n species"},{"id":"s1:p8","text":" Callitriche cruciata \n 1811\n species\n nom. utique rej.\n Callitriche heterophylla subsp. bolanderi \n 1963\n subspecies"},{"id":"s1:p9","text":" Callitriche heterophylla var. bolanderi \n 1951\n variety"},{"id":"s1:p10","text":" Callitriche ovata \n 1811\n species\n nom. utique rej.\n Callitriche palustris var. bolanderi \n 1936\n variety"},{"id":"s1:p11","text":" Callitriche spuria \n 1808\n species\n nom. utique rej.\n Callitriche tuerckheimii \n 1912\n species"}]}]}

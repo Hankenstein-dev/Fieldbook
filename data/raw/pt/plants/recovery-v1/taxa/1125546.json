@@ -1,0 +1,32 @@
+{
+  "taxonId": 1125546,
+  "name": "Fragaria hayatae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:59.427282+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fragaria hayatae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Taiwan Strawberry"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fragaria+hayatae&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fragaria+hayatae&limit=100",
+      "status": 200
+    }
+  ]
+}

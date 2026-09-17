@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 850360,
+    "scientificName": "Rumex tolimensis",
+    "commonName": "Rumex tolimensis",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Rumex tolimensis",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Rumex tolimensis är en slideväxtart som beskrevs av Hugh Algernon Weddell. Rumex tolimensis ingår i släktet skräppor, och familjen slideväxter. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Skräppor\ntolimensis"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Rumex tolimensis Wedd. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Rumex tolimensis Wedd.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Colombia to Peru. It is a perennial and grows primarily in the montane tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/513449f1865d708e336ab97244612077429acfa3b9349da6aa62a9a7b074566a.json",
+      "sha256": "1c396c1125bc5aac5ba9569628938b66c5ca3cc8df49b2a1b1f1b716cd5b15ab",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=56819020",
+      "revisionId": 56819020,
+      "credit": {
+        "title": "Rumex tolimensis",
+        "url": "https://sv.wikipedia.org/wiki/Rumex_tolimensis",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=56819020",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/850360-f2c0010fa1052181.json",
+      "sha256": "f2c0010fa10521817f1d3b0971ae4b911402c9ea9a6989fa391626b36542668b",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A697565-1",
+      "credit": {
+        "title": "Rumex tolimensis Wedd. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A697565-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 850360,
+    "name": "Rumex tolimensis",
+    "language": "sv,en",
+    "sourceTextTokens": 112,
+    "packetTokens": 277,
+    "standaloneInputTextTokens": 729,
+    "packetSha256": "be9da81a8a7cc7080da83f28df7e968f008ee6952edf5680a858ba769911a8bb"
+  }
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":53313,"scientificName":"Trifolium dubium","commonName":"Lesser hop trefoil","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Trifolium dubium","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Trifolium dubium, the lesser trefoil, suckling clover, little hop clover or lesser hop trefoil, is a flowering plant in the pea and clover family Fabaceae. This species is generally accepted as the primary plant to represent the traditional Irish shamrock."},{"id":"s1:p2","text":"It is native to Europe, but can be found in many parts of the world as an introduced species."},{"id":"s1:p3","text":"It is probably an allotetraploid with 2n=32 that arose from the crossing of Trifolium campestre and T. micranthum."},{"id":"s1:p4","text":" Similar plants \nLesser hop trefoil, Trifolium dubium, may be confused with other plants that have three leaflets and small yellow flowers, such as large hop trefoil (T. aureum), hop trefoil (T. campestre), black medick (Medicago lupulina), and yellow woodsorrel (Oxalis stricta)."}]}]}

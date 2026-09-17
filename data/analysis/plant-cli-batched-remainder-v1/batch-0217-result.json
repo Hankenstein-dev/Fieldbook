@@ -1,0 +1,345 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T12:29:42.216768+00:00",
+  "completedAt": "2026-09-14T12:30:33.524890+00:00",
+  "elapsedSeconds": 51.30790044800051,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0217",
+  "taxonIds": [
+    326762,
+    274441,
+    346848,
+    332459,
+    55875,
+    431003,
+    133231,
+    79210,
+    406589,
+    881691
+  ],
+  "usage": {
+    "input_tokens": 14093,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2511,
+    "reasoning_output_tokens": 1552
+  },
+  "requestTextTokens": 6684,
+  "savedOutputTokens": 953,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 326762,
+      "name": "Pilea depressa",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A plant native to the Caribbean.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 274441,
+      "name": "Cylindropuntia tunicata",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering cactus native to the Chihuahuan Desert of North America and parts of South America. In Queensland, Australia, it is an invasive agricultural weed whose long spines can painfully injure people and animals and damage vehicle tyres.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 346848,
+      "name": "Chrysanthemum indicum",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant of unspecified native origin. It usually blooms from August to October with yellow or white flowers and yellow pollen. Its flower heads, flowers, young leaves and petals are eaten after preparations including pickling, brewing, cooking or blanching.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Flower heads are pickled in vinegar; flowers make tea, young leaves are steeped or cooked, and petals are blanched for dishes.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p7"
+          ],
+          "humanEdibility": [
+            "s1:p7"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 332459,
+      "name": "Zanthoxylum piperitum",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An aromatic, spiny deciduous shrub or small tree native to Japan and Korea; its natural range also includes mainland China. Its scarlet berries burst open in autumn to scatter black seeds. Young leaves and ground or prepared fruits are used as flavorings in Japanese and Korean cooking.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Mature fruits are ground as spice; immature berries are blanched, salted or simmered, while young leaves, shoots and male flowers are eaten in Japan and Korea.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p9",
+            "s1:p12",
+            "s1:p21",
+            "s1:p22",
+            "s1:p23",
+            "s1:p29",
+            "s1:p30"
+          ],
+          "humanEdibility": [
+            "s1:p3",
+            "s1:p12",
+            "s1:p21",
+            "s1:p22",
+            "s1:p23",
+            "s1:p29",
+            "s1:p30"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 55875,
+      "name": "Crocus tommasinianus",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A perennial flowering plant native to Bulgaria, Hungary, Albania and the former Yugoslavia. Among the first crocuses to bloom, it bears slender flowers ranging from pale silvery lilac to reddish purple, although one variant is white.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 431003,
+      "name": "Euphorbia flanaganii",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A succulent endemic to South Africa, particularly the east-central and southeastern Cape Provinces and southern KwaZulu-Natal. It has snake-like horizontal branches, a swollen underground stem, photosynthetic modified stems and needle-like leaves.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 133231,
+      "name": "Verbascum lychnitis",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A biennial or short-lived perennial flowering plant native to Asia and Europe. Despite its common name, its flowers may be white or yellow. Its stem leaves differ in colour and hairiness between their upper and lower surfaces, with the underside much hairier.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 79210,
+      "name": "Stenotaphrum secundatum",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering grass of unspecified native origin, introduced in mainland Portugal, the Azores and Madeira.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 406589,
+      "name": "Tradescantia cerinthoides",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant native to an area extending from southeastern Brazil to northeastern Argentina. Its pink-tipped white flowers and green-purple foliage make it attractive to gardeners, but it can become invasive where grown as an ornamental.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:29:42.216768+00:00",
+      "completedAt": "2026-09-14T12:30:33.524890+00:00",
+      "elapsedSeconds": 51.30790044800051,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 881691,
+      "name": "Convolvulus humilis",
+      "batchId": "batch-0217",
+      "usage": null,
+      "usageRef": "batch-0217-result.json",
+      "rawOutputFile": "batch-0217-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

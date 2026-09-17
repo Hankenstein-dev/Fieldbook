@@ -1,0 +1,71 @@
+{
+  "taxonId": 538972,
+  "name": "Salvia clandestina",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:48.212897+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Salvia clandestina L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Del Carratore & al. in Pl. Biosystems 132: 174, f. 4. 1998): [icon] \" Horminum syl. inciso folio, caesio flore, Ital. \" in Barrelier, Pl. Galliam: 24, t. 220. 1714.\n\n\" Habitat in Italia. \" RCN: 200.\n\nNote: Codd (in Leistner, Fl. Southern Africa 28 (4): 97. 1985) indicated material at LINN (conceivably only 42.23) as holotype. However, this material conflicts with the protologue in several ways and also is identifiable as S. lanigera Poiret. Del Carratore & al. therefore rejected this type choice in favour of the Barrelier plate. They also recognise S. clandestina as a species distinct from S. verbenaca L., in contrast to many other authors.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7746080.json",
+      "sha256": "3a02abd30ded04ba47915368f9d877e1e6cb38be73c9a50114beef8bb355e6e2",
+      "url": "https://api.gbif.org/v1/species/7746080",
+      "credit": {
+        "title": "Salvia clandestina L.",
+        "url": "https://www.gbif.org/species/7746080",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Salvia clandestina Linnaeus 1762",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Note: Codd (in Leistner, Fl. Southern Africa 28 (4): 97. 1985) indicated material at LINN (conceivably only 42.23) as holotype. However, this material conflicts with the protologue in several ways and also is identifiable as S. lanigera Poiret. Del Carratore & al. therefore rejected this type choice in favour of the Barrelier plate. They also recognise S. clandestina as a species distinct from S. verbenaca L., in contrast to many other authors.\n\n\" Habitat in Italia. \" RCN: 200.\n\nLectotype (Del Carratore & al. in Pl. Biosystems 132: 174, f. 4. 1998): [icon] \" Horminum syl. inciso folio, caesio flore, Ital. \" in Barrelier, Pl. Galliam: 24, t. 220. 1714.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164016840.json",
+      "sha256": "58583879c6f7bf355dc07823fc5444989e4feaaaf16f5212e477adfb987371ef",
+      "url": "https://api.gbif.org/v1/species/164016840",
+      "credit": {
+        "title": "Salvia clandestina Linnaeus 1762",
+        "url": "https://www.gbif.org/species/164016840",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/e43e60fca16723c973737966a865abfb146afb03b9090d5605432d38010b15f5.json",
+      "title": "Salvia verbenaca",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Salvia clandestina"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tyrrhenian Wild Clary"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Salvia+clandestina&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Salvia+clandestina&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "input": {
+    "taxonId": 291504,
+    "scientificName": "Mimosa candollei",
+    "commonName": "Mimosa candollei",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Mimosa candollei R.Grether",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Considered as M. quadrivalvis var. leptocarpa by Barneby (1991), but segregated as a distinct species by Grether (2000). None of the other infraspecific taxa assigned to M. quadrivalvis by Barneby (1991) occur in Bolivia. Mimosa candollei is a widespread and weedy ruderal along roadsides and in abandoned pastures across much of seasonally dry South America."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Mimosa candollei R.Grether — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Mimosa candollei R.Grether."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is S. Mexico to Tropical America. It is a subshrub or climbing shrub and grows primarily in the seasonally dry tropical biome. It is used as a medicine."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2969714.json",
+      "sha256": "30b46c1f5bef99a3e18caa17ef5ac783e496917e973696288ec076831eb192e7",
+      "url": "https://api.gbif.org/v1/species/2969714",
+      "credit": {
+        "title": "Mimosa candollei R.Grether",
+        "url": "https://www.gbif.org/species/2969714",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/291504-15a65e8d482feab9.json",
+      "sha256": "15a65e8d482feab9d6f273c6cb164336c7b82fddfdd13a86067191c5765d5d08",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1014032-1",
+      "credit": {
+        "title": "Mimosa candollei R.Grether — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1014032-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 291504,
+    "name": "Mimosa candollei",
+    "language": "unspecified,en",
+    "sourceTextTokens": 150,
+    "packetTokens": 305,
+    "standaloneInputTextTokens": 757,
+    "packetSha256": "bd4645bc668251aef04f660d7d2d801b320681dfcf6b43a32098923c28e47782"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "taxonId": 461349,
+  "name": "Riccia atromarginata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:34.690937+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riccia atromarginata Levier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941): Mechouneche dans les Ziban. Jelenc (1955 a): Aurès, M’chounech; Oran. Chevassut & Quézel (1956): Forêt de Pins d’Alep de Saint-Ferdinand; La Réghaïa. Jelenc (1951, 1967): Haute-Plaine de Tlemcen, collines de Bréa. Jovet-Ast (1986), Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098650.json",
+      "sha256": "3fb2b2231f1b4919feb659ee109646453e3b733e3d6f8a69f23345ed774dafe8",
+      "url": "https://api.gbif.org/v1/species/251098650",
+      "credit": {
+        "title": "Riccia atromarginata Levier",
+        "url": "https://www.gbif.org/species/251098650",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Riccia atromarginata Levier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941): Mechouneche dans les Ziban. Jelenc (1955 a): Aurès, M’chounech; Oran. Chevassut & Quézel (1956): Forêt de Pins d’Alep de Saint-Ferdinand; La Réghaïa. Jelenc (1951, 1967): Haute-Plaine de Tlemcen, collines de Bréa. Jovet-Ast (1986), Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7999478.json",
+      "sha256": "e0342c84abd7ef2d0cbe7f6ab93b96f4fa7acd49eefec5dd05bae0748f11d9c0",
+      "url": "https://api.gbif.org/v1/species/7999478",
+      "credit": {
+        "title": "Riccia atromarginata Levier",
+        "url": "https://www.gbif.org/species/7999478",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riccia+atromarginata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riccia+atromarginata&limit=100",
+      "status": 200
+    }
+  ]
+}

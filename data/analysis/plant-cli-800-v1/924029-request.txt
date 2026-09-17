@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":924029,"scientificName":"Berberis oiwakensis","commonName":"Mountain Grape","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Berberis oiwakensis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Berberis oiwakensis is a species of plant in the barberry family, Berberidaceae. It is native to Taiwan, China (Guizhou, Hong Kong, Sichuan, Xizang (Tibet) and Yunnan) and Myanmar, where it occurs at elevations of 600 to 3800 m. It has recently been found naturalized in South Africa."},{"id":"s1:p2","text":" Description \nBerberis oiwakensis is a shrub or tree up to 7 m tall. Leaves are up to 45 cm long, compound with 12-20 pairs of leaflets plus a larger terminal one, dark green above, yellow-green below. The inflorescence is a fascicled raceme up to 25 cm long. The berries are egg-shaped, dark blue, sometimes almost black, up to 8 mm long."},{"id":"s1:p3","text":" Taxonomy \nBerberis oiwakensis was first scientifically described and named Mahonia oiwakensis by Bunzō Hayata in 1916. One year later Hisayoshi Takeda described a species that he named Mahonia lomariifolia. Under that name, it was considered to occur only in mainland China, while Mahonia oiwakensis was limited to Taiwan. Modern taxonomic sources unite the two as a single species with priority going to the first description. Because of differences between the Taiwanese and mainland Chinese plants, Julian Shaw described them as separate subspecies of Mahonia oiwakensis in 2011. However, this has not yet been accepted by the majority of botanists. In addition, there has been a longstanding disagreement on if Mahonia should be more properly classified as a synonym of Berberis. A paper was published by Joseph Edward Laferrière in 1997 summarized the arguments in favor of classification in Berberis and published a new name for the species, Berberis oiwakensis. As of 2023, this is the most widely accepted classification."},{"id":"s1:p4","text":" Hybrids \nBerberis oiwakensis is one parent of the important garden hybrid Berberis × hortensis, which includes popular cultivars such as 'Charity', 'Winter Sun' and 'Lionel Fortescue' (the other parent is Berberis japonica). It is also a parent of the cultivar 'Arthur Menzies', though with Berberis bealei as the other parent. In the wild in Taiwan, Berberis oiwakensis appears to hybridize with wild Berberis japonica."},{"id":"s1:p5","text":"Berberis oiwakensis subsp. lomariifolia has gained the Royal Horticultural Society's Award of Garden Merit."}]}]}

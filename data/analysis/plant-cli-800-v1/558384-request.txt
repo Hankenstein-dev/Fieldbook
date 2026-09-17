@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":558384,"scientificName":"Nematanthus gregarius","commonName":"goldfish plant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Nematanthus gregarius","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Nematanthus gregarius, also called the clog plant or goldfish plant, is a species of flowering plant from Brazil in the gesneriad family, Gesneriaceae, making it a relative of such genera as Streptocarpus (African violets) and Aeschynanthus (lipstick plants)."},{"id":"s1:p2","text":"Description\nGrowing to {{convert|0.5|m|ft|abbr=on}} tall by {{convert|1|m|ft|abbr=on}} broad, in its native habitat, N. gregarius is an epiphytic (tree-climbing) perennial subshrub with small and fleshy, usually waxy and shiny, dark green leaves, with brilliant-orange, tubular flowers appearing in the summer. The flowers vaguely resemble clogs or rotund goldfish in shape and color, hence the common names; some gardeners have nicknamed it the \"guppy plant\", as well as \"garibaldi plant\" or \"garibaldi flower\" due to its resemblance of the marine fish species Hypsypops rubicundus, the California garibaldi."},{"id":"s1:p3","text":"Nematanthus gregarius reproduces sexually and spreads by producing small orange colored fruits. "},{"id":"s1:p4","text":"Cultivation\nAs it does not tolerate temperatures below {{convert|10|C|F|abbr=on}}, in temperate zones, this plant requires the protection of glass, greenhouses, or must be kept as a houseplant during the colder months, preferably near a bright southern window, but not placed directly in full sunlight for extended periods as the foliage may burn. It is often kept permanently as a houseplant, in hanging baskets which highlight its trailing habit. In appropriate environments, such as Florida, Hawaii, or Southern California, N. gregarius may be seen in outdoor gardening and landscaping projects. This plant is readily propagated and reproduced commercially via vegetative reproduction."},{"id":"s1:p5","text":"Nematanthus gregarius has received the Royal Horticultural Society's Award of Garden Merit."}]}]}

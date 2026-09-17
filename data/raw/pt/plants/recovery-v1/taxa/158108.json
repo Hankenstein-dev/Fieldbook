@@ -1,0 +1,47 @@
+{
+  "taxonId": 158108,
+  "name": "Ageratina havanensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:41.711821+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ageratina havanensis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Ageratina havanensis, the Havana snakeroot or white mistflower, is a species of flowering shrub in the family Asteraceae, native to the south-western United States (Texas), Cuba, and north-eastern and east-central Mexico (Veracruz, Tamaulipas, Coahuila, Nuevo León, Hidalgo, San Luis Potosí, Puebla, Guanajuato, Querétaro). Unlike many other species of Ageratina, it is evergreen.\n\nEtymology\nAgeratina is derived from Greek meaning 'un-aging', in reference to the flowers keeping their color for a long time. This name was used by Dioscorides for a number of different plants.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/09d0355c738d86e9bdb797720c38dfdde03ce98855b6e3bd80060dec2c7e3b34.json",
+      "sha256": "b171e1f0b2002b8976283e856ccce6f15858d8b9287e112994081df6cda1eba8",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1206116233",
+      "revisionId": 1206116233,
+      "credit": {
+        "title": "Ageratina havanensis",
+        "url": "https://en.wikipedia.org/wiki/Ageratina_havanensis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1206116233",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ageratina havanensis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ageratina+havanensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ageratina+havanensis&limit=100",
+      "status": 200
+    }
+  ]
+}

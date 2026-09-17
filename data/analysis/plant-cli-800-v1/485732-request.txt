@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":485732,"scientificName":"Bellevalia trifoliata","commonName":"Three-leaved Hyacinth","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lista Vermelha da Flora Vascular de Portugal Continental — Bellevalia trifoliata","language":"unspecified","scope":"Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.","passages":[{"id":"s1:p1","text":"Bellevalia trifoliata é uma planta bolbosa, que habita em olivais tradicionais de sequeiro e pousios em solos básicos. É conhecida apenas em dois núcleos populacionais, um com 15 indivíduos, em Beja, o outro com poucas dezenas, em Beringel. A população portuguesa representa um extraordinário isolado populacional, a 1300 km de distância da subpopulação mais próxima, em França. É avaliada como Criticamente em Perigo porque a população nacional tem menos de 250 indivíduos maduros, infere-se e projeta-se um declínio populacional a partir do declínio observado da área e qualidade do habitat (em particular na região de Beja e de Beringel, onde a planta ocorre), e todos os indivíduos estão numa só subpopulação. A ameaça mais grave é a intensificação agrícola em larga escala decorrente da exploração do Empreendimento de Fins Múltiplos de Alqueva, que tem conduzido à substituição dos sistemas extensivos de sequeiro por culturas intensivas de regadio, em particular na envolvente do maior núcleo. Realça-se que em 2018 várias parcelas de olival, incluindo uma em que a planta ocorre, foram eliminadas. Para a sua conservação, é urgente designar uma área protegida que inclua a mancha de olivais onde se localiza o maior núcleo (a qual tem também outras espécies ameaçadas), que deve vir a integrar uma rede mais abrangente de conservação de habitats arvenses de sequeiro. Deve prosseguir-se a prospeção desta planta, em particular nos campos de sequeiro nas imediações do núcleo populacional de Beja, no sentido de encontrar outras parcelas candidatas a integrarem esta rede."}]}]}

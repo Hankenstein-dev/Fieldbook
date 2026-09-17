@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":889195,"scientificName":"Filago pyramidata","commonName":"broadleaf cottonrose","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Filago pyramidata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Filago pyramidata, the broadleaf cottonrose or broad-leaved cudweed, is a European plant species in the family Asteraceae. It is native to the Mediterranean region of southern Europe, northern Africa, and the Middle East, plus Great Britain, the Low Countries, and Germany. It is also naturalized in scattered locations in North America (British Columbia, Oregon, California) and Australia (South Australia, Victoria), Pakistan, and other places."},{"id":"s1:p2","text":"Filago pyramidata is an annual plant up to {{cvt|30|cm|in|abbr=on}} tall, covered with woolly hairs. It produces flower heads in dense clumps of 8-16 heads, each containing several small flowers."}]}]}

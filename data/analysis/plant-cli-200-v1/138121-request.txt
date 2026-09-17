@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":138121,"scientificName":"Asplenium hemionitis","commonName":"ivy fern","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Asplenium hemionitis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Asplenium hemionitis is a species of fern native to Macaronesia, Northwest Africa and mainland Portugal. It inhabits humid woods and other shady areas, sometimes in uncovered slopes subject to high ocean humidity."},{"id":"s1:p2","text":"Two subspecies are accepted.\nAsplenium hemionitis var. hemionitis – Algeria, Azores, Canary Islands, Cape Verde Islands, Madeira, Morocco, and Portugal\nAsplenium hemionitis var. longilobatum {{small|G.Kunkel}} – Canary Islands (La Gomera)"},{"id":"s1:p3","text":"Linnaeus was the first to describe the species with the binomial Asplenium hemionitis in his Species Plantarum of 1753."}]},{"id":"s2","title":"Lista Vermelha da Flora Vascular de Portugal Continental — Asplenium hemionitis","language":"unspecified","scope":"Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.","passages":[{"id":"s2:p1","text":"Asplenium hemionitis é um feto endémico das ilhas macaronésias, do Norte de África e de Portugal, que ocorre em locais sombrios e abrigados, associado a rochedos graníticos ou basálticos, fendas de muros e de paredes musgosas e taludes. Toda a população de Portugal continental está atualmente restrita à serra de Sintra e ao cabo da Roca. Esta planta é avaliada como Em Perigo por apresentar uma extensão de ocorrência e uma área de ocupação muito reduzidas (apenas 52 km 2), por se identificarem apenas cinco localizações e por se observar um declínio continuado do tamanho da população e da área e qualidade do seuhabitat. A maior parte dos núcleos populacionais encontra-se nos parques históricos de Sintra e em quintas, tendo sofrido importantes reduções populacionais, incluindo extinção de alguns núcleos, devido à limpeza e à reconstrução de muros, à beneficiação de caminhos e à limpeza de mato nos muros velhos, fontes e taludes sombrios. Estas pressões continuam a atuar, pelo que é urgente evitar este tipo de ações através do reforço da legislação. Em alguns casos, pode também ser importante controlar as espécies invasoras. Além disso, é importante continuar os trabalhos de restauro de habitat e de reforço dos núcleos populacionais existentes, que deverão ser acompanhados por monitorização, de forma a assegurar a sobrevivência desta espécie em Portugal continental."}]}]}

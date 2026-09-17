@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":64318,"scientificName":"Cistus creticus","commonName":"Hoary Rock-rose","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cistus creticus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Cistus creticus (pink rock-rose, hoary rock-rose) is a species of shrubby plant in the family Cistaceae. Though it usually has pink flowers, of {{Convert|4.5-5|cm|abbr=on}} diameter, this species is very variable. It is widely known as a decorative plant. It is frequently called \"Cistus incanus\". (The true Cistus × incanus is the hybrid C. albidus × C. crispus.)"},{"id":"s1:p2","text":"It is native to the central and eastern Mediterranean Basin, including Morocco, Corsica and Sardinia, Italy and southeastern Europe, Turkey, and the Levant."},{"id":"s1:p3","text":"Taxonomy\nThe name Cistus creticus was first used by Carl Linnaeus in 1762. Confusion exists between this name and one published earlier by Linnaeus, Cistus incanus. As used by many authors, but not Linnaeus, the name \"C. incanus\" is taken to refer to Cistus creticus, particularly C. creticus subsp. eriocephalus."},{"id":"s1:p4","text":"Subspecies\nTwo subspecies are accepted.\nCistus creticus subsp. creticus – central and eastern Mediterranean Basin\nCistus creticus subsp. trabutii {{small|(Maire) Dobignard}} – Morocco"},{"id":"s1:p5","text":"There are also several well-known cultivars, such as 'Lasithi' with compact, rounded flowers."},{"id":"s1:p6","text":"Phylogeny\nCistus creticus belongs to the clade of species with purple and pink flowers (the \"purple pink clade\" or PPC), in a subclade with C. heterophyllus and C. albidus."},{"id":"s1:p7","text":"{{cladogram\n |title=Species-level cladogram of ''Cistus'' species.\n |caption=Species-level cladogram of ''Cistus'' species, based on plastid and nuclear DNA sequences\n |align=center\n |clades={{Cladogram of Cistus species}}\n}}"}]}]}

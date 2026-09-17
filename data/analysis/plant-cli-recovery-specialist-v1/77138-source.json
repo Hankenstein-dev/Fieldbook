@@ -1,0 +1,50 @@
+{
+  "input": {
+    "taxonId": 77138,
+    "scientificName": "Festuca microstachys",
+    "commonName": "small fescue",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Festuca microstachys Nutt. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Plants of the World Online account: Festuca microstachys Nutt.."
+          },
+          {
+            "id": "s1:p2",
+            "text": "The native range of this species is W. Canada to NW. Mexico, Guadalupe, Peru. It is an annual and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/77138-6f527a04ab86de98.json",
+      "sha256": "6f527a04ab86de989db8fd7a7d3afba77cbeb22edeb49900cf64f919a5956035",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A403088-1",
+      "credit": {
+        "title": "Festuca microstachys Nutt. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A403088-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 77138,
+    "name": "Festuca microstachys",
+    "language": "en",
+    "sourceTextTokens": 48,
+    "packetTokens": 153,
+    "standaloneInputTextTokens": 605,
+    "packetSha256": "154f289ba499e8f983002ae4c8ff46419f8a72e204b772e6e5b88a46abc6e8bd"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "taxonId": 1600687,
+  "name": "Riverina rivularis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:38.227538+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/7b8848c30a9ea0b064f23e7707af1ebe8bb9e90c1e2654861f24de13a9cfc2f3.json",
+      "title": "Hildenbrandia rivularis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riverina+rivularis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riverina+rivularis&limit=100",
+      "status": 200
+    }
+  ]
+}

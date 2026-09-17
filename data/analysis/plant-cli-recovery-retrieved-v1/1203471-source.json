@@ -1,0 +1,50 @@
+{
+  "input": {
+    "taxonId": 1203471,
+    "scientificName": "Coleus paniculatus",
+    "commonName": "Candle-plant",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Coleus paniculatus Benth. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Plants of the World Online account: Coleus paniculatus Benth.."
+          },
+          {
+            "id": "s1:p2",
+            "text": "The native range of this species is S. India to S. Indo-China. It is a shrub and grows primarily in the wet tropical biome. It is has social uses."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1203471-01c6f4b5487d45ed.json",
+      "sha256": "01c6f4b5487d45ed5942b4919438b3da1f9085a7818b377938351093ff74e599",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A446113-1",
+      "credit": {
+        "title": "Coleus paniculatus Benth. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A446113-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1203471,
+    "name": "Coleus paniculatus",
+    "language": "en",
+    "sourceTextTokens": 50,
+    "packetTokens": 154,
+    "standaloneInputTextTokens": 606,
+    "packetSha256": "9ef2336b0baee6dab54ac88c87f2e1118281e201efadd687adb6bbafaeded1dd"
+  }
+}

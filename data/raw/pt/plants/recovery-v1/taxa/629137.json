@@ -1,0 +1,28 @@
+{
+  "taxonId": 629137,
+  "name": "Vallisneria nana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:33.410074+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/2c039ed48371a7761f889ac5c45abe93456d6e090fefe1128d0a4a287b9e8f67.json",
+      "title": "Vallisneria",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vallisneria+nana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vallisneria+nana&limit=100",
+      "status": 200
+    }
+  ]
+}

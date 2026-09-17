@@ -1,0 +1,74 @@
+{
+  "taxonId": 517690,
+  "name": "Ranunculus nodiflorus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:43.787117+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ranunculus nodiflorus",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Ranunculus nodiflorus''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Ranunculales]]\n| família = [[Ranunculaceae]]\n| género = ''[[Ranunculus]]''\n| espécie = '''''R. nodiflorus'''''\n| binomial = ''Ranunculus nodiflorus''\n| binomial_autoridade = L.\n}}\nRanunculus nodiflorus é uma espécie de planta com flor pertencente à família Ranunculaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 1: 549. 1753.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/9fa44d5a09406e18aed048f9feadb5125d562d61fedc95dde35bc63dcd2d3f74.json",
+      "sha256": "8970f555d38be6caf471d34e27c01985db8e9b96175c164d67fefb06e1819e85",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=64612227",
+      "revisionId": 64612227,
+      "credit": {
+        "title": "Ranunculus nodiflorus",
+        "url": "https://pt.wikipedia.org/wiki/Ranunculus_nodiflorus",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=64612227",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Ranunculus nodiflorus L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Baldini in Jarvis & al. in Taxon 54: 470. 2005): Herb. Clifford: 228, Ranunculus 4 (BM- 000628880).\n\n\" Habitat Parisiis & in Siciliae locis paludosis. \" RCN: 4063.\n\nHabitat Parisiis & in Siciliae locis paludosis.\n\n4. Ranunculus foliis ovatis petiolatis, floribus sessilibus. Hort. cliff. 229. Dalib. paris. 164. Ranunculus parisiensis pumilus, plantaginellae folio. Pet. gaz. 40. t. 25. f. 4. Vaill. act. 1719. p. 52. t. 4. f. 4. β. Ranunculus siculus, folio rotundo vix serrato. Pet. gaz. 39. t. 24. f. 9.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3920851.json",
+      "sha256": "a76038caefd8e9e6a610f352405c7dda591b5cc1a995e829557f6e5919baea72",
+      "url": "https://api.gbif.org/v1/species/3920851",
+      "credit": {
+        "title": "Ranunculus nodiflorus L.",
+        "url": "https://www.gbif.org/species/3920851",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Ranunculus nodiflorus Linnaeus 1753",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "\" Habitat Parisiis & in Siciliae locis paludosis. \" RCN: 4063.\n\nLectotype (Baldini in Jarvis & al. in Taxon 54: 470. 2005): Herb. Clifford: 228, Ranunculus 4 (BM- 000628880).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164014873.json",
+      "sha256": "a3d301875803eeb83585bfb3be9b2c29bb7a7fddb135d340f3dd287dcdf3e34e",
+      "url": "https://api.gbif.org/v1/species/164014873",
+      "credit": {
+        "title": "Ranunculus nodiflorus Linnaeus 1753",
+        "url": "https://www.gbif.org/species/164014873",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ranunculus+nodiflorus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ranunculus+nodiflorus&limit=100",
+      "status": 200
+    }
+  ]
+}

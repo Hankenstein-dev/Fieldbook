@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":279210,"scientificName":"Celtis tala","commonName":"Desert Hackberry","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Celtis tala","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{More citations needed|date=August 2026}}"},{"id":"s1:p2","text":"Celtis tala, known as tala, is a medium size deciduous tree, native to tropical and subtropical South America. With small to medium-sized spines, its one of the main components of the Gran Chaco prairies and certain areas of the Argentinian pampa."},{"id":"s1:p3","text":"Morphology\nThe tala is a medium to large sized tree, sometimes reaching 12m high. According to water availability it may become arboreus or shrubby. It prefers dry or slightly moist, well drained soil. When arboreus the trunk is rather tortuous, nearing 40 cm in diameter. When shrubby, it produces several branched trunks of 20 cm in diameter. Its bark is light colored, gray to brown. The Tala tends to branch abundantly, producing a dense mesh of branches in zigzag patterns, with strong spines in the foliar axis, 1,5 or more, cm long."},{"id":"s1:p4","text":"The leaves are alternate, petiolate and simple, their base rounded and the margin serrated in the apical region. Leaves are trinervate, acuminate, of a dark green colour. This tree flowers in spring, producing inconspicuous yellowish pentamerous flowers. Since it presents hermaphrodite flowers, it is self-fertile. Tala fruit is a small drupe, 1 cm wide that hangs in short clusters. Not very fleshy and with a proportionally large seed within, it is however very sweet and pleasant to the taste."},{"id":"s1:p5","text":"Usage\nThough edible by humans there is no market or habit of consumption, and these fruits are mostly eaten by birds and several insect species.\nIt is appreciated by wood workers since its wood is tough and rather heavy. It produces excellent wood fuel. The tala has a rather small trunk, which can only be used for small carved objects. It is used for the handles of hand tools and for small crafts."}]}]}

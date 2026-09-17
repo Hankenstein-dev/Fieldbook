@@ -1,0 +1,43 @@
+{
+  "taxonId": 118814,
+  "name": "Atriplex portulacoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:56.334713+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e93610f4389ec7569af8f3e8570d1737fea370d79061dd704aa0f3552a57b707.json",
+      "title": "Halimione portulacoides",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/225fb00255a6f32609fd8d1196ce6d2136753f209c8516243ea14cd82292d358.json",
+      "title": "Halimione portulacoides",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Atriplex portulacoides"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sea-purslane"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Atriplex+portulacoides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Atriplex+portulacoides&limit=100",
+      "status": 200
+    }
+  ]
+}

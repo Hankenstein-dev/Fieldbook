@@ -1,0 +1,42 @@
+{
+  "taxonId": 544395,
+  "name": "Cymbidium floribundum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:49.966254+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cymbidium floribundum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Cymbidium floribundum, the yellow margin orchid, golden leaf-edge orchid or golden-edged orchid, is a species of orchid.\n\n3-Hydroxyoctanoic acid is a signalling chemical emitted by C. floribundum and recognized by Japanese honeybees (Apis cerana japonica).",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/20120a1952f96c302d50f95cb46fa04208ff7dc0e8cd421f3302bacc3666262c.json",
+      "sha256": "fa5c2065b528bc3e0bc1061d6db025eab892f58c2d6765eea0b12e873600a52f",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1176435734",
+      "revisionId": 1176435734,
+      "credit": {
+        "title": "Cymbidium floribundum",
+        "url": "https://en.wikipedia.org/wiki/Cymbidium_floribundum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1176435734",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cymbidium+floribundum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cymbidium+floribundum&limit=100",
+      "status": 200
+    }
+  ]
+}

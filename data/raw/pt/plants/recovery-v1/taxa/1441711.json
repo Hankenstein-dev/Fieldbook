@@ -1,0 +1,32 @@
+{
+  "taxonId": 1441711,
+  "name": "Passiflora manicata × tarminiana",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:33.344989+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Passiflora manicata × tarminiana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Passiflora 'Coral Glow'"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Passiflora+manicata+%C3%97+tarminiana&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Passiflora+manicata+%C3%97+tarminiana&limit=100",
+      "status": 200
+    }
+  ]
+}

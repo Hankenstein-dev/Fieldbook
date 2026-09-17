@@ -1,0 +1,58 @@
+{
+  "taxonId": 570628,
+  "name": "Neoregelia carcharodon",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:58.637841+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Neoregelia carcharodon",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Neoregelia carcharodon is a species of flowering plant in the genus Neoregelia. It is endemic to Brazil.\n\nCultivars\n{{Div col}}\n Neoregelia 'Arching Star'\n Neoregelia 'Bang'\n Neoregelia 'Big Bang'\n Neoregelia 'Blast Furnace'\n Neoregelia 'Blue Shark'\n Neoregelia 'Bobbie Hull'\n Neoregelia 'Can Can'\n Neoregelia 'Cauldera'\n Neoregelia 'Crater'\n Neoregelia 'Grey Nurse'\n Neoregelia 'Gummy'\n Neoregelia 'Hilda Ariza'\n Neoregelia 'Jaws'\n Neoregelia 'Jaws Too'\n Neoregelia 'Pink on Black'\n Neoregelia 'Raspberry Ripple'\n Neoregelia 'Rouge'\n Neoregelia 'Ruby Frost'\n Neoregelia 'Scarlet Imp'\n Neoregelia 'Triffid'\n Neoregelia 'White Ribbons'\n Neoregelia 'Wobbegong'\n Neoregelia 'Yang'\n Neoregelia 'Yin'\n{{Div col end}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1b7e6f12300f1c8ebe3e7f2c0674a7da38b9f09544efef126ca26c77c53734b0.json",
+      "sha256": "de9ed8c0f91bb09ea8c54675cba4c8ac26af430ec5f88cf5b74c4ddfd73b7e92",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1359570011",
+      "revisionId": 1359570011,
+      "credit": {
+        "title": "Neoregelia carcharodon",
+        "url": "https://en.wikipedia.org/wiki/Neoregelia_carcharodon",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1359570011",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Neoregelia carcharodon (Baker) L.B.Smith",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Neoregelia carcharodon is a species in the genus Neoregelia. This species is endemic to Brazil.\n\nNeoregelia 'Arching Star' Neoregelia 'Bang' Neoregelia 'Big Bang' Neoregelia 'Blast Furnace' Neoregelia 'Blue Shark' Neoregelia 'Bobbie Hull' Neoregelia 'Can Can' Neoregelia 'Cauldera' Neoregelia 'Crater' Neoregelia 'Grey Nurse' Neoregelia 'Gummy' Neoregelia 'Hilda Ariza' Neoregelia 'Jaws' Neoregelia 'Jaws Too' Neoregelia 'Pink on Black' Neoregelia 'Raspberry Ripple' Neoregelia 'Rouge' Neoregelia 'Ruby Frost' Neoregelia 'Scarlet Imp' Neoregelia 'Triffid' Neoregelia 'White Ribbons' Neoregelia 'Wobbegong' Neoregelia 'Yang' Neoregelia 'Yin'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165587387.json",
+      "sha256": "4f21561a9a177a90c60c85a79afab699a28c176e93ce070641927445b10c3c1f",
+      "url": "https://api.gbif.org/v1/species/165587387",
+      "credit": {
+        "title": "Neoregelia carcharodon (Baker) L.B.Smith",
+        "url": "https://www.gbif.org/species/165587387",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Neoregelia+carcharodon&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Neoregelia+carcharodon&limit=100",
+      "status": 200
+    }
+  ]
+}

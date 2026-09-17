@@ -1,0 +1,47 @@
+{
+  "taxonId": 425471,
+  "name": "Ceropegia linearis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:04.254320+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ceropegia linearis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Ceropegia linearis, also known as string-of-needles,{{cn|date=October 2024}} is a species of flowering plant in the family Apocynaceae, native to Southern Africa. The popular houseplant Ceropegia woodii is sometimes treated as a subspecies of C. linearis, as C. linearis subsp. woodii. It has gained the Royal Horticultural Society's Award of Garden Merit.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/35723d7c46beff4a17f1d4292091888452bce8432f1756d60539b4c4200beec8.json",
+      "sha256": "9d74285a4c07e463386d744c07676e746fea79d4d199d9eb41800734fa1e427e",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1360303235",
+      "revisionId": 1360303235,
+      "credit": {
+        "title": "Ceropegia linearis",
+        "url": "https://en.wikipedia.org/wiki/Ceropegia_linearis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1360303235",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ceropegia linearis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ceropegia+linearis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ceropegia+linearis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "taxonId": 1252712,
+  "name": "Pentanema montanum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:42.206743+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pentanema montanum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Mountain Inula"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pentanema+montanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pentanema+montanum&limit=100",
+      "status": 200
+    }
+  ]
+}

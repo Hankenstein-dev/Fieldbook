@@ -1,0 +1,38 @@
+{
+  "taxonId": 170720,
+  "name": "Equisetum × litorale",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:34.001887+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/8869e771bdc121dba3d1d616bf9caea245d89c0e6caf034bef44e54842a4ac81.json",
+      "title": "Ufer-Schachtelhalm",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Equisetum × litorale"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "shore horsetail"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Equisetum+%C3%97+litorale&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Equisetum+%C3%97+litorale&limit=100",
+      "status": 200
+    }
+  ]
+}

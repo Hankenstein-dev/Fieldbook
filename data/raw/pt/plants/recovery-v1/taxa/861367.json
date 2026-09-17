@@ -1,0 +1,42 @@
+{
+  "taxonId": 861367,
+  "name": "Scrophularia racemosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:49.907109+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Scrophularia racemosa",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Scrophularia racemosa''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Scrophularia]]''\n| espécie = '''''S. racemosa'''''\n| binomial = ''Scrophularia racemosa''\n| binomial_autoridade = Lowe\n}}\nScrophularia racemosa é uma espécie de planta com flor pertencente à família Scrophulariaceae. \n\nA autoridade científica da espécie é Lowe, tendo sido publicada em Trans. Cambridge Philos. Soc. iv. (1831) 20..\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/baa74d351a6e42a59a59478664050b156db13c95ed0e0fb7e8daf46afc0e4f5c.json",
+      "sha256": "8d13d1422606a43068535374a7c3243f2a7c0948b57c0724dd3faa66fe0dcf30",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40389622",
+      "revisionId": 40389622,
+      "credit": {
+        "title": "Scrophularia racemosa",
+        "url": "https://pt.wikipedia.org/wiki/Scrophularia_racemosa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40389622",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Scrophularia+racemosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Scrophularia+racemosa&limit=100",
+      "status": 200
+    }
+  ]
+}

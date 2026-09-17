@@ -1,0 +1,120 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "count": 9,
+  "taxonIds": [
+    212117,
+    276089,
+    343018,
+    479849,
+    496467,
+    519248,
+    543569,
+    575712,
+    882421
+  ],
+  "batchSize": 10,
+  "timeoutSeconds": 300,
+  "promptSha256": "f8783051f00b663918ee82690a2413f4356dc634c28889ed58bc3f316caa3032",
+  "preparedAt": "2026-09-15T18:01:13.465771+00:00",
+  "purpose": "Recover actual blank cards and explicitly selected source-enriched short cards; all supplied ranks",
+  "taxa": [
+    {
+      "taxonId": 212117,
+      "name": "Fedia",
+      "language": "fr",
+      "sourceTextTokens": 432,
+      "packetTokens": 573,
+      "standaloneInputTextTokens": 1025,
+      "packetSha256": "525ef779cfa095cefbf93339b1a453350bf036eb621d3c66aeb2183bee7fa76f"
+    },
+    {
+      "taxonId": 276089,
+      "name": "Graptopetalum mendozae",
+      "language": "fr",
+      "sourceTextTokens": 717,
+      "packetTokens": 960,
+      "standaloneInputTextTokens": 1412,
+      "packetSha256": "a70efc892da83e6acb12234360651534ac19eac3eca0f56658db3d414c821fb6"
+    },
+    {
+      "taxonId": 343018,
+      "name": "Agrostis reuteri",
+      "language": "es",
+      "sourceTextTokens": 551,
+      "packetTokens": 693,
+      "standaloneInputTextTokens": 1145,
+      "packetSha256": "08dc7a060694311bc022217df5904e937789a527a281d8722656775ed39c4d70"
+    },
+    {
+      "taxonId": 479849,
+      "name": "Aloe distans",
+      "language": "pt,en",
+      "sourceTextTokens": 65,
+      "packetTokens": 202,
+      "standaloneInputTextTokens": 654,
+      "packetSha256": "9f041d0686220c1363a81f38a6037c93663a900fe40d24572ef4cbd1f85db304"
+    },
+    {
+      "taxonId": 496467,
+      "name": "Fumaria flabellata",
+      "language": "it",
+      "sourceTextTokens": 274,
+      "packetTokens": 412,
+      "standaloneInputTextTokens": 864,
+      "packetSha256": "86283e7fd4e7b537bc26b87838af20b6f285126832e874d9e4dd906f6bd09d43"
+    },
+    {
+      "taxonId": 519248,
+      "name": "Rubus elegantispinosus",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 163,
+      "standaloneInputTextTokens": 615,
+      "packetSha256": "ae6959727b0cc13580fe291ccd0685f174453428cded71fac998d5f2a3a6a869"
+    },
+    {
+      "taxonId": 543569,
+      "name": "Cotula lineariloba",
+      "language": "en",
+      "sourceTextTokens": 47,
+      "packetTokens": 151,
+      "standaloneInputTextTokens": 603,
+      "packetSha256": "22c1429420cdf1b9b230c257527f1af5c2397a7df3901cfbb25a10aec4cd2050"
+    },
+    {
+      "taxonId": 575712,
+      "name": "Helichrysopsis",
+      "language": "en,en",
+      "sourceTextTokens": 68,
+      "packetTokens": 208,
+      "standaloneInputTextTokens": 660,
+      "packetSha256": "15b0f29ca906380da9b8b5661660d072eda9015e95e053b95171ead6a13e2a58"
+    },
+    {
+      "taxonId": 882421,
+      "name": "Dendrobium",
+      "language": "en",
+      "sourceTextTokens": 1340,
+      "packetTokens": 1463,
+      "standaloneInputTextTokens": 1915,
+      "packetSha256": "8b8ba4e533421f18fcb91f38563d2cd17ea7f2408b733ce2e1fc28830ea09108"
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-0001",
+      "taxonIds": [
+        212117,
+        276089,
+        343018,
+        479849,
+        496467,
+        519248,
+        543569,
+        575712,
+        882421
+      ]
+    }
+  ]
+}

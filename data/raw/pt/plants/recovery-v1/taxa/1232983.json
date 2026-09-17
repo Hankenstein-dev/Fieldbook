@@ -1,0 +1,43 @@
+{
+  "taxonId": 1232983,
+  "name": "Oeosporangium acrosticum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:37.496483+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/bd38e2b6f70a14505055d141a935e68b5174f79065551394b5bd44b92a8894e1.json",
+      "title": "Cheilanthes acrostica",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/10e88a599eea6caecf5cf09b0846410335acf0b4f866e5302d440ff2c97f2eb4.json",
+      "title": "Cheilanthes acrostica",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Oeosporangium acrosticum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lip Fern"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Oeosporangium+acrosticum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Oeosporangium+acrosticum&limit=100",
+      "status": 200
+    }
+  ]
+}

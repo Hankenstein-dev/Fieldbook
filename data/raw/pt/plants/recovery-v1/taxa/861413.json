@@ -1,0 +1,42 @@
+{
+  "taxonId": 861413,
+  "name": "Carex lowei",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:52.320020+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Carex lowei",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Carex lowei''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[monocotiledónea]]s\n| clado3 = [[comelinídeas]]\n| ordem = [[Poales]]\n| família = [[Cyperaceae]]\n| género = ''[[Carex]]''\n| espécie = '''''C. lowei'''''\n| binomial = ''Carex lowei''\n| binomial_autoridade = (A.J.Lowe) Bech.\n}}\nCarex lowei é uma espécie de planta com flor pertencente à família Cyperaceae. \n\nA autoridade científica da espécie é (A.J.Lowe) Bech., tendo sido publicada em Candollea 8: 15. 1939.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referidas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d315bfc4bd0febd0e7ab5ddb4eb6bf666fe15bc0b2dbcb67e98eb2db28f42ea5.json",
+      "sha256": "7d6c4598451d252e0fa1812cd69e1ba1c1b66d560d213e07655e202daa8d1c1d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177561",
+      "revisionId": 62177561,
+      "credit": {
+        "title": "Carex lowei",
+        "url": "https://pt.wikipedia.org/wiki/Carex_lowei",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177561",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Carex+lowei&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Carex+lowei&limit=100",
+      "status": 200
+    }
+  ]
+}

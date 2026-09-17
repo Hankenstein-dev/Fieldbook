@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":154888,"scientificName":"Pachystachys lutea","commonName":"golden shrimp plant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pachystachys lutea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Pachystachys lutea, known as the golden shrimp plant or lollipop plant, is a tropical, soft-stemmed evergreen shrub between 0.5 and 2.5 meters tall, native to Peru. The zygomorphic, long-throated, short-lived white flowers emerge sequentially from overlapping bright yellow bracts on racemes that are produced throughout the warm months."},{"id":"s1:p2","text":"The Latin specific epithet lutea means \"yellow\"."},{"id":"s1:p3","text":"It is cultivated as an ornamental, but in cold temperate regions it requires protection from temperatures below {{convert|10|C|F|abbr=on}}. It has won the Royal Horticultural Society's Award of Garden Merit."}]}]}

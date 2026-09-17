@@ -1,0 +1,42 @@
+{
+  "taxonId": 404034,
+  "name": "Myosotis persoonii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:58.322489+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Myosotis persoonii",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Myosotis persoonii''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Polemoniales]]\n| família = [[Boraginaceae]]\n| género = ''[[Myosotis]]''\n| espécie = '''''M. persoonii'''''\n| binomial = ''Myosotis persoonii''\n| binomial_autoridade = Rouy\n}}\nMyosotis persoonii é uma espécie de planta com flor pertencente à família Boraginaceae. \n\nA autoridade científica da espécie é Rouy, tendo sido publicada em Fl. France 10: 327 (1908).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/66375591b3216d86d6956b1751bb2002c610db93f104c0860a09b089e7c11261.json",
+      "sha256": "12a6588011a0fe2ab9ab774b18c1b22a7ce187312d53dad560feb0229298bfc7",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40230978",
+      "revisionId": 40230978,
+      "credit": {
+        "title": "Myosotis persoonii",
+        "url": "https://pt.wikipedia.org/wiki/Myosotis_persoonii",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40230978",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Myosotis+persoonii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Myosotis+persoonii&limit=100",
+      "status": 200
+    }
+  ]
+}

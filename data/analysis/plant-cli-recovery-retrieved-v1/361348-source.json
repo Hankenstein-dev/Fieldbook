@@ -1,0 +1,118 @@
+{
+  "input": {
+    "taxonId": 361348,
+    "scientificName": "Chasmanthe aethiopica",
+    "commonName": "Cobra Lily",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Chasmanthe aethiopica",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Chasmanthe aethiopica, the cobra lily, is a perennial plant and geophyte belonging to the genus Chasmanthe and is part of the fynbos. The plant is endemic to the Eastern and Western Cape. The plant grows to a height of 40 to 65 cm and flowers from April to July. The flowers are red-purple."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Chasmanthe aethiopica (L.) N.E.Br.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Lectotype (de Vos in S. African J. Bot. 51: 256. 1985): Herb. Linn. No. 60.3 (LINN)."
+          },
+          {
+            "id": "s2:p2",
+            "text": "[\" Habitat in Aethiopia. \"] Sp. Pl., ed. 2, 1: 54 (1762). RCN: 312."
+          },
+          {
+            "id": "s2:p3",
+            "text": "Note: Goldblatt & al. (Crocosmia Chasmanthe: 14, 53. 2004) give some historical background, and (p. 50) follow de Vos as to type."
+          },
+          {
+            "id": "s2:p4",
+            "text": "Woodland and forest habitats and other wooded land (G level 1)"
+          },
+          {
+            "id": "s2:p5",
+            "text": "Southern Africa"
+          },
+          {
+            "id": "s2:p6",
+            "text": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I level 1)"
+          },
+          {
+            "id": "s2:p7",
+            "text": "Miscellaneous (X level 1)"
+          },
+          {
+            "id": "s2:p8",
+            "text": "Littoral zone of inland surface waterbodies (C3 level 2)"
+          },
+          {
+            "id": "s2:p9",
+            "text": "Domestic gardens of villages and urban peripheries (X25 level 2)"
+          },
+          {
+            "id": "s2:p10",
+            "text": "Domestic gardens of city and town centres (X24 level 2)"
+          },
+          {
+            "id": "s2:p11",
+            "text": "Constructed, industrial and other artificial habitats (J level 1)"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/0542eda6a1e14c1b90c0d8cf481dc261394d7d3209c8d0f59e9cd85e28794873.json",
+      "sha256": "b1d4d2809d4a18d1b041a948370a8a6458248f0e28dd0404318dfe38fa617450",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1316522924",
+      "revisionId": 1316522924,
+      "credit": {
+        "title": "Chasmanthe aethiopica",
+        "url": "https://en.wikipedia.org/wiki/Chasmanthe_aethiopica",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1316522924",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2744140.json",
+      "sha256": "7c68dd9bd59d0f30eb49024dd4ff07511f190b7c6982965f0293cc63ecb6879d",
+      "url": "https://api.gbif.org/v1/species/2744140",
+      "credit": {
+        "title": "Chasmanthe aethiopica (L.) N.E.Br.",
+        "url": "https://www.gbif.org/species/2744140",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 361348,
+    "name": "Chasmanthe aethiopica",
+    "language": "en,unspecified",
+    "sourceTextTokens": 294,
+    "packetTokens": 533,
+    "standaloneInputTextTokens": 985,
+    "packetSha256": "3a8c45920aafbde6272ceb171cd254db64dc5f07949ae74b223091cada483296"
+  }
+}

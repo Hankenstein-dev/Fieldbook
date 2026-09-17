@@ -1,0 +1,333 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T08:57:02.293024+00:00",
+  "completedAt": "2026-09-14T08:58:06.095480+00:00",
+  "elapsedSeconds": 63.80231395099999,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0001",
+  "taxonIds": [
+    508775,
+    61090,
+    164233,
+    75722,
+    554274,
+    1555999,
+    162749,
+    192902,
+    964134,
+    410380
+  ],
+  "usage": {
+    "input_tokens": 14593,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2415,
+    "reasoning_output_tokens": 1378
+  },
+  "requestTextTokens": 7184,
+  "savedOutputTokens": 1031,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 508775,
+      "name": "Nidularium innocentii",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A bromeliad endemic to the Atlantic Forest of southeastern Brazil. Several cultivars are grown as ornamental plants.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 61090,
+      "name": "Ruppia maritima",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An aquatic annual or perennial herb found worldwide, especially in coastal brackish wetlands. It is a salt-tolerant freshwater plant with thread-thin, grasslike growth and tiny flowers whose pollen may float away on bubbles.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 164233,
+      "name": "Jasminum officinale",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A deciduous flowering climber native to parts of Asia, though its exact country of origin is uncertain. It bears clusters of star-shaped white summer flowers with an intense fragrance.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Jasmine is recognized as safe as a food ingredient by the US Food and Drug Administration.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p7"
+          ],
+          "humanEdibility": [
+            "s1:p13"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 75722,
+      "name": "Avena sterilis",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual grass native to the Mediterranean Basin and western, central and southern Asia. Its flower clusters move in the wind, and its seeds are edible.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The seeds are edible.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p9",
+            "s1:p10"
+          ],
+          "humanEdibility": [
+            "s1:p1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 554274,
+      "name": "Lilium henryi",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A lily native to the mountains of central China, including Guizhou, Hubei and Jiangxi. Its unscented orange flowers have black spots and petals that bend backward as they mature.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1555999,
+      "name": "Nephroia carolina",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A perennial woody vine native to North America, from northeastern Mexico through parts of the southeastern and midwestern United States. It produces bright red fruits containing hard seeds shaped like small snail shells.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 162749,
+      "name": "Eucalyptus cornuta",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A tree, sometimes growing as a multi-stemmed mallee, endemic to southwestern Western Australia. It has rough fibrous trunk bark, elongated horn-tipped flower buds and exceptionally hard, strong timber.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p10"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 192902,
+      "name": "Genista ancistrocarpa",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant native to continental Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 964134,
+      "name": "Pteris parkeri",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An evergreen fern native to Japan, Taiwan and Korea.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:57:02.293024+00:00",
+      "completedAt": "2026-09-14T08:58:06.095480+00:00",
+      "elapsedSeconds": 63.80231395099999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 410380,
+      "name": "Rhododendron simsii",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An evergreen or semi-evergreen shrub native to East Asia. Its flowers range from white to dark red, and some varieties are poisonous because they contain grayanotoxin.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

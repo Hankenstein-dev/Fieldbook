@@ -1,0 +1,38 @@
+{
+  "taxonId": 886597,
+  "name": "Sedum cespitosum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:48.107316+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/5ee62317e137b8ee3f1c7a9675a98032f6b66107001e6ca71b947523c2737f03.json",
+      "title": "Sedum caespitosum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sedum cespitosum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Broad-leaved Stonecrop"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+cespitosum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+cespitosum&limit=100",
+      "status": 200
+    }
+  ]
+}

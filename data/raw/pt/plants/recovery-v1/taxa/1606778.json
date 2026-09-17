@@ -1,0 +1,32 @@
+{
+  "taxonId": 1606778,
+  "name": "Kalanchoe variifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:40.426183+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Kalanchoe variifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Kalanchoe 'Lucky Bells'"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Kalanchoe+variifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Kalanchoe+variifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

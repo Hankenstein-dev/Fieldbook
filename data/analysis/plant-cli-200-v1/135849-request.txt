@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":135849,"scientificName":"Macrozamia moorei","commonName":"Moore's zamia palm","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Macrozamia moorei","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=January 2024}}"},{"id":"s1:p2","text":"Macrozamia moorei is a cycad in the family Zamiaceae, native to Queensland (Australia)."},{"id":"s1:p3","text":"The species was described by Ferdinand von Mueller in 1881, naming it after Charles Moore (1820–1905), director of the Royal Botanic Gardens, Sydney."},{"id":"s1:p4","text":"Description\nMacrozamia moorei is the tallest-growing species of Macrozamia, growing to {{convert|7|m|ft}} tall with a trunk 50–80 cm diameter. It has keeled leaves up to {{convert|2.5|m|ft}} long, with short petioles bearing numerous spines, and 120–220 leaflets, each leaflet 20–35 cm long and 5–10 mm broad."},{"id":"s1:p5","text":"Cultivation\nThe plant is cultivated by specialty plant nurseries as an ornamental plant."}]}]}

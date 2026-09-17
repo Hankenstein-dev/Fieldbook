@@ -1,0 +1,38 @@
+{
+  "taxonId": 638337,
+  "name": "Serapias strictiflora",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:37.326852+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/92b20aed46c7901a1793d109536756250ea1efa5584c29e6eb5014fcb7219f33.json",
+      "title": "Serapias lingua",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Serapias strictiflora"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Narrow-Flowered Tongue Orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Serapias+strictiflora&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Serapias+strictiflora&limit=100",
+      "status": 200
+    }
+  ]
+}

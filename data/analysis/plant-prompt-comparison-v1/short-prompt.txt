@@ -1,0 +1,10 @@
+Using only the supplied plant information, write one paragraph of no more than 75 words and three sentences. Start with what the plant is: a tree, shrub, herb, fern, etc. Include its native origin if known. Then describe one or two of its most interestig supported features: Choose details that help someone understand or remember the plant. Use plain, approachable English for those learning about plants.
+
+As one additional task, return one status for human edibility in the in the format 'EDIBLE: [VALUE]' with [VALUE] being:
+
+```python
+- "yes": the source explicitly documents human food use.
+- "no": the source explicitly establishes that it is inedible or poisonous
+  to humans when eaten, without documenting a qualified edible use.
+- "unknown": the source is silent, unclear or contradictory.
+```

@@ -1,0 +1,38 @@
+{
+  "taxonId": 1593175,
+  "name": "Polystichum polyblepharon",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:29.851117+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/f2ec192d8db080ad6ca31d5985045e8421ce47cf8573178f500d25e15cb035bd.json",
+      "title": "Polystichum polyblepharum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Polystichum polyblepharon"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Japanese tassel fern"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Polystichum+polyblepharon&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Polystichum+polyblepharon&limit=100",
+      "status": 200
+    }
+  ]
+}

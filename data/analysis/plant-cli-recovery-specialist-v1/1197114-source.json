@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 1197114,
+    "scientificName": "Senecio legionensis",
+    "commonName": "Senecio legionensis",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Senecio legionensis",
+        "language": "id",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Senecio legionensis adalah spesies tumbuhan yang tergolong ke dalam famili Asteraceae. Spesies ini juga merupakan bagian dari ordo Asterales. Spesies Senecio legionensis sendiri merupakan bagian dari genus Senecio. Nama ilmiah dari spesies ini pertama kali diterbitkan oleh Lange."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Referensi "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Senecio"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Senecio legionensis Lange — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Senecio legionensis Lange."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is NW. Spain to NW. Portugal. It is a perennial and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/id/68755546eed071e881766a9ed88ccc1f2596d15803486c2c28353926d78e54e0.json",
+      "sha256": "94251351e48d9f3cf76b995a9620b067e2fb84826ea9cf268aafa9ef7074a649",
+      "url": "https://id.wikipedia.org/w/index.php?oldid=26060386",
+      "revisionId": 26060386,
+      "credit": {
+        "title": "Senecio legionensis",
+        "url": "https://id.wikipedia.org/wiki/Senecio_legionensis",
+        "revisionUrl": "https://id.wikipedia.org/w/index.php?oldid=26060386",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.id"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1197114-d66e1f60c4b1dcd9.json",
+      "sha256": "d66e1f60c4b1dcd9746a33502c23372fd05958595f8104e500d175444c6edc00",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A245988-1",
+      "credit": {
+        "title": "Senecio legionensis Lange — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A245988-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1197114,
+    "name": "Senecio legionensis",
+    "language": "id,en",
+    "sourceTextTokens": 116,
+    "packetTokens": 279,
+    "standaloneInputTextTokens": 731,
+    "packetSha256": "6eda738d313ada2b85b739d06030cb681a69731d4541d6e732b4fd14c3cb4e65"
+  }
+}

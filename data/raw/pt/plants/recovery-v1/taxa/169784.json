@@ -1,0 +1,38 @@
+{
+  "taxonId": 169784,
+  "name": "Tolpis umbellata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:27.576725+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/bbb55f384d342f70a585fd26a9d1476e6fbe708af214b936dfa05df4fec1c4ea.json",
+      "title": "Tolpis barbata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tolpis umbellata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Umbrella Milkwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tolpis+umbellata&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tolpis+umbellata&limit=100",
+      "status": 200
+    }
+  ]
+}

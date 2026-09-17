@@ -1,0 +1,45 @@
+{
+  "taxonId": 956349,
+  "name": "Phytarrhiza",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:45:09.979940+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tillandsia subgen. Phytarrhiza (Visiani) Baker",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Tillandsia subg. Phytarrhiza is a subgenus of the genus Tillandsia.\n\nTillandsia acosta-solisii Gilmartin Tillandsia anceps Loddiges Tillandsia arhiza Mez Tillandsia aurea Mez Tillandsia bandensis Baker Tillandsia cacticola L.B. Smith Tillandsia caerulea Kunth Tillandsia cornuta Mez & Sodiro Tillandsia crocata (E. Morren) Baker Tillandsia cyanea Linden ex K. Koch Tillandsia dodsonii L.B. Smith Tillandsia duratii Visiani Tillandsia dyeriana André Tillandsia hamaleana E. Morren Tillandsia humilis Presl Tillandsia kirschnekii Rauh & W. Till Tillandsia laxissima Mez Tillandsia lindenii Regel Tillandsia mallemontii Glaziou ex Mez Tillandsia mandonii E. Morren Tillandsia marconae W. Till & Vitek Tillandsia monadelpha (E. Morren) Baker Tillandsia narthecioides Presl Tillandsia paleacea Presl Tillandsia peiranoi Castellanos Tillandsia platyrhachis Mez Tillandsia porongoensis L. Hromadnik & P. Schneider Tillandsia pretiosa Mez Tillandsia purpurea Ruiz & Pavón Tillandsia reichenbachii Baker Tillandsia scaligera Mez & Sodiro Tillandsia schunkei L.B. Smith Tillandsia straminea Kunth Tillandsia streptocarpa Baker Tillandsia triglochinoides Presl Tillandsia umbellata André Tillandsia venusta Mez & Wercklé Tillandsia wagneriana L.B. Smith",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165768714.json",
+      "sha256": "c609705a7c5610c630c1ed4b143fc67e8f85fe8ccdff5d7b36b8349320ac2ebd",
+      "url": "https://api.gbif.org/v1/species/165768714",
+      "credit": {
+        "title": "Tillandsia subgen. Phytarrhiza (Visiani) Baker",
+        "url": "https://www.gbif.org/species/165768714",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/00c3288a7f2ad6d0bd9741a5306d7cbc1fe9d85afb5948081ad48e06c70e925b.json",
+      "title": "Tillandsia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Phytarrhiza&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Phytarrhiza&limit=100",
+      "status": 200
+    }
+  ]
+}

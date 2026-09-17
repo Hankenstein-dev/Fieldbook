@@ -1,0 +1,38 @@
+{
+  "taxonId": 823599,
+  "sources": [
+    {
+      "title": "Flora-On — Margotia gummifera",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Margotia gummifera. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia Sítios secos e descampados: matos xerofílicos, pinhais litorais e matos degradados, em solos preferentemente ácidos, arenosos ou xistosos, raramente em substrato básico (margas).\n\nInteracções bióticas Podem ser parasitadas por: Orobanche schultzii\n\nLigações externas Descrição na Flora Iberica\n\nDistância ao mar (n=611)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Daphne gnidium , Cistus salviifolius , Briza maxima , Phillyrea angustifolia , Plantago coronopus , Carlina hispanica , Centranthus calcitrapae ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/823599.json",
+      "sha256": "61e91a4dcbe29c9c85057cf4762a9bccb2ba7d29adede8f0c818b924d1623292",
+      "url": "https://flora-on.pt/?q=Margotia+gummifera",
+      "credit": {
+        "title": "Flora-On — Margotia gummifera",
+        "url": "https://flora-on.pt/?q=Margotia+gummifera",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Thapsia+gummifera",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Thapsia+gummifera&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Margotia+gummifera",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:58:43.602346+00:00"
+}

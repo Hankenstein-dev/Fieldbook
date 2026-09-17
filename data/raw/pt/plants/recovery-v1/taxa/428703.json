@@ -1,0 +1,63 @@
+{
+  "taxonId": 428703,
+  "name": "Chlorophytum laxum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:04.704306+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Chlorophytum laxum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|date=August 2026}}\n\nChlorophytum laxum (Bichetii grass, Siam lily, false lily turf, wheat plant) is a flowering plant species in the genus Chlorophytum, widespread through tropical Africa, Asia, and Australia.\n\nTaxonomy\n\nSynonyms\nAnthericum bichetii {{small|Backer}}\nAnthericum parviflorum {{small|(Wight) Benth.}}\nChlorophytum abyssinicum {{small|Kotschy & Peyr.}}\nChlorophytum acaule {{small|Baker}}\nChlorophytum bichetii {{small|Backer}}\nChlorophytum debile {{small|Baker}}\nChlorophytum falcatum {{small|Baker}}\nChlorophytum javanicum {{small|(Hassk.) M.R.Almeida}}\nChlorophytum laxiflorum {{small|Baker}}\nChlorophytum laxum f. javanicum {{small|(Hassk.) Backer}}\nChlorophytum parviflorum {{small|Dalzell}}\nChlorophytum xerotinum {{small|F.Muell.}}\nNolina javanica {{small|Hassk.}}\nPhalangium laxum {{small|(R.Br.) F.Muell.}}\nPhalangium parviflorum {{small|Wight}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/5e77ab7a0efcc73b937898f5f639b4bb5d2fa4c5ded6d3535030749bf66a273a.json",
+      "sha256": "3b91155641e084c565e11bf01ed5c1f1ab2055a6a3b97b23c382a614bec81290",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1371067937",
+      "revisionId": 1371067937,
+      "credit": {
+        "title": "Chlorophytum laxum",
+        "url": "https://en.wikipedia.org/wiki/Chlorophytum_laxum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1371067937",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Chlorophytum laxum R.Br.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Chlorophytum laxum (Bichetii grass, Siam lily, false lily turf, wheat plant) is a flowering plant species in the genus Chlorophytum, widespread through tropical Africa, Asia, and Australia.\n\nSynonyms Anthericum bichetii Anthericum parviflorum Chlorophytum abyssinicum Chlorophytum acaule Chlorophytum bichetii Chlorophytum debile Chlorophytum falcatum Chlorophytum javanicum Chlorophytum laxiflorum Chlorophytum laxum f. javanicum Chlorophytum parviflorum Chlorophytum xerotinum Nolina javanica Phalangium laxum Phalangium parviflorum",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165641626.json",
+      "sha256": "b87659a11e58a5e3fbdf143f0c3f391799581bd5b0d5547e79f7ec4cf69793cb",
+      "url": "https://api.gbif.org/v1/species/165641626",
+      "credit": {
+        "title": "Chlorophytum laxum R.Br.",
+        "url": "https://www.gbif.org/species/165641626",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chlorophytum laxum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Chlorophytum+laxum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Chlorophytum+laxum&limit=100",
+      "status": 200
+    }
+  ]
+}

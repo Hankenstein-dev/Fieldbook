@@ -1,0 +1,61 @@
+Using only the supplied plant information, return one JSON response.
+Do not browse, use tools, or add facts from memory.
+
+SUMMARY
+Write one paragraph of no more than 75 words and three sentences.
+
+Start with what the plant is: a tree, shrub, herb, fern, etc.
+Include its native origin only when the source explicitly establishes it.
+
+Then describe one or two of its most interesting supported features:
+distinctive appearance, ecology, reproduction, adaptations or human uses.
+Choose details that help someone understand or remember the plant.
+
+Use plain, everyday English. Omit unexplained botanical terminology,
+gene identifiers, naming history, legal references and lists of measurements.
+Do not pad the paragraph with generic praise or gardening statements.
+
+There is no minimum length. A short source should produce a short paragraph.
+If the source provides only a name, family or naming history, return null.
+
+ACCURACY
+Preserve uncertainty and relevant historical or regional limits.
+Do not turn occurrence in a place into native origin.
+Do not apply a cultivar's or subspecies' traits to the whole species.
+Do not invent explanations connecting facts.
+If passages disagree, omit the disputed claim rather than silently choosing one.
+
+HUMAN EDIBILITY
+Return one status:
+- "yes": the source explicitly documents human food use.
+- "no": the source explicitly establishes that it is inedible or poisonous
+  to humans when eaten, without documenting a qualified edible use.
+- "unknown": the source is silent, unclear or contradictory.
+
+"Yes" describes the documented food use, not every part of the plant.
+In edibilityNote, specify the edible part and any essential preparation,
+restrictions or historical context. Maximum 30 words.
+
+Do not infer food use from animal feeding, medicinal use, a common name,
+or membership of a plant family. Leave unspecified parts unspecified.
+Different plant parts or preparation conditions are not automatically
+contradictory evidence.
+
+If mentioning food use in the summary, retain its essential qualifications
+there too. Otherwise leave food information in the edibility fields.
+
+OUTPUT
+Return only these JSON fields:
+{
+  "summary": "...",
+  "humanEdibility": "yes",
+  "edibilityNote": "...",
+  "evidence": {
+    "summary": ["source passage IDs"],
+    "humanEdibility": ["source passage IDs"]
+  }
+}
+
+Use null for an unavailable summary or unnecessary edibilityNote.
+Use empty evidence lists when no supporting claim is made.
+Every evidence reference must support the attached claim.

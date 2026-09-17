@@ -1,0 +1,28 @@
+{
+  "taxonId": 853278,
+  "name": "Frankenia capitata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:48.352314+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/1773d872bdc66e7161a7605119c9c8af5845fd74bbddcc5be8cd00fa42f3b703.json",
+      "title": "Frankenia capitata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Frankenia+capitata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Frankenia+capitata&limit=100",
+      "status": 200
+    }
+  ]
+}

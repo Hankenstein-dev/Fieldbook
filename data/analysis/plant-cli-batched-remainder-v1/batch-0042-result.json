@@ -1,0 +1,348 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T09:39:57.243272+00:00",
+  "completedAt": "2026-09-14T09:41:13.034954+00:00",
+  "elapsedSeconds": 75.79149027300036,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0042",
+  "taxonIds": [
+    206749,
+    61369,
+    85027,
+    330716,
+    56162,
+    51813,
+    338164,
+    164240,
+    281758,
+    333949
+  ],
+  "usage": {
+    "input_tokens": 20499,
+    "cached_input_tokens": 2304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2865,
+    "reasoning_output_tokens": 1552
+  },
+  "requestTextTokens": 13090,
+  "savedOutputTokens": 1307,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 206749,
+      "name": "Echeveria elegans",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Evergreen succulent perennial native to semi-desert habitats in Mexico. It forms compact rosettes of pale blue-green fleshy leaves and bears pink, yellow-tipped flowers in winter and spring. It also produces multiple offsets.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 61369,
+      "name": "Momordica charantia",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Tropical and subtropical vine native from the tropical and subtropical Old World to the South Pacific. Its hollow, oblong fruit has a distinctive warty exterior and bitter flesh. Green or early-yellow fruit is generally cooked, while young shoots and leaves are eaten as greens; ripe fruit and mature seeds are toxic.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Green or early-yellow fruit is cooked; young shoots and leaves are greens. Sweet red ripe pith is eaten raw, but ripe fruit and mature seeds are toxic.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p5",
+            "s1:p12",
+            "s1:p16"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p5",
+            "s1:p6",
+            "s1:p12",
+            "s1:p16"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 85027,
+      "name": "Lilium martagon",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Lily native across Eurasia, from Portugal through Europe and Asia to Mongolia. Its scented, backward-curving flowers are usually spotted pink-purple but can range from nearly white to nearly black, with numerous blooms on vigorous plants.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p7"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 330716,
+      "name": "Salicornia ramosissima",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Salt-tolerant flowering plant native to Portugal. It grows in estuary and lagoon salt marshes, with fleshy stems and scale-like leaves that are green in spring and summer but reddish in autumn.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 56162,
+      "name": "Malva sylvestris",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Herbaceous perennial native to Western Europe, North Africa and Asia. It has showy mauve-purple flowers with dark veins and commonly grows in meadows, hedgerows and fallow fields. Young leaves and shoots are eaten raw or cooked and have a long history as wild food.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Young leaves and shoots are eaten raw or cooked; boiled young leaves were used as a vegetable in parts of 19th-century Europe.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p6",
+            "s1:p23",
+            "s1:p24"
+          ],
+          "humanEdibility": [
+            "s1:p23",
+            "s1:p24"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51813,
+      "name": "Oenothera elata",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Evening primrose native to much of western and central North America. Its usually reddish stem carries long, narrow leaves beneath a large cluster of fragrant yellow flowers. The flowers open at dusk, wilt the next morning and turn orange or red.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 338164,
+      "name": "Cleonia lusitanica",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 164240,
+      "name": "Jatropha integerrima",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering shrub or small tree native to Cuba and Hispaniola. It has a swollen trunk and three-lobed leaves whose middle lobe is much larger than the others. Male and female flowers occur separately.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 281758,
+      "name": "Acaciella angustissima",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial deciduous legume shrub or small tree native to southern North America, the Caribbean and most of South America. It has dense foliage, clusters of small white flowers and seed pods that turn from green to brown. Unlike most plants formerly placed in Acacia, it is thornless.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The bark is used to produce alcoholic beverages, and the root is used in Mexican pulque.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p6"
+          ],
+          "humanEdibility": [
+            "s1:p13"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:39:57.243272+00:00",
+      "completedAt": "2026-09-14T09:41:13.034954+00:00",
+      "elapsedSeconds": 75.79149027300036,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 333949,
+      "name": "Senecio glaucus",
+      "batchId": "batch-0042",
+      "usage": null,
+      "usageRef": "batch-0042-result.json",
+      "rawOutputFile": "batch-0042-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Annual flowering plant native to the Palearctic, from the western Mediterranean to Central Asia. It grows in sandy, well-drained ground, particularly coastal and desert dunes.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

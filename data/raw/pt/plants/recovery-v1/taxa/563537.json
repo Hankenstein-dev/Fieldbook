@@ -1,0 +1,63 @@
+{
+  "taxonId": 563537,
+  "name": "Alstroemeria ligtu",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:56.977816+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Alstroemeria ligtu",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|cs1-dates=ly|date=June 2020}}\n\nAlstroemeria ligtu, the Peruvian lily,{{Citation needed|date=May 2025}} is a species of flowering plant in the family Alstroemeriaceae, native to Peru, northwest Argentina and central Chile.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/ee03cad2f5abcf5d3f5b93a97a0ddde014b6677ff4fc9574898fcf1fd7b1a0b1.json",
+      "sha256": "b91d99cfb85a48a47c89e9755dc9ffa927d52bac514243c0c033b075aac94fc9",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1306189803",
+      "revisionId": 1306189803,
+      "credit": {
+        "title": "Alstroemeria ligtu",
+        "url": "https://en.wikipedia.org/wiki/Alstroemeria_ligtu",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1306189803",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Alstroemeria ligtu L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Bayer in Mitt. Bot. Staatssamml. Muenchen 24: 110. 1987): [icon] \" Hemerocallis floribus purpurascentibus, striatis, vulgo Ligtu \" in Feuillee, J. Obs. 2: 710, t. 4. 1714.\n\n\" Habitat in Chili ad ripas fluviorum, uti ad flumen Civitate Conceptionis percurrens. \" RCN: 2523.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2753719.json",
+      "sha256": "2aa0e7794a8209eb1721195e5cdd7a9d57b4bebfd4d0b12774c04bcdc40f72b7",
+      "url": "https://api.gbif.org/v1/species/2753719",
+      "credit": {
+        "title": "Alstroemeria ligtu L.",
+        "url": "https://www.gbif.org/species/2753719",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Alstroemeria ligtu"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Alstroemeria+ligtu&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Alstroemeria+ligtu&limit=100",
+      "status": 200
+    }
+  ]
+}

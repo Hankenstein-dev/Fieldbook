@@ -1,0 +1,22 @@
+{
+  "taxonId": 1606799,
+  "name": "Kalanchoe × hummeliae",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:40.356428+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Kalanchoe+%C3%97+hummeliae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Kalanchoe+%C3%97+hummeliae&limit=100",
+      "status": 200
+    }
+  ]
+}

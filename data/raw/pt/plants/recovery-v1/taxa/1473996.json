@@ -1,0 +1,58 @@
+{
+  "taxonId": 1473996,
+  "name": "Centaurea bethurica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:47.142186+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Centaurea bethurica",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Centaurea bethurica''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Centaurea]]''\n| espécie = '''''C. bethurica'''''\n| binomial = ''Centaurea bethurica''\n| binomial_autoridade = E.López & Devesa\n}}\nCentaurea bethurica é uma espécie de planta com flor pertencente à família Asteraceae. \n\nA autoridade científica da espécie é E.López & Devesa, tendo sido publicada em Anales Jard. Bot. Madrid 65(2): 337 (figs. 1n, 4, map). 2008.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/cbf123eed56644aec30e91db3c9b4520a0aa63bf57f7d6f5e86d25190bd7c515.json",
+      "sha256": "239d2303914dab155384aaa70c03927bcf6fab71dc553dd95bf836de95583b35",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40454196",
+      "revisionId": 40454196,
+      "credit": {
+        "title": "Centaurea bethurica",
+        "url": "https://pt.wikipedia.org/wiki/Centaurea_bethurica",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40454196",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Centaurea bethurica E.López & Devesa",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Centaurea beturica é uma planta endémica do Sudoeste e Centro da Península Ibérica, com uma distribuição restrita em Portugal continental, estando confinada ao Alto Alentejo (Cabeço de Vide e Alter do Chão). É avaliada como Vulnerável porque apresenta uma área de ocupação restrita (cerca de 16 km 2) e existem ameaças plausíveis que, caso venham a concretizar-se, poderão provocar um rápido e acentuado declínio da população nacional. Face à restrita área ocupada, a população nacional apresenta-se muito suscetível a ameaças, como a intensificação da pressão pastoril ou a instalação de explorações florestais ou agrícolas no local de ocorrência dos núcleos conhecidos. A alteração do uso do solo nos locais de ocorrência da planta deverá ser condicionada nos instrumentos de ordenamento territorial em vigor e sugere-se a colheita e conservação de sementes em banco de germoplasma. Sugere-se a prossecução de prospeção dirigida em áreas de solos básicos, principalmente no Alto Alentejo, a monitorização dos núcleos conhecidos e a confirmação de alguns exemplares de herbário que poderão corresponder a este táxon.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4205981.json",
+      "sha256": "4f46d70d521de15d9e797c4fe9583741ca2e5950cd235975a0323ff244ef2379",
+      "url": "https://api.gbif.org/v1/species/4205981",
+      "credit": {
+        "title": "Centaurea bethurica E.López & Devesa",
+        "url": "https://www.gbif.org/species/4205981",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Centaurea+bethurica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Centaurea+bethurica&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-15T09:31:10.109412+00:00",
+  "completedAt": "2026-09-15T09:32:51.873218+00:00",
+  "elapsedSeconds": 101.76350292400002,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0033",
+  "taxonIds": [
+    122967,
+    122971,
+    122972,
+    122975,
+    122976,
+    122988,
+    123001,
+    123003,
+    123116,
+    123119
+  ],
+  "usage": {
+    "input_tokens": 74620,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4385,
+    "reasoning_output_tokens": 3016
+  },
+  "requestTextTokens": 67211,
+  "savedOutputTokens": 1363,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122967,
+      "name": "Ananas",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A genus of bromeliad plants with a native range including tropical South America, Ananas includes Ananas comosus, the pineapple, and Ananas macrodontes, the false pineapple.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s2:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122971,
+      "name": "Zingiber officinale",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An herbaceous perennial originating in Asia, ginger grows annual leafy false stems and sends pale yellow, purple-edged flowers directly from its underground stem. This fragrant, pungent stem is widely used as a spice, including fresh, dried, pickled and candied forms.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The underground stem is eaten or used as a spice fresh, dried, pickled or candied; leaves have also flavored food or been eaten.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p35",
+            "s2:p2"
+          ],
+          "humanEdibility": [
+            "s1:p8",
+            "s1:p35"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122972,
+      "name": "Zingiber",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A genus of flowering plants native to China, the Indian subcontinent, New Guinea and Southeast Asia, Zingiber comprises the true gingers. Culinary uses differ by species: myoga is valued for its stems and flowers, while garden ginger supplies the familiar spice from its underground stem.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Culinary uses vary by species; myoga stems and flowers are valued, while garden ginger's underground stem is used whole, candied, dried or powdered.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": [
+            "s1:p1",
+            "s1:p2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122975,
+      "name": "Pistacia vera",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A small to medium deciduous tree native to Iran and Central Asia, pistachio has separate male and female trees. Its edible elongated seed has pale green flesh inside a hard cream shell that often splits open with an audible pop when ripe.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The seed is eaten fresh, roasted or salted, and used in desserts, confectionery, paste and butter; it is a priority allergen.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p5",
+            "s1:p30"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p20",
+            "s1:p22"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122976,
+      "name": "Lactuca sativa",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual leaf vegetable native from the Mediterranean to Siberia, lettuce has leaves ranging from dense heads to loose, frilly forms in many colors. Leaves are usually eaten raw in salads, though they also appear in sandwiches, wraps and soups; some varieties provide edible stems or seeds pressed for cooking oil.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Leaves are eaten raw or cooked and used in salads, sandwiches, wraps and soups; some varieties provide edible stems or seeds pressed for cooking oil.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p10",
+            "s1:p11",
+            "s1:p28"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p28",
+            "s1:p42"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122988,
+      "name": "Anacardium occidentale",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A tropical evergreen tree native to tropical South America, cashew bears a kidney-shaped true fruit at the end of a larger red or yellow cashew apple. The raw seed and its shell are toxic, but the seed is edible after shelling and roasting or steaming; the cashew apple is also eaten or made into drinks.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The seed is edible after shelling and roasting or steaming; the cashew apple is eaten fresh or processed into drinks, preserves and other foods.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p7",
+            "s1:p8"
+          ],
+          "humanEdibility": [
+            "s1:p4",
+            "s1:p28"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 123001,
+      "name": "Garcinia mangostana",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A tropical evergreen tree native to the Malay Peninsula and Borneo, mangosteen bears fruit with a thick, deep reddish-purple inedible rind. Inside, fragrant white flesh surrounds the seeds and is sweet, tangy, juicy and edible; the picked fruit does not ripen further.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The white inner flesh is eaten fresh, canned or frozen, served as dessert, or made into jam; the rind is inedible.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p13"
+          ],
+          "humanEdibility": [
+            "s1:p3",
+            "s1:p40",
+            "s1:p42"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 123003,
+      "name": "Artocarpus heterophyllus",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A large evergreen fruit tree native to India and possibly the Western Ghats, jackfruit produces the largest tree-borne fruits, with a thick bumpy shell and many yellow fleshy bulbs, each enclosing a seed. The bulbs can be eaten raw, while the edible seeds are usually boiled or roasted; ripe fruit is sweet and unripe fruit is cooked in savory dishes.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The bulbs can be eaten raw; seeds are usually boiled or roasted, ripe fruit is used in sweets, and unripe fruit in savory dishes.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5",
+            "s1:p26",
+            "s1:p28"
+          ],
+          "humanEdibility": [
+            "s1:p5",
+            "s1:p26",
+            "s1:p27",
+            "s1:p28"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 123116,
+      "name": "Ceratodon",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A genus of mosses with a cosmopolitan distribution, Ceratodon belongs to the family Ditrichaceae and includes species such as C. purpureus and C. conicus.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T09:31:10.109412+00:00",
+      "completedAt": "2026-09-15T09:32:51.873218+00:00",
+      "elapsedSeconds": 101.76350292400002,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 123119,
+      "name": "Leucophyllum",
+      "batchId": "batch-0033",
+      "usage": null,
+      "usageRef": "batch-0033-result.json",
+      "rawOutputFile": "batch-0033-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A genus of evergreen shrubs native to the southwestern United States and Mexico, Leucophyllum has white-haired foliage and solitary bell- or funnel-shaped flowers ranging from white to magenta and purple. These salt-tolerant shrubs grow in sandy soils and often bloom several days before rain, apparently in response to humidity.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

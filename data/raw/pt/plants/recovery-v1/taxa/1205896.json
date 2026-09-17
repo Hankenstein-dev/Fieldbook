@@ -1,0 +1,22 @@
+{
+  "taxonId": 1205896,
+  "name": "Anacamptis × olida",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:46:28.237674+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Anacamptis+%C3%97+olida&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Anacamptis+%C3%97+olida&limit=100",
+      "status": 200
+    }
+  ]
+}

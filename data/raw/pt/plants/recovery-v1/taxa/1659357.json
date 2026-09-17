@@ -1,0 +1,22 @@
+{
+  "taxonId": 1659357,
+  "name": "Lolium × hubbardii",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:51.057808+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lolium+%C3%97+hubbardii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lolium+%C3%97+hubbardii&limit=100",
+      "status": 200
+    }
+  ]
+}

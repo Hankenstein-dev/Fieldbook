@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":873955,"scientificName":"Achyrocline saturejoides","commonName":"Achyrocline saturejoides","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Achyrocline saturejoides","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Achyrocline satureioides, commonly known as macela or marcela, is a species of plant in the family Asteraceae. It is native to South America, from Argentina to Colombia to Guyana. A semi-annual herbaceous plant reaching about a meter tall, it has simple, narrow green leaves with serrated edges. It produces yellow flowers in racemes around Easter."},{"id":"s1:p2","text":" Uses \nIt is used as the medicinal plant symbol of Rio Grande do Sul state in Brazil. This plant is widely used in various countries which share the Guarani cultural heritage such as Paraguay, Uruguay, and northern Argentina, where it is used to treat stomach, digestive, and gastrointestinal disorders."},{"id":"s1:p3","text":"The species' extract, which contains isorhamnetin, luteolin, and quercetin, is used to fight herpes. A. saturejoides extract might have antiviral effects against the Western equine encephalitis virus. The extract could also have immunomodulatory properties. In general, it can help with the management of viral respiratory infections, including SARS-CoV-2 also known as Covid."},{"id":"s1:p4","text":"A. satureioides could also have effects on rat pregnancy. The rats had reduced delivery index and neonatal survival after being supplemented with Achyrocline satureioides. This also has an impact on variations in tissue-specific redox homeostasis and enzymatic activity, especially in the liver and kidney."},{"id":"s1:p5","text":"It is also used extensively in South Portugal, in bonfires during popular celebrations where people enjoyed the smell of burnt marcela and chorizos... when unavailable, people would simply open shellfish in the fire pit, eat them with a bit of lemon and make traditional constructions from the leftover shells, an art passed throughout multiple generations."},{"id":"s1:p6","text":"The plant, or sometimes just the flowers, are used to make tea. The heads of the flowers are used to make medicinal wines and bitters. The flowers are also crushed up and put in a pillow to help sleep."}]}]}

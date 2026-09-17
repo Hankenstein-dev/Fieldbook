@@ -1,0 +1,32 @@
+{
+  "taxonId": 713359,
+  "name": "Conocarpodendron",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:43:43.930464+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Conocarpodendron"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tree Pincushions"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Conocarpodendron&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Conocarpodendron&limit=100",
+      "status": 200
+    }
+  ]
+}

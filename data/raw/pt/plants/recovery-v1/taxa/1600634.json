@@ -1,0 +1,28 @@
+{
+  "taxonId": 1600634,
+  "name": "Tenarea tortuosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:36.547963+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/06c2780e993e43212ec06823bd692685e190dde444b5aa8989c49e4aeaa2b676.json",
+      "title": "Lithophyllum tortuosum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tenarea+tortuosa&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tenarea+tortuosa&limit=100",
+      "status": 200
+    }
+  ]
+}

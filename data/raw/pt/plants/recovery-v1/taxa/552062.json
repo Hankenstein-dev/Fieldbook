@@ -1,0 +1,90 @@
+{
+  "taxonId": 552062,
+  "name": "Furcraea andina",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:52.803243+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Furcraea andina",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Furcraea andina is a species of flowering plant in the family Asparagaceae. It is native to Ecuador, Peru and Bolivia in South America. The fibres in its leaves, known as fique, are used in making ropes.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/7dbf9863cdfe15d423295824d0f01b4662283e88bc810f15de3a6c7304abab07.json",
+      "sha256": "ab482e749e26a1b6907f91a2c6e1209c237860f1f157c9fd203b12458738bd4c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1182523190",
+      "revisionId": 1182523190,
+      "credit": {
+        "title": "Furcraea andina",
+        "url": "https://en.wikipedia.org/wiki/Furcraea_andina",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1182523190",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Furcraea andina Trel.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Furcraea andina is a species of plant in the family Asparagaceae that is native to South America. The fibres in its leaves, known as fique, are used in making ropes.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165801315.json",
+      "sha256": "778884de533a4661711c2558b94dcb798d8c00be330c2df274650d862b25d6f4",
+      "url": "https://api.gbif.org/v1/species/165801315",
+      "credit": {
+        "title": "Furcraea andina Trel.",
+        "url": "https://www.gbif.org/species/165801315",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Furcraea andina Trel., 1915",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "El escapo floral se usa para elaborar escaleras, corrales para aves, postes y chozas.\n\nLa infusión de la raíz combate hongos de la piel, úlceras, hematomas, inflamación del hígado y dolor estomacal.\n\nLa infusión de la raíz se usa en casos de enfriamiento.\n\nLa raíz y las hojas sirven para elaborar jabón y champú.\n\nLas fibras de las hojas y del escapo floral se usan para elaborar sogas o cuerdas, chilpes, rodapies, lonas, alfombras, carteras, zapatos y bolsos.\n\nSe usa para tratar el sarpullido.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/308491988.json",
+      "sha256": "6ec570b2cdf58e2fb796b93bd294dc87de19e8abd2e6843bc78ce66b4313834d",
+      "url": "https://api.gbif.org/v1/species/308491988",
+      "credit": {
+        "title": "Furcraea andina Trel., 1915",
+        "url": "https://www.gbif.org/species/308491988",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Furcraea andina Trel.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Se usa para tratar el sarpullido.\n\nLas fibras de las hojas y del escapo floral se usan para elaborar sogas o cuerdas, chilpes, rodapies, lonas, alfombras, carteras, zapatos y bolsos.\n\nLa raíz y las hojas sirven para elaborar jabón y champú.\n\nLa infusión de la raíz se usa en casos de enfriamiento.\n\nLa infusión de la raíz combate hongos de la piel, úlceras, hematomas, inflamación del hígado y dolor estomacal.\n\nEl escapo floral se usa para elaborar escaleras, corrales para aves, postes y chozas.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2769788.json",
+      "sha256": "8e4ff39f1cd48fafb52279174e7b2dbac1a328924d8713956097f2f3f9c46503",
+      "url": "https://api.gbif.org/v1/species/2769788",
+      "credit": {
+        "title": "Furcraea andina Trel.",
+        "url": "https://www.gbif.org/species/2769788",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Furcraea+andina&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Furcraea+andina&limit=100",
+      "status": 200
+    }
+  ]
+}

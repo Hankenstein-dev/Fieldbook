@@ -1,0 +1,55 @@
+{
+  "taxonId": 502285,
+  "name": "Lantana rugulosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:31.502871+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lantana rugulosa Kunth, 1818",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Cura enfermedades estomacales, bronco-faríngeas y el reumatismo.\n\nEl fruto es comestible.\n\nLa flor, en infusión, detiene secreciones no especificadas.\n\nLa flor, en infusión, propicia una buena circulación de la sangre.\n\nLa infusión de las hojas es util para tratar la tos ferina.\n\nLas hojas, en infusión, se usan como emenagogo.\n\nLas hojas, en infusión, se usan para tratar los cólicos menstruales.\n\nSe usa como combustible.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/308493969.json",
+      "sha256": "a2a5e1f7cb379eaeacfd66ad39fa502893b6b83bd85e433e2c24b9476929e899",
+      "url": "https://api.gbif.org/v1/species/308493969",
+      "credit": {
+        "title": "Lantana rugulosa Kunth, 1818",
+        "url": "https://www.gbif.org/species/308493969",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Lantana rugulosa Kunth",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Colombia a Bolivia\n\nAndes\n\n650 - 2800 msnm\n\nSe usa como combustible.\n\nLas hojas, en infusión, se usan para tratar los cólicos menstruales.\n\nLas hojas, en infusión, se usan como emenagogo.\n\nLa infusión de las hojas es util para tratar la tos ferina.\n\nLa flor, en infusión, propicia una buena circulación de la sangre.\n\nLa flor, en infusión, detiene secreciones no especificadas.\n\nEl fruto es comestible.\n\nCura enfermedades estomacales, bronco-faríngeas y el reumatismo.\n\nArbusto",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7297211.json",
+      "sha256": "5ab784f016b5f6f841baea57093d0b9481a27b0fe573277698ea9b4acf9a09aa",
+      "url": "https://api.gbif.org/v1/species/7297211",
+      "credit": {
+        "title": "Lantana rugulosa Kunth",
+        "url": "https://www.gbif.org/species/7297211",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lantana+rugulosa&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lantana+rugulosa&limit=100",
+      "status": 200
+    }
+  ]
+}

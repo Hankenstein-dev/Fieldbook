@@ -1,0 +1,42 @@
+{
+  "taxonId": 864829,
+  "name": "Teucrium algarbiense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:52.448546+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Teucrium algarbiense",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Teucrium algarbiense é uma espécie de planta com flor pertencente à família Lamiaceae. \n\nA autoridade científica da espécie é (Cout.) Cout., tendo sido publicada em Esboco Fl. Lenh. Portug. ed. 2: 262. 1936.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/5b6523fb9133a73366604fdb2af63878d8c7b371fa2d0fe4b52f72ba740cdd08.json",
+      "sha256": "a8c9acb723405283a835efe83ad9a1611f06653c7153483c3c6df77fc40ad2a0",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62904410",
+      "revisionId": 62904410,
+      "credit": {
+        "title": "Teucrium algarbiense",
+        "url": "https://pt.wikipedia.org/wiki/Teucrium_algarbiense",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62904410",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Teucrium+algarbiense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Teucrium+algarbiense&limit=100",
+      "status": 200
+    }
+  ]
+}

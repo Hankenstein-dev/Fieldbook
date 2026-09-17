@@ -1,0 +1,38 @@
+{
+  "taxonId": 1606308,
+  "name": "Vachellia campeachiana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:39.793370+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/8b4b876fa2a76ac970e52cab9cec7ee11e0a0304f3d5d327e0bd4cbc9d0531a8.json",
+      "title": "Vachellia campeachiana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Vachellia campeachiana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Boat-spine Acacia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vachellia+campeachiana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vachellia+campeachiana&limit=100",
+      "status": 200
+    }
+  ]
+}

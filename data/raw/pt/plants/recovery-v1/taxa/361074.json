@@ -1,0 +1,38 @@
+{
+  "taxonId": 361074,
+  "name": "Oxalis caprina",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:51.047268+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e134c9c71bf24a7b8070c57147398052fcc9f89844e60e7e5aec7d3ddb8b6852.json",
+      "title": "Oxalis caprina",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Oxalis caprina"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Goat's-foot"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Oxalis+caprina&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Oxalis+caprina&limit=100",
+      "status": 200
+    }
+  ]
+}

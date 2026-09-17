@@ -1,0 +1,83 @@
+{
+  "input": {
+    "taxonId": 525548,
+    "scientificName": "Allium canariense",
+    "commonName": "Allium canariense",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Allium canariense (Regel) N.Friesen & P.Schönfelder",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Type (lectotype, here designated): — SPAIN. Canary Islands. In Insulis canariensibus prope St. Sebastian, 18 November 1853, C. Maximowicz s. n. (LE 01010228!; Fig. 8)."
+          },
+          {
+            "id": "s1:p2",
+            "text": "If the subspecies obtusitepalum, despite the difficulties in morphological delimitation, will be accepted, the next nomenclature combination should be used:"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Allium canariense (Regel) N.Friesen & P.Schönfelder — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Allium canariense (Regel) N.Friesen & P.Schönfelder."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Canary Islands. It is a bulbous geophyte and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9401558.json",
+      "sha256": "2b957f4adbc4fbe4c6959dfb95827ede4e91c8bcbbbe0d7881ed2bdee90c5bcd",
+      "url": "https://api.gbif.org/v1/species/9401558",
+      "credit": {
+        "title": "Allium canariense (Regel) N.Friesen & P.Schönfelder",
+        "url": "https://www.gbif.org/species/9401558",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/525548-daf59021a436f361.json",
+      "sha256": "daf59021a436f361aedfb65706a3e7875d7fe4d931f7f95fa3878fec4dbac5ee",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60469211-2",
+      "credit": {
+        "title": "Allium canariense (Regel) N.Friesen & P.Schönfelder — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60469211-2",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 525548,
+    "name": "Allium canariense",
+    "language": "unspecified,en",
+    "sourceTextTokens": 141,
+    "packetTokens": 320,
+    "standaloneInputTextTokens": 772,
+    "packetSha256": "b4fd01482a9e4d8a1b8cfb69b0c82a370ecfaabdbb43875bf261277f1c697d72"
+  }
+}

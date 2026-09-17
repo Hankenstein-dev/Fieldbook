@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":169447,"scientificName":"Symphoricarpos microphyllus","commonName":"Pink Snowberry","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Symphoricarpos microphyllus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Symphoricarpos microphyllus, the pink snowberry, is a North American species of flowering plant in the honeysuckle family. It is widespread across much of Mexico from Chihuahua to Chiapas, and found also in Guatemala, Honduras, and the US State of New Mexico."},{"id":"s1:p2","text":"Symphoricarpos microphyllusis an erect branching shrub sometimes as much as 3 meters (10 feet) tall, making it the tallest species in the genus. Leaves are up to 25 mm (1 inch) long, dark green on the upper surface but lighter green underneath. It has pink, bell-shaped flowers and white or pale pink fruits."}]}]}

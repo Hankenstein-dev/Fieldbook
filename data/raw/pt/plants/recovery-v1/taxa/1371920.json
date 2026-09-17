@@ -1,0 +1,33 @@
+{
+  "taxonId": 1371920,
+  "name": "Crocus vernus",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:06.313702+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/eadecd2b72755710e4732de3acc29cc9d67c795316c39b829c1bcc6c7d678630.json",
+      "title": "Crocus vernus",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/eadecd2b72755710e4732de3acc29cc9d67c795316c39b829c1bcc6c7d678630.json",
+      "title": "Crocus vernus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Crocus+vernus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Crocus+vernus&limit=100",
+      "status": 200
+    }
+  ]
+}

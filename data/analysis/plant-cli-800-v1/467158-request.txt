@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":467158,"scientificName":"Pavonia sepium","commonName":"shell flower","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pavonia sepium","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón\n| name = ''Pavonia sepium''\n| domain = \n| regnum = [[Plantae]]\n| genus = [[Pavonia]]\n| binomial = Pavonia sepium\n| image = {{multiple image\n| perrow = 1/2\n| border = infobox\n| total_width = 290\n| caption_align = center\n| image1 = Pavonia sepium 29889700.jpg\n| image2 = Pavonia sepium 362597054.jpg\n| image3 = Pavonia sepium 508864813.jpg\n| color = green\n}}| image_caption = \n| image2 = \n| image2_caption = \n| status = \n| ordo = [[Malvales]]\n| classis = [[Magnoliopsida]]\n| divisio = [[Tracheophyta]]\n| familia = [[Malvaceae]]\n| species = '''Pavonia sepium'''\n| binomial_authority = \n| range_map = \n| range_map_caption = \n| synonyms = \n}}\nPavonia sepium es una especie de planta con flores de la familia Malvaceae nativa de América del Sur."},{"id":"s1:p2","text":" Nombres comunes \nEn Argentina es conocida como malva del bosque o botón de oro."},{"id":"s1:p3","text":" Características \nPavonia sepium es una planta arbustiva que crece a la sombra en lugares húmedos, con flores amarillas."},{"id":"s1:p4","text":" Taxonomía \nLa especie se divide en subespecies:"},{"id":"s1:p5","text":" P. s. macrocarpum\n P. s. sepium"}]}]}

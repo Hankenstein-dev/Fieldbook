@@ -1,0 +1,32 @@
+{
+  "taxonId": 163949,
+  "name": "Hyophila involuta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:52.499789+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hyophila involuta"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hyophila Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hyophila+involuta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hyophila+involuta&limit=100",
+      "status": 200
+    }
+  ]
+}

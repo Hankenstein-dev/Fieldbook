@@ -1,0 +1,32 @@
+{
+  "taxonId": 163872,
+  "name": "Hydrocotyle bowlesioides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:51.772412+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hydrocotyle bowlesioides"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bowlesia-leaf Pennywort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hydrocotyle+bowlesioides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hydrocotyle+bowlesioides&limit=100",
+      "status": 200
+    }
+  ]
+}

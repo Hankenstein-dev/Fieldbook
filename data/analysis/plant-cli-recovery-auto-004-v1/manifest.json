@@ -1,0 +1,131 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "count": 10,
+  "taxonIds": [
+    1280256,
+    1359735,
+    1363872,
+    1377225,
+    1395495,
+    1436779,
+    1500847,
+    1511491,
+    1578722,
+    1639823
+  ],
+  "batchSize": 10,
+  "timeoutSeconds": 300,
+  "promptSha256": "f8783051f00b663918ee82690a2413f4356dc634c28889ed58bc3f316caa3032",
+  "preparedAt": "2026-09-15T18:14:15.302686+00:00",
+  "purpose": "Recover actual blank cards and explicitly selected source-enriched short cards; all supplied ranks",
+  "taxa": [
+    {
+      "taxonId": 1280256,
+      "name": "Tridactyle tridactylites",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 168,
+      "standaloneInputTextTokens": 620,
+      "packetSha256": "8ebb82ebe97b1741a1f6f7ed6fac54d94a5de8a8912d29a116e153af3def1dc7"
+    },
+    {
+      "taxonId": 1359735,
+      "name": "Dialytrichia saxicola",
+      "language": "en",
+      "sourceTextTokens": 333,
+      "packetTokens": 478,
+      "standaloneInputTextTokens": 930,
+      "packetSha256": "49aff83c93548791689e6abbb33a549d5f18431089997121e3345ccdb3589f5f"
+    },
+    {
+      "taxonId": 1363872,
+      "name": "Alchemilla microcarpa",
+      "language": "pt,en",
+      "sourceTextTokens": 75,
+      "packetTokens": 227,
+      "standaloneInputTextTokens": 679,
+      "packetSha256": "75eb40bc4572db13331ed18b7479b8de5b402cf98838f14d0aa3f554266f6f15"
+    },
+    {
+      "taxonId": 1377225,
+      "name": "Festuca alopecuros",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 155,
+      "standaloneInputTextTokens": 607,
+      "packetSha256": "88470da1ade042dc7053e0a358f0ce95378c54536e82aeb4495caf24b855d799"
+    },
+    {
+      "taxonId": 1395495,
+      "name": "Centaurea francoi",
+      "language": "en",
+      "sourceTextTokens": 42,
+      "packetTokens": 158,
+      "standaloneInputTextTokens": 610,
+      "packetSha256": "a216711b8ce73e845c93696b10f59f43101e342bc4fcff653c791ec0de91d6c0"
+    },
+    {
+      "taxonId": 1436779,
+      "name": "Hemerocallis × hybrida",
+      "language": "en",
+      "sourceTextTokens": 252,
+      "packetTokens": 402,
+      "standaloneInputTextTokens": 854,
+      "packetSha256": "036236c834a24c9da6ddd292871d42c1e32505b68d9727cd1af461cb78d3ac9a"
+    },
+    {
+      "taxonId": 1500847,
+      "name": "Crocus clusii",
+      "language": "en",
+      "sourceTextTokens": 52,
+      "packetTokens": 160,
+      "standaloneInputTextTokens": 612,
+      "packetSha256": "d99fd039de97a767cfcb89039b5d04e05e141a231da6deef9aff340033f5058a"
+    },
+    {
+      "taxonId": 1511491,
+      "name": "Dioscorea edulis",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 177,
+      "standaloneInputTextTokens": 629,
+      "packetSha256": "41d7c9a225687f1071890977e64e31408e0bec37755b5ece709a59550e5c507e"
+    },
+    {
+      "taxonId": 1578722,
+      "name": "Orobanche castellana",
+      "language": "en",
+      "sourceTextTokens": 46,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "e65d761c06e187525c770b0e97a307a29ac7eb3a3e78d15cb56cc78532534a2f"
+    },
+    {
+      "taxonId": 1639823,
+      "name": "Libanotis pyrenaica",
+      "language": "cs",
+      "sourceTextTokens": 560,
+      "packetTokens": 717,
+      "standaloneInputTextTokens": 1169,
+      "packetSha256": "45fa5940c626d73aff4985d99b81db962626f6061483fe07d0e93e5b37684b9c"
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-0001",
+      "taxonIds": [
+        1280256,
+        1359735,
+        1363872,
+        1377225,
+        1395495,
+        1436779,
+        1500847,
+        1511491,
+        1578722,
+        1639823
+      ]
+    }
+  ]
+}

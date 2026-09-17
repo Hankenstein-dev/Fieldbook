@@ -1,0 +1,43 @@
+{
+  "taxonId": 1629877,
+  "name": "Hieracium amplexicaule",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:46.121151+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/1645a5dbff649c849aec7f7d386d88c3d551fcd2b010c1ec61efaecbf3d92ea0.json",
+      "title": "Hieracium amplexicaule",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/1645a5dbff649c849aec7f7d386d88c3d551fcd2b010c1ec61efaecbf3d92ea0.json",
+      "title": "Hieracium amplexicaule",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hieracium amplexicaule"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sticky Hawkweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hieracium+amplexicaule&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hieracium+amplexicaule&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "taxonId": 75321,
+  "name": "Aira elegans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:29.291729+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Aira elegans",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Aira elegans is a species of plant in the family Poaceae. It is commonly known as Mediterranean hairgrass, elegant hairgrass and the annual silver hairgrass. It is native to Europe, North Africa, Western Asia and the Caucasus.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1f537cf154ffba08ecabefee5f2b0e1bca9e6bb18c79d49cc1f0001c6150f1ae.json",
+      "sha256": "7abca03f581aa6bbab36c35958a7d1a513d901f075b19c7a1220c25995bae75f",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1372302299",
+      "revisionId": 1372302299,
+      "credit": {
+        "title": "Aira elegans",
+        "url": "https://en.wikipedia.org/wiki/Aira_elegans",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1372302299",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Аїра витончена",
+      "language": "uk",
+      "scope": "verified_requested_taxon",
+      "clean": "Аїра витончена (Aira elegans) — вид рослин із родини злакових (Poaceae).\n\n Біоморфологічна характеристика \nЦя однорічна рослина 10–40 см заввишки. Стебла прямовисні чи колінчасто висхідні, стрункі. Язичок листка 2–3 мм завдовжки, гострий. Листові пластинки ниткоподібні, плоскі чи згорнуті, 2–4 см × 0.5–1 мм, поверхня шершавенька, гола, верхівка тупа. Суцвіття — відкрита, нещільна, зворотно яйцювата волоть, завдовжки 4–9 см, завширшки 2–5 см. Колосочки поодинокі. Родючі колосочки на квітконіжках. Колосочки довгасті, стиснуті збоку, 1.5–2.5 мм завдовжки, розпадаються у зрілості, розчленовуючись під кожною родючою квіточкою. Колоскові луски схожі, блискучі, завдовжки 1.5–2.5 см, 1-кілеві, 1-жилкові, верхівки гострі. Родюча лема яйцювата, 1.5 мм завдовжки, без кіля; 5-жилкова, вершина зубчаста, 1-остюкова.\n\n Середовище проживання \nВид зростає в північно-західній Африці (Марокко, Алжир), Західній Азії (Кіпр, Туреччина, Ліван, Сирія, Ізраїль, Азербайджан, Вірменія, Грузія, Іран), на півдні Європи (Іспанія (включно з Балеарськими островами), Франція (включно з Корсикою), Албанія, Болгарія, Греція (включно з Критом), Хорватія, Італія (включаючи Сардинію, Сицилію), Румунія, Сербія, Словенія, Австрія, Швейцарія, Чехія, Угорщина, Росія [Північний Кавказ], Словаччина, Україна [Крим]).\n\nВ Україні вид росте на кам'янистих схилах, лісових галявинах, серед чагарників — ПБК від мису Айя до гори Аюдаг рідко.\n\n Примітки \n\n{{Квіткові-доробити}}\n\nвитончена\nКатегорія:Флора Північної Африки\nКатегорія:Флора Західної Азії\nКатегорія:Флора Європи\nКатегорія:Рослини, описані 1817",
+      "identityDecision": "Exact scientific identity in taxobox; common/translated article title",
+      "path": "data/raw/pt/plants/recovery-v1/articles/uk/98261098e3da3f5dbc30464c3a5ef52ed76d0cb7cf526f7cf3438ab9db3a167c.json",
+      "sha256": "21b83752b1f7e29e4e89201cf8b0deb796326f64fcf61866f3141c3edafe6f61",
+      "url": "https://uk.wikipedia.org/w/index.php?oldid=35922137",
+      "revisionId": 35922137,
+      "credit": {
+        "title": "Аїра витончена",
+        "url": "https://uk.wikipedia.org/wiki/%D0%90%D1%97%D1%80%D0%B0_%D0%B2%D0%B8%D1%82%D0%BE%D0%BD%D1%87%D0%B5%D0%BD%D0%B0",
+        "revisionUrl": "https://uk.wikipedia.org/w/index.php?oldid=35922137",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.uk"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Aira elegans"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aira+elegans&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aira+elegans&limit=100",
+      "status": 200
+    }
+  ]
+}

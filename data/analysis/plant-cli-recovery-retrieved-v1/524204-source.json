@@ -1,0 +1,59 @@
+{
+  "input": {
+    "taxonId": 524204,
+    "scientificName": "Koeleria cenisia",
+    "commonName": "Koeleria cenisia",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Koeleria cenisia E. Rev.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Oekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F -- Lichtzahl L -- Salzzeichen -- Reaktionszahl R -- Temperaturzahl T -- Naehrstoffzahl N -- Kontinentalitaetszahl K --"
+          },
+          {
+            "id": "s1:p2",
+            "text": "Status Indigenat: - Liste der gefaehrdeten Pflanzen IUCN (nach Walter & Gillett 1997): Nein"
+          },
+          {
+            "id": "s1:p3",
+            "text": "Volksname"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/224778337.json",
+      "sha256": "4ac0529292c2c4e58065aec8b111eac5f575c264a5b6e6bccc3157e59d58dc41",
+      "url": "https://api.gbif.org/v1/species/224778337",
+      "credit": {
+        "title": "Koeleria cenisia E. Rev.",
+        "url": "https://www.gbif.org/species/224778337",
+        "attribution": "Info Flora, plazi (2021). Info Flora Schweiz - Poaceae. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/p2zqqq accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/22adab57-d33a-4a06-9335-b4978f0f82bf",
+        "fetchedAt": "2026-09-15T07:52:29.641751+00:00",
+        "title": "Info Flora Schweiz - Poaceae"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 524204,
+    "name": "Koeleria cenisia",
+    "language": "unspecified",
+    "sourceTextTokens": 95,
+    "packetTokens": 203,
+    "standaloneInputTextTokens": 655,
+    "packetSha256": "4073979e3b57758a904dcf0c5bbecc1a19aacb99cd9ad920130d9565e031530c"
+  }
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":1263850,"scientificName":"Pleroma urvilleanum","commonName":"Glory bush","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pleroma urvilleanum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Pleroma urvilleanum, synonym Tibouchina urvilleana, is a species of flowering plant in the family Melastomataceae, native to Brazil."},{"id":"s1:p2","text":"Common names include:\n{{div col | colwidth = 15em}}\nglory bush\nlasiandra\nprincess flower\npleroma\npurple glory tree\n{{div col end}}\nThe specific epithet urvilleanum commemorates the 19th-century French explorer and botanist Jules Dumont d'Urville."},{"id":"s1:p3","text":"Description\nGrowing to {{convert|3|-|6|m|ft|0|abbr=on}} tall by {{convert|2|-|3|m|ft|0|abbr=on}} wide, it is a sprawling evergreen shrub with longitudinally veined, dark green hairy leaves. Clusters of brilliant purple flowers up to {{convert|10|cm|0|abbr=on}} in diameter, with black stamens, are borne throughout summer and autumn."},{"id":"s1:p4","text":" Cultivation \nUnder the synonym Tibouchina urvilleana, Pleroma urvilleanum has gained the Royal Horticultural Society's Award of Garden Merit."},{"id":"s1:p5","text":"With a minimum temperature of {{convert|3|C|F|abbr=on}}, it requires some winter protection, and in temperate areas is often grown in a conservatory. However, it can also be grown outside in a sunny, sheltered spot. Plants are best grown in acidic and well-drained soils and spread by suckers. It can be trained as a vine and grown on a trellis."}]}]}

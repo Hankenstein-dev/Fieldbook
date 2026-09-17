@@ -1,0 +1,60 @@
+{
+  "taxonId": 119956,
+  "name": "Morella cerifera",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:58.162591+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Morella cerifera (L.) Small",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Islas Caribeñas\n\nCanadá a Colombia; Antillas\n\n300 - 310 msnm\n\nFrequent. Apr; Aug–Oct. Thornhill 131, 132, 148, 170 (NCSC). Specimens seen in the vicinity: Sandy Run [Haw’s Run]: Taggart SARU 16 (WNC!); Sandy Run [Neck]: Wilbur 53682 (DUKE!). [= Myrica cerifera L. var. cerifera sensu RAB; < Myrica cerifera L. sensu FNA; = Weakley]\n\nWet pine flatwoods (WPF-T), wet pine savannas (SPS-T, SPS-RF, WLPS, VWLPS).\n\nLectotype (Parra-Osorio in Caldasia 23: 136. 2001): Clayton 692 (BM). - Epitype (Parra-Osorio in Caldasia 23: 137. 2001): U. S. A. Virginia. New Gloucester. Gloucester County. \" Thickets along stream, sandy and marly soil \", E. J. Palmer 39776, 11 Apr 1932 (NY; iso- A).\n\n\" Habitat in Carolina, Virginia, Pensylvania. \" RCN: 7411.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3168995.json",
+      "sha256": "237721e79b8a7243d3fae160922a97bf62bb36d8f9fcc479d8a6396449eb4b8a",
+      "url": "https://api.gbif.org/v1/species/3168995",
+      "credit": {
+        "title": "Morella cerifera (L.) Small",
+        "url": "https://www.gbif.org/species/3168995",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b741e9f302fce8379cb75d7f44669bc717fc4f5f01d51b6c2f6e9a9b5dccd210.json",
+      "title": "Myrica cerifera",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/f04c068b10d81167c49760e3fc32d7a9e3c7c7d4c19bb6b61afbc62981b61f83.json",
+      "title": "Myrica cerifera",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Morella cerifera"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "wax myrtle"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Morella+cerifera&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Morella+cerifera&limit=100",
+      "status": 200
+    }
+  ]
+}

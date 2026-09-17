@@ -1,0 +1,58 @@
+{
+  "taxonId": 884445,
+  "name": "Guzmania conifera",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:54.718677+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Guzmania conifera",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Guzmania conifera is a species of flowering plant in the Bromeliaceae family. It is native to Ecuador and Peru.\n\nCultivars\n Guzmania 'Candy Corn'\n Guzmania 'Equator'\n Guzmania 'Graaf Van Hoorn'\n Guzmania 'Lollipop'\n Guzmania 'Torch'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/5818d71f03e19349ab9ce8e8a2ae8cb9a6037ba84e5f750a696e4b84176dbbe2.json",
+      "sha256": "8b8ed2a257b5555c572bedc34f94c280dbafce0e3551c11cc0d0993619755c17",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1139848289",
+      "revisionId": 1139848289,
+      "credit": {
+        "title": "Guzmania conifera",
+        "url": "https://en.wikipedia.org/wiki/Guzmania_conifera",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1139848289",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Guzmania conifera (André) André ex Mez",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Guzmania conifera is a species of flowering plant in the Bromeliaceae family. It is native to Ecuador and Peru.\n\nGuzmania 'Candy Corn' Guzmania 'Equator' Guzmania 'Graaf Van Hoorn' Guzmania 'Lollipop' Guzmania 'Torch'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165677158.json",
+      "sha256": "9b5968482bd85fe1946c4b72675ad3c8d4b15c8aab83f72c0b7db5036a25b912",
+      "url": "https://api.gbif.org/v1/species/165677158",
+      "credit": {
+        "title": "Guzmania conifera (André) André ex Mez",
+        "url": "https://www.gbif.org/species/165677158",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Guzmania+conifera&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Guzmania+conifera&limit=100",
+      "status": 200
+    }
+  ]
+}

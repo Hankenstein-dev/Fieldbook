@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":59210,"scientificName":"Bromus rubens","commonName":"Red Brome","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Bromus rubens","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Bromus rubens é uma espécie de planta com flor pertencente à família Poaceae. "},{"id":"s1:p2","text":"A autoridade científica da espécie é L., tendo sido publicada em Centuria I. Plantarum...5. 1755."},{"id":"s1:p3","text":"Os seus nomes comuns são bromo-avermelhado ou espadana-pequena."},{"id":"s1:p4","text":" Etimologia \nBromus: nome genérico que deriva do grego bromos = (aveia), ou de broma = (alimento)."},{"id":"s1:p5","text":"rubens: epíteto em latim que significa \"de cor vermelha\""},{"id":"s1:p6","text":" Citologia \nO número de cromossomas de Bromus rubens (Fam. Gramineae) e táxones infraespecíficos é 2n=28"},{"id":"s1:p7","text":" Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago da Madeira."},{"id":"s1:p8","text":"Em termos de naturalidade é nativa das duas regiões atrás indicadas."},{"id":"s1:p9","text":"Existe registo de ser uma espécie introduzida no Arquipélago dos Açores, nomeadamente na Ilha Terceira e na Ilha de São Miguel."},{"id":"s1:p10","text":" Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia."},{"id":"s1:p11","text":" Sinonímia \n Anisantha rubens (L.) Nevski \n Bromus canescens Viv. \n Bromus coloratus Lojac.\n Bromus kerkeranus Sennen & Mauricio \n Bromus kunkelii (H.Scholz) H.Scholz \n Bromus purpurascens Delile \n Bromus rigidus Rchb.\n Bromus scoparius var. rubens (L.) St.-Amans \n Bromus sterilis var. rubens (L.) Kuntze \n Festuca rubens (L.) Pers. \n Genea rigena (L.) Dumort.\n Zerna rubens (L.) Grossh."},{"id":"s1:p12","text":"Possui um homónimo, Bromus rubens Delile"}]}]}

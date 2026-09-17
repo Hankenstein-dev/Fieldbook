@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 135934,
+  "scientificName": "Juniperus cedrus",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 135934,
+    "scientificName": "Juniperus cedrus",
+    "commonName": "Canary Islands juniper",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11269911/medium.jpeg",
+      "attribution": "(c) Krzysztof Ziarnek, Kenraiz, some rights reserved (CC BY-SA)",
+      "license": "cc-by-sa",
+      "sourceUrl": "https://www.inaturalist.org/photos/11269911"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 135934,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        136329,
+        47375,
+        47374,
+        1150915,
+        47574,
+        701535,
+        1150906,
+        135934
+      ],
+      "is_active": true,
+      "name": "Juniperus cedrus",
+      "parent_id": 1150906,
+      "ancestry": "48460/47126/211194/136329/47375/47374/1150915/47574/701535/1150906",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 11269911,
+        "license_code": "cc-by-sa",
+        "attribution": "(c) Krzysztof Ziarnek, Kenraiz, some rights reserved (CC BY-SA)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11269911/square.jpeg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1398
+        },
+        "flags": [],
+        "attribution_name": "Krzysztof Ziarnek, Kenraiz",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11269911/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11269911/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 4,
+      "observations_count": 548,
+      "flag_counts": {
+        "resolved": 1,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Juniperus_cedrus",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Canary Islands juniper",
+      "conservation_status": {
+        "id": 66086,
+        "place_id": null,
+        "source_id": null,
+        "user_id": null,
+        "authority": "IUCN Red List",
+        "status": "en",
+        "status_name": "endangered",
+        "geoprivacy": "obscured",
+        "iucn": 40
+      },
+      "establishment_means": {
+        "id": 73583051,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=15&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:47:46.131032+00:00",
+    "retainedFrom": "data/models/http/2310683ff4259a7359fe3916ed137472254c1f220ff2f538be6db35b45ebd569.json",
+    "recordSha256": "9c191c030913344dc2e2016696b77380a7637df482bfcb0c7cedc8031e7a67a0"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Juniperus cedrus",
+      "title": "Juniperus cedrus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/da2e36cdcc9dd9332e34fd9a4fa5daaa302e867b0e4fbc3b1bd2a7b52fd2ff26.json",
+      "url": "https://en.wikipedia.org/wiki/Juniperus_cedrus",
+      "revisionId": 1369255822,
+      "contentSha256": "bc32a0c88dc1bab4f92c69364a07574bcec980094bb4f63fdb89b4e65b84ff31"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Cedro-da-madeira",
+      "title": "Cedro-da-madeira",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/pt/7f68004a703de1abed11c5f7cff5bed21745f068bd1dca01c3bca302d1b11e80.json",
+      "url": "https://pt.wikipedia.org/wiki/Cedro-da-madeira",
+      "revisionId": 62164744,
+      "contentSha256": "b77e824e50386146bd46e3395419528463be8b6007b00d34809a94383b2831f3"
+    }
+  ],
+  "botanicalSources": [],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

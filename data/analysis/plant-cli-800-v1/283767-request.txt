@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":283767,"scientificName":"Monstera acuminata","commonName":"Monstera acuminata","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Monstera acuminata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Monstera acuminata, or shingle plant, is a species of flowering plant in the family Araceae which is widespread from Mexico to Central America. It is abundant in central Petén and extends north to San Luis Potosí, making it the northernmost species of Monstera."},{"id":"s1:p2","text":" Description \nMonstera acuminata germinates in the ground and grows horizontally as a low prostrate herb. The juvenile plant is much smaller and heart-shaped with thick, roundish, waxy leaves which grow in two ranks and overlap each other with the stem elliptic in cross section and internodes 1–5 cm long and asymmetric leaves."},{"id":"s1:p3","text":"When it encounters a tree trunk, it uses its ageotropic anchoring roots to grow vertically. The adult plant appears similar to that of Monstera deliciosa and these leaves are developed when the plant reaches 15 feet and is an example of dimorphism. The leaves are smooth or papillose stem 2–3.5 cm thick with internodes 6–11 cm long. After it grows upwards, the base of the stem of the hemiepiphyte dies and rots, thereby losing its connection to the soil."}]}]}

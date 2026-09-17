@@ -1,0 +1,32 @@
+{
+  "taxonId": 714953,
+  "name": "Gladiolus dalenii × oppositiflorus",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:43:44.355385+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gladiolus dalenii × oppositiflorus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hybrid Dragon's-head Lily"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gladiolus+dalenii+%C3%97+oppositiflorus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gladiolus+dalenii+%C3%97+oppositiflorus&limit=100",
+      "status": 200
+    }
+  ]
+}

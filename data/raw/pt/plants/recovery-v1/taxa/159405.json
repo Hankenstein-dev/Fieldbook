@@ -1,0 +1,38 @@
+{
+  "taxonId": 159405,
+  "name": "Brachythecium rivulare",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:39.128414+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/ac13c70233513fd297b071034532abe2da23d1a7eeb92406e2af75ed7fb92981.json",
+      "title": "Bach-Kurzbüchsenmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Brachythecium rivulare"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Waterside Feather Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Brachythecium+rivulare&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Brachythecium+rivulare&limit=100",
+      "status": 200
+    }
+  ]
+}

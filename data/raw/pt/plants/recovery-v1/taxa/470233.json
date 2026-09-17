@@ -1,0 +1,28 @@
+{
+  "taxonId": 470233,
+  "name": "Pachycereae",
+  "rank": "tribe",
+  "completedAt": "2026-09-15T07:41:44.123298+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/1ccb31b3369c9582ea9ad828aeb4b1186784b11afc40f855030c1d445edcff4c.json",
+      "title": "Echinocereeae",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pachycereae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pachycereae&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 277638,
+    "scientificName": "Begonia nelumbiifolia",
+    "commonName": "Water Lily Begonia",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Begonia nelumbiifolia",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Begonia nelumbiifolia, the lilypad begonia, is a species of flowering plant in the family Begoniaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Begonia nelumbiifolia Schltdl. & Cham. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Begonia nelumbiifolia Schltdl. & Cham.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Mexico to Colombia. It is a perennial and grows primarily in the wet tropical biome. It is has environmental uses, as a medicine and for food."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/83a3ce72c147ffa8df357eaf34dae48165f3a2f1f355412ebb7cb2c7d6854b1d.json",
+      "sha256": "0d4c4b7f45a62fefd783011e071f6b18aad837adc1d845a43bac045f73cd2b6f",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1056940026",
+      "revisionId": 1056940026,
+      "credit": {
+        "title": "Begonia nelumbiifolia",
+        "url": "https://en.wikipedia.org/wiki/Begonia_nelumbiifolia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1056940026",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/277638-c1275fab20539a58.json",
+      "sha256": "c1275fab20539a58d5b95f8fa0ac383c7996dcbd0a5822a89be8111d3583cba9",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A273181-2",
+      "credit": {
+        "title": "Begonia nelumbiifolia Schltdl. & Cham. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A273181-2",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 277638,
+    "name": "Begonia nelumbiifolia",
+    "language": "en,en",
+    "sourceTextTokens": 83,
+    "packetTokens": 232,
+    "standaloneInputTextTokens": 684,
+    "packetSha256": "e2294e453976527a948f1129dc6788738af3d3a7bda98d11f482aea9c21838e3"
+  }
+}

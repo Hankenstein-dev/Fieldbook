@@ -1,0 +1,38 @@
+{
+  "taxonId": 161864,
+  "name": "Dicranum montanum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:44.667677+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/05c911385b9dc6ed2ebcdd05a86bdcd3f0db7eca5b52b58b3582a75deb2b5319.json",
+      "title": "Berg-Gabelzahnmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dicranum montanum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Montane Dicranum Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dicranum+montanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dicranum+montanum&limit=100",
+      "status": 200
+    }
+  ]
+}

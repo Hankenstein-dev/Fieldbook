@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 738844,
+  "scientificName": "Anchusa puechii",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 738844,
+    "scientificName": "Anchusa puechii",
+    "commonName": "Anchusa puechii",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365162791/medium.jpeg",
+      "attribution": "(c) Luis Jordão, some rights reserved (CC BY-NC), uploaded by Luis Jordão",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/365162791"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 738844,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        523723,
+        48150,
+        795681,
+        795682,
+        1446651,
+        61789,
+        738844
+      ],
+      "is_active": true,
+      "name": "Anchusa puechii",
+      "parent_id": 61789,
+      "ancestry": "48460/47126/211194/47125/47124/523723/48150/795681/795682/1446651/61789",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 365162791,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Luis Jordão, some rights reserved (CC BY-NC), uploaded by Luis Jordão",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365162791/square.jpeg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1536
+        },
+        "flags": [],
+        "attribution_name": "Luis Jordão",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365162791/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365162791/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 12,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "conservation_status": {
+        "id": 266116,
+        "source_id": null,
+        "user_id": 1268928,
+        "authority": "Lista Vermelha da Flora Vascular de Portugal Continental",
+        "status": "cr",
+        "status_name": "CR",
+        "geoprivacy": "obscured",
+        "iucn": 50,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "establishment_means": {
+        "id": 96904106,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=58&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:12.479715+00:00",
+    "retainedFrom": "data/models/http/11b5bac007a4f676de016bce65a2288579aa8dbaf8873b7be13b674465e7a38f.json",
+    "recordSha256": "1d5703bc4acd77b7429048e8fcbe8e0d098042db7aba74252e9bd471865c96c0"
+  },
+  "coverageStatus": "taxonomy_only",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Anchusa puechii",
+      "title": "Anchusa puechii",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/54c2c1089d34c5a82572ed7398162de0f876e13301c66721b3f4d08cdd7f7a52.json",
+      "url": "https://en.wikipedia.org/wiki/Anchusa_puechii",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Anchusa puechii",
+      "title": "Anchusa puechii",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/pt/54c2c1089d34c5a82572ed7398162de0f876e13301c66721b3f4d08cdd7f7a52.json",
+      "url": "https://pt.wikipedia.org/wiki/Anchusa_puechii",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868769,
+      "canonicalName": "Anchusa puechii",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868769",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868769.json",
+      "recordSha256": "4b363ff53e47761da9170903dcd6b2d254404a53e238d16bb08fa4acc6469cfb"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

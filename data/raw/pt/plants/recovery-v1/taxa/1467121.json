@@ -1,0 +1,32 @@
+{
+  "taxonId": 1467121,
+  "name": "Limonium eduardi-diasii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:43.123166+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Limonium eduardi-diasii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Azores sea-lavender"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Limonium+eduardi-diasii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Limonium+eduardi-diasii&limit=100",
+      "status": 200
+    }
+  ]
+}

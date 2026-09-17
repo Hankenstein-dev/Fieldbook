@@ -1,0 +1,58 @@
+{
+  "taxonId": 338117,
+  "name": "Ranunculus saniculifolius",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:51.599802+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ranunculus saniculifolius",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Ranunculus saniculifolius''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Ranunculales]]\n| família = [[Ranunculaceae]]\n| género = ''[[Ranunculus]]''\n| espécie = '''''R. saniculifolius'''''\n| binomial = ''Ranunculus saniculifolius''\n| binomial_autoridade = Viv.\n}}\nRanunculus saniculifolius é uma espécie de planta com flor pertencente à família Ranunculaceae. \n\nA autoridade científica da espécie é Viv., tendo sido publicada em Fl. Libyc. Spec. 29. t. 11. f. 2. 1824.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d5cb62f7932d322f81bf39028f27f6cf2d2b4644af8aaee3934cc6efc6529184.json",
+      "sha256": "2aae436a866d0623648cd25696fab23234ddf4b0ae2542c7ed8ac76882b23c66",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069997",
+      "revisionId": 60069997,
+      "credit": {
+        "title": "Ranunculus saniculifolius",
+        "url": "https://pt.wikipedia.org/wiki/Ranunculus_saniculifolius",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069997",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d5cb62f7932d322f81bf39028f27f6cf2d2b4644af8aaee3934cc6efc6529184.json",
+      "title": "Ranunculus peltatus",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/3be773ed6914cf7bd8c7db13c7e1dfcf911e0a47501c83f61b923f2d605555b2.json",
+      "title": "Ranunculus peltatus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ranunculus saniculifolius"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ranunculus+saniculifolius&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ranunculus+saniculifolius&limit=100",
+      "status": 200
+    }
+  ]
+}

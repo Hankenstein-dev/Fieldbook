@@ -1,0 +1,42 @@
+{
+  "taxonId": 338107,
+  "name": "Genista falcata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:50.065442+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Genista falcata",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Genista falcata''\n| imagem = Genista falcata.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Fabales]]\n| família = [[Fabaceae]]\n| género = ''[[Genista]]''\n| espécie = '''''G. falcata'''''\n| binomial = ''Genista falcata''\n| binomial_autoridade = Brot.\n}}\n\nGenista falcata, conhecida como tojo-gadanho, é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é Brot., tendo sido publicada em Phytographia Lusitaniae Selectior 133, pl. 55.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/f53e90871a29c84eeaaf41d1d8dc13c280661ac14bacd165aed9285f5c0cf038.json",
+      "sha256": "f04f6fa397eb405b6596fc18a754a6d458d6389ce4b844522e59e677ada10560",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=71487075",
+      "revisionId": 71487075,
+      "credit": {
+        "title": "Genista falcata",
+        "url": "https://pt.wikipedia.org/wiki/Genista_falcata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=71487075",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Genista+falcata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Genista+falcata&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 159690,
+  "name": "Callitriche terrestris",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:44.833604+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/7e627ccf804838e0e05ef637d446b3eac0cb99584d1a8bde81b3f6132618a19c.json",
+      "title": "Callitriche terrestris",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Callitriche terrestris"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Terrestrial Water-starwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Callitriche+terrestris&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Callitriche+terrestris&limit=100",
+      "status": 200
+    }
+  ]
+}

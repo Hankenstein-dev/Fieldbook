@@ -1,0 +1,58 @@
+{
+  "taxonId": 550230,
+  "name": "Trifolium sylvaticum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:52.692007+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Trifolium sylvaticum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n | nome = ''Trifolium sylvaticum''\n | imagem =\n | imagem_legenda =\n | reino = [[Plantae]]\n | clado1 = [[Angiosperma|angiospérmicas]]\n | clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n | clado3 =\n | ordem = [[Fabales]]\n | família = [[Fabaceae]]\n | género = ''[[Trifolium]]''\n | espécie = '''''T. sylvaticum'''''\n | binomial = ''Trifolium sylvaticum''\n | binomial_autoridade = Gerard ex Loisel.\n}}\nTrifolium sylvaticum é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é Gerard ex Loisel., tendo sido publicada em Journal of Botany, British and Foreign 2: 367. 1809.\n\nO seu nome comum é trevo.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/cb4d57317d0756b137e96b55e017e9f12697c6340d85abd44a176b6d0ca9eb1f.json",
+      "sha256": "756ba82dff056410d7624e653af1795040eafaf081afcf09d801e1bf5f9396bf",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=58699035",
+      "revisionId": 58699035,
+      "credit": {
+        "title": "Trifolium sylvaticum",
+        "url": "https://pt.wikipedia.org/wiki/Trifolium_sylvaticum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=58699035",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Trifolium sylvaticum Gérard",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Dents del calze desiguals, llargament ciliades en tota llur longitud, iamb l´extrem ultrapassat..pels cilis; glomèruls d´(1) 1,5-2,5(3) x 1,5-2 cm, sovint reunits un de lateral i un de..terminal. Herba d´un verd ´Cendrós, poc ramificada; fulles inferiors llargament peciolades,..les superiors no tant, totes esparses; estípules membranoses a la part central, herbàcies al..marge, de 0,4-1,0 x 0,2-0,7 cm; folíols obovats, feblement denticulats a l´àpex, de 0,5-1,2 x..0,3-0,7 mm; glomèrul oblong, curtament pedunculat; calze de 6-8 mm, en estat fructífer amb..el tub contret a la part superior i les dents linears, setàcies; corol.la d´un rosa pàl.lid; 1 grana...Th. e. 0,5-2 dm. V-VII.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5359068.json",
+      "sha256": "7594294d612c5d84ecbc9e22a24af788bfc9b008983729e477e19f5d3a8b7199",
+      "url": "https://api.gbif.org/v1/species/5359068",
+      "credit": {
+        "title": "Trifolium sylvaticum Gérard",
+        "url": "https://www.gbif.org/species/5359068",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Trifolium+sylvaticum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Trifolium+sylvaticum&limit=100",
+      "status": 200
+    }
+  ]
+}

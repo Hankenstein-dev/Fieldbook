@@ -1,0 +1,334 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T12:10:29.048293+00:00",
+  "completedAt": "2026-09-14T12:11:56.876529+00:00",
+  "elapsedSeconds": 87.82799159000024,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0200",
+  "taxonIds": [
+    333797,
+    243782,
+    57037,
+    126507,
+    319675,
+    77315,
+    207930,
+    82850,
+    136114,
+    135727
+  ],
+  "usage": {
+    "input_tokens": 15111,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3796,
+    "reasoning_output_tokens": 2588
+  },
+  "requestTextTokens": 7702,
+  "savedOutputTokens": 1202,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 333797,
+      "name": "Cyathea medullaris",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A tree fern native to New Zealand.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 243782,
+      "name": "Iris latifolia",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A hardy flowering bulb native to the Pyrenees of southwestern France and northwestern Spain, it bears deep purple early-summer flowers with yellow markings. Its stiff, sword-shaped dark green to teal leaves begin growing in early spring, before the snow has fully melted.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 57037,
+      "name": "Acacia verticillata",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A perennial shrub or small tree native to southeastern Australia, it has rigid, prickly leaf-like structures crowded in whorled bundles. From July to December it produces densely packed pale-yellow flower spikes, followed by narrow, flattened seed pods.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 126507,
+      "name": "Ficus elastica",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A large banyan-type fig tree native to eastern South and Southeast Asia, it develops aerial and buttressing roots and broad, shiny oval leaves. In parts of India, its roots are guided across gaps to form living bridges. Young leaf tips can be eaten as salad greens, while its milky latex is toxic if swallowed.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Young leaf tips are used as salad greens; the milky latex is toxic if ingested, and the small figs are barely edible.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p5",
+            "s1:p10",
+            "s1:p11",
+            "s1:p12"
+          ],
+          "humanEdibility": [
+            "s1:p7",
+            "s1:p11",
+            "s1:p12"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 319675,
+      "name": "Erodium chium",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": null,
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 77315,
+      "name": "Gypsophila paniculata",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An herbaceous perennial native to central and eastern Europe, it forms branching mounds covered in clouds of tiny white summer flowers. It naturally grows on dry, sandy or stony steppes, often over calcareous soil. It is described as toxic to humans and can cause contact dermatitis.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 207930,
+      "name": "Angophora floribunda",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A large woodland and forest tree native to eastern Australia, it has fibrous grey bark and a broad, often gnarled form. Cream-white flowers appear from November to March, and it typically grows on floodplains and along watercourses in alluvial soils.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 82850,
+      "name": "Ruta montana",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p5",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 136114,
+      "name": "Encephalartos friderici-guilielmi",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A cycad native to South Africa’s Eastern Cape and KwaZulu-Natal provinces, it has a tree-like trunk and an open, woolly brown crown. Its stiff leaves spread horizontally; young leaves are silvery and turn yellowish with age, and their tips bear sharp thorns.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:10:29.048293+00:00",
+      "completedAt": "2026-09-14T12:11:56.876529+00:00",
+      "elapsedSeconds": 87.82799159000024,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 135727,
+      "name": "Pinus mugo",
+      "batchId": "batch-0200",
+      "usage": null,
+      "usageRef": "batch-0200-result.json",
+      "rawOutputFile": "batch-0200-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A conifer native to high-elevation habitats from southwestern through central and southeastern Europe, it has dark green needles in pairs and nut-brown cones. Its young cones and buds are gathered wild in spring and made into syrup by drying them through summer into autumn, then boiling the dripped liquid with sugar; they may instead be macerated in sugar and fermented.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Young cones and buds are wild-harvested in spring, then dried and boiled with sugar for syrup, or macerated in sugar, fermented and strained.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p14"
+          ],
+          "humanEdibility": [
+            "s1:p14"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 793678,
+  "name": "Salicornia ambigua",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:08.502361+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/e729777602714073057156b292c4f2619e59433c8ad68fa5e5c4e18d15035daa.json",
+      "title": "Sarcocornia perennis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Salicornia ambigua"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "perennial glasswort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Salicornia+ambigua&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Salicornia+ambigua&limit=100",
+      "status": 200
+    }
+  ]
+}

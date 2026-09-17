@@ -1,0 +1,43 @@
+{
+  "taxonId": 559450,
+  "name": "Epipactis lusitanica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:56.179271+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0f84b4c8b2337fc16feb6375be831cddddfbd5934cf0d5f51e561def8c2f1141.json",
+      "title": "Epipactis helleborine",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/b001c682920731fddf41cf29c9056cd04eca599f547381794c790c9763e611fd.json",
+      "title": "Epipactis helleborine",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Epipactis lusitanica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Portuguese Helleborine"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Epipactis+lusitanica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Epipactis+lusitanica&limit=100",
+      "status": 200
+    }
+  ]
+}

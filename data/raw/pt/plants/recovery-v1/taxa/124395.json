@@ -1,0 +1,74 @@
+{
+  "taxonId": 124395,
+  "name": "Ctenidium molluscum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:17.971386+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "梳藓",
+      "language": "zh",
+      "scope": "verified_requested_taxon",
+      "clean": "梳藓（学名：{{lang|la|'''''Ctenidium molluscum'''''}}）为塔藓科梳藓属下的一个种。\n\n 参考文献 \n{{refbegin}}\n {{TaiBNET| zh=梳藓 | id=200571 | binomial=Ctenidium molluscum | authority=(Hedw.) Mitt., 1869 | var= | accessdate=2013-01-24}}\n{{refend}}\n\n 扩展阅读 \n{{refbegin}}\n {{wikispecies-inline|Ctenidium molluscum|梳藓}}\n{{refend}}\n\n{{苔藓小作品}}",
+      "identityDecision": "Exact scientific identity in taxobox; common/translated article title",
+      "path": "data/raw/pt/plants/recovery-v1/articles/zh/af86706d15848ebb17fcf05e1c84ac12d2e79ae8265034c73c9ef4ca92aeb3cf.json",
+      "sha256": "fd66d578b2ebe92a2c881411c223329b83800e8be9646f8319d656d5914512b0",
+      "url": "https://zh.wikipedia.org/w/index.php?oldid=79997787",
+      "revisionId": 79997787,
+      "credit": {
+        "title": "梳藓",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A2%B3%E8%97%93",
+        "revisionUrl": "https://zh.wikipedia.org/w/index.php?oldid=79997787",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+      }
+    },
+    {
+      "title": "Ctenidium molluscum (Hedw.) Mitt.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882): Oued Djer; Sud d‘Oran. Bescherelle (1882), Jelenc (1955 a): Édough; Gorges de la Chiffa; Oued Merdja. Trabut (1887 a): D‘Oran à Mécheria. Jelenc (1953, 1967): Kabylie des Babor, crête du Tababor, 1950 m. Jelenc (1955 a): Atlas de Blida; Crêtes du Djurdjura, Aït Ouaban; Hauts-plateaux oranais. Boukhatem et al. (2017): El-Kala National Park, Tonga lake watershed. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098001.json",
+      "sha256": "3e99f286ec25bb1950142acceaab279b071c951eeab8dbb2ada2b35ee166212e",
+      "url": "https://api.gbif.org/v1/species/251098001",
+      "credit": {
+        "title": "Ctenidium molluscum (Hedw.) Mitt.",
+        "url": "https://www.gbif.org/species/251098001",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3dc76ed71afdf4818c3d5f42ec46a11d3becd94c848bb7b2edb24266fa5e310f.json",
+      "title": "Ctenidium molluscum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ctenidium molluscum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Comb-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ctenidium+molluscum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ctenidium+molluscum&limit=100",
+      "status": 200
+    }
+  ]
+}

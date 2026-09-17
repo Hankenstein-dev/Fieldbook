@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":139471,"scientificName":"Cercis chinensis","commonName":"Chinese redbud","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cercis chinensis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Cercis chinensis, the Chinese redbud, ({{zh|s=紫荆|t=紫荊|p=Zǐjīng|y=zi5 ging1}}) is a plant in the legume family Fabaceae. It is endemic to China, where it grows in southern and north-central China and Manchuria."},{"id":"s1:p2","text":"Description"},{"id":"s1:p3","text":"As a tree, the Chinese redbud may grow up to {{Convert|15|m|ft}} tall with a trunk diameter of up to {{Convert|50|cm|in}}, however, the species is normally found growing in shrub form. The flowers are pink or milky white in color whilst the leaf body is almost circular in shape, {{Convert|6|to|14|cm|in}} in length and tapers to a point at the end. Flowering in April in the Northern Hemisphere and in September in the Southern Hemisphere, and produces fruit in October and March, respectively."},{"id":"s1:p4","text":"The Chinese cercis (Cercis chinensis) Bunge is a native of China and a member of the Fabaceae family, which is extensively dispersed there. Its many parts can be utilized for traditional Chinese medicine, which dates back a long way, in addition to its high beauty value."},{"id":"s1:p5","text":"Cultivation\nAlthough hardy, in cultivation this plant requires a sheltered spot in a southerly or westerly aspect, with damp well-drained soil. "},{"id":"s1:p6","text":"The following cultivars have gained the Royal Horticultural Society's Award of Garden Merit (confirmed 2017): \nC. chinensis 'Avondale' \nC. chinensis 'Don Egolf'"}]}]}

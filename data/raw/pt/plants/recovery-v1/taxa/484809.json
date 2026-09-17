@@ -1,0 +1,47 @@
+{
+  "taxonId": 484809,
+  "name": "Deutzia pulchra",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:50.519336+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Deutzia pulchra",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|date=December 2023}}\n\nDeutzia pulchra, the beautiful deutzia, is a species of flowering plant in the family Hydrangeaceae. It is native to Taiwan and the Philippines. A deciduous shrub reaching {{cvt|2.5|m|ft|0}}, it is readily available from commercial suppliers.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/571dd786efe02ca97b81f753e8d88a1e40e71c2bcb9a6290e6f19eab91992d42.json",
+      "sha256": "c83a3cd73583c13d3aa434c7e070e6bae4611f0f67dcb2f7681e108b27d8590e",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1189181282",
+      "revisionId": 1189181282,
+      "credit": {
+        "title": "Deutzia pulchra",
+        "url": "https://en.wikipedia.org/wiki/Deutzia_pulchra",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1189181282",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Deutzia pulchra"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Deutzia+pulchra&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Deutzia+pulchra&limit=100",
+      "status": 200
+    }
+  ]
+}

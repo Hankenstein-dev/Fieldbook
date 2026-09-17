@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":912871,"scientificName":"Daucus decipiens","commonName":"Parsnip palm","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Daucus decipiens","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=November 2024}}"},{"id":"s1:p2","text":"Daucus decipiens, the parsnip palm, black parsley, tree angelica, or non-stinging hogweed, is a species of plant in the family Apiaceae."},{"id":"s1:p3","text":"Description"},{"id":"s1:p4","text":"A large plant that grows with a spreading crown and a woody stem, like a New Zealand cabbage tree. It flowers from November to January in the Southern hemisphere."},{"id":"s1:p5","text":"The seeds can live for up to a year. The species is biennial or perennial."},{"id":"s1:p6","text":" Full description \nErect biennial or perennial. Stems up to 2 m high and 4 cm diam., woody and leafless in lower parts with distinct lf scars, with pith in centre and hollow in parts. Stem lvs with fine hairs on rachis and midribs, otherwise glabrous, 2–3-pinnate (seedling lvs 1-pinnate); ultimate segments ovate to lanceolate, pinnatisect or not lobed, serrate, 15–20 mm long, shortly petiolulate or sessile; lvs of infl.-branches much reduced; petiole sparsely to moderately hairy, striate. Umbels up to 20 cm diam.; rays numerous; bracts 10–12, narrowly ovate-lanceolate, sometimes serrate, up to 5 cm long; bracteoles 7–12, lanceolate. Fls numerous, white to purplish. Fr. dark brown, sparsely hairy, 12–18 mm long."},{"id":"s1:p7","text":"Taxonomy\nThis plant was previously described as Melanosilenum decipiens."},{"id":"s1:p8","text":"Range\nMadeira, Portugal."},{"id":"s1:p9","text":"Introduced to Great Britain, and to New Zealand in 1969. It is considered an invasive pest in the Wellington area, and is in both the North and South Islands."},{"id":"s1:p10","text":"Habitat\nIt likes sunny, well-drained areas. It can grow well along roadsides."}]}]}

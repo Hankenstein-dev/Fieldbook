@@ -1,0 +1,38 @@
+{
+  "taxonId": 79434,
+  "name": "Trifolium vessiculosum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:52.797165+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/35b8707f32f6fd3ac9fb80e7ef1e38156a4ec2ef7d08b10b4ca1ce2a4a246d56.json",
+      "title": "Trifolium vesiculosum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Trifolium vessiculosum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "arrowleaf clover"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Trifolium+vessiculosum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Trifolium+vessiculosum&limit=100",
+      "status": 200
+    }
+  ]
+}

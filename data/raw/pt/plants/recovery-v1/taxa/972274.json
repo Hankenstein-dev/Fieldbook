@@ -1,0 +1,38 @@
+{
+  "taxonId": 972274,
+  "name": "Calcitrapa",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:45:22.189571+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/618651e9097693aedbdd3a56cf43c47c62a3447ebcc31f32109082667233fcff.json",
+      "title": "Centaurea",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/618651e9097693aedbdd3a56cf43c47c62a3447ebcc31f32109082667233fcff.json",
+      "title": "Centranthus calcitrapae var. calcitrapae",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/3075e2e7f8782c57adc3a38b1eee71ccad3c4a6bce45bf253ee6eac433cda2d4.json",
+      "title": "Centaurea",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Calcitrapa&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Calcitrapa&limit=100",
+      "status": 200
+    }
+  ]
+}

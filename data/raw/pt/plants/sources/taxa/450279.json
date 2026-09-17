@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 450279,
+  "scientificName": "Armeria gaditana",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 450279,
+    "scientificName": "Armeria gaditana",
+    "commonName": "Armeria gaditana",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2040224/medium.jpg",
+      "attribution": "(c) Xavier Béjar, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa",
+      "sourceUrl": "https://www.inaturalist.org/photos/2040224"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 450279,
+      "count": 13,
+      "name": "Armeria gaditana",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 60479,
+      "descendant_obs_count": 13,
+      "direct_obs_count": 13
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "b26eece698600336015e31c457625d2417e20910609a2b92f2a5235c1079a060"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Armeria gaditana",
+      "title": "Armeria gaditana",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/1b3d970e6305a7a0a665a4c7e195b856878cfe790ecc41373c52da498c14db00.json",
+      "url": "https://en.wikipedia.org/wiki/Armeria_gaditana",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Armeria gaditana",
+      "title": "Armeria gaditana",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/1b3d970e6305a7a0a665a4c7e195b856878cfe790ecc41373c52da498c14db00.json",
+      "url": "https://pt.wikipedia.org/wiki/Armeria_gaditana",
+      "revisionId": 60069664,
+      "contentSha256": "a1c219904dda58965763cd6a4862d40840befd1d2c4ddfbb8d4a11ae134ce582"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868980,
+      "canonicalName": "Armeria gaditana",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868980",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868980.json",
+      "recordSha256": "a7333bc40db0ad22285e3f5933563c85a12ec78ab6726b57b395e7e1e4003444"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

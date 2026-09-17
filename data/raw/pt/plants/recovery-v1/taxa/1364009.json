@@ -1,0 +1,38 @@
+{
+  "taxonId": 1364009,
+  "name": "Baculellum articulatum × Senecio oxyriifolius tropaeolifolius",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:04.652403+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/a60954931bc45a5840cd76db9f89365fa6598b0e74c98623eff1957de1c05f17.json",
+      "title": "× Senecurio kleiniiformis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Baculellum articulatum × Senecio oxyriifolius tropaeolifolius"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Spear Head"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Baculellum+articulatum+%C3%97+Senecio+oxyriifolius+tropaeolifolius&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Baculellum+articulatum+%C3%97+Senecio+oxyriifolius+tropaeolifolius&limit=100",
+      "status": 200
+    }
+  ]
+}

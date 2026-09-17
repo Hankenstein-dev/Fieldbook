@@ -1,0 +1,58 @@
+{
+  "taxonId": 77225,
+  "name": "Gastridium phleoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:38.003874+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Gastridium phleoides",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Gastridium phleoides''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Gastridium]]''\n| espécie = '''''G. phleoides'''''\n| binomial = ''Gastridium phleoides''\n| binomial_autoridade = (Nees & Meyen) C.E.Hubb.\n}}\nGastridium phleoides é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é (Nees & Meyen) C.E.Hubb., tendo sido publicada em Kew Bulletin 9(2): 375. 1954.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa de Portugal Continental de introduzida no Arquipélago da Madeira.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/c9e29765da98e02302e640e53af6ef1e4de06907eeef7cce1e4d478e3e0903ce.json",
+      "sha256": "f93de6dbc0c9957a8ce87aa2af5de236b4f95f7083fdb268f07c22aabae92179",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40538542",
+      "revisionId": 40538542,
+      "credit": {
+        "title": "Gastridium phleoides",
+        "url": "https://pt.wikipedia.org/wiki/Gastridium_phleoides",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40538542",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c9e29765da98e02302e640e53af6ef1e4de06907eeef7cce1e4d478e3e0903ce.json",
+      "title": "Gastridium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/88559e6ae39d08e4b5ae5f6c3dba8f9a5f00ea8bef969cfc376dd002594d1ca0.json",
+      "title": "Gastridium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gastridium phleoides"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gastridium+phleoides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gastridium+phleoides&limit=100",
+      "status": 200
+    }
+  ]
+}

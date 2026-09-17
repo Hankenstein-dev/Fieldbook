@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 126405,
+  "scientificName": "Begonia",
+  "rank": "genus",
+  "catalogueRecord": {
+    "id": 126405,
+    "scientificName": "Begonia",
+    "commonName": "Begonias",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "genus",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264704953/medium.jpg",
+      "attribution": "(c) Lily, some rights reserved (CC BY-NC), uploaded by Lily",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/264704953"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 126405,
+      "rank": "genus",
+      "rank_level": 20,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        71281,
+        71453,
+        126405
+      ],
+      "is_active": true,
+      "name": "Begonia",
+      "parent_id": 71453,
+      "ancestry": "48460/47126/211194/47125/47124/71281/71453",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 264704953,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Lily, some rights reserved (CC BY-NC), uploaded by Lily",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264704953/square.jpg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1536
+        },
+        "flags": [],
+        "attribution_name": "Lily",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264704953/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264704953/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 0,
+      "observations_count": 123894,
+      "flag_counts": {
+        "resolved": 123,
+        "unresolved": 4
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Begonia",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Begonias"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?lat=37.11181640625&lng=-8.59130859375&locale=en&page=13&per_page=200&radius=8.2",
+    "fetchedAt": "2026-09-09T18:03:29.935715+00:00",
+    "retainedFrom": "data/models/http/2feefd561c3bbe70232c44c143e82ba29935854ff3836fa9dad1a3a758999792.json",
+    "recordSha256": "07fc96525c55f12812e1165eacd1fe6819a79cdb09d1903ecd3ac435cc906c38"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Begonia",
+      "title": "Begonia",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/6ce2c77800d2121ea9afd0289dbab6a383ce6aebaab5fbea0e77a54dcf806f12.json",
+      "url": "https://en.wikipedia.org/wiki/Begonia",
+      "revisionId": 1358512099,
+      "contentSha256": "69aee8333a11e3e4268ff40c63e2d4c698fee63ff3fc6d61322466d98d36fee0"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Begônia",
+      "title": "Begônia",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/pt/137b1696b13e1b164d357f8906d19bdf8ce4b6c011d7f61783bc00a895ddbb55.json",
+      "url": "https://pt.wikipedia.org/wiki/Beg%C3%B4nia",
+      "revisionId": 72766109,
+      "contentSha256": "3525f90af9cf49265dd589acbebc0547151eab52fe09edbc53a1b1ebb3856e44"
+    }
+  ],
+  "botanicalSources": [],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

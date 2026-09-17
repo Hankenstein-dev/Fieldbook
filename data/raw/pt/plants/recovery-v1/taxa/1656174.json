@@ -1,0 +1,55 @@
+{
+  "taxonId": 1656174,
+  "name": "Riella macrocarpa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:50.951662+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riella macrocarpa (P.Allorge) Puche, Segarra, Sabovlj., M.Infante & Heras",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Segarra-Moragues et al. (2022): sine loco. Very rare.\n\nCOMMENT The species was recently recognized by Segarra-Moragues et al. (2022) for the previously considered Riella helicophylla var. macrocarpa P. Allorge. They reported just an Algerian sterile clone obtained from U. Kutschera, the species is therefore to be found wild in the country. According to these authors, it extends from the western Mediterranean in Portugal to the Eastern Mediterranean in Cyprus, replacing in many, but not all, countries the reports of R. helicophylla.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/12259551.json",
+      "sha256": "af4cbddd684222b749e71dc15d4e24b35ec8558382850043fe167ca16c1e24fd",
+      "url": "https://api.gbif.org/v1/species/12259551",
+      "credit": {
+        "title": "Riella macrocarpa (P.Allorge) Puche, Segarra, Sabovlj., M.Infante & Heras",
+        "url": "https://www.gbif.org/species/12259551",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Riella macrocarpa (P. Allorge) Puche, Segarra-Moragues, Sabovlj., M. Infante & Heras",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT The species was recently recognized by Segarra-Moragues et al. (2022) for the previously considered Riella helicophylla var. macrocarpa P. Allorge. They reported just an Algerian sterile clone obtained from U. Kutschera, the species is therefore to be found wild in the country. According to these authors, it extends from the western Mediterranean in Portugal to the Eastern Mediterranean in Cyprus, replacing in many, but not all, countries the reports of R. helicophylla.\n\nRECORDS. — Segarra-Moragues et al. (2022): sine loco. Very rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098695.json",
+      "sha256": "fb265d91094b4cd9b2c7c9ac391628373dc27a783f3b927a4ea09fffda72dfba",
+      "url": "https://api.gbif.org/v1/species/251098695",
+      "credit": {
+        "title": "Riella macrocarpa (P. Allorge) Puche, Segarra-Moragues, Sabovlj., M. Infante & Heras",
+        "url": "https://www.gbif.org/species/251098695",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riella+macrocarpa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riella+macrocarpa&limit=100",
+      "status": 200
+    }
+  ]
+}

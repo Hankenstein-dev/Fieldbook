@@ -1,0 +1,32 @@
+{
+  "taxonId": 1428092,
+  "name": "Protea × hybrida",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:25.099648+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Protea × hybrida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sugarbush Hybrids"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Protea+%C3%97+hybrida&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Protea+%C3%97+hybrida&limit=100",
+      "status": 200
+    }
+  ]
+}

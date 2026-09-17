@@ -1,0 +1,38 @@
+{
+  "taxonId": 1535043,
+  "name": "Canna × hybrida",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:05.524913+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/4c590a81ad33ae0f752cb14813b2ad95efdc1347926f503c0a81044dd8bd622c.json",
+      "title": "List of Canna cultivars",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Canna × hybrida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Garden Canna"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Canna+%C3%97+hybrida&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Canna+%C3%97+hybrida&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":1511231,"scientificName":"Lotus carpetanus","commonName":"Lotus carpetanus","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lotus carpetanus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lotus carpetanus is a perennial plant in the genus Lotus native to the Iberian Peninsula."},{"id":"s1:p2","text":"Description\nthis species is identified by its four flower heads, that look like peas, streaked orange. The leaves of this plant are hairy, circular lobed, in lobes of 3. the bottom of the flower head is reddish and hairy. This species is mat forming."},{"id":"s1:p3","text":"Conservation status\nIt is suspected that this species might be threatened, but there is low confidence according to the Kew database."}]}]}

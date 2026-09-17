@@ -1,0 +1,43 @@
+{
+  "taxonId": 1039661,
+  "name": "Fuchsia",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:45:40.001218+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/458315813c0b052e64119f73b3090a47f44b1009305c3380f2a5d030f7881622.json",
+      "title": "Fuchsia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/458315813c0b052e64119f73b3090a47f44b1009305c3380f2a5d030f7881622.json",
+      "title": "Fuchsia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fuchsia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Section Fuchsia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fuchsia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fuchsia&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":61374,"scientificName":"Physalis angulata","commonName":"cutleaf groundcherry","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Physalis angulata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{For|other plants called gooseberry|List of gooseberries}}\n{{Use dmy dates|date=July 2019}}"},{"id":"s1:p2","text":"Physalis angulata is an erect herbaceous annual plant belonging to the nightshade family Solanaceae. Its leaves are dark green and roughly ovate, often with serrate margins. The flowers are five-sided and pale yellow; the yellow-orange fruits are borne inside a balloon-like calyx. The exact native range is uncertain. The species may be naturally endemic to Australia or the Americas or the native range may encompass both the Americas and Australia. It is now widely distributed and naturalized in tropical and subtropical regions worldwide."},{"id":"s1:p3","text":"The plant produces edible fruit that can be eaten raw, cooked, jammed, etc. However, all other parts of the plant are poisonous. Members of the Toba-Pilagá ethnic group of Gran Chaco traditionally eat the ripe fruits raw. \nUnripe raw fruits, flowers, leaves, and stems of the plant contain solanine and solanidine alkaloids that may cause poisoning if ingested by humans, cattle, or horses."},{"id":"s1:p4","text":"Vernacular names\n{|\n! Language !! Common names\n|- style=\"vertical-align:top;\"\n| English || angular winter cherry, balloon cherry, cutleaf groundcherry, gooseberry, hogweed, wild tomato, camapu, and others\n|-\n| Spanish || bolsa mullaca\n|-\n| Malayalam || njottanjodiyan, mottaampuli\n|-\n| Indonesian || ceplukan, ciplukan\n|-\n| Sundanese || cecendet\n|-\n| Suriname || batoto wiwiri\n|-\n| Meru || Nkabakabu\n|-\n| Egyptian Arabic || Hrankash\n|-\n| Yoruba || Koropo\n|-\n| Guarani || Kamambu\n|}"}]}]}

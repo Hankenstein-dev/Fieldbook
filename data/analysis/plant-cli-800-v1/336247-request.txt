@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":336247,"scientificName":"Veronica acinifolia","commonName":"French Speedwell","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Veronica acinifolia","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=August 2024}}"},{"id":"s1:p2","text":"Veronica acinifolia, the French speedwell, is an annual flower in the family Plantaginaceae present within a band from Portugal to Britain on the west stretching eastwards far into Asia, with some gaps."},{"id":"s1:p3","text":"Description\nA small (to {{Convert|15|cm|abbr=on|disp=or}}), annual, bright blue flowered speedwell with an upright stance, covered with glands, with small (to {{Convert|1|cm|4=1|abbr=on|disp=or}} long), broadish leaves whose toothing is weak and blunt (or absent), the leaves becoming smaller upwards through the flowering section where they become small and narrower. The blue flowers are small (2–4 mm), and the fruit (2 x 3–4 mm) has two lobes separated deeply from the top."},{"id":"s1:p4","text":"Photographic examples can be seen on iNaturalist."},{"id":"s1:p5","text":"Distribution and habitat\nIts native range is Albania, Altay, Bulgaria, Corsica, Czechoslovakia, East Aegean Islands, Germany, Greece, Hungary, Italy, Kazakhstan, Kyrgyzstan, Crete, Crimea, Lebanon-Syria, Mongolia, Portugal, Romania, Spain, Switzerland, Turkey, Turkmenistan, Uzbekistan, Xinjiang, Yugoslavia, extinct in Belgium, and introduced into the British Isles."},{"id":"s1:p6","text":"Its habitat is cultivated ground, damp grassland, ditches, damp paths, in Turkey from 0 to {{Convert|200|m|abbr=on}}."}]}]}

@@ -1,0 +1,50 @@
+{
+  "taxonId": 882545,
+  "name": "Paphiopedilum",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:44:44.166909+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Paphiopedilum subgen. Paphiopedilum Karasawa & Saito, 1982",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Paphiopedilum subgenus Paphiopedilum is a subgenus of the genus Paphiopedilum.\n\nPlants from this section are found from Bhutan, Bangladesh, south to Myanmar, Thailand, Laos and Vietnam to west China.\n\nPaphiopedilum subgenus Paphiopedilum comprises the following species: Image Name Distribution Elevation (m) Paphiopedilum barbigerum China(Yunnan, Guizhou, and Guangxi), Vietnam, and Thailand. 300 - 760 m Paphiopedilum charlesworthii Assam India, Myanamar, Thailand, and SW China 1200-1600 m Paphiopedilum coccineum Vietnam 600-1000 m Paphiopedilum druryi South India 1500-1800 m Paphiopedilum erythroanthum China(Yunnan) 1300 m Paphiopedilum exul Thailand 6-30 m Paphiopedilum fairrieanum India(Himalayas and Sikkim), Bhutan 1300-2200 m Paphiopedilum gratrixianum Laos(Pak Song), Vietnam 910 - 1900 m Paphiopedilum helenae Vietnam (Cao Bang) 600 - 850 m Paphiopedilum henryanum China(Yunnan, Guangxi) 910 - 1400 m Paphiopedilum herrmannii Vietnam 700-900 m Paphiopedilum hirsutissimum Bangladesh, India (Assam), Thailand, Vietnam, Laos, southern China. 700-1800 m Paphiopedilum insigne India(Assam,Meghalaya,Manipur), Nepal, Myanmar 910 - 1500 m Paphiopedilum notatisepalum China (Yunnan) 1300 m Paphiopedilum papilio-laoticus Laos (Sulivong Luangaphay) Paphiopedilum spicerianum Barak and Sonai river gorges in Assam, India 370-1550 m Paphiopedilum stenolomum China(Yunnan) Paphiopedilum tigrinum Myanmar and China 1300-1900 m Paphiopedilum tranlienianum Vietnam. 400-750 m Paphiopedilum vejvarutianum Thailand (Kanchanaburi) 500-750 m Paphiopedilum villosum Assam India; Northern Burma; Northern Thailand; and Yunnan China 1200-1500 m",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/194785250.json",
+      "sha256": "58d19683d5567eb1c57f4cf2eb9474a1bce4b8d2cd79ec21a55bcd3af9a11116",
+      "url": "https://api.gbif.org/v1/species/194785250",
+      "credit": {
+        "title": "Paphiopedilum subgen. Paphiopedilum Karasawa & Saito, 1982",
+        "url": "https://www.gbif.org/species/194785250",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/7f60107832b7f73d482a4b0b52e5394ec36d6386b0e71002eeafc618770834a7.json",
+      "title": "Paphiopedilum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/7f60107832b7f73d482a4b0b52e5394ec36d6386b0e71002eeafc618770834a7.json",
+      "title": "Paphiopedilum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Paphiopedilum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Paphiopedilum&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 163313,
+  "name": "Glandularia chiricahensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:48.426684+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/bda73a32e402c7b8cd392ce4722141d1b45dad87606458c5ff59539593c3132d.json",
+      "title": "Verbena chiricahensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Glandularia chiricahensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chiricahua Mountain mock vervain"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Glandularia+chiricahensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Glandularia+chiricahensis&limit=100",
+      "status": 200
+    }
+  ]
+}

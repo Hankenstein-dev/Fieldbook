@@ -1,0 +1,66 @@
+{
+  "taxonId": 1001370,
+  "name": "Juniperus canariensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:24.393220+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Juniperus canariensis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Juniperus canariensis is a woody plant in the family Cupressaceae native to the Canary Islands and Madeira, off the coast of Northwestern Africa.\n\nThe species was previously treated as part of Juniperus phoenicea, which is now regarded as restricted to Spain and France, and later, as J. phoenicea was split into J. phoenicea and J. turbinata, as part of J. turbinata, which is found throughout the Mediterranean and in the Arabian Peninsula.\n\nStudies published in 2017 and 2018 on the genetic and morphological differences found within the J. phoenicea species complex showed that the Macaronesian population merited a status equivalent to that of J. phoenicea (sensu stricto) and J. turbinata.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/2f6ff129ca2bee7a56388e7e985acd45e9220fb66c26bf0d67aeb99833ca65f8.json",
+      "sha256": "b75f5662f9aa7f549b440ee23eb018da168f2e89f476d6b657573a8ed81c8924",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314234137",
+      "revisionId": 1314234137,
+      "credit": {
+        "title": "Juniperus canariensis",
+        "url": "https://en.wikipedia.org/wiki/Juniperus_canariensis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314234137",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Juniperus canariensis",
+      "language": "uk",
+      "scope": "verified_requested_taxon",
+      "clean": "Juniperus canariensis — вид хвойних рослин з родини кипарисових (Cupressaceae). Місцем проживання цього виду є Мадейра та Канарські острови.\n\n Примітки \n\ncanariensis\nКатегорія:Флора Мадейри\nКатегорія:Флора Канарських островів",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/uk/2f6ff129ca2bee7a56388e7e985acd45e9220fb66c26bf0d67aeb99833ca65f8.json",
+      "sha256": "63404de31578c2dd6dc77f12cb396bc9dedc770e60e69c84ffd466fcb0dae8a3",
+      "url": "https://uk.wikipedia.org/w/index.php?oldid=46268672",
+      "revisionId": 46268672,
+      "credit": {
+        "title": "Juniperus canariensis",
+        "url": "https://uk.wikipedia.org/wiki/Juniperus_canariensis",
+        "revisionUrl": "https://uk.wikipedia.org/w/index.php?oldid=46268672",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.uk"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Juniperus canariensis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Juniperus+canariensis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Juniperus+canariensis&limit=100",
+      "status": 200
+    }
+  ]
+}

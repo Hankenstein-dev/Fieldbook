@@ -1,0 +1,38 @@
+{
+  "taxonId": 359739,
+  "name": "Asplenium obovatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:42.375957+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/061b08bcdfaf4519861b0b6f7a222ffc6714c27284c07e52fefdfc2d6916faf1.json",
+      "title": "Asplenium billotii",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Asplenium obovatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lanceolate Spleenwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Asplenium+obovatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Asplenium+obovatum&limit=100",
+      "status": 200
+    }
+  ]
+}

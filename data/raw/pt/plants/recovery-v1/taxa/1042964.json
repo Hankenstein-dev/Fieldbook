@@ -1,0 +1,43 @@
+{
+  "taxonId": 1042964,
+  "name": "Senecio nemorensis",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:45:40.053302+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/f458d7eee8aa8f0eb998a95f7300d5ea8bb1e728f6d0d7c9740b5071f56b63ef.json",
+      "title": "Senecio nemorensis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/f458d7eee8aa8f0eb998a95f7300d5ea8bb1e728f6d0d7c9740b5071f56b63ef.json",
+      "title": "Senecio nemorensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Senecio nemorensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Alpine Ragwort Complex"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Senecio+nemorensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Senecio+nemorensis&limit=100",
+      "status": 200
+    }
+  ]
+}

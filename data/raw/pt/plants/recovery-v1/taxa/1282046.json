@@ -1,0 +1,32 @@
+{
+  "taxonId": 1282046,
+  "name": "Geheebia fallax",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:51.176101+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Geheebia fallax"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "False Beard Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Geheebia+fallax&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Geheebia+fallax&limit=100",
+      "status": 200
+    }
+  ]
+}

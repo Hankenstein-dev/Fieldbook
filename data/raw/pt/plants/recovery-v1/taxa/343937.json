@@ -1,0 +1,63 @@
+{
+  "taxonId": 343937,
+  "name": "Drimiopsis maculata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:45.725984+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Drimiopsis maculata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Drimiopsis maculata, also known by the common names little white soldiers, African false hosta, leopard's ears, African hosta, leopard plant, and Injoba is a flowering plant species in the genus Drimiopsis. It is the type species of its genus. It occurs from Tanzania to South Africa.\n\nScillascillin-type homoisoflavanones can be isolated from D. maculata.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/858889b89391d9fde44693ac48aef0605698e06206ea2cf405571d4811df9c19.json",
+      "sha256": "d00e02d7da15116b8478ae68cd8a1eb3b827f4d389a095bba3ee0c9beb136604",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1318503829",
+      "revisionId": 1318503829,
+      "credit": {
+        "title": "Drimiopsis maculata",
+        "url": "https://en.wikipedia.org/wiki/Drimiopsis_maculata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1318503829",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Drimiopsis maculata Lindl. & Paxton Fl.Gard",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Drimiopsis maculata, also known by the common names little white soldiers, African false hosta, leopards ears, African hosta, leopard plant, and Injoba is a flowering plant species in the genus Drimiopsis. It is the type species of its genus. It occurs from Tanzania to South Africa. Scillascillin-type homoisoflavanones can be isolated from D. maculata.Scillascillin-type homoisoflavanones from Drimiopsis maculata (Hyacinthaceae). Koorbanally C, Crouch NR and Mulholland DA, Biochemical systematics and ecology, May 2001, volume 29, issue 5, pages 539-541,",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165658264.json",
+      "sha256": "c66fdd6563810da11b50748e11fd0eca67080e9cf324d8abde716635af56b8c0",
+      "url": "https://api.gbif.org/v1/species/165658264",
+      "credit": {
+        "title": "Drimiopsis maculata Lindl. & Paxton Fl.Gard",
+        "url": "https://www.gbif.org/species/165658264",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Drimiopsis maculata"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Drimiopsis+maculata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Drimiopsis+maculata&limit=100",
+      "status": 200
+    }
+  ]
+}

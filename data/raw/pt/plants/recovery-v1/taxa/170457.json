@@ -1,0 +1,55 @@
+{
+  "taxonId": 170457,
+  "name": "Zygodon viridissimus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:30.448296+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Zygodon viridissimus (Dicks.) Brid.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT Zygodon viridissimus var. vulgaris Malta fo. mediterranea Malta was cited by Jelenc (1949, 1967) from Sahel d’Alger, Ben Aknoun, 250 m. The contradictory combination assignation of the two infraspecific taxa makes it not possible to assign any species to this name. As Ros et al. (1999, 2013) stated, Zygodon viridissimus var. vulgaris Malta nom. illeg. is an old name for Zygodon rupestris Schimp. ex Lorentz, and Zygodon viridissimus fo. mediterraneus Malta is a taxon related to Zygodon viridissimus (Dicks.) Brid.\n\nRECORDS. — Bescherelle (1882): Blidah; Kabylie; Oran. Bescherelle (1882), Jelenc (1955 a): Alger; Birmandreïs; Bouzaréah; Gorges de la Chiffa; Hauts-plateaux oranais, Chellala Dahrania; La Calle, sur les chênes; Philippeville. Trabut (1887 a): D’Oran à Mécheria. Jelenc (1955 a): Alma; Kabylie des Babor, cap Aokas; Khodjaberry; Littoral oranais; Marengo. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098190.json",
+      "sha256": "df1748b56b4924ff4ba46331ad65eadc02ddeb9e53f9dcaecb4a39e1ab68e2da",
+      "url": "https://api.gbif.org/v1/species/251098190",
+      "credit": {
+        "title": "Zygodon viridissimus (Dicks.) Brid.",
+        "url": "https://www.gbif.org/species/251098190",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0c21b5f86ca29b182e0f967f380a364e5fd7692c7f183a96119a4e930b866986.json",
+      "title": "Zygodon viridissimus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Zygodon viridissimus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Green Yoke-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Zygodon+viridissimus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Zygodon+viridissimus&limit=100",
+      "status": 200
+    }
+  ]
+}

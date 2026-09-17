@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":472312,"scientificName":"Carlina salicifolia","commonName":"Carlina salicifolia","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Carlina salicifolia","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{more footnotes|date=August 2013}}"},{"id":"s1:p2","text":"Carlina salicifolia is a species of thistle native to the Canary Islands and Madeira."},{"id":"s1:p3","text":"Description\nLow shrubby perennial to 1 m. Stems branched, white-tomentose in the upper parts and with prominent leaf-scars. Leaves alternate, entire, deciduous but long persistent after withering, crowded towards the ends of the branches, 6–10 cm x 6–15 mm, lanceolate, coriaceous, green and glabrescent above, densely white tomentose beneath, subsessile and with a few ciliate spines at the base. Capitulum 15–30 mm in diameter (excluding outer bracts), discoid to hemispherical on short peduncles solitary or in corymbs. Outer involucral bracts large, leafy of varying lengths, lanceolate to ovate, the inner scarious, shiny, stiff and spreading when dry. Inner involucral bracts shorter than the outer, scarious, recurved, spiny at the apex, blackish or purplish brown . Receptacle flat, scales persistent divided into linear segments, bristles also sometimes present, often tipped with red. Florets creamy yellow, hermaphrodite, all with a tubular 5-lobed corolla, ray florets absent. Achenes oblong 3 mm, pappus of 1 row of plumose, dense, appressed, caduceus, shiny brown hairs 2- to 3- branched and united at the base into clusters. Fl. V-VIII."},{"id":"s1:p4","text":"Distribution\nIt ranges throughout much of the island of Madeira on cliffs and rocky slopes; also on Porto Santo and on the Desertas. It is native to all of the Canary Islands where it is common on cliffs in the upper xerophytic and forest zones 200–1600 m. It is very rare on Lanzarote found in the Famara mountain range and on Fuerteventura found in the Jandia area which covers the southwestern mountainous part of the island."},{"id":"s1:p5","text":"Subdivisions\nFour subdivisions are accepted.\nCarlina salicifolia f. excedens {{small|G.Kunkel}} – Canary Islands\nCarlina salicifolia var. gomerensis {{small|G.Kunkel}} – Canary Islands\nCarlina salicifolia subsp. lancerottensis {{small|G.Kunkel}} – Canary Islands (Lanzarote)\nCarlina salicifolia subsp. salicifolia – the Canary Islands and Madeira"}]}]}

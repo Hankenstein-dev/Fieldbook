@@ -1,0 +1,63 @@
+{
+  "taxonId": 343693,
+  "name": "Bromelia humilis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:45.084151+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Bromelia humilis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Bromelia humilis, the dwarf bromelia, is a plant species in the genus Bromelia. This species is native to Venezuela, Trinidad and Tobago, and the Netherlands Antilles.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/e022d3f81f3b019637af4585f12e9297ce3b60a09b5d48c8cdc0e7c1fc3e2f53.json",
+      "sha256": "aed7dab77aa31c0f6bf6d5f67a6ffde39983f058267b0f57db9a77f3d1cf8013",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1344937954",
+      "revisionId": 1344937954,
+      "credit": {
+        "title": "Bromelia humilis",
+        "url": "https://en.wikipedia.org/wiki/Bromelia_humilis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1344937954",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Bromelia humilis Jacquin",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Bromelia humilis is a plant species in the genus Bromelia. This species is native to Venezuela, Trinidad & Tobago, and the Netherlands Antilles.Kew World Checklist of Selected Plant Families",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165631534.json",
+      "sha256": "5e83beb1d2f952a06ed9cfedb593c0f37312ee45ead07e14cb5cde5dda42cde4",
+      "url": "https://api.gbif.org/v1/species/165631534",
+      "credit": {
+        "title": "Bromelia humilis Jacquin",
+        "url": "https://www.gbif.org/species/165631534",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bromelia humilis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bromelia+humilis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bromelia+humilis&limit=100",
+      "status": 200
+    }
+  ]
+}

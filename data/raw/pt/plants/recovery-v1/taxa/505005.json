@@ -1,0 +1,38 @@
+{
+  "taxonId": 505005,
+  "name": "Porella arboris-vitae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:33.403131+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/c3e296681526247630f3a6548ea1ccb51e5595ec9afd2802f18c96c519273ca6.json",
+      "title": "Scharfes Kahlfruchtmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Porella arboris-vitae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bitter Scalewort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Porella+arboris-vitae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Porella+arboris-vitae&limit=100",
+      "status": 200
+    }
+  ]
+}

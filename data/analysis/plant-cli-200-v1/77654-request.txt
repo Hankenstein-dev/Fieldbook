@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":77654,"scientificName":"Lemna aequinoctialis","commonName":"lesser duckweed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lemna aequinoctialis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lemna aequinoctialis, the lesser duckweed, is a tiny, floating aquatic plant in the aroid family, found in quiet, still waters of the Southern U.S., as well as Mexico and some Caribbean Islands. Additionally, it can be found from the state of Virginia south through Florida, north to Nebraska and even into southern Wisconsin. It is also widespread in the American Southwest (and most of Mexico, including desert), from Texas to the coast of California, preferring lagoons and still ponds, which it accesses via seasonal flooding and occasional precipitation. Fronds are generally triple-nerved, green, and measure up-to 6 mm long. Flowers are single-ovulate, with a small utricular scale open on one side. Seeds have 8–26 ribs."},{"id":"s1:p2","text":"Due to its fast growth and hardy nature as a floating plant, lesser duckweed has become quite prevalent in the aquarium hobby, where it is maligned by some aquarists, while valued by others for absorbing excess nutrients in the water and shading fish from overhead lighting; additionally, it can be a food source for herbivorous or omnivorous fish (like goldfish). With its ability to reproduce rapidly and absorb nutrients productively, Lemna has become established, and even invasive, in many regional waterways outside of its native distribution. Accidental release has spawned numerous colonies of the plant in Eurasia and Africa, as well as in South America and some islands of Oceania."}]}]}

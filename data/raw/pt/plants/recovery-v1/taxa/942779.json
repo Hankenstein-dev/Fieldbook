@@ -1,0 +1,43 @@
+{
+  "taxonId": 942779,
+  "name": "Calamagrostis arenaria",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:07.955360+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3841cda31fdbc479ce6abfe8609eddabfabb665210f31e7caf48ba1a91b89db7.json",
+      "title": "Ammophila arenaria",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/da04901a1cb86ad0c066e3f1402cbb4a5f165a8595bec8ae6b75c1a2ccf95d6d.json",
+      "title": "Ammophila arenaria",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Calamagrostis arenaria"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "European marram grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Calamagrostis+arenaria&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Calamagrostis+arenaria&limit=100",
+      "status": 200
+    }
+  ]
+}

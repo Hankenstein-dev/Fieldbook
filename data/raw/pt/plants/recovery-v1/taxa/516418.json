@@ -1,0 +1,33 @@
+{
+  "taxonId": 516418,
+  "name": "Thapsia maxima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:37.983077+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d2f638fe207f664727f13f7785e48726c985550e04cb417099fc972f63ce5749.json",
+      "title": "Thapsia villosa",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/2040ff48397f8970c6f44b9f73157549825660f1417c0f5180cac13fbc069987.json",
+      "title": "Thapsia villosa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thapsia+maxima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thapsia+maxima&limit=100",
+      "status": 200
+    }
+  ]
+}

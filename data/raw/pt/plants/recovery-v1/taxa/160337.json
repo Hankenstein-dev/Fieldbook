@@ -1,0 +1,28 @@
+{
+  "taxonId": 160337,
+  "name": "Cerastium gracile",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:42.221577+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/a9191bb06daca3d9f16cd7afbffdd761458182673d8277512339b6fa7e7e5d83.json",
+      "title": "Cerastium brachypetalum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cerastium+gracile&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cerastium+gracile&limit=100",
+      "status": 200
+    }
+  ]
+}

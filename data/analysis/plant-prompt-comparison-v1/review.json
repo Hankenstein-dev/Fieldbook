@@ -1,0 +1,73 @@
+{
+  "method": "Coordinator review against supplied source passages, with prompt identities visible. Five deliberately selected cases, one output per prompt per case; not a representative error-rate estimate or independent botanical verification.",
+  "cases": [
+    {
+      "pair": 1,
+      "taxonId": 583831,
+      "name": "Dimorphotheca spectabilis",
+      "comparison": "Both stay within the evidence and return unknown. The long prompt uses 12 words. The short prompt uses 35, repeating the name and adding a generic distinctive-local-species sentence. This is padding, not an invented botanical fact.",
+      "sourcePassages": [
+        "s1:p1"
+      ]
+    },
+    {
+      "pair": 2,
+      "taxonId": 292142,
+      "name": "Musa balbisiana",
+      "comparison": "Both yes labels follow the requested definition: some qualified human food use is documented. The long response specifies naturally seedless clones in a note; the short response describes seeded fruit and then says EDIBLE: yes without that restriction. This is information the short output format did not require, not an incorrect label under its definition. B genome is unexplained jargon in the short paragraph.",
+      "sourcePassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p4",
+        "s1:p5",
+        "s1:p6"
+      ]
+    },
+    {
+      "pair": 3,
+      "taxonId": 61963,
+      "name": "Oxalis debilis",
+      "comparison": "Both return yes and preserve a small-quantity qualification, in different places. The long paragraph avoids the earlier elastic-fruit-capsule error. The short paragraph is approachable but adds easy-to-remember filler; pink flowers is suggested by the common name but is not explicitly documented species-wide in this packet. The long note uses an imperative consume only small amounts and omits the source's counterqualification that typical quantities are unlikely to cause the effect; this could be phrased as a source report.",
+      "sourcePassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p6",
+        "s1:p10"
+      ]
+    },
+    {
+      "pair": 4,
+      "taxonId": 430364,
+      "name": "Hibiscus elatus",
+      "comparison": "Both give readable flower-colour and timber hooks and return unknown. The long prompt limits origin to Cuba/Jamaica, which both relevant passages support. The short prompt also lists Puerto Rico and the US Virgin Islands from p2; p9 describes a narrower native range and first Puerto Rican plantings in the 1940s. That is an unresolved source tension rather than independently proven false botany. The long prompt takes the more cautious approach.",
+      "sourcePassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p4",
+        "s1:p5",
+        "s1:p6",
+        "s1:p8",
+        "s1:p9"
+      ]
+    },
+    {
+      "pair": 5,
+      "taxonId": 340357,
+      "name": "Rotheca myricoides",
+      "comparison": "Both correctly keep medicinal drinking/animal feeding separate from documented human food and return unknown. The short prompt calls the species evergreen, but the explicit evergreen statement is about cultivar Ugandense. It also leaves stamens unexplained. The long prompt avoids evergreen and uses reproductive parts, which is plain but rather awkward wording. Neither paragraph needs the medicinal laboratory-study passage.",
+      "sourcePassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p8",
+        "s1:p9",
+        "s1:p10",
+        "s1:p11",
+        "s1:p14",
+        "s1:p16",
+        "s1:p20"
+      ]
+    }
+  ]
+}

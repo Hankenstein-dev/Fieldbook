@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":367209,"scientificName":"Hesperantha coccinea","commonName":"Scarlet River Lily","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Hesperantha coccinea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Hesperantha coccinea, the river lily, or crimson flag lily, synonym Schizostylis coccinea, is a species of flowering plant in the iris family Iridaceae, native to Southern Africa and Zimbabwe. It is a semievergreen perennial growing to {{convert|60|cm|0|abbr=on}} tall, with slender lanceolate leaves up to {{convert|40|cm|0|abbr=on}} long and {{convert|1|cm|abbr=on|1}} broad. The flowers are red, occasionally pink or white, 30–35 mm long, with six petals; they are produced four to ten alternately on a spike in late summer to autumn."},{"id":"s1:p2","text":"The Latin specific epithet coccinea means “bright red”."},{"id":"s1:p3","text":"Cultivation\nHesperantha coccinea is cultivated as an ornamental plant in gardens for its flowers, It is often used in floristry. Hardy down to between {{convert|-5|and|-10|C|F|abbr=on}}, in colder regions it is grown under glass. It was formerly known in cultivation as \"Kaffir lily\", and is still occasionally referenced as such. However, \"Kaffir\" is now regarded as an offensive ethnic slur."},{"id":"s1:p4","text":"Numerous cultivars are available, of which the following have gained the Royal Horticultural Society's Award of Garden Merit:- \n'Jennifer' (mid-pink)\n'Major' (scarlet)\n'Sunrise' (salmon pink)\n 'Wilfred H. Bryant' (blush pink)"}]}]}

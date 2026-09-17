@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":143781,"scientificName":"Cotinus obovatus","commonName":"American smoketree","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cotinus obovatus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Cotinus obovatus syn. C. americanus, the American smoketree, chittamwood or American smokewood, is a rare species of flowering plant in the genus Cotinus of the family Anacardiaceae, native to scattered locations in Oklahoma, Texas, Arkansas, Missouri, Alabama and Tennessee. It is a deciduous, conical shrub growing to {{convert|10|m|abbr=on}} tall by {{convert|8|m|ft|0|abbr=on}} broad, with oval leaves up to {{convert|12|cm|0|abbr=on}} long. It produces panicles of pink-grey flowers in summer, and its foliage turns a brilliant scarlet in autumn; considered by many to be the most intense fall color of any tree. The smokey effect derives from the clusters of hairs on the spent flower stalks. It is highly sought after and cultivated in botanical gardens worldwide. It is dioecious, with male and female flowers on separate plants."},{"id":"s1:p2","text":"The Latin specific epithet obovatus means \"in the shape of an inverted egg\", and refers to the broadly obovate shape of the leaves. The heartwood is a bright yellow. The species does not appear to be in danger of facing extinction in the wild."}]}]}

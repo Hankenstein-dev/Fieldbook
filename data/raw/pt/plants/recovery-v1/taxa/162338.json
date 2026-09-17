@@ -1,0 +1,49 @@
+{
+  "taxonId": 162338,
+  "name": "Entosthodon attenuatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:46.791723+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Entosthodon attenuatus (Dicks.) Bryhn 1908",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882): Kabylie. Bescherelle (1882), Jelenc (1955 a): Alger; Bône; Bouzaréah; La Calle; Philippeville; Stora. Corbière (1905), Jelenc (1955 a): Environs de Constantine, Sidi M’Cid. Camus (1906), Coppey (1911), Jelenc (1955 a): Sud oranais, Beni-Ounif, Sahara algérien. Feldmann (1947): Kabylie de Collo, Maison forestière de Bou Noghra, 600 m. Jelenc (1955 a): Kabylie du Djurdjura, Fort National; Kabylie du Djurdjura, pic Belloua. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098318.json",
+      "sha256": "8d0d93245a5c1aa61187bf9c26f48ab5046a0dae92d56a2ad15eb77ac64a28ae",
+      "url": "https://api.gbif.org/v1/species/251098318",
+      "credit": {
+        "title": "Entosthodon attenuatus (Dicks.) Bryhn 1908",
+        "url": "https://www.gbif.org/species/251098318",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Entosthodon attenuatus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Thin Cord-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Entosthodon+attenuatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Entosthodon+attenuatus&limit=100",
+      "status": 200
+    }
+  ]
+}

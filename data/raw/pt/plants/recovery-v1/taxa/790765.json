@@ -1,0 +1,32 @@
+{
+  "taxonId": 790765,
+  "name": "Quinquefoliae",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:44:05.417528+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Quinquefoliae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "White pines"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quinquefoliae&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quinquefoliae&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 278567,
+    "scientificName": "Palicourea padifolia",
+    "commonName": "Palicourea padifolia",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Palicourea padifolia",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Palicourea padifolia is a species from the genus Palicourea."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Palicourea padifolia (Willd. ex Schult.) C.M.Taylor & Lorence — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Palicourea padifolia (Willd. ex Schult.) C.M.Taylor & Lorence."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Mexico to NW. Colombia. It is a shrub or tree and grows primarily in the wet tropical biome. It is used as a medicine."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/468265560dd8856e0b7daadedeb4d04defb1df40deaf428361864f3c5b58b2d7.json",
+      "sha256": "ee9532cb72b8c5fb68fc18a1b6074e4755859b157780aabea6ba4fe9072f6d55",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1188975488",
+      "revisionId": 1188975488,
+      "credit": {
+        "title": "Palicourea padifolia",
+        "url": "https://en.wikipedia.org/wiki/Palicourea_padifolia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1188975488",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/278567-2e053e3a1ef75022.json",
+      "sha256": "2e053e3a1ef75022a1eb747bcbbaa1ad9a387fd319b11b0a38b9996eccae4921",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A281971-2",
+      "credit": {
+        "title": "Palicourea padifolia (Willd. ex Schult.) C.M.Taylor & Lorence — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A281971-2",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 278567,
+    "name": "Palicourea padifolia",
+    "language": "en,en",
+    "sourceTextTokens": 83,
+    "packetTokens": 246,
+    "standaloneInputTextTokens": 698,
+    "packetSha256": "32676b886ba6fdc57fcaa0bace7ab3720c605258015ad57a00052359a4e58ca2"
+  }
+}

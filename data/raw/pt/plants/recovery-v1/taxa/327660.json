@@ -1,0 +1,38 @@
+{
+  "taxonId": 327660,
+  "name": "Iresine lindenii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:13.707469+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/cf311565a56b8de9cf6f592595517b149801840eff57c12e03f10ca8f2a6f202.json",
+      "title": "Iresine diffusa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Iresine lindenii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "blood leaf"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Iresine+lindenii&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Iresine+lindenii&limit=100",
+      "status": 200
+    }
+  ]
+}

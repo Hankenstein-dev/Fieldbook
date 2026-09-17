@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":774727,"scientificName":"Juniperus turbinata","commonName":"Mediterranean juniper","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Juniperus turbinata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Juniperus turbinata is a woody plant in the family Cupressaceae."},{"id":"s1:p2","text":"The species was previously treated as part of Juniperus phoenicea, which is now regarded as restricted to Spain and France, whereas J. turbinata is found throughout the Mediterranean and in the Arabian Peninsula. As of 2023, plants occurring in the Canary Islands, previously considered as part of the same species, are treated as the separate species J. canariensis."},{"id":"s1:p3","text":"Description\nJuniperus turbinata resembles J. phoenicea. It is a shrub or small tree up to {{convert|8|m|ft|abbr=off}} in height. The smaller branches have reddish bark. The adult leaves are scale-like, closely pressed to the twigs. Pollen is produced in the autumn (October to November), rather than in spring as in J. phoenicea. The seed cones are {{convert|7|–|11|mm|in|1|abbr=off|frac=8}} long (longer than in J. phoenicea), and somewhat elongated, especially when immature. Each cone typically has 7–9 seeds (fewer than J. phoenicea)."},{"id":"s1:p4","text":"{{gallery|mode=packed\n|Juniperus phoenicea foliage cones.jpg|Foliage and cones\n|Juniperus phoenicea kz3.jpg|In [[maquis shrubland]] habitat\n}}"},{"id":"s1:p5","text":"Taxonomy\nJ. turbinata was first described by Giovanni Gussone in 1844. It has been treated as a variety or subspecies of J. phoenicea. DNA from populations previously assigned to J. phoenicea var. phoenicea and J. phoenicea var. turbinata was studied, and the results were published in 2013. It was found that the two taxa were clearly separated, and hence best treated as two species."},{"id":"s1:p6","text":"Distribution and habitat\nJ. turbinata has a native distribution throughout the Mediterranean and in the Arabian Peninsula. It is known from southwestern and southeastern Europe, North Africa, and parts of western Asia (Cyprus, the east Aegean Islands, Lebanon and Syria, the region of Palestine, the Sinai Peninsula) and northwestern Arabian Peninsula (Saudi Arabia). It favours soils that are composed of sand, Cambrian limestone or volcanic rock."}]}]}

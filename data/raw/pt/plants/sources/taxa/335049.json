@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 335049,
+  "scientificName": "Potamogeton coloratus",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 335049,
+    "scientificName": "Potamogeton coloratus",
+    "commonName": "Fen Pondweed",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/103754102/medium.jpg",
+      "attribution": "(c) Norbert Sauberer, some rights reserved (CC BY-NC), uploaded by Norbert Sauberer",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/103754102"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 335049,
+      "count": 5,
+      "name": "Potamogeton coloratus",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 59110,
+      "descendant_obs_count": 5,
+      "direct_obs_count": 5
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "af4f70c61367fece8f3ff398408bdb278e3ab47c40b6feb1adf39b05cd5fee8d"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Potamogeton coloratus",
+      "title": "Potamogeton coloratus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/5c6d6bda0ade77e586063852a98d2a02bf9d0b762c7ec689adde468aed96b40f.json",
+      "url": "https://en.wikipedia.org/wiki/Potamogeton_coloratus",
+      "revisionId": 1351403011,
+      "contentSha256": "325358bb7eec3da12c2cb3e787d4761e425c07ac91b674f9fc294841b943d1ed"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868660,
+      "canonicalName": "Potamogeton coloratus",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868660",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868660.json",
+      "recordSha256": "18d8120d14b5b5efe9921c3be01f6c15a2a2bec7b44eac5fb858c4939483e19d"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":146791,"scientificName":"Cattleya trianae","commonName":"Christmas orchid","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cattleya trianae","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{redirect|Flor de mayo|the film|Beyond All Limits{{!}}''Beyond All Limits''}}"},{"id":"s1:p2","text":"Cattleya trianae (Lind. & Rchb. fil), also known as Flor de Mayo (\"May flower\") or \"Christmas orchid\", is a species of flowering plant in the family Orchidaceae. It grows as an epiphytic orchid, with succulent leaves, endemic to Colombia where it was nominated as the national flower in November 1936. That year, the National Academy of History of Argentina asked the Latin American countries to participate in an exhibition with the representative flowers of each country. The Colombian government gave the botanist Emilio Robledo the task to designate the most representative flowering plant of the country."},{"id":"s1:p3","text":"The choice of Cattleya trianae was made for two main reasons:"},{"id":"s1:p4","text":"The lip is yellow, blue and red, in the same way as the Colombian flag. \nThe species was named after the 19th century Colombian botanist José Jerónimo Triana."},{"id":"s1:p5","text":"The species grows at 1500–2000 meters above sea level, in Cloud forests. It is an endangered species due to habitat destruction."},{"id":"s1:p6","text":"The diploid chromosome number of C. trianae has been determined as 2n = 40. the haploid chromosome number has been determined as n = 20."}]}]}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":163978,"scientificName":"Hypericum maculatum","commonName":"Imperforate St John's-wort","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Hypericum maculatum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Hypericum maculatum, commonly known as imperforate St John's-wort,{{rp|340}} or spotted St. Johnswort, is a species of perennial herbaceous flowering plant in the family Hypericaceae. It is native to Europe and Western Asia where it grows in moist meadows."},{"id":"s1:p2","text":"Description\nHypericum maculatum is a hairless perennial herbaceous plant growing to about {{Convert|60|cm|abbr=on}}. The stem is square in cross section, but without the wings shown in H. tetrapterum. The leaves are simple, entire (undivided) and in opposite pairs, without stipules and have few or no translucent glands. There may be black dots on the leaves, petals and sepals. The flowers are yellow, up to about {{Convert|25|mm|abbr=on}} across. The species hybridises with Hypericum perforatum to produce Des Etang's St John's wort, Hypericum x desetangsii."},{"id":"s1:p3","text":"Uses\nIt is considered to be a medicinal plant. Hypericum maculatum herb has been used in the traditional Austrian medicine internally as tea or oil extract, and externally as oil extract, ointment or cold maceration in ethanol for treatment of disorders of the skin, locomotor system, nervous system, gastrointestinal tract, respiratory tract, kidneys and urinary tract, cardiovascular system, infections, rheumatism and gout."}]}]}

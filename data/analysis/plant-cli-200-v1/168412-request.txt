@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":168412,"scientificName":"Sanicula europaea","commonName":"wood sanicle","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Sanicula europaea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{more citations needed|date=September 2013}}"},{"id":"s1:p2","text":"Sanicula europaea, the sanicle or wood sanicle, is a perennial plant of the family Apiaceae."},{"id":"s1:p3","text":"It has traditionally been a favoured ingredient of many herbal remedies, and of it was said \"he who has sanicle and self-heal needs neither physician nor surgeon\".{{rp|342}}"},{"id":"s1:p4","text":"Description\nSanicula europea L. grows to 60 cm high and is glabrous with coarsely toothed leaves.\nThe pinkish flowers are borne in tight spherical umbels and are followed by bristly fruits which easily attach to clothing or animal fur and are thus easily distributed. The leaves are lobed and glossy, dark green."},{"id":"s1:p5","text":"Habitat\nIt is widespread in shady places in woodland across Europe."},{"id":"s1:p6","text":"Etymology\nSanicula comes from sanus, Latin for \"healthy\", reflecting its use in traditional remedies."},{"id":"s1:p7","text":"Uses\nSanicula europaea was used in Europe for healing wounds and cleaning. Filtered leaf extracts of sanicula europaea have shown some antiviral properties, inhibiting the replication of type 2 Human parainfluenza viruses (HPIV-2)."},{"id":"s1:p8","text":"Infusions of sanicle, made with water or wine, were commonly used in France to cure dysentery, ulcers and kidney injuries. To this list Culpeper added that sanicle heals tumours in any part of the body, and alleviates gonorrhoea, bowel pain and more."},{"id":"s1:p9","text":"The roots have been used in the traditional Austrian medicine internally (as tea) or externally (as ointment) for treatment of disorders of the skin, respiratory tract, locomotor system, gastrointestinal tract, and infections."}]}]}

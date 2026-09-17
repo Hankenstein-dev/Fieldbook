@@ -1,0 +1,33 @@
+{
+  "taxonId": 1540163,
+  "name": "Odontarrhena serpyllifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:06.466112+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5dfcbd1622f5b78044bcb64dde0a70686bfc7bf39c97efb37e0595c5d624d8cf.json",
+      "title": "Alyssum serpyllifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/ce08f77fada83765973430fff14f57fe8d565c3cd74e3ca5d70520d031dd089d.json",
+      "title": "Alyssum serpyllifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Odontarrhena+serpyllifolia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Odontarrhena+serpyllifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

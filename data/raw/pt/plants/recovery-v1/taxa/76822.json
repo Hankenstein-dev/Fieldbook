@@ -1,0 +1,32 @@
+{
+  "taxonId": 76822,
+  "name": "Ephedra foeminea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:47.475625+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ephedra foeminea"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Leafless Ephedra"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ephedra+foeminea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ephedra+foeminea&limit=100",
+      "status": 200
+    }
+  ]
+}

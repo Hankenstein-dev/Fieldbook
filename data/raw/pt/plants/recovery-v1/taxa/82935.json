@@ -1,0 +1,63 @@
+{
+  "taxonId": 82935,
+  "name": "Hypericum perfoliatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:57.763333+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hypericum perfoliatum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Hypericum perfoliatum é uma espécie de planta com flor pertencente à família Hypericaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 785. 1753.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental, no Arquipélago dos Açores e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa de Portugal Continental e Arquipélago da Madeira e introduzida no arquipélago dos Açores.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/7f571b6fed3372856d5abd35819edc7c81b621ff79155095c6ab6b651d1529ea.json",
+      "sha256": "2de033dab19e93eaba64582643da950c0a58a4d2a08738ec264c44068341c9c5",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=70695820",
+      "revisionId": 70695820,
+      "credit": {
+        "title": "Hypericum perfoliatum",
+        "url": "https://pt.wikipedia.org/wiki/Hypericum_perfoliatum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=70695820",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Hypericum perfoliatum L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Hypericum perfoliatum ist eine Pflanzenart aus der Gattung der Johanniskräuter (Hypericum).\n\nHypericum perfoliatum ist ein ausdauernder Schaft-Hemikryptophyt, der Wuchshöhen von (15) 25 bis 75 Zentimeter erreicht. Der Stängel ist kräftig und aufrecht oder aufsteigend. Die Laubblätter messen 1,3 bis 60 × 15 Millimeter und sind herzförmig-stängelumfassend, durchscheinend und schwarz punktiert. Die Kelchblätter weisen lang gestielte Drüsen auf und sind fruchtend aufrecht. Die Kapsel ist eiförmig und hat hervortretende Drüsen. Die Blütezeit reicht von März bis Juni. Die Chromosomenzahl beträgt 2n = 14.\n\nHypericum perfoliatum kommt hauptsächlich im Mittelmeerraum vor vom Makaronesien bis zur südwestlichen Türkei. Die Art wächst in der Phrygana, in Steppenrasen, auf Brachland, an feuchten schattigen Ruderalstellen auf tiefgründigem Lehm in Höhenlagen von 0 bis 2000 Meter.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165198775.json",
+      "sha256": "656f755ae264abce01744b8dca5c79e410bd73ae28d08a2bcee4073b9777213b",
+      "url": "https://api.gbif.org/v1/species/165198775",
+      "credit": {
+        "title": "Hypericum perfoliatum L.",
+        "url": "https://www.gbif.org/species/165198775",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hypericum perfoliatum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hypericum+perfoliatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hypericum+perfoliatum&limit=100",
+      "status": 200
+    }
+  ]
+}

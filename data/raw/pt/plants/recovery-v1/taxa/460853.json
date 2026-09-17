@@ -1,0 +1,22 @@
+{
+  "taxonId": 460853,
+  "name": "Lavandula × alportelensis",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:41:27.634005+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lavandula+%C3%97+alportelensis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lavandula+%C3%97+alportelensis&limit=100",
+      "status": 200
+    }
+  ]
+}

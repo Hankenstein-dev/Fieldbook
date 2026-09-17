@@ -1,0 +1,61 @@
+{
+  "taxonId": 1283661,
+  "name": "Rosa mandonii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:41.399126+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Rosa mandonii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Rosa mandonii is a species of flowering plant in the family Rosaceae, native to Madeira. Some authorities consider it to be indistinguishable from Rosa canina, the dog rose. It is most often found in the laurisilva, but can also occur in other types of woodland and in thickets.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/04643c8d45732b723007157e534d8c4d0bf0021c333b5e196664157a08115695.json",
+      "sha256": "760320b12a404c4f35ab5f17abd9a2094788489ca24d214bf05522347671971a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1166542024",
+      "revisionId": 1166542024,
+      "credit": {
+        "title": "Rosa mandonii",
+        "url": "https://en.wikipedia.org/wiki/Rosa_mandonii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1166542024",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Rosa mandonii",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{info/Taxonomia\n| nome = ''Rosa mandonii''\n| cor =lightgreen\n|imagem =Rosa mandonii 1 web.jpg\n|imagem_legenda = ''Rosa mandonii'' em floração, ilha da Madeira\n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = [[rosídeas]]\n| ordem = [[Rosales]]\n| família = [[Rosaceae]]\n| género = ''[[Rosa]]''\n| binomial = ''Rosa mandonii''\n| binomial_autoridade = [[Desegl.]]\n}}\nA Roseira-brava (Rosa mandonii) é uma planta do género Rosa, da família Rosaceae, espécie endémica da ilha da Madeira, onde ocorre, normalmente, entre os 600 e 1.600 metros de altitude principalmente em comunidades nas orlas da floresta Laurissilva.\n\nApresenta-se como um arbusto trepador, perene e caducifólio com ramos até 4 metros ou mais de comprimento, com ou sem acúleos. Esta planta apresenta folhas compostas, geralmente com 5 a 7 folíolos, elípticos a orbiculares, serrados, glabros; pecíolos e nervuras principais glabros, com acúleos pequenos e glândulas.\n\nAs flores são brancas reunidas em conjuntos de 3, formando corimbos terminais com 9 a 12 flores.\n\nEsta planta apresenta floração de Abril a Agosto.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/04643c8d45732b723007157e534d8c4d0bf0021c333b5e196664157a08115695.json",
+      "sha256": "46141688a915d9d0d4ff321f9db4023299dfe46989ad5c2aad41e26f38356a71",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177769",
+      "revisionId": 62177769,
+      "credit": {
+        "title": "Rosa mandonii",
+        "url": "https://pt.wikipedia.org/wiki/Rosa_mandonii",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177769",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rosa+mandonii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rosa+mandonii&limit=100",
+      "status": 200
+    }
+  ]
+}

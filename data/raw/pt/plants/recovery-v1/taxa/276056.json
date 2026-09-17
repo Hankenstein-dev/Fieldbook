@@ -1,0 +1,38 @@
+{
+  "taxonId": 276056,
+  "name": "Sedum burrito",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:54.416846+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0c3026c54b1f80e7044f2eede1a9d2983f3c125393ae882cd4103207360b8053.json",
+      "title": "Sedum morganianum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sedum burrito"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Baby Burro's Tail"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+burrito&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+burrito&limit=100",
+      "status": 200
+    }
+  ]
+}

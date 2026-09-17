@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 58790,
+  "scientificName": "Berula erecta",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 58790,
+    "scientificName": "Berula erecta",
+    "commonName": "cutleaf water parsnip",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46363090/medium.jpeg",
+      "attribution": "no rights reserved, uploaded by Harald Schnöde (Schnde)",
+      "license": "cc0",
+      "sourceUrl": "https://www.inaturalist.org/photos/46363090"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 58790,
+      "count": 5,
+      "name": "Berula erecta",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 58791,
+      "descendant_obs_count": 5,
+      "direct_obs_count": 5
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "5b86c11fcb4a447c05716f9c3435187486730ba2831d6b046b465eebe16f332d"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Berula erecta",
+      "title": "Berula erecta",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/82f85dccbcb1b8b28399667bf98b61080deffda6a9cf1f0c0e6f1464d71bfd03.json",
+      "url": "https://en.wikipedia.org/wiki/Berula_erecta",
+      "revisionId": 1313925843,
+      "contentSha256": "93abf828232ddb6cd0e3c730e21fed395ede57b963c21fcfd73e21f6b3770ca6"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Berula erecta",
+      "title": "Berula erecta",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/82f85dccbcb1b8b28399667bf98b61080deffda6a9cf1f0c0e6f1464d71bfd03.json",
+      "url": "https://pt.wikipedia.org/wiki/Berula_erecta",
+      "revisionId": 62142365,
+      "contentSha256": "333b6b690f64b0ebd5ac2504ac17536b307518777709644475370a8817588594"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868509,
+      "canonicalName": "Berula erecta",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868509",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868509.json",
+      "recordSha256": "0acedd5c5dd2b796082b0ab183e4dcf340e8d40e127a628cfc4ac2ae9c94cbbe"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

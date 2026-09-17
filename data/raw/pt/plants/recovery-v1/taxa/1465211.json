@@ -1,0 +1,42 @@
+{
+  "taxonId": 1465211,
+  "name": "Cerastium azoricum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:46.327988+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cerastium azoricum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome =''Cerastium azoricum''\n| cor =lightgreen \n| imagem = Flora Azorica (Tab. XIV) (7216350216).jpg\n| imagem_legenda = \n| estado=VU\n| reino = [[Plantae]]\n| divisão = [[Magnoliophyta]]\n| classe = [[Magnoliopsida]]\n| ordem = [[Caryophyllales]]\n| família = [[Caryophyllaceae]]\n| género = ''[[Cerastium]]''\n| espécie = ''C. azoricum''\n| binomial= ''Cerastium azoricum''\n| binomial_autoridade= [[Hochst.]]\n| subdivisão_nome = \n| subdivisão =\n|sinónimos=\n*''Ceratium vagans'' auct., non [[Lowe]]\n<center>''Ver texto''\n}}\n\nCerastium azoricum Hochst. é uma espécie de planta pertencente à família das Caryophyllaceae. A espécie é endémica no arquipélago dos Açores, onde é considerada espécie protegida.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/0a4c295fe557844774712cb464a6af229b02de7af5da5afb53bd561ed06ff6e6.json",
+      "sha256": "ae4569d2b59da57c522df52273dee455cc9bc73a2fe9c3f672ce3e23c2190174",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=57347345",
+      "revisionId": 57347345,
+      "credit": {
+        "title": "Cerastium azoricum",
+        "url": "https://pt.wikipedia.org/wiki/Cerastium_azoricum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=57347345",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cerastium+azoricum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cerastium+azoricum&limit=100",
+      "status": 200
+    }
+  ]
+}

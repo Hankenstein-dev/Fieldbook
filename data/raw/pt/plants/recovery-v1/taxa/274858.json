@@ -1,0 +1,55 @@
+{
+  "taxonId": 274858,
+  "name": "Gongylanthus ericetorum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:51.396695+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Gongylanthus ericetorum (Raddi) Nees",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Philibert (1882), Trabut (1941), Jelenc (1955 a): Bône. Trabut (1941), Jelenc (1955 a): Alger. Jelenc (1951, 1967): Monts de Tlemcen, Forêt de Zariffet, 1200 m. Jelenc (1955 a): La Réghaia. Jelenc (1967): Kabylie du Djurdjura, Gorges de Palestro, 500 m. Ros et al. (1990): Texenna’s wood, 700 m. Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2689501.json",
+      "sha256": "acd6d8a95e60b95066332f9f77c324d93f78c5e267da991520b88047fd535061",
+      "url": "https://api.gbif.org/v1/species/2689501",
+      "credit": {
+        "title": "Gongylanthus ericetorum (Raddi) Nees",
+        "url": "https://www.gbif.org/species/2689501",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Gongylanthus ericetorum (Raddi) Nees",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Philibert (1882), Trabut (1941), Jelenc (1955 a): Bône. Trabut (1941), Jelenc (1955 a): Alger. Jelenc (1951, 1967): Monts de Tlemcen, Forêt de Zariffet, 1200 m. Jelenc (1955 a): La Réghaia. Jelenc (1967): Kabylie du Djurdjura, Gorges de Palestro, 500 m. Ros et al. (1990): Texenna’s wood, 700 m. Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098852.json",
+      "sha256": "dd2f1d8073fa09ac175005102475fcffa1f1d159e0b1d2dffe8685cfbc594359",
+      "url": "https://api.gbif.org/v1/species/251098852",
+      "credit": {
+        "title": "Gongylanthus ericetorum (Raddi) Nees",
+        "url": "https://www.gbif.org/species/251098852",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gongylanthus+ericetorum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gongylanthus+ericetorum&limit=100",
+      "status": 200
+    }
+  ]
+}

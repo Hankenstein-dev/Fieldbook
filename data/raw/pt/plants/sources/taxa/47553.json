@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 47553,
+  "scientificName": "Taxus baccata",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 47553,
+    "scientificName": "Taxus baccata",
+    "commonName": "common yew",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8502/medium.jpg",
+      "attribution": "(c) Jonathan Tyler, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa",
+      "sourceUrl": "https://www.inaturalist.org/photos/8502"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 47553,
+      "count": 302,
+      "name": "Taxus baccata",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 47555,
+      "descendant_obs_count": 302,
+      "direct_obs_count": 302
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "34fc6feba2c1f17f6fd8ddc2613c44462b3a5c8ef0ae7d2eb3238a9338b1a303"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Taxus baccata",
+      "title": "Taxus baccata",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/2915ba1d4cf34772377c6aaecd0b7ac264228deef454990c3ab06425bffe93fc.json",
+      "url": "https://en.wikipedia.org/wiki/Taxus_baccata",
+      "revisionId": 1372976643,
+      "contentSha256": "138db308a86b41b5306dc76d7a9c47c5afa69c4a2843d769cb8c83a71408b128"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Taxus baccata",
+      "title": "Taxus baccata",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/2915ba1d4cf34772377c6aaecd0b7ac264228deef454990c3ab06425bffe93fc.json",
+      "url": "https://pt.wikipedia.org/wiki/Taxus_baccata",
+      "revisionId": 71862625,
+      "contentSha256": "c6a23861f6645d061412fdb286d7c0bf6755d9c106867892180503217a4787a1"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868269,
+      "canonicalName": "Taxus baccata",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868269",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868269.json",
+      "recordSha256": "8c2b8a1776b8a26687cc2eda6dc2f02c531c4aabae345b4fb49c3e7f4aea0de9"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 861345,
+  "name": "Erysimum arbuscula",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:49.064686+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Erysimum arbuscula",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Erysimum arbuscula''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Capparales]]\n| família = [[Brassicaceae]]\n| género = ''[[Erysimum]]''\n| espécie = '''''E. arbuscula'''''\n| binomial = ''Erysimum arbuscula''\n| binomial_autoridade = (Lowe) Snogerup\n}}\nErysimum arbuscula é uma espécie de planta com flor pertencente à família Brassicaceae. \n\nA autoridade científica da espécie é (Lowe) Snogerup, tendo sido publicada em Opera Botanica 13: 9. 1967.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/1e8328d69f9bc599084d2cd350fe1b558326a88c76db7e620569d4579ed53b55.json",
+      "sha256": "aa1462dcacb3fc7d5fd79a88728aef18a6be365f5211f1022820d9a169c89675",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177636",
+      "revisionId": 62177636,
+      "credit": {
+        "title": "Erysimum arbuscula",
+        "url": "https://pt.wikipedia.org/wiki/Erysimum_arbuscula",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177636",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Erysimum+arbuscula&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Erysimum+arbuscula&limit=100",
+      "status": 200
+    }
+  ]
+}

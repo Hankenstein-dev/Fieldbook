@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":1653477,"scientificName":"Celosia cristata","commonName":"Crested Cockscomb","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Celosia cristata","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Mais fontes|data=junho de 2021}}\n{{revisão-sobre|plantas|data=Fevereiro de 2008}}\n{{Info/Taxonomia\n | nome =Celosia\n | cor =lightgreen\n | imagem =CelosiaCristataYellowToreador.jpg\n | imagem_legenda =''Celosia cristata''\n | reino = [[Plantae]]\n | filo = [[Magnoliophyta]]\n | classe = [[Magnoliopsida]]\n | ordem = [[Caryophyllales]]\n | família = [[Amaranthaceae]]\n | género = [[Celosia]]\n | espécie = '''''C. cristata'''''\n | subdivisão_nome = \n | subdivisão = \n}}"},{"id":"s1:p2","text":"Celosia cristata L.,comummente conhecida como crista-de-galo (não confundir com a espécie Cantharellus cibarius, que consigo partilha este nome), pertencente à família Amaranthaceae, é considerada flor de corte utilizada em arranjos florais. "},{"id":"s1:p3","text":"Nomes comuns\nDá ainda pelos seguintes nomes: celósia, galacrista (também grafado galocrista), veludilho (também grafada veludo) e martinete."},{"id":"s1:p4","text":"Descrição\nTrata-se de uma planta herbácea anual, originária da América Tropical, atingindo de 30–80 cm de altura, com caule ereto, suculento e não ramificado. "},{"id":"s1:p5","text":"Tem folhas elípticas lanceoladas, verdes ou vermelho-bronzeadas com inflorescências terminais, espessas e achatadas, aveludadas, em forma de crista de galo, nas cores vermelha, esbranquiçada, rósea ou creme amarelada."},{"id":"s1:p6","text":"É cultivada em conjuntos e renques em beira de muros e paredes, a pleno sol, em canteiros ricos em composto orgânico, de boa drenagem e irrigados a intervalos. "},{"id":"s1:p7","text":"Desenvolve-se a pleno sol e prefere o calor ao frio intenso. Multiplica-se facilmente por sementes produzidas em grande quantidade, que podem ser semeadas no decorrer do ano todo, principalmente no verão.{{DEFAULTSORT:Celosia Cristata}}"},{"id":"s1:p8","text":"az:Gümüşü seloziya\nbg:Петльов гребен\nca:Vellutet\nde:Silber-Brandschopf\nhsb:Slěborny hrjebjenačk\nja:ケイトウ\nms:Bunga balung ayam\npl:Celozja srebrzysta\nsi:කිරිහැන්ද\nsv:Plymört\nto:Kelosia"}]}]}

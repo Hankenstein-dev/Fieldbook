@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":953142,"scientificName":"Gastroclonium reflexum","commonName":"Gastroclonium reflexum","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Gastroclonium reflexum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Gastroclonium reflexum is a small red alga (Rhodophyta) reported from Ireland and Britain."},{"id":"s1:p2","text":"Description\nThis small alga grows to about 6 cm long: the fronds grow from a branched holdfast are reflexed and form haptera where they meet the rock. The branches are hollow, terete to 6 cm long and constricted by septa giving a beaded appearance. The secondary branching is dichotomous, distichous. In colour they are dark purplish red.  The species is very similar to Chylocladia verticillata with which it may be confused.  Spermatangia, cystocarps and polysporangia have been recorded. "},{"id":"s1:p3","text":"Distribution\nGastroclonium is widely distributed in the north Atlantic Ocean and Mediterranean Sea, where it grows epilithically or epiphytically in the littoral or sublittoral zones. "},{"id":"s1:p4","text":"In Great Britain, it has been recorded from Cornwall, Devon, Sussex, Norfolk, Pembrokeshire and Glamorgan.  It was first recorded from Ireland by W.H.Harvey as Chylocladia reflexa Leorm. and published in 1846. \nOutside the British Isles, Gastroclonium has been recorded from the Channel Islands, Spain, Portugal, the Canary Islands, the Mediterranean Sea, Namibia, Morocco and South Africa. "},{"id":"s1:p5","text":"Records\nSpecimens collected from Lough Swilly by W. Sawers in 1854 are now preserved in the Ulster Museum (BEL) (F7058; F7059 and F7060) were redetermined as Chylocladia verticillata by Guiry as Chylocladia verticillata."}]}]}

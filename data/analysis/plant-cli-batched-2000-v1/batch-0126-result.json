@@ -1,0 +1,346 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-13T17:27:12.749167+00:00",
+  "completedAt": "2026-09-13T17:28:14.847713+00:00",
+  "elapsedSeconds": 62.098430044999986,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0126",
+  "taxonIds": [
+    342056,
+    56136,
+    69135,
+    126485,
+    327896,
+    436444,
+    136884,
+    346386,
+    57076,
+    273715
+  ],
+  "usage": {
+    "input_tokens": 16874,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3010,
+    "reasoning_output_tokens": 1630
+  },
+  "requestTextTokens": 9465,
+  "savedOutputTokens": 1374,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 342056,
+      "name": "Argyranthemum haematomma",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial woody shrub endemic to Madeira Island. Its flower heads combine reddish-purple disc flowers that turn yellow after opening with pinkish-white outer flowers. This rare plant grows on moist, rocky coastal slopes of Madeira and the Desertas Islands.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 56136,
+      "name": "Primula vulgaris",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial flowering plant native to Eurasia. Its delicately scented flowers appear singly in early spring and are typically pale yellow, although wild white and pink forms occur. The flowers open flat, while the leaves often form a heavily wrinkled, evergreen rosette in favourable habitats.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Flowers and leaves are edible; leaves may be cooked in soup or used for tea, while young flowers can make wine.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p8"
+          ],
+          "humanEdibility": [
+            "s1:p24"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 69135,
+      "name": "Capsicum chinense",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Chilli pepper native to the Americas, with a possible centre of origin in the tropical northern Amazon. Its varieties have distinctive flavours and range from non-spicy to exceptionally hot. Fruits vary greatly in shape and colour, commonly ripening red, orange or yellow.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Used for millennia in Yucatán and Caribbean cooking, especially in stews, sauces and marinades for meat and chicken.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p5",
+            "s1:p7"
+          ],
+          "humanEdibility": [
+            "s1:p12"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 126485,
+      "name": "Calycanthus floridus",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering shrub native to the eastern United States. Its solitary spring flowers are dark red to reddish purple and aromatic, while the leaves also release fragrance when bruised.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The bark is reportedly edible and used as a cinnamon substitute; caution is advised because an alkaloid may cause heart convulsions.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p8"
+          ],
+          "humanEdibility": [
+            "s1:p9"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 327896,
+      "name": "Pilea serpyllacea",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Herbaceous plant native to Venezuela, Bolivia, Colombia, Ecuador and Peru. It has been introduced to places including Hawaii and the Galápagos Islands.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 436444,
+      "name": "Glyceria notata",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Semi-aquatic grass whose native origin is not specified in the supplied information. It has ascending stems from a low base and dark to bluish-green leaves that may be flat or folded. It is considered invasive in some parts of the world.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 136884,
+      "name": "Afrocarpus mannii",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Small conifer tree native to the mountain forests of São Tomé Island in the Gulf of Guinea. It is the only gymnosperm found on São Tomé and Príncipe. Vigorous young trees have larger lance-shaped leaves, and each highly modified seed cone carries one seed with a thin fleshy coating.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 346386,
+      "name": "Phoenix rupicola",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering palm native to the mountainous forests of India and Bhutan, typically growing on cliffs and hillsides. Its trunk is usually clear of old leaf bases except near the crown, and its feather-like leaves have fewer, less severe spines than other Phoenix species. The yellow-to-orange fruit contains one large seed.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 57076,
+      "name": "Trifolium campestre",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering annual herb native to Europe and western Asia. Its leaves have three leaflets, while its distinctive yellow flower heads resemble hops. The flowers turn brown as they age and dry, enclosing a single-seeded pod.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:27:12.749167+00:00",
+      "completedAt": "2026-09-13T17:28:14.847713+00:00",
+      "elapsedSeconds": 62.098430044999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 273715,
+      "name": "Cnidoscolus aconitifolius",
+      "batchId": "batch-0126",
+      "usage": null,
+      "usageRef": "batch-0126-result.json",
+      "rawOutputFile": "batch-0126-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Fast-growing leafy perennial shrub native to Mexico and believed to have originated from the Yucatán Peninsula through Central America to Panama. Damaged plants release irritating, often toxic latex, and some varieties have stinging hairs. Young leaves and tender stem tips are eaten cooked, but raw leaves contain toxic cyanogenic compounds, so thorough cooking is essential.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Young leaves and tender stem tips are eaten boiled, steamed or stir-fried; raw leaves are toxic, and thorough cooking is essential.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p10",
+            "s1:p14",
+            "s1:p17"
+          ],
+          "humanEdibility": [
+            "s1:p14",
+            "s1:p16",
+            "s1:p17"
+          ]
+        }
+      }
+    }
+  ]
+}

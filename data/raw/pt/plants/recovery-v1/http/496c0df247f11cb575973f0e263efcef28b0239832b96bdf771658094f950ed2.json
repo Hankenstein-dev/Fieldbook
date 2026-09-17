@@ -1,0 +1,204 @@
+{
+  "url": "https://api.gbif.org/v1/dataset/7ecfa60e-56fe-432e-bf68-3f3d2b138605",
+  "fetchedAt": "2026-09-15T08:37:42.166086+00:00",
+  "status": 200,
+  "sha256": "cf8126ced5dfa2b23fc0fc3d50d7723271b4e08764af5c807814c3ee1e366aaf",
+  "data": {
+    "key": "7ecfa60e-56fe-432e-bf68-3f3d2b138605",
+    "installationKey": "7ce8aef1-9e92-11dc-8740-b8a03c50a999",
+    "publishingOrganizationKey": "7ce8aef0-9e92-11dc-8738-b8a03c50a862",
+    "doi": "10.15468/f9skm7",
+    "external": false,
+    "numConstituents": 0,
+    "type": "CHECKLIST",
+    "title": "Notes On Bromeliaceae, Xxx",
+    "description": "<p>This dataset contains the digitized treatments in Plazi based on the original journal article Smith, Lyman B. (1970): Notes On Bromeliaceae, Xxx. Phytologia 19 (4): 281-290, DOI: 10.5281/zenodo.19263741</p>",
+    "language": "eng",
+    "homepage": "https://tb.plazi.org/GgServer/summary/FFF8FFD4FF9907357629BB37BC4AFF96",
+    "citation": {
+      "text": "Smith L B, guilherme (1970). Notes On Bromeliaceae, Xxx. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/f9skm7 accessed via GBIF.org on 2026-09-15.",
+      "citationProvidedBySource": false
+    },
+    "contactsCitation": [
+      {
+        "key": 7138387,
+        "abbreviatedName": "Smith L B",
+        "firstName": "Lyman B.",
+        "lastName": "Smith",
+        "roles": [
+          "ORIGINATOR"
+        ],
+        "userId": []
+      },
+      {
+        "key": 7138390,
+        "abbreviatedName": "guilherme",
+        "lastName": "guilherme",
+        "roles": [
+          "METADATA_AUTHOR"
+        ],
+        "userId": []
+      }
+    ],
+    "lockedForAutoUpdate": false,
+    "createdBy": "plazi",
+    "modifiedBy": "crawler.gbif.org",
+    "created": "2026-03-27T20:13:44.591+00:00",
+    "modified": "2026-09-07T13:43:25.696+00:00",
+    "contacts": [
+      {
+        "key": 7138387,
+        "type": "ORIGINATOR",
+        "primary": true,
+        "userId": [],
+        "firstName": "Lyman B.",
+        "lastName": "Smith",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "address": [],
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2026-09-07T13:43:25.672+00:00",
+        "modified": "2026-09-07T13:43:25.672+00:00"
+      },
+      {
+        "key": 7138388,
+        "type": "ADMINISTRATIVE_POINT_OF_CONTACT",
+        "primary": true,
+        "userId": [],
+        "firstName": "Guido",
+        "lastName": "Sautter",
+        "position": [],
+        "email": [
+          "gsautter@gmail.com"
+        ],
+        "phone": [],
+        "homepage": [
+          "http://plazi.org"
+        ],
+        "address": [],
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2026-09-07T13:43:25.673+00:00",
+        "modified": "2026-09-07T13:43:25.673+00:00"
+      },
+      {
+        "key": 7138389,
+        "type": "PUBLISHER",
+        "primary": false,
+        "userId": [],
+        "position": [],
+        "email": [
+          "info@plazi.org"
+        ],
+        "phone": [],
+        "homepage": [
+          "https://plazi.org/"
+        ],
+        "organization": "Plazi",
+        "address": [],
+        "city": "Bern",
+        "country": "CH",
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2026-09-07T13:43:25.675+00:00",
+        "modified": "2026-09-07T13:43:25.675+00:00"
+      },
+      {
+        "key": 7138390,
+        "type": "METADATA_AUTHOR",
+        "primary": true,
+        "userId": [],
+        "lastName": "guilherme",
+        "position": [],
+        "email": [],
+        "phone": [],
+        "homepage": [],
+        "organization": "Plazi",
+        "address": [],
+        "createdBy": "crawler.gbif.org",
+        "modifiedBy": "crawler.gbif.org",
+        "created": "2026-09-07T13:43:25.676+00:00",
+        "modified": "2026-09-07T13:43:25.676+00:00"
+      }
+    ],
+    "endpoints": [
+      {
+        "key": 1257079,
+        "type": "COLDP",
+        "url": "https://tb.plazi.org/GgServer/colDp/FFF8FFD4FF9907357629BB37BC4AFF96.zip",
+        "createdBy": "plazi",
+        "modifiedBy": "plazi",
+        "created": "2026-03-27T20:30:33.931+00:00",
+        "modified": "2026-03-27T20:30:33.931+00:00",
+        "machineTags": []
+      },
+      {
+        "key": 1257074,
+        "type": "DWC_ARCHIVE",
+        "url": "https://tb.plazi.org/GgServer/dwca/FFF8FFD4FF9907357629BB37BC4AFF96.zip",
+        "createdBy": "plazi",
+        "modifiedBy": "plazi",
+        "created": "2026-03-27T20:13:44.892+00:00",
+        "modified": "2026-03-27T20:13:44.892+00:00",
+        "machineTags": []
+      }
+    ],
+    "machineTags": [
+      {
+        "key": 32679710,
+        "namespace": "crawler.gbif.org",
+        "name": "crawl_attempt",
+        "value": "23",
+        "createdBy": "crawler.gbif.org",
+        "created": "2026-09-07T13:43:25.466+00:00"
+      }
+    ],
+    "tags": [],
+    "identifiers": [
+      {
+        "key": 465108,
+        "type": "CLB_DATASET_KEY",
+        "identifier": "314688",
+        "createdBy": "clb-bot",
+        "created": "2026-03-27T20:19:36.553+00:00",
+        "primary": false
+      },
+      {
+        "key": 465106,
+        "type": "UUID",
+        "identifier": "FFF8FFD4FF9907357629BB37BC4AFF96",
+        "createdBy": "plazi",
+        "created": "2026-03-27T20:13:44.810+00:00",
+        "primary": false
+      }
+    ],
+    "comments": [],
+    "bibliographicCitations": [],
+    "curatorialUnits": [],
+    "taxonomicCoverages": [],
+    "geographicCoverages": [],
+    "temporalCoverages": [],
+    "keywordCollections": [],
+    "countryCoverage": [],
+    "collections": [],
+    "dataDescriptions": [],
+    "dataLanguage": "eng",
+    "pubDate": "1970-12-31T00:00:00.000+00:00",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "dwca": {
+      "coreType": "http://rs.tdwg.org/dwc/terms/Taxon",
+      "extensions": [
+        "http://eol.org/schema/reference/Reference",
+        "http://rs.gbif.org/terms/1.0/Multimedia",
+        "http://eol.org/schema/media/Document",
+        "http://rs.tdwg.org/dwc/terms/Occurrence",
+        "http://rs.gbif.org/terms/1.0/Description"
+      ],
+      "modified": "2026-08-27T16:58:47.762+00:00"
+    }
+  },
+  "text": null
+}

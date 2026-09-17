@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":123203,"scientificName":"Anigozanthos flavidus","commonName":"tall kangaroo paw","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Anigozanthos flavidus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use Australian English|date=July 2024}}"},{"id":"s1:p2","text":"Anigozanthos flavidus is a species of plant found in Southwest Australia. It is member of the Haemodoraceae family. It is commonly known as the tall, yellow, or evergreen, kangaroo paw. The specific epithet, flavidus, refers to the yellow flowers of this plant."},{"id":"s1:p3","text":"A member of the genus Anigozanthos (kangaroo- and cats-paws) that has an evergreen clump of strap-like leaves, up to 1 metre long and 0.02 m wide, growing from an underground rhizome around 0.05 m in diameter. The rhizome allows the species to regenerate after drought or fire. Each plant may produce over 350 flowers, on up to 10 long stems, these appear during the summer of the region. Pollen is distributed by birds as they plunge into the flowers to reach the nectaries. Flowers are frequently yellow and green, but may present in shades of red, pink, orange, or brown. It is found along roadsides, along creeks, and in forests and swamps, and other unshaded winterwet habitat."},{"id":"s1:p4","text":"The species occurs in a range from Two Peoples Bay in the southeast, throughout the Warren and southern Jarrah Forest, to Waroona on the Swan Coastal Plain. It was previously endemic to the region, but is now naturalised in New South Wales. This kangaroo paw is now widely cultivated in the Eastern states of Australia and the United States of America.\nAnigozanthos flavidus hybridises with other members of the genus, and is used in the development of cultivars. It is a hardy plant, tolerant of a wide range of soil types and condition, that may live for around 30 years in a garden. It is propagated from seed or sections of the rhizome."},{"id":"s1:p5","text":"The first description of the species was by Augustin Pyramus de Candolle in 1807. This was published in Redouté's Les Liliacees with an illustration by that artist."}]}]}

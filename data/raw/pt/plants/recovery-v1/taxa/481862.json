@@ -1,0 +1,49 @@
+{
+  "taxonId": 481862,
+  "name": "Southbya tophacea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:51.998099+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Southbya tophacea (Spruce) Spruce",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Corbière (1904), Jelenc (1955 a, 1967): Alger, 80 m. Corbière (1905), Jelenc (1955 a): Environs de Constantine, Chettabah. Corbière (1905): Environs de Constantine, les Pins. Trabut (1941), Bischler (2004): sine loco. Jelenc (1954 b): Sahel d‘Alger, colline du Hamma. Jelenc (1955 a): Arba; Atlas de Blida, 1200 m; La Bouzaréa; Marengo. Jelenc (1956): Sahel d’Alger, dans le ravin du Frais-Vallon. Ros et al. (1990): Chiffa’s Gorge. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098849.json",
+      "sha256": "3267700cc508ab6240e83a7474e800b482a3ae14728928129da6c7d32ea041c7",
+      "url": "https://api.gbif.org/v1/species/251098849",
+      "credit": {
+        "title": "Southbya tophacea (Spruce) Spruce",
+        "url": "https://www.gbif.org/species/251098849",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Southbya tophacea"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Green Blackwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Southbya+tophacea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Southbya+tophacea&limit=100",
+      "status": 200
+    }
+  ]
+}

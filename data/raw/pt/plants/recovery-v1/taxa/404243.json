@@ -1,0 +1,79 @@
+{
+  "taxonId": 404243,
+  "name": "Oenothera indecora",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:59.035220+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Oenothera indecora",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Oenothera indecora é uma espécie de planta com flor pertencente à família Onagraceae. \n\nA autoridade científica da espécie é Cambess., tendo sido publicada em Flora Brasiliae Meridionalis (quarto ed.) 2(17): 268. 1829 (1830).\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Oenothera indecora subsp. bonariensis - presente em Portugal Continental. Em termos de naturalidade é introduzida na região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/ed083da1fa10ecdacec61daec34d70b4f92afd801c744a7d9c1ef630cc9e6ae2.json",
+      "sha256": "908b326c18965e6bb7b7c255ba27e5401daa678a5a678ca6572b945e8b483e75",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=70139216",
+      "revisionId": 70139216,
+      "credit": {
+        "title": "Oenothera indecora",
+        "url": "https://pt.wikipedia.org/wiki/Oenothera_indecora",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=70139216",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Oenothera indecora Cambess.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Southern America\n\nNorthern America\n\nCoastal dunes and sandy shores (B1 level 2)\n\nBuildings of cities, towns and villages (J1 level 2)\n\nArable land and market gardens (I1 level 2)\n\nSouth America\n\nSouthern America (WGSRPD:8)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7322393.json",
+      "sha256": "a40ea7b7199d9a141fba2738c0f764f2f6fb03534fee865ba1bc1e6b85469eaf",
+      "url": "https://api.gbif.org/v1/species/7322393",
+      "credit": {
+        "title": "Oenothera indecora Cambess.",
+        "url": "https://www.gbif.org/species/7322393",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Oenothera indecora Camb.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Arable land and market gardens (I1 level 2)\n\nBuildings of cities, towns and villages (J1 level 2)\n\nCoastal dunes and sandy shores (B1 level 2)\n\nNorthern America\n\nSouthern America",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/159516924.json",
+      "sha256": "32ac8e2838175b677e223b25c655e985e7544d1e21b49d33f12b302514ba5a23",
+      "url": "https://api.gbif.org/v1/species/159516924",
+      "credit": {
+        "title": "Oenothera indecora Camb.",
+        "url": "https://www.gbif.org/species/159516924",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Oenothera indecora"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Oenothera+indecora&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Oenothera+indecora&limit=100",
+      "status": 200
+    }
+  ]
+}

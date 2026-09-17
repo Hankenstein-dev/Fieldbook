@@ -1,0 +1,42 @@
+{
+  "taxonId": 740963,
+  "name": "Scrophularia hirta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:36.731386+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Scrophularia hirta",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Scrophularia hirta''\n| imagem = Scrophularia hirta, by Omar Hoftun.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Scrophularia]]''\n| espécie = '''''S. hirta'''''\n| binomial = ''Scrophularia hirta''\n| binomial_autoridade = Lowe\n}}\nScrophularia hirta é uma espécie de planta com flor pertencente à família Scrophulariaceae. \n\nA autoridade científica da espécie é Lowe, tendo sido publicada em Trans. Cambridge Philos. Soc. iv. (1831) 21.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/10aa1b7c88e0f822777936d07f477afb2e7169ce973927893ba4aead6a0ffe2c.json",
+      "sha256": "231155679436b16943b4b334f7ae662d27b7434277d0b52d3ab935ac5d3c651f",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=63273151",
+      "revisionId": 63273151,
+      "credit": {
+        "title": "Scrophularia hirta",
+        "url": "https://pt.wikipedia.org/wiki/Scrophularia_hirta",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=63273151",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Scrophularia+hirta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Scrophularia+hirta&limit=100",
+      "status": 200
+    }
+  ]
+}

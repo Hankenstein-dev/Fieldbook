@@ -1,0 +1,63 @@
+{
+  "taxonId": 284255,
+  "name": "Guarianthe aurantiaca",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:55.757174+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Guarianthe aurantiaca",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Expand Spanish|topic=scitech|Guarianthe aurantiaca|date=December 2009}}\n\nGuarianthe aurantiaca is a species of orchid. It is widespread across much of Mexico, south to Costa Rica. The diploid chromosome number of G. aurantiaca has been determined as 2n = 40.\n\nThe phananthrenoids orchinol and loroglossol have a phytoalexin effect and reduce the growth of G. aurantiaca seedlings.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/cff1806bb78b480f91fea79c9031994fbbf91af2cee1e576c96703155454d381.json",
+      "sha256": "5ff537d8562ef6632bc5d7a597f4c7cbf0f9aeaf8145a46053893dda4467d18f",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1330502660",
+      "revisionId": 1330502660,
+      "credit": {
+        "title": "Guarianthe aurantiaca",
+        "url": "https://en.wikipedia.org/wiki/Guarianthe_aurantiaca",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1330502660",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Guarianthe aurantiaca (Bateman ex Lindl.) Dressler & W.E.Higgins",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Guarianthe aurantiaca is a species of orchid. It is widespread across much of Mexico, south to Costa Rica.Kew World Checklist of Selected Plant Families The diploid chromosome number of G. aurantiaca has been determined as 2n = 40.page 252. Leonardo P. Felix and Marcelo Guerra: \"Variation in chromosome number and the basic number of subfamily Epidendroideae (Orchidaceae)\" Botanical Journal of the Linnean Society 163(2010)234-278, The Linnean Society of London The phananthrenoids orchinol and loroglossol have a phytoalexin effect and reduce the growth of G. aurantiaca seedlings.Effects of Orchinol, Loroglossol, Dehydroorchinol, Batatasin III, and 3,4'- Dihydroxy-5-Methoxydihydrostilbene on Orchid Seedlings. Katherine A. Hills, Albert Stoessl, Allison P. Oliva and Joseph Arditti, Botanical Gazette, September 1984, Vol. 145, No. 3, pages 298-301 (link)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165676927.json",
+      "sha256": "1bf958307398f058b59b348d8a58749583d6b5526447d9ee62ca97e9fe49b2c7",
+      "url": "https://api.gbif.org/v1/species/165676927",
+      "credit": {
+        "title": "Guarianthe aurantiaca (Bateman ex Lindl.) Dressler & W.E.Higgins",
+        "url": "https://www.gbif.org/species/165676927",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Guarianthe aurantiaca"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Guarianthe+aurantiaca&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Guarianthe+aurantiaca&limit=100",
+      "status": 200
+    }
+  ]
+}

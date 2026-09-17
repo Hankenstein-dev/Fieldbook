@@ -1,0 +1,33 @@
+{
+  "taxonId": 829111,
+  "name": "Tetraselmis convolutae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:19.695863+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/4b423e761cb2c85ae519f747ced82eb5040038a80a1bbe55c7fb9d79c7308889.json",
+      "title": "Tetraselmis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/57816979f82e811895919323dc78986f6ed5b452b3cd878f29c859fde8cd9c69.json",
+      "title": "Tetraselmis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tetraselmis+convolutae&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tetraselmis+convolutae&limit=100",
+      "status": 200
+    }
+  ]
+}

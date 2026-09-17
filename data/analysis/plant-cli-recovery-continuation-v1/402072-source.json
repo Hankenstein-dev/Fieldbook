@@ -1,0 +1,97 @@
+{
+  "input": {
+    "taxonId": 402072,
+    "scientificName": "Gladiolus undulatus",
+    "commonName": "Wild gladiolus",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Gladiolus undulatus",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Gladiolus undulatus is a plant species in the family Iridaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Flora-On — Gladiolus undulatus",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Flora-On botanical account for Gladiolus undulatus. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s2:p2",
+            "text": "Ecologia Prados húmidos em solo arenoso, perto do litoral."
+          },
+          {
+            "id": "s2:p3",
+            "text": "Ligações externas Descrição na Flora Iberica"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Distância ao mar (n=11)"
+          },
+          {
+            "id": "s2:p5",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          },
+          {
+            "id": "s2:p6",
+            "text": "Espécies com distribuição semelhante Cortaderia selloana , Cirsium vulgare , Salix arenaria , Typha latifolia , Salix atrocinerea , Pteridium aquilinum , Solanum nigrum ver todas"
+          },
+          {
+            "id": "s2:p7",
+            "text": "Tipo biológico Geófito"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/cb9f7ade1955cfc31510addaaaa86c4bcc6e36252f178ff8c70656f6124484c2.json",
+      "sha256": "d65e6eb764353640f3c3c46f05dfb4e47125c525d9af234d65b6ebf54116cd28",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1013477320",
+      "revisionId": 1013477320,
+      "credit": {
+        "title": "Gladiolus undulatus",
+        "url": "https://en.wikipedia.org/wiki/Gladiolus_undulatus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1013477320",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in account identity field",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/402072.json",
+      "sha256": "8498d57d02b46e653bd8d9d308c6469440adda8114047b38f9435205bd66d1bd",
+      "url": "https://flora-on.pt/?q=Gladiolus+undulatus",
+      "credit": {
+        "title": "Flora-On — Gladiolus undulatus",
+        "url": "https://flora-on.pt/?q=Gladiolus+undulatus",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 402072,
+    "name": "Gladiolus undulatus",
+    "language": "en,pt",
+    "sourceTextTokens": 157,
+    "packetTokens": 347,
+    "standaloneInputTextTokens": 799,
+    "packetSha256": "9bfae3cc6e5d28ce272add45e378c887343cbae384033040bf9784ae5cd887cc"
+  }
+}

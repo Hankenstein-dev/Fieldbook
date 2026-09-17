@@ -1,0 +1,343 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T10:32:55.582019+00:00",
+  "completedAt": "2026-09-14T10:34:14.729728+00:00",
+  "elapsedSeconds": 79.14750529200046,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0094",
+  "taxonIds": [
+    55466,
+    364998,
+    122711,
+    47726,
+    77656,
+    486176,
+    133169,
+    132759,
+    82731,
+    342977
+  ],
+  "usage": {
+    "input_tokens": 21837,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3108,
+    "reasoning_output_tokens": 1813
+  },
+  "requestTextTokens": 14428,
+  "savedOutputTokens": 1289,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 55466,
+      "name": "Sanicula arctopoides",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial herb native to the Pacific coast of the United States and Canada, where it grows close to the ocean. Its yellowish-green, divided leaves and tiny yellow flowers form low mats resembling yellow footsteps. It is vulnerable in Canada and critically imperilled in Washington.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 364998,
+      "name": "Butia odorata",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Slow-growing palm native to southernmost Brazil and Uruguay. Its feather-like leaves arch toward a thick, stout trunk. The highly aromatic fruit varies in colour and sweet-sour flavour, and the larger-fruited pulposa type is commonly cultivated locally for food.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The aromatic ripe fruit is eaten; larger-fruited pulposa-type palms are cultivated in Brazilian and Uruguayan orchards.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p17",
+            "s1:p40"
+          ],
+          "humanEdibility": [
+            "s1:p4",
+            "s1:p40"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122711,
+      "name": "Dodonaea viscosa",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering shrub originating in Australia and now widely distributed across warm regions worldwide. It has tough, variable leaves that secrete resin and red capsules that ripen brown, each with two to four wings.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Australians formerly used the plant instead of hops in beer brewing.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": [
+            "s1:p18"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 47726,
+      "name": "Acer negundo",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Fast-growing, short-lived tree native to North America from Canada to Honduras. Unlike most maples, it regularly has compound leaves with more than three leaflets, and male and female flowers grow on separate trees. Native American peoples made syrup from its sap and prepared the inner bark as winter food or crystallized sugar.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Native American peoples made syrup and drinks from the sap and prepared inner bark as winter food or crystallized sugar.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p5",
+            "s1:p8",
+            "s1:p39"
+          ],
+          "humanEdibility": [
+            "s1:p39"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 77656,
+      "name": "Lemna turionifera",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Floating freshwater flowering plant native across northern Europe through Japan and in North America. It usually reproduces without seeds and has up to four small leaves, each with one dangling root; it can also produce starch-filled resting fronds that sink and remain dormant until conditions improve.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 486176,
+      "name": "Dianthus laricifolius",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant represented in mainland Portugal by three listed subspecies endemic to the Iberian Peninsula. Subspecies marizii is described as endemic to mainland Portugal and is protected under Portuguese or European Community legislation.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 133169,
+      "name": "Passiflora tripartita",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Vine native to Andean valleys from Venezuela to Bolivia. Cultivated since pre-Columbian times, it produces ripe yellow-orange fruit containing sweet, edible orange pulp and black seeds.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The ripe yellow-orange fruit contains sweet, edible orange pulp with black seeds.",
+        "evidence": {
+          "summary": [
+            "s1:p3"
+          ],
+          "humanEdibility": [
+            "s1:p3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 132759,
+      "name": "Chamaerops humilis",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Small palm native to southern Europe and distributed across North Africa and southwestern Europe. It branches from the base, with stiff, fan-shaped greyish or blue-green leaves and yellow-spined stalks. Male and female flowers occur on separate plants, and the fleshy fruit darkens from green to reddish or blackish as it ripens.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 82731,
+      "name": "Retama sphaerocarpa",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering bush native to the Iberian Peninsula and North Africa.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:32:55.582019+00:00",
+      "completedAt": "2026-09-14T10:34:14.729728+00:00",
+      "elapsedSeconds": 79.14750529200046,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 342977,
+      "name": "Echinodium renauldii",
+      "batchId": "batch-0094",
+      "usage": null,
+      "usageRef": "batch-0094-result.json",
+      "rawOutputFile": "batch-0094-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Rock-growing moss endemic to the Azores. It is dark, glossy green with yellow-green fronds, fine-pointed leaves and an elongated orange-red capsule. It occurs mainly on rocks in sheltered, shady areas of natural forest.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

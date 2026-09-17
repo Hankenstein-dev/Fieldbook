@@ -1,0 +1,102 @@
+{
+  "input": {
+    "taxonId": 159473,
+    "scientificName": "Bromus riparius",
+    "commonName": "Meadow Brome",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Bromus riparius",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Bromus riparius is a species of grass in the family Poaceae."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Its native range is Northern Italy to Caucasus, China."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Bromus riparius Rehmann",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Bluetezeit (nach Lauber & al. 2018): 5 - 8 Standort und Verbreitung in der Schweiz kollin-subalpin / CH, in Ausbreitung"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Oekologische Zeigerwerte (nach Landolt & al. 2010) 2 w 33 - 435. h. 2 n = 70"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Oekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F -- Lichtzahl L -- Salzzeichen -- Reaktionszahl R -- Temperaturzahl T -- Naehrstoffzahl N -- Kontinentalitaetszahl K --"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Status Indigenat: Neophyt: nach der Entdeckung von Amerika in der Region aufgetreten (nach 1500) Liste der gefaehrdeten Pflanzen IUCN (nach Walter & Gillett 1997): Nein Art der \" Liste der potenziell invasiven gebietsfremden Arten \""
+          },
+          {
+            "id": "s2:p5",
+            "text": "Artbeschreibung (nach Lauber & al. 2018): Wie B. erectus s. l., aber grundstaendige Blattscheiden in netzartige Fasern zerfallend, d. h. mit vielen bleibenden Querverbindungen zwischen den Laengsnerven. Blaetter 3 - 10 mm breit, Rand mit deutlich ungleich langen und unregelmaessig verteilten Wimpern, diese zu 2 - 4 / mm. Blatthaeutchen 0,5 - 1,5 mm lang. Blattscheiden kahl oder zerstreut bewimpert."
+          },
+          {
+            "id": "s2:p6",
+            "text": "Verbreitung global (nach Lauber & al. 2018): Eurasiatisch"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/42f2a6eb379f149ac13381d4bdbccc556cb6eb9ba41fd975d5a2c0516918879b.json",
+      "sha256": "fd66310fb74c4ab878cad0a4e38c10735fdf0a59c0c52d53027a832ad45d408d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1262136501",
+      "revisionId": 1262136501,
+      "credit": {
+        "title": "Bromus riparius",
+        "url": "https://en.wikipedia.org/wiki/Bromus_riparius",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1262136501",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/224778577.json",
+      "sha256": "f7510e2770cf5e3fba0857fa35b4c5e100a7c8d10a652f685bcf5ac47f6747b8",
+      "url": "https://api.gbif.org/v1/species/224778577",
+      "credit": {
+        "title": "Bromus riparius Rehmann",
+        "url": "https://www.gbif.org/species/224778577",
+        "attribution": "Info Flora, plazi (2021). Info Flora Schweiz - Poaceae. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/p2zqqq accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/22adab57-d33a-4a06-9335-b4978f0f82bf",
+        "fetchedAt": "2026-09-15T07:52:29.641751+00:00",
+        "title": "Info Flora Schweiz - Poaceae"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 159473,
+    "name": "Bromus riparius",
+    "language": "en,unspecified",
+    "sourceTextTokens": 379,
+    "packetTokens": 564,
+    "standaloneInputTextTokens": 1016,
+    "packetSha256": "dffcd4efa03f65029f8333bd2b7711b5e0eff5afd4fbcab5507d7d118c756031"
+  }
+}

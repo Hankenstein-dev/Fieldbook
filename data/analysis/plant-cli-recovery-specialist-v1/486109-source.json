@@ -1,0 +1,89 @@
+{
+  "input": {
+    "taxonId": 486109,
+    "scientificName": "Dianthus ferrugineus",
+    "commonName": "Rusty Pink",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Dianthus ferrugineus",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Dianthus ferrugineus är en nejlikväxtart som beskrevs av Philip Miller. Dianthus ferrugineus ingår i släktet nejlikor, och familjen nejlikväxter. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": " Externa länkar "
+          },
+          {
+            "id": "s1:p4",
+            "text": "Kategori:Nejlikor\nferrugineus"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Dianthus ferrugineus Mill. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Dianthus ferrugineus Mill.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is S. Portugal to SW. & S. Central Spain. It is a subshrub and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/d3135614213f25d76a38a7f6fc950b6c479504626ca6e236b8f8b596f90af703.json",
+      "sha256": "3aeefde487224ab437d15a50fa5545dbe0a980e8df557fa192577a554130b8b5",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=56074120",
+      "revisionId": 56074120,
+      "credit": {
+        "title": "Dianthus ferrugineus",
+        "url": "https://sv.wikipedia.org/wiki/Dianthus_ferrugineus",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=56074120",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/486109-80851140d18fba33.json",
+      "sha256": "80851140d18fba33f573f1ab05cd4f4e151b76ee6f8e425d0ca8a6b4c55f0eae",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A153343-1",
+      "credit": {
+        "title": "Dianthus ferrugineus Mill. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A153343-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 486109,
+    "name": "Dianthus ferrugineus",
+    "language": "sv,en",
+    "sourceTextTokens": 130,
+    "packetTokens": 307,
+    "standaloneInputTextTokens": 759,
+    "packetSha256": "ed01095b5fd5722b9e3474a377c390f29f53851f75a2c18ac6e03ca4b7215d32"
+  }
+}

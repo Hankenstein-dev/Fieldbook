@@ -1,0 +1,58 @@
+{
+  "taxonId": 451852,
+  "name": "Fritillaria messanensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:42.679744+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Fritillaria messanensis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Fritillaria messanensis is a European species of flowering plant in the lily family Liliaceae, native to southeastern Europe: Italy (Sicily, Calabria), Greece (incl. Crete), Albania, former Yugoslavia.\n\nSubspecies\n Fritillaria messanensis subsp. gracilis (Ebel) Rix - Ionian Islands of Greece, Albania, Serbia, Croatia, Montenegro, Bosnia, North Macedonia, Kosovo\n Fritillaria messanensis subsp. messanensis - Greece, Sicily, Calabria\n Fritillaria messanensis subsp. neglecta (Parl.) Nyman - Croatia, North Macedonia\n Fritillaria messanensis subsp. sphaciotica (Gand.) Kamari & Phitos - Crete",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/ef01e4e21257e2d48c58a2fd5c6092aa991e70e92d6d6f7b7bb83b34b37eec0b.json",
+      "sha256": "06f296d464a7de37db087e2894ebea29b25cd906b90515e37eff86caf27da2d8",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1260627136",
+      "revisionId": 1260627136,
+      "credit": {
+        "title": "Fritillaria messanensis",
+        "url": "https://en.wikipedia.org/wiki/Fritillaria_messanensis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1260627136",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Fritillaria messanensis Raf.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Die Messina-Schachblume (Fritillaria messanensis) ist eine Pflanzenart aus der Gattung der Fritillaria in der Familie der Liliengewächse (Liliaceae).\n\nDie Messina-Schachblume ist eine ausdauernde Pflanze, die Wuchshöhen von 20 bis 50 Zentimetern erreicht. Dieser Geophyt bildet Zwiebeln als Überdauerungsorgane aus. Die Blätter sind linealisch. Die Hochblätter bilden einen dreiblättrigen Quirl. Es ist meist nur eine Blüte vorhanden, selten auch bis zu drei. Die Perigonblätter sind 22 bis 42 Millimeter lang und grün, haben ein purpurbraunes Schachbrettmuster und einen breiten grünen Mittelstreifen. Nahe dem Grund der Perigonblätter befindet sich eine eiförmige bis lanzettliche Nektardrüse. Die Blütezeit reicht von April bis Mai. Die Chromosomenzahl aller Unterarten beträgt 2n = 24.\n\nDie Messina-Schachblume wird selten als Zierpflanze in Steingärten kultiviert.\n\nEs werden vier Unterarten unterschieden: Zarte Schachbrettblume (Fritillaria messanensis subsp. gracilis ), kommt in Montenegro, Nord-Albanien, Kosovo (Metochien) und in West-Griechenland im Regionalbezirk Ätolien-Akarnanien und auf den Ionischen Inseln Levkas, Ithaka, Kefalonia und Zakinthos vor. Fritillaria messanensis subsp. messanensis, kommt in Italien auf Sizilien und in Kalabrien, in Griechenland auf dem Peloponnes und in der Umgebung des Olymp vor. Fritillaria messanensis subsp. neglecta (Syn.: Fritillaria neglecta ), kommt in Kroatien (Istrien und Dalmatien) vor. Fritillaria messanensis subsp. sphaciotica , kommt nur auf Kreta vor.\n\nDie Messina-Schachblume kommt auf der westlichen und südlichen Balkanhalbinsel, auf Kreta, in Kalabrien und auf Sizilien vor. Die Angaben von Algerien und von Marokko beziehen sich auf Fritillaria oranensis. Sie ist auf Weiden, in Gebüschen und in Wäldern in Höhenlagen von 0 bis 2000, möglicherweise auch bis 3000 Meter zu finden.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/100435984.json",
+      "sha256": "a5fd2fe1c02f3304b621ea05ada562edce89b5e1fe5799b7f054ed676aff0172",
+      "url": "https://api.gbif.org/v1/species/100435984",
+      "credit": {
+        "title": "Fritillaria messanensis Raf.",
+        "url": "https://www.gbif.org/species/100435984",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fritillaria+messanensis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fritillaria+messanensis&limit=100",
+      "status": 200
+    }
+  ]
+}

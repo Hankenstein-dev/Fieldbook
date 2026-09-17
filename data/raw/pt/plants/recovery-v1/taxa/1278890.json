@@ -1,0 +1,58 @@
+{
+  "taxonId": 1278890,
+  "name": "Coleus comosus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:41.047338+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Coleus comosus",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Coleus comosus, synonym Plectranthus ornatus, is a flowering plant from the mint family Lamiaceae, native to eastern Africa (Eritrea, Ethiopia, Kenya, Tanzania and Uganda).\n\nA plant sold under the name \"Coleus canina\" or \"scaredy cat plant\" is supposed to scare off cats and dogs. An attempt to register \"Coleus canina\" to receive plant variety protection failed as it was considered to be only a clone of Coleus comosus.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/bdaf7b4f2d8ede7a67240aa602ef1b94f2fe93150eb499a32d5a60b52fa9a8e1.json",
+      "sha256": "a91c8059b209c36b55401e471575690150aed61b14deb62e3569107b168bb998",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1302058913",
+      "revisionId": 1302058913,
+      "credit": {
+        "title": "Coleus comosus",
+        "url": "https://en.wikipedia.org/wiki/Coleus_comosus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1302058913",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Coleus comosus Hochst. ex Gürke",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Coleus comosus, synonym Plectranthus ornatus, is a flowering plant from the mint family Lamiaceae, native to eastern Africa (Eritrea, Ethiopia, Kenya, Tanzania and Uganda). A plant sold under the name \"Coleus canina\" or \"scaredy cat plant\" is supposed to scare off cats and dogs. An attempt to register \"Coleus canina\" to receive plant variety protection failed as it was considered to be only a clone of Coleus comosus.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/167284090.json",
+      "sha256": "7280959d74314bde435e4eb3af8a5ba29b32847005b63588130061b2e996b4eb",
+      "url": "https://api.gbif.org/v1/species/167284090",
+      "credit": {
+        "title": "Coleus comosus Hochst. ex Gürke",
+        "url": "https://www.gbif.org/species/167284090",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Coleus+comosus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Coleus+comosus&limit=100",
+      "status": 200
+    }
+  ]
+}

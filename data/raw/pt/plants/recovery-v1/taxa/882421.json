@@ -1,0 +1,43 @@
+{
+  "taxonId": 882421,
+  "name": "Dendrobium",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:44:44.516683+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/39dd6d104da0fd629066620e78b34a8534dd204531c2bd728cc2f7c23117aebc.json",
+      "title": "Dendrobium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/39dd6d104da0fd629066620e78b34a8534dd204531c2bd728cc2f7c23117aebc.json",
+      "title": "Dendrobium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dendrobium"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Soft Cane Dendrobiums"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dendrobium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dendrobium&limit=100",
+      "status": 200
+    }
+  ]
+}

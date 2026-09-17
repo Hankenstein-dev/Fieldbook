@@ -1,0 +1,28 @@
+{
+  "taxonId": 937410,
+  "name": "Nidorella varia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:04.271719+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/f2c013754d5a94fd610e0816e60872f1f5cd386d4e0d21c66db152c69e783435.json",
+      "title": "Conyza varia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Nidorella+varia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Nidorella+varia&limit=100",
+      "status": 200
+    }
+  ]
+}

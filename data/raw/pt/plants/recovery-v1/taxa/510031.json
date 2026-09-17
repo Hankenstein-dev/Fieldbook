@@ -1,0 +1,63 @@
+{
+  "taxonId": 510031,
+  "name": "Spiraea hypericifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:35.859512+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Spiraea hypericifolia",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Spiraea hypericifolia''\n| imagem = Spiraea hypericifolia 2016-05-17 0793.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rosales]]\n| família = [[Rosaceae]]\n| género = ''[[Spiraea]]''\n| espécie = '''''S. hypericifolia'''''\n| binomial = ''Spiraea hypericifolia''\n| binomial_autoridade = L.\n}}\nSpiraea hypericifolia é uma espécie de planta com flor pertencente à família Rosaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 1: 489. 1753.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Spiraea hypericifolia subsp. obovata - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/77e1150334e3d8a99b44170652c46dc78ff16119223d9b495757ec947c72b4a7.json",
+      "sha256": "25856d8ca3ebdd37714c0bace16e3392b2f1a196c0ef161d38dc5695925f5737",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55246595",
+      "revisionId": 55246595,
+      "credit": {
+        "title": "Spiraea hypericifolia",
+        "url": "https://pt.wikipedia.org/wiki/Spiraea_hypericifolia",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55246595",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Spiraea hypericifolia L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Western Asia\n\nSoutheastern Europe\n\nRegularly or recently cultivated agricultural, horticultural and domestic habitats (I level 1)\n\nEurope\n\nCultivated areas of gardens and parks (I2 level 2)\n\nConstructed, industrial and other artificial habitats (J level 1)\n\nAsia-Temperate\n\nEurope\n\nEastern Europe\n\nEastern Asia\n\nHabitat in Canada. ♄\n\n3. Spiraea foliis integerrimis, umbellis sessilibus. Hort. ups. 131. Spiraea foliis integerrimis, pedunculis simplicibus. Hort. cliff. 190. Roy. lugdb. 277. Pruno sylvestri affinis canadensis. Bauh. pin. 517. Pluk. alm. 308. t. 218. f. 5.\n\ntemperate Asia (WGSRPD:3)\n\nEurope (WGSRPD:1)\n\nLectotype (Purohit & Panigrahi, Fam. Rosaceae India 1: 110, pl. 32, f. 1. 1991): Herb. Linn. No. 651.5 (LINN).\n\n\" Habitat in Canada. \" RCN: 3720.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3026431.json",
+      "sha256": "63975c585a335d4625ccce283f08b2fb8af0c5f68be66b7653507fbb8dc92e60",
+      "url": "https://api.gbif.org/v1/species/3026431",
+      "credit": {
+        "title": "Spiraea hypericifolia L.",
+        "url": "https://www.gbif.org/species/3026431",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Spiraea hypericifolia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Spiraea+hypericifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Spiraea+hypericifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

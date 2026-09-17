@@ -1,0 +1,43 @@
+{
+  "taxonId": 245912,
+  "name": "Bupleurum subovatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:49.049531+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e89395592ec855af58090433f67f4c38d5deb7e5c0911b6be95d755df7a6ca88.json",
+      "title": "Bupleurum lancifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/11c060c56bc76447f2961cbcb5f0a2722a21e20fa297fab16c0ead3bf44b2e42.json",
+      "title": "Bupleurum lancifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bupleurum subovatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "False Thorow-wax"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bupleurum+subovatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bupleurum+subovatum&limit=100",
+      "status": 200
+    }
+  ]
+}

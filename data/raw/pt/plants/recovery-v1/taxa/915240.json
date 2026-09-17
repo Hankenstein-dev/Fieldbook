@@ -1,0 +1,32 @@
+{
+  "taxonId": 915240,
+  "name": "Grevillea banksii × bipinnatifida",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:44:55.022595+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Grevillea banksii × bipinnatifida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Grevillea 'Superb'"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Grevillea+banksii+%C3%97+bipinnatifida&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Grevillea+banksii+%C3%97+bipinnatifida&limit=100",
+      "status": 200
+    }
+  ]
+}

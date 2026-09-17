@@ -1,0 +1,28 @@
+{
+  "taxonId": 518540,
+  "name": "Nogopterium",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:42:40.317285+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/6ac638b71c70584bf1d9105325d36c9e300e3beeccc448859e4787753e8eef96.json",
+      "title": "Pterogonium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Nogopterium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Nogopterium&limit=100",
+      "status": 200
+    }
+  ]
+}

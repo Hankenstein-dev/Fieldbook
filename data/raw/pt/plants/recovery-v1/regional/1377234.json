@@ -1,0 +1,38 @@
+{
+  "taxonId": 1377234,
+  "sources": [
+    {
+      "title": "Flora-On — Vulpia muralis",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Vulpia muralis. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia ainda sem informação\n\nDistância ao mar (n=861)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Avena barbata-(1) , Trifolium angustifolium , Sanguisorba verrucosa , Briza maxima , Ornithopus compressus , Quercus rotundifolia , Silene gallica ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1377234.json",
+      "sha256": "a1a239c44dd219824f7962f42644d6f64fc6cb143cdf20237efd70a1a9d36478",
+      "url": "https://flora-on.pt/?q=Vulpia+muralis",
+      "credit": {
+        "title": "Flora-On — Vulpia muralis",
+        "url": "https://flora-on.pt/?q=Vulpia+muralis",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Festuca+muralis",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Festuca+muralis&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Vulpia+muralis",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T08:00:09.230292+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 861411,
+  "name": "Melica canariensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:51.816099+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Melica canariensis",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Melica canariensis''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Melica]]''\n| espécie = '''''M. canariensis'''''\n| binomial = ''Melica canariensis''\n| binomial_autoridade = W.Hempel\n}}\nMelica canariensis é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é W.Hempel, tendo sido publicada em Feddes Repertorium 75: 109. 1967.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da Região Macaronésia.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a9139f344f688f8debadad027c5cd6f9587ebf1fdc5cc47bed1a34648b22367d.json",
+      "sha256": "5b76ede71517f25a972189351a99c7825a1011c6bdab608e4455d96849a963f5",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55041994",
+      "revisionId": 55041994,
+      "credit": {
+        "title": "Melica canariensis",
+        "url": "https://pt.wikipedia.org/wiki/Melica_canariensis",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55041994",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Melica+canariensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Melica+canariensis&limit=100",
+      "status": 200
+    }
+  ]
+}

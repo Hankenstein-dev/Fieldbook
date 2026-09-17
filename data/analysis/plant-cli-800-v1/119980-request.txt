@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":119980,"scientificName":"Opuntia lindheimeri","commonName":"Texas Pricklypear","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Opuntia lindheimeri","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Opuntia lindheimeri or Texas prickly pear is a species of cactus native to North America. It is native to Mexico and the United States, where its populations are primarily in Texas."},{"id":"s1:p2","text":"Widespread taxonomic confusion has prevented a clear understanding of the true range of this species, resulting in significant publication discrepancies regarding both its western and eastern boundaries. According to Opuntia Web group, this species is typically found in more mesic habitats with deeper soils."},{"id":"s1:p3","text":"Taxonomy\nThe question of whether Opuntia lindheimeri should be treated as a full species or as a segregate of the closely related Opuntia engelmannii remains unsettled in the scientific community. Some treatments such as the early 20th century landmark monograph The Cactaceae consider is a segregated species, while others such as the Flora of North America confer it only variety status."},{"id":"s1:p4","text":"O. lindheimeri was first described as a species in 1850 by George Engelmann."}]}]}

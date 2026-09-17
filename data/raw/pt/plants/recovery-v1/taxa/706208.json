@@ -1,0 +1,47 @@
+{
+  "taxonId": 706208,
+  "name": "Porphyra capensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:32.543240+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Porphyra capensis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Porphyra capensis is a species of red algae in the family of Bangiaceae. Its name stems from it being first described from a sample taken from the Cape of Good Hope. In addition to the coasts of South Africa, it has also been observed growing along the coasts of Namibia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/b526469d542bcc46a567ce5e162492440644cb4be35d3f25b5176a966d66a8f8.json",
+      "sha256": "6f3d8e6ebcd1782bab0fb248969a93789eb9472b8b3ab23ec836b6dc3ccd440e",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1364679426",
+      "revisionId": 1364679426,
+      "credit": {
+        "title": "Porphyra capensis",
+        "url": "https://en.wikipedia.org/wiki/Porphyra_capensis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1364679426",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Porphyra capensis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Porphyra+capensis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Porphyra+capensis&limit=100",
+      "status": 200
+    }
+  ]
+}

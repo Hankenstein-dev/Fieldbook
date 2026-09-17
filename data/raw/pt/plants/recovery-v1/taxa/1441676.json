@@ -1,0 +1,33 @@
+{
+  "taxonId": 1441676,
+  "name": "Opuntia stricta",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:32.959869+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/05c0ff86ebafa782533b2a141498867bdbfe1d91583bc94464ffc0e43e51d2b9.json",
+      "title": "Opuntia stricta",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/05c0ff86ebafa782533b2a141498867bdbfe1d91583bc94464ffc0e43e51d2b9.json",
+      "title": "Opuntia stricta",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Opuntia+stricta&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Opuntia+stricta&limit=100",
+      "status": 200
+    }
+  ]
+}

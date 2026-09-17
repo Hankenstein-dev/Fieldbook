@@ -1,0 +1,38 @@
+{
+  "taxonId": 161874,
+  "name": "Dicranum viride",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:48.190452+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8b3880eb16180757d631956ed8b3eb89c42cd4d070d429da22a264ed0e9a66e9.json",
+      "title": "Dicranum viride",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dicranum viride"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "dicranum moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dicranum+viride&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dicranum+viride&limit=100",
+      "status": 200
+    }
+  ]
+}

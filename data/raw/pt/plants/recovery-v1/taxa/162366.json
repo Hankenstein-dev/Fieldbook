@@ -1,0 +1,53 @@
+{
+  "taxonId": 162366,
+  "name": "Epilobium obscurum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:49.695048+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Epilobium obscurum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Epilobium obscurum''\n| imagem = Epilobium obscurum T69.1.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Myrtales]]\n| família = [[Onagraceae]]\n| género = ''[[Epilobium]]''\n| espécie = '''''E. obscurum'''''\n| binomial = ''Epilobium obscurum''\n| binomial_autoridade = Schreb.\n}}\nEpilobium obscurum é uma espécie de planta com flor pertencente à família Onagraceae. \n\nA autoridade científica da espécie é Schreb., tendo sido publicada em Spicilegium Florae Lipsicae 147, 155. 1771.\n\nOs seus nomes comuns são erva-bonita ou epilóbio-serrilhado.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental, no Arquipélago dos Açores e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa das três regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/9a94602199d485ac83460934886c61528e0b7fe7a068b605eb4756ebd3425034.json",
+      "sha256": "c13bbd7acacc040d86f750091f03961041615d09139b3fca5c4d11faa93a588d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54806707",
+      "revisionId": 54806707,
+      "credit": {
+        "title": "Epilobium obscurum",
+        "url": "https://pt.wikipedia.org/wiki/Epilobium_obscurum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54806707",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9a94602199d485ac83460934886c61528e0b7fe7a068b605eb4756ebd3425034.json",
+      "title": "Epilobium obscurum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Epilobium obscurum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Epilobium+obscurum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Epilobium+obscurum&limit=100",
+      "status": 200
+    }
+  ]
+}

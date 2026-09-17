@@ -1,0 +1,38 @@
+{
+  "taxonId": 847544,
+  "name": "Nidorella ivifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:24.031868+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b76a1c3e18c8ae3f3e36dffc2177e5b9096411077b045e72b7165028a3c8d40a.json",
+      "title": "Erigeron bonariensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Nidorella ivifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ivy Vleiweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Nidorella+ivifolia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Nidorella+ivifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

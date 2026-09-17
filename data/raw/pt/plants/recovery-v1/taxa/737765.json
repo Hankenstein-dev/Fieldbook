@@ -1,0 +1,55 @@
+{
+  "taxonId": 737765,
+  "name": "Porella obtusata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:50.379080+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Porella obtusata (Taylor) Trevis.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941), Jelenc (1955 a): Kabylie de Collo, Djebel Goufi. Feldmann (1947): Kabylie de Collo, Oued Elli Ankou, 600 m. Jelenc (1955 a): Kabylie du Djurdjura, Tala Ghizan. Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7819325.json",
+      "sha256": "d2afd3890274367a5ef4273f118a3bc2f1ebe6d72ac06cd34f859c54bc67a258",
+      "url": "https://api.gbif.org/v1/species/7819325",
+      "credit": {
+        "title": "Porella obtusata (Taylor) Trevis.",
+        "url": "https://www.gbif.org/species/7819325",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Porella obtusata (Taylor) Trevis.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941), Jelenc (1955 a): Kabylie de Collo, Djebel Goufi. Feldmann (1947): Kabylie de Collo, Oued Elli Ankou, 600 m. Jelenc (1955 a): Kabylie du Djurdjura, Tala Ghizan. Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098759.json",
+      "sha256": "e87ab53e4172216bc4aad4f636f4a53f1553b5dba45a598334574444a5cc9a39",
+      "url": "https://api.gbif.org/v1/species/251098759",
+      "credit": {
+        "title": "Porella obtusata (Taylor) Trevis.",
+        "url": "https://www.gbif.org/species/251098759",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Porella+obtusata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Porella+obtusata&limit=100",
+      "status": 200
+    }
+  ]
+}

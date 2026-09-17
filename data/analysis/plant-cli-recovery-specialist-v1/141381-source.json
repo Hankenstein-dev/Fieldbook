@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 141381,
+    "scientificName": "Chamaedorea pochutlensis",
+    "commonName": "Chamaedorea pochutlensis",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Chamaedorea pochutlensis",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Chamaedorea pochutlensis är en enhjärtbladig växtart som beskrevs av Frederik Michael Liebmann. Chamaedorea pochutlensis ingår i släktet Chamaedorea och familjen Arecaceae. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": "pochutlensis"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Chamaedorea pochutlensis Liebm. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Chamaedorea pochutlensis Liebm.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Mexico (Sinaloa to Oaxaca). It is a shrub or tree and grows primarily in the desert or dry shrubland biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/851d15458759f4c0869b04fdfd97ddb7ad45b8e9c0ebbfdfff269217eebea510.json",
+      "sha256": "b6a7dd8d6d58a9baf9f83b7d111457d3575134072f560f1a8dab190831635e0e",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=53302692",
+      "revisionId": 53302692,
+      "credit": {
+        "title": "Chamaedorea pochutlensis",
+        "url": "https://sv.wikipedia.org/wiki/Chamaedorea_pochutlensis",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=53302692",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/141381-3af85fe3fb0f4152.json",
+      "sha256": "3af85fe3fb0f4152398cf97d4a3f66e75cbe06ec14c3e2c8329c97195616c5f4",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A54931-2",
+      "credit": {
+        "title": "Chamaedorea pochutlensis Liebm. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A54931-2",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 141381,
+    "name": "Chamaedorea pochutlensis",
+    "language": "sv,en",
+    "sourceTextTokens": 125,
+    "packetTokens": 301,
+    "standaloneInputTextTokens": 753,
+    "packetSha256": "89cb82a0742e8bcbc0bfdf99eea40bcede3da7bd83f7703b2824a96a41a49d67"
+  }
+}

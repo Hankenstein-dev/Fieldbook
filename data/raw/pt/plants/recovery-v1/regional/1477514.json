@@ -1,0 +1,38 @@
+{
+  "taxonId": 1477514,
+  "sources": [
+    {
+      "title": "Flora-On — Hainardia cylindrica",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Hainardia cylindrica. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nDistância ao mar (n=44)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Foeniculum vulgare , Anagallis arvensis-(1) , Galactites tomentosus , Senecio vulgaris , Briza maxima , Quercus suber , Arundo donax ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1477514.json",
+      "sha256": "c82ea963708c0462864fa445284636b22fc6897481efc7cec1ef1c78a2db165a",
+      "url": "https://flora-on.pt/?q=Hainardia+cylindrica",
+      "credit": {
+        "title": "Flora-On — Hainardia cylindrica",
+        "url": "https://flora-on.pt/?q=Hainardia+cylindrica",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Parapholis+cylindrica",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Parapholis+cylindrica&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Hainardia+cylindrica",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:41:35.831708+00:00"
+}

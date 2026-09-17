@@ -1,0 +1,32 @@
+{
+  "taxonId": 1441702,
+  "name": "Passiflora miniata × vitifolia",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:33.066400+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Passiflora miniata × vitifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Passiflora 'Scarlet Flame'"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Passiflora+miniata+%C3%97+vitifolia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Passiflora+miniata+%C3%97+vitifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

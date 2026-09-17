@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":1356829,"scientificName":"Aloina ambigua","commonName":"Tall Aloe-moss","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Aloina ambigua","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Aloina ambigua, commonly known as tall aloe-moss, is a species of moss in the family Pottiaceae. The species was frequently misidentified with Aloina aloides prior to publication of the book, Flora. "},{"id":"s1:p2","text":" Description \nThe leaves of Aloina ambigua exhibit a slight curl when dry, while they become long and spreading in moist conditions, measuring approximately 1.0–3.0 × 0.3–0.7 mm. They are lingulate in shape, with a base that is shortly sheathing and an apex that is cucullate, incurved, and approximately obtuse (or subacute when flattened). The spores measure 14–16 μm."},{"id":"s1:p3","text":" Identification "},{"id":"s1:p4","text":"In terms of size and growth habit, Aloina ambigua closely resembles Aloina aloides. These plants can be found as solitary specimens or in patches that range from dark green to reddish-brown, typically reaching heights of 2–5 mm. The leaves exhibit a strong similarity to those of A. aloides; however, the nerve generally terminates at the leaf tip and seldom extends beyond it. Capsules are prevalent during the winter and spring seasons, playing a crucial role in differentiating A. ambigua from A. aloides. Identification based solely on field characteristics is usually not feasible without the presence of capsules. When mature, the capsules are typically upright or only slightly tilted, featuring a distinct membrane located between the capsule's opening and the peristome teeth. Additionally, the calyptra is devoid of hair."},{"id":"s1:p5","text":" Habitat \nAloina ambigua is a lowland species, usually being found in thin, lime-rich soils like chalk and limestone. It typically thrives on exposed banks, rock ledges, cliffs, as well as in quarries, chalk pits, and sand pits. In contrast to A. aloides, it seldom grows on mortar surfaces of walls."},{"id":"s1:p6","text":" Distribution \nAloina ambigua has been found in Europe, North America, North Africa, Australia and New Zealand."}]}]}

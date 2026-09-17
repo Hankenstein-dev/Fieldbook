@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":197011,"scientificName":"Littorella uniflora","commonName":"Shoreweed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Littorella uniflora","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Littorella uniflora (vernacular name: (American) shoreweed{{citation needed|date=February 2021}}) is a species of aquatic flowering plant native to the Azores, Morocco, most of Europe excluding the dry southeast, Iceland, and the Faroes. It prefers to live mostly submerged in nutrient-poor freshwater habitats. When submerged, it draws CO2 mostly through its roots and uses a mix of crassulacean acid metabolism (CAM) and C3 carbon fixation for photosynthesis. If the water level drops and exposes the roots, it ceases using CAM."}]},{"id":"s2","title":"Lista Vermelha da Flora Vascular de Portugal Continental — Littorella uniflora","language":"unspecified","scope":"Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.","passages":[{"id":"s2:p1","text":"Littorella uniflora é uma planta aquática, que ocorre de modo muito disperso em Portugal continental. É avaliada como Vulnerável porque apresenta uma reduzida área de ocupação, infere-se um declínio continuado da área e qualidade do seu habitat e porque apenas se identificam sete localizações em Portugal continental. Assinalam-se ameaças significativas sobre a planta e sobre o seu habitat, nomeadamente a drenagem de zonas húmidas, a intensificação agrícola, a criação de gado bovino e a expansão de espécies exóticas ou de infestantes nativas. Sugere-se um aumento de fiscalização sobre os charcos temporários, a monitorização da população regional, com frequência, pelo menos, quinquenal, e ainda a realização de esforços de prospeção da planta em locais com habitat favorável à sua ocorrência."}]}]}

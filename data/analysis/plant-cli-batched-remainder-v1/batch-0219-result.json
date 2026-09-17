@@ -1,0 +1,341 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T12:31:23.860896+00:00",
+  "completedAt": "2026-09-14T12:32:54.031872+00:00",
+  "elapsedSeconds": 90.17053648000001,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0219",
+  "taxonIds": [
+    143243,
+    161415,
+    487728,
+    122850,
+    79521,
+    338374,
+    431626,
+    78678,
+    497846,
+    61118
+  ],
+  "usage": {
+    "input_tokens": 20094,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3509,
+    "reasoning_output_tokens": 2531
+  },
+  "requestTextTokens": 12685,
+  "savedOutputTokens": 972,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 143243,
+      "name": "Chamaemelum nobile",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A low perennial native to Western Europe and the northwestern Maghreb, Roman chamomile has daisy-like white flowers and a sweet, crisp, fruity-herbal scent. Its dried flowers flavor tea, though chamomile is likely unsafe during pregnancy and its tea may adversely affect anticoagulant drugs.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Dried flowers flavor herbal teas and foods; chamomile is likely unsafe during pregnancy, and tea may adversely affect anticoagulant drugs.",
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p4",
+            "s1:p8",
+            "s1:p11"
+          ],
+          "humanEdibility": [
+            "s1:p3",
+            "s1:p11",
+            "s1:p13"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 161415,
+      "name": "Cynoglossum amabile",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A hardy annual flowering plant native to Asia, Chinese forget-me-not has hairy leaves and sprays of sky-blue flowers in late summer. It is also grown as an ornamental.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 487728,
+      "name": "Bifora testiculata",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual flowering plant native to mainland Portugal, small coriander grows in cereal fields, fallows and beneath rain-fed olive groves on basic soils. A 2020 mainland Portugal assessment classified it as Vulnerable, with only three subpopulations then known nationally.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p5",
+            "s1:p6",
+            "s2:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122850,
+      "name": "Phaseolus vulgaris",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A herbaceous annual native to the Americas, the common bean may grow as a climbing vine or, among many cultivars, a bush. Its beans and unripe green pods are eaten, but raw dry beans contain a toxin that can be deactivated by boiling them for 30 minutes.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Beans and unripe green pods are food; leaves are occasional vegetables. Raw dry beans require 30 minutes’ boiling to deactivate phytohaemagglutinin.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": [
+            "s1:p5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 79521,
+      "name": "Washingtonia robusta",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A tall palm native to southern Baja California, Mexico, the Mexican fan palm is also found in Sonora. It is highly variable and now occurs in many regions around the world.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 338374,
+      "name": "Dianthus langeanus",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant endemic to the Iberian Peninsula, Lange’s pink is recorded in mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 431626,
+      "name": "Solanum bonariense",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A shrub native to northeastern Argentina, southeastern and southern Brazil, and Uruguay, this species belongs to the nightshade family.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 78678,
+      "name": "Polygonum aviculare",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A low-growing annual herb native to Eurasia, prostrate knotweed forms broad patches of branching stems with tiny green flowers edged in white or pink. It was traditionally used in porridge eaten by Germanic peoples of western Europe.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Historically used as an ingredient in porridge consumed by Germanic peoples of western Europe.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p7",
+            "s1:p13"
+          ],
+          "humanEdibility": [
+            "s1:p13"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 497846,
+      "name": "Echinospartum ibericum",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant endemic to the Iberian Peninsula, Echinospartum ibericum is recorded in mainland Portugal’s Serra da Estrela.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T12:31:23.860896+00:00",
+      "completedAt": "2026-09-14T12:32:54.031872+00:00",
+      "elapsedSeconds": 90.17053648000001,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 61118,
+      "name": "Silene conica",
+      "batchId": "batch-0219",
+      "usage": null,
+      "usageRef": "batch-0219-result.json",
+      "rawOutputFile": "batch-0219-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual flowering plant with no stated native origin, sand catchfly is widespread in dunes and sandy soils across Europe and western Asia. Its bright pink petals and prominent parallel veins around each flower make it readily recognizable.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

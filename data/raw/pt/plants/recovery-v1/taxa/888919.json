@@ -1,0 +1,32 @@
+{
+  "taxonId": 888919,
+  "name": "Macrocline",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:44:49.018205+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Macrocline"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rudbeckia sect. Macrocline"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Macrocline&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Macrocline&limit=100",
+      "status": 200
+    }
+  ]
+}

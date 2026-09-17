@@ -1,0 +1,55 @@
+{
+  "taxonId": 359510,
+  "name": "Cladophora aegagropila",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:41.041206+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cladophora aegagropila (Linnaeus 1753) Trevis.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "\" Habitat in Sueciae lacubus Dannemora, Stockholmiae & c. \" RCN: 8395.\n\nLectotype (van den Hoek, Revis. Eur. Sp. Cladophora: 51. 1963): Herb. Linn. No. 1277.49 (LINN).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164002270.json",
+      "sha256": "860acbd0d5b7b91b7e0a2cef9412785d735e765ff0bb0efa92fe1505795c3c5d",
+      "url": "https://api.gbif.org/v1/species/164002270",
+      "credit": {
+        "title": "Cladophora aegagropila (Linnaeus 1753) Trevis.",
+        "url": "https://www.gbif.org/species/164002270",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5157c02b0fadf566ee19614b8e42de1bbf8967594575a7767ce33a79df425655.json",
+      "title": "Marimo",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cladophora aegagropila"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Marimo moss balls"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cladophora+aegagropila&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cladophora+aegagropila&limit=100",
+      "status": 200
+    }
+  ]
+}

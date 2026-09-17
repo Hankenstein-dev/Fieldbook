@@ -1,0 +1,33 @@
+{
+  "taxonId": 1607726,
+  "name": "Erigeron",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:48:41.451898+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/92d3b418cbb47f205f26148d3a5dcd509d2037df1795c1d577b1b3018e9172a8.json",
+      "title": "Erigeron",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/92d3b418cbb47f205f26148d3a5dcd509d2037df1795c1d577b1b3018e9172a8.json",
+      "title": "Erigeron",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Erigeron&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Erigeron&limit=100",
+      "status": 200
+    }
+  ]
+}

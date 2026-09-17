@@ -1,0 +1,114 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-15T07:40:50.052781+00:00",
+  "completedAt": "2026-09-15T07:41:07.106526+00:00",
+  "elapsedSeconds": 17.053620877999947,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0001",
+  "taxonIds": [
+    430959,
+    460193,
+    1125546
+  ],
+  "usage": {
+    "input_tokens": 10862,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 421,
+    "reasoning_output_tokens": 153
+  },
+  "requestTextTokens": 3449,
+  "savedOutputTokens": 262,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedSeconds": 17.053620877999947,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 430959,
+      "name": "Dombeya cacuminum",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An evergreen tree endemic to Madagascar, it bears red to purple flowers that fall before withering. Its bark provides fibre for cordage and woven cloth and was formerly made into barkcloth.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedSeconds": 17.053620877999947,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 460193,
+      "name": "Potentilla hebiichigo",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A creeping perennial plant native to Asia, it has thin, yellowish-green leaves. Its fruiting receptacles are matte white or pink, with matte red to brown, rough-textured achenes.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedSeconds": 17.053620877999947,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1125546,
+      "name": "Fragaria hayatae",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A herb endemic to Taiwan, it grows in thickets and along roadsides from medium to high altitudes. It is densely hairy, with coarsely sharp-toothed leaflets, white flowers and small achenes set on an enlarged, fleshy, globe-shaped base.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

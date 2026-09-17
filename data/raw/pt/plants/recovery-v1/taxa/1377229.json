@@ -1,0 +1,38 @@
+{
+  "taxonId": 1377229,
+  "name": "Festuca fasciculata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:10.777344+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9b0b347b23142698c45848c3cb10de253222e805a0b9d812727d3efe340f6b61.json",
+      "title": "Vulpia fasciculata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Festuca fasciculata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dune Fescue"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+fasciculata&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+fasciculata&limit=100",
+      "status": 200
+    }
+  ]
+}

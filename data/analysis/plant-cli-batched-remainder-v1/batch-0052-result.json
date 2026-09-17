@@ -1,0 +1,345 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T09:50:45.191687+00:00",
+  "completedAt": "2026-09-14T09:52:24.039243+00:00",
+  "elapsedSeconds": 98.84733912899992,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0052",
+  "taxonIds": [
+    59948,
+    60878,
+    122521,
+    79463,
+    323508,
+    359491,
+    119792,
+    274273,
+    1045067,
+    524174
+  ],
+  "usage": {
+    "input_tokens": 18161,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3590,
+    "reasoning_output_tokens": 2588
+  },
+  "requestTextTokens": 10752,
+  "savedOutputTokens": 996,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 59948,
+      "name": "Chasmanthe bicolor",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Plant species with no supplied native origin. It belongs to the family Iridaceae.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 60878,
+      "name": "Lonicera interrupta",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Woody shrub native to chaparral and mixed forests in California’s foothills and mountains and some Arizona mountains. It bears spikes of yellow flowers with prominent stamens and shiny, spherical red fruits. The bitter fruits are edible.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The fruits are bitter but edible.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p7"
+          ],
+          "humanEdibility": [
+            "s1:p7"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 122521,
+      "name": "Monstera deliciosa",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Climbing flowering plant native to humid tropical forests in southern Mexico, Costa Rica, Guatemala and Panama. Its glossy, heart-shaped leaves develop deep divisions and large natural holes as the plant ages. The ripe fruit is sweet-scented and edible, but unripe fruit can irritate the mouth and throat.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Only ripe fruit is edible; unripe fruit can irritate the mouth and throat because it contains calcium oxalate crystals.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p7",
+            "s1:p11",
+            "s1:p12",
+            "s1:p15"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p11",
+            "s1:p12",
+            "s1:p21"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 79463,
+      "name": "Ulmus pumila",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Deciduous tree native across a broad region of central and eastern Asia. It is often bushy, flowers before its leaves emerge, and releases wind-carried seeds. Its unripe seeds have long been eaten in Manchuria, while leaves were eaten raw or cooked with grain, notably during the Great Chinese Famine.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Unripe seeds were long eaten in Manchuria and became important during the Great Chinese Famine; leaves were eaten raw or cooked with grain.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4",
+            "s1:p10",
+            "s1:p29"
+          ],
+          "humanEdibility": [
+            "s1:p29"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 323508,
+      "name": "Polystichum proliferum",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Ground-growing fern native only to Australia, including southeastern mainland regions and Tasmania. Rows of spore clusters line its fronds, which can carry buds that grow into small plants. As those buds become heavier, the fronds sag until they can root in the soil.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 359491,
+      "name": "Peucedanum gallicum",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant native to mainland Portugal. It belongs to the family Apiaceae and is not protected under Portuguese or European Community legislation.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p5",
+            "s1:p6",
+            "s1:p8"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 119792,
+      "name": "Paulownia tomentosa",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Deciduous hardwood tree native to central and eastern China. It grows extremely quickly, disperses seeds readily, and is invasive in parts of North America. Large, fragrant violet-blue flowers appear before the leaves in early spring.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 274273,
+      "name": "Ferocactus glaucescens",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Solitary or branching cactus native only to Mexico, specifically limestone hills and dry forest in Hidalgo, Guanajuato, Querétaro and San Luis Potosí. It has blue-green, frosted, ribbed stems with yellow spines. Its bell-shaped yellow flowers are followed by pale, fleshy fruits tinged red.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1045067,
+      "name": "Begonia acutifolia",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant native to Cuba and Jamaica. It tolerates shade and is grown as a houseplant or outdoors in warm climates.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:50:45.191687+00:00",
+      "completedAt": "2026-09-14T09:52:24.039243+00:00",
+      "elapsedSeconds": 98.84733912899992,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 524174,
+      "name": "Rhigozum obovatum",
+      "batchId": "batch-0052",
+      "usage": null,
+      "usageRef": "batch-0052-result.json",
+      "rawOutputFile": "batch-0052-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial shrub or tree native to Namibia, South Africa and Zimbabwe.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

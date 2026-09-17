@@ -1,0 +1,22 @@
+{
+  "taxonId": 1565829,
+  "name": "Ophrys × brigittae",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:21.021573+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ophrys+%C3%97+brigittae&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ophrys+%C3%97+brigittae&limit=100",
+      "status": 200
+    }
+  ]
+}

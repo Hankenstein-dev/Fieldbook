@@ -1,0 +1,443 @@
+{
+  "updatedAt": "2026-09-15T18:17:48.097191+00:00",
+  "runs": [
+    {
+      "run": "data/analysis/plant-cli-recovery-auto-001-v1",
+      "expectedCount": 9,
+      "complete": true,
+      "count": 9,
+      "validatedCount": 9,
+      "failedCount": 0,
+      "generationCompletedCount": 9,
+      "generationCallCount": 1,
+      "completedCallCount": 1,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 0,
+      "startedAt": "2026-09-15T18:01:13.914755+00:00",
+      "completedAt": "2026-09-15T18:02:00.113305+00:00",
+      "elapsedWallSeconds": 46.19855,
+      "totalGenerationSeconds": 46.19842714400147,
+      "savedOutputTokens": 736,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-auto-002-v1",
+      "expectedCount": 1,
+      "complete": true,
+      "count": 1,
+      "validatedCount": 1,
+      "failedCount": 0,
+      "generationCompletedCount": 1,
+      "generationCallCount": 1,
+      "completedCallCount": 1,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 0,
+      "startedAt": "2026-09-15T18:03:46.920849+00:00",
+      "completedAt": "2026-09-15T18:03:59.722981+00:00",
+      "elapsedWallSeconds": 12.802132,
+      "totalGenerationSeconds": 12.802014504006365,
+      "savedOutputTokens": 109,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-auto-003-v1",
+      "expectedCount": 10,
+      "complete": true,
+      "count": 10,
+      "validatedCount": 10,
+      "failedCount": 0,
+      "generationCompletedCount": 10,
+      "generationCallCount": 1,
+      "completedCallCount": 1,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 0,
+      "startedAt": "2026-09-15T18:08:32.029778+00:00",
+      "completedAt": "2026-09-15T18:09:21.629893+00:00",
+      "elapsedWallSeconds": 49.600115,
+      "totalGenerationSeconds": 49.59991789599735,
+      "savedOutputTokens": 956,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-auto-004-v1",
+      "expectedCount": 10,
+      "complete": true,
+      "count": 10,
+      "validatedCount": 10,
+      "failedCount": 0,
+      "generationCompletedCount": 10,
+      "generationCallCount": 1,
+      "completedCallCount": 1,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 0,
+      "startedAt": "2026-09-15T18:14:15.635631+00:00",
+      "completedAt": "2026-09-15T18:14:51.397756+00:00",
+      "elapsedWallSeconds": 35.762125,
+      "totalGenerationSeconds": 35.76196189199982,
+      "savedOutputTokens": 917,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-continuation-v1",
+      "expectedCount": 2048,
+      "complete": true,
+      "count": 2048,
+      "validatedCount": 2026,
+      "failedCount": 22,
+      "generationCompletedCount": 2028,
+      "generationCallCount": 205,
+      "completedCallCount": 203,
+      "missingUsageCount": 2,
+      "nullSummaryCount": 66,
+      "startedAt": "2026-09-15T08:49:43.007848+00:00",
+      "completedAt": "2026-09-15T12:15:51.442258+00:00",
+      "elapsedWallSeconds": 12368.43441,
+      "totalGenerationSeconds": 12346.092607793005,
+      "savedOutputTokens": 200948,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-local-v1",
+      "expectedCount": 1095,
+      "complete": true,
+      "count": 1095,
+      "validatedCount": 180,
+      "failedCount": 915,
+      "generationCompletedCount": 180,
+      "generationCallCount": 110,
+      "completedCallCount": 18,
+      "missingUsageCount": 92,
+      "nullSummaryCount": 9,
+      "startedAt": "2026-09-15T07:37:37.899066+00:00",
+      "completedAt": "2026-09-15T08:42:33.855213+00:00",
+      "elapsedWallSeconds": 3895.956147,
+      "totalGenerationSeconds": 1783.3545842970013,
+      "savedOutputTokens": 19943,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-quota-reset-v1",
+      "expectedCount": 945,
+      "complete": false,
+      "count": 10,
+      "validatedCount": 10,
+      "failedCount": 0,
+      "generationCompletedCount": 10,
+      "generationCallCount": 1,
+      "completedCallCount": 1,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 5,
+      "startedAt": "2026-09-15T08:47:42.354328+00:00",
+      "completedAt": "2026-09-15T08:48:32.391761+00:00",
+      "elapsedWallSeconds": 50.037433,
+      "totalGenerationSeconds": 50.037298801999896,
+      "savedOutputTokens": 916,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-retrieved-v1",
+      "expectedCount": 1312,
+      "complete": false,
+      "count": 50,
+      "validatedCount": 10,
+      "failedCount": 40,
+      "generationCompletedCount": 10,
+      "generationCallCount": 5,
+      "completedCallCount": 1,
+      "missingUsageCount": 4,
+      "nullSummaryCount": 3,
+      "startedAt": "2026-09-15T08:39:53.122755+00:00",
+      "completedAt": "2026-09-15T08:40:45.124507+00:00",
+      "elapsedWallSeconds": 52.001752,
+      "totalGenerationSeconds": 51.94835989999956,
+      "savedOutputTokens": 808,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-source-enrichment-v1",
+      "expectedCount": 25,
+      "complete": true,
+      "count": 25,
+      "validatedCount": 25,
+      "failedCount": 0,
+      "generationCompletedCount": 25,
+      "generationCallCount": 3,
+      "completedCallCount": 3,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 0,
+      "startedAt": "2026-09-15T18:15:07.167946+00:00",
+      "completedAt": "2026-09-15T18:17:36.477741+00:00",
+      "elapsedWallSeconds": 149.309795,
+      "totalGenerationSeconds": 149.27887933599413,
+      "savedOutputTokens": 2367,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-specialist-round2-v1",
+      "expectedCount": 95,
+      "complete": true,
+      "count": 95,
+      "validatedCount": 95,
+      "failedCount": 0,
+      "generationCompletedCount": 95,
+      "generationCallCount": 10,
+      "completedCallCount": 10,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 1,
+      "startedAt": "2026-09-15T17:17:03.011509+00:00",
+      "completedAt": "2026-09-15T17:24:41.615099+00:00",
+      "elapsedWallSeconds": 458.60359,
+      "totalGenerationSeconds": 458.51632955798414,
+      "savedOutputTokens": 8760,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-specialist-v1",
+      "expectedCount": 185,
+      "complete": true,
+      "count": 185,
+      "validatedCount": 185,
+      "failedCount": 0,
+      "generationCompletedCount": 185,
+      "generationCallCount": 19,
+      "completedCallCount": 19,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 15,
+      "startedAt": "2026-09-15T17:06:49.298599+00:00",
+      "completedAt": "2026-09-15T17:15:52.695576+00:00",
+      "elapsedWallSeconds": 543.396977,
+      "totalGenerationSeconds": 543.0506216699941,
+      "savedOutputTokens": 13655,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    },
+    {
+      "run": "data/analysis/plant-cli-recovery-strawberries-v1",
+      "expectedCount": 3,
+      "complete": true,
+      "count": 3,
+      "validatedCount": 3,
+      "failedCount": 0,
+      "generationCompletedCount": 3,
+      "generationCallCount": 1,
+      "completedCallCount": 1,
+      "missingUsageCount": 0,
+      "nullSummaryCount": 0,
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedWallSeconds": 17.053745,
+      "totalGenerationSeconds": 17.053620877999947,
+      "savedOutputTokens": 262,
+      "usageUnit": "CLI call; counted once per batch",
+      "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+      "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+    }
+  ],
+  "attemptedTaxa": 3541,
+  "uniqueAttemptedTaxa": 2587,
+  "generationCalls": 358,
+  "formatPassed": 2564,
+  "failedAttempts": 977,
+  "formatFailed": 2,
+  "providerRefusedCalls": 95,
+  "providerRefusedPlantAttempts": 945,
+  "otherExecutionFailedPlantAttempts": 30,
+  "nullSummaries": 99,
+  "elapsedWallSeconds": 38398.578675,
+  "totalGenerationSeconds": 15543.694623669984,
+  "usage": {
+    "input_tokens": 6228158,
+    "cached_input_tokens": 1262336,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 656734,
+    "reasoning_output_tokens": 404797,
+    "uncached_input_tokens": 4965822
+  },
+  "missingUsageCalls": 98,
+  "coverage": {
+    "generatedAt": "2026-09-15T18:17:47.774Z",
+    "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+    "totalVisibleEntries": 8523,
+    "withSummary": 7918,
+    "withoutSummary": 605,
+    "sourceAbsenceEstablished": 0,
+    "shortSummaryReviewCount": 759,
+    "routes": {
+      "summary_present": 7159,
+      "retrieve_additional_sources": 436,
+      "short_summary_review": 759,
+      "existing_source_identity_review": 70,
+      "existing_matched_source": 99
+    },
+    "missingByRank": {
+      "hybrid": 103,
+      "genushybrid": 2,
+      "species": 352,
+      "genus": 49,
+      "complex": 26,
+      "tribe": 6,
+      "subgenus": 16,
+      "section": 38,
+      "subsection": 7,
+      "family": 4,
+      "subtribe": 1,
+      "subfamily": 1
+    },
+    "alphabeticalCoverage": {
+      "U": {
+        "total": 44,
+        "withSummary": 42,
+        "withoutSummary": 2
+      },
+      "A": {
+        "total": 563,
+        "withSummary": 526,
+        "withoutSummary": 37
+      },
+      "B": {
+        "total": 608,
+        "withSummary": 574,
+        "withoutSummary": 34
+      },
+      "G": {
+        "total": 403,
+        "withSummary": 378,
+        "withoutSummary": 25
+      },
+      "P": {
+        "total": 609,
+        "withSummary": 546,
+        "withoutSummary": 63
+      },
+      "C": {
+        "total": 1067,
+        "withSummary": 982,
+        "withoutSummary": 85
+      },
+      "D": {
+        "total": 241,
+        "withSummary": 227,
+        "withoutSummary": 14
+      },
+      "E": {
+        "total": 266,
+        "withSummary": 245,
+        "withoutSummary": 21
+      },
+      "F": {
+        "total": 348,
+        "withSummary": 333,
+        "withoutSummary": 15
+      },
+      "H": {
+        "total": 334,
+        "withSummary": 297,
+        "withoutSummary": 37
+      },
+      "I": {
+        "total": 104,
+        "withSummary": 95,
+        "withoutSummary": 9
+      },
+      "J": {
+        "total": 139,
+        "withSummary": 135,
+        "withoutSummary": 4
+      },
+      "K": {
+        "total": 114,
+        "withSummary": 105,
+        "withoutSummary": 9
+      },
+      "L": {
+        "total": 384,
+        "withSummary": 357,
+        "withoutSummary": 27
+      },
+      "M": {
+        "total": 486,
+        "withSummary": 458,
+        "withoutSummary": 28
+      },
+      "N": {
+        "total": 186,
+        "withSummary": 177,
+        "withoutSummary": 9
+      },
+      "O": {
+        "total": 164,
+        "withSummary": 140,
+        "withoutSummary": 24
+      },
+      "Q": {
+        "total": 35,
+        "withSummary": 26,
+        "withoutSummary": 9
+      },
+      "R": {
+        "total": 390,
+        "withSummary": 364,
+        "withoutSummary": 26
+      },
+      "S": {
+        "total": 1056,
+        "withSummary": 982,
+        "withoutSummary": 74
+      },
+      "T": {
+        "total": 422,
+        "withSummary": 394,
+        "withoutSummary": 28
+      },
+      "V": {
+        "total": 108,
+        "withSummary": 102,
+        "withoutSummary": 6
+      },
+      "W": {
+        "total": 338,
+        "withSummary": 325,
+        "withoutSummary": 13
+      },
+      "X": {
+        "total": 5,
+        "withSummary": 3,
+        "withoutSummary": 2
+      },
+      "Y": {
+        "total": 84,
+        "withSummary": 81,
+        "withoutSummary": 3
+      },
+      "Z": {
+        "total": 25,
+        "withSummary": 24,
+        "withoutSummary": 1
+      }
+    },
+    "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+  },
+  "usageScope": "New recovery CLI calls only. Coordinating chat excluded and not measured here. Cached input and reasoning output are subsets of input and output totals.",
+  "accuracyScope": "Format and provenance checks are not a complete botanical accuracy review."
+}

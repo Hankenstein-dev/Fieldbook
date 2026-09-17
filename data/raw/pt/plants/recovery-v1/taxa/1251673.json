@@ -1,0 +1,38 @@
+{
+  "taxonId": 1251673,
+  "name": "Lathyrus articulatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:40.689136+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/08d739b990d1a56bc44b57e72b1cd0ebabcda26fa2fce8a00e7d357cdf367258.json",
+      "title": "Lathyrus clymenum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lathyrus articulatus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "joint-podded pea"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lathyrus+articulatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lathyrus+articulatus&limit=100",
+      "status": 200
+    }
+  ]
+}

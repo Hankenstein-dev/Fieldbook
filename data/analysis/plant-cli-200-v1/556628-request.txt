@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":556628,"scientificName":"Ilex latifolia","commonName":"Lusterleaf Holly","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Ilex latifolia","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Ilex latifolia (tarajo holly or tarajo; Japanese: {{nihongo|多羅葉|たらよう|tarayō}}, Chinese: 大叶冬青 dà yè dōngqīng) is a species of holly, native to southern Japan (Shizuoka Prefecture south to Kyūshū) and eastern and southern China (Jiangsu south to Fujian and west to Yunnan), growing in broadleaf forests at altitudes of 200–1,500 m."},{"id":"s1:p2","text":"It is a small to medium-sized evergreen tree growing to 10–20 m tall with a trunk up to 60 cm diameter. The bark is dark brown, with a rough surface. The leaves are alternate, broad lanceolate to ovate-oblong, 8–24 cm long and 4–8 cm broad (among the largest of any species of holly), glossy dark green above, paler below, with a thick, leathery texture and serrated (but not spiny) margins. The flowers are yellowish-green, with a four-lobed corolla, produced in late spring; it is dioecious, with male and female flowers on separate trees. The fruit is a drupe 7 mm diameter, ripening orange-red to dark red in winter, and containing four seeds; they are often produced in dense clusters on the stems."},{"id":"s1:p3","text":"Cultivation and uses\nIt is cultivated as an ornamental tree in parks and temple gardens. The leaves may be infused to make tea (\"bitter nail tea\" kǔ dīng chá)."}]}]}

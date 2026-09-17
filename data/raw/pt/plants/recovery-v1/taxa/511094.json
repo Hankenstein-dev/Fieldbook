@@ -1,0 +1,43 @@
+{
+  "taxonId": 511094,
+  "name": "Lutheria splendens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:35.636285+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8fe4041a33e4a25752332b6c310a1e78e7946567902c982a599f2e6b6a94caec.json",
+      "title": "Vriesea splendens",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/49c024a88a17873b9807256c81b9ade93f67e62ea5a0a393219ba9af4576b27d.json",
+      "title": "Vriesea splendens",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lutheria splendens"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Flaming Sword"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lutheria+splendens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lutheria+splendens&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "taxonId": 1192063,
+  "name": "Canistrum fosterianum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:38.831611+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Canistrum fosterianum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Canistrum fosterianum is a plant species in the genus Canistrum. This species is named for Mulford B. Foster. This species is endemic to Brazil.\n\n Cultivars \n Canistrum 'Big Emma'\n Canistrum 'Flare'\n × Canmea 'Blue Tags'\n × Canmea 'FDTroll'\n × Canmea 'Galaxy'\n × Canmea 'Inci'\n × Canmea 'Jaspe'\n × Canmea 'Majo'\n × Canmea 'Smokey'\n × Quesistrum 'Claudia'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/d1f687cc61e9b7e0b0e9e1e9de364071a4ce2a5172a4eec34e1c3ddc8387a3ed.json",
+      "sha256": "54b155e2abcda5610f19d99801371bf037762c82bc548c0fa8ffc13deb0be5a9",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1056859548",
+      "revisionId": 1056859548,
+      "credit": {
+        "title": "Canistrum fosterianum",
+        "url": "https://en.wikipedia.org/wiki/Canistrum_fosterianum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1056859548",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Canistrum fosterianum L.B.Sm.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Canistrum fosterianum is a plant species in the genus Canistrum. This species is named for Mulford B. Foster. This species is endemic to Brazil.\n\nCanistrum 'Big Emma' Canistrum 'Flare' × Canmea 'Blue Tags' × Canmea 'FDTroll' × Canmea 'Galaxy' × Canmea 'Inci' × Canmea 'Jaspe' × Canmea 'Majo' × Canmea 'Smokey' × Quesistrum 'Claudia'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165509100.json",
+      "sha256": "0d24fc655111f134ff2465adbf4611a71aa328bd3450e736fde387368b710fe9",
+      "url": "https://api.gbif.org/v1/species/165509100",
+      "credit": {
+        "title": "Canistrum fosterianum L.B.Sm.",
+        "url": "https://www.gbif.org/species/165509100",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Canistrum+fosterianum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Canistrum+fosterianum&limit=100",
+      "status": 200
+    }
+  ]
+}

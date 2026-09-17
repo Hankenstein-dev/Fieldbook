@@ -1,0 +1,39 @@
+{
+  "taxonId": 542501,
+  "name": "Siphocampylus giganteus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:48.822439+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Siphocampylus giganteus (Cav.) G.Don",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Colombia a Perú\n\nAndes\n\n2200 - 3600 msnm\n\nSe usa como juguete.\n\nSe usa como instrumento musical.\n\nLas hojas sirven para tratar la inflamación por golpes, tumores y el reumatismo.\n\nLa flor, en infusión, se usa para tratar el “chuchaqui”.\n\nLa flor, en infusión, se usa para tratar el dolor de hígado.\n\nLa flor se usa para tratar la sarna y los hongos del pie.\n\nLa corteza, en infusión, es utilizada para tratar la diarrea y la fiebre.\n\nEl tallo, sin médula, se utiliza como aventador, para soplar y avivar el fuego.\n\nEl tallo y las hojas contienen un látex de color blanco, el que por evaporación produce goma de mascar de gran calidad.\n\nEl tallo seco sirve como combustible.\n\nEl tallo se usa para entablillar animales enfermos.\n\nEl tallo inmaduro es usado en la construcción de cercas y viviendas.\n\nEl tallo hueco se usaba como tubo de bocina.\n\nEl tallo hueco se usa para elaborar cerbatanas (en especial lo usan los niños).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3168841.json",
+      "sha256": "c3197437ba3c05e452e1ffaa0297802796ef2cd199b401b702b9cec5fada6b9b",
+      "url": "https://api.gbif.org/v1/species/3168841",
+      "credit": {
+        "title": "Siphocampylus giganteus (Cav.) G.Don",
+        "url": "https://www.gbif.org/species/3168841",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Siphocampylus+giganteus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Siphocampylus+giganteus&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":79325,"scientificName":"Teesdalia nudicaulis","commonName":"Shepherd's Cress","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Teesdalia nudicaulis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=March 2024}}"},{"id":"s1:p2","text":"Teesdalia nudicaulis, or the common shepherd's-cress, is a species of flowering plant in the family Brassicaceae. It is native to Madeira, Morocco, and nearly all of Europe, but has gone locally extinct in Switzerland and Hungary. Additionally, it has been introduced to the east and west coasts of the United States and to southern Chile. An annual, it is found in meadows, fields, and roadsides, typically in anthropogenically disturbed soils."},{"id":"s1:p3","text":"{{Gallery\n|Teesdalia nudicaulis kz06.jpg|Seedling\n|Teesdalia nudicaulis 2019-03-30 8665.jpg|Rosette\n|Teesdalia nudicaulis kz13.jpg|Extreme close-up of flowerhead\n|Teesdalia nudicaulis sl72.jpg|Detail of flowers\n|Teesdalia nudicaulis kz2.jpg|Habit\n|20170409Teesdalia nudicaulis10.jpg|A grouping\n|Teesdalia nudicaulis sl145.jpg|Senescing by July 1st\n|Teesdalia nudicaulis sl142.jpg|Displaying pronounced zonation on a road verge\n|Teesdalia nudicaulis kz14.jpg|Going to seed\n|Teesdalia nudicaulis seeds tenu 001 php.jpg|Seeds\n}}"}]}]}

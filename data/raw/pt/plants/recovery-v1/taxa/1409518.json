@@ -1,0 +1,58 @@
+{
+  "taxonId": 1409518,
+  "name": "Carex oederi",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:44.191653+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Carex oederi",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Carex oederi''\n| imagem = Carex oederi — Flora Batava — Volume v14.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[monocotiledónea]]s\n| clado3 = \n| ordem = [[Cyperales]]\n| família = [[Cyperaceae]]\n| género = ''[[Carex]]''\n| espécie = '''''C. oederi'''''\n| binomial = ''Carex oederi''\n| binomial_autoridade = Retz.\n}}\nCarex oederi é uma espécie de planta com flor pertencente à família Cyperaceae. \n\nA autoridade científica da espécie é Retz., tendo sido publicada em Florae Scandinaviae prodromus: enumerans plantas Sveciae, Lapponiae, Finlandiae et Pomeraniae ac Daniae, Norvegiae, Holsatiae, Islandiae Groenlandiaeque 179. 1779.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Carex oederi subsp. pulchella - presente no Arquipélago dos Açores. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/5e9a2f7b9fcdd02245f0e1fa104a413a472ecfa20e60334f0e605df294603265.json",
+      "sha256": "ce3a229d6badc79c96c5c3929222555034c221457503b6fcbf8e84fd190c5040",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40861143",
+      "revisionId": 40861143,
+      "credit": {
+        "title": "Carex oederi",
+        "url": "https://pt.wikipedia.org/wiki/Carex_oederi",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40861143",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5e9a2f7b9fcdd02245f0e1fa104a413a472ecfa20e60334f0e605df294603265.json",
+      "title": "Carex viridula",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/71c31e9d57800779dcaba48b7f2eb41a676039feca0bbd6fd82cfdf6b8f6b359.json",
+      "title": "Carex viridula",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Carex oederi"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Carex+oederi&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Carex+oederi&limit=100",
+      "status": 200
+    }
+  ]
+}

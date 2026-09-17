@@ -1,0 +1,33 @@
+{
+  "taxonId": 1614993,
+  "name": "Brachypodium distachyon",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:44.537157+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ae1f7144c25f4e838f3d4ab4728dbe4758268cb66506faafe63b0514a877764b.json",
+      "title": "Brachypodium distachyon",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/ae1f7144c25f4e838f3d4ab4728dbe4758268cb66506faafe63b0514a877764b.json",
+      "title": "Brachypodium distachyon",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Brachypodium+distachyon&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Brachypodium+distachyon&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "taxonId": 884852,
+  "name": "Gazania × splendens",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:44:46.517287+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d5225ad4a352038e430cbda428276080f144d8fb600127a8b759f02e9af694aa.json",
+      "title": "Gazania rigens",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/91af633f458c4d4b4a7c61012eb888ec44f3adf8d19e2442dd28b87afdbe5f23.json",
+      "title": "Gazania rigens",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/d5225ad4a352038e430cbda428276080f144d8fb600127a8b759f02e9af694aa.json",
+      "title": "Gazania rigens",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gazania × splendens"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Garden Treasure Flower"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gazania+%C3%97+splendens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gazania+%C3%97+splendens&limit=100",
+      "status": 200
+    }
+  ]
+}

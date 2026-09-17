@@ -1,0 +1,74 @@
+{
+  "taxonId": 189240,
+  "name": "Andryala crithmifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:36.615658+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Andryala crithmifolia",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n| nome = ''Andryala crithmifolia''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Andryala]]''\n| espécie = '''''A. crithmifolia'''''\n| binomial = ''Andryala crithmifolia''\n| binomial_autoridade = Aiton\n\n|mapa = LocationMadeira.png\n|mapa_legenda = Distribuição geográfica\n}}\nAndryala crithmifolia é uma espécie de planta com flor pertencente à família Asteraceae. \n\nA autoridade científica da espécie é Aiton, tendo sido publicada em Hort. Kew. (W. Aiton) 3: 129. 1789.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nEncontra-se protegida por legislação portuguesa ou da Comunidade Europeia, nomeadamente pelo Anexo II e IV da Directiva Habitats e pelo Anexo I da Convenção sobre a Vida Selvagem e os Habitats Naturais na Europa.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/12bdc67398af25694c019d2a5f058ff29762943aa03c33ce7029815d2cb6c171.json",
+      "sha256": "3aef21c1c65f8a414925676999c5a418baf1abea27fadca54b2c1cb5525ba82b",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60031983",
+      "revisionId": 60031983,
+      "credit": {
+        "title": "Andryala crithmifolia",
+        "url": "https://pt.wikipedia.org/wiki/Andryala_crithmifolia",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60031983",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Andryala crithmifolia Aiton",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Andryala crithmifolia occurs only in the south coast of Madeira; the typical subspecies is known only from Pináculo (E of Funchal), subsp. coronopifolia only from a single population at Cabo Girão (W of Funchal) but probably had a wider distribution in the past, having also occurred W of Cabo Girão (at Pta. do Sol, compare type collection).\n\nBoth subspecies of Andryala crithmifolia are classified as Critically Endangered (CR) according to the IUCN Red List Categories and criteria because of their small populations and various kinds of human pressure on its sites of occurrence.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3105531.json",
+      "sha256": "f9544bd37298d2a1633bbd5733e68c7330f2ba54eaabd8bc8f17a3b089dfb96f",
+      "url": "https://api.gbif.org/v1/species/3105531",
+      "credit": {
+        "title": "Andryala crithmifolia Aiton",
+        "url": "https://www.gbif.org/species/3105531",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Andryala crithmifolia Aiton",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Both subspecies of Andryala crithmifolia are classified as Critically Endangered (CR) according to the IUCN Red List Categories and criteria because of their small populations and various kinds of human pressure on its sites of occurrence.\n\nAndryala crithmifolia occurs only in the south coast of Madeira; the typical subspecies is known only from Pináculo (E of Funchal), subsp. coronopifolia only from a single population at Cabo Girão (W of Funchal) but probably had a wider distribution in the past, having also occurred W of Cabo Girão (at Pta. do Sol, compare type collection).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/100314918.json",
+      "sha256": "ea2e8d8937dac3192232d9e3793f63e02cbb1d13a6817733bfe69332a137b61c",
+      "url": "https://api.gbif.org/v1/species/100314918",
+      "credit": {
+        "title": "Andryala crithmifolia Aiton",
+        "url": "https://www.gbif.org/species/100314918",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Andryala+crithmifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Andryala+crithmifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

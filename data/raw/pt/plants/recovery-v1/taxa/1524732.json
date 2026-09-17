@@ -1,0 +1,38 @@
+{
+  "taxonId": 1524732,
+  "name": "Campsis × tagliabueana",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:01.360447+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ea2bd867587a1e10a327a5fe9a025cb3e588a6be10e8b1c68f7950710a3480ae.json",
+      "title": "Campsis × tagliabuana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Campsis × tagliabueana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hybrid Trumpet Vine"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Campsis+%C3%97+tagliabueana&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Campsis+%C3%97+tagliabueana&limit=100",
+      "status": 200
+    }
+  ]
+}

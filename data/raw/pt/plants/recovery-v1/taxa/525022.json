@@ -1,0 +1,32 @@
+{
+  "taxonId": 525022,
+  "name": "Gloriosa modesta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:44.434087+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gloriosa modesta"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Yellow Flamelily"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gloriosa+modesta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gloriosa+modesta&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 372165,
+  "name": "Leucobryum juniperoideum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:55.936349+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e05682fe7215354004d79789d655ef83c10148d8fd0c9bd653c0ab3ffdd9f6ff.json",
+      "title": "Leucobryum juniperoideum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Leucobryum juniperoideum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Smaller White-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Leucobryum+juniperoideum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Leucobryum+juniperoideum&limit=100",
+      "status": 200
+    }
+  ]
+}

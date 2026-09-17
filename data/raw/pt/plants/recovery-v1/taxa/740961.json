@@ -1,0 +1,42 @@
+{
+  "taxonId": 740961,
+  "name": "Sedum nudum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:36.339569+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sedum nudum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Sedum nudum''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rosales]]\n| família = [[Crassulaceae]]\n| género = ''[[Sedum]]''\n| espécie = '''''S. nudum'''''\n| binomial = ''Sedum nudum''\n| binomial_autoridade = Aiton\n}}\nSedum nudum é uma espécie de planta com flor pertencente à família Crassulaceae. \n\nA autoridade científica da espécie é Aiton, tendo sido publicada em Hort. Kew., ed. 1, 2: 112. 1789.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, endémica do Arquipélago da Madeira.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/0a399cd301fb66742c425d9d5ee02f16d0c769f4e5be21aab7a0c60b34074eb8.json",
+      "sha256": "2d4f0e00d995be72885d433eadc02759b42970d5b3c780ca7c02c3cdfef051d6",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177988",
+      "revisionId": 62177988,
+      "credit": {
+        "title": "Sedum nudum",
+        "url": "https://pt.wikipedia.org/wiki/Sedum_nudum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177988",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+nudum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+nudum&limit=100",
+      "status": 200
+    }
+  ]
+}

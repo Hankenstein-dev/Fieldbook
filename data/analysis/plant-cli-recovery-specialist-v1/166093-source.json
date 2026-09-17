@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 166093,
+    "scientificName": "Panicum philadelphicum",
+    "commonName": "Philadelphia panic grass",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Panicum philadelphicum",
+        "language": "id",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Panicum philadelphicum adalah spesies tumbuhan yang tergolong ke dalam famili Poaceae. Spesies ini juga merupakan bagian dari ordo Poales. Spesies Panicum philadelphicum sendiri merupakan bagian dari genus Panicum. Nama ilmiah dari spesies ini pertama kali diterbitkan oleh Bernh. ex Trin.."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Referensi "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Panicum"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Panicum philadelphicum Bernh. ex Nees — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Panicum philadelphicum Bernh. ex Nees."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is E. Canada to Central & E. U.S.A. It is an annual and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/id/cf22e8ddf02850332a1f744aaf76851bbf7c85722991734eedc63a29ebc0f53b.json",
+      "sha256": "05bc8455d4e2a2a13da276305abd17703acdeb999c1c394ffdc798386143a1cc",
+      "url": "https://id.wikipedia.org/w/index.php?oldid=26158745",
+      "revisionId": 26158745,
+      "credit": {
+        "title": "Panicum philadelphicum",
+        "url": "https://id.wikipedia.org/wiki/Panicum_philadelphicum",
+        "revisionUrl": "https://id.wikipedia.org/w/index.php?oldid=26158745",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.id"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/166093-bf189b1e24c01ef8.json",
+      "sha256": "bf189b1e24c01ef89276f7ec29720aac7498380471c619c5e7a29f67be39317a",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30203667-2",
+      "credit": {
+        "title": "Panicum philadelphicum Bernh. ex Nees — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30203667-2",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 166093,
+    "name": "Panicum philadelphicum",
+    "language": "id,en",
+    "sourceTextTokens": 127,
+    "packetTokens": 295,
+    "standaloneInputTextTokens": 747,
+    "packetSha256": "4e62952d0204415e4243f62e9e79aea1f04eeea69e3d67983e886544c68dce0c"
+  }
+}

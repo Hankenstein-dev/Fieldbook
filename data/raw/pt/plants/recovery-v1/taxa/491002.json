@@ -1,0 +1,63 @@
+{
+  "taxonId": 491002,
+  "name": "Micromeria juliana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:55.895543+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Micromeria juliana",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Micromeria juliana''\n| imagem = Micromeria juliana kz1.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Lamiales]]\n| família = [[Lamiaceae]]\n| género = ''[[Micromeria]]''\n| espécie = '''''M. juliana'''''\n| binomial = ''Micromeria juliana''\n| binomial_autoridade = (L.) Rchb.\n}}\nMicromeria juliana é uma espécie de planta com flor pertencente à família Lamiaceae. \n\nA autoridade científica da espécie é (L.) Rchb., tendo sido publicada em Flora Germanica Excursoria 311. 1831.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é introduzida na região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d2c2b08673656243409e92bd5df1241022328b9442e0ac1a59cb0c44f412a021.json",
+      "sha256": "303b0008e5b0f1d7f49b42f6eab7f4efa0b1ac663efb4955f50bb2baf0ecda5d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=64309328",
+      "revisionId": 64309328,
+      "credit": {
+        "title": "Micromeria juliana",
+        "url": "https://pt.wikipedia.org/wiki/Micromeria_juliana",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=64309328",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Micromeria juliana (L.) Benth. ex Rchb.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Siddiqi in Jafri & El-Gadi, Fl. Libya 118: 108. 1985): Herb. Linn. No. 723.1 (LINN).\n\n\" Habitat in Hetruria, in Tyrrheni maris asperis, Florentiae. \" RCN: 4155.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7774615.json",
+      "sha256": "b5677cc9cd155db876d3e222c263ad594f3f81a1c0adc3a8e2c911c0afa0caa5",
+      "url": "https://api.gbif.org/v1/species/7774615",
+      "credit": {
+        "title": "Micromeria juliana (L.) Benth. ex Rchb.",
+        "url": "https://www.gbif.org/species/7774615",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Micromeria juliana"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Micromeria+juliana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Micromeria+juliana&limit=100",
+      "status": 200
+    }
+  ]
+}

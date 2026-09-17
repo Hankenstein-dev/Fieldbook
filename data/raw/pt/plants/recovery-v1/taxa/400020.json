@@ -1,0 +1,38 @@
+{
+  "taxonId": 400020,
+  "name": "Blechnum capense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:47.182075+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/31a29b636d7fc2c685b6fde27831541fb83c69e71440d41d648d1da8379b0a3a.json",
+      "title": "Blechnum cordatum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Blechnum capense"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cape Hard Fern"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Blechnum+capense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Blechnum+capense&limit=100",
+      "status": 200
+    }
+  ]
+}

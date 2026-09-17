@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":82848,"scientificName":"Rubia peregrina","commonName":"Wild Madder","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Rubia peregrina","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Rubia peregrina, the common wild madder, is a herbaceous perennial plant species belonging to the bedstraw and coffee family Rubiaceae."},{"id":"s1:p2","text":"Etymology\nThe genus name Rubia derives from the Latin meaning \"red\", as the roots of some species (mainly Rubia tinctorum) have been used since ancient times as a vegetable red dye. The specific epithet is the Latin adjective meaning \"foreign, alien, exotic, strange.\""},{"id":"s1:p3","text":"Description\nThe stem is woody, hairless, square and climbing and reaches on average {{convert|50|-|250|cm}} long. The evergreen leaves are sessile, glossy, leathery, oval-lanceolate and toothed on the margins. They are arranged in whorls, usually with five or more leaves radiating from a single node. The small flowers have five petals and are pale green-yellowish, about 5–7 mm in diameter, arranged at the top of long stalks. The flowering period extends from April through June. The hermaphroditic flowers are pollinated by insects (entomogamy). The fruits are fleshy green berries, black when ripe, about {{convert|5|mm|abbr=on}} in diameter."},{"id":"s1:p4","text":"Distribution\nIt is mainly present in Mediterranean Europe (Portugal, Spain, France, Italy, Greece and former Yugoslavia), in Great Britain and in North Africa."},{"id":"s1:p5","text":"Habitat\nThis stress resistant weed is typical of Mediterranean scrub. It grows in thickets, bushes, hedges, stony grounds and along the roads and paths. It prefers dry soils, at an altitude of {{convert|0|-|1000|m}} above sea level."},{"id":"s1:p6","text":" Synonyms \nRubia anglica Huds. (1762)\nRubia angustifolia L. (1767)\nRubia lucida L. (1767)\nRubia bocconii Petagna (1787)\nRubia longifolia Poir.\nRubia splendens Hoffmanns. & Link (1824)\nRubia requienii Duby (1830)\nRubia dalmatica Scheele (1844)\nRubia angustifolia var. requienii (Duby) Nyman (1879)\nRubia peregrina var. dalmatica (Scheele) Nyman (1879)\nRubia peregrina var. lucida (L.) Nyman (1879)\nRubia peregrina var. splendens (Hoffmanns. & Link) Nyman (1879)\nRubia erratica Bubani (1899)\nRubia reiseri Halácsy ex Hayek (1930)\nRubia peregrina subsp. longifolia (Poir.) O.Bolòs (1969)\nRubia peregrina var. requienii (Duby) Cardona (1974)\nRubia peregrina subsp. requienii (Duby) Cardona & Sierra (1980)\nRubia agostinhoi Dans. et Silva\nRubia peregrina subsp. agostinhoi (Dans. et Silva) Valdés et G.López"}]}]}

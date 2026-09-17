@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 553429,
+    "scientificName": "Lampranthus bicolor",
+    "commonName": "Twocolour Brightfig",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Lampranthus bicolor",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Lampranthus bicolor, the bicoloured lampranthus, is a species of flowering plant in the family Aizoaceae, native to the southwestern Cape Provinces of South Africa. A spreading succulent reaching {{cvt|30|cm}}, it prefers to grow in sandy areas."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Lampranthus bicolor (L.) N.E.Br.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "(Klak 543; trnL - F AJ 439042, ITS AJ 438250)"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Lectotype (Hartmann, Ill. Handb. Succ. Pl., Aizoaceae F-Z: 79. 2001): [icon] \" Mesembryanthemum tenuifolium fruticescens, flore croceo \" in Dillenius, Hort. Eltham. 2: 267, t. 202, f. 258. 1732."
+          },
+          {
+            "id": "s2:p3",
+            "text": "\" Habitat in Africa. \" RCN: 3698."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/52e86f629731ca954b0454c2388b1af2bd6a2f4689ad184451be192f77562cb4.json",
+      "sha256": "9930e9088f8d4bbf96729e67d5dac9422b1eeefa85bf25406c464cb0518d764a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1176829519",
+      "revisionId": 1176829519,
+      "credit": {
+        "title": "Lampranthus bicolor",
+        "url": "https://en.wikipedia.org/wiki/Lampranthus_bicolor",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1176829519",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7941647.json",
+      "sha256": "3b98a74f4a69c3e07901bc3fad44cfc8850eef8c17ce58bb0899af7c7a1f5ab9",
+      "url": "https://api.gbif.org/v1/species/7941647",
+      "credit": {
+        "title": "Lampranthus bicolor (L.) N.E.Br.",
+        "url": "https://www.gbif.org/species/7941647",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 553429,
+    "name": "Lampranthus bicolor",
+    "language": "en,unspecified",
+    "sourceTextTokens": 175,
+    "packetTokens": 330,
+    "standaloneInputTextTokens": 782,
+    "packetSha256": "3a673c47f154f9a3ad608b38b7b09496bdec3b3b4cb35ce85805975c1e707dcb"
+  }
+}

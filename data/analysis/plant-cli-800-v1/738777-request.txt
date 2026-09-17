@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":738777,"scientificName":"Veronica elliptica","commonName":"Shore Hebe","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Veronica elliptica","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Veronica elliptica, synonym Hebe elliptica, is a plant of the family Plantaginaceae. It is native to New Zealand (including the Antipodean Islands and the Chatham Islands), Patagonia and the Falkland Islands. It is an evergreen, bushy shrub of 1 m or more in height, with green, oval leaves, 2–4 cm long. Flowers are white to pale mauve.{{citation needed|date=October 2022}}"},{"id":"s1:p2","text":"Branches from plants of Veronica elliptica on Disappointment Island, Auckland Islands, New Zealand were used by the survivors of the shipwreck of the Dundonald to build a coracle and oars which they eventually used to successfully reach Auckland Island."}]}]}

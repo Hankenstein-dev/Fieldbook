@@ -1,0 +1,77 @@
+{
+  "taxonId": 423654,
+  "name": "Miltonia flavescens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:03.368803+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Miltonia flavescens",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Miltonia flavescens, the yellowish miltonia, is a species of orchid occurring in southern Brazil, northeastern Argentina, and Paraguay, and has been reported from eastern Peru.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/bb83f1e588c750c84305eb656f980d2f0090525feed5e58ea1aeb4445d09abee.json",
+      "sha256": "80be81d9d00af2efa5cecfb2ec18f910109c3495f3c5d210605df387434ab20a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314670969",
+      "revisionId": 1314670969,
+      "credit": {
+        "title": "Miltonia flavescens",
+        "url": "https://en.wikipedia.org/wiki/Miltonia_flavescens",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314670969",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Miltonia flavescens",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n| nome = ''Miltonia flavescens''\n| cor =lightgreen \n| imagem = Miltonia flavescens3.jpg\n| domínio = [[Eukaryota]]\n| reino = [[Plantae]]\n| divisão = [[Magnoliophyta]]\n| classe = [[Liliopsida]]\n| ordem = [[Asparagales]]\n| família = [[Orchidaceae]]\n| género = '''''Miltonia'''''\n| género_autoridade = [[Lindl.]] [[1837]]\n| subdivisão_nome = Espécie\n}}\nA Miltonia flavescens é uma espécie botânica de orquídeas epífitas provenientes do Brasil, do norte da Argentina e do Paraguai.\n\n Etimologia \n\nO nome do gênero - Miltonia - foi batizado em homenagem ao inglês, colecionador e jardineiro de orquídeas, Lord Fitzwilliam, visconde de Milton.\n\n Descrição morfológica \n\nEsta planta tem duas folhas compridas de 30 a 35 cm de comprimento e 2,5 a 3 cm de largura, que nascem de pseudobulbos elípticos compridos e achatados de 5 a 12 cm de comprimento.\n\nA haste floral nasce da base do rizoma e contém de 7 a 10 flores de cor creme com pintinhas marrons.\n\n Fitoquímica e atividade farmacológica \n\nA espécie se caracteriza pela presença de flavonoides, como a hortensina e a pectolinarina, inclusive em suas flores, o que confere a coloração amarela típica de seus verticilos florais. A hortensina isolada de M. flavescens monstrou atividade contra células de câncer de ovário humano.\n\n Habitat \n\nCresce sobre grandes árvores da selva, preferentemente com luz abundante.\n\n Cultivo \n\nEsta planta é fácil de cultivar com tutores. O substrato deve favorecer a drenagem, porque as raízes necessitam de aeração. É conveniente cultivar em troncos ou cascas de madeira ou sobre galhos. Não se deve permitir que o substrato seque totalmente.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/bb83f1e588c750c84305eb656f980d2f0090525feed5e58ea1aeb4445d09abee.json",
+      "sha256": "23f5dd2e26a8164360574b90df101d127f74cc6ecc23dc9754d6335efe08b25a",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=69049627",
+      "revisionId": 69049627,
+      "credit": {
+        "title": "Miltonia flavescens",
+        "url": "https://pt.wikipedia.org/wiki/Miltonia_flavescens",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=69049627",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Miltonia flavescens (Lindl.) Lindl.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Miltonia flavescens, the yellowish miltonia, is a species of orchid occurring in southern Brazil, northeastern Argentina, and Paraguay, and has been reported from eastern Peru.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165705598.json",
+      "sha256": "4c7a9f35ebf58e7f6faf50f2be2326b89882702f178c5e320d599c749be6836f",
+      "url": "https://api.gbif.org/v1/species/165705598",
+      "credit": {
+        "title": "Miltonia flavescens (Lindl.) Lindl.",
+        "url": "https://www.gbif.org/species/165705598",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Miltonia+flavescens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Miltonia+flavescens&limit=100",
+      "status": 200
+    }
+  ]
+}

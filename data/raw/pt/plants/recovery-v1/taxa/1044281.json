@@ -1,0 +1,32 @@
+{
+  "taxonId": 1044281,
+  "name": "Micromeria maderensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:40.620910+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Micromeria maderensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Madeiran Whitweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Micromeria+maderensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Micromeria+maderensis&limit=100",
+      "status": 200
+    }
+  ]
+}

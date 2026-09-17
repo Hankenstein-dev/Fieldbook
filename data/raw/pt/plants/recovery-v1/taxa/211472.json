@@ -1,0 +1,47 @@
+{
+  "taxonId": 211472,
+  "name": "Scilla monophyllos",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:47.588981+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Scilla monophyllos",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|date=March 2025}}\n\nScilla monophyllos, the single-leaved squill, is a species of flowering plant in the family Asparagaceae. It is native to Morocco, Portugal, and western Spain. As its scientific and common names suggest, it typically has only one leaf.\n{{Gallery\n|Scilla monophyllos kz09.jpg|Emerging leaf tip\n|Scilla monophyllos kz10.jpg|An individual\n|Scila monophyllos 1.JPG|Clump\n|Scilla monophyllos kz07.jpg|Fruit\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/e1a463ff1e47828d58f4f7dec5b3c4a6a8c6f15c00e1ec469c349b001727a4e9.json",
+      "sha256": "c8fc122108080a08ca026ced79b0dcc459a1d96bdaa61b34970a00de35e40cd4",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1279322147",
+      "revisionId": 1279322147,
+      "credit": {
+        "title": "Scilla monophyllos",
+        "url": "https://en.wikipedia.org/wiki/Scilla_monophyllos",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1279322147",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Scilla monophyllos"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Scilla+monophyllos&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Scilla+monophyllos&limit=100",
+      "status": 200
+    }
+  ]
+}

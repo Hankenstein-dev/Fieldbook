@@ -1,0 +1,346 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-13T17:33:29.571341+00:00",
+  "completedAt": "2026-09-13T17:34:17.688913+00:00",
+  "elapsedSeconds": 48.1174528670017,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0133",
+  "taxonIds": [
+    1588567,
+    190853,
+    58334,
+    55209,
+    205800,
+    180228,
+    64114,
+    468152,
+    209444,
+    1521906
+  ],
+  "usage": {
+    "input_tokens": 16302,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2110,
+    "reasoning_output_tokens": 1034
+  },
+  "requestTextTokens": 8893,
+  "savedOutputTokens": 1070,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1588567,
+      "name": "Encephalartos afer",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Cycad native to South Africa, where it is confined to the Eastern Cape. Its mostly underground stem bears dark green, ruffled-looking leaves, while female cones produce glossy scarlet seeds.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 190853,
+      "name": "Convolvulus fernandesii",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Plant endemic to mainland Portugal, restricted to south-facing limestone coastal cliffs between Sesimbra and Cape Espichel. In the 2020 mainland assessment, only about 500 mature plants and two locations were estimated, and it was assessed as Endangered following recent declines in habitat quality and plant numbers.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s2:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 58334,
+      "name": "Nicotiana glauca",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering shrub or small tree native to South America and introduced widely elsewhere. It has smooth, bluish-green, rubbery leaves and yellow tubular flowers; every part is potentially poisonous to people and livestock.",
+        "humanEdibility": "no",
+        "edibilityNote": "Poisonous cooked or raw; ingesting the leaves can be fatal because they contain high levels of anabasine and nicotine.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": [
+            "s1:p5",
+            "s1:p12"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 55209,
+      "name": "Taxus brevifolia",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Small conifer native to the Pacific Northwest of North America, often becoming shrubby in less moist settings. It grows extremely slowly, commonly develops a hollow trunk, and bears bright red, berry-like cups around poisonous seeds; the juicy cup itself seems edible.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The juicy red cup around the seed seems edible, but the seed, leaves and bark are extremely poisonous and should not be consumed.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p4",
+            "s1:p16",
+            "s1:p20"
+          ],
+          "humanEdibility": [
+            "s1:p20"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 205800,
+      "name": "Opuntia streptacantha",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Shrubby cactus occurring in the temperate, dry parts of central Mexico. It can form closed stands and has unusually large pads; its yellow flowers mature into reddish, sweet-and-sour fruit used for drinks, preserves, sweets and spirits.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The fruit is prepared as fresh juice, preserves, sweets, crystallized fruit, dried fruit, wine and spirits.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p9"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p9"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 180228,
+      "name": "Butia capitata",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Palm native to Minas Gerais and Goiás in Brazil. Its inward-arching, feather-like leaves crown a thick trunk, and its aromatic orange fruit is locally gathered from the wild for juice, marmalade, ice cream and liquor.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Wild-harvested fruit is made into juice, liquor, marmalade and ice cream; oil can also be extracted from the nuts.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p7",
+            "s1:p8"
+          ],
+          "humanEdibility": [
+            "s1:p8",
+            "s1:p9"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 64114,
+      "name": "Ageratina adenophora",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial flowering shrub native to Mexico and invasive in farmland and bushland worldwide. It has creamy-white flower clusters and seeds with feathery parachutes carried by wind; stems can also root when they touch soil.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p6",
+            "s1:p8",
+            "s1:p9"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 468152,
+      "name": "Sempervivum calcareum",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Evergreen succulent perennial native to the southern Alps in Europe. It forms rosettes of thick, water-storing leaves, usually green with reddish-purple tips, and reproduces both by budding and by flowering once before dying.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 209444,
+      "name": "Rosa agrestis",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Wild rose native to Europe, found mostly in southern Europe and occasionally as far as the Caucasus. It resembles sweet briar but has smaller leaves, white-to-blush petals and very little scent from its flowers or leaves.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-13T17:33:29.571341+00:00",
+      "completedAt": "2026-09-13T17:34:17.688913+00:00",
+      "elapsedSeconds": 48.1174528670017,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1521906,
+      "name": "Convolvulus althaeoides",
+      "batchId": "batch-0133",
+      "usage": null,
+      "usageRef": "batch-0133-result.json",
+      "rawOutputFile": "batch-0133-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Climbing perennial flowering plant native to the Mediterranean Basin and introduced to some similar climates. It bears solitary, funnel-shaped pink flowers on long stalks and deeply divided leaves with narrow, finger-like lobes.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

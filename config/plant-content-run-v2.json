@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "method": "Subscription subagents; no separate model API calls",
+  "count": 250,
+  "batchSize": 25,
+  "seed": 20260913,
+  "eligibleRank": "species",
+  "eligibleStatus": "taxon_matched_text",
+  "excludeSample": "data/analysis/plant-content-v1/sample-manifest.json",
+  "census": "data/analysis/plant-content-v1/tokens-by-taxon.csv",
+  "prompt": "config/plant-content-prompt-v2.txt",
+  "output": "data/analysis/plant-content-v2",
+  "encoding": "o200k_base"
+}

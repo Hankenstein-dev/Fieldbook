@@ -1,0 +1,28 @@
+{
+  "taxonId": 1511486,
+  "name": "Rosa",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:47:56.684609+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/75f9577a1637cf7a30d4fc7c7839d5c71b626946b0f784ee92da0f1ae4e707df.json",
+      "title": "Rosa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rosa&limit=100",
+      "status": 200
+    }
+  ]
+}

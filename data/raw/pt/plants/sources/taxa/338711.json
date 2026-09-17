@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 338711,
+  "scientificName": "Erica andevalensis",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 338711,
+    "scientificName": "Erica andevalensis",
+    "commonName": "Pyrite Heath",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171060142/medium.jpeg",
+      "attribution": "(c) Nuno Veríssimo P., some rights reserved (CC BY-NC-SA), uploaded by Nuno Veríssimo P.",
+      "license": "cc-by-nc-sa",
+      "sourceUrl": "https://www.inaturalist.org/photos/171060142"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 338711,
+      "count": 26,
+      "name": "Erica andevalensis",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 711824,
+      "descendant_obs_count": 26,
+      "direct_obs_count": 26
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "54866d39d9e317ba862c0102cae4c4ea5178d29dc23cc6d67f1dc5ff861e3050"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Erica andevalensis",
+      "title": "Erica andevalensis",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/69614388b71919d1cb31c349dd259d89606821618e4c8d9392d1882bb39c2b5b.json",
+      "url": "https://en.wikipedia.org/wiki/Erica_andevalensis",
+      "revisionId": 1329731644,
+      "contentSha256": "53a2499d2e51d7ca56e483a7b11e9730e3eb12e9eeb4ad661b68b98cb2e908da"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Erica andevalensis",
+      "title": "Erica andevalensis",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/69614388b71919d1cb31c349dd259d89606821618e4c8d9392d1882bb39c2b5b.json",
+      "url": "https://pt.wikipedia.org/wiki/Erica_andevalensis",
+      "revisionId": 60951990,
+      "contentSha256": "c86d44448f38d3f7e82a1b3449f1a28a7ca0ced8ed0b81baa35b069ce402ab8b"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868564,
+      "canonicalName": "Erica andevalensis",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868564",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868564.json",
+      "recordSha256": "ba6d6905645e806acc4d2ddd693420c827aadf598d86d32d0984f6724cc671f2"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

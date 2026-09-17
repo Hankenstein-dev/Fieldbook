@@ -1,0 +1,38 @@
+{
+  "taxonId": 773014,
+  "name": "Sporobolus aculeatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:56.943722+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/185061db74611e6fb12539e10cffb0fedc1accc8cc9e65a0b6d4b7676c6f2bd6.json",
+      "title": "Sporobolus aculeatus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sporobolus aculeatus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sharp-leaved Grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sporobolus+aculeatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sporobolus+aculeatus&limit=100",
+      "status": 200
+    }
+  ]
+}

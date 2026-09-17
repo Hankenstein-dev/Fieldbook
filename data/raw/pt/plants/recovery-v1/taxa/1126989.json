@@ -1,0 +1,38 @@
+{
+  "taxonId": 1126989,
+  "name": "Phalaenopsis amabilis",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:46:01.171159+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/6ad10e3a04b2f87ae72ace5fd75b0e638aaf7ef2419b7ad6ec4aba0d81fe74d4.json",
+      "title": "Phalaenopsis amabilis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Phalaenopsis amabilis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Phalaenopsis amabilis complex"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Phalaenopsis+amabilis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Phalaenopsis+amabilis&limit=100",
+      "status": 200
+    }
+  ]
+}

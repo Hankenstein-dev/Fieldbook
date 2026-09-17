@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":208800,"scientificName":"Lagarosiphon major","commonName":"Curly Waterweed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lagarosiphon major","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lagarosiphon major is a monocotic aquatic plant native to Southern Africa. Common names include African elodea, curly waterweed, oxygen weed and South African oxygen weed. It is used as freshwater aquarium plant."},{"id":"s1:p2","text":"It is an invasive plant in some countries. In New Zealand it is listed on the National Pest Plant Accord, and it is classed as a noxious weed in the United States. Lagarosiphon major was added to the European Union's \nList of Invasive Alien Species of Union concern on 3 August 2016, meaning that – amongst other things – it is illegal to sell it anywhere in the European Union or to dump it in the environment."},{"id":"s1:p3","text":"Distribution\nIreland: Co.Galway in parts of upper Lough Corrib."}]}]}

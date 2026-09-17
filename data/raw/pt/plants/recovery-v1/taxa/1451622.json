@@ -1,0 +1,38 @@
+{
+  "taxonId": 1451622,
+  "name": "Narcissus nobilis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:38.842024+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/40654ef3079e37e291199a9c28e5b0c8b7ea6e800a17ad8cba0433f481a10842.json",
+      "title": "Narcissus pseudonarcissus subsp. nobilis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Narcissus nobilis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Large-flowered Daffodil"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Narcissus+nobilis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Narcissus+nobilis&limit=100",
+      "status": 200
+    }
+  ]
+}

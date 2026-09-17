@@ -1,0 +1,58 @@
+{
+  "taxonId": 881691,
+  "name": "Convolvulus humilis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:54.436719+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Convolvulus humilis",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Convolvulus humilis''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Polemoniales]]\n| família = [[Convolvulaceae]]\n| género = ''[[Convolvulus]]''\n| espécie = '''''C. humilis'''''\n| binomial = ''Convolvulus humilis''\n| binomial_autoridade = Jacq.\n}}\nConvolvulus humilis é uma espécie de planta com flor pertencente à família Convolvulaceae. \n\nA autoridade científica da espécie é Jacq., tendo sido publicada em Coll. iv. 209. t. 32.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/470f393c06822c9db676853750fea6e8f73e696ece54fb0f40e5d878a008e05f.json",
+      "sha256": "64312db1864502928ed554651903e280fbd09e0b35b3021cdd0fc097e4e0cfb1",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54737468",
+      "revisionId": 54737468,
+      "credit": {
+        "title": "Convolvulus humilis",
+        "url": "https://pt.wikipedia.org/wiki/Convolvulus_humilis",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54737468",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Convolvulus humilis Jacq.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Distribution. Nearly circum-mediterranean but apparently absent from France, Turkey and the Balkans: Spain (Rivas s. n. [31 / 4 / 1946]); Portugal; Italy (Todaro 920); Sicily (Todaro); Morocco (Jahandiez 244, Hooker s. n. [5 / 1871]); Algeria (Balansa 357, Cosson s. n. [22 / 5 / 1852]); Libya (Pampanini & Pichi-Sermolli 6263); Palestine (Dinsmore 3721); Jordan (Abu Laila et al. 2005 JOR- 10 - 1); Syria: Jebel Druze (Gombault 5961); Cyprus (Syngrassides 1195).\n\nDescription. Annual herb, commonly branched at the base with decumbent or ascending stems 5 - 25 cm long, vegetative parts glabrescent or shortly pubescent. Leaves 0.5 - 5 x 0.3 - 1.5 cm, oblong-oblanceolate, apex obtuse to rounded, margin entire, basal leaves gradually narrowed into a long petiole-like base up to 2 cm in length (so appearing spathulate), stem leaves abruptly narrowed at base, sessile and sometimes clasping and auriculate. Flowers solitary, subsessile in the axils of the upper leaves, becoming crowded towards the apex; peduncles and pedicels not clearly differentiated, 0 - 1 mm long; bracteoles filiform, minute; sepals 2.5 - 3.5 x 1.5 - 3 mm, narrowly elliptic to obovate, acute to rounded, thinly pilose; corolla 1 - 1.1 cm long, blue with a pale tube, distinctly lobed with triangular lobes, midpetaline bands pubescent, darkish; ovary long-pilose, style divided 1 - 1.5 mm above base, glabrous, stigmas 2 mm. Capsule pilose with stiff coarse hairs; seeds strongly tuberculate. [Sa'ad 1967: 183; Feinbrun-Dothan 1978 (plate 59); Silvestre 2012: 272; Pignatti 1982: 388; Strid and Strid 2009: 398 - 399 (plate)]",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7834409.json",
+      "sha256": "acdfccc54cfec37261d89364a4cc61b2df42cc4cd7a9a804256ca0a4de1be3d8",
+      "url": "https://api.gbif.org/v1/species/7834409",
+      "credit": {
+        "title": "Convolvulus humilis Jacq.",
+        "url": "https://www.gbif.org/species/7834409",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Convolvulus+humilis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Convolvulus+humilis&limit=100",
+      "status": 200
+    }
+  ]
+}

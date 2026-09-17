@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 1095244,
+  "scientificName": "Carex durieui",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 1095244,
+    "scientificName": "Carex durieui",
+    "commonName": "Carex durieui",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115104824/medium.jpeg",
+      "attribution": "(c) Braniego Asturcones, some rights reserved (CC BY-NC), uploaded by Braniego Asturcones",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/115104824"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 1095244,
+      "count": 10,
+      "name": "Carex durieui",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1120852,
+      "descendant_obs_count": 10,
+      "direct_obs_count": 10
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "f52b7c64bf630b851c4e57f611a684a6f2b35d56ecfd7c051881ca9c93cfb5fe"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Carex durieui",
+      "title": "Carex durieui",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/f220bc92a8e7a1c1f2dc019443f90205595d6d53c3c00bdd4f5e003169c61796.json",
+      "url": "https://en.wikipedia.org/wiki/Carex_durieui",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Carex durieui",
+      "title": "Carex durieui",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/f220bc92a8e7a1c1f2dc019443f90205595d6d53c3c00bdd4f5e003169c61796.json",
+      "url": "https://pt.wikipedia.org/wiki/Carex_durieui",
+      "revisionId": 40836401,
+      "contentSha256": "6885b745d155264591112afc0a8a2d872b67a785b7f6a06d09fe3758b89491ef"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868430,
+      "canonicalName": "Carex durieui",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868430",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868430.json",
+      "recordSha256": "8d45411d0a13050b10c400a09cd1247a4f855c9d61f74702eb96c4af1579f68a"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 190991,
+  "name": "Crambe fruticosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:37.438199+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Crambe fruticosa",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Crambe fruticosa''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Capparales]]\n| família = [[Brassicaceae]]\n| género = ''[[Crambe]]''\n| espécie = '''''C. fruticosa'''''\n| binomial = ''Crambe fruticosa''\n| binomial_autoridade = L. f.\n}}\nCrambe fruticosa é uma espécie de planta com flor pertencente à família Brassicaceae. \n\nA autoridade científica da espécie é L. f., tendo sido publicada em Supplementum Plantarum 299. 1781 (1782).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Crambe fruticosa subsp. fruticosa - presente no Arquipélago da Madeira. Em termos de naturalidade é endémica da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/4aab76210356427bc0f2a52de7c094c64a7f56be2f94d7f946a881ac9d70f433.json",
+      "sha256": "8a4821dade418a7aedc6f59c47f110b4007b730d8dfcc6a63c93d97a37fb630b",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54744250",
+      "revisionId": 54744250,
+      "credit": {
+        "title": "Crambe fruticosa",
+        "url": "https://pt.wikipedia.org/wiki/Crambe_fruticosa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54744250",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Crambe+fruticosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Crambe+fruticosa&limit=100",
+      "status": 200
+    }
+  ]
+}

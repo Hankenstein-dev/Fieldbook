@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 509929,
+  "scientificName": "Saxifraga dichotoma",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 509929,
+    "scientificName": "Saxifraga dichotoma",
+    "commonName": "Saxifraga dichotoma",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263086403/medium.jpg",
+      "attribution": "(c) Shiqi Zhou, some rights reserved (CC BY-NC), uploaded by Shiqi Zhou",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/263086403"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 509929,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        71289,
+        48386,
+        1424214,
+        55434,
+        942786,
+        1410943,
+        509929
+      ],
+      "is_active": true,
+      "name": "Saxifraga dichotoma",
+      "parent_id": 1410943,
+      "ancestry": "48460/47126/211194/47125/47124/71289/48386/1424214/55434/942786/1410943",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 263086403,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Shiqi Zhou, some rights reserved (CC BY-NC), uploaded by Shiqi Zhou",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263086403/square.jpg",
+        "original_dimensions": {
+          "height": 1365,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Shiqi Zhou",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263086403/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263086403/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 152,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "conservation_status": {
+        "id": 163650,
+        "source_id": null,
+        "user_id": 3042,
+        "authority": "Lista Vermelha da Flora Vascular de Portugal Continental",
+        "status": "vu",
+        "status_name": "Vulnerável - D1 (VU)",
+        "geoprivacy": "obscured",
+        "iucn": 30,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "establishment_means": {
+        "id": 10113039,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=84&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:54.081248+00:00",
+    "retainedFrom": "data/models/http/251b063fb09e95c371256d1e62df83678ed89203cb9997ec4c8437f2c3d17948.json",
+    "recordSha256": "c2c4b7492891982c84364af3f104a4f80a10128f0c55c4fff43928b17ab6a217"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Saxifraga dichotoma",
+      "title": "Saxifraga dichotoma",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/4c8f706cd3144cbf138e61e857f7082323df3bc1fd78e2e36d7b9f6a99fc8a0a.json",
+      "url": "https://en.wikipedia.org/wiki/Saxifraga_dichotoma",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Saxifraga dichotoma",
+      "title": "Saxifraga dichotoma",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/4c8f706cd3144cbf138e61e857f7082323df3bc1fd78e2e36d7b9f6a99fc8a0a.json",
+      "url": "https://pt.wikipedia.org/wiki/Saxifraga_dichotoma",
+      "revisionId": 55220923,
+      "contentSha256": "a00371fba6e3e9ce884a91cd2fec52081fbfdbbb63a12d1f67b6da1a2257ca72"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868656,
+      "canonicalName": "Saxifraga dichotoma",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868656",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868656.json",
+      "recordSha256": "8befaa98e8b71c456f23ed5c297a1716c67533a870646c06eab39c5467d8e11d"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

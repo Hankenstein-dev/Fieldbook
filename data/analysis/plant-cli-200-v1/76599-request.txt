@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":76599,"scientificName":"Dactyloctenium aegyptium","commonName":"Durban Crowfoot","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Dactyloctenium aegyptium","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Dactyloctenium aegyptium, or Egyptian crowfoot grass is a member of the family Poaceae native to Africa and Asia. The plant mostly grows in heavy soils at damp sites."},{"id":"s1:p2","text":"Description "},{"id":"s1:p3","text":"This grass creeps and has a straight shoot which are usually about 30 centimeters tall."},{"id":"s1:p4","text":"Food\nDactyloctenium aegyptium is still a traditional food plant used as a famine food in Africa, this little-known grain has potential to improve nutrition, boost food security, foster rural development and support sustainable landcare.{{Citation needed|date=March 2010}}"},{"id":"s1:p5","text":"Invasive species\nIn other areas of the world, including parts of the United States, the grass is considered a weed and invasive species."}]}]}

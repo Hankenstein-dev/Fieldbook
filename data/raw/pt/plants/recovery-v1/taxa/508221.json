@@ -1,0 +1,43 @@
+{
+  "taxonId": 508221,
+  "name": "Callianthe megapotamica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:35.218903+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0a506c9175fff77393aabdde80961c084d1e161745d206b93d56b3982dbe6bb1.json",
+      "title": "Abutilon megapotamicum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/8c673542ba43b148d9998ed8e6cf65b7c6fe210ebad9b6738fa9cea32d34be04.json",
+      "title": "Abutilon megapotamicum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Callianthe megapotamica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Trailing abutilon"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Callianthe+megapotamica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Callianthe+megapotamica&limit=100",
+      "status": 200
+    }
+  ]
+}

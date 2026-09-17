@@ -1,0 +1,54 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "count": 3,
+  "taxonIds": [
+    430959,
+    460193,
+    1125546
+  ],
+  "batchSize": 10,
+  "timeoutSeconds": 300,
+  "promptSha256": "f8783051f00b663918ee82690a2413f4356dc634c28889ed58bc3f316caa3032",
+  "preparedAt": "2026-09-15T07:40:45.237894+00:00",
+  "purpose": "Recover actual blank cards and explicitly selected source-enriched short cards; all supplied ranks",
+  "taxa": [
+    {
+      "taxonId": 430959,
+      "name": "Dombeya cacuminum",
+      "language": "en",
+      "sourceTextTokens": 1590,
+      "packetTokens": 1713,
+      "standaloneInputTextTokens": 2165,
+      "packetSha256": "bb8b36d0dcbaa2ba8cbf2cfb95ddbc09e24bb0ffff5fcda49f18c463a4940d37"
+    },
+    {
+      "taxonId": 460193,
+      "name": "Potentilla hebiichigo",
+      "language": "en",
+      "sourceTextTokens": 570,
+      "packetTokens": 699,
+      "standaloneInputTextTokens": 1151,
+      "packetSha256": "bf2b712dd9a0cf3a7fbe890dd993ef19a603b69c439ea93f924bf021c9b2a01b"
+    },
+    {
+      "taxonId": 1125546,
+      "name": "Fragaria hayatae",
+      "language": "en",
+      "sourceTextTokens": 473,
+      "packetTokens": 579,
+      "standaloneInputTextTokens": 1031,
+      "packetSha256": "f6d436b814512cefb866936a80b1068223e7766008cb20e46660542c121449e1"
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-0001",
+      "taxonIds": [
+        430959,
+        460193,
+        1125546
+      ]
+    }
+  ]
+}

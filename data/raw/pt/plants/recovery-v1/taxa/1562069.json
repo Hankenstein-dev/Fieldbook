@@ -1,0 +1,43 @@
+{
+  "taxonId": 1562069,
+  "name": "Mutarda arvensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:21.334000+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/703bc85a7662e82d552d160e39b8749ae1e7c37d06bb934e781b42041318436c.json",
+      "title": "Rhamphospermum arvense",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/4a065a16980b3e76481d2adb448714af18745c29de13dafb640cc37e7fbcc91f.json",
+      "title": "Sinapis arvensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Mutarda arvensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "charlock"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Mutarda+arvensis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Mutarda+arvensis&limit=100",
+      "status": 200
+    }
+  ]
+}

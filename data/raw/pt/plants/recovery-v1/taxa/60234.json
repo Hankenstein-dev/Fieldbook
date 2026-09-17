@@ -1,0 +1,43 @@
+{
+  "taxonId": 60234,
+  "name": "Samolus parviflorus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:33.662436+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/acb294a0ace795b56bc67cc5b32294d4ffeec8505be68f0b9ce0c0fbee863a1a.json",
+      "title": "Samolus valerandi",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/88bdbfa2a1269f04f8051ec92ba8d1c2d2ec554149e678ef2a08beefe2e43864.json",
+      "title": "Samolus valerandi",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Samolus parviflorus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "seaside brookweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Samolus+parviflorus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Samolus+parviflorus&limit=100",
+      "status": 200
+    }
+  ]
+}

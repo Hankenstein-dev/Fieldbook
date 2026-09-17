@@ -1,0 +1,25 @@
+{
+  "calls": 200,
+  "uniqueSessions": 200,
+  "turnsPerSession": 1,
+  "toolCalls": 0,
+  "retries": 0,
+  "formatFailures": [
+    {
+      "taxonId": 167075,
+      "name": "Plumeria obtusa",
+      "sentences": 0,
+      "error": "Plain text instead of JSON; four sentences; missing edibility and structured evidence. Original output retained; no retry. Duration unavailable after parser stopped."
+    }
+  ],
+  "passingFormat": 199,
+  "nullSummaries": 2,
+  "edibility": {
+    "unknown": 162,
+    "yes": 33,
+    "no": 4
+  },
+  "elapsedSecondsIncludingParserInterruption": 1855.214523,
+  "totalRequestTextTokens": 215396,
+  "semanticReview": "Not performed; evidence IDs checked for existence, not factual entailment."
+}

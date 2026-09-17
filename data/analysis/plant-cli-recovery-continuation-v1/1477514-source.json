@@ -1,0 +1,90 @@
+{
+  "input": {
+    "taxonId": 1477514,
+    "scientificName": "Parapholis cylindrica",
+    "commonName": "Barb Grass",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Flora-On — Hainardia cylindrica",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Flora-On botanical account for Hainardia cylindrica. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Distância ao mar (n=44)"
+          },
+          {
+            "id": "s1:p3",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          },
+          {
+            "id": "s1:p4",
+            "text": "Espécies com distribuição semelhante Foeniculum vulgare , Anagallis arvensis-(1) , Galactites tomentosus , Senecio vulgaris , Briza maxima , Quercus suber , Arundo donax ver todas"
+          },
+          {
+            "id": "s1:p5",
+            "text": "Tipo biológico Terófito"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Parapholis cylindrica (Willd.) Romero Zarco — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Parapholis cylindrica (Willd.) Romero Zarco."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Macaronesia, Medit. to Iran. It is an annual and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1477514.json",
+      "sha256": "c82ea963708c0462864fa445284636b22fc6897481efc7cec1ef1c78a2db165a",
+      "url": "https://flora-on.pt/?q=Hainardia+cylindrica",
+      "credit": {
+        "title": "Flora-On — Hainardia cylindrica",
+        "url": "https://flora-on.pt/?q=Hainardia+cylindrica",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1477514-96de26d494dfad3e.json",
+      "sha256": "96de26d494dfad3ed433b636a9cfb0d02eb4246565a083a5894210165de347e0",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77209593-1",
+      "credit": {
+        "title": "Parapholis cylindrica (Willd.) Romero Zarco — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77209593-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1477514,
+    "name": "Parapholis cylindrica",
+    "language": "pt,en",
+    "sourceTextTokens": 166,
+    "packetTokens": 362,
+    "standaloneInputTextTokens": 814,
+    "packetSha256": "d8ddf8d67a24b96b1c4472d5e07a12de6d567b7e1f1385ec6ee822d6fcfe9cd1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 193074,
+  "name": "Guaiacum coulteri",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:39.722341+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5a110dfc05d3482caadd1f3ab2cd8f59b46cb73b646e7d32b54250263fa80460.json",
+      "title": "Guaiacum coulteri",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Guaiacum coulteri"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "guayacan"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Guaiacum+coulteri&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Guaiacum+coulteri&limit=100",
+      "status": 200
+    }
+  ]
+}

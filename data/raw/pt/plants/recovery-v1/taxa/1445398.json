@@ -1,0 +1,43 @@
+{
+  "taxonId": 1445398,
+  "name": "Consolida",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:47:37.341394+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/58de48a691073b3ddcb8870dfefde7ff48b595f8f972c4ac8de75b3eee70df9b.json",
+      "title": "Consolida",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/58de48a691073b3ddcb8870dfefde7ff48b595f8f972c4ac8de75b3eee70df9b.json",
+      "title": "Consolida",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Consolida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Eurasian Larkspurs"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Consolida&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Consolida&limit=100",
+      "status": 200
+    }
+  ]
+}

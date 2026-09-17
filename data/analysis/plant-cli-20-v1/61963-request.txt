@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":61963,"scientificName":"Oxalis debilis","commonName":"Largeflower pink-sorrel","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Oxalis debilis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Oxalis debilis, the large-flowered pink-sorrel or pink woodsorrel, is a perennial plant and herb in the family Oxalidaceae. Its original distribution is South America but it has become a cosmopolitan species, occurring in all continents except Antarctica. It can be found in both temperate and tropical areas."},{"id":"s1:p2","text":"The flowers, leaves and roots are edible. The plant contains oxalic acid, which can cause calcium deficiency if eaten in larger amounts, but typical quantities of the plant would likely not be enough to cause this effect."},{"id":"s1:p3","text":" Description \nIt is a bulbous plant. The fruit is a capsule. The seeds are projected, with an elastic integument. In Europe the plants are sterile and are propagating only by bulbs. The leaves have a zesty lemony flavor."},{"id":"s1:p4","text":"Research on the naturalizing populations in China show the presence of 2 flower morphs, pollen with low viability and polyploidy."},{"id":"s1:p5","text":" Varieties and cultivation \nThere are two varieties:\n Oxalis debilis var. corymbosa (DC.) Lourteig – large-flowered pink-sorrel (Synonym : O. corymbosa)\n Oxalis debilis var. debilis"},{"id":"s1:p6","text":"'Aureoreticulata' ('aureo-reticulata') has attractive variegated leaves with flowers that are pinkish purple. This cultivar is also named 'Gold Veined Oxalis' (Yellow Vein Oxalis) with attractive yellow vein foliage. The symptom is associated with the presence of a begomovirus. This virus, designated OxYVV, is transmitted by the whitefly Bemisia tabaci."},{"id":"s1:p7","text":"The Royal Horticultural Society advises that it can be a serious weed."},{"id":"s1:p8","text":"Distribution and habitat\nIts original distribution is South America but it has become a cosmopolitan species, occurring in all continents except Antarctica. It can be found in both temperate and tropical areas."},{"id":"s1:p9","text":" Pests and diseases \nPuccinia oxalidis is a fungus species in the genus Puccinia. This species is a causal agent of rust on plants in the genus Oxalis."},{"id":"s1:p10","text":"Uses\nThe flowers, leaves and roots are edible. There is concern that the plant should only be consumed in small amounts because it contains oxalic acid, which can cause calcium deficiency if eaten in larger amounts. Studies show that this is an exaggerated fear."}]}]}

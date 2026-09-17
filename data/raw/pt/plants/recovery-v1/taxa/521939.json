@@ -1,0 +1,58 @@
+{
+  "taxonId": 521939,
+  "name": "Centaurea hermannii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:46.196293+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Centaurea hermannii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Centaurea hermannii, is a perennial herbaceous plant belonging to the genus Centaurea of the family Asteraceae. It is an endemic plant of Turkey and found only in Çatalca Peninsula, and threatened by habitat loss.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/6aefb31207474e40898ba1b0fff9db585b89eff2cb373e336f3290163794aa82.json",
+      "sha256": "5994899bc224fd29f8b814cfea8fe15715f6d4ab53ac80feef3e102dc7bd7b9d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1238234706",
+      "revisionId": 1238234706,
+      "credit": {
+        "title": "Centaurea hermannii",
+        "url": "https://en.wikipedia.org/wiki/Centaurea_hermannii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1238234706",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Centaurea hermannii F.Hermann",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Centaurea hermannii, is a perennial herbaceous plant belonging to the genus Centaurea of the family Asteraceae. It is an endemic plantS. Öksüz, S. Serin & G. Topçu (1994)Sesquiterpene lactones from Centaurea hermannii of Turkey and found only in Çatalca Peninsula, and threatened by habitat loss.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165578463.json",
+      "sha256": "e2fc30dd2f4798a186e4406185069553bb93473f6b89526580d195ba0b2ce9e7",
+      "url": "https://api.gbif.org/v1/species/165578463",
+      "credit": {
+        "title": "Centaurea hermannii F.Hermann",
+        "url": "https://www.gbif.org/species/165578463",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Centaurea+hermannii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Centaurea+hermannii&limit=100",
+      "status": 200
+    }
+  ]
+}

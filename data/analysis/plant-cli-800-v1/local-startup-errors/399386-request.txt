@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":399386,"scientificName":"Adiantum formosum","commonName":"Giant maidenhair fern","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Adiantum formosum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Adiantum formosum, known as the giant maidenhair or black stem maidenhair is a fern found in Australia and New Zealand. It was one of the many species authored by Scottish botanist Robert Brown, appearing in his 1810 work Prodromus Florae Novae Hollandiae et Insulae Van Diemen. Its species name is the Latin adjective formosus \"handsome\" or \"beautiful\"."},{"id":"s1:p2","text":"Adiantum formosum is an attractive plant, with fronds up to 120 cm (48 in) high. The rhizome of this species is unusually deep, up to 60 cm (24 in) below into the earth. The stems are black and can reach 90 cm (36 in) in length, while the fronds or blades are triangular with rectangular segments. The last segment of the frond is irregular and asymmetrical, on a short stem. This maidenhair fern can grow to 2 metres (7 ft) tall. The smallest segments of the fronds are the pinnules, which are wedge-shaped, rectangular or trapezoid. They have 1–10 sori along the margins underneath."},{"id":"s1:p3","text":"Adiantum formosum is found in Queensland, and New South Wales, and into Victoria, where it is less common. It also occurs in New Zealand. It is often seen growing in moist areas or along streams usually on alluvial soils, Adiantum formosum is generally found in rainforest or in nearby open eucalyptus forest, where it may form a large colony."},{"id":"s1:p4","text":"Easy to grow in cultivation, Adiantum formosum makes a good subject for container gardening. It appears to go dormant in cooler months and grow rapidly during the summer. A smaller, variegated form is commercially available and cultivated."}]}]}

@@ -1,0 +1,32 @@
+{
+  "taxonId": 1077363,
+  "name": "Gomphocarpus fruticosus × physocarpus",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:45:48.011653+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gomphocarpus fruticosus × physocarpus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hybrid Balloonplant"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gomphocarpus+fruticosus+%C3%97+physocarpus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gomphocarpus+fruticosus+%C3%97+physocarpus&limit=100",
+      "status": 200
+    }
+  ]
+}

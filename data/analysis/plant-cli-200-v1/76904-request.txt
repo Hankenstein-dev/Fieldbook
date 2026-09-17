@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":76904,"scientificName":"Erigeron bonariensis","commonName":"Flax-leaved Horseweed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Erigeron bonariensis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Erigeron bonariensis is a species in the family Asteraceae, found throughout the tropics and subtropics as a pioneer plant; its precise origin is unknown, but most likely it stems from Central America or South America. It has become naturalized in many other regions, including North America, Europe and Australia."},{"id":"s1:p2","text":"Common names of E. bonariensis include flax-leaf fleabane, wavy-leaf fleabane, Argentine fleabane, hairy horseweed, asthma weed and hairy fleabane."},{"id":"s1:p3","text":"Description\nErigeron bonariensis grows up to {{convert|75|cm|in|round=0.5|abbr=on}} in height and its leaves are covered with stiff hairs, including long hairs near the apex of the bracts. Its flower heads have white ray florets and yellow disc florets. It can easily be confused with Erigeron canadensis, which grows taller, and E. sumatrensis."},{"id":"s1:p4","text":"It flowers in August and continues fruiting until the first frosts. It is instantly recognisable by its blue-green foliage, very narrow, undulate stem-leaves, and purple-tipped involucral bracts. It reproduces only by seed, which are easily blown and spread by wind.{{cn|date=August 2023}}"},{"id":"s1:p5","text":"Distribution and habitat\nErigeron bonariensis is found throughout the tropics and subtropics as a pioneer plant; its precise origin is unknown, but most likely it stems from Central America or South America. It has become naturalized in many other regions, including North America, Europe and Australia."},{"id":"s1:p6","text":"E. bonariensis is a rare alien in southeastern England, found along walls and in cracks in pavements and concrete driveways.{{cn|date=August 2023}} It is widespread throughout Australia, where it thrives on roadsides, fallows, pastures, gardens, lawns, footpaths, parks, riparian vegetation, forest and wetland perimeters, waste dumps and disturbed grounds."},{"id":"s1:p7","text":"Photographic description"},{"id":"s1:p8","text":"Dry summer form\nThe following are bright dry summer first-year forms; in contrast to shady damp winter forms that follow."},{"id":"s1:p9","text":"Winter, damp, shady, biennial forms\nShowing diffusely branched or strangled appearances with small flower heads"},{"id":"s1:p10","text":"Other photos"}]}]}

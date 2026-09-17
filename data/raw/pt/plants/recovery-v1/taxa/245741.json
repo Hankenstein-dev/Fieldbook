@@ -1,0 +1,82 @@
+{
+  "taxonId": 245741,
+  "name": "Centaurium littorale",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:49.611929+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Centaurium littorale",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Centaurium littorale, the seaside centaury, is a species of flowering plant belonging to the family Gentianaceae.\n\nIts native range is Western and Northern Europe to Northern Russia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/d35a3a50463a4a109643574cff82ae74dac87a55e15bd90e1cfd44bf1bada604.json",
+      "sha256": "0e14311b525225ef9cca3c699bc7af666523e99e799536aaf5e4c33d0734aa44",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1139841175",
+      "revisionId": 1139841175,
+      "credit": {
+        "title": "Centaurium littorale",
+        "url": "https://en.wikipedia.org/wiki/Centaurium_littorale",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1139841175",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Centaurium littorale",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Centaurium littorale''\n| imagem = Centaurium littorale (Salz-Tausendguldenkraut) 3452 IMG.JPG\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Gentianales]]\n| família = [[Gentianaceae]]\n| género = ''[[Centaurium]]''\n| espécie = '''''C. littorale'''''\n| binomial = ''Centaurium littorale''\n| binomial_autoridade = (Turner) Gilmour\n}}\nCentaurium littorale é uma espécie de planta com flor pertencente à família Gentianaceae. \n\nA autoridade científica da espécie é (Turner) Gilmour, tendo sido publicada em Bulletin of Miscellaneous Information Kew 1937: 498. 1937.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Centaurium littorale subsp. littorale - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d35a3a50463a4a109643574cff82ae74dac87a55e15bd90e1cfd44bf1bada604.json",
+      "sha256": "0f3188343a2b4e275e999fe3f168daab186aee8adf84c69d7ce6ab251ab19c1c",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40897167",
+      "revisionId": 40897167,
+      "credit": {
+        "title": "Centaurium littorale",
+        "url": "https://pt.wikipedia.org/wiki/Centaurium_littorale",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40897167",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Centaurium littorale (Turner) Gilmour",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "medicinal and aromatic\n\nLectotype (Melderis in Bot. J. Linn. Soc. 65: 229. 1972): Herb. Clifford: 81, Gentiana 9 (BM- 000558187).\n\n\" Habitat in Europae apricis, praesertim maritimis. \" RCN: 1876.\n\nNote: Difficulties between the competing C. littorale (Turner) Gilmour (1937) and C. minor Moench (1794) led Pringle (in Taxon 36: 482. 1987) to successfully propose the rejection of Moench's name.\n\nterrestrial\n\nshortlived\n\nsedentary\n\nplant\n\noligotrophic\n\neurytopic\n\ncuddly",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5414469.json",
+      "sha256": "f1e7f6d7740c8ef25b096b7119d31ea87522bc274b1b3424109ec403f750e703",
+      "url": "https://api.gbif.org/v1/species/5414469",
+      "credit": {
+        "title": "Centaurium littorale (Turner) Gilmour",
+        "url": "https://www.gbif.org/species/5414469",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Centaurium littorale"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Centaurium+littorale&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Centaurium+littorale&limit=100",
+      "status": 200
+    }
+  ]
+}

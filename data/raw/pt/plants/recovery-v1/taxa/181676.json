@@ -1,0 +1,32 @@
+{
+  "taxonId": 181676,
+  "name": "Glandularia × hybrida",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:38.644486+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Glandularia × hybrida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "garden verbena"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Glandularia+%C3%97+hybrida&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Glandularia+%C3%97+hybrida&limit=100",
+      "status": 200
+    }
+  ]
+}

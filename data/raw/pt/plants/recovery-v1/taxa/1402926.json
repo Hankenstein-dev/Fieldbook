@@ -1,0 +1,42 @@
+{
+  "taxonId": 1402926,
+  "name": "Armeria eriophylla",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:42.731974+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Armeria eriophylla",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Armeria eriophylla''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Plumbaginales]]\n| família = [[Plumbaginaceae]]\n| género = ''[[Armeria]]''\n| espécie = '''''A. eriophylla'''''\n| binomial = ''Armeria eriophylla''\n| binomial_autoridade = Willk.\n}}\nArmeria eriophylla é uma espécie de planta com flor pertencente à família Plumbaginaceae. \n\nA autoridade científica da espécie é Willk., tendo sido publicada em Boletim da Sociedade Broteriana 2: 145. 1884.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/6c6e0b4b4da88b6edf5c503d172e65a9b0b672eb89a13a83eef3cdc783a94460.json",
+      "sha256": "de8f9534bc919c1e37aea812df44b27050f639f0ff4adf0cac00f5ddeecefe6e",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069665",
+      "revisionId": 60069665,
+      "credit": {
+        "title": "Armeria eriophylla",
+        "url": "https://pt.wikipedia.org/wiki/Armeria_eriophylla",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069665",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Armeria+eriophylla&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Armeria+eriophylla&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "input": {
+    "taxonId": 1278874,
+    "scientificName": "Coleus hadiensis",
+    "commonName": "Vicks Plant",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Coleus hadiensis (Forssk.) A.J.Paton",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Distribution. Widespread, Egypt to South Africa, Arabian Peninsula, Maldives, Sri Lanka."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Distribution. Widespread, Egypt to South Africa, Arabian Peninsula, Maldives, Sri Lanka."
+          },
+          {
+            "id": "s1:p3",
+            "text": "Description. Paton et al. (2009: 300), Paton et al. (2013: 247), as Plectranthus hadiensis (Forssk.) Sprenger."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/10964472.json",
+      "sha256": "6ae3f8a16273c74acaca1c6c335ee26a0fcc5d62c323e0f90dfb37f8aa257672",
+      "url": "https://api.gbif.org/v1/species/10964472",
+      "credit": {
+        "title": "Coleus hadiensis (Forssk.) A.J.Paton",
+        "url": "https://www.gbif.org/species/10964472",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1278874,
+    "name": "Coleus hadiensis",
+    "language": "unspecified",
+    "sourceTextTokens": 79,
+    "packetTokens": 192,
+    "standaloneInputTextTokens": 644,
+    "packetSha256": "f1e1a965f724cfb9020ce9e5cba47aaf90ebe399e27c812c2e89b3a236821c4e"
+  }
+}

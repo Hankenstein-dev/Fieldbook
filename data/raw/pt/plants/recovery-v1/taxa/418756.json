@@ -1,0 +1,42 @@
+{
+  "taxonId": 418756,
+  "name": "Vicia capreolata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:02.565062+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Vicia capreolata",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Vicia capreolata''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Fabales]]\n| família = [[Fabaceae]]\n| género = ''[[Vicia]]''\n| espécie = '''''V. capreolata'''''\n| binomial = ''Vicia capreolata''\n| binomial_autoridade = Lowe\n}}\nVicia capreolata é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é Lowe, tendo sido publicada em Transactions of the Cambridge Philosophical Society 6: reimpr. 23. 1838.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a76a5005c55941583e4ea7c86187f2ef65f6bf5e7e00f99951428a217c25cf5a.json",
+      "sha256": "5384f852008b0109edf1857bc19f53b75b452f6bc42d348574989bfd6973a4e9",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40212690",
+      "revisionId": 40212690,
+      "credit": {
+        "title": "Vicia capreolata",
+        "url": "https://pt.wikipedia.org/wiki/Vicia_capreolata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40212690",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vicia+capreolata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vicia+capreolata&limit=100",
+      "status": 200
+    }
+  ]
+}

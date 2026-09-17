@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":75312,"scientificName":"Agrostis capillaris","commonName":"colonial bent","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Agrostis capillaris","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=January 2022}}"},{"id":"s1:p2","text":"Agrostis capillaris, the common bent, colonial bent, or browntop, is a rhizomatous and stoloniferous perennial in the grass family (Poaceae). It is native to Eurasia and has been widely introduced in many parts of the world. Colonial bent grows in moist grasslands and open meadows, and can also be found in agricultural areas, roadsides, and invading disturbed areas."},{"id":"s1:p3","text":"The name Agrostis comes from the Greek word meaning forage plant, agros meaning \"a field\"."},{"id":"s1:p4","text":"It is found growing in neutral to acidic soils. It has a very fine texture and like most bent grasses grows very dense. Although this species is used on golf courses, providing some of the best ball playing surfaces in the world, it also produces a spectacular visual appearance when maintained properly. It provides an excellent home lawn but is not tolerant of heavy use. Colonial bent is fairly easy to grow from seeds and fertilization of the lawn is not as intense.{{clarification needed|reason=not as intense as what?|date=November 2022}} This grass also takes longer to establish than creeping bent. However, it does not require the intense maintenance."},{"id":"s1:p5","text":"Many internet sources describe it as being the tallest of the bent species. However, C. E. Hubbard describes its height as ranging from 10 to 70 cm high, whereas the black bent Agrostis gigantea is 40 to 120 cm. Marjorie Blamey, Richard and Alastair Fitter also describe black bent as being taller."},{"id":"s1:p6","text":"Description\nIt forms a dense sward of fine leaves. The ligule is short and does not come to a point. This differs from creeping bent, Agrostis stolonifera in which it is pointed and up to 5mm long."},{"id":"s1:p7","text":"The flowering panicles appear from May until June. They are finely branched and look like a purple haze from a distance. The panicle persists in winter after the seeds have been shed."},{"id":"s1:p8","text":"Environmental conservation\nAgrostis capillaris forms a constituent of purple moor grass and rush pastures, a type of Biodiversity Action Plan habitat in the UK. This habitat occurs on poorly drained neutral and acidic soils of the lowlands and upland fringe, and can be found in the south-west of England, especially in Devon. It is found on upland pastures throughout the UK."}]}]}

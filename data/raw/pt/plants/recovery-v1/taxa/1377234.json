@@ -1,0 +1,38 @@
+{
+  "taxonId": 1377234,
+  "name": "Festuca muralis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:13.184412+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/b96f5187a05ee97d4176c4df8a1f45a3e70d498300d237521e95a7938ba3ed3d.json",
+      "title": "Vulpia myuros",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Festuca muralis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "wall fescue"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+muralis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+muralis&limit=100",
+      "status": 200
+    }
+  ]
+}

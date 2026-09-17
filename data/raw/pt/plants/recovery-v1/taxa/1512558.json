@@ -1,0 +1,32 @@
+{
+  "taxonId": 1512558,
+  "name": "Rhyncholotus",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:47:58.042587+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rhyncholotus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "lotus vines"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhyncholotus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhyncholotus&limit=100",
+      "status": 200
+    }
+  ]
+}

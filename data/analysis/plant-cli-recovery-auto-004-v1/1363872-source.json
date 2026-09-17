@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 1363872,
+    "scientificName": "Alchemilla microcarpa",
+    "commonName": "Alchemilla microcarpa",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Alchemilla microcarpa",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Alchemilla microcarpa é uma espécie de rosácea do gênero Alchemilla, pertencente à família Rosaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Alchemilla microcarpa Boiss. & Reut. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Alchemilla microcarpa Boiss. & Reut.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Macaronesia, W. Medit. It is an annual and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/fa90358cc818311b0c59ff195691274f338e033d72be854a2dfb3dc72da83788.json",
+      "sha256": "2122f544a3685e9a964b5420b6f6e4dec781d66bcf73fa2284ad9e8edfe0825c",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=56182871",
+      "revisionId": 56182871,
+      "credit": {
+        "title": "Alchemilla microcarpa",
+        "url": "https://pt.wikipedia.org/wiki/Alchemilla_microcarpa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=56182871",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1363872-5a0abb3bc7cf84a6.json",
+      "sha256": "5a0abb3bc7cf84a65a8687fdc9f3703b953dde039138521c54e09208734e0fb3",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A720762-1",
+      "credit": {
+        "title": "Alchemilla microcarpa Boiss. & Reut. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A720762-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1363872,
+    "name": "Alchemilla microcarpa",
+    "language": "pt,en",
+    "sourceTextTokens": 75,
+    "packetTokens": 227,
+    "standaloneInputTextTokens": 679,
+    "packetSha256": "75eb40bc4572db13331ed18b7479b8de5b402cf98838f14d0aa3f554266f6f15"
+  }
+}

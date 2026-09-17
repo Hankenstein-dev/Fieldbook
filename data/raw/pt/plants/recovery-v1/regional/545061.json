@@ -1,0 +1,42 @@
+{
+  "taxonId": 545061,
+  "sources": [
+    {
+      "title": "Flora-On — Lavatera olbia",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Lavatera olbia. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia Orlas de matagais e bosques perenifólios, sebes e bermas de caminhos. Em sítios geralmente sombrios, por vezes pedregosos.\n\nTipo biológico Caméfito , Fanerófito\n\nLigações externas Descrição na Flora Iberica\n\nDistância ao mar (n=249)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Pistacia lentiscus , Smilax aspera , Rhamnus alaternus , Dorycnium rectum , Erophaca baetica , Cistus crispus , Pulicaria odora ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/545061.json",
+      "sha256": "0bf8b981bc94187b14e09d9ff45c976829b028c3d0179ed9dc24d6f9b145e1fd",
+      "url": "https://flora-on.pt/?q=Lavatera+olbia",
+      "credit": {
+        "title": "Flora-On — Lavatera olbia",
+        "url": "https://flora-on.pt/?q=Lavatera+olbia",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Malva+olbia",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Malva+olbia&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Althaea+olbia",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Lavatera+olbia",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:59:10.626942+00:00"
+}

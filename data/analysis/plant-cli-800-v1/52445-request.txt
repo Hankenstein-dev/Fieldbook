@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":52445,"scientificName":"Acacia auriculiformis","commonName":"Earpod Wattle","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Acacia auriculiformis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Acacia auriculiformis, commonly known as ear-pod wattle, northern black wattle or Darwin black wattle, is a species of flowering plant in the family Fabaceae and is native to Maluku, New Guinea, the Northern Territory and Queensland. It is a tree with smooth bark, very narrowly elliptic phyllodes, spikes of bright yellow to golden-yellow flowers, and strongly curved to spirally coiled, leathery to woody pods up to {{cvt|80|mm}} long."},{"id":"s1:p2","text":"Description\nAcacia auriculiformis is a tree that typically grows to {{cvt|8–10|m}} high, rarely up to {{cvt|35|m}}, and is mostly glabrous, with smooth bark or fissured bark on older trees, and thin branchlets. The phyllodes are very narrowly elliptic, sometimes curved, mostly {{cvt|100–200|mm}} long and {{cvt|12–40|mm}} wide with many longitudinal veins, three to five more prominent than the rest. The flowers are bright yellow to golden-yellow, arranged in one to several spikes in leaf axils, each spike {{cvt|50–85|mm}} long on a peduncle {{cvt|4–8|mm}} long. Flowering occurs from February to August, and the fruit is a strongly curved or spirally coiled, sometimes twisted, thickly leathery to woody pod about {{cvt|50–80|mm}} long and {{cvt|10–18|mm}} wide, containing flattened, dark brown to black seeds {{cvt|4–6|mm}} long and {{cvt|3–4|mm}} wide with an orange, yellow or red aril."},{"id":"s1:p3","text":"Taxonomy\nAcacia auriculiformis was first formally described in 1842 by George Bentham in Hooker's London Journal of Botany, from an unpublished description by Allan Cunningham. The specific epithet (auriculiformis) means 'ear shaped', referring to the pods."},{"id":"s1:p4","text":"Distribution and habitat\nEar-pod wattle grows in sandy or loamy soils near watercourses and swamps in open forest on Cape York Peninsula in Queensland, the north of the Northern Territory, the Central and Western Provinces of New Guinea, and the Kei Islands of Indonesia. It is also recorded as naturalised in Western Australia."},{"id":"s1:p5","text":" Uses \nExtracts of Acacia auriculiformis heartwood inhibit fungi that attack wood. Aqueous extracts of A. auriculiformis show developmental inhibitory effects on Bactrocera cucurbitae (the melon fly)."}]}]}

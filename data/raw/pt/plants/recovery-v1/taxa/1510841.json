@@ -1,0 +1,61 @@
+{
+  "taxonId": 1510841,
+  "name": "Agrostis subspicata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:48.783416+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Agrostis subspicata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Agrostis subspicata, synonym Chaetopogon fasciculatus, is a species of European and North African plants in the grass family. It is native to Italy, Portugal, Spain, former Yugoslavia, and Morocco.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/96788fc1675683981c00b6b81f65a2b1d7477b0191d0797ac9e615e2a733ceef.json",
+      "sha256": "f6a15815defd9f2b884ba7d1f98eb5bb70b11c9d7bab226f6f3bb308cc69aa5a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1231886598",
+      "revisionId": 1231886598,
+      "credit": {
+        "title": "Agrostis subspicata",
+        "url": "https://en.wikipedia.org/wiki/Agrostis_subspicata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1231886598",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Agrostis subspicata",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n |cor = lightgreen\n |nome = ''Agrostis subspicata''\n |imagem =\n |imagem_legenda=\n |estado =\n |reino = [[Plantae]]\n |divisão = [[angiosperma|Magnoliophyta]]\n |superdivisão = [[espermatófita|Spermatophyta]]\n |classe = [[monocotiledónea|Liliopsida]]\n |subclasse = [[Commelinidae]]\n |ordem = [[Poales]]\n |família = [[Poaceae]]\n |género = ''[[Agrostis]]''\n |espécie = '''''Agrostis subspicata'''''\n |binomial = ''Agrostis subspicata''\n |binomial_autoridade =\n |sinónimos =\n}}\nAgrostis subspicata é uma espécie de gramínea do gênero Agrostis, pertencente à família Poaceae.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/96788fc1675683981c00b6b81f65a2b1d7477b0191d0797ac9e615e2a733ceef.json",
+      "sha256": "2a490f24fd32102e7707beff0297c4255472256805d719cb284f0355b6ded806",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=56458960",
+      "revisionId": 56458960,
+      "credit": {
+        "title": "Agrostis subspicata",
+        "url": "https://pt.wikipedia.org/wiki/Agrostis_subspicata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=56458960",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Agrostis+subspicata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Agrostis+subspicata&limit=100",
+      "status": 200
+    }
+  ]
+}

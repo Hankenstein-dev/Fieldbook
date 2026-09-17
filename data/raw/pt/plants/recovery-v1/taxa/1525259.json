@@ -1,0 +1,28 @@
+{
+  "taxonId": 1525259,
+  "name": "Echinoagave striata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:01.819344+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ae7eb2dbe30a0152db5bd75e851b8b90fad9fddd4d4bdc7f3a8a0c90dd11de33.json",
+      "title": "Agave striata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Echinoagave+striata&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Echinoagave+striata&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T09:09:49.133449+00:00",
+  "completedAt": "2026-09-14T09:10:37.063718+00:00",
+  "elapsedSeconds": 47.930125299999986,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0012",
+  "taxonIds": [
+    79464,
+    58893,
+    371995,
+    162839,
+    60879,
+    524877,
+    82570,
+    154116,
+    342005,
+    154195
+  ],
+  "usage": {
+    "input_tokens": 16598,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2262,
+    "reasoning_output_tokens": 910
+  },
+  "requestTextTokens": 9189,
+  "savedOutputTokens": 1346,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 79464,
+      "name": "Utricularia gibba",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An aquatic carnivorous plant native to parts of North America, Central America, the Caribbean, the western Mediterranean, southern Africa and southern India. It forms mats of branching, thread-like stems, with tiny bladder traps that draw in and digest prey. Its genome is exceptionally small for a plant.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p6",
+            "s1:p8"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 58893,
+      "name": "Euphorbia maculata",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A fast-growing annual plant native to North America. Its spreading stems form ground-hugging mats, and its small hairy leaves usually bear a central brown spot. Broken leaves or stems release poisonous milky sap that can irritate skin and cause stomach irritation and vomiting if swallowed.",
+        "humanEdibility": "no",
+        "edibilityNote": "The poisonous milky sap has been ingested medicinally as a laxative or to induce vomiting, but can irritate the stomach and cause vomiting.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4",
+            "s1:p11"
+          ],
+          "humanEdibility": [
+            "s1:p10",
+            "s1:p11"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 371995,
+      "name": "Sternbergia lutea",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A bulbous flowering plant native from the Balearic Islands through the Mediterranean and western Asia to Tajikistan. It retreats to its bulb in summer, then produces glossy green leaves and deep yellow flowers in autumn. The leaves remain through winter.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5",
+            "s1:p7"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 162839,
+      "name": "Euphorbia milii",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A woody succulent shrub native to Madagascar. It has densely spiny stems and fleshy leaves concentrated on new growth, though its form varies among cultivars. Small flowers framed by conspicuous red, pink or white bracts may appear throughout the year.",
+        "humanEdibility": "no",
+        "edibilityNote": "Its moderately poisonous sap causes severe stomach pain, mouth and throat irritation, and vomiting if ingested.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": [
+            "s1:p6"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 60879,
+      "name": "Ipomoea pes-caprae",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A pantropical creeping vine found on sandy tropical shores of the Atlantic, Pacific and Indian oceans. It sends long runners across upper beaches and dunes, bearing two-lobed leaves and pink flowers with dark centres. Its saltwater-resistant floating seeds enable ocean dispersal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p5",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 524877,
+      "name": "Cachrys libanotis",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering plant native to mainland Portugal and belonging to the carrot family.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 82570,
+      "name": "Marsilea quadrifolia",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An aquatic fern native across parts of Europe and Asia, from central and southern Europe to Vietnam. Its four-part leaves resemble four-leaf clover and may float in deep water or stand upright in shallow water or on land. In mainland Portugal it underwent severe decline during the last century and was assessed as Critically Endangered.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The plant has reportedly been used as food in some places for more than 3,000 years.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s2:p1"
+          ],
+          "humanEdibility": [
+            "s1:p3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 154116,
+      "name": "Cratoneuron filicinum",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A moss found across much of the world, including Europe, Asia, Africa and the Americas. It forms low, loose yellow-green to golden-brown carpets, with strongly ribbed, toothed leaves that are often curved. It grows on soil, rock and rotting wood in wet, lime-rich places such as springs, riverbanks and marshes.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p7",
+            "s1:p8"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 342005,
+      "name": "Lotus arenarius",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A trailing plant ranging from central and southern Portugal through southern Spain and Morocco to Senegal. It has hairy, sand-coloured stems, three spaced pea-like leaves and small yellow pea-like flowers above hairy forked bases. Its leaves range from smooth to hairy depending on location.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:09:49.133449+00:00",
+      "completedAt": "2026-09-14T09:10:37.063718+00:00",
+      "elapsedSeconds": 47.930125299999986,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 154195,
+      "name": "Physcomitrium pyriforme",
+      "batchId": "batch-0012",
+      "usage": null,
+      "usageRef": "batch-0012-result.json",
+      "rawOutputFile": "batch-0012-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A bryophyte native to every continent except South America and Antarctica. It usually grows in wet soil at disturbed sites, and its capsules mature from late autumn through spring. Its size, leaves and capsule shape vary both across its range and within individual populations.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

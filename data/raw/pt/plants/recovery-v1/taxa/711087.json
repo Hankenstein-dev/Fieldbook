@@ -1,0 +1,22 @@
+{
+  "taxonId": 711087,
+  "name": "Zanthoxylum beecheyanum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:41.485024+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Zanthoxylum+beecheyanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Zanthoxylum+beecheyanum&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "taxonId": 632181,
+  "name": "Riccia ciliifera",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:33.488575+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riccia ciliifera Lindenb.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941), Jelenc (1955 a): Aïn-Taya, Bois sacré; Alger; Oran; Tiaret; Tlemcen. Jelenc (1955 a), Chevassut & Quézel (1956): La Réghaia. Chevassut & Quézel (1956): Forêt de Pins d’Alep de Saint-Ferdinand. Chevassut (1956): Atlas mitidjien, même station que le 367. Müller (1957), Jovet-Ast (1986): sine loco. Jelenc (1967): Barrage du Hamiz. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098655.json",
+      "sha256": "7165e9e4b635182a23865d3c85e442ccea6055756cec740460c9354d0bcccb6b",
+      "url": "https://api.gbif.org/v1/species/251098655",
+      "credit": {
+        "title": "Riccia ciliifera Lindenb.",
+        "url": "https://www.gbif.org/species/251098655",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/93c192d40d6630745f8e61773eabb20a15cf7fdb70c355d75e9c714b5bab70e5.json",
+      "title": "Haartragendes Sternlebermoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riccia+ciliifera&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riccia+ciliifera&limit=100",
+      "status": 200
+    }
+  ]
+}

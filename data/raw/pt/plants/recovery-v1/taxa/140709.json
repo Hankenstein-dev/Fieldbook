@@ -1,0 +1,47 @@
+{
+  "taxonId": 140709,
+  "name": "Dendrobium aphyllum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:36.429366+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Dendrobium aphyllum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Dendrobium aphyllum, commonly known as the hooded orchid or 兜唇石斛 (dou chun shi hu) is a species of orchid native to Bangladesh, southern China, the eastern Himalayas, and Indochina.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/6768f1542707c0672f6db7bc5e02716bc1dce4fa6056697a09a9a8ffc47c5f7a.json",
+      "sha256": "0b9cfda8c788d0e7e2c4ffea8a703f76add92a2734cd0fbb3b0f9394e096e638",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1317641608",
+      "revisionId": 1317641608,
+      "credit": {
+        "title": "Dendrobium aphyllum",
+        "url": "https://en.wikipedia.org/wiki/Dendrobium_aphyllum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1317641608",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dendrobium aphyllum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dendrobium+aphyllum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dendrobium+aphyllum&limit=100",
+      "status": 200
+    }
+  ]
+}

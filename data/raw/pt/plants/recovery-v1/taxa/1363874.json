@@ -1,0 +1,38 @@
+{
+  "taxonId": 1363874,
+  "name": "Alchemilla australis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:04.448460+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/211ad31e71d8cfda19b0227dc03f1197a627d2eab5ff9547ea62ebb9562e94c0.json",
+      "title": "Aphanes australis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Alchemilla australis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Slender parsley-piert"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Alchemilla+australis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Alchemilla+australis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "taxonId": 82675,
+  "name": "Helianthemum marifolium",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:52.335438+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Helianthemum marifolium",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Helianthemum marifolium''\n| imagem = Helianthemum marifolium - Saint-Hilaire.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Violales]]\n| família = [[Cistaceae]]\n| género = ''[[Helianthemum]]''\n| espécie = '''''H. marifolium'''''\n| binomial = ''Helianthemum marifolium''\n| binomial_autoridade = \n}}\nHelianthemum marifolium é uma espécie de planta com flor pertencente à família Cistaceae. \n\nA autoridade científica da espécie é (L.) Mill., tendo sido publicada em Gard. Dict., ed. 8. n. 24. 1768; DC. Fl. Fr. 4: 817.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Helianthemum marifolium subsp. marifolium - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.\n Helianthemum marifolium subsp. origanifolium - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/dcf201aa77020b0a2dc486603e91ea0a9abbc51cbf274e3aede429e9e8a7c7a1.json",
+      "sha256": "39f370bcd59b8925534b5221fbc6462e7b0fbadd1863d70d2d6d4af09f35d3b3",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54893483",
+      "revisionId": 54893483,
+      "credit": {
+        "title": "Helianthemum marifolium",
+        "url": "https://pt.wikipedia.org/wiki/Helianthemum_marifolium",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54893483",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/dcf201aa77020b0a2dc486603e91ea0a9abbc51cbf274e3aede429e9e8a7c7a1.json",
+      "title": "Helianthemum marifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Helianthemum marifolium"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Helianthemum+marifolium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Helianthemum+marifolium&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 194769,
+  "name": "Linaria elegans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:39.606220+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Linaria elegans",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Linaria elegans''\n| imagem = Linaria elegans 2601.jpg\n| imagem_legenda = ''Linaria elegans'' em Madrid (Espanha)\n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Linaria]]''\n| espécie = '''''L. elegans'''''\n| binomial = ''Linaria elegans''\n| binomial_autoridade = Cav.\n}}\nLinaria elegans é uma espécie de planta com flor pertencente à família Scrophulariaceae. \n\nA autoridade científica da espécie é Cav., tendo sido publicada em Descr. Pl. 338 (1803).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/fc83c8238a7d18aa18f38a125c7341be1574f9712ed7db5c12549e899e27b7b8.json",
+      "sha256": "abf604d9aa1657cc6f7a669b8b0db84f154ae40071df39926026062e41cb200c",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62996915",
+      "revisionId": 62996915,
+      "credit": {
+        "title": "Linaria elegans",
+        "url": "https://pt.wikipedia.org/wiki/Linaria_elegans",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62996915",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Linaria+elegans&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Linaria+elegans&limit=100",
+      "status": 200
+    }
+  ]
+}

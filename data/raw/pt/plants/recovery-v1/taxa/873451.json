@@ -1,0 +1,38 @@
+{
+  "taxonId": 873451,
+  "name": "Cupressus pendula",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:41.767120+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/d717c9d600e2c9709e4dba6b4d69851c4bf4c5a55adae2bd7ad7c21e0eb5c7fb.json",
+      "title": "Cipreste-português",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cupressus pendula"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chinese weeping cypress"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cupressus+pendula&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cupressus+pendula&limit=100",
+      "status": 200
+    }
+  ]
+}

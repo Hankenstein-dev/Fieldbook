@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":120488,"scientificName":"Salvia leucantha","commonName":"Mexican Bush Sage","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Salvia leucantha","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Salvia leucantha, or Mexican bush sage, is a herbaceous perennial plant in the family Lamiaceae that is native to subtropical and tropical conifer forests in central and eastern Mexico. The flowers are usually white, emerging from coloured bracts. It is not frost hardy, but is often grown in warmer latitudes for its prominent arching velvety blue or purple inflorescences."},{"id":"s1:p2","text":"It grows up to {{convert|1.3|m|ft|1|abbr=on}} high and {{convert|2|m|ft|1|abbr=on}} wide, with numerous erect stems, often arching at their tips, and with long inflorescences. The linear-lanceolate leaves are a soft mid-green, with whitish, hairy undersides."},{"id":"s1:p3","text":"Cultivation\nThis plant has ornamental value in the garden, and has gained the Royal Horticultural Society's Award of Garden Merit. It is a low-maintenance plant that grows best in full sun and moist but well-drained soils. Flowers attract butterflies, bees and hummingbirds."},{"id":"s1:p4","text":"Etymology\nThe Latin specific epithet Leucantha means 'white-flowered'."},{"id":"s1:p5","text":"Uses\nA recent analysis of the essential oil of S. leucantha found it to be rich in the sesquiterpene hydrocarbons; β-caryophyllene, α-guaiene, cis-muurola-3,5-diene, germacrene D, and bicyclogermacrene.{{clarify|It contains these compounds, but no explanation of actual uses (uses for the compounds maybe?)|date=November 2025}} Bornyl acetate constituted 23.9% of the oil."}]}]}

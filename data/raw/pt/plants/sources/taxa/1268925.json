@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 1268925,
+  "scientificName": "Limonium dodartii",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 1268925,
+    "scientificName": "Limonium dodartii",
+    "commonName": "Limonium dodartii",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379380593/medium.jpeg",
+      "attribution": "(c) Sylvain G, some rights reserved (CC BY-NC), uploaded by Sylvain G",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/379380593"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 1268925,
+      "count": 49,
+      "name": "Limonium dodartii",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1680872,
+      "descendant_obs_count": 49,
+      "direct_obs_count": 49
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "02e6f611483e86043c1bfd9782790886c7d03ba71d4301b093de681a516954ce"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Limonium dodartii",
+      "title": "Limonium dodartii",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/8173db1396a6a7ce7166c632703f637056b2c8687adde76d48fc1399cabf5f38.json",
+      "url": "https://en.wikipedia.org/wiki/Limonium_dodartii",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Limonium dodartii",
+      "title": "Limonium dodartii",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/8173db1396a6a7ce7166c632703f637056b2c8687adde76d48fc1399cabf5f38.json",
+      "url": "https://pt.wikipedia.org/wiki/Limonium_dodartii",
+      "revisionId": 60069641,
+      "contentSha256": "3d2af82b51e30f40f1cdfe1b740a01c5b425b343f6b92aafcfe8c902561ccc3f"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868960,
+      "canonicalName": "Limonium dodartii",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868960",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868960.json",
+      "recordSha256": "43aaa2b091c7a68ad86e5f9c58fce4c132c95cd27a9443a3fceb9c51dccb98cb"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

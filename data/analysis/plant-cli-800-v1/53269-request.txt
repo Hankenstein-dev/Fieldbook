@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":53269,"scientificName":"Sonchus asper","commonName":"prickly sowthistle","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Sonchus asper","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Sonchus asper, the prickly sow-thistle, rough milk thistle, spiny sowthistle, sharp-fringed sow thistle, or spiny-leaved sow thistle, is a widespread flowering plant in the tribe Cichorieae within the family Asteraceae."},{"id":"s1:p2","text":"Description\nSonchus asper is an annual or biennial herb sometimes reaching a height of {{convert|200|cm|ft}} with spiny leaves and yellow flowers resembling those of the dandelion. The leaves are bluish-green, simple, lanceolate, with wavy and sometimes lobed margins, covered in spines on both the margins and beneath. The base of the leaf surrounds the stem. The leaves and stems emit a milky sap when cut. One plant will produce several flat-topped arrays of flower heads, each head containing numerous yellow ray flowers but no disc flowers."},{"id":"s1:p3","text":"Distribution\nSonchus asper is native to Europe, North Africa, and western Asia. It has also become naturalized on other continents and is regarded as a noxious, invasive weed in many places. Its edible leaves make a palatable and nutritious leaf vegetable."},{"id":"s1:p4","text":"It is found in cultivated soil, pastures, roadsides, edges of yards, vacant lots, construction sites, waste areas and in grasslands."}]}]}

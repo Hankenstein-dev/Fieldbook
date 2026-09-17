@@ -1,0 +1,2761 @@
+2026-09-15T09:15:42.895518+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":6498,"changedCount":201,"nullSummaryCount":71}
+2026-09-15T09:15:44.012713+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T09:15:48.196Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 6438,
+  "withoutSummary": 2085,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 889,
+  "routes": {
+    "summary_present": 5549,
+    "retrieve_additional_sources": 977,
+    "existing_matched_source": 679,
+    "short_summary_review": 889,
+    "existing_source_identity_review": 429
+  },
+  "missingByRank": {
+    "hybrid": 241,
+    "genushybrid": 7,
+    "genus": 485,
+    "species": 1215,
+    "order": 3,
+    "complex": 27,
+    "tribe": 15,
+    "family": 13,
+    "subgenus": 19,
+    "section": 45,
+    "subtribe": 5,
+    "subsection": 7,
+    "subfamily": 3
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 35,
+      "withoutSummary": 9
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 439,
+      "withoutSummary": 124
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 478,
+      "withoutSummary": 130
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 294,
+      "withoutSummary": 109
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 409,
+      "withoutSummary": 200
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 802,
+      "withoutSummary": 265
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 184,
+      "withoutSummary": 57
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 201,
+      "withoutSummary": 65
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 272,
+      "withoutSummary": 76
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 234,
+      "withoutSummary": 100
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 88,
+      "withoutSummary": 16
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 118,
+      "withoutSummary": 21
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 83,
+      "withoutSummary": 31
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 280,
+      "withoutSummary": 104
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 379,
+      "withoutSummary": 107
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 154,
+      "withoutSummary": 32
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 97,
+      "withoutSummary": 67
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 21,
+      "withoutSummary": 14
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 289,
+      "withoutSummary": 101
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 806,
+      "withoutSummary": 250
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 326,
+      "withoutSummary": 96
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 79,
+      "withoutSummary": 29
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 284,
+      "withoutSummary": 54
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 2,
+      "withoutSummary": 3
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 72,
+      "withoutSummary": 12
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 12,
+      "withoutSummary": 13
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T09:15:48.286421+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 1358, 'generationCalls': 137, 'formatPassed': 403, 'formatFailed': 0, 'nullSummaries': 21, 'elapsedWallSeconds': 5868.996562}
+2026-09-15T09:15:48.601146+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1978 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.86 kB │ gzip:   0.64 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-CIYOXlQY.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-D1HTixz4.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-K-gh1ep4.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-BZuA7DYX.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-DWbM-scb.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-BCh7ucH3.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-jylFAjX_.js                  29.89 kB │ gzip:  10.29 kB
+dist-web/assets/index-CanqZAs0.js                      381.94 kB │ gzip: 122.03 kB
+dist-web/assets/plant-stories-006-D1GrThOW.js          452.38 kB │ gzip:  70.68 kB
+dist-web/assets/FieldMap-B0zSufdI.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-005-CtVzQtlP.js          676.47 kB │ gzip: 106.80 kB
+dist-web/assets/plant-stories-004-BdIRtqdI.js          682.80 kB │ gzip: 111.60 kB
+dist-web/assets/plant-stories-003-BcBJGm8i.js          705.39 kB │ gzip: 121.25 kB
+dist-web/assets/plant-stories-002-ByTOSqLI.js          718.63 kB │ gzip: 127.23 kB
+dist-web/assets/plant-stories-001-DP2EfGq_.js          730.51 kB │ gzip: 129.30 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 682ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  40 entries (12766.74 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 58 files, 240.0 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T09:15:51.924641+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 58 files, 240.0 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-BZuA7DYX.js
+Uploaded assets/FieldMap-B0zSufdI.js
+Uploaded assets/Identify-BCh7ucH3.js
+Uploaded assets/Places-K-gh1ep4.js
+Uploaded assets/SourceCredits-D1HTixz4.js
+Uploaded assets/appearance-jylFAjX_.js
+Uploaded assets/countryCatalogue-CIYOXlQY.js
+Uploaded assets/index-CanqZAs0.js
+Uploaded assets/nativeDatabase-DWbM-scb.js
+Uploaded assets/plant-stories-000-DX7ocWvo.js
+Uploaded assets/plant-stories-006-D1GrThOW.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 13 files uploaded.
+2026-09-15T09:16:10.684472+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T09:16:15.361774+00:00 Published 200 attempted plants checkpoint
+2026-09-15T09:42:15.552305+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":6688,"changedCount":196,"nullSummaryCount":65}
+2026-09-15T09:42:17.038025+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T09:42:21.181Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 6634,
+  "withoutSummary": 1889,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 916,
+  "routes": {
+    "summary_present": 5718,
+    "retrieve_additional_sources": 977,
+    "existing_matched_source": 523,
+    "short_summary_review": 916,
+    "existing_source_identity_review": 389
+  },
+  "missingByRank": {
+    "hybrid": 240,
+    "genushybrid": 7,
+    "genus": 341,
+    "species": 1170,
+    "order": 3,
+    "complex": 27,
+    "tribe": 14,
+    "family": 8,
+    "subgenus": 19,
+    "section": 45,
+    "subtribe": 5,
+    "subsection": 7,
+    "subfamily": 3
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 36,
+      "withoutSummary": 8
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 448,
+      "withoutSummary": 115
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 493,
+      "withoutSummary": 115
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 308,
+      "withoutSummary": 95
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 434,
+      "withoutSummary": 175
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 828,
+      "withoutSummary": 239
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 191,
+      "withoutSummary": 50
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 208,
+      "withoutSummary": 58
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 281,
+      "withoutSummary": 67
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 240,
+      "withoutSummary": 94
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 90,
+      "withoutSummary": 14
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 122,
+      "withoutSummary": 17
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 87,
+      "withoutSummary": 27
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 287,
+      "withoutSummary": 97
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 387,
+      "withoutSummary": 99
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 157,
+      "withoutSummary": 29
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 98,
+      "withoutSummary": 66
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 22,
+      "withoutSummary": 13
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 296,
+      "withoutSummary": 94
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 827,
+      "withoutSummary": 229
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 334,
+      "withoutSummary": 88
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 81,
+      "withoutSummary": 27
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 290,
+      "withoutSummary": 48
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 2,
+      "withoutSummary": 3
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 72,
+      "withoutSummary": 12
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 15,
+      "withoutSummary": 10
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T09:42:21.268652+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 1558, 'generationCalls': 157, 'formatPassed': 603, 'formatFailed': 0, 'nullSummaries': 25, 'elapsedWallSeconds': 7466.735529}
+2026-09-15T09:42:21.583412+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1978 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.86 kB │ gzip:   0.64 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-B5I6kUCe.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-CXct3fjN.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-DX0-iTpT.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-ptMfXuym.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-BrFikgJ3.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-ClaRIi3e.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-2p-aP9_x.js                  29.89 kB │ gzip:  10.29 kB
+dist-web/assets/index-mKAanqbQ.js                      381.94 kB │ gzip: 122.02 kB
+dist-web/assets/FieldMap-C6mhnGtV.js                   555.10 kB │ gzip: 140.72 kB
+dist-web/assets/plant-stories-006-Btxs74QK.js          641.90 kB │ gzip:  98.16 kB
+dist-web/assets/plant-stories-005-CtVzQtlP.js          676.47 kB │ gzip: 106.80 kB
+dist-web/assets/plant-stories-004-BdIRtqdI.js          682.80 kB │ gzip: 111.60 kB
+dist-web/assets/plant-stories-003-BcBJGm8i.js          705.39 kB │ gzip: 121.25 kB
+dist-web/assets/plant-stories-002-ByTOSqLI.js          718.63 kB │ gzip: 127.23 kB
+dist-web/assets/plant-stories-001-B_sf-dbH.js          732.51 kB │ gzip: 129.60 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 676ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  40 entries (12953.77 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 58 files, 240.2 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T09:42:25.063000+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 58 files, 240.2 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-ptMfXuym.js
+Uploaded assets/FieldMap-C6mhnGtV.js
+Uploaded assets/Identify-ClaRIi3e.js
+Uploaded assets/Places-DX0-iTpT.js
+Uploaded assets/SourceCredits-CXct3fjN.js
+Uploaded assets/appearance-2p-aP9_x.js
+Uploaded assets/countryCatalogue-B5I6kUCe.js
+Uploaded assets/index-mKAanqbQ.js
+Uploaded assets/nativeDatabase-BrFikgJ3.js
+Uploaded assets/plant-stories-001-B_sf-dbH.js
+Uploaded assets/plant-stories-006-Btxs74QK.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 13 files uploaded.
+2026-09-15T09:42:46.128222+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T09:42:50.559380+00:00 Published 400 attempted plants checkpoint
+2026-09-15T10:03:21.289459+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":6874,"changedCount":191,"nullSummaryCount":60}
+2026-09-15T10:03:23.214230+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T10:03:27.487Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 6825,
+  "withoutSummary": 1698,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 951,
+  "routes": {
+    "summary_present": 5874,
+    "retrieve_additional_sources": 977,
+    "existing_matched_source": 364,
+    "short_summary_review": 951,
+    "existing_source_identity_review": 357
+  },
+  "missingByRank": {
+    "hybrid": 221,
+    "genushybrid": 7,
+    "species": 1136,
+    "genus": 206,
+    "complex": 27,
+    "tribe": 14,
+    "subgenus": 19,
+    "section": 45,
+    "subtribe": 5,
+    "subsection": 7,
+    "subfamily": 3,
+    "family": 6,
+    "order": 2
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 36,
+      "withoutSummary": 8
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 459,
+      "withoutSummary": 104
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 505,
+      "withoutSummary": 103
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 318,
+      "withoutSummary": 85
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 454,
+      "withoutSummary": 155
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 851,
+      "withoutSummary": 216
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 197,
+      "withoutSummary": 44
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 212,
+      "withoutSummary": 54
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 288,
+      "withoutSummary": 60
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 251,
+      "withoutSummary": 83
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 91,
+      "withoutSummary": 13
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 125,
+      "withoutSummary": 14
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 92,
+      "withoutSummary": 22
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 298,
+      "withoutSummary": 86
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 397,
+      "withoutSummary": 89
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 160,
+      "withoutSummary": 26
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 101,
+      "withoutSummary": 63
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 22,
+      "withoutSummary": 13
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 309,
+      "withoutSummary": 81
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 844,
+      "withoutSummary": 212
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 342,
+      "withoutSummary": 80
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 83,
+      "withoutSummary": 25
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 297,
+      "withoutSummary": 41
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 73,
+      "withoutSummary": 11
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 17,
+      "withoutSummary": 8
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T10:03:27.539313+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 1758, 'generationCalls': 177, 'formatPassed': 803, 'formatFailed': 0, 'nullSummaries': 34, 'elapsedWallSeconds': 8733.367357}
+2026-09-15T10:03:27.904130+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1978 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.86 kB │ gzip:   0.64 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-HYcl3ECw.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-DldmriLG.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-DoZuZmre.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-DaFjlVXU.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-gqlm7IWy.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-Yt3Ig7bb.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-B2nmyL3q.js                  29.89 kB │ gzip:  10.29 kB
+dist-web/assets/index-GgYECMJ7.js                      381.94 kB │ gzip: 122.02 kB
+dist-web/assets/FieldMap-DywwavbJ.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-005-CtVzQtlP.js          676.47 kB │ gzip: 106.80 kB
+dist-web/assets/plant-stories-004-BdIRtqdI.js          682.80 kB │ gzip: 111.60 kB
+dist-web/assets/plant-stories-003-BnuBtN1q.js          706.51 kB │ gzip: 121.46 kB
+dist-web/assets/plant-stories-002-DKGHwI9Y.js          719.66 kB │ gzip: 127.41 kB
+dist-web/assets/plant-stories-001-B_sf-dbH.js          732.51 kB │ gzip: 129.60 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-nv239sJQ.js          813.03 kB │ gzip: 123.06 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 667ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  40 entries (13122.98 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 58 files, 240.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T10:03:31.578556+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 58 files, 240.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-DaFjlVXU.js
+Uploaded assets/FieldMap-DywwavbJ.js
+Uploaded assets/Identify-Yt3Ig7bb.js
+Uploaded assets/Places-DoZuZmre.js
+Uploaded assets/SourceCredits-DldmriLG.js
+Uploaded assets/appearance-B2nmyL3q.js
+Uploaded assets/countryCatalogue-HYcl3ECw.js
+Uploaded assets/index-GgYECMJ7.js
+Uploaded assets/nativeDatabase-gqlm7IWy.js
+Uploaded assets/plant-stories-002-DKGHwI9Y.js
+Uploaded assets/plant-stories-003-BnuBtN1q.js
+Uploaded assets/plant-stories-006-nv239sJQ.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 14 files uploaded.
+2026-09-15T10:03:49.134416+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T10:03:53.466294+00:00 Published 600 attempted plants checkpoint
+2026-09-15T10:25:24.259482+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7053,"changedCount":194,"nullSummaryCount":45}
+2026-09-15T10:25:26.031111+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T10:25:30.284Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7019,
+  "withoutSummary": 1504,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 991,
+  "routes": {
+    "summary_present": 6028,
+    "retrieve_additional_sources": 977,
+    "existing_matched_source": 212,
+    "short_summary_review": 991,
+    "existing_source_identity_review": 315
+  },
+  "missingByRank": {
+    "hybrid": 190,
+    "genushybrid": 6,
+    "species": 1088,
+    "genus": 105,
+    "complex": 27,
+    "tribe": 11,
+    "subgenus": 19,
+    "section": 45,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 36,
+      "withoutSummary": 8
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 469,
+      "withoutSummary": 94
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 516,
+      "withoutSummary": 92
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 336,
+      "withoutSummary": 67
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 475,
+      "withoutSummary": 134
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 876,
+      "withoutSummary": 191
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 204,
+      "withoutSummary": 37
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 215,
+      "withoutSummary": 51
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 295,
+      "withoutSummary": 53
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 255,
+      "withoutSummary": 79
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 127,
+      "withoutSummary": 12
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 95,
+      "withoutSummary": 19
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 312,
+      "withoutSummary": 72
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 408,
+      "withoutSummary": 78
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 165,
+      "withoutSummary": 21
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 108,
+      "withoutSummary": 56
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 22,
+      "withoutSummary": 13
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 316,
+      "withoutSummary": 74
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 861,
+      "withoutSummary": 195
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 353,
+      "withoutSummary": 69
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 83,
+      "withoutSummary": 25
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 302,
+      "withoutSummary": 36
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 74,
+      "withoutSummary": 10
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T10:25:30.355650+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 1958, 'generationCalls': 197, 'formatPassed': 1003, 'formatFailed': 0, 'nullSummaries': 40, 'elapsedWallSeconds': 10036.378405}
+2026-09-15T10:25:30.670570+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-BIOH-fXH.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-Bu6qItg0.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-B7TKAuor.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-Cs2UVzQp.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-CWa1f9CS.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-Bw9VL31M.js                    21.27 kB │ gzip:   7.86 kB
+dist-web/assets/appearance-BPgEKnPc.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/plant-stories-007-BSDUoAen.js           43.03 kB │ gzip:   7.35 kB
+dist-web/assets/index-C8JKTKYY.js                      382.00 kB │ gzip: 122.05 kB
+dist-web/assets/FieldMap-BtjzFlmn.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-005-D9Pwkl3J.js          678.52 kB │ gzip: 106.97 kB
+dist-web/assets/plant-stories-004-CKo1OcOn.js          685.46 kB │ gzip: 111.85 kB
+dist-web/assets/plant-stories-003-BAGkw91W.js          707.10 kB │ gzip: 121.55 kB
+dist-web/assets/plant-stories-002-DKGHwI9Y.js          719.66 kB │ gzip: 127.41 kB
+dist-web/assets/plant-stories-001-B_sf-dbH.js          732.51 kB │ gzip: 129.60 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-CbdeLtSE.js          921.79 kB │ gzip: 139.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 631ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13276.59 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 240.6 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T10:25:34.244154+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 240.6 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-Cs2UVzQp.js
+Uploaded assets/FieldMap-BtjzFlmn.js
+Uploaded assets/Identify-Bw9VL31M.js
+Uploaded assets/Places-B7TKAuor.js
+Uploaded assets/SourceCredits-Bu6qItg0.js
+Uploaded assets/appearance-BPgEKnPc.js
+Uploaded assets/countryCatalogue-BIOH-fXH.js
+Uploaded assets/index-C8JKTKYY.js
+Uploaded assets/nativeDatabase-CWa1f9CS.js
+Uploaded assets/plant-stories-003-BAGkw91W.js
+Uploaded assets/plant-stories-004-CKo1OcOn.js
+Uploaded assets/plant-stories-005-D9Pwkl3J.js
+Uploaded assets/plant-stories-006-CbdeLtSE.js
+Uploaded assets/plant-stories-007-BSDUoAen.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 16 files uploaded.
+2026-09-15T10:25:54.050940+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T10:25:58.380155+00:00 Published 800 attempted plants checkpoint
+2026-09-15T10:44:29.177438+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7160,"changedCount":187,"nullSummaryCount":42}
+2026-09-15T10:44:31.514662+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T10:44:35.797Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7129,
+  "withoutSummary": 1394,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 933,
+  "routes": {
+    "summary_present": 6196,
+    "retrieve_additional_sources": 968,
+    "short_summary_review": 933,
+    "existing_source_identity_review": 274,
+    "existing_matched_source": 152
+  },
+  "missingByRank": {
+    "hybrid": 155,
+    "genushybrid": 3,
+    "species": 1041,
+    "genus": 84,
+    "complex": 27,
+    "tribe": 8,
+    "subgenus": 19,
+    "section": 44,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 37,
+      "withoutSummary": 7
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 479,
+      "withoutSummary": 84
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 523,
+      "withoutSummary": 85
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 340,
+      "withoutSummary": 63
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 485,
+      "withoutSummary": 124
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 889,
+      "withoutSummary": 178
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 206,
+      "withoutSummary": 35
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 219,
+      "withoutSummary": 47
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 299,
+      "withoutSummary": 49
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 261,
+      "withoutSummary": 73
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 129,
+      "withoutSummary": 10
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 97,
+      "withoutSummary": 17
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 315,
+      "withoutSummary": 69
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 414,
+      "withoutSummary": 72
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 167,
+      "withoutSummary": 19
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 111,
+      "withoutSummary": 53
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 22,
+      "withoutSummary": 13
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 323,
+      "withoutSummary": 67
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 867,
+      "withoutSummary": 189
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 362,
+      "withoutSummary": 60
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 83,
+      "withoutSummary": 25
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 310,
+      "withoutSummary": 28
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 75,
+      "withoutSummary": 9
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T10:44:35.844849+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 2158, 'generationCalls': 217, 'formatPassed': 1203, 'formatFailed': 0, 'nullSummaries': 49, 'elapsedWallSeconds': 11196.298322}
+2026-09-15T10:44:36.209485+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-Dss3EIGT.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-DcOcdqNW.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-BpZ34wnd.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-D0AUX58l.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-DQ47nc5K.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-ggFb1I9-.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-QoS6U5PA.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/plant-stories-007-C2slXPVd.js          126.50 kB │ gzip:  22.22 kB
+dist-web/assets/index-iPedchs-.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-ChD-pdzn.js                   555.10 kB │ gzip: 140.72 kB
+dist-web/assets/plant-stories-005-Bthtsm0H.js          679.60 kB │ gzip: 107.19 kB
+dist-web/assets/plant-stories-004-CKo1OcOn.js          685.46 kB │ gzip: 111.85 kB
+dist-web/assets/plant-stories-003-BAGkw91W.js          707.10 kB │ gzip: 121.55 kB
+dist-web/assets/plant-stories-002-CiYhFE5o.js          723.22 kB │ gzip: 128.68 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-CbdeLtSE.js          921.79 kB │ gzip: 139.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 836ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13396.29 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 240.7 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T10:44:40.084787+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 240.7 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-D0AUX58l.js
+Uploaded assets/FieldMap-ChD-pdzn.js
+Uploaded assets/Identify-ggFb1I9-.js
+Uploaded assets/Places-BpZ34wnd.js
+Uploaded assets/SourceCredits-DcOcdqNW.js
+Uploaded assets/appearance-QoS6U5PA.js
+Uploaded assets/countryCatalogue-Dss3EIGT.js
+Uploaded assets/index-iPedchs-.js
+Uploaded assets/nativeDatabase-DQ47nc5K.js
+Uploaded assets/plant-stories-001-AWBZNRGB.js
+Uploaded assets/plant-stories-002-CiYhFE5o.js
+Uploaded assets/plant-stories-005-Bthtsm0H.js
+Uploaded assets/plant-stories-007-C2slXPVd.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 15 files uploaded.
+2026-09-15T10:44:58.640382+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T10:45:03.324294+00:00 Published 1000 attempted plants checkpoint
+2026-09-15T11:02:34.106952+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7235,"changedCount":192,"nullSummaryCount":37}
+2026-09-15T11:02:36.236061+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T11:02:40.458Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7209,
+  "withoutSummary": 1314,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 848,
+  "routes": {
+    "summary_present": 6361,
+    "retrieve_additional_sources": 925,
+    "short_summary_review": 848,
+    "existing_source_identity_review": 242,
+    "existing_matched_source": 147
+  },
+  "missingByRank": {
+    "hybrid": 151,
+    "genushybrid": 3,
+    "species": 965,
+    "genus": 84,
+    "complex": 27,
+    "tribe": 8,
+    "subgenus": 19,
+    "section": 44,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 39,
+      "withoutSummary": 5
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 485,
+      "withoutSummary": 78
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 530,
+      "withoutSummary": 78
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 345,
+      "withoutSummary": 58
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 491,
+      "withoutSummary": 118
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 894,
+      "withoutSummary": 173
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 207,
+      "withoutSummary": 34
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 221,
+      "withoutSummary": 45
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 304,
+      "withoutSummary": 44
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 266,
+      "withoutSummary": 68
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 129,
+      "withoutSummary": 10
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 97,
+      "withoutSummary": 17
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 322,
+      "withoutSummary": 62
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 423,
+      "withoutSummary": 63
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 168,
+      "withoutSummary": 18
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 113,
+      "withoutSummary": 51
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 22,
+      "withoutSummary": 13
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 326,
+      "withoutSummary": 64
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 876,
+      "withoutSummary": 180
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 364,
+      "withoutSummary": 58
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 84,
+      "withoutSummary": 24
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 311,
+      "withoutSummary": 27
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 76,
+      "withoutSummary": 8
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T11:02:40.515375+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 2358, 'generationCalls': 237, 'formatPassed': 1402, 'formatFailed': 1, 'nullSummaries': 54, 'elapsedWallSeconds': 12273.789043}
+2026-09-15T11:02:40.830051+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-CnUHwmI_.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-BYmDaV-N.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-CTOF6bKt.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-DytCintL.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-D2D0rDlR.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-DAmsllex.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-iAbnCZ3l.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/plant-stories-007-l3b8h-Gi.js          182.30 kB │ gzip:  31.77 kB
+dist-web/assets/index-CilBFUMS.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-BtUdd05q.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-005-Bthtsm0H.js          679.60 kB │ gzip: 107.19 kB
+dist-web/assets/plant-stories-004-CKo1OcOn.js          685.46 kB │ gzip: 111.85 kB
+dist-web/assets/plant-stories-003-BcMaXhLq.js          737.87 kB │ gzip: 130.16 kB
+dist-web/assets/plant-stories-002-BkcM55Tk.js          746.54 kB │ gzip: 135.34 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-CbdeLtSE.js          921.79 kB │ gzip: 139.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 712ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13503.60 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 240.8 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T11:02:44.554946+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 240.8 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-DytCintL.js
+Uploaded assets/FieldMap-BtUdd05q.js
+Uploaded assets/Identify-DAmsllex.js
+Uploaded assets/Places-CTOF6bKt.js
+Uploaded assets/SourceCredits-BYmDaV-N.js
+Uploaded assets/appearance-iAbnCZ3l.js
+Uploaded assets/countryCatalogue-CnUHwmI_.js
+Uploaded assets/index-CilBFUMS.js
+Uploaded assets/nativeDatabase-D2D0rDlR.js
+Uploaded assets/plant-stories-002-BkcM55Tk.js
+Uploaded assets/plant-stories-003-BcMaXhLq.js
+Uploaded assets/plant-stories-007-l3b8h-Gi.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 14 files uploaded.
+2026-09-15T11:03:05.516669+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T11:03:10.249210+00:00 Published 1200 attempted plants checkpoint
+2026-09-15T11:20:11.090101+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7274,"changedCount":191,"nullSummaryCount":33}
+2026-09-15T11:20:13.665233+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T11:20:18.050Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7252,
+  "withoutSummary": 1271,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 724,
+  "routes": {
+    "summary_present": 6528,
+    "retrieve_additional_sources": 904,
+    "short_summary_review": 724,
+    "existing_source_identity_review": 224,
+    "existing_matched_source": 143
+  },
+  "missingByRank": {
+    "hybrid": 149,
+    "genushybrid": 3,
+    "species": 924,
+    "genus": 84,
+    "complex": 27,
+    "tribe": 8,
+    "subgenus": 19,
+    "section": 44,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 39,
+      "withoutSummary": 5
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 489,
+      "withoutSummary": 74
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 532,
+      "withoutSummary": 76
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 350,
+      "withoutSummary": 53
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 495,
+      "withoutSummary": 114
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 900,
+      "withoutSummary": 167
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 208,
+      "withoutSummary": 33
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 221,
+      "withoutSummary": 45
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 305,
+      "withoutSummary": 43
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 266,
+      "withoutSummary": 68
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 129,
+      "withoutSummary": 10
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 97,
+      "withoutSummary": 17
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 327,
+      "withoutSummary": 57
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 426,
+      "withoutSummary": 60
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 168,
+      "withoutSummary": 18
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 115,
+      "withoutSummary": 49
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 22,
+      "withoutSummary": 13
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 328,
+      "withoutSummary": 62
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 882,
+      "withoutSummary": 174
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 365,
+      "withoutSummary": 57
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 84,
+      "withoutSummary": 24
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 312,
+      "withoutSummary": 26
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 76,
+      "withoutSummary": 8
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T11:20:18.090295+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 2558, 'generationCalls': 257, 'formatPassed': 1602, 'formatFailed': 1, 'nullSummaries': 59, 'elapsedWallSeconds': 13324.058229}
+2026-09-15T11:20:18.455119+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-D1e40MWT.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-vvHB4svx.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-DCsgeWRI.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-X8Uy-WNb.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-C0aF89FB.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-fsg6QWCh.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-CcN9zFHF.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/plant-stories-007-CSLkb8Vp.js          211.06 kB │ gzip:  36.38 kB
+dist-web/assets/index-Rzw5Uxkt.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-DAQfw058.js                   555.10 kB │ gzip: 140.72 kB
+dist-web/assets/plant-stories-005-Bthtsm0H.js          679.60 kB │ gzip: 107.19 kB
+dist-web/assets/plant-stories-004-C_SDamyg.js          731.76 kB │ gzip: 122.23 kB
+dist-web/assets/plant-stories-002-BkcM55Tk.js          746.54 kB │ gzip: 135.34 kB
+dist-web/assets/plant-stories-003-DU6cgVfe.js          756.87 kB │ gzip: 133.59 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-CbdeLtSE.js          921.79 kB │ gzip: 139.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 826ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13595.47 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 240.9 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T11:20:22.179553+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 240.9 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-X8Uy-WNb.js
+Uploaded assets/FieldMap-DAQfw058.js
+Uploaded assets/Identify-fsg6QWCh.js
+Uploaded assets/Places-DCsgeWRI.js
+Uploaded assets/SourceCredits-vvHB4svx.js
+Uploaded assets/appearance-CcN9zFHF.js
+Uploaded assets/countryCatalogue-D1e40MWT.js
+Uploaded assets/index-Rzw5Uxkt.js
+Uploaded assets/nativeDatabase-C0aF89FB.js
+Uploaded assets/plant-stories-003-DU6cgVfe.js
+Uploaded assets/plant-stories-004-C_SDamyg.js
+Uploaded assets/plant-stories-007-CSLkb8Vp.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 14 files uploaded.
+2026-09-15T11:20:39.582157+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T11:20:44.014478+00:00 Published 1400 attempted plants checkpoint
+2026-09-15T11:37:44.873939+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7341,"changedCount":169,"nullSummaryCount":33}
+2026-09-15T11:37:47.294784+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T11:37:51.418Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7319,
+  "withoutSummary": 1204,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 655,
+  "routes": {
+    "summary_present": 6664,
+    "retrieve_additional_sources": 852,
+    "short_summary_review": 655,
+    "existing_source_identity_review": 209,
+    "existing_matched_source": 143
+  },
+  "missingByRank": {
+    "hybrid": 146,
+    "genushybrid": 3,
+    "species": 860,
+    "genus": 84,
+    "complex": 27,
+    "tribe": 8,
+    "subgenus": 19,
+    "section": 44,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 39,
+      "withoutSummary": 5
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 492,
+      "withoutSummary": 71
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 539,
+      "withoutSummary": 69
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 353,
+      "withoutSummary": 50
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 499,
+      "withoutSummary": 110
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 904,
+      "withoutSummary": 163
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 209,
+      "withoutSummary": 32
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 221,
+      "withoutSummary": 45
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 309,
+      "withoutSummary": 39
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 270,
+      "withoutSummary": 64
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 131,
+      "withoutSummary": 8
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 101,
+      "withoutSummary": 13
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 332,
+      "withoutSummary": 52
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 428,
+      "withoutSummary": 58
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 170,
+      "withoutSummary": 16
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 116,
+      "withoutSummary": 48
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 23,
+      "withoutSummary": 12
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 336,
+      "withoutSummary": 54
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 885,
+      "withoutSummary": 171
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 368,
+      "withoutSummary": 54
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 86,
+      "withoutSummary": 22
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 315,
+      "withoutSummary": 23
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 77,
+      "withoutSummary": 7
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T11:37:51.468793+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 2758, 'generationCalls': 277, 'formatPassed': 1782, 'formatFailed': 1, 'nullSummaries': 63, 'elapsedWallSeconds': 14377.982876}
+2026-09-15T11:37:51.833644+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-1LspOfEr.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-_ZpFaR2U.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-CeBfSOsT.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-jS4Qdqjw.js                   4.83 kB │ gzip:   1.88 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-BbgcUw-a.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-B3oXgTsS.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-DND8ywji.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/plant-stories-007-DZHCFaTa.js          258.38 kB │ gzip:  44.47 kB
+dist-web/assets/index-BBUXusWe.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-DwsSF8KZ.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-005-wluYUnYk.js          711.23 kB │ gzip: 113.50 kB
+dist-web/assets/plant-stories-002-BkcM55Tk.js          746.54 kB │ gzip: 135.34 kB
+dist-web/assets/plant-stories-004-pC96B0HK.js          746.55 kB │ gzip: 125.56 kB
+dist-web/assets/plant-stories-003-DU6cgVfe.js          756.87 kB │ gzip: 133.59 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-CbdeLtSE.js          921.79 kB │ gzip: 139.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 760ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13687.01 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.0 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T11:37:55.511044+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.0 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-jS4Qdqjw.js
+Uploaded assets/FieldMap-DwsSF8KZ.js
+Uploaded assets/Identify-B3oXgTsS.js
+Uploaded assets/Places-CeBfSOsT.js
+Uploaded assets/SourceCredits-_ZpFaR2U.js
+Uploaded assets/appearance-DND8ywji.js
+Uploaded assets/countryCatalogue-1LspOfEr.js
+Uploaded assets/index-BBUXusWe.js
+Uploaded assets/nativeDatabase-BbgcUw-a.js
+Uploaded assets/plant-stories-004-pC96B0HK.js
+Uploaded assets/plant-stories-005-wluYUnYk.js
+Uploaded assets/plant-stories-007-DZHCFaTa.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 14 files uploaded.
+2026-09-15T11:38:12.211140+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T11:38:16.792399+00:00 Published 1600 attempted plants checkpoint
+2026-09-15T11:53:17.147193+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7445,"changedCount":183,"nullSummaryCount":33}
+2026-09-15T11:53:19.768737+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T11:53:24.051Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7423,
+  "withoutSummary": 1100,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 625,
+  "routes": {
+    "summary_present": 6798,
+    "retrieve_additional_sources": 776,
+    "short_summary_review": 625,
+    "existing_source_identity_review": 182,
+    "existing_matched_source": 142
+  },
+  "missingByRank": {
+    "hybrid": 142,
+    "genushybrid": 3,
+    "species": 767,
+    "genus": 82,
+    "complex": 27,
+    "tribe": 6,
+    "subgenus": 17,
+    "section": 43,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 40,
+      "withoutSummary": 4
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 504,
+      "withoutSummary": 59
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 545,
+      "withoutSummary": 63
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 358,
+      "withoutSummary": 45
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 510,
+      "withoutSummary": 99
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 923,
+      "withoutSummary": 144
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 212,
+      "withoutSummary": 29
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 228,
+      "withoutSummary": 38
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 314,
+      "withoutSummary": 34
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 276,
+      "withoutSummary": 58
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 131,
+      "withoutSummary": 8
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 101,
+      "withoutSummary": 13
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 334,
+      "withoutSummary": 50
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 433,
+      "withoutSummary": 53
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 170,
+      "withoutSummary": 16
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 122,
+      "withoutSummary": 42
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 23,
+      "withoutSummary": 12
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 339,
+      "withoutSummary": 51
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 895,
+      "withoutSummary": 161
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 370,
+      "withoutSummary": 52
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 87,
+      "withoutSummary": 21
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 315,
+      "withoutSummary": 23
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 77,
+      "withoutSummary": 7
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T11:53:24.093058+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 2958, 'generationCalls': 297, 'formatPassed': 1981, 'formatFailed': 2, 'nullSummaries': 75, 'elapsedWallSeconds': 15329.40453}
+2026-09-15T11:53:24.458137+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-B99BvAIG.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-BIWpWkL6.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-cUR03Gtr.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-ChnQKCkZ.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-D9KyjK57.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-Ch0GDsXA.js                    21.27 kB │ gzip:   7.86 kB
+dist-web/assets/appearance-BTYVmpY2.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/plant-stories-007-Bw0ONqxX.js          332.57 kB │ gzip:  56.22 kB
+dist-web/assets/index-CvqSMXz9.js                      382.00 kB │ gzip: 122.05 kB
+dist-web/assets/FieldMap-BZzR4H1y.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-005-BEMweqRB.js          741.86 kB │ gzip: 120.00 kB
+dist-web/assets/plant-stories-002-BkcM55Tk.js          746.54 kB │ gzip: 135.34 kB
+dist-web/assets/plant-stories-004-pC96B0HK.js          746.55 kB │ gzip: 125.56 kB
+dist-web/assets/plant-stories-003-DU6cgVfe.js          756.87 kB │ gzip: 133.59 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-CbdeLtSE.js          921.79 kB │ gzip: 139.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 835ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13789.37 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.1 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T11:53:28.232681+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.1 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-ChnQKCkZ.js
+Uploaded assets/FieldMap-BZzR4H1y.js
+Uploaded assets/Identify-Ch0GDsXA.js
+Uploaded assets/Places-cUR03Gtr.js
+Uploaded assets/SourceCredits-BIWpWkL6.js
+Uploaded assets/appearance-BTYVmpY2.js
+Uploaded assets/countryCatalogue-B99BvAIG.js
+Uploaded assets/index-CvqSMXz9.js
+Uploaded assets/nativeDatabase-D9KyjK57.js
+Uploaded assets/plant-stories-005-BEMweqRB.js
+Uploaded assets/plant-stories-007-Bw0ONqxX.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 13 files uploaded.
+2026-09-15T11:53:46.856775+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T11:53:50.987342+00:00 Published 1800 attempted plants checkpoint
+2026-09-15T12:10:51.823165+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7576,"changedCount":193,"nullSummaryCount":32}
+2026-09-15T12:10:54.462155+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T12:10:58.699Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7555,
+  "withoutSummary": 968,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 613,
+  "routes": {
+    "summary_present": 6942,
+    "retrieve_additional_sources": 686,
+    "short_summary_review": 613,
+    "existing_source_identity_review": 143,
+    "existing_matched_source": 139
+  },
+  "missingByRank": {
+    "hybrid": 120,
+    "genushybrid": 3,
+    "species": 662,
+    "genus": 81,
+    "complex": 26,
+    "tribe": 6,
+    "subgenus": 16,
+    "section": 41,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 40,
+      "withoutSummary": 4
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 514,
+      "withoutSummary": 49
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 553,
+      "withoutSummary": 55
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 363,
+      "withoutSummary": 40
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 519,
+      "withoutSummary": 90
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 947,
+      "withoutSummary": 120
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 214,
+      "withoutSummary": 27
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 234,
+      "withoutSummary": 32
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 319,
+      "withoutSummary": 29
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 283,
+      "withoutSummary": 51
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 132,
+      "withoutSummary": 7
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 102,
+      "withoutSummary": 12
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 342,
+      "withoutSummary": 42
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 443,
+      "withoutSummary": 43
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 172,
+      "withoutSummary": 14
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 132,
+      "withoutSummary": 32
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 23,
+      "withoutSummary": 12
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 343,
+      "withoutSummary": 47
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 908,
+      "withoutSummary": 148
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 373,
+      "withoutSummary": 49
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 89,
+      "withoutSummary": 19
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 317,
+      "withoutSummary": 21
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 77,
+      "withoutSummary": 7
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T12:10:58.743873+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 3158, 'generationCalls': 317, 'formatPassed': 2181, 'formatFailed': 2, 'nullSummaries': 81, 'elapsedWallSeconds': 16385.011718}
+2026-09-15T12:10:59.108709+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-D5VRjZJp.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-DoN2ukiQ.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-D4BkGMX9.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-CJI4QY7B.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-BKEtFbLR.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-C76Zjgcy.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-DgMYsUSQ.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/index-NflMFof_.js                      382.00 kB │ gzip: 122.05 kB
+dist-web/assets/plant-stories-007-C0Tg9PVu.js          421.98 kB │ gzip:  70.06 kB
+dist-web/assets/FieldMap-D22MVnkK.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-002-BkcM55Tk.js          746.54 kB │ gzip: 135.34 kB
+dist-web/assets/plant-stories-004-pC96B0HK.js          746.55 kB │ gzip: 125.56 kB
+dist-web/assets/plant-stories-003-DU6cgVfe.js          756.87 kB │ gzip: 133.59 kB
+dist-web/assets/plant-stories-005-e8GpqlsC.js          757.83 kB │ gzip: 123.58 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-yT4QyD57.js          928.24 kB │ gzip: 141.12 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 706ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13898.58 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.2 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T12:11:02.732732+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.2 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-CJI4QY7B.js
+Uploaded assets/FieldMap-D22MVnkK.js
+Uploaded assets/Identify-C76Zjgcy.js
+Uploaded assets/Places-D4BkGMX9.js
+Uploaded assets/SourceCredits-DoN2ukiQ.js
+Uploaded assets/appearance-DgMYsUSQ.js
+Uploaded assets/countryCatalogue-D5VRjZJp.js
+Uploaded assets/index-NflMFof_.js
+Uploaded assets/nativeDatabase-BKEtFbLR.js
+Uploaded assets/plant-stories-005-e8GpqlsC.js
+Uploaded assets/plant-stories-006-yT4QyD57.js
+Uploaded assets/plant-stories-007-C0Tg9PVu.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 14 files uploaded.
+2026-09-15T12:11:23.141760+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T12:11:27.473502+00:00 Published 2000 attempted plants checkpoint
+2026-09-15T12:15:57.585003+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7618,"changedCount":46,"nullSummaryCount":31}
+2026-09-15T12:15:59.653338+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T12:16:03.239Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7598,
+  "withoutSummary": 925,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 626,
+  "routes": {
+    "summary_present": 6972,
+    "retrieve_additional_sources": 659,
+    "short_summary_review": 626,
+    "existing_source_identity_review": 128,
+    "existing_matched_source": 138
+  },
+  "missingByRank": {
+    "hybrid": 108,
+    "genushybrid": 2,
+    "species": 632,
+    "genus": 81,
+    "complex": 26,
+    "tribe": 6,
+    "subgenus": 16,
+    "section": 41,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 40,
+      "withoutSummary": 4
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 518,
+      "withoutSummary": 45
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 560,
+      "withoutSummary": 48
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 365,
+      "withoutSummary": 38
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 522,
+      "withoutSummary": 87
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 953,
+      "withoutSummary": 114
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 215,
+      "withoutSummary": 26
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 235,
+      "withoutSummary": 31
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 320,
+      "withoutSummary": 28
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 284,
+      "withoutSummary": 50
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 93,
+      "withoutSummary": 11
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 134,
+      "withoutSummary": 5
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 105,
+      "withoutSummary": 9
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 345,
+      "withoutSummary": 39
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 444,
+      "withoutSummary": 42
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 172,
+      "withoutSummary": 14
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 132,
+      "withoutSummary": 32
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 26,
+      "withoutSummary": 9
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 344,
+      "withoutSummary": 46
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 910,
+      "withoutSummary": 146
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 374,
+      "withoutSummary": 48
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 90,
+      "withoutSummary": 18
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 317,
+      "withoutSummary": 21
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 77,
+      "withoutSummary": 7
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 20,
+      "withoutSummary": 5
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T12:16:03.275595+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 3206, 'generationCalls': 322, 'formatPassed': 2229, 'formatFailed': 2, 'nullSummaries': 83, 'elapsedWallSeconds': 16693.543192}
+2026-09-15T12:16:03.640443+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-D_YIpTce.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-DHNnWnGg.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-BxSOz3Q1.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-B3MJiSmg.js                   4.83 kB │ gzip:   1.88 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-BzICv0eK.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-DjqFCEmX.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-DDjB6St8.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/index-CuiPvaIY.js                      382.00 kB │ gzip: 122.05 kB
+dist-web/assets/plant-stories-007-RHT8opeg.js          451.18 kB │ gzip:  74.75 kB
+dist-web/assets/FieldMap-B0Xgh6pu.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-002-BkcM55Tk.js          746.54 kB │ gzip: 135.34 kB
+dist-web/assets/plant-stories-004-pC96B0HK.js          746.55 kB │ gzip: 125.56 kB
+dist-web/assets/plant-stories-003-DU6cgVfe.js          756.87 kB │ gzip: 133.59 kB
+dist-web/assets/plant-stories-005-e8GpqlsC.js          757.83 kB │ gzip: 123.58 kB
+dist-web/assets/plant-stories-001-AWBZNRGB.js          766.97 kB │ gzip: 139.41 kB
+dist-web/assets/plant-stories-000-DX7ocWvo.js          769.33 kB │ gzip: 144.96 kB
+dist-web/assets/plant-stories-006-DyxtOQP4.js          929.94 kB │ gzip: 141.49 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 728ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (13928.76 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.2 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T12:16:06.772074+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.2 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-B3MJiSmg.js
+Uploaded assets/FieldMap-B0Xgh6pu.js
+Uploaded assets/Identify-DjqFCEmX.js
+Uploaded assets/Places-BxSOz3Q1.js
+Uploaded assets/SourceCredits-DHNnWnGg.js
+Uploaded assets/appearance-DDjB6St8.js
+Uploaded assets/countryCatalogue-D_YIpTce.js
+Uploaded assets/index-CuiPvaIY.js
+Uploaded assets/nativeDatabase-BzICv0eK.js
+Uploaded assets/plant-stories-006-DyxtOQP4.js
+Uploaded assets/plant-stories-007-RHT8opeg.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 13 files uploaded.
+2026-09-15T12:16:25.430818+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T12:16:29.556835+00:00 Published 2048 attempted plants checkpoint
+2026-09-15T12:16:29.556968+00:00 Generator stopped; monitor exiting without retries

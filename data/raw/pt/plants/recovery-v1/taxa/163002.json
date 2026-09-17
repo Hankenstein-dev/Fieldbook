@@ -1,0 +1,55 @@
+{
+  "taxonId": 163002,
+  "name": "Fissidens exilis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:51.291231+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Fissidens exilis Hedw.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "terrestrial\n\nplant\n\nnon cuddly\n\nmobile\n\nmesotrophic\n\nlonglived\n\neurytopic\n\nRECORDS. — Corbière (1904), Jelenc (1955 a): La Bouzaréah. Jelenc (1955 a): Kabylie du Djurdjura, Aït Idjer. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5283214.json",
+      "sha256": "61fb571da88a64e5d2e39aa64de7ab0578ee188c4a65ea46fccf63f6c9f82ea4",
+      "url": "https://api.gbif.org/v1/species/5283214",
+      "credit": {
+        "title": "Fissidens exilis Hedw.",
+        "url": "https://www.gbif.org/species/5283214",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/99ba02d9f115a8bffb3c146e6a7ed75441d30181610d16b30334d3455bf05c80.json",
+      "title": "Fissidens exilis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fissidens exilis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pygmy Pocket-Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fissidens+exilis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fissidens+exilis&limit=100",
+      "status": 200
+    }
+  ]
+}

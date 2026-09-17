@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":341162,"scientificName":"Colchicum filifolium","commonName":"Colchicum filifolium","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Colchicum filifolium","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón\n| name = ''Colchicum filifolium''\n| status = \n| image = Merendera filifolia.jpg\n| image_caption = \n| image_width = 240px\n| regnum =[[Plantae]]\n| divisio = [[Magnoliophyta]]\n| classis = [[Liliopsida]]\n| subclassis = [[Liliidae]]\n| ordo = [[Liliales]]\n| familia = [[Colchicaceae]]\n| genus = [[Colchicum]]\n| species = C. filifolium\n| binomial = Colchicum filifolium\n| binomial_authority = ([[Cambess.]]) [[Stef.]]\n}}"},{"id":"s1:p2","text":"Colchicum filifolium es una especie de planta con flor, bulbosa, perteneciente a la familia de las colchicáceas."},{"id":"s1:p3","text":" Descripción \nTuberobulbo de 1,5-2 x 1-1,5 (-2) cm. Túnicas pardas, prolongándose hasta 2-5 cm por encima del tuberobulbo. Vaina membranosa, blanca, tan larga como las túnicas o ligeramente más larga. Hojas de hasta 10 cm de longitud y (1-) 1,5-2,5 (-3) mm de anchura, lineares, apareciendo casi simultáneamente con las flores. Flores solitarias, raramente 2 por bulbo. Tépalos con limbo de (20-) 25-40 x 2-5 (-9) mm, de oblongo-elíptico a estrechamente elíptico, obtuso, lila. Estambres más o menos de la mitad de la longitud del limbo de los tépalos; filamemos filiformes; anteras de (3,5-) 5,5-8 (-12) mm, basifijas, amarillas. Cápsulas de 8-12 mm, oblongas. Tiene un número de cromosomas de 2n = 54. Florece de octubre a noviembre."},{"id":"s1:p4","text":" Distribución y hábitat \nSe encuentra en campos incultos, sobre suelos preferentemente ácidos. Se distribuye en la Región mediterránea Occidental. "},{"id":"s1:p5","text":"Taxonomía\nColchicum filifolium fue descrita por (Cambess.) Stef. y publicado en Sborn. B'lghar. Akad. Nauk 22: 58. 1926.\nSinonimia\n Bulbocodium balearicum Nyman\n Bulbocodium filifolium (Cambess.) Cuatrec. \n Bulbocodium fontanesii Heynh. \n Merendera filifolia Cambess. \n Merendera filifolia var. atlantica Chabert \n Merendera linifolia Munby"}]}]}

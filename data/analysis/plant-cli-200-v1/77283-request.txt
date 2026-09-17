@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":77283,"scientificName":"Glinus lotoides","commonName":"Hairy Carpet Weed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Glinus lotoides","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Glinus lotoides is a species of flowering plant in the family Molluginaceae known by the common names damascisa and lotus sweetjuice. It is native to Eurasia and Africa and it is known in many other places as an introduced species."},{"id":"s1:p2","text":"Description\nIt is a prostrate to somewhat upright annual herb with a stem up to about 30 or 35 centimeters long and coated in feltlike whitish hairs. The oval or spade-shaped leaves are located in whorls about the stem. Each is a few millimeters to 3 centimeters long. The inflorescence is a tight cluster of five to ten small flowers. Each flower has five woolly sepals and no petals. The fruit is an oval capsule about four millimeters long."},{"id":"s1:p3","text":"Uses\nThis plant is found in seasonally inundated land and has many traditional uses in cultures across its large native range, as medicine and as food. Young leaves and stems of Glinus lotoides are used as a vegetable in some tropical countries."}]}]}

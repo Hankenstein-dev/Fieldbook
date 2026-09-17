@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 584239,
+    "scientificName": "Drosanthemum intermedium",
+    "commonName": "Drosanthemum intermedium",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Drosanthemum intermedium",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Drosanthemum intermedium är en isörtsväxtart som först beskrevs av L. Bol., och fick sitt nu gällande namn av L. Bol. Drosanthemum intermedium ingår i släktet Drosanthemum och familjen isörtsväxter. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Isörtsväxter\nintermedium"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Drosanthemum intermedium L.Bolus — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Drosanthemum intermedium L.Bolus."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is SW. Cape Prov. It is a succulent subshrub and grows primarily in the desert or dry shrubland biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/3f0cae32820003f6cb5de8659bc076c6b21960af8b7281787afb3a369bf08cc0.json",
+      "sha256": "44baa3ea1db9c3d37a318302427e3792d36ddcd93155d5a73536fd514d4dcfd8",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=56249451",
+      "revisionId": 56249451,
+      "credit": {
+        "title": "Drosanthemum intermedium",
+        "url": "https://sv.wikipedia.org/wiki/Drosanthemum_intermedium",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=56249451",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/584239-29741dae63ae13f2.json",
+      "sha256": "29741dae63ae13f2793ac1e5fee9be99f4b9dc054edceeb556fd574e538a78f1",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A361693-1",
+      "credit": {
+        "title": "Drosanthemum intermedium L.Bolus — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A361693-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 584239,
+    "name": "Drosanthemum intermedium",
+    "language": "sv,en",
+    "sourceTextTokens": 138,
+    "packetTokens": 306,
+    "standaloneInputTextTokens": 758,
+    "packetSha256": "4f70526f555cfa56f346bb854dba306947431afdd9a2e0f9716c671beef4e2b7"
+  }
+}

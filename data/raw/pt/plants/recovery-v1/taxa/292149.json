@@ -1,0 +1,58 @@
+{
+  "taxonId": 292149,
+  "name": "Lycaste macrophylla",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:57.472392+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lycaste macrophylla",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Lycaste macrophylla is a species of terrestrial orchid native to Costa Rica, Nicaragua, Panama, Colombia, Ecuador, Venezuela, Peru and Bolivia. It is the type species of the genus Lycaste.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/9f296fc1eae6e180f777752deb5a217414861d00f4870d4f05ed55323d34b518.json",
+      "sha256": "4d36948889ff1e81c5609dbc4d594d358bf23b3a63b23dd5aa1ab5822389e92d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314693862",
+      "revisionId": 1314693862,
+      "credit": {
+        "title": "Lycaste macrophylla",
+        "url": "https://en.wikipedia.org/wiki/Lycaste_macrophylla",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314693862",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Lycaste macrophylla (Poepp. & Endl.) Lindl.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lycaste macrophylla is a species of terrestrial orchid native to Costa Rica, Nicaragua, Panama, Colombia, Ecuador, Venezuela, Peru and Bolivia. It is the type species of the genus Lycaste.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165561117.json",
+      "sha256": "ffafb9e23c40ab1046576391505ef74fb26836c2fac52b131c59a1a7e0ed7c3d",
+      "url": "https://api.gbif.org/v1/species/165561117",
+      "credit": {
+        "title": "Lycaste macrophylla (Poepp. & Endl.) Lindl.",
+        "url": "https://www.gbif.org/species/165561117",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lycaste+macrophylla&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lycaste+macrophylla&limit=100",
+      "status": 200
+    }
+  ]
+}

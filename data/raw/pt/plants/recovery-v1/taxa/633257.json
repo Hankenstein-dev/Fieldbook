@@ -1,0 +1,43 @@
+{
+  "taxonId": 633257,
+  "name": "Photinia serrulata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:35.817696+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/76b3f37f6937d3e72de38382474e86d98ad9e87545b713a13c0bd1ee3809dfd5.json",
+      "title": "Photinia serratifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/eebf3f60af8f7e8fe925451f8b4f6a591d30ff2a40613ab7993be44a6f7ba3e5.json",
+      "title": "Photinia serratifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Photinia serrulata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chinese photinia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Photinia+serrulata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Photinia+serrulata&limit=100",
+      "status": 200
+    }
+  ]
+}

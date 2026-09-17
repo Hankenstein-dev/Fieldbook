@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":52162,"scientificName":"Cakile edentula","commonName":"American searocket","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cakile edentula","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Cakile edentula, the American searocket, is a species of the flowering Cakile plant. This plant is native to North America."},{"id":"s1:p2","text":"Distribution\nCakile edentula is most commonly found on the beaches and dunes of North America. It is found on the East coast of the United States and Canada. American sea-rocket is most likely to be found in areas along the coastline. This plant is not a wetland plant, but can occasionally be found in wetland environments. It is also a non-native, invasive species in other parts of the world, especially Japan and Australia, and on the west coast of North America."},{"id":"s1:p3","text":"Habitat and ecology\nCakile edentula grows on the dunes of coastal beaches, as well as shorelines of freshwater lakes. Well drained, sandy soil is preferred. It is likely to be found in areas midway up beaches, out of the range of waves and tides, which can destroy individuals, especially through storm events. Cakile edentula has the life cycle of an annual plant in Northern latitudes. In warmer climates, it survives as a biennial if possible.\nCakile edentula grows roots more aggressively and intensively if a nearby competitor is sensed. The plant does not react this way if the nearby competitor is kin."},{"id":"s1:p4","text":"Description\nIndividuals of this species are succulent plants with thick leaves. This plant grows as a short shrub on beaches. Leaves, one per node, alternately grow on the stem. These leaves have various teeth and lobe patterns."},{"id":"s1:p5","text":"Flowers and fruit"},{"id":"s1:p6","text":"Flowers are separate, radially symmetrical, and contain four petals. These flowers can be pink to red, blue to purple, or white. Fruit are small and green, about 1–2 centimeters in diameter. These fruit are dry and do not split open when ripe. Fruit are released at the end of each growing season."},{"id":"s1:p7","text":" Uses \nThe leaves are edible, preferably cooked, and not eaten in great quantity."}]}]}

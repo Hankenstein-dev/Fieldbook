@@ -1,0 +1,38 @@
+{
+  "taxonId": 119295,
+  "name": "Cyanotis tuberosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:56.966336+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/baa2d63ed19971c49082db12e7d0b39ca7ab12eae14b5d0e5f5bdd44a591de0d.json",
+      "title": "Cyanotis tuberosa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cyanotis tuberosa"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sahyadri Dew-Grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cyanotis+tuberosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cyanotis+tuberosa&limit=100",
+      "status": 200
+    }
+  ]
+}

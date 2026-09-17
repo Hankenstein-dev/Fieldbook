@@ -1,0 +1,59 @@
+{
+  "input": {
+    "taxonId": 558165,
+    "scientificName": "Gracilariopsis longissima",
+    "commonName": "Gracilariopsis longissima",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Gracilariopsis longissima (S. G. Gmel.) Steentoft",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Note: A later homonym of Fucus confervoides Huds. (Fl. Anglica: 474. 1762), as noted by Silva & al. (in Univ. Calif. Publ. Bot. 79: 917. 1996), and hence illegitimate."
+          },
+          {
+            "id": "s1:p2",
+            "text": "\" Habitat in Mari Anglico. \" RCN: 8290, 8358."
+          },
+          {
+            "id": "s1:p3",
+            "text": "Lectotype (Steentoft & al. in Taxon 40: 663. 1991): Herb. Linn. No. 1274.111, larger, right specimen (LINN)."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164005371.json",
+      "sha256": "78cef08a7d419642df1b8adca80e1340cbf5f08fe67e3a8f61adcc4c105c1b85",
+      "url": "https://api.gbif.org/v1/species/164005371",
+      "credit": {
+        "title": "Gracilariopsis longissima (S. G. Gmel.) Steentoft",
+        "url": "https://www.gbif.org/species/164005371",
+        "attribution": "Jarvis C, admin (2007). Chapter 7: Linnaean Plant Names and their Types (part F). Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.5281/zenodo.291971 accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/15fc4668-833d-4d5a-a3da-2aea5eb56079",
+        "fetchedAt": "2026-09-15T07:52:27.814388+00:00",
+        "title": "Chapter 7: Linnaean Plant Names and their Types (part F)"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 558165,
+    "name": "Gracilariopsis longissima",
+    "language": "unspecified",
+    "sourceTextTokens": 122,
+    "packetTokens": 245,
+    "standaloneInputTextTokens": 697,
+    "packetSha256": "49aa343a2739a04ec57755e1063bc2ea288aec36ca6c0ede42f8803b061da094"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 273687,
+  "name": "Agave mapisaga",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:49.643705+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Agave mapisaga",
+      "language": "es",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Ficha de taxón\n| name = ''Agave mapisaga''\n| regnum = [[Plantae]]\n| genus = [[Agave (planta)|Agave]]\n| binomial = '''Agave mapisaga'''\n| imagen = Maguey manso (Agave mapisaga), Gto.jpg\n| image_width = 275px\n| image_caption = Fotografía de la especie en el [[Municipio de Dolores Hidalgo]], [[Guanajuato]], [[México]].\n| ordo = [[Asparagales]]\n| subclassis = [[Liliidae]]\n| classis = [[Liliopsida]]\n| divisio = [[Magnoliophyta]]\n| familia = [[Asparagaceae]]\n| subfamilia = [[Agavoideae]]\n| species = '''A. mapisaga'''\n| binomial_authority = [[Trel.]], 1920\n| synonyms = *''Agave mapisaga'' var. ''lisa'' {{Small|[[Howard Scott Gentry|Gentry]], 1982}}\n*''Agave salmiana'' var. ''angustifolia'' {{Small|[[A.Berger]], 1915}}\n*''Agave salmiana'' var. ''recurvata'' {{Small|[[Georg Albano von Jacobi|Jacobi]], 1866}}\n}}\n\nEl maguey blanco, manso o pulquero (Agave mapisaga) es una especie de planta con flores perteneciente a la familia Asparagaceae.\n\n Distribución \nEl área de distribución nativa de esta especie se extiende en el Centro de México (tanto el centronorte como el centrosur), así como el Noreste y Suroeste del país.\n\n Taxonomía \nAgave mapisaga fue descrito por William Trelease y publicada en Contributions from the United States National Herbarium 23(1): 130–131, en 1920.\n\n Etimología \nVéase: Agave\n\nmapisaga:",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/es/2ac9d7f08f6584007ae138c4053c241579abfc27fddc3ab328a1a973aac706bc.json",
+      "sha256": "8700dee4f6597a97a53482840ce5c142d86463d85f9b71bafe06d01ab8a43829",
+      "url": "https://es.wikipedia.org/w/index.php?oldid=172981867",
+      "revisionId": 172981867,
+      "credit": {
+        "title": "Agave mapisaga",
+        "url": "https://es.wikipedia.org/wiki/Agave_mapisaga",
+        "revisionUrl": "https://es.wikipedia.org/w/index.php?oldid=172981867",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Agave+mapisaga&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Agave+mapisaga&limit=100",
+      "status": 200
+    }
+  ]
+}

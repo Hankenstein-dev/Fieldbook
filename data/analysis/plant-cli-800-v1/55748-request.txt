@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":55748,"scientificName":"Veronica arvensis","commonName":"corn speedwell","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Veronica arvensis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Veronica arvensis, common names: wall speedwell, corn speedwell, common speedwell, rock speedwell, field speedwell, is an annual flowering plant in the plantain family Plantaginaceae. The species is native to Europe and a common weed in gardens, pastures, waste places, and cultivated land."},{"id":"s1:p2","text":"Description\nIt is a hairy, erect to almost recumbent, annual herb, {{convert|9|to|40|cm}} high from a taproot. The leaves are oppositely arranged in pairs about the stem. The lower leaves have short petioles; the upper are sessile. Each leaf, {{convert|1.5|to|2.5|cm}} in length, is ovate, or triangular with a truncated or slightly cordate base, with coarse teeth. Borne in a raceme, initially compact but elongating with age, the flowers are pale blue to blue-violet, 2 to 3 mm in diameter, four-lobed with a narrow lowest lobe. Flower stalks are {{convert|0.5|to|2|mm}} and shorter than the bracts. The fruit capsules are heart-shaped and shorter than the sepal-teeth. It flowers from April to October."},{"id":"s1:p3","text":"Similar species – V. arvensis has stem leaves incised rather than well-lobed; similar species include Veronica verna, which has well-lobed stem leaves but when they are few, the plant as a whole can resemble V. arvensis."},{"id":"s1:p4","text":"Distribution\nIt is native to Africa, Asia and Europe."},{"id":"s1:p5","text":"Growth\nVeronica arvensis plants go through changes in their germination due to temperature and light that control the timing of growth in buried seed reserves. These plants tend to germinate in consistent temperature ranges of {{Convert|10-15|C}}.{{citation needed|date=April 2023}} If they do not make the first autumn cycle of growth, they can grow in the following spring.{{citation needed|date=April 2023}}"},{"id":"s1:p6","text":"Uses\nIt is a medicinal plant."},{"id":"s1:p7","text":"Uses (Ethnobotany):\nThe herb is alterative, antiscorbutic and diuretic. It has been used for the treatment of scurvy, impurities of the blood etc. It is also used as a remedy for scrofulous affections, especially of the skin, and is bruised and applied externally for healing burns and ulcers."}]}]}

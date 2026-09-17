@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":56506,"scientificName":"Chiloscyphus polyanthos","commonName":"Square-leaved Crestwort","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Chiloscyphus polyanthos","language":"de","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Chiloscyphus polyanthos ist eine Lebermoos-Art aus der Familie Lophocoleaceae. Deutsche Namen sind Vielblütiges Lippenbechermoos oder Bach-Lippenlebermoos."},{"id":"s1:p2","text":" Merkmale \nDie Pflanzen sind niederliegend oder aufsteigend, bis etwa 8 Zentimeter lang, um 3 Millimeter breit und bilden grüne bis schwärzlich-grüne Rasen oder wachsen vereinzelt. Die Blätter sind schief bis fast längs angewachsen, am Stämmchen deutlich herablaufend, rundlich quadratisch bis rechteckig, oben abgerundet oder etwas eingebuchtet. Die Blattzellen sind trübgrün, dünnwandig, die Zellecken nicht oder sehr schwach verdickt. Die Zellgröße in der Blattmitte ist etwa 25 mal 35 Mikrometer, pro Zelle sind ein bis fünf Ölkörper vorhanden. Die Unterblätter sind tief in zwei pfriemenförmige bis fadenförmige Lappen geteilt."},{"id":"s1:p3","text":"Die Geschlechterverteilung ist autözisch. Das kelchförmige Perianth ist an der Mündung dreilappig, die Lappen sind ganzrandig oder schwach gezähnt. Die Kalyptra ragt im voll entwickelten Zustand meist weit aus dem Perianth heraus. Die Chromosomenzahl beträgt n = 9. Sporogone sind häufig. Brutkörper fehlen."},{"id":"s1:p4","text":" Standortansprüche \nDie Art bevorzugt kalkarme, neutrale oder schwach saure bis schwach basische, nasse, feuchte bis frische, auch überflutete Standorte auf Gestein, Erde, Torf, Sand und Kies, auf Mauern, auf freiliegenden Baumwurzeln oder auf morschem Holz. Die Wuchsorte finden sich in schattigen Waldbächen, Waldquellen, Gräben, in Mooren und Sümpfen. Häufige Begleitmoose sind: Scapania undulata, Racomitrium aciculare, Dichodontium pellucidum, Platyhypnidium riparioides, Brachythecium rivulare, Hygrohypnum ochraceum."},{"id":"s1:p5","text":" Verbreitung \nChiloscyphus polyanthos ist subboreal verbreitet. Vorkommen gibt es in Europa und Makaronesien, im Kaukasus, in der Türkei, in Sibirien, im Himalaya, in Japan, in Nordamerika, auf Grönland und in Nordafrika."},{"id":"s1:p6","text":"In Österreich ist die Art in der Böhmischen Masse häufig, in den Randgebieten der Zentralalpen verbreitet, am Alpenhauptkamm und in der Flyschzone zerstreut, in den Nord- und Südalpen und den Tieflagenregionen selten. Der Lebensraum reicht von planaren bis subalpinen Höhenlagen."}]}]}

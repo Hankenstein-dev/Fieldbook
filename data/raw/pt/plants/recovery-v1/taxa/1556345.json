@@ -1,0 +1,33 @@
+{
+  "taxonId": 1556345,
+  "name": "Tradescantia virginiana",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:12.283492+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/da9aa5da43331fb0c06f946660a1e7d652731617d23384428815fea6fbbfdb35.json",
+      "title": "Tradescantia virginiana",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/da9aa5da43331fb0c06f946660a1e7d652731617d23384428815fea6fbbfdb35.json",
+      "title": "Tradescantia virginiana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tradescantia+virginiana&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tradescantia+virginiana&limit=100",
+      "status": 200
+    }
+  ]
+}

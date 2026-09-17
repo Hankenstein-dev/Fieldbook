@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":633980,"scientificName":"Pallenis spinosa","commonName":"Spiny Starwort","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pallenis spinosa","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Pallenis spinosa, commonly known as spiny starwort or spiny golden star, is an annual herbaceous plant belonging to the genus Pallenis of the family Asteraceae. The Latin name of the genus is derived from palea (chaff), referring to the chaffy receptacle, while the species name spinosa, meaning spiny, refers to the spiny bracts surrounding the flowers."},{"id":"s1:p2","text":"Description\nPallenis spinosa reaches on average {{convert|60|cm}} of height. Leaves are alternate, lanceolate or elliptical. The basal ones have short petioles, while the cauline ones are sessile or semiamplexicaul. A solitary inflorescence grows at the top of the branches. The large, slightly convex receptacle shows numerous, yellowish orange, hermaphrodite disc florets and two whorls of yellow ray florets. The long, villous, involucral bracts end in an apical sharp-pointed spine. The flowering period extends from May through July. Fruits are achenes of about 2–2,5 millimeters of length."},{"id":"s1:p3","text":"Distribution\nThis plant occurs in desert and coastal habitats of Southern Europe, North Africa, the Canary Islands and the Middle East."},{"id":"s1:p4","text":"Habitat\nThese plants can survive in very dry environments and can be found on uncultivated sunny lands and on the roadsides at {{convert|0|-|1400|m}} above sea level."}]}]}

@@ -1,0 +1,58 @@
+{
+  "taxonId": 1111123,
+  "name": "Oeosporangium pteridioides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:35.506326+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Oeosporangium pteridioides",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Oeosporangium pteridioides (with many synonyms, including Hemionitis pteridioides) is a species of fern in the family Pteridaceae. Its native distribution is Macaronesia, around the Mediterranean in Europe, North Africa and Western Asia, and into the Sahara.\n\nSubspecies\n{{As of|2020|January}}, the Checklist of Ferns and Lycophytes of the World recognized three subspecies:\nOeosporangium pteridioides subsp. pteridioides\nOeosporangium pteridioides subsp. reichsteinii Fraser-Jenk. & Pariyar\nOeosporangium pteridioides subsp. acrosticum (Balb.) Fraser-Jenk. & Pariyar, sometimes treated as a separate species (Oeosporangium acrosticum or Hemionitis acrostica)",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/374e4e98b1d32344c64859a79e78b34fba6a66fdf73fb57d85adafa836fc7c3e.json",
+      "sha256": "bbe79eb871e56d8e5944a1c6509b9de1c97aed109147d08ca70ef82e4f360323",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1279506801",
+      "revisionId": 1279506801,
+      "credit": {
+        "title": "Oeosporangium pteridioides",
+        "url": "https://en.wikipedia.org/wiki/Oeosporangium_pteridioides",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1279506801",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Oeosporangium pteridioides (Reichard) Fraser-Jenk. & Pariyar",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Oeosporangium pteridioides (with many synonyms, including Hemionitis pteridioides) is a species of fern in the family Pteridaceae. Its native distribution is Macaronesia, around the Mediterranean in Europe, North Africa and Western Asia, and into the Sahara.\n\n, the Checklist of Ferns and Lycophytes of the World recognized three subspecies: Oeosporangium pteridioides subsp. pteridioides Oeosporangium pteridioides subsp. reichsteinii Fraser-Jenk. & Pariyar Oeosporangium pteridioides subsp. acrosticum (Balb.) Fraser-Jenk. & Pariyar, sometimes treated as a separate species (Oeosporangium acrosticum or Hemionitis acrostica)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165819208.json",
+      "sha256": "ee8c671cd31b0286fe3079d1c70cbb98ad923fb4251c8429026487af98e31f02",
+      "url": "https://api.gbif.org/v1/species/165819208",
+      "credit": {
+        "title": "Oeosporangium pteridioides (Reichard) Fraser-Jenk. & Pariyar",
+        "url": "https://www.gbif.org/species/165819208",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Oeosporangium+pteridioides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Oeosporangium+pteridioides&limit=100",
+      "status": 200
+    }
+  ]
+}

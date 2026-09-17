@@ -1,0 +1,48 @@
+{
+  "taxonId": 493742,
+  "name": "Viburnum × carlocephalum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:42:21.227337+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9c9e49c87b608fe26ac0eec7d44b15d3f0bc8252a16a25b038177b80a6aab78c.json",
+      "title": "Viburnum × carlcephalum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/1f580cfd9d9a678854696bc86193cf590591927266f400d40a4d2d09783656e9.json",
+      "title": "Viburnum × carlcephalum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b2cd841d0a294d455f3079d7b8eb1fd7c3991da9499c3efafa66e17ab344e8e2.json",
+      "title": "Viburnum × carlcephalum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Viburnum × carlocephalum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "fragrant snowball viburnum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Viburnum+%C3%97+carlocephalum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Viburnum+%C3%97+carlocephalum&limit=100",
+      "status": 200
+    }
+  ]
+}

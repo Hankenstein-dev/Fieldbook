@@ -1,0 +1,45 @@
+{
+  "taxonId": 871630,
+  "name": "Cylindropuntieae",
+  "rank": "tribe",
+  "completedAt": "2026-09-15T07:44:40.267352+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cylindropuntieae Doweld",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Die Cylindropuntieae sind eine Tribus in der Unterfamilie Opuntioideae aus der Familie der Kakteengewächse.\n\nDie Arten der Tribus Cylindropuntieae wachsen strauchig oder bilden Polster. Die zylindrischen Triebe sind stark gegliedert und verzweigen überwiegend an ihrer Spitze. Gelegentlich bilden sie Pflanzen mit einem deutlichen Stamm und quirligen Seitenzweigen. Die darauf befindlichen Laubblätter sind bei den Arten Pereskiopsis und Quiabentia sukkulent und ausdauernd, während bei den restlichen Arten nur kurzlebige Blattrudimente ausgebildet werden. Die Dornen können eine papierartige Scheide haben oder nicht.\n\nEinzelnachweise Literatur Kategorie:Kakteengewächse Kategorie:Cactaceae\n\nDie Tribus Cylindropuntieae ist von Nordamerika bis in den Nordosten Südamerikas verbreitet. Sie wurde 1999 von Alexander Borissovitch Doweld aufgestellt.Sukkulenty. Band 1, Nummer 2, 1999, S. 25. Zur Tribus gehören die folgenden Gattungen: Cylindropuntia (Engelm.) F.M.Knuth Grusonia F. Rchb. ex Britton & Rose Pereskiopsis Britton & Rose Quiabentia Britton & Rose",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165213375.json",
+      "sha256": "6231c307ea07ce6112f21ea81a3fc8167d40ceee8c426aad70adad807f0181d3",
+      "url": "https://api.gbif.org/v1/species/165213375",
+      "credit": {
+        "title": "Cylindropuntieae Doweld",
+        "url": "https://www.gbif.org/species/165213375",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8b93e3761dee2952e713fc29575599228219c401ac26be172a0cd7a11a6410dc.json",
+      "title": "Opuntioideae",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cylindropuntieae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cylindropuntieae&limit=100",
+      "status": 200
+    }
+  ]
+}

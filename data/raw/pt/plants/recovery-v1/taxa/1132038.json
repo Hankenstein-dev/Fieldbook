@@ -1,0 +1,47 @@
+{
+  "taxonId": 1132038,
+  "name": "Calliandra tweediei",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:37.359157+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Calliandra tweediei",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Calliandra tweediei is a species of flowering plants of the genus Calliandra in the family Fabaceae. The plant is native to the Atlantic Forest ecoregion in southeastern Brazil.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/8a010a47580a7d67889b2520576e9d91f91569e637caa97593637181a8eb3aa6.json",
+      "sha256": "291012a7e9afe2c2d52559c312a71f4bf19da4b9f7eee76e3b122a3a48637a95",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1120130571",
+      "revisionId": 1120130571,
+      "credit": {
+        "title": "Calliandra tweediei",
+        "url": "https://en.wikipedia.org/wiki/Calliandra_tweediei",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1120130571",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Calliandra tweediei"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Calliandra+tweediei&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Calliandra+tweediei&limit=100",
+      "status": 200
+    }
+  ]
+}

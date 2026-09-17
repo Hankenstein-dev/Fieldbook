@@ -1,0 +1,47 @@
+{
+  "taxonId": 338321,
+  "name": "Euphorbia triangularis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:52.727151+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Euphorbia triangularis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use South African English|date = May 2023}}\n\nEuphorbia triangularis, commonly known as river naboom, river euphorbia, chandelier-tree or tree euphorbia, is a species of plant in the family Euphorbiaceae native to southern Africa.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/4d6bfc9d673f3ca3f5f8279d9634f586ef43f9b6feefd18664466eea180933b9.json",
+      "sha256": "4cabd11483e544c7899aa3966a990183e262b2b34f269eda549187ddc4bc03fe",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1156514495",
+      "revisionId": 1156514495,
+      "credit": {
+        "title": "Euphorbia triangularis",
+        "url": "https://en.wikipedia.org/wiki/Euphorbia_triangularis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1156514495",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Euphorbia triangularis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Euphorbia+triangularis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Euphorbia+triangularis&limit=100",
+      "status": 200
+    }
+  ]
+}

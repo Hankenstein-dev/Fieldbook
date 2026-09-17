@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 338622,
+  "scientificName": "Narcissus gaditanus",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 338622,
+    "scientificName": "Narcissus gaditanus",
+    "commonName": "Narcissus gaditanus",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://static.inaturalist.org/photos/32345418/medium.jpeg",
+      "attribution": "(c) mjcorreia, all rights reserved, uploaded by mjcorreia",
+      "license": "all-rights-reserved",
+      "sourceUrl": "https://www.inaturalist.org/photos/32345418"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 338622,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47163,
+        47218,
+        55849,
+        924654,
+        924794,
+        53597,
+        993245,
+        993279,
+        338622
+      ],
+      "is_active": true,
+      "name": "Narcissus gaditanus",
+      "parent_id": 993279,
+      "ancestry": "48460/47126/211194/47125/47163/47218/55849/924654/924794/53597/993245/993279",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 32345418,
+        "license_code": null,
+        "attribution": "(c) mjcorreia, all rights reserved, uploaded by mjcorreia",
+        "url": "https://static.inaturalist.org/photos/32345418/square.jpeg",
+        "original_dimensions": {
+          "height": 1080,
+          "width": 1620
+        },
+        "flags": [],
+        "attribution_name": "mjcorreia",
+        "square_url": "https://static.inaturalist.org/photos/32345418/square.jpeg",
+        "medium_url": "https://static.inaturalist.org/photos/32345418/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 272,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": 26271,
+      "complete_species_count": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Narcissus_gaditanus",
+      "iconic_taxon_name": "Plantae",
+      "conservation_status": {
+        "id": 209129,
+        "place_id": null,
+        "source_id": null,
+        "user_id": null,
+        "authority": "IUCN Red List",
+        "status": "nt",
+        "status_name": "near threatened",
+        "geoprivacy": "obscured",
+        "iucn": 20
+      }
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?lat=37.11181640625&lng=-8.59130859375&locale=en&page=14&per_page=200&radius=8.2",
+    "fetchedAt": "2026-09-09T18:03:31.778120+00:00",
+    "retainedFrom": "data/models/http/23a9473bbbbf39f84ea4544b4c1e4b40bca5e759795c4220dee317a3502fa14f.json",
+    "recordSha256": "e568280e0cd0bf9817b4f075e588e38fcc06a38229e0cc91231612756f2d6777"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Narcissus gaditanus",
+      "title": "Narcissus gaditanus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/b0dfab1311b4bbd88a00b6aee24bca66d547bedde5c9b194e81369c3ffc261b2.json",
+      "url": "https://en.wikipedia.org/wiki/Narcissus_gaditanus",
+      "revisionId": 1334006187,
+      "contentSha256": "f4e91131b567e88cd77e0ca5ffc88fd19bd9ba739775c791d143564af5ff25bb"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Narcissus gaditanus",
+      "title": "Narcissus gaditanus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/b0dfab1311b4bbd88a00b6aee24bca66d547bedde5c9b194e81369c3ffc261b2.json",
+      "url": "https://pt.wikipedia.org/wiki/Narcissus_gaditanus",
+      "revisionId": 53623027,
+      "contentSha256": "b4d162e2bbe81659907882467ed7c48ee7cf0322769cf8db003e54b169f95b1d"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868378,
+      "canonicalName": "Narcissus gaditanus",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868378",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868378.json",
+      "recordSha256": "6de2977d06acd0385b2f6b580835c7e07a5748dd7cebd933fba586eef6d105db"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

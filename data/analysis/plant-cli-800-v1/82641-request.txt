@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":82641,"scientificName":"Helichrysum stoechas","commonName":"Shrubby Everlasting","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Helichrysum stoechas","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Helichrysum stoechas, known as Mediterranean strawflower, curry plant, common shrubby everlasting, everlasting flower, or eternal flower, is an annual or perennial shrub (depending on locale) that prefers dry, rocky and sandy areas. It can grow up to 120 centimeters (47 inches) in height, and spreads over 1 square meter (3 feet 3 inches) in area. It is a hermaphrodite that has grayish green leaves and produces small globular yellow flowers sometimes in the Spring or in July and August that are pollinated by insects. "},{"id":"s1:p2","text":" Uses \nExtracts of Helichrysum stoechas have been used in traditional medicine to treat colds, as a nerve tonic, to reduce inflammation, and facilitate the healing of bruises. There have been a number of studies of the phytochemical and pharmacological properties of the constituents of its flowers, stems and foliage which have confirmed that it has an inhibitory effect on some bacteria and viruses."},{"id":"s1:p3","text":"Due to the intense fragrance of its leaves and flowers, Helichrysum stoechas is used in perfumery and aromatherapy as a fixative in both its essential oil and floral absolute form. Like other Helichrysums, it has a warm, sweet, caramellic hay, fruity, honey, tobacco, tonka organoleptic profile."},{"id":"s1:p4","text":"The essential oil (CAS Registry Number 91845-22-6) is typically produced in Southern Europe around the Mediterranean, and the floral absolutes are produced in Egypt. The predominant active constituents are nerol acetate, curcumin, pinene, limonene, kaempherol, quercetin, luteolin, linalool, and geraniol, in addition to other flavonoids, sesquiterpenes and hydrocarbons."}]}]}

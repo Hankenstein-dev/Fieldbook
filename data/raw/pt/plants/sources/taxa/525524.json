@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 525524,
+  "scientificName": "Rubus genevieri",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 525524,
+    "scientificName": "Rubus genevieri",
+    "commonName": "Rubus genevieri",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species"
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 525524,
+      "count": 3,
+      "name": "Rubus genevieri",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1449276,
+      "descendant_obs_count": 3,
+      "direct_obs_count": 3
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "3b1b2ea372082201699e40287fba9a59399f18da4ae7be091e4ed731b464f060"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Rubus genevieri",
+      "title": "Rubus genevieri",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/9e523b7660226cf5c15afbe3c14dbb1104ad193becff1c39f7e642400b6abc64.json",
+      "url": "https://en.wikipedia.org/wiki/Rubus_genevieri",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Rubus genevieri",
+      "title": "Rubus genevieri",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/9e523b7660226cf5c15afbe3c14dbb1104ad193becff1c39f7e642400b6abc64.json",
+      "url": "https://pt.wikipedia.org/wiki/Rubus_genevieri",
+      "revisionId": 63436460,
+      "contentSha256": "26a9b609440e881b07f6835de2f355d3068bf3831cde42e665ab99a22442873e"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868536,
+      "canonicalName": "Rubus genevieri",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868536",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868536.json",
+      "recordSha256": "3fba15ae6109d2a273ec151aa8fd8d271edaf3b0fa9fd91922b4e0dd463e5215"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

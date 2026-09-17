@@ -1,0 +1,42 @@
+{
+  "taxonId": 861362,
+  "name": "Teucrium heterophyllum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:50.014883+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Teucrium heterophyllum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Teucrium heterophyllum é uma espécie de planta com flor pertencente à família Lamiaceae. \n\nA autoridade científica da espécie é L'Hér., tendo sido publicada em Stirpes Novae aut Minus Cognitae 84, f. 49. 1784 (1785).\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Teucrium heterophyllum subsp. heterophyllum - presente no Arquipélago da Madeira. Em termos de naturalidade é endémica da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d02315f8de021fc905d693948b0ebda1970c129a665f2b025f6e25d2bd24a4eb.json",
+      "sha256": "fb90b92178f9d0ef8bf4c4fae04aa24323ddda378518d494546895aac0e45173",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=71599085",
+      "revisionId": 71599085,
+      "credit": {
+        "title": "Teucrium heterophyllum",
+        "url": "https://pt.wikipedia.org/wiki/Teucrium_heterophyllum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=71599085",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Teucrium+heterophyllum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Teucrium+heterophyllum&limit=100",
+      "status": 200
+    }
+  ]
+}

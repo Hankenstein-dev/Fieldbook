@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":53212,"scientificName":"Silene gallica","commonName":"Small-flowered Catchfly","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Silene gallica","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Silene gallica is a species of flowering plant in the family Caryophyllaceae known by several common names, including common catchfly, small-flowered catchfly, and windmill pink. It is native to Eurasia and North Africa, but it can be found throughout much of the temperate world as a common roadside weed."},{"id":"s1:p2","text":"Description\nSilene gallica is an erect or semi-erect annual herb growing up to {{convert|50|cm|in|0|abbr=on}} tall, its branching stem clad in long, curling hairs and shorter, glandular hairs. The opposite, entire, lance-shaped leaves have acute apexes, are up to {{convert|3.5|cm|in|1|abbr=on}} long on the lower parts of the plant, and smaller on the upper parts. The flowers grow in a terminal inflorescence at the top of the stem, and some appear in the leaf axils. Each flower has a tubular calyx of fused sepals lined with ten green or purple-red veins. The calyx is coated in long, sometimes glandular, hairs and becomes inflated in fruit. There are five white, pink or bicolored, spatulate petals, each with a small appendage at the base. There are ten stamens and three styles. The fruit is a brown, ovoid capsule with six apical teeth."},{"id":"s1:p3","text":"Distribution and habitat\nNative to Europe, this species has a submediterranean / subatlantic distribution. In the British Isles it mostly occurs near the coast of England, Wales, Scotland and Ireland, but also sporadically inland. It is found in sandy or gravelly, often acidic, soils in arable fields, on wasteland and on walls, as well as poor dry pastures on the coast, and on sand dunes in the Channel Islands."},{"id":"s1:p4","text":"Status\nThis plant has been in long-term decline, especially in the more northern parts of Europe, and is no longer present in many inland sites in Britain and Ireland, with a population reduction of 80% in the last ten years reported in 2006. This may be due to changes in agriculture practices. It is listed as a UK Priority Species, and the Great Britain Red Data List ranks it as endangered."}]}]}

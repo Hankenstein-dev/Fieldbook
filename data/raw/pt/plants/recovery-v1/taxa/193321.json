@@ -1,0 +1,28 @@
+{
+  "taxonId": 193321,
+  "name": "Hernandia jamaicensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:39.325799+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/4aa8f4b026b7519f59f027911bc04a90085380528fe241628d4352813ceb12eb.json",
+      "title": "Hernandia jamaicensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hernandia+jamaicensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hernandia+jamaicensis&limit=100",
+      "status": 200
+    }
+  ]
+}

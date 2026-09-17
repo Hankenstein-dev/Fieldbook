@@ -1,0 +1,55 @@
+{
+  "taxonId": 466086,
+  "name": "Tragopogon castellanus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:40.853071+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tragopogon castellanus Levier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Tragopogon castellanus, restricted to northern Spain, is a tetraploid species (2n = 4x = 24) of hybrid origin, and was formed at least three times. In all but one populations the maternal parent is T. lamottei and the paternal parent T. crocifolius, in a single population T. crocifolius is the maternal parent. In the Pyrenees T. castellanus co-occurs with T. lamottei, but apparently of another genotype as the one contributed to the formation of T. castellanus, which is restricted to NW Spain. The second parent, T. crocifolius has not been confirmed for Spain, earlier reports being the result of misidentification, and got perhaps extinct there.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/100365744.json",
+      "sha256": "58890bdfc20e75c55b373965083fed38ffa644439a1e01925791ff4ccbed61a3",
+      "url": "https://api.gbif.org/v1/species/100365744",
+      "credit": {
+        "title": "Tragopogon castellanus Levier",
+        "url": "https://www.gbif.org/species/100365744",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Tragopogon castellanus Leresche & Levier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Tragopogon castellanus, restricted to northern Spain, is a tetraploid species (2n = 4x = 24) of hybrid origin, and was formed at least three times. In all but one populations the maternal parent is T. lamottei and the paternal parent T. crocifolius, in a single population T. crocifolius is the maternal parent. In the Pyrenees T. castellanus co-occurs with T. lamottei, but apparently of another genotype as the one contributed to the formation of T. castellanus, which is restricted to NW Spain. The second parent, T. crocifolius has not been confirmed for Spain, earlier reports being the result of misidentification, and got perhaps extinct there.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5386929.json",
+      "sha256": "7dbe19177f53dcf77dba05459ae1a258270f25720102af43724da957d460454f",
+      "url": "https://api.gbif.org/v1/species/5386929",
+      "credit": {
+        "title": "Tragopogon castellanus Leresche & Levier",
+        "url": "https://www.gbif.org/species/5386929",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tragopogon+castellanus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tragopogon+castellanus&limit=100",
+      "status": 200
+    }
+  ]
+}

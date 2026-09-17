@@ -1,0 +1,28 @@
+{
+  "taxonId": 1557568,
+  "name": "Boreolithothamnion glaciale",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:13.908739+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9c4098f37b87f38b7a391fcdace94c0484263f71aa517bc35d8d68b3a83b08ff.json",
+      "title": "Lithothamnion glaciale",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Boreolithothamnion+glaciale&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Boreolithothamnion+glaciale&limit=100",
+      "status": 200
+    }
+  ]
+}

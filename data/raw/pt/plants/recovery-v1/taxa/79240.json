@@ -1,0 +1,48 @@
+{
+  "taxonId": 79240,
+  "name": "Stipa miliacea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:52.040116+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/283b0549413094bcb11d13797cd4d45cd229344e2c702e4807633a0d4c7f5141.json",
+      "title": "Oloptum miliaceum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ea22dc9b3e24237c95283cb41b17bf2d401c2bb505c4cda3455ddf408a09267c.json",
+      "title": "Oloptum miliaceum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/283b0549413094bcb11d13797cd4d45cd229344e2c702e4807633a0d4c7f5141.json",
+      "title": "Piptatherum miliaceum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Stipa miliacea"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Smilo Grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Stipa+miliacea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Stipa+miliacea&limit=100",
+      "status": 200
+    }
+  ]
+}

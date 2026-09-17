@@ -1,0 +1,28 @@
+{
+  "taxonId": 1375472,
+  "name": "Vicia lentoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:08.541095+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/49587b84e8db827d950f3b88f14a342042ca7b2cd678fbd6bd511c2c4be22dcf.json",
+      "title": "Vicia nigricans",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vicia+lentoides&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vicia+lentoides&limit=100",
+      "status": 200
+    }
+  ]
+}

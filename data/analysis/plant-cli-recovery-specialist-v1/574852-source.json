@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 574852,
+    "scientificName": "Aristea bakeri",
+    "commonName": "Tall Capeblue",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Aristea bakeri",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Aristea bakeri is a plant species in the family Iridaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Aristea bakeri Klatt — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Aristea bakeri Klatt."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is SW. & S. Cape Prov. It is a rhizomatous geophyte and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/fa4c84caeaa1687714df6fc63eb042e76dad6f1a95a1cab4e528406d76aaadd6.json",
+      "sha256": "8b577230178b76af42ec352b38eeaffb57e547179b9a37c793acff42a23f7854",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1013085158",
+      "revisionId": 1013085158,
+      "credit": {
+        "title": "Aristea bakeri",
+        "url": "https://en.wikipedia.org/wiki/Aristea_bakeri",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1013085158",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/574852-a2f340177689f848.json",
+      "sha256": "a2f340177689f84828d4b656ba938692bd38062a8aae337f2a078590238a4f27",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A435940-1",
+      "credit": {
+        "title": "Aristea bakeri Klatt — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A435940-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 574852,
+    "name": "Aristea bakeri",
+    "language": "en,en",
+    "sourceTextTokens": 65,
+    "packetTokens": 207,
+    "standaloneInputTextTokens": 659,
+    "packetSha256": "8360b2d80b92086e3ca307bd91b503706abc331405364ec6c1ced4dbd0713821"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "taxonId": 410767,
+  "name": "Aechmea calyculata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:59.834260+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Aechmea calyculata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Aechmea calyculata is a species of flowering plant in the Bromeliaceae family.\n\nDistribution\nThe bromeliad is endemic to the Atlantic Forest biome (Mata Atlantica Brasileira). It is native to southern Brazil in the states of Paraná, Santa Catarina, and Rio Grande do Sul; and in eastern Argentina in Misiones province.\n\nCultivars and hybrids\nCultivars and hybrids of Aechmea calyculata include:\n Aechmea 'Alaya'\n Aechmea 'Ann Vincent'\n Aechmea 'Gemma'\n Aechmea 'Len Butt'\n Aechmea 'Mini-Cal'\n Aechmea 'Phoenix'\n Aechmea 'Solo'\n × Nidumea 'Loeseneri'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/f26731273c99dfa1d449ed748579310372befdbeb787b76888516ffd8aa4a640.json",
+      "sha256": "de585bc49c7a1b5aed3edc91a54e43e58c3f6b3c5c438efc313a349cbf37323b",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1283070549",
+      "revisionId": 1283070549,
+      "credit": {
+        "title": "Aechmea calyculata",
+        "url": "https://en.wikipedia.org/wiki/Aechmea_calyculata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1283070549",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Aechmea calyculata (E.Morren) Baker",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Aechmea calyculata is a species of flowering plant in the Bromeliaceae family.\n\nCultivars and hybrids of Aechmea calyculata include: Aechmea 'Alaya'BSI BCR Entry for 'Alaya' Aechmea 'Ann Vincent' Aechmea 'Gemma' Aechmea 'Len Butt' Aechmea 'Mini-Cal' Aechmea 'Phoenix' Aechmea 'Solo' ×Nidumea 'Loeseneri'\n\nThe bromeliad is endemic to the Atlantic Forest biome (Mata Atlantica Brasileira).DPI.inpe.br: \"BROMELIACEAE da MATA ATLÂNTICA BRASILEIRA: Lista de ESPÉCIES, DISTRIBUIÇÃO e CONSERVAÇÃO\" ; Rodriguésia 59, February 2008; ppg 209−258; article−, abstract− species lists−. accessed 30 May 2016. It is native to southern Brazil in the states of Paraná, Santa Catarina, and Rio Grande do Sul; and in eastern Argentina in Misiones province.Kew World Checklist of Selected Plant FamiliesDimitri, M. J. 1974. La flora arborea del Parq. Nac. Iguazu. An. Parq. Nac. 12: 1–179.Forzza, R. C. 2010; Lista de espécies Flora do Brasil ; Jardim Botânico do Rio de Janeiro, Rio de Janeiro state.Castellanos, A. 1944. Bromeliaceae Agentinae novae vel criticae. Lilloa 10(2): 445–467.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165610967.json",
+      "sha256": "29445a2d42d19050ce3ba27e9c7623ee3cf48df528ca40dcc684fbdd39b6cc03",
+      "url": "https://api.gbif.org/v1/species/165610967",
+      "credit": {
+        "title": "Aechmea calyculata (E.Morren) Baker",
+        "url": "https://www.gbif.org/species/165610967",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aechmea+calyculata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aechmea+calyculata&limit=100",
+      "status": 200
+    }
+  ]
+}

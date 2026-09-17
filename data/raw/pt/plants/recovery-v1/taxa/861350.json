@@ -1,0 +1,28 @@
+{
+  "taxonId": 861350,
+  "name": "Rubus serrae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:33.814337+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/1fbd3ce0230fbd8adbf6b675585feaab1c9661119aa1dadf8a0be35c844ff5a3.json",
+      "title": "Rubus odoratus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rubus+serrae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rubus+serrae&limit=100",
+      "status": 200
+    }
+  ]
+}

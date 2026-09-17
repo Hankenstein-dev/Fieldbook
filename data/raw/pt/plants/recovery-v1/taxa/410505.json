@@ -1,0 +1,32 @@
+{
+  "taxonId": 410505,
+  "name": "Kniphofia linearifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:55.730750+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Kniphofia linearifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Common Marsh Poker"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Kniphofia+linearifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Kniphofia+linearifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

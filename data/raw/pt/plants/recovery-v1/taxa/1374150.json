@@ -1,0 +1,22 @@
+{
+  "taxonId": 1374150,
+  "name": "Cistus × aguilari",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:07.106110+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cistus+%C3%97+aguilari&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cistus+%C3%97+aguilari&limit=100",
+      "status": 200
+    }
+  ]
+}

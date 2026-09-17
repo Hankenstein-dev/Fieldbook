@@ -1,0 +1,45 @@
+{
+  "taxonId": 355848,
+  "name": "Hypopterygium tamarisci",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:49.534612+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hypopterygium tamarisci (Sw.) Brid. ex Müll. Hal.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Australasia\n\nCultivated areas of gardens and parks (I2 level 2)\n\nGreenhouse (added 21oct2005) (J100 level 2)\n\nInland cliffs, rock pavements and outcrops (H3 level 2)\n\nPacific\n\nSublittoral sediment (A5 level 2)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/159500538.json",
+      "sha256": "500751afa810299a13b26f237d161d44c1696da9106d13b4ac28c09945d4c0e4",
+      "url": "https://api.gbif.org/v1/species/159500538",
+      "credit": {
+        "title": "Hypopterygium tamarisci (Sw.) Brid. ex Müll. Hal.",
+        "url": "https://www.gbif.org/species/159500538",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5599518f83957e2123fd99f917c3ed41df2fbad31b35adf9ced6b198e2aaf3c7.json",
+      "title": "Hypopterygium tamarisci",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hypopterygium+tamarisci&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hypopterygium+tamarisci&limit=100",
+      "status": 200
+    }
+  ]
+}

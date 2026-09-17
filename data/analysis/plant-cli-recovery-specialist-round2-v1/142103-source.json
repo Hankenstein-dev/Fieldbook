@@ -1,0 +1,72 @@
+{
+  "input": {
+    "taxonId": 142103,
+    "scientificName": "Liriope",
+    "commonName": "Liliturfs",
+    "rank": "genus",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Liriope",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Liriope é um género botânico pertencente à família Ruscaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Liriope in Flora of China @ efloras.org",
+        "language": "en",
+        "scope": "Requested taxon account in Flora of China; retain regional distribution qualifications",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "55. Liriope Loureiro, Fl. Cochinch.  1: 190, 200.  1790. 山麦冬属 shan mai dong shu Chen Xinqi (陈心启 Chen Sing-chi); Minoru N. Tamura Herbs perennial, shortly rhizomatous, often stoloniferous. Roots sometimes with fleshy, tuberous part near tip. Leaves basal, tufted, sessile, grasslike or narrowly linear. Scape simple, naked, terminating in a reduced panicle. Flowers bisexual, often in clusters of 2--4, sometimes solitary, small, subtended by a bract and a few bracteoles; pedicel articulate. Tepals 6, free. Stamens 6, inserted at base of tepals; filaments narrowly linear; anthers basifixed. Ovary superior, 3-loculed; ovules 2 per locule. Style columnar, slightly 3-angled; stigma small. Fruit bursting irregularly at an early stage and exposing young seeds. Seeds deep blue to purple at maturity, berrylike, globose or ellipsoid. About eight species, E Asia, extending to Japan, the Philippines, and Vietnam; six species (three endemic) in China."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/e896efcbb40a78a5de1742122857926548f634b9bf19206e78c468194838bf68.json",
+      "sha256": "c696e12c41ad8d6a69e004008f7270947bea9957f69045f556865f6b0f305937",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=66848463",
+      "revisionId": 66848463,
+      "credit": {
+        "title": "Liriope",
+        "url": "https://pt.wikipedia.org/wiki/Liriope",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=66848463",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific subject in the flora account treatment; supplied rank retained; member accounts excluded",
+      "path": "data/raw/pt/plants/recovery-v1/efloras-originals/142103-d1b19c156b9ec4da.json",
+      "sha256": "d1b19c156b9ec4da0fd8ca2bc1c50f9382523458e42432136f796517293c4cf3",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=118708",
+      "credit": {
+        "title": "Liriope in Flora of China @ efloras.org",
+        "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=118708",
+        "attribution": "Flora of China, eFloras"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 142103,
+    "name": "Liriope",
+    "language": "pt,en",
+    "sourceTextTokens": 282,
+    "packetTokens": 415,
+    "standaloneInputTextTokens": 867,
+    "packetSha256": "6130de688f92f7eec17a72713209b95ddb5ea51c72ef9103b2ac783d702cfd10"
+  }
+}

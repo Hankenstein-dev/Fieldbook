@@ -1,0 +1,55 @@
+{
+  "input": {
+    "taxonId": 1279863,
+    "scientificName": "Myriocoleopsis minutissima",
+    "commonName": "Minute Pouncewort",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Myriocoleopsis minutissima (Sm.) R.L.Zhu, Y.Yu & Pócs",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Myriocoleopsis minutissima (Sm.) R.L.Zhu, Y.Yu et Pócs, Phytotaxa 183 (4): 293, 2014 (see Yu et al. 2014). BASIONYM: Jungermannia minutissima Sm., Engl. Bot. 23: tab. 1633, 1806 (see Smith & Sowerby 1806)."
+          },
+          {
+            "id": "s1:p2",
+            "text": "RECORDS. — Trabut (1941), Jelenc (1955 a): Forêts de la Calle. Bischler (2004): sine loco. Very rare."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9500140.json",
+      "sha256": "3facea2c4bb7a0bba763ab403732c2fabffbf2f833e9d8a9da2470b736d32b33",
+      "url": "https://api.gbif.org/v1/species/9500140",
+      "credit": {
+        "title": "Myriocoleopsis minutissima (Sm.) R.L.Zhu, Y.Yu & Pócs",
+        "url": "https://www.gbif.org/species/9500140",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1279863,
+    "name": "Myriocoleopsis minutissima",
+    "language": "unspecified",
+    "sourceTextTokens": 125,
+    "packetTokens": 242,
+    "standaloneInputTextTokens": 694,
+    "packetSha256": "a050ffcbd15d2099bca8dcf98e3d520c5ad742ef11b09e648072bf6d42b1dccb"
+  }
+}

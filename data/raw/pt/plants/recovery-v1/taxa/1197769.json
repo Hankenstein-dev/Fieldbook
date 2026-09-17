@@ -1,0 +1,79 @@
+{
+  "taxonId": 1197769,
+  "name": "Cistus halimifolius",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:39.337741+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cistus halimifolius",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Cistus halimifolius is a species of flowering plant in the family Cistaceae. it is a subshrub or shrub native to the western and central Mediterranean Basin, Including Portugal, mainland Spain and the Balearic Islands, Corsica, Sardinia, the Italian peninsula, Morocco, Algeria, and Tunisia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1e36782ce39c4933b07ae08b9d287c747cde3614c8f1ebf96c47c970f0ba35d2.json",
+      "sha256": "8b1d1c5d7f462c3a6c748fef4479c3b943624266bfe4bd64b09b1fdc7ea184a0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1365200761",
+      "revisionId": 1365200761,
+      "credit": {
+        "title": "Cistus halimifolius",
+        "url": "https://en.wikipedia.org/wiki/Cistus_halimifolius",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1365200761",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Cistus halimifolius L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Habitat in Lusitaniae maritimis. ♄\n\n9. Cistus arborescens, alis nudis, foliolis duobus calycinis linearibus. Hort. cliff. 205. Roy. lugdb. 475. Sauv. monsp. 147. Cistus femina, portulacae marinae folio latiore obtuso. Bauh. pin. 465. Cistus folio halimi 1. Clus. hist. 1. p. 71. β. Cistus femina, portulacae marinae folio angustiore mucronato. Bauh. pin. 465. Cistus halimi folio 2. Clus. hist. 1. p. 71.\n\n* Exstipulatae, suffruticosae.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7331292.json",
+      "sha256": "c78f058bae72baf5a8d149483d44af5d383676c2d7419c5daedc2d60efbf5a74",
+      "url": "https://api.gbif.org/v1/species/7331292",
+      "credit": {
+        "title": "Cistus halimifolius L.",
+        "url": "https://www.gbif.org/species/7331292",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Cistus halimifolius Linnaeus 1753",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "* Exstipulatae, suffruticosae.\n\n9. Cistus arborescens, alis nudis, foliolis duobus calycinis linearibus. Hort. cliff. 205. Roy. lugdb. 475. Sauv. monsp. 147. Cistus femina, portulacae marinae folio latiore obtuso. Bauh. pin. 465. Cistus folio halimi 1. Clus. hist. 1. p. 71. β. Cistus femina, portulacae marinae folio angustiore mucronato. Bauh. pin. 465. Cistus halimi folio 2. Clus. hist. 1. p. 71.\n\nHabitat in Lusitaniae maritimis. ♄",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164946761.json",
+      "sha256": "337674dfbf57c8a50528525f6cbe4e71afb7b0ae0fbc1101248197f9cd86021f",
+      "url": "https://api.gbif.org/v1/species/164946761",
+      "credit": {
+        "title": "Cistus halimifolius Linnaeus 1753",
+        "url": "https://www.gbif.org/species/164946761",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cistus halimifolius"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cistus+halimifolius&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cistus+halimifolius&limit=100",
+      "status": 200
+    }
+  ]
+}

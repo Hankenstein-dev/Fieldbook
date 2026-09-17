@@ -1,0 +1,33 @@
+{
+  "taxonId": 1504232,
+  "name": "Santolina rosmarinifolia",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:54.972692+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/69eaf5ea14b5056b0a5d762807686a79e9878e03edb886d1de967fa63c69dfbb.json",
+      "title": "Santolina rosmarinifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/69eaf5ea14b5056b0a5d762807686a79e9878e03edb886d1de967fa63c69dfbb.json",
+      "title": "Santolina rosmarinifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Santolina+rosmarinifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Santolina+rosmarinifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

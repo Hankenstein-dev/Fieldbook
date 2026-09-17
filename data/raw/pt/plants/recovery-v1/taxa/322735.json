@@ -1,0 +1,28 @@
+{
+  "taxonId": 322735,
+  "name": "Cladophora prolifera",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:05.028177+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/f5325225a2a60350912d92d21a3d7d645a70f3fb544c41ea08d5e6a62f06be32.json",
+      "title": "Cladophora",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cladophora+prolifera&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cladophora+prolifera&limit=100",
+      "status": 200
+    }
+  ]
+}

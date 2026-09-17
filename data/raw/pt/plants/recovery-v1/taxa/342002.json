@@ -1,0 +1,48 @@
+{
+  "taxonId": 342002,
+  "name": "Euphorbia boetica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:36.984680+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Euphorbia boetica",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Euphorbia boetica é uma espécie de planta com flor pertencente à família Euphorbiaceae. \n\nA autoridade científica da espécie é Boiss., tendo sido publicada em Centuria Euphorbiarum 36. 1860.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/ded7cb0a9b1526b084820bdc6a3ae193d41def17577503e593b811969ba406a9.json",
+      "sha256": "a3e74f53bbe0dd4f933285e5cfbaf4054662cfb23d60eb9fedd6282a18675488",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=68171704",
+      "revisionId": 68171704,
+      "credit": {
+        "title": "Euphorbia boetica",
+        "url": "https://pt.wikipedia.org/wiki/Euphorbia_boetica",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=68171704",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ded7cb0a9b1526b084820bdc6a3ae193d41def17577503e593b811969ba406a9.json",
+      "title": "Euphorbia boetica",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Euphorbia+boetica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Euphorbia+boetica&limit=100",
+      "status": 200
+    }
+  ]
+}

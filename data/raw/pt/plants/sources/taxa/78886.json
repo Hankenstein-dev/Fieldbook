@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 78886,
+  "scientificName": "Rosa rubiginosa",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 78886,
+    "scientificName": "Rosa rubiginosa",
+    "commonName": "Sweet-brier",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26171838/medium.jpg",
+      "attribution": "(c) Rosa_rubiginosa_mit_einigen_Knospen.jpg, some rights reserved (CC BY-SA)",
+      "license": "cc-by-sa",
+      "sourceUrl": "https://www.inaturalist.org/photos/26171838"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 78886,
+      "count": 11,
+      "name": "Rosa rubiginosa",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1511481,
+      "descendant_obs_count": 11,
+      "direct_obs_count": 11
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "2cb2e4a0bcb5369daa4cb039d9254811626d833c1905a808de1483712b047eab"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Rosa rubiginosa",
+      "title": "Rosa rubiginosa",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/b261488d01cbad63ae2373e11fbb9c0982ebecb6024547fe2323d7ec168ac232.json",
+      "url": "https://en.wikipedia.org/wiki/Rosa_rubiginosa",
+      "revisionId": 1365856853,
+      "contentSha256": "f3fb5d217709e572a05c5cc19090e9d6a55a0ebb75fea78738cbefccf069f359"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Rosa rubiginosa",
+      "title": "Rosa rubiginosa",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/b261488d01cbad63ae2373e11fbb9c0982ebecb6024547fe2323d7ec168ac232.json",
+      "url": "https://pt.wikipedia.org/wiki/Rosa_rubiginosa",
+      "revisionId": 64612237,
+      "contentSha256": "252fbf82fca3f7dad3d6691b4e0705d669e1e80a5acc150e7267e632ce79a015"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868546,
+      "canonicalName": "Rosa rubiginosa",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868546",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868546.json",
+      "recordSha256": "4c22596aea5007e6c397fc900ed9f3928961919874021da403438f845543146b"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 1553405,
+  "name": "Heteranthemis viscide-hirta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:10.788909+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/99da1d5c2ae1c42ff8e6c9fbac53d14c2e71b1651668108e5a043e5666de3734.json",
+      "title": "Heteranthemis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Heteranthemis viscide-hirta"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sticky Oxeye"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Heteranthemis+viscide-hirta&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Heteranthemis+viscide-hirta&limit=100",
+      "status": 200
+    }
+  ]
+}

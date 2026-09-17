@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":335872,"scientificName":"Osyris alba","commonName":"Poet's Cassia","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Osyris alba","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Osyris alba, common name osyris, is a small perennial plant in the genus Osyris belonging to the Santalaceae family."},{"id":"s1:p2","text":"Description\nOsyris alba is a semiparasitic (hemiparasitic) broom-like shrub reaching {{convert|30|-|150|cm|abbr=on}} in height. The stem is woody, brown or dark green, sometimes creeping on the ground. This plant has numerous longitudinally striated branches, green when young. The leaves are linear, lanceolate, coriaceous, and persistent, although sometimes deciduous. They are about {{convert|15|-|35|mm|abbr=on}} long and {{convert|1|-|5|mm|abbr=on}} wide. They are produced during the winter, while in summer they are almost totally absent. The flowers are hermaphroditic or unisexual; in the latter case, the male and female flowers show differences associated with the timing of pollination. They are very small (1 or 2 mm), with four yellow-green tepals and four stamens. Flowering period extends from March to June. The fruits are small, red, fleshy drupes, {{convert|4|-|6|mm|abbr=on}} in diameter. Their roots form haustoria that tap into the roots of nearby plants and extract their sap."},{"id":"s1:p3","text":"Distribution\nThe species is widespread in all countries of the Mediterranean basin, from Portugal to Turkey. It is present in western Asia and in North Africa from Morocco to Tunisia and Libya."}]}]}

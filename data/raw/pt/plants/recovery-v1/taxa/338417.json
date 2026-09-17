@@ -1,0 +1,43 @@
+{
+  "taxonId": 338417,
+  "name": "Simethis mattiazzi",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:27.812178+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/84a70a0bf4b98b605c083e6a43c4354c8835ff235ba87175a78fad39881ef7e0.json",
+      "title": "Simethis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/24c4e77e58abae68e5ae42287121f2cf4a07207a04bc0bd632a4d474befaef4b.json",
+      "title": "Simethis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Simethis mattiazzi"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Kerry Lily"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Simethis+mattiazzi&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Simethis+mattiazzi&limit=100",
+      "status": 200
+    }
+  ]
+}

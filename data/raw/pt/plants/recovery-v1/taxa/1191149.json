@@ -1,0 +1,28 @@
+{
+  "taxonId": 1191149,
+  "name": "Cerastes",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:46:24.451768+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/caea5e34599158c089595ef7737f3573adbd71ef272a4c8d276b9df4721f5a91.json",
+      "title": "Cerastes",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cerastes&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cerastes&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "taxonId": 1613793,
+  "name": "Sagina apetala",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:44.222569+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/93af7ebb430edfd1f59fc2392e20025e3cc2edbdac57d1485e1ecd1f2ee87ec3.json",
+      "title": "Sagina apetala",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/93af7ebb430edfd1f59fc2392e20025e3cc2edbdac57d1485e1ecd1f2ee87ec3.json",
+      "title": "Sagina apetala",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sagina+apetala&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sagina+apetala&limit=100",
+      "status": 200
+    }
+  ]
+}

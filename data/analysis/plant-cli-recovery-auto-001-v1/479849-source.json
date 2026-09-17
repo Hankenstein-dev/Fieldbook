@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 479849,
+    "scientificName": "Aloe distans",
+    "commonName": "Jewel Aloe",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Aloe distans",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Aloe distans é uma espécie de liliopsida do gênero Aloe, pertencente à família Asphodelaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Aloe distans Haw. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Aloe distans Haw.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is SW. Cape Prov. It is a succulent subshrub and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/98de995ce764861be448f0de867df93042f0c01c5e4cb3a76e822d23cdf7d3f4.json",
+      "sha256": "a698f2c13387bf5313d7c7c308f8fca644215d14a3991564ac87c0802df55a28",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55698655",
+      "revisionId": 55698655,
+      "credit": {
+        "title": "Aloe distans",
+        "url": "https://pt.wikipedia.org/wiki/Aloe_distans",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55698655",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/479849-d805a1f0f8bdec3b.json",
+      "sha256": "d805a1f0f8bdec3b8a7cd3bb6d20b5df11278fd5f29c8329a53a4ba587458d6a",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A529403-1",
+      "credit": {
+        "title": "Aloe distans Haw. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A529403-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 479849,
+    "name": "Aloe distans",
+    "language": "pt,en",
+    "sourceTextTokens": 65,
+    "packetTokens": 202,
+    "standaloneInputTextTokens": 654,
+    "packetSha256": "9f041d0686220c1363a81f38a6037c93663a900fe40d24572ef4cbd1f85db304"
+  }
+}

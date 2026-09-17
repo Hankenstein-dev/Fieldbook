@@ -1,0 +1,114 @@
+{
+  "input": {
+    "taxonId": 404243,
+    "scientificName": "Oenothera indecora",
+    "commonName": "Small-flower evening-primrose",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Oenothera indecora",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Oenothera indecora é uma espécie de planta com flor pertencente à família Onagraceae. "
+          },
+          {
+            "id": "s1:p2",
+            "text": "A autoridade científica da espécie é Cambess., tendo sido publicada em Flora Brasiliae Meridionalis (quarto ed.) 2(17): 268. 1829 (1830)."
+          },
+          {
+            "id": "s1:p3",
+            "text": " Portugal \nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:"
+          },
+          {
+            "id": "s1:p4",
+            "text": " Oenothera indecora subsp. bonariensis - presente em Portugal Continental. Em termos de naturalidade é introduzida na região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Oenothera indecora Cambess.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Southern America"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Northern America"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Coastal dunes and sandy shores (B1 level 2)"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Buildings of cities, towns and villages (J1 level 2)"
+          },
+          {
+            "id": "s2:p5",
+            "text": "Arable land and market gardens (I1 level 2)"
+          },
+          {
+            "id": "s2:p6",
+            "text": "South America"
+          },
+          {
+            "id": "s2:p7",
+            "text": "Southern America (WGSRPD:8)"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/ed083da1fa10ecdacec61daec34d70b4f92afd801c744a7d9c1ef630cc9e6ae2.json",
+      "sha256": "908b326c18965e6bb7b7c255ba27e5401daa678a5a678ca6572b945e8b483e75",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=70139216",
+      "revisionId": 70139216,
+      "credit": {
+        "title": "Oenothera indecora",
+        "url": "https://pt.wikipedia.org/wiki/Oenothera_indecora",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=70139216",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7322393.json",
+      "sha256": "a40ea7b7199d9a141fba2738c0f764f2f6fb03534fee865ba1bc1e6b85469eaf",
+      "url": "https://api.gbif.org/v1/species/7322393",
+      "credit": {
+        "title": "Oenothera indecora Cambess.",
+        "url": "https://www.gbif.org/species/7322393",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 404243,
+    "name": "Oenothera indecora",
+    "language": "pt,unspecified",
+    "sourceTextTokens": 195,
+    "packetTokens": 418,
+    "standaloneInputTextTokens": 870,
+    "packetSha256": "45ab7fbbc257ef96b1546473e54464e000087328fa531831d9a22f16e4916f4f"
+  }
+}

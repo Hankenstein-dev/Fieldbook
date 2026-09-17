@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":53771,"scientificName":"Cotoneaster horizontalis","commonName":"Wall cotoneaster","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cotoneaster horizontalis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Cotoneaster horizontalis is a species of flowering plant in the genus Cotoneaster of the family Rosaceae."},{"id":"s1:p2","text":"Description\nCotoneaster horizontalis is a short shrub with a spreading habit, growing to {{convert|1|m}} tall by {{convert|1.5|m}} wide. It is cultivated for its flat, symmetrical sprays of glossy green, deciduous leaves 6 to 12 mm long. The flowers appear in summer, and can range from pink to white. It is commonly grown in parks and gardens in temperate regions as hedging or groundcover."},{"id":"s1:p3","text":"Distribution\nCotoneaster horizontalis is native to mountains of Nepal, China, and Taiwan; in China it occurs from Tibet and Yunnan in the west to Jiangsu and Zhejiang in the east and is absent from the north and the very south. It has naturalised in parts of the United Kingdom, and may be becoming invasive. It has been recorded from Counties Down, Antrim and Dublin in Ireland."},{"id":"s1:p4","text":"This plant has gained the Royal Horticultural Society's Award of Garden Merit."}]}]}

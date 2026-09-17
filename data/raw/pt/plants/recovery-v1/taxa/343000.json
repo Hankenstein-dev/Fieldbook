@@ -1,0 +1,47 @@
+{
+  "taxonId": 343000,
+  "name": "Holcus rigidus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:42.146953+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Holcus rigidus",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Holcus rigidus''\n| imagem = Flora Azorica (Tab. I) (7216327490).jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Holcus]]''\n| espécie = '''''H. rigidus'''''\n| binomial = ''Holcus rigidus''\n| binomial_autoridade = Hochst. ex Seub.\n}}\nHolcus rigidus é uma espécie de planta com flor pertencente à família Poaceae. É endémica do arquipélago dos Açores, onde surgem em todas as ilhas à exceção da ilha de Santa Maria. É conhecida neste arquipélago pelos nomes comuns de erva-caniça e canição.\n\nA autoridade científica da espécie é Hochst. ex Seub., tendo sido publicada em Flora Azorica 17. 1844.\n\n Proteção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/831cfe59a08a80289c678573f99ea3cabfe058fad0b1cddcba42d941021e2cb1.json",
+      "sha256": "349c6fc4db9da506c386968b85c6a75b53789712c545306a7b58818db07bf410",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54901497",
+      "revisionId": 54901497,
+      "credit": {
+        "title": "Holcus rigidus",
+        "url": "https://pt.wikipedia.org/wiki/Holcus_rigidus",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54901497",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Holcus rigidus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Holcus+rigidus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Holcus+rigidus&limit=100",
+      "status": 200
+    }
+  ]
+}

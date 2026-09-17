@@ -1,0 +1,38 @@
+{
+  "taxonId": 415128,
+  "name": "Aloe × spinosissima",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:40:58.689615+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/07e8b5c0339be8972905492769e4a78a85721ee7323d3e837ac4282af3ca9d01.json",
+      "title": "Aloen",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Aloe × spinosissima"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Spider aloe"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aloe+%C3%97+spinosissima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aloe+%C3%97+spinosissima&limit=100",
+      "status": 200
+    }
+  ]
+}

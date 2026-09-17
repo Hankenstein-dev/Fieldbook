@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":1076232,"scientificName":"Euphorbia bergeri","commonName":"Euphorbia bergeri","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Euphorbia bergeri","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón\n| name = ''Euphorbia bergeri''\n| image = \n| image_width = 250 px\n| status = \n| regnum = [[Plantae]]\n| subregnum = [[Tracheobionta]]\n| divisio = [[Magnoliophyta]]\n| classis = [[Magnoliopsida]]\n| subclassis = [[Rosidae]]\n| ordo = [[Malpighiales]]\n| familia = [[Euphorbiaceae]]\n| subfamilia = [[Euphorbioideae]]\n| tribus = [[Euphorbieae]]\n| subtribus = [[Euphorbiinae]]\n| genus = ''[[Euphorbia]]''\n| species = '''''E. bergeri'''''\n| binomial = ''Euphorbia bergeri''\n| binomial_authority = [[N.E.Br.]]\n| synonyms = }}\nEuphorbia bergeri es una especie fanerógama perteneciente a la familia de las euforbiáceas. Es endémica de Sudáfrica. "},{"id":"s1:p2","text":"Descripción\nEs una planta suculenta, enana y con espinas, el cuerpo principal de la planta subgloboso obconico, grueso, carnoso, teniendo un gran número de ramas que irradian en la parte superior, glabra, las ramas , por lo general simples, cilíndricas, tuberculadas, a menudo curvadas, glabras, de color verde, con tubérculos romboides, de hojas caducas, Las inflorescencias en pedúnculos solitarios en las axilas de los tubérculos en los extremos de las ramas con 1 involucro y unas 4 brácteas, a veces persistente y espesa después de la caída de la flor; cápsulas y semillas que no se ve."},{"id":"s1:p3","text":" Taxonomía \nEuphorbia bergeri fue descrita por Nicholas Edward Brown y publicado nen Flora Capensis 5(2): 330. 1915.\nEtimología\nEuphorbia: nombre genérico que deriva del médico griego del rey Juba II de Mauritania (52 a 50 a. C. - 23), Euphorbus, en su honor – o en alusión a su gran vientre – ya que usaba médicamente Euphorbia resinifera. En 1753 Carlos Linneo asignó el nombre a todo el género."},{"id":"s1:p4","text":"bergeri: epíteto otorgado en honor del botánico alemán Alwin Berger (1871-1931), especialista en agaves y suculentas, autor, entre otros trabajos de Die Agaven 1915 y Sukkulente Euphorbien 1907."}]}]}

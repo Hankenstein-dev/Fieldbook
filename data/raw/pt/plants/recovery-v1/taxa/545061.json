@@ -1,0 +1,53 @@
+{
+  "taxonId": 545061,
+  "name": "Malva olbia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:50.950827+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Malva olbia",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Malva olbia (previously known as Lavatera olbia), the garden tree mallow, is a species of flowering plant in the family Malvaceae. It is native to the western Mediterranean, and has been introduced to California. A vigorous perennial shrub reaching {{cvt|2.5|m|ft|0}}, the Royal Horticultural Society considers it to be a good plant to attract pollinators. \n\nCultivars\n\nIt has a number of commercially available cultivars, which may be hybrids with Malva thuringiaca, dubbed Malva × clementii. The cultivars 'Rosea' and 'Red{{nbsp}}Rum' have gained the Royal Horticultural Society's Award of Garden Merit. Other cultivars include 'Barnsley' (with white aging to shell pink flowers), 'Lilac Lady', 'Eye Catcher', 'Pink Frills', 'Wembdon Variegated', and 'Saxtead'.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/79179227222a0a7464087938b805ea3e7e477d833dc9a9d15b1def9c6ff8c189.json",
+      "sha256": "fcd37cf9c372eb66cc2993e551add6b009828d411d080163dea8dea79f8cab16",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1180536526",
+      "revisionId": 1180536526,
+      "credit": {
+        "title": "Malva olbia",
+        "url": "https://en.wikipedia.org/wiki/Malva_olbia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1180536526",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/97df571c768d70e1d9bce846b2f61eef6a14a7cf78ec63c14a1166645ed7d61d.json",
+      "title": "Lavatera olbia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Malva olbia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Malva+olbia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Malva+olbia&limit=100",
+      "status": 200
+    }
+  ]
+}

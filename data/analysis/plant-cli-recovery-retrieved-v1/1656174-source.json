@@ -1,0 +1,55 @@
+{
+  "input": {
+    "taxonId": 1656174,
+    "scientificName": "Riella macrocarpa",
+    "commonName": "Riella macrocarpa",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Riella macrocarpa (P.Allorge) Puche, Segarra, Sabovlj., M.Infante & Heras",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "RECORDS. — Segarra-Moragues et al. (2022): sine loco. Very rare."
+          },
+          {
+            "id": "s1:p2",
+            "text": "COMMENT The species was recently recognized by Segarra-Moragues et al. (2022) for the previously considered Riella helicophylla var. macrocarpa P. Allorge. They reported just an Algerian sterile clone obtained from U. Kutschera, the species is therefore to be found wild in the country. According to these authors, it extends from the western Mediterranean in Portugal to the Eastern Mediterranean in Cyprus, replacing in many, but not all, countries the reports of R. helicophylla."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/12259551.json",
+      "sha256": "af4cbddd684222b749e71dc15d4e24b35ec8558382850043fe167ca16c1e24fd",
+      "url": "https://api.gbif.org/v1/species/12259551",
+      "credit": {
+        "title": "Riella macrocarpa (P.Allorge) Puche, Segarra, Sabovlj., M.Infante & Heras",
+        "url": "https://www.gbif.org/species/12259551",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1656174,
+    "name": "Riella macrocarpa",
+    "language": "unspecified",
+    "sourceTextTokens": 127,
+    "packetTokens": 246,
+    "standaloneInputTextTokens": 698,
+    "packetSha256": "d175eab9ad999443d6948ee67725749f6a67095c1918a36f2767cca9290a8998"
+  }
+}

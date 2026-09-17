@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 82946,
+  "scientificName": "Quercus rotundifolia",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 82946,
+    "scientificName": "Quercus rotundifolia",
+    "commonName": "sweet acorn oak",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111977293/medium.jpg",
+      "attribution": "(c) faluke, some rights reserved (CC BY-NC), uploaded by faluke",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/111977293"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 82946,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47853,
+        47852,
+        47851,
+        861028,
+        861032,
+        1137754,
+        82946
+      ],
+      "is_active": true,
+      "name": "Quercus rotundifolia",
+      "parent_id": 1137754,
+      "ancestry": "48460/47126/211194/47125/47124/47853/47852/47851/861028/861032/1137754",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 111977293,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) faluke, some rights reserved (CC BY-NC), uploaded by faluke",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111977293/square.jpg",
+        "original_dimensions": {
+          "height": 531,
+          "width": 800
+        },
+        "flags": [],
+        "attribution_name": "faluke",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111977293/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111977293/medium.jpg"
+      },
+      "taxon_changes_count": 3,
+      "taxon_schemes_count": 2,
+      "observations_count": 37848,
+      "flag_counts": {
+        "resolved": 1,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": 22839,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Quercus_ilex",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "sweet acorn oak",
+      "establishment_means": {
+        "id": 5220954,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=1&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:47:15.737834+00:00",
+    "retainedFrom": "data/models/http/20f13f25c89af6ecbc2d30896d15324076c7c1ac94da7e92bc3e2d8a788e1467.json",
+    "recordSha256": "092cdbd83660fccc0e200b3fabe9add62c0dca360c25f241a2d5edd42b6a1783"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Quercus ilex",
+      "title": "Quercus ilex",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/en/d902d25a2465c412c204116fb288acb8f312ed4d86429074d52364f6ea5b72b2.json",
+      "url": "https://en.wikipedia.org/wiki/Quercus_ilex",
+      "revisionId": 1363121050,
+      "contentSha256": "fa0692e6fd54db40bfe7fd18c1b4bb97416c6370c77e006d0e90e6490d770dcd"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Quercus rotundifolia",
+      "title": "Quercus rotundifolia",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/7f3b701ccb5dd67f9f96eea3cba679dcc71873e6380f4ee2473c0e8f93f70a5d.json",
+      "url": "https://en.wikipedia.org/wiki/Quercus_rotundifolia",
+      "revisionId": 1365395167,
+      "contentSha256": "49aa55ea02a3e8ca66832a04405cad598769cd644a5616b7d63f8cb7f4c09b5f"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Azinheira",
+      "title": "Azinheira",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/pt/0c10cfbe7b397ebb4b6d6bed148300ede3d48df363d896414a7843ebeb70633e.json",
+      "url": "https://pt.wikipedia.org/wiki/Azinheira",
+      "revisionId": 71576240,
+      "contentSha256": "ee280307daf10943cfb2337f1c2938c8126f059812c0a958ab2bf90cc83e7282"
+    }
+  ],
+  "botanicalSources": [],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

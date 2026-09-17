@@ -1,0 +1,16 @@
+You are given a batch of 10 plants (or fewer in the final batch). Use only the supplied information for each plant; do not transfer facts or evidence between plants. Return JSON only.
+
+For each plant, write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return a JSON array with exactly one object for every supplied plant, in input order. Copy each plant’s integer taxonId exactly; do not omit or repeat plants:
+[{"taxonId":123,"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}]
+Use supporting passage IDs from that plant’s own packet only; empty lists when no claim is made.

@@ -1,0 +1,42 @@
+{
+  "taxonId": 333989,
+  "name": "Veronica anagalloides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:36.359825+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Veronica anagalloides",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Veronica anagalloides''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Veronica (género)|Veronica]]''\n| espécie = '''''V. anagalloides'''''\n| binomial = ''Veronica anagalloides''\n| binomial_autoridade = Guss.\n}}\nVeronica anagalloides é uma espécie de planta com flor pertencente à família Scrophulariaceae. \n\nA autoridade científica da espécie é Guss., tendo sido publicada em Plantae Rariores 5: , pl. 3. 1826.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Veronica anagalloides subsp. anagalloides - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d23e768a952b1f743d31c74df0d64cb5d1e94881bc83956a43b69bf1ac2b256b.json",
+      "sha256": "d3fecc7d0449127734980edddb3332280d0b4cf4a764c221123e8807b79456fe",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40995317",
+      "revisionId": 40995317,
+      "credit": {
+        "title": "Veronica anagalloides",
+        "url": "https://pt.wikipedia.org/wiki/Veronica_anagalloides",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40995317",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Veronica+anagalloides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Veronica+anagalloides&limit=100",
+      "status": 200
+    }
+  ]
+}

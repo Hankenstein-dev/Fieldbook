@@ -1,0 +1,32 @@
+{
+  "taxonId": 502611,
+  "name": "Passiflora incarnata × cincinnata",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:42:32.839830+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Passiflora incarnata × cincinnata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Passiflora 'Incense'"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Passiflora+incarnata+%C3%97+cincinnata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Passiflora+incarnata+%C3%97+cincinnata&limit=100",
+      "status": 200
+    }
+  ]
+}

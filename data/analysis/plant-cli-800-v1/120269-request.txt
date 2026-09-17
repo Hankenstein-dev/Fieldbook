@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":120269,"scientificName":"Arctotis fastuosa","commonName":"Monarch-of-the-veldt","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Arctotis fastuosa","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Arctotis fastuosa, called Monarch-of-the-veld, is a species of African plants in the family Asteraceae, native to Namibia and South Africa. It has become naturalized on roadsides and in vacant urban lots in southern California."},{"id":"s1:p2","text":"Arctotis fastuosa is cultivated as an ornamental plant for its showy flowers. It is an annual herb growing up to about 35 centimeters in height, but known to approach 90 centimeters (36 inches) at times. It is hairy in texture, the hairs long and webby when the plant is young. Leaves occur in basal rosettes and are alternately arranged along the stem. They can be several centimeters long all but the uppermost are divided into several lobes. They are borne on flat petioles with wide bases. The inflorescence is a solitary flower head which can be large and showy, measuring up to 10 centimeters wide. Cultivars are bred for varied flower colors; the ray florets can be orange or white with purple, yellow, or orange bases, and the disc florets at the center can be brown, purple, or black."}]}]}

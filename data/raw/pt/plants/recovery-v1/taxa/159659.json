@@ -1,0 +1,38 @@
+{
+  "taxonId": 159659,
+  "name": "Callicladium haldaneanum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:40.638491+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c15a72c2d9101d89b00e698878ac85afc2ddad460083a41ae6fbe07772a40a6d.json",
+      "title": "Callicladium haldanianum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Callicladium haldaneanum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Beautiful Branch Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Callicladium+haldaneanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Callicladium+haldaneanum&limit=100",
+      "status": 200
+    }
+  ]
+}

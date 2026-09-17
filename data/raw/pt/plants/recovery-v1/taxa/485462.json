@@ -1,0 +1,32 @@
+{
+  "taxonId": 485462,
+  "name": "Fontinalis squamosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:56.136753+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fontinalis squamosa"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Alpine Water-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fontinalis+squamosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fontinalis+squamosa&limit=100",
+      "status": 200
+    }
+  ]
+}

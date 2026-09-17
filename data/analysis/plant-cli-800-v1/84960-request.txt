@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":84960,"scientificName":"Dianthus carthusianorum","commonName":"Carthusian Pink","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Dianthus carthusianorum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Dianthus carthusianorum, commonly known as Carthusian pink, is a species of Dianthus, native to Europe, from Spain north to Belgium and Poland, and east to Ukraine, occurring in dry, grassy habitats at altitudes of up to {{convert|2500|m|abbr=on}} in mountains."},{"id":"s1:p2","text":"It is a variable herbaceous perennial plant growing to {{convert|60|cm|abbr=on}} tall. The leaves are slender, green to slightly glaucous greyish-green, up to {{convert|7|cm|abbr=on}} long and {{convert|5|mm|abbr=on}} broad. The flowers are {{convert|18|-|20|mm|abbr=on}} wide, dark pink to purple, occasionally white; they are produced several together in tight flowerhead."}]}]}

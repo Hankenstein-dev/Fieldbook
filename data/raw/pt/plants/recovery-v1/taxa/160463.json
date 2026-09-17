@@ -1,0 +1,49 @@
+{
+  "taxonId": 160463,
+  "name": "Chasmanthium laxum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:43.784293+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Chasmanthium laxum (L.) H.O.Yates",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Occasional. Jun–Oct. Thornhill 647, 738, 774, 1198 (NCSC). Specimens seen in the vicinity: Sandy Run [Hancock]: Taggart SARU 273 (WNC!). [= Uniola laxa (L.) Britton, Sterns, & Poggenb. sensu RAB; = FNA, Weakley]\n\nWet pine savannas (SPS-RF, WLPS, VWLPS), adjacent roadsides.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2703085.json",
+      "sha256": "083f023bb6af085f5eb8fdec56c6ec28c04b877de97649da8ccb2abbf02cce40",
+      "url": "https://api.gbif.org/v1/species/2703085",
+      "credit": {
+        "title": "Chasmanthium laxum (L.) H.O.Yates",
+        "url": "https://www.gbif.org/species/2703085",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chasmanthium laxum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Slender Spikegrass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Chasmanthium+laxum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Chasmanthium+laxum&limit=100",
+      "status": 200
+    }
+  ]
+}

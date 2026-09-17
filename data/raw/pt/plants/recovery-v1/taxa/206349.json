@@ -1,0 +1,42 @@
+{
+  "taxonId": 206349,
+  "name": "Stanhopea oculata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:43.096241+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Stanhopea oculata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Stanhopea oculata (common name Toritos, or Little Bulls) is a species of orchid occurring from Mexico to Colombia and southeastern Brazil. It has very small seeds, only 0.000003 g weight.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/98dbeed5a88de30cf7bac8af4a997a232b34234965d29d4c431ce908564f9f0d.json",
+      "sha256": "31b68a6bd90209dc144893ec22ce839a21e2ceb495c35ec20dd76834078ba91f",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314670248",
+      "revisionId": 1314670248,
+      "credit": {
+        "title": "Stanhopea oculata",
+        "url": "https://en.wikipedia.org/wiki/Stanhopea_oculata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314670248",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Stanhopea+oculata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Stanhopea+oculata&limit=100",
+      "status": 200
+    }
+  ]
+}

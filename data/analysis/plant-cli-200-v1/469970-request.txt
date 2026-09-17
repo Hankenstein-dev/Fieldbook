@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":469970,"scientificName":"Ornithogalum baeticum","commonName":"Ornithogalum baeticum","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Ornithogalum baeticum","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Título em itálico}}\n{{Info/Taxonomia\n| reino = [[Plantae]]\n| divisão = [[Magnoliophyta]]\n| classe = [[Liliopsida]]\n| ordem = [[Asparagales]]\n| família = [[Asparagaceae]]\n| subfamília = [[Scilloideae]]\n| género = [[Ornithogalum]]\n| espécie = O. baeticum\n}}"},{"id":"s1:p2","text":"Ornithogalum baeticum, comummente conhecida em Portugal como leite-de-galinha, é uma planta herbácea perene e bolbosa pertencente à família Asparagaceae (subfamília Scilloideae), descrita oficialmente pela primeira vez pelo botânico suíço Edmond Boissier em 1838 na sua obra Elenchus Plantarum Novarum, cuja área de distribuição natural se restringe à região do Mediterrâneo ocidental, concentrando-se na Península Ibérica (onde é autóctone do centro e sul de Portugal e de Espanha) e no Norte de África, habitando pastagens húmidas, clareiras de matagais, encostas rochosas e bosques abertos, desde altitudes baixas até cerca de 1400 metros. Em termos morfológicos, esta espécie geófita desenvolve-se a partir de um bolbo subterrâneo ovoide, geralmente solitário e desprovido de bolbilhos laterais, do qual emergem folhas estreitas, lineares e verdes, profundamente sulcadas na página superior por uma característica linha longitudinal branca que tende a desvanecer durante a floração, enquanto a inflorescência se organiza num corimbo laxo composto por 5 a 20 flores sustentadas por pedicelos que se alongam e se tornam marcadamente patentes após a fecundação, exibindo tépalas de um branco puro na face interna e ornamentadas com uma faixa verde larga na face externa, a qual serve de proteção quando a flor se encerra à noite ou em dias nublados. Apesar de a sua taxonomia ter sido historicamente complexa, sendo frequentemente confundida, integrada ou considerada uma subespécie ou variedade de Ornithogalum umbellatum ou de Ornithogalum algeriense, as análises filogenéticas modernas e os estudos citotaxonómicos demonstraram um número cromossómico diploide estável de 2n = 18, o qual, em estreita correlação com a morfologia poligonal única das suas cápsulas (frutos) profundamente sulcadas e com costelas angulosas, confirma em definitivo o seu estatuto como uma espécie independente e perfeitamente válida no seio do subgénero Ornithogalum."}]}]}

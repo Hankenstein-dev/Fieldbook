@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":158552,"scientificName":"Arbutus xalapensis","commonName":"Texas madrone","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Arbutus xalapensis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Arbutus xalapensis, commonly known as the Texas madrone, Amazaquitl, or Texas madroño, is a species of flowering plant in the heather family. It is native to Central America, the southwestern United States (western Texas and New Mexico), and throughout Mexico. It is found in canyons and mountains, on rocky plains, and in oak woodlands, at altitudes of up to {{convert|3,000|m|ft|abbr=on}} in the south of the range, but lower, down to {{convert|600|m|ft|abbr=on}} in the north of the range."},{"id":"s1:p2","text":"Arbutus xalapensis is a large shrub or small to medium-sized evergreen tree growing to {{convert|5|–|25|m|ft|sp=us}} tall with a trunk up to {{convert|50|cm|in|abbr=on}} in diameter, with smooth orange-brown bark peeling in thin sheets. The size varies regionally with available rainfall, with small, shrubby plants in dry areas such as western Texas and New Mexico, and larger trees in moister areas of Mexico; plants in Texas, New Mexico, and the far northeast of Mexico are distinguished as a variety, A. xalapensis var. texana, or even a distinct species A. texana, by some botanists, but others do not regard these as distinct."},{"id":"s1:p3","text":"The leaves are oblong to lanceolate, {{convert|5|–|17|cm|in|abbr=on}} long and {{convert|1.5|–|5|cm|in|abbr=on}} broad, with an entire or serrated margin. The flowers are bell-shaped, white or pale pink, 5–10 mm long, produced in loose panicles. The fruit is a rough-surfaced red berry {{convert|1|cm|in|abbr=on}} in diameter, reportedly edible (however, those of related species have narcotic properties), and contains numerous small seeds."}]}]}

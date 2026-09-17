@@ -1,0 +1,77 @@
+{
+  "taxonId": 338056,
+  "name": "Verbascum litigiosum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:47.064181+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Verbascum litigiosum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Verbascum litigiosum is a species of mullein in the figwort family Scrophulariaceae, endemic to coastal Portugal. It inhabits coastal sands in secondary dunes, preferably in coastal areas close to limestone regions.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/5b73c184aba67dbfaa308d0bfb26434636834117130f38ae4ae5db9958c4ec9f.json",
+      "sha256": "6b53be379bd1e88ad044a90f72a33593037852f53ef59cbebbcd737f914f2114",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1315348067",
+      "revisionId": 1315348067,
+      "credit": {
+        "title": "Verbascum litigiosum",
+        "url": "https://en.wikipedia.org/wiki/Verbascum_litigiosum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1315348067",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Verbascum litigiosum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Verbascum litigiosum''\n| imagem = \n| imagem_legenda = \n| estado = VU\n| reino = [[Plantae]]\n|clado1 = [[angiospérmicas]]\n|clado2 = [[eudicotiledóneas]]\n|clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Verbascum]]''\n| espécie = '''''V. litigiosum'''''\n| binomial = ''Verbascum litigiosum''\n| binomial_autoridade = \n| mapa = Verbascum litigiosum range map.jpeg\n| mapa_legenda = Distribuição geográfica (a vermelho)\n}}\nVerbascum litigiosum é uma espécie de planta com flor pertencente à família Scrophulariaceae. Trata-se de uma espécie hemicriptófita cujos habitats preferenciais são areais e dunas secundárias junto ao litoral, em locais onde geologicamente predominam os calcários. Trata-se de uma espécie endémica de Portugal Continental, nomeadamente do centro e sul, junto ao litoral.\n\nA espécie foi descrita por Gonçalo Sampaio e publicada em Herb. Port. 108 (1913).\n\nEncontra-se protegida por legislação portuguesa/da Comunidade Europeia, nomeadamente pelos anexos II e IV da Diretiva Habitats. Esta espécie encontra-se classificada pela IUCN, com o estatuto de Vulnerável.\n\nO seu nome comum é verbasco-de-flores-grossas.\n\n Sinonímia \nSegundo a obra Flora iberica esta espécie tem o sinónimo Verbascum crassifolium sensu Hoffmanns & Link, publicada em Fl. Portug. 1:213, pl. 26 (1811).\n\nA Euro+Med Plantbase indica como sinónimos:\n Verbascum crassifolium Hoffmanns. & Link\n Verbascum lusitanicum Murb.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/5b73c184aba67dbfaa308d0bfb26434636834117130f38ae4ae5db9958c4ec9f.json",
+      "sha256": "0f8e91bc4ee087a5d2817b77b32048c51c03b637e4ac098e7f2abb4385a4de1b",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=56533416",
+      "revisionId": 56533416,
+      "credit": {
+        "title": "Verbascum litigiosum",
+        "url": "https://pt.wikipedia.org/wiki/Verbascum_litigiosum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=56533416",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Verbascum litigiosum Samp.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Verbascum litigiosum is a species of mullein in the figwort family Scrophulariaceae, endemic to coastal Portugal. It inhabits coastal sands in secondary dunes, preferably in coastal areas close to limestone regions. Wild medicinal herbs near Cabo Raso Portugal.jpg|''Verbascum litigiosum'' (bottom left) at [[Cabo Raso]] in May, along with native [[gorse]], [[Apiaceae]] and invasive ''[[Agave americana]]''",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/182381897.json",
+      "sha256": "d8117e66da49a03504f5fbc980013c08433c626b704cdcf49dbfca36fa815fe7",
+      "url": "https://api.gbif.org/v1/species/182381897",
+      "credit": {
+        "title": "Verbascum litigiosum Samp.",
+        "url": "https://www.gbif.org/species/182381897",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Verbascum+litigiosum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Verbascum+litigiosum&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "taxonId": 865348,
+  "name": "Ostericum sieboldii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:36.775308+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ostericum sieboldii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "East Asian ostericum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ostericum+sieboldii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ostericum+sieboldii&limit=100",
+      "status": 200
+    }
+  ]
+}

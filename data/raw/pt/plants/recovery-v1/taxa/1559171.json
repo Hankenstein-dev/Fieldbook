@@ -1,0 +1,22 @@
+{
+  "taxonId": 1559171,
+  "name": "Rosa × nitidula",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:19.851383+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rosa+%C3%97+nitidula&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rosa+%C3%97+nitidula&limit=100",
+      "status": 200
+    }
+  ]
+}

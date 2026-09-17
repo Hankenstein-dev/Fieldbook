@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 319417,
+  "scientificName": "Gagea pratensis",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 319417,
+    "scientificName": "Gagea pratensis",
+    "commonName": "Meadow Gagea",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33393881/medium.jpeg",
+      "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/33393881"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 319417,
+      "count": 3,
+      "name": "Gagea pratensis",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1457838,
+      "descendant_obs_count": 3,
+      "direct_obs_count": 3
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "9dc7b64693a04e8999da4cecd76fbd8d2afda6e2ef4d62ffdfe4507e1f961a18"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Gagea pratensis",
+      "title": "Gagea pratensis",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/9683cacb8e8be014a757ef5268bc00e31cd7d5291b2174853e4ffe705d3bd2e2.json",
+      "url": "https://en.wikipedia.org/wiki/Gagea_pratensis",
+      "revisionId": 1190815378,
+      "contentSha256": "5eed0a452aa3b73adb7c3aea2839c05db463a1f64a97f847d20dec2c56e6afaa"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868358,
+      "canonicalName": "Gagea pratensis",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868358",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868358.json",
+      "recordSha256": "4ba42e05c51a37636217a4e728106ca412f9a4905e91654d289e757efb65713c"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

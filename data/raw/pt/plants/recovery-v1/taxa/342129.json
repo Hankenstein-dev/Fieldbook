@@ -1,0 +1,53 @@
+{
+  "taxonId": 342129,
+  "name": "Erica maderensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:39.904802+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Urze-rasteira",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n |cor =lightgreen\n |reino = [[Plantae]]\n |nome =''Erica maderensis''\n |imagem=Erica maderensis ThD.JPG|divisão = [[Magnoliophyta]]\n |classe = [[Magnoliopsida]]\n |ordem = [[Ericales]]\n |família = [[Ericaceae]]\n |género = ''[[Erica (género)|Erica]]''\n |binomial = ''Erica maderensis''\n |binomial_autoridade = ([[George Bentham|Benth.]]) [[Joseph Friedrich Nicolaus Bornmüller|Bornm.]]\n}}\nA urze-rasteira é uma planta da família Ericaceae, espécie endémica da ilha da Madeira, Açores e Canárias com a denominação científica de Erica maderensis.\n\nApresenta-se como um arbusto muito ramificado com até 80 centímetros de altura, perenifólio, geralmente prostrado com caules lenhosos e rebentos pubescentes. Folhas lineares, de 5 a 9 milímetros, verticiladas.\n\nAs flores desta planta apresentam corola rosada, oblonga, campanulada, com 5 milímetros, dispostas em cachos laterais ou terminais.\n\nTrata-se de uma espécie endémica na ilha da Madeira, às zonas expostas nas maiores altitudes.\n\nEsta planta apresenta floração entre Maio e Setembro.\n\nA autoridade da espécie é (Benth.) Bornm., tendo sido publicada em Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie 32: 458., no ano de 1903.",
+      "identityDecision": "Exact scientific identity in taxobox; common/translated article title",
+      "path": "data/raw/pt/plants/sources/articles/pt/18dc31b666d4d8861d4cea6d817e46887a1a6243ffd234dc144f2ff50effda0b.json",
+      "sha256": "a89681e52befb356971d07d94b6d7fda0f646793fc11a742f833d83eb78ec60d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=57335651",
+      "revisionId": 57335651,
+      "credit": {
+        "title": "Urze-rasteira",
+        "url": "https://pt.wikipedia.org/wiki/Urze-rasteira",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=57335651",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/77c23042cc67efa87d3d1fe89549f209304a6bd2f3bbf0e495081baca483304a.json",
+      "title": "Erica maderensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Erica maderensis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Erica+maderensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Erica+maderensis&limit=100",
+      "status": 200
+    }
+  ]
+}

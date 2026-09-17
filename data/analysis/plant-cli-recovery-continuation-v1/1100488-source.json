@@ -1,0 +1,87 @@
+{
+  "input": {
+    "taxonId": 1100488,
+    "scientificName": "Festuca maritima",
+    "commonName": "mat-grass fescue",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Festuca maritima L.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Habitat in Hispania. ☉"
+          },
+          {
+            "id": "s1:p2",
+            "text": "Gr. vix spitamaeum. Flores omnino spicati, secundi, aristis capillaribus: spiculae sexflorae. Folia subulata: vaginis striatis."
+          },
+          {
+            "id": "s1:p3",
+            "text": "6. Festuca spica lineari secunda recta, floribus adpressis subaristatis. Loefl. Gramen exile duriusculum maritimum. Scheuch. gr. 272."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Festuca maritima L. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Festuca maritima L.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is W. Europe to Medit. and W. Himalaya. It is an annual and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4120648.json",
+      "sha256": "66cc20a79f8d5a81395706ebb0abf0ba902d5c2bdfa332729529c7f87602d8de",
+      "url": "https://api.gbif.org/v1/species/4120648",
+      "credit": {
+        "title": "Festuca maritima L.",
+        "url": "https://www.gbif.org/species/4120648",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1100488-ffe5f03db7457054.json",
+      "sha256": "ffe5f03db74570544c3825b86e7b95e4cd6ee1f322c585ef47546ad4cc47103e",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A403059-1",
+      "credit": {
+        "title": "Festuca maritima L. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A403059-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1100488,
+    "name": "Festuca maritima",
+    "language": "unspecified,en",
+    "sourceTextTokens": 146,
+    "packetTokens": 313,
+    "standaloneInputTextTokens": 765,
+    "packetSha256": "19ce136df290459c51e9698e01032da5a70f012f2c49bdbf7125a2c7838a7fe9"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "taxonId": 401230,
+  "name": "Cyperus albostriatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:57.595036+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cyperus albostriatus",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Expand Finnish|topic=sci|date=January 2022}}\n\nCyperus albostriatus is a species of sedge that is native to southern parts of Africa, ranging from Mozambique and Zambia to South Africa.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/ced0da309e8b02ca04a784137d45e0d9c2987337add3b9c9d8b5784e8820ebf2.json",
+      "sha256": "aa801c79e61c17f017bb11cff14d041b181eda752da0453655ba446d5ce13ee0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1200958331",
+      "revisionId": 1200958331,
+      "credit": {
+        "title": "Cyperus albostriatus",
+        "url": "https://en.wikipedia.org/wiki/Cyperus_albostriatus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1200958331",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cyperus albostriatus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cyperus+albostriatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cyperus+albostriatus&limit=100",
+      "status": 200
+    }
+  ]
+}

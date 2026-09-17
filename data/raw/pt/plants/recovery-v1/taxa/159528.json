@@ -1,0 +1,38 @@
+{
+  "taxonId": 159528,
+  "name": "Bryum dichotomum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:39.753549+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/59d1075f3b65e89e94fd43bda682c7707dded7d9eea1d75f797f700cd21f22dd.json",
+      "title": "Gemmabryum dichotomum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bryum dichotomum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bicoloured Bryum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bryum+dichotomum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bryum+dichotomum&limit=100",
+      "status": 200
+    }
+  ]
+}

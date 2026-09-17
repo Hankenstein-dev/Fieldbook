@@ -1,0 +1,38 @@
+{
+  "taxonId": 1232570,
+  "sources": [
+    {
+      "title": "Flora-On — Astragalus epiglottis",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Astragalus epiglottis. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia Prados rupícolas. Em solos muito secos e pedregosos, básicos.\n\nLigações externas Descrição na Flora Iberica\n\nDistância ao mar (n=154)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Astragalus echinatus , Tripodion tetraphyllum , Atractylis cancellata , Convolvulus althaeoides , Gynandriris sisyrinchium , Echinops strigosus , Centaurea pullata ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1232570.json",
+      "sha256": "99d403d9a2d619ee3ad946aba859790e4efc8ca296581c599750383916cbb43c",
+      "url": "https://flora-on.pt/?q=Astragalus+epiglottis",
+      "credit": {
+        "title": "Flora-On — Astragalus epiglottis",
+        "url": "https://flora-on.pt/?q=Astragalus+epiglottis",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Biserrula+epiglottis",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Biserrula+epiglottis&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Astragalus+epiglottis",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:42:09.718386+00:00"
+}

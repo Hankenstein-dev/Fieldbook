@@ -1,0 +1,38 @@
+{
+  "taxonId": 274972,
+  "name": "Campyliadelphus chrysophyllus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:52.901174+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/7605d2a6f28e661e30fe572aa8302e7130d0044659122dd539c239d4dfe1a475.json",
+      "title": "Campylium chrysophyllum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Campyliadelphus chrysophyllus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Golden Feather-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Campyliadelphus+chrysophyllus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Campyliadelphus+chrysophyllus&limit=100",
+      "status": 200
+    }
+  ]
+}

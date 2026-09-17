@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":169524,"scientificName":"Tagetes lemmonii","commonName":"Lemmon's marigold","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Tagetes lemmonii","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Tagetes lemmonii, or Lemmon's marigold, is a North American species of shrubby marigold, in the family Asteraceae. Other English names for this plant include Copper Canyon daisy, mountain marigold, Mexican marigold, and Passionfruit Marigold."},{"id":"s1:p2","text":"It is native to the states of Sonora and Sinaloa in northwestern Mexico as well as southern Arizona in the United States."},{"id":"s1:p3","text":"Description"},{"id":"s1:p4","text":"Tagetes lemmonii is a shrub sometimes reaching as much as 240 cm (8 feet) tall."},{"id":"s1:p5","text":"Leaves are up to 12 cm (4.8 inches) long, pinnately compound into 3-5 leaflets, each leaflet narrowly lance-shaped with teeth along the edge."},{"id":"s1:p6","text":"Inflorescences\nThe plant produces many small flower heads in a flat-topped array, each head with 3-8 ray florets and 12-30 disc florets. It grows in woodlands, cliffs, and moist sites."},{"id":"s1:p7","text":"Taxonomy\nThe species is named for John Gill Lemmon, husband of American botanist Sarah Plummer Lemmon."},{"id":"s1:p8","text":"Cultivation\nTagetes lemmonii blooms from fall into spring and can sometimes be blooming for up to 10 months. It can get up to 8 feet tall by across. The foliage is pungent when disturbed.\nThe species is very drought tolerant in a Mediterranean climate and much used in California gardens where it tolerates light frosts without damage."}]}]}

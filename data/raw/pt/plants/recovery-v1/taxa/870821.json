@@ -1,0 +1,28 @@
+{
+  "taxonId": 870821,
+  "name": "Echinofossulocactus multicostatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:39.567245+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9b7bf6f9e8826c3f4c0b98c5e2f04e36eeeec44342dedda549622175bbc221e5.json",
+      "title": "Stenocactus multicostatus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Echinofossulocactus+multicostatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Echinofossulocactus+multicostatus&limit=100",
+      "status": 200
+    }
+  ]
+}

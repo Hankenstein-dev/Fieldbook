@@ -1,0 +1,38 @@
+{
+  "taxonId": 1422979,
+  "name": "Neotinea conica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:25.157588+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/ad4bafcfed534373bc426cdc31451f39e021f542f510e0c15eaa94094a4a2786.json",
+      "title": "Orchis conica",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Neotinea conica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Conical Orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Neotinea+conica&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Neotinea+conica&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "taxonId": 284035,
+  "name": "Sobralia macrantha",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:55.022473+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sobralia macrantha",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Sobralia macrantha, commonly known as the large-flowered sobralia, is a species of orchid found from north-central and southern Mexico to Central America.\n\nSubspecies\nAccepted subspecies:\n Image Name Distribution \n Sobralia macrantha var. kienastiana Costa Rica, El Salvador \n Sobralia macrantha var. macranthaBelize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/37aa444547a47dd736441b6375d357d92a192abd0f45c8b4d421a554306a5dfd.json",
+      "sha256": "03aceb54e59d6513431328bf7c6d30a4d0c9d57b9d4c820b7cd18e8d531b2f0a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1292652333",
+      "revisionId": 1292652333,
+      "credit": {
+        "title": "Sobralia macrantha",
+        "url": "https://en.wikipedia.org/wiki/Sobralia_macrantha",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1292652333",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sobralia macrantha"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sobralia+macrantha&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sobralia+macrantha&limit=100",
+      "status": 200
+    }
+  ]
+}

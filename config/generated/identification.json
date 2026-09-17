@@ -1,0 +1,137 @@
+{
+  "id": "bioclip2-int8-v1",
+  "label": "BioCLIP 2",
+  "dimensions": 768,
+  "imageSize": 224,
+  "mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "license": "MIT",
+  "source": "https://huggingface.co/imageomics/bioclip-2",
+  "revision": "2957b322090f9cb17ae72c71981c7218a28d81e0",
+  "files": {
+    "image": {
+      "parts": [
+        {
+          "url": "/models/image-584c80aebf15-0.bin",
+          "bytes": 23000000,
+          "sha256": "584c80aebf152f2efdfb3674d01695c8ac6e0e1d801da840260c9ec4911a4165"
+        },
+        {
+          "url": "/models/image-205f54808cd8-1.bin",
+          "bytes": 23000000,
+          "sha256": "205f54808cd8f14ee7f7680c3dd1dfe8175bc7b03fe543973d874879fd6fad70"
+        },
+        {
+          "url": "/models/image-b12125c91314-2.bin",
+          "bytes": 23000000,
+          "sha256": "b12125c91314de3975c7607498e4c2c37e66e9940f3e6cce68086bf3936edafd"
+        },
+        {
+          "url": "/models/image-dd1868978bdc-3.bin",
+          "bytes": 23000000,
+          "sha256": "dd1868978bdc2e9eb77136cdd1c63924a488c02894140db2283be55fde9df753"
+        },
+        {
+          "url": "/models/image-707f7b86cfc3-4.bin",
+          "bytes": 23000000,
+          "sha256": "707f7b86cfc39daa50adcf8b36e799f95ec715ce1571bd5f684fd11349f74ced"
+        },
+        {
+          "url": "/models/image-9351ee2301f2-5.bin",
+          "bytes": 23000000,
+          "sha256": "9351ee2301f26362f10b4f303fd3afc31ed0d340efdcb1754709087a17282a2a"
+        },
+        {
+          "url": "/models/image-2622fa17e013-6.bin",
+          "bytes": 23000000,
+          "sha256": "2622fa17e013c1d8a37359b707e18ea5eba7ea2088eb0d5484135f988bc020cc"
+        },
+        {
+          "url": "/models/image-05271adcc506-7.bin",
+          "bytes": 23000000,
+          "sha256": "05271adcc506ea9459036574aecc9b3e6fb65d16e61dea817cf26d1431b98936"
+        },
+        {
+          "url": "/models/image-1e71eb25fd40-8.bin",
+          "bytes": 23000000,
+          "sha256": "1e71eb25fd408c7f22b0cd0ecadae3e4c216cda89c384a672d4e5bb3f16e47d8"
+        },
+        {
+          "url": "/models/image-b3541e959715-9.bin",
+          "bytes": 23000000,
+          "sha256": "b3541e959715c38b59985438cb2200dc0e49ccd20d91ca92d4adcf4c3f2708e0"
+        },
+        {
+          "url": "/models/image-294463c58548-10.bin",
+          "bytes": 23000000,
+          "sha256": "294463c58548bac103d6933b175ad58427ac3f7f3d05f7ab19c7f5968fe23571"
+        },
+        {
+          "url": "/models/image-113869a78411-11.bin",
+          "bytes": 23000000,
+          "sha256": "113869a784114e030e8408bad76d4ac036ed259df3b5ac8234ac62cf73047501"
+        },
+        {
+          "url": "/models/image-2016d15482ac-12.bin",
+          "bytes": 23000000,
+          "sha256": "2016d15482ac69f996470c02013da5dc691e452a94ab23a433251da8cad31bde"
+        },
+        {
+          "url": "/models/image-8d638f3eee13-13.bin",
+          "bytes": 7917008,
+          "sha256": "8d638f3eee136016189948b6a588829063c4d6766e5ebd6c5438c24bfd1f4294"
+        }
+      ],
+      "bytes": 306917008,
+      "input": "image",
+      "output": "image_features"
+    },
+    "text": {
+      "parts": [
+        {
+          "url": "/models/text-02a5e6256a8e-0.bin",
+          "bytes": 23000000,
+          "sha256": "02a5e6256a8e09618bc2e25ee0467415e99dd32e37bbc06fe473e4daad877a4f"
+        },
+        {
+          "url": "/models/text-953a8422da35-1.bin",
+          "bytes": 23000000,
+          "sha256": "953a8422da3571ed73b56659e5102d4a88f4581bb8a1bfca05b4f4e6c70a94bd"
+        },
+        {
+          "url": "/models/text-ac95a3d335e0-2.bin",
+          "bytes": 23000000,
+          "sha256": "ac95a3d335e082b40e0bba102cc7de4614de9ac211c2d5e5ae174f473a1b3be1"
+        },
+        {
+          "url": "/models/text-5e51eedc074f-3.bin",
+          "bytes": 23000000,
+          "sha256": "5e51eedc074f363c13e383ccb654684e84d0b95bf0911be832db55765484c9bb"
+        },
+        {
+          "url": "/models/text-70e0c0fa09b4-4.bin",
+          "bytes": 23000000,
+          "sha256": "70e0c0fa09b45db469a3d45249096c3477ff2e09d8c90357c45e0ac5433b6833"
+        },
+        {
+          "url": "/models/text-e2eb5140a8ab-5.bin",
+          "bytes": 9545619,
+          "sha256": "e2eb5140a8abb27724477aaf4d3fa5faa22f1345105d48f479085bbe477afe28"
+        }
+      ],
+      "bytes": 124545619,
+      "input": "input_ids",
+      "output": "text_features"
+    }
+  },
+  "bytes": 431462627,
+  "tokenizerBytes": 2224786
+}

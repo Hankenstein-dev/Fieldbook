@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":135668,"scientificName":"Pinus wallichiana","commonName":"blue pine","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pinus wallichiana","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Redirect-distinguish|Pinus griffithii|Larix griffithii}}"},{"id":"s1:p2","text":"Pinus wallichiana is a coniferous evergreen tree native to the Himalaya, Karakoram and Hindu Kush mountains, from eastern Afghanistan east across northern Pakistan and north west India to Yunnan in southwest China. It grows in mountain valleys at altitudes of 1800–4300 m (rarely as low as 1200 m), reaching large sizes from {{convert|30-50|m|ft|abbr=on}} in height. It favours a temperate climate with dry winters and wet summers. In Pashto, it is known as Nishtar."},{"id":"s1:p3","text":"This tree is often known as Bhutan pine, (not to be confused with the recently described Bhutan white pine, Pinus bhutanica, a closely related species). Other names include blue pine, Himalayan pine and Himalayan white pine."},{"id":"s1:p4","text":"Description\nThe leaves (\"needles\") are in fascicles (bundles) of five and are 12–18 cm long. They are noted for being flexible along their length, and often droop gracefully. The cones are long and slender, 16–32 cm, yellow-buff when mature, with thin scales; the seeds are 5–6 mm long with a 20–30 mm wing."},{"id":"s1:p5","text":"Typical habitats are mountain screes and glacier forelands, but it will also form old-growth forests as the primary species or in mixed forests with deodar, birch, spruce, and fir. In some places it reaches the tree line.{{cn|date=April 2022}}"},{"id":"s1:p6","text":"P. wallichiana is the primary host for Himalayan dwarf mistletoe."},{"id":"s1:p7","text":" Cultivation and uses \nThe wood is moderately hard, durable and highly resinous. It is a good firewood but gives off a pungent resinous smoke. It is a commercial source of turpentine which is superior quality than that of P. roxburghii but is not produced so freely."},{"id":"s1:p8","text":"The tree became available through the European nursery trade in 1836, nine years after the Danish botanist Nathaniel Wallich first introduced seeds to England. It is a popular tree for planting in parks and large gardens, grown for its attractive foliage and large, decorative cones. It is also valued for its relatively high resistance to air pollution, tolerating this better than some other conifers."},{"id":"s1:p9","text":"This plant and its slow-growing cultivar 'Nana' have gained the Royal Horticultural Society's Award of Garden Merit."}]}]}

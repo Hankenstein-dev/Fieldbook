@@ -1,0 +1,348 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T10:40:36.805502+00:00",
+  "completedAt": "2026-09-14T10:41:55.440983+00:00",
+  "elapsedSeconds": 78.63765331100058,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0101",
+  "taxonIds": [
+    61317,
+    446884,
+    64694,
+    76435,
+    135855,
+    78714,
+    896905,
+    75240,
+    76587,
+    162707
+  ],
+  "usage": {
+    "input_tokens": 21461,
+    "cached_input_tokens": 2304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2631,
+    "reasoning_output_tokens": 1552
+  },
+  "requestTextTokens": 14052,
+  "savedOutputTokens": 1073,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 61317,
+      "name": "Rubus armeniacus",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A perennial blackberry native to Armenia and northwestern Iran, it grows vigorously into dense tangles of arching, prickly stems and is invasive elsewhere. Its large fruit is edible and sweet when ripe.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The large fruit is edible and sweet when ripe; immature fruit is hard, red and much sourer.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p5"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p16"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 446884,
+      "name": "Calliarthron tuberculosum",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An intertidal red alga found along western North America from Baja California to Alaska, it commonly inhabits low-tide pools in moderately exposed or exposed places. South of Monterey Bay, detailed measurements or molecular sequencing may be needed to distinguish it from a similar species.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 64694,
+      "name": "Elaeagnus angustifolia",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A thorny tree native to Asia, with an unclear western natural limit in eastern Europe, it has silvery-scaled stems and leaves. Its aromatic creamy-yellow flowers are followed by sweet, orange-red fruit with a dry, mealy texture.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The fruit is edible; dried senjed is served in syrup in an Afghan Nowruz fruit salad.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p6"
+          ],
+          "humanEdibility": [
+            "s1:p13",
+            "s1:p15"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 76435,
+      "name": "Coprosma repens",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering shrub or small tree native to New Zealand, it grows flat against exposed cliffs but may become a small tree in shelter. Its thick, exceptionally glossy leaves vary with exposure, and female plants bear orange-red fruit.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 135855,
+      "name": "Macrozamia spiralis",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A usually trunkless cycad endemic to New South Wales in eastern Australia, it grows in low-nutrient forest soils. Its leaf axis is often strongly twisted, and mature plants can regrow from the ground after bushfire.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 78714,
+      "name": "Potamogeton pusillus",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An aquatic herb occurring widely across the Northern Hemisphere, it inhabits standing or slow-flowing fresh water. Its slender stems carry narrow translucent leaves but no floating leaves, and in early autumn the plant breaks apart into numerous overwintering buds.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 896905,
+      "name": "Oxybasis chenopodioides",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual flowering herb native to southern Europe, Asia and parts of North Africa, it grows on bare mud in coastal or inland salty habitats. It is often low and spreading, with fleshy leaves and green or crimson colouring, and can be difficult to distinguish from red goosefoot.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p10",
+            "s1:p12"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 75240,
+      "name": "Abies amabilis",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A large evergreen conifer native to the Pacific Northwest of North America, it grows in cool, wet forests. Its flattened needles lie beside and above the shoots, leaving their undersides bare, while its dark-purple cones disintegrate when mature.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p10"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 76587,
+      "name": "Cyperus fuscus",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual sedge native to Europe, Asia and North Africa, it grows in wet places such as swamps and river margins. Its paper-thin stems carry clusters of flat, dark-brown to deep-purple flower spikes.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T10:40:36.805502+00:00",
+      "completedAt": "2026-09-14T10:41:55.440983+00:00",
+      "elapsedSeconds": 78.63765331100058,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 162707,
+      "name": "Eryngium maritimum",
+      "batchId": "batch-0101",
+      "usage": null,
+      "usageRef": "batch-0101-result.json",
+      "rawOutputFile": "batch-0101-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A coastal perennial flowering plant native to most of Europe and the Mediterranean, sea holly has bluish-grey, stiff, spiny leaves and compact flower heads resembling a thistle. Its roots were formerly candied as sweetmeat, while young shoots may be eaten like asparagus.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Roots were formerly candied as sweetmeat, and young shoots may be eaten like asparagus.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p6",
+            "s1:p7",
+            "s1:p27"
+          ],
+          "humanEdibility": [
+            "s1:p27"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "taxonId": 338368,
+  "name": "Tanacetum corymbosum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:54.080010+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tanacetum corymbosum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Tanacetum corymbosum''\n| imagem = Tanacetum corymbosum ENBLA02.jpeg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Tanacetum]]''\n| espécie = '''''T. corymbosum'''''\n| binomial = ''Tanacetum corymbosum''\n| binomial_autoridade = (L.) Sch.Bip.\n}}\nTanacetum corymbosum é uma espécie de planta com flor pertencente à família Asteraceae. \n\nA autoridade científica da espécie é (L.) Sch.Bip., tendo sido publicada em Ueber die Tanaceteen: mit besonderer Berücksichtigung der deutschen Arten 57. 1844.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Tanacetum corymbosum subsp. corymbosum - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/5b0d85c8771651d7b45e11f8844af903721d9ff000c90324b5663a85b854dfc8.json",
+      "sha256": "45d20b40f78e1d1ce27c075281273acd06085d17a42454deadf992f2fc78ea73",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40716480",
+      "revisionId": 40716480,
+      "credit": {
+        "title": "Tanacetum corymbosum",
+        "url": "https://pt.wikipedia.org/wiki/Tanacetum_corymbosum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40716480",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5b0d85c8771651d7b45e11f8844af903721d9ff000c90324b5663a85b854dfc8.json",
+      "title": "Tanacetum corymbosum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tanacetum corymbosum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tanacetum+corymbosum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tanacetum+corymbosum&limit=100",
+      "status": 200
+    }
+  ]
+}

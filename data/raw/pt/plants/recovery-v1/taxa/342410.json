@@ -1,0 +1,61 @@
+{
+  "taxonId": 342410,
+  "name": "Festuca jubata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:39.802370+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Festuca jubata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Festuca jubata is a species of grass in the family Poaceae. It is native to Azores and Madeira. It is a perennial and mainly grows in temperate biomes. It was first published in 1838.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/99b1174cac46b2e31820430ffe20f8f65f3aaf7e5b2d3f5ab9ca44a587306d8c.json",
+      "sha256": "b4934edd5fc6f8a8be8a6ebb67ff97c27e08472e951d39a2cb55d6c8f1dd8b4c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1331804841",
+      "revisionId": 1331804841,
+      "credit": {
+        "title": "Festuca jubata",
+        "url": "https://en.wikipedia.org/wiki/Festuca_jubata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1331804841",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Festuca jubata",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{não confundir com|Festuca petraea}}\n{{Info/Taxonomia\n| nome = ''Festuca jubata''\n| imagem = Festuca jubata.jpg\n| imagem_legenda = ''Festuca jubata'' (Parque Endémico do Pelado, [[Lomba da Fazenda]]).\n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Festuca]]''\n| espécie = '''''F. jubata'''''\n| binomial = ''Festuca jubata''\n| binomial_autoridade = Lowe\n}}\nFestuca jubata é uma espécie de planta com flor pertencente à família Poaceae. É conhecida pelos nomes comuns de bracel, bracel-do-mato e bracéu. É uma espécie endémica da Macaronésia.\n\nA autoridade científica da espécie é Lowe, tendo sido publicada em Transactions of the Cambridge Philosophical Society 6: 530. 1833.\n\nProteção\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/99b1174cac46b2e31820430ffe20f8f65f3aaf7e5b2d3f5ab9ca44a587306d8c.json",
+      "sha256": "c303638f2177c700bb43b5e1cf62241e5c3e0697d047b9a35f1688a89fb10962",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=65191492",
+      "revisionId": 65191492,
+      "credit": {
+        "title": "Festuca jubata",
+        "url": "https://pt.wikipedia.org/wiki/Festuca_jubata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=65191492",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+jubata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+jubata&limit=100",
+      "status": 200
+    }
+  ]
+}

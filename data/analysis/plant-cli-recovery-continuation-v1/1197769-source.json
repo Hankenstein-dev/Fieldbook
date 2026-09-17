@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 1197769,
+    "scientificName": "Cistus halimifolius",
+    "commonName": "Spotted yellow sun rose",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cistus halimifolius",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Cistus halimifolius is a species of flowering plant in the family Cistaceae. it is a subshrub or shrub native to the western and central Mediterranean Basin, Including Portugal, mainland Spain and the Balearic Islands, Corsica, Sardinia, the Italian peninsula, Morocco, Algeria, and Tunisia."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Cistus halimifolius L.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Habitat in Lusitaniae maritimis. ♄"
+          },
+          {
+            "id": "s2:p2",
+            "text": "9. Cistus arborescens, alis nudis, foliolis duobus calycinis linearibus. Hort. cliff. 205. Roy. lugdb. 475. Sauv. monsp. 147. Cistus femina, portulacae marinae folio latiore obtuso. Bauh. pin. 465. Cistus folio halimi 1. Clus. hist. 1. p. 71. β. Cistus femina, portulacae marinae folio angustiore mucronato. Bauh. pin. 465. Cistus halimi folio 2. Clus. hist. 1. p. 71."
+          },
+          {
+            "id": "s2:p3",
+            "text": "* Exstipulatae, suffruticosae."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1e36782ce39c4933b07ae08b9d287c747cde3614c8f1ebf96c47c970f0ba35d2.json",
+      "sha256": "8b1d1c5d7f462c3a6c748fef4479c3b943624266bfe4bd64b09b1fdc7ea184a0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1365200761",
+      "revisionId": 1365200761,
+      "credit": {
+        "title": "Cistus halimifolius",
+        "url": "https://en.wikipedia.org/wiki/Cistus_halimifolius",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1365200761",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7331292.json",
+      "sha256": "c78f058bae72baf5a8d149483d44af5d383676c2d7419c5daedc2d60efbf5a74",
+      "url": "https://api.gbif.org/v1/species/7331292",
+      "credit": {
+        "title": "Cistus halimifolius L.",
+        "url": "https://www.gbif.org/species/7331292",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1197769,
+    "name": "Cistus halimifolius",
+    "language": "en,unspecified",
+    "sourceTextTokens": 238,
+    "packetTokens": 390,
+    "standaloneInputTextTokens": 842,
+    "packetSha256": "ca2676b0baa771115a9ddba15bc54f6323c8ccf1208842786760ae39623ace3b"
+  }
+}

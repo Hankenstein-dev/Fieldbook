@@ -1,0 +1,33 @@
+{
+  "taxonId": 1637421,
+  "name": "Bromelia hemispherica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:47.232905+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/4c221a13890ae4230d20e03689ac875b8a13b1eb7725a651091cedf493cbd241.json",
+      "title": "Bromelia hemisphaerica",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9d5d4a727628b998c5e73c85026bd794f55e91fa97ec4bb318191a93f0e42140.json",
+      "title": "Bromelia hemisphaerica",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bromelia+hemispherica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bromelia+hemispherica&limit=100",
+      "status": 200
+    }
+  ]
+}

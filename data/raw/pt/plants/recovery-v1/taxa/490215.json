@@ -1,0 +1,63 @@
+{
+  "taxonId": 490215,
+  "name": "Helianthemum aegyptiacum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:54.467537+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Helianthemum aegyptiacum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Helianthemum aegyptiacum''\n| imagem = Rosas de sol - Helianthemum aegyptiacum (9019508854).jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Violales]]\n| família = [[Cistaceae]]\n| género = ''[[Helianthemum]]''\n| espécie = '''''H. aegyptiacum'''''\n| binomial = ''Helianthemum aegyptiacum''\n| binomial_autoridade = (L.) Mill.\n}}\nHelianthemum aegyptiacum é uma espécie de planta com flor pertencente à família Cistaceae. \n\nA autoridade científica da espécie é (L.) Mill., tendo sido publicada em Gard. Dict., ed. 8. n. 23. 1769.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/20ea6a79d8cf621c82d19b1bb4b019867cc975dfc98ec4f81f6e29a00d4783a8.json",
+      "sha256": "c06528f27216d13a5bf398c1eab72fa36bce6f186adbf3268ff19a6cc9a47562",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069538",
+      "revisionId": 60069538,
+      "credit": {
+        "title": "Helianthemum aegyptiacum",
+        "url": "https://pt.wikipedia.org/wiki/Helianthemum_aegyptiacum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069538",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Helianthemum aegyptiacum (L.) Mill.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Jafri in Jafri & El-Gadi, Fl. Libya 48: 33. 1977): Herb. Linn. No. 689.50 (LINN).\n\n\" Habitat in Aegypto. B. Jussieus. \" RCN: 3913.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7893178.json",
+      "sha256": "c38b3a97f6f1caf10046fafdd97118277966b8355e650387827471b49e7f0380",
+      "url": "https://api.gbif.org/v1/species/7893178",
+      "credit": {
+        "title": "Helianthemum aegyptiacum (L.) Mill.",
+        "url": "https://www.gbif.org/species/7893178",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Helianthemum aegyptiacum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Helianthemum+aegyptiacum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Helianthemum+aegyptiacum&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":346786,"scientificName":"Bellevalia dubia","commonName":"Bellevalia dubia","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Bellevalia dubia","language":"de","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Bellevalia dubia ist eine Pflanzenart aus der Gattung Bellevalia in der Familie der Spargelgewächse (Asparagaceae)."},{"id":"s1:p2","text":" Merkmale \nBellevalia dubia ist eine ausdauernde Zwiebelpflanze, die Wuchshöhen von 15 bis 40 Zentimeter erreicht. Die Blätter sind 4 bis 13 Millimeter breit und niederliegend."},{"id":"s1:p3","text":"Die Blüten sind 5 bis 10 Millimeter groß und zylindrisch-glockig. Sie sind anfangs himmelblau gefärbt, später werden sie grauviolett oder bräunlich mit grün geaderten, weißen Zipfeln. Die Traube ist zylindrisch und besteht aus 10 bis 30 Blüten. Die Blüten und Kapseln sind meist länger als die Blütenstiele. Die Kapseln weisen breit verkehrteiförmige, 7 bis 10 Millimeter breite und an der Spitze ausgerandete Klappen auf."},{"id":"s1:p4","text":"Die Blütezeit reicht von März bis April."},{"id":"s1:p5","text":" Vorkommen \nBellevalia dubia ist im Mittelmeerraum verbreitet. Auf Kreta ist sie von einem Fundort auf der im Nordwesten gelegenen Halbinsel Gramvousa (Kissamos) bekannt, wo sie auf Felsen in einer Höhenlage von 300 Metern vorkommt."},{"id":"s1:p6","text":" Systematik \nMan kann drei Unterarten unterscheiden:\n Bellevalia dubia subsp. boissieri {{Person|(Freyn) Feinbrun}}: Sie kommt in Süditalien vor und von der Balkanhalbinsel bis zur westlichen Türkei. Die Chromosomenzahl beträgt 2n = 8.\n Bellevalia dubia subsp. dubia: Sie kommt in Sizilien, Marokko, Algerien und Tunesien vor.\n Bellevalia dubia subsp. hackelii {{Person|(Freyn) Feinbrun}}: Sie kommt nur im südwestlichen Portugal vor."}]}]}

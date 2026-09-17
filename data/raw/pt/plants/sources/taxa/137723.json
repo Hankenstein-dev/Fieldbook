@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 137723,
+  "scientificName": "Dryopteris oreades",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 137723,
+    "scientificName": "Dryopteris oreades",
+    "commonName": "Mountain Male-fern",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75686110/medium.jpeg",
+      "attribution": "(c) Sylvain Piry, some rights reserved (CC BY-NC), uploaded by Sylvain Piry",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/75686110"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 137723,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        121943,
+        764796,
+        47754,
+        961001,
+        47753,
+        870758,
+        52672,
+        137723
+      ],
+      "is_active": true,
+      "name": "Dryopteris oreades",
+      "parent_id": 52672,
+      "ancestry": "48460/47126/211194/121943/764796/47754/961001/47753/870758/52672",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 75686110,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Sylvain Piry, some rights reserved (CC BY-NC), uploaded by Sylvain Piry",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75686110/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Sylvain Piry",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75686110/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75686110/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 387,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dryopteris_oreades",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Mountain Male-fern",
+      "conservation_status": {
+        "id": 164053,
+        "source_id": null,
+        "user_id": 3042,
+        "authority": "Red Data Book",
+        "status": "vu",
+        "status_name": "Vulnerável - D1+2 (VU)",
+        "geoprivacy": "obscured",
+        "iucn": 30,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "establishment_means": {
+        "id": 84182389,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=54&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:06.032860+00:00",
+    "retainedFrom": "data/models/http/2c1b4d1397ece0c4135836e19fffcdf6c93cf7c7fd8d9d55c393ec2558e75982.json",
+    "recordSha256": "e6677015e8e947e1ac4bd1cbc8d4ff07be1ce2ae44c3a37a08026b805eddfd0c"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Dryopteris oreades",
+      "title": "Dryopteris oreades",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/dfacc343500bd4c7a0370c2400fdc63a358aeb6ea8b2a5c24fefd298e022026b.json",
+      "url": "https://en.wikipedia.org/wiki/Dryopteris_oreades",
+      "revisionId": 1366980042,
+      "contentSha256": "a03e373707f9d89542972f042efd37715f06889fed23889d6fe56f10d703b7e8"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868306,
+      "canonicalName": "Dryopteris oreades",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868306",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868306.json",
+      "recordSha256": "6bc408a562ad45c4c6d008a454488a5e320c6d2a74326e89856baeaed4e5c60d"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

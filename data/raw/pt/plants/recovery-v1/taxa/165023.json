@@ -1,0 +1,58 @@
+{
+  "taxonId": 165023,
+  "name": "Lythrum thymifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:57.399018+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lythrum thymifolia",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Lythrum thymifolia''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Myrtales]]\n| família = [[Lythraceae]]\n| género = ''[[Lythrum]]''\n| espécie = '''''L. thymifolia'''''\n| binomial = ''Lythrum thymifolia''\n| binomial_autoridade = L.\n}}\nLythrum thymifolia é uma espécie de planta com flor pertencente à família Lythraceae.\n\nA autoridade científica da espécie é Lineu, tendo sido publicada em Species Plantarum 1: 447. 1753.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/e299fba51b849ff79973b5469a3654b360522e090d873ac7bb0622ae1510fb5f.json",
+      "sha256": "af52251e6e786f7f5a04b36a9bc959090ae0dbc5bcb532caf97cf326fdbacd85",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60070141",
+      "revisionId": 60070141,
+      "credit": {
+        "title": "Lythrum thymifolia",
+        "url": "https://pt.wikipedia.org/wiki/Lythrum_thymifolia",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60070141",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Lythrum thymifolia L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Habitat in Italiae & G. Narbonensis uliginosis. ☉\n\nPetala 4, stamina 2, calyx 4 dentatus. Folia lineari-lanceolata, alterna, ima opposita. Flores solitarii axillares. Calyx stipulis 2 lateralibus fulcitus. D. Sauvages.\n\n6. Lythrum foliis alternis linearibus, floribus tetrapetalis. Lythrum foliis linearibus. Sauv. monsp. 49. Salicaria minima tenuifolia. Tournef. inst. 254. Hyssopifolia minor s. potius thymifolia maritima. Bauh. hist. 3. p. 792. Polygonum aquaticum minus. Barr. ic. 773. f. 2.\n\nType not designated.\n\nOriginal material: Herb. Linn. No. 626.19 (LINN); [icon] in Barrelier, Pl. Galliam: 53, t. 773, f. 2. 1714; [icon] in Bauhin & Cherler, Hist. Pl. Univ. 3 (2): 792. 1651.\n\n\" Habitat in Italiae & G. Narbonensis uliginosis. \" RCN: 3475.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3188745.json",
+      "sha256": "318f57bfa6e97d790b3f7b0d73aeb1afc06429c6b2962faa39a1e3fdf39aa772",
+      "url": "https://api.gbif.org/v1/species/3188745",
+      "credit": {
+        "title": "Lythrum thymifolia L.",
+        "url": "https://www.gbif.org/species/3188745",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lythrum+thymifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lythrum+thymifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

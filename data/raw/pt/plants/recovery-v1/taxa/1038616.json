@@ -1,0 +1,22 @@
+{
+  "taxonId": 1038616,
+  "name": "× Graptosedum",
+  "rank": "genushybrid",
+  "completedAt": "2026-09-15T07:45:39.129961+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=%C3%97+Graptosedum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=%C3%97+Graptosedum&limit=100",
+      "status": 200
+    }
+  ]
+}

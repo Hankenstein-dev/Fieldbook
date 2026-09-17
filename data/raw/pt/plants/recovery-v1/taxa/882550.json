@@ -1,0 +1,33 @@
+{
+  "taxonId": 882550,
+  "name": "Micropetalum",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:44:45.016774+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/a5c0a3954330c6be9c178ff9e9d11f9c311b135b3fcba7cc56d087ca42663206.json",
+      "title": "Amanoa",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/a6ff4d9a6112482b00fd3165c89bc75369758acfd92a4cd15ce5cc1ad21240de.json",
+      "title": "Amanoa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Micropetalum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Micropetalum&limit=100",
+      "status": 200
+    }
+  ]
+}

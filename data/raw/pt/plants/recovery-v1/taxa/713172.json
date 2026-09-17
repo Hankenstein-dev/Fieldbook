@@ -1,0 +1,22 @@
+{
+  "taxonId": 713172,
+  "name": "Rhododendron rubropilosum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:42.367321+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhododendron+rubropilosum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhododendron+rubropilosum&limit=100",
+      "status": 200
+    }
+  ]
+}

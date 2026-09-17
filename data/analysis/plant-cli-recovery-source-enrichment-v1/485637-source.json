@@ -1,0 +1,125 @@
+{
+  "input": {
+    "taxonId": 485637,
+    "scientificName": "Luzula elegans",
+    "commonName": "Luzula elegans",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Luzula elegans",
+        "language": "uk",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Luzula elegans — вид рослин з родини ситникові (Juncaceae), ендемік Мадейри та Канарських островів."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Поширення \nЕндемік архіпелагу Мадейра (о. Мадейра) та Канарських островів (о-ви Гран-Канарія, Тенерифе, Гомера, Ієрро, Пальма)."
+          },
+          {
+            "id": "s1:p3",
+            "text": " Джерела "
+          },
+          {
+            "id": "s1:p4",
+            "text": "Категорія:Флора Мадейри\nКатегорія:Флора Канарських островів\nКатегорія:Ендемічна флора Макаронезії\nelegans\nКатегорія:Рослини, описані 1838"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Flora-On — Luzula elegans",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Flora-On botanical account for Luzula elegans. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s2:p2",
+            "text": "Ecologia ainda sem informação"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Ligações externas Descrição na Flora Iberica"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Luzula elegans Lowe — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s3:p1",
+            "text": "Plants of the World Online account: Luzula elegans Lowe."
+          },
+          {
+            "id": "s3:p2",
+            "text": "The native range of this species is Madeira, Canary Islands. It is an annual and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/uk/e52b5b81ddbfb274ede1b81d23bafc3004cf5ad5a5171c2e423c02f2078949d4.json",
+      "sha256": "c7211ca9a14970db85752eaad14bd151d464f1e03eb711cab0395688fcfb2698",
+      "url": "https://uk.wikipedia.org/w/index.php?oldid=35527580",
+      "revisionId": 35527580,
+      "credit": {
+        "title": "Luzula elegans",
+        "url": "https://uk.wikipedia.org/wiki/Luzula_elegans",
+        "revisionUrl": "https://uk.wikipedia.org/w/index.php?oldid=35527580",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.uk"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in account identity field",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/485637.json",
+      "sha256": "455a2b2ad5c4d4e137fec106bf6254713a456f07a27d520e3e4232c978c1380e",
+      "url": "https://flora-on.pt/?q=Luzula+elegans",
+      "credit": {
+        "title": "Flora-On — Luzula elegans",
+        "url": "https://flora-on.pt/?q=Luzula+elegans",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/485637-9fb2d74de6e416e1.json",
+      "sha256": "9fb2d74de6e416e109c3bea31aafd30e9a833c636c0a06147bb80255b6848708",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A443785-1",
+      "credit": {
+        "title": "Luzula elegans Lowe — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A443785-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 485637,
+    "name": "Luzula elegans",
+    "language": "uk,pt,en",
+    "sourceTextTokens": 266,
+    "packetTokens": 516,
+    "standaloneInputTextTokens": 968,
+    "packetSha256": "4ba49b2a9168ec27aa0152632598b775c12b83a2259ca2d5b07d65b558f22dce"
+  }
+}

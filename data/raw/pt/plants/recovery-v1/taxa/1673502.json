@@ -1,0 +1,33 @@
+{
+  "taxonId": 1673502,
+  "name": "Nigella",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:48:53.280567+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/55ac776a7ff2a7eaef158ef9dd756a87d947e69a5ac00521aba967c1f494d4d6.json",
+      "title": "Nigella",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/55ac776a7ff2a7eaef158ef9dd756a87d947e69a5ac00521aba967c1f494d4d6.json",
+      "title": "Nigella",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Nigella&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Nigella&limit=100",
+      "status": 200
+    }
+  ]
+}

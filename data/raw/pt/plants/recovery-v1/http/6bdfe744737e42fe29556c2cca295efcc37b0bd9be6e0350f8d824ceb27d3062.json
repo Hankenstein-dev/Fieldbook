@@ -1,0 +1,155 @@
+{
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q27506972&props=claims%7Csitelinks",
+  "fetchedAt": "2026-09-15T07:45:12.335680+00:00",
+  "status": 200,
+  "sha256": "f6a032548e12a8945810e8cb4d810b6de247e2476ae2d7751a0945c9c80162bf",
+  "data": {
+    "entities": {
+      "Q27506972": {
+        "type": "item",
+        "id": "Q27506972",
+        "claims": {
+          "P171": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "61714ef29c9192835a2e36c28ffc8193f1e937cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 30019,
+                    "id": "Q30019"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q27506972$8bf11b96-4670-2208-aabb-1c01c23cd0a5",
+              "rank": "normal"
+            }
+          ],
+          "P105": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P105",
+                "hash": "e6be9ce8cbf8e848a9d7ddd4a2c793247341422a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3238261,
+                    "id": "Q3238261"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q27506972$87e13f87-4695-f3eb-2c5f-a255b2ce6171",
+              "rank": "normal"
+            }
+          ],
+          "P225": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P225",
+                "hash": "ba8b53f88e53d8c2448d38bfe24e7d03eb0cafa1",
+                "datavalue": {
+                  "value": "Sphagnum subg. Subsecunda",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q27506972$7a106b0b-4b88-360d-5530-923c12304a87",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c0daa0f15880cd6f40b399fd3ce3ccb56b759f40",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "149e0ee583040dad5a73a3b0df4e5522278a9060",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 27435468,
+                            "id": "Q27435468"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P304": [
+                      {
+                        "snaktype": "value",
+                        "property": "P304",
+                        "hash": "e3c8d881f829411403c7e02c6637b345afb4ca0f",
+                        "datavalue": {
+                          "value": "1523",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P304"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "06629d890d7ab0ff85c403d8aadf57ce9809c01f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 16521,
+                    "id": "Q16521"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q27506972$60717552-46ff-81d8-1eb1-3b069fbbdac8",
+              "rank": "normal"
+            }
+          ],
+          "P7552": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7552",
+                "hash": "c4537845d8551abf420fe2f896067374979396e7",
+                "datavalue": {
+                  "value": "MX.5076772",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q27506972$b17dca3f-4e80-a7ca-fc63-8ec72225ee5a",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    },
+    "success": 1
+  },
+  "text": null
+}

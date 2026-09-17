@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 1198029,
+  "scientificName": "Galega cirujanoi",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 1198029,
+    "scientificName": "Galega cirujanoi",
+    "commonName": "Galega cirujanoi",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/697438091/medium.jpg",
+      "attribution": "(c) Paulo Rocha, some rights reserved (CC BY-NC), uploaded by Paulo Rocha",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/697438091"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 1198029,
+      "count": 6,
+      "name": "Galega cirujanoi",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 157398,
+      "descendant_obs_count": 6,
+      "direct_obs_count": 6
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "7a6e083c6f4963be596dff79a3eb478cbe50f68ccfda8a32920fbf34616344e7"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Galega cirujanoi",
+      "title": "Galega cirujanoi",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/1961c9511ed90f8845329b3639b6d6b8c71e1180bd1bf4ba8e38bfd2fad672c2.json",
+      "url": "https://en.wikipedia.org/wiki/Galega_cirujanoi",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Galega cirujanoi",
+      "title": "Galega cirujanoi",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/1961c9511ed90f8845329b3639b6d6b8c71e1180bd1bf4ba8e38bfd2fad672c2.json",
+      "url": "https://pt.wikipedia.org/wiki/Galega_cirujanoi",
+      "revisionId": 71352280,
+      "contentSha256": "ac0c6d34ccff78ec8ed528a6c32cd4b731b9a0247526ea355c9c93d63a06d01a"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868781,
+      "canonicalName": "Galega cirujanoi",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868781",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868781.json",
+      "recordSha256": "db90b178901629e150090eef2e91f2ea5f24eb5cdeabc3c89b30a4ea5fcfa04b"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

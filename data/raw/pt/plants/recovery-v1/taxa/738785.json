@@ -1,0 +1,32 @@
+{
+  "taxonId": 738785,
+  "name": "Veronica × franciscana",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:43:51.786554+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Veronica × franciscana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hedge Veronica"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Veronica+%C3%97+franciscana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Veronica+%C3%97+franciscana&limit=100",
+      "status": 200
+    }
+  ]
+}

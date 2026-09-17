@@ -1,0 +1,22 @@
+{
+  "taxonId": 1292026,
+  "name": "× Agropogon lutosus",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:46:52.866623+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=%C3%97+Agropogon+lutosus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=%C3%97+Agropogon+lutosus&limit=100",
+      "status": 200
+    }
+  ]
+}

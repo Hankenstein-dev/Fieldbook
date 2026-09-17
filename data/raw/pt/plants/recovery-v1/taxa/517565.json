@@ -1,0 +1,42 @@
+{
+  "taxonId": 517565,
+  "name": "Ranunculus gregarius",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:43.378626+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ranunculus gregarius",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Ranunculus gregarius''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Ranunculales]]\n| família = [[Ranunculaceae]]\n| género = ''[[Ranunculus]]''\n| espécie = '''''R. gregarius'''''\n| binomial = ''Ranunculus gregarius''\n| binomial_autoridade = Brot.\n}}\nRanunculus gregarius é uma espécie de planta com flor pertencente à família Ranunculaceae. \n\nA autoridade científica da espécie é Brot., tendo sido publicada em Flora Lusitanica 2: 369. 1805.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/22bf6b569245165e30e72cfd2e1ff72f136d9404c8aa676d2762b3412d4050c1.json",
+      "sha256": "bb056808b229a9f9afbf20a0668834cad739d3a7c0b7995d779b964f2467ea9b",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60751695",
+      "revisionId": 60751695,
+      "credit": {
+        "title": "Ranunculus gregarius",
+        "url": "https://pt.wikipedia.org/wiki/Ranunculus_gregarius",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60751695",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ranunculus+gregarius&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ranunculus+gregarius&limit=100",
+      "status": 200
+    }
+  ]
+}

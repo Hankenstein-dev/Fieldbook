@@ -1,0 +1,58 @@
+{
+  "taxonId": 206722,
+  "name": "Mammillaria haageana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:43.823762+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Mammillaria haageana",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Mammillaria haageana is a species of cacti in the tribe Cacteae. It is native to Mexico, where it is found commonly, and is widespread throughout much of the country.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/2a997da2c5c3c04995e1a9019a3a106272e93a94def0d15f7f4b3bed04d96e10.json",
+      "sha256": "925c047faaf8775094c88e4b2f974d76774e7e55b5e52084cd9d06b3f55ec5b1",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1113153009",
+      "revisionId": 1113153009,
+      "credit": {
+        "title": "Mammillaria haageana",
+        "url": "https://en.wikipedia.org/wiki/Mammillaria_haageana",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1113153009",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Mammillaria haageana Pfeiff.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Mammillaria haageana ist eine Pflanzenart aus der Gattung Mammillaria in der Familie der Kakteengewächse (Cactaceae). Das Artepitheton ehrt den deutschen Gärtner und Botaniker Friedrich Adolph Haage aus Erfurt.Beschreibung einiger neuer Cacteen. In: Allgemeine Gartenzeitung. Band 4, Nr. 33, 1836, S. 257 (online).\n\nMammillaria haageana wächst meist einzeln, manchmal im Alter sprossend. Die kugeligen bis kurz zylindrischen, glauk-grün gefärbten Triebe werden bis zu 15 Zentimeter hoch und 4 bis 11 Zentimeter im Durchmesser groß. Die gedrängt stehenden Warzen sind klein, basal vierkantig und ohne Milchsaft. Die Axillen sind leicht wollig. Die 1 bis 4 Mitteldornen, meist zwei sehr schlank, sind schwarz bis rötlich, gerade bis leicht gebogen. Sie werden 0,6 bis 1 Zentimeter lang. Die 18 bis 30 Randdornen sind glatt, weiß, ausstrahlend und borstenartig. Sie werden 3 bis 6 Millimeter lang. Die tiefpurpurrosa bis rosarot oder rosakarminfarbenen Blüten werden bis zu 1 Zentimeter lang und 1 bis 2,2 Zentimeter im Durchmesser groß. Die Früchte sind rot. Sie enthalten braune Samen.\n\nLiteratur Einzelnachweise\n\nMammillaria haageana ist in den mexikanischen Bundesstaaten Veracruz, Puebla, Mexiko, Morelos, Oaxaca und in Mexiko-Stadt weit verbreitet. Die Erstbeschreibung erfolgte 1836 durch Ludwig Georg Karl Pfeiffer. Nomenklatorische Synonyme sind Cactus haageanus (1891) und Neomammillaria haageana (1923). In der Roten Liste gefährdeter Arten der IUCN wird die Art als „“, d. h. als nicht gefährdet geführt.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165212423.json",
+      "sha256": "f2ffb008c1c0ef52493c63478579f50bb1b0551b3f3362f88e93a8b7c5f21929",
+      "url": "https://api.gbif.org/v1/species/165212423",
+      "credit": {
+        "title": "Mammillaria haageana Pfeiff.",
+        "url": "https://www.gbif.org/species/165212423",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Mammillaria+haageana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Mammillaria+haageana&limit=100",
+      "status": 200
+    }
+  ]
+}

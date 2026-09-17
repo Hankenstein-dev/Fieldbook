@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":342003,"scientificName":"Astragalus boeticus","commonName":"Yellow Milkvetch","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Astragalus boeticus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Astragalus boeticus, the yellow milk vetch, or Swedish coffee is a species of annual herb in the family Fabaceae. It is native to the Mediterranean and the Middle East. "},{"id":"s1:p2","text":" Description \nAstragalus boeticus has a self-supporting growth form and compound, broad leaves."},{"id":"s1:p3","text":"It can grow to 0.6 meters (2 feet). The bloom period is between the months of July to August. The plant has both male and female organs. It can fix nitrogen. It is pollinated by bees, moths, and butterflies. "},{"id":"s1:p4","text":"It is most commonly found in March and April. It is most commonly found in Spain, being found more than 500 times there. "},{"id":"s1:p5","text":" Distribution \nAstragalus boeticus is native to North Africa, southern Europe (including France) and Western Asia to Iran. It is an introduced species in northern Europe."},{"id":"s1:p6","text":" Uses \nThe seed pods are edible. Roasted seeds are used as a substitute of coffee."},{"id":"s1:p7","text":"It has been used as a coffee substitute, especially during the 1800s, when coffee was scarce. It was even used by the Swedish monarchy. There is evidence that Astragalus boeticus has a lot of genetic diversity, as it is found in most of the Mediterranean and parts of the Middle East. Evidence suggests with limited breeding that it could be a better coffee substitute."},{"id":"s1:p8","text":" Sources \n{{Free-content attribution\n| title = Astragalus boeticus\n| source = Encyclopedia of Life\n| documentURL = https://eol.org/pages/703040\n| license statement URL = https://eol.org/docs/what-is-eol/copyright-and-linking-policy\n| license = CC0\n}}"}]}]}

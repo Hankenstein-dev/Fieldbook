@@ -1,0 +1,85 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T16:13:32.707813+00:00",
+  "completedAt": "2026-09-14T16:13:41.991729+00:00",
+  "elapsedSeconds": 9.283768505000012,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0308",
+  "taxonIds": [
+    985381,
+    486280
+  ],
+  "usage": {
+    "input_tokens": 8728,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 295,
+    "reasoning_output_tokens": 123
+  },
+  "requestTextTokens": 1315,
+  "savedOutputTokens": 166,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T16:13:32.707813+00:00",
+      "completedAt": "2026-09-14T16:13:41.991729+00:00",
+      "elapsedSeconds": 9.283768505000012,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 985381,
+      "name": "Mesophyllum lichenoides",
+      "batchId": "batch-0308",
+      "usage": null,
+      "usageRef": "batch-0308-result.json",
+      "rawOutputFile": "batch-0308-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A multicellular marine red alga found in Europe, Africa, Brazil, Australia and some Atlantic islands.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T16:13:32.707813+00:00",
+      "completedAt": "2026-09-14T16:13:41.991729+00:00",
+      "elapsedSeconds": 9.283768505000012,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 486280,
+      "name": "Nitella translucens",
+      "batchId": "batch-0308",
+      "usage": null,
+      "usageRef": "batch-0308-result.json",
+      "rawOutputFile": "batch-0308-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A stonewort with a cosmopolitan distribution.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

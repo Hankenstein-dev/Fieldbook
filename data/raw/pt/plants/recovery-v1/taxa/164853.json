@@ -1,0 +1,32 @@
+{
+  "taxonId": 164853,
+  "name": "Ludwigia erecta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:56.522498+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ludwigia erecta"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "yerba de jicotea"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ludwigia+erecta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ludwigia+erecta&limit=100",
+      "status": 200
+    }
+  ]
+}

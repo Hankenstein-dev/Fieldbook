@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 338354,
+  "scientificName": "Allium ericetorum",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 338354,
+    "scientificName": "Allium ericetorum",
+    "commonName": "Heather garlic",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1163928/medium.jpg",
+      "attribution": "(c) Joan Simon, some rights reserved (CC BY-SA)",
+      "license": "cc-by-sa",
+      "sourceUrl": "https://www.inaturalist.org/photos/1163928"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 338354,
+      "count": 5,
+      "name": "Allium ericetorum",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1080340,
+      "descendant_obs_count": 5,
+      "direct_obs_count": 5
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "8bfd1403dbf2893da5bc3f1e315db70f9f4afc6202cb422053fcaaa83657b0f9"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Allium ericetorum",
+      "title": "Allium ericetorum",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/972f4d657f0246ca55183e4818ae545dde15211c7f57de7ec0c690c6be8290e7.json",
+      "url": "https://en.wikipedia.org/wiki/Allium_ericetorum",
+      "revisionId": 1314124123,
+      "contentSha256": "01a59dda86fa60595966fd202b1de99414f260d9d6ce00cb4966162835211786"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868382,
+      "canonicalName": "Allium ericetorum",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868382",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868382.json",
+      "recordSha256": "ef12fcf3be4cc2a356e8e4123d325684946a97f0363250bfc600cf7f13679a14"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

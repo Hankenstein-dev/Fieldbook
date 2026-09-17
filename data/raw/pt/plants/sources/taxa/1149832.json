@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 1149832,
+  "scientificName": "Dryopteris guanchica",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 1149832,
+    "scientificName": "Dryopteris guanchica",
+    "commonName": "Dryopteris guanchica",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115680462/medium.jpeg",
+      "attribution": "(c) Javier Calvo Vázquez, some rights reserved (CC BY-NC), uploaded by Javier Calvo Vázquez",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/115680462"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 1149832,
+      "count": 1,
+      "name": "Dryopteris guanchica",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 52672,
+      "descendant_obs_count": 1,
+      "direct_obs_count": 1
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "365c2721f6396faead9924588c91149df8426fabc53fbe4a3b8c78a2b28cf24d"
+  },
+  "coverageStatus": "taxonomy_only",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Dryopteris guanchica",
+      "title": "Dryopteris guanchica",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/86d563a985c1dd9d49a7579fedf526c6f5b8898959cf28b84afc5dd42d4837dc.json",
+      "url": "https://en.wikipedia.org/wiki/Dryopteris_guanchica",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Dryopteris guanchica",
+      "title": "Dryopteris guanchica",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/pt/86d563a985c1dd9d49a7579fedf526c6f5b8898959cf28b84afc5dd42d4837dc.json",
+      "url": "https://pt.wikipedia.org/wiki/Dryopteris_guanchica",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868304,
+      "canonicalName": "Dryopteris guanchica",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868304",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868304.json",
+      "recordSha256": "4baf9e97dd14633d569b499a31e017b4d54e728406283d21ed83d83b96858616"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

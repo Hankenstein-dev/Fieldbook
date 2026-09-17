@@ -1,0 +1,32 @@
+{
+  "taxonId": 405402,
+  "name": "Pteris dentata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:51.835307+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pteris dentata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Toothed Brake"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pteris+dentata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pteris+dentata&limit=100",
+      "status": 200
+    }
+  ]
+}

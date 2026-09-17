@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":290837,"scientificName":"Agave guadalajarana","commonName":"Agave guadalajarana","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Agave guadalajarana","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Agave guadalajarana is a smallish Agave species endemic to Mexico. It is native to the Guadalajara region of Jalisco state, and the Ceboruco volcano area of Nayarit state."},{"id":"s1:p2","text":" Description \nAbout {{convert|1|-|2|ft|1}} in diameter, A. guadalajarana grows as a basal rosette of grey-green leaves with distinctive overlapment marks. The edges of the leaves have big spines and they end each in a thick brown spine."},{"id":"s1:p3","text":"The flower spike is up to {{convert|13|ft|abbr=on}} tall."},{"id":"s1:p4","text":"The species is often confused with a similar species, Agave inaequidens."},{"id":"s1:p5","text":" Cultivation \nAgave guadalajarana is cultivated as an ornamental plant. Easy to grow, it is best propagated by seed directly into the intended soil for the adult plant."},{"id":"s1:p6","text":"Multiple fertilizations is good during vegetation and the plant is best grown in a decently sized container."}]}]}

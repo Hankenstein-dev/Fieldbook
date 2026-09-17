@@ -1,0 +1,38 @@
+{
+  "taxonId": 400698,
+  "name": "Cheilanthes viridis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:48.518174+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8a6620f9405fdebcc62cd31d2c5df67dd232c2646832a6b35f98c61b08941d90.json",
+      "title": "Pellaea viridis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cheilanthes viridis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Green Cliff Brake"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cheilanthes+viridis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cheilanthes+viridis&limit=100",
+      "status": 200
+    }
+  ]
+}

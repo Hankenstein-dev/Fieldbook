@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":290831,"scientificName":"Yucca filifera","commonName":"tree yucca","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Yucca filifera","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Hatnote|Not to be confused with the invalidly published name ''Yucca filifera'' Engelm., a synonym of ''[[Yucca baccata]]''}}\n{{Use dmy dates|date=January 2024}}"},{"id":"s1:p2","text":"Yucca filifera is a member of the subfamily Agavaceae, family Asparagaceae, native to central Mexico."},{"id":"s1:p3","text":" History "},{"id":"s1:p4","text":"It was discovered in 1840 in northeastern Mexico between Saltillo and Parras ({{coord|23|37|0|N|102|34|30|W|region:MX}}) on 19 May 1847 by merchant and explorer Josiah Gregg. It was later introduced to Europe and described for science by J. Benjamin Chabaud (1833-1915) in 1876."},{"id":"s1:p5","text":" Description "},{"id":"s1:p6","text":"A tall, heavily branched yucca, Y. filifera has straight, ensiform leaves growing in rosette-shaped bunches from the end of each stem. Its inflorescence hangs over and is made of many separate white flowers."},{"id":"s1:p7","text":" Status \nYucca filifera is not considered to be threatened by the IUCN, as it has a very large range and its population appears to be stable. It is locally used for fibers, and may experience some threat from habitat degradation."},{"id":"s1:p8","text":" Cultivation \nY. filifera can be cultivated in xerophytic conditions. It is used as roof covering and as a source of fibre for handcrafting by the indigenous people, who call it palma china or izote."},{"id":"s1:p9","text":"An enormous specimen of Yucca filifera stands in front of the Anderson Collection at the Cantor Arts Center, Stanford University. It was transplanted to this site in the 1880s from the nearby Arizona Garden. In the spring, it bears long clusters of white flowers, some well over a meter long."}]}]}

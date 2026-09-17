@@ -1,0 +1,38 @@
+{
+  "taxonId": 1406669,
+  "name": "Thamnopteris",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:47:20.087895+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/ca20e7b02c7c57555e2e5caa82f728aa94dfa0fd1c73e6019fa5698049664640.json",
+      "title": "Asplenium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Thamnopteris"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bird's nest ferns"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thamnopteris&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thamnopteris&limit=100",
+      "status": 200
+    }
+  ]
+}

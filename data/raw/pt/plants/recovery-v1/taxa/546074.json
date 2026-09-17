@@ -1,0 +1,58 @@
+{
+  "taxonId": 546074,
+  "name": "Euphorbia angulata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:51.852929+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Euphorbia angulata",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Euphorbia angulata é uma espécie de planta com flor pertencente à família Euphorbiaceae. \n\nA autoridade científica da espécie é Jacq., tendo sido publicada em Collectanea 2: 309. 1789.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/6cc36f93b985e8f081a88b3adbdc4c81226066452e4081b55360634c4e239df0.json",
+      "sha256": "56f416f71e667044ae738a49d1032b164c5d841d9072083074125d0dcc80457b",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62903718",
+      "revisionId": 62903718,
+      "credit": {
+        "title": "Euphorbia angulata",
+        "url": "https://pt.wikipedia.org/wiki/Euphorbia_angulata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62903718",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Euphorbia angulata Jacq.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Volksname\n\nStatus Indigenat: - Liste der gefaehrdeten Pflanzen IUCN (nach Walter & Gillett 1997): Nein\n\nOekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F -- Lichtzahl L -- Salzzeichen -- Reaktionszahl R -- Temperaturzahl T -- Naehrstoffzahl N -- Kontinentalitaetszahl K --",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3070391.json",
+      "sha256": "8756867b7b730427a41fbb7693908224178fe54d2d6b486201316f320ee79bfd",
+      "url": "https://api.gbif.org/v1/species/3070391",
+      "credit": {
+        "title": "Euphorbia angulata Jacq.",
+        "url": "https://www.gbif.org/species/3070391",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Euphorbia+angulata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Euphorbia+angulata&limit=100",
+      "status": 200
+    }
+  ]
+}

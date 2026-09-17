@@ -1,0 +1,32 @@
+{
+  "taxonId": 371528,
+  "name": "Platanthera pollostantha",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:44.518455+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Platanthera pollostantha"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Short-spurred Butterfly-orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Platanthera+pollostantha&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Platanthera+pollostantha&limit=100",
+      "status": 200
+    }
+  ]
+}

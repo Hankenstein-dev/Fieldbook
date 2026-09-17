@@ -1,0 +1,33 @@
+{
+  "taxonId": 1404861,
+  "name": "Leucanthemum vulgare",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:16.855877+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/fbf090143e5a17a014967e7cbfc79be749f5232c6bd107228e49e982788c5f0a.json",
+      "title": "Leucanthemum vulgare",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/fbf090143e5a17a014967e7cbfc79be749f5232c6bd107228e49e982788c5f0a.json",
+      "title": "Leucanthemum vulgare",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Leucanthemum+vulgare&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Leucanthemum+vulgare&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "input": {
+    "taxonId": 1227115,
+    "scientificName": "Sonchus microcephalus",
+    "commonName": "Sonchus microcephalus",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Sonchus microcephalus Mejias",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Sonchus microcephalus has the unusual chromosome number of 2n = 30. It has been explained by dysploid reduction from 2n = 32 of its closest relative, the allotetraploid S. oleraceus. Its basic number is therefore x = 15."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4249645.json",
+      "sha256": "160e4c2604cd342de14ca5501ba290bcfc2fe6dc658647158443742d8d1cea99",
+      "url": "https://api.gbif.org/v1/species/4249645",
+      "credit": {
+        "title": "Sonchus microcephalus Mejias",
+        "url": "https://www.gbif.org/species/4249645",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1227115,
+    "name": "Sonchus microcephalus",
+    "language": "unspecified",
+    "sourceTextTokens": 63,
+    "packetTokens": 158,
+    "standaloneInputTextTokens": 610,
+    "packetSha256": "6d159694db4ee0f2fb46d95dc1cbdc2519a3d521e741fa64d5a38cea12301bee"
+  }
+}

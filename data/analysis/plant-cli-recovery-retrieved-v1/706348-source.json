@@ -1,0 +1,55 @@
+{
+  "input": {
+    "taxonId": 706348,
+    "scientificName": "Gigartina pistillata",
+    "commonName": "Gigartina pistillata",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Gigartina pistillata (S.G.Gmel.) Stackh.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Neotype (Irvine in Spencer & al. in Taxon, in press): Herb. Linn. No. 1274.102 (LINN)."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Note: The specific epithet was spelled \" gigantinus \" in the protologue, subsequently corrected by Linnaeus in Syst. Nat. ed. 12 (1767)."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2666168.json",
+      "sha256": "7d72b08a8ed3f46b4f5fe669f14f4763cc0a6d245c3ba09cbab30361b4e7645d",
+      "url": "https://api.gbif.org/v1/species/2666168",
+      "credit": {
+        "title": "Gigartina pistillata (S.G.Gmel.) Stackh.",
+        "url": "https://www.gbif.org/species/2666168",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 706348,
+    "name": "Gigartina pistillata",
+    "language": "unspecified",
+    "sourceTextTokens": 70,
+    "packetTokens": 177,
+    "standaloneInputTextTokens": 629,
+    "packetSha256": "e37979eed89a69faa9ead41349586f00938f709f6d2193a766aa7475f7ed1699"
+  }
+}

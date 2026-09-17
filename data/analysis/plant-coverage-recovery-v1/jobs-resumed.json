@@ -1,0 +1,32 @@
+[
+  {
+    "name": "local-generation",
+    "pid": 75414,
+    "command": [
+      "/home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python",
+      "scripts/run_plant_content_cli.py",
+      "--output",
+      "data/analysis/plant-cli-recovery-local-v1"
+    ],
+    "log": "/home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-cli-recovery-local-v1/execution-progress.log",
+    "startedAt": "2026-09-15T08:37:25.585073+00:00"
+  },
+  {
+    "name": "retrieved-preparation",
+    "pid": 75415,
+    "command": [
+      "/home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python",
+      "scripts/recover_plant_sources.py",
+      "prepare",
+      "--output",
+      "data/analysis/plant-cli-recovery-retrieved-v1",
+      "--include-short",
+      "--exclude",
+      "data/analysis/plant-cli-recovery-local-v1",
+      "--exclude",
+      "data/analysis/plant-cli-recovery-strawberries-v1"
+    ],
+    "log": "/home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-coverage-recovery-v1/retrieved-preparation.log",
+    "startedAt": "2026-09-15T08:37:25.585412+00:00"
+  }
+]

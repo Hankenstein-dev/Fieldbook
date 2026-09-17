@@ -1,0 +1,28 @@
+{
+  "taxonId": 1149243,
+  "name": "Renanthera bella",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:38.081186+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/87d0340ff62fbc6bd8c5b6009872eb5bbe85acd10da6f26adabfc2c55eca570d.json",
+      "title": "Renanthera bella",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Renanthera+bella&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Renanthera+bella&limit=100",
+      "status": 200
+    }
+  ]
+}

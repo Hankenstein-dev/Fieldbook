@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 52614,
+  "scientificName": "Zostera marina",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 52614,
+    "scientificName": "Zostera marina",
+    "commonName": "Eelgrass",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407129386/medium.jpeg",
+      "attribution": "(c) Nicolas Jouault, some rights reserved (CC BY-NC), uploaded by Nicolas Jouault",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/407129386"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 52614,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47163,
+        48073,
+        52615,
+        52616,
+        52614
+      ],
+      "is_active": true,
+      "name": "Zostera marina",
+      "parent_id": 52616,
+      "ancestry": "48460/47126/211194/47125/47163/48073/52615/52616",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 407129386,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Nicolas Jouault, some rights reserved (CC BY-NC), uploaded by Nicolas Jouault",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407129386/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Nicolas Jouault",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407129386/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407129386/medium.jpeg"
+      },
+      "taxon_changes_count": 1,
+      "taxon_schemes_count": 7,
+      "observations_count": 10385,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Zostera_marina",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Eelgrass"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?lat=37.11181640625&lng=-8.59130859375&locale=en&page=5&per_page=200&radius=8.2",
+    "fetchedAt": "2026-09-09T18:03:13.399133+00:00",
+    "retainedFrom": "data/models/http/11829428e8307bfc8f20430ac9b60a81541260d828bb732c65de586fa3363263.json",
+    "recordSha256": "f7c06590a595f6936dc251b80e6bfc5b31f40ee0ec2d2233723621f2bf2322cb"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Zostera marina",
+      "title": "Zostera marina",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/8a1242bb38a6293d4dfd68dfc960946f2f77bb77a61e11f9802aff9f7b327f61.json",
+      "url": "https://en.wikipedia.org/wiki/Zostera_marina",
+      "revisionId": 1374354500,
+      "contentSha256": "ddd41a4de011b3643897aab77e6c2c33055658dd36a5e69fcf1aa749c24547d2"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Zostera marina",
+      "title": "Zostera marina",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/8a1242bb38a6293d4dfd68dfc960946f2f77bb77a61e11f9802aff9f7b327f61.json",
+      "url": "https://pt.wikipedia.org/wiki/Zostera_marina",
+      "revisionId": 65843491,
+      "contentSha256": "8bc1e862f3ad40654f1fe9e1ce7b9703c35126529a71dc19e89076a839fc8132"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868329,
+      "canonicalName": "Zostera marina",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868329",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868329.json",
+      "recordSha256": "35ce948293ca8602c918c08415ea2f8abf3f13695973f6570a3c1c8fdb566d14"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

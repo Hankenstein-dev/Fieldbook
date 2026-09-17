@@ -1,0 +1,55 @@
+{
+  "taxonId": 162314,
+  "name": "Encalypta vulgaris",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:46.266513+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Encalypta vulgaris Hedw.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Das Gewöhnliche Glockenhutmoos (Encalypta vulgaris) ist eine Laubmoos-Art in der Familie Encalyptaceae. Deutschsprachige Namen sind auch Gemeiner Glockenhut oder Gemeines Glockenhutmoos.\n\nDas Moos bildet dichte, polsterförmige, hellgrüne bis bräunlichgrüne, am Grund wurzelfilzige Rasen, deren Pflanzen meist bis 1 cm groß werden. Die Blätter sind eilänglich oder kurz zungenförmig, an der Spitze abgerundet bis zugespitzt, manchmal kurz stachelspitzig. Im feuchten Zustand sind sie aufrecht-abstehend, trocken hakig eingekrümmt und gedreht. Die rotbraune Blattrippe ist an der Blattbasis sehr breit und reicht bis in die Blattspitze. Blattzellen sind im oberen Blattteil dicht papillös, rundlich-sechseckig und 12 bis 18 µm groß, an der Blattbasis glatt, rechteckig und hyalin bis bräunlich, an den unteren Blatträndern sind sie linealisch und bilden einen undeutlichen Saum. Sporophyten werden regelmäßig ausgebildet, Sporenreifezeit ist von April bis Juli. Die Sporenkapsel wird von der 0,5 bis 1 Zentimeter langen, gelben bis roten Seta getragen und ist von der Kalyptra eingehüllt. Die Kalyptra reicht etwas über die Ansatzstelle der Sporenkapsel herab und ist an der Basis ganzrandig oder unregelmäßig gelappt. Die Sporenkapsel ist nicht oder nur zart gestreift, entleert schwach gefurcht und längsfaltig. Ein Peristom fehlt bei dieser Art. Sporen sind bräunlich-gelb, mit großen halbkugeligen Warzen besetzt und 25 bis 38 µm groß.\n\nEncalypta vulgaris ist durch ganz Europa mit Ausnahme des hohen Nordens verbreitet, weiters in Teilen Asiens, in Nordamerika, Nord- und Südafrika, Neuseeland und Tasmanien. Es wächst an trockenen und sonnigen Standorten auf kalkhaltigen oder zumindest basenreichen Böden, Felsen und Mauern. Häufige Begleitmoose sind Weissia-Arten, Bryum caespiticium, Ditrichum flexicaule und Tortula calcicolens.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165194676.json",
+      "sha256": "e0d4b2f83d0e40623314ffdf7634356e779ebfc17193bed596ecdd1b788367a2",
+      "url": "https://api.gbif.org/v1/species/165194676",
+      "credit": {
+        "title": "Encalypta vulgaris Hedw.",
+        "url": "https://www.gbif.org/species/165194676",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/d04b489a51b4d1544dd37bd7ee3e855ce7f1a5222fcc1d4b6371928bb0bd01a8.json",
+      "title": "Gewöhnliches Glockenhutmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Encalypta vulgaris"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Common Extinguisher-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Encalypta+vulgaris&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Encalypta+vulgaris&limit=100",
+      "status": 200
+    }
+  ]
+}

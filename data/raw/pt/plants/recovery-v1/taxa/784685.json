@@ -1,0 +1,38 @@
+{
+  "taxonId": 784685,
+  "name": "Chenopodium betaceum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:01.386530+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5e6af4a4830b2995e2fcf1cc99f9b9fb2599a6491173c4e2e2150e2788d7f610.json",
+      "title": "Chenopodium strictum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chenopodium betaceum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Striped Goosefoot"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Chenopodium+betaceum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Chenopodium+betaceum&limit=100",
+      "status": 200
+    }
+  ]
+}

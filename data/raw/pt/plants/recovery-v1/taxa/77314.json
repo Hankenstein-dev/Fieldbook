@@ -1,0 +1,38 @@
+{
+  "taxonId": 77314,
+  "name": "Gypsophila elegans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:39.540378+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/6f2f8cc7b2e1068d4bfc556567d861920a2f29b2ff4f5a82d663da5d7ce2d764.json",
+      "title": "Gypsophila elegans",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gypsophila elegans"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "showy baby's-breath"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gypsophila+elegans&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gypsophila+elegans&limit=100",
+      "status": 200
+    }
+  ]
+}

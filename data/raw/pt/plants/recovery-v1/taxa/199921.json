@@ -1,0 +1,82 @@
+{
+  "taxonId": 199921,
+  "name": "Lycium europaeum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:41.016764+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lycium europaeum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Lycium europaeum, the European tea tree, European boxthorn, or European matrimonyvine, is a species of flowering plant in the family Solanaceae. It is native to the entire Mediterranean region, and has been introduced to the Canary Islands, Madeira, and the Balearic Islands. Its fruit is edible.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/c8ca1b640a0a2f0dcb5481a3eb8fd930b36ae25424a4223947de1f9f0919908a.json",
+      "sha256": "aaac22b2519da6a325ba77e8e1aeee869be7ac78e7ca18b9da0f17ea0f5de1fe",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1345054647",
+      "revisionId": 1345054647,
+      "credit": {
+        "title": "Lycium europaeum",
+        "url": "https://en.wikipedia.org/wiki/Lycium_europaeum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1345054647",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Lycium europaeum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Lycium europaeum''\n| imagem = Lycium intricatum.jpg\n| imagem_legenda = Espinheiro\n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Polemoniales]]\n| família = [[Solanaceae]]\n| género = ''[[Lycium]]''\n| espécie = '''''L. europaeum'''''\n| binomial = ''Lycium europaeum''\n| binomial_autoridade = L.\n}}\nLycium europaeum é uma espécie de planta com flor pertencente à família Solanaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 1: 192. 1753.\n\nOs seus nomes comuns são cambroeira, cambroeira-bastarda, espinheiro, espinheiro-alvar-na-casca ou espinheiro-de-casca-branca.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa das duas regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/c8ca1b640a0a2f0dcb5481a3eb8fd930b36ae25424a4223947de1f9f0919908a.json",
+      "sha256": "25af8cd89a613149854e9a8b792f9a653336fbb034c54a9884dc9fc560e4b7df",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55015222",
+      "revisionId": 55015222,
+      "credit": {
+        "title": "Lycium europaeum",
+        "url": "https://pt.wikipedia.org/wiki/Lycium_europaeum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55015222",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Lycium europaeum L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I level 1)\n\nNorthern America\n\nConstructed, industrial and other artificial habitats (J level 1)\n\nHabitat in Narbona, Hispania, Lusitania, Italia. ♄\n\n3. Lycium foliis cuneiformibus. Vir. cliff. 14. Roy. lugdb. 436. Jasminoides aculeatum, salicis folio, flore parvo ex albo purpurascente. Mich. gen. 224. t. 105. f. 1. Rhamnus spinis oblongis, flore candicante. Bauh. pin. 477.\n\nLectotype (Feinbrun in Collect. Bot. (Barcelona) 7: 363. 1968): Herb. Linn. No. 259.7 (LINN).\n\n\" Habitat in Narbona, Hispania, Lusitania, Italia. \" RCN: 1508.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3797421.json",
+      "sha256": "324d7c29522542bab7248d272685053f5190bc2008f1c74b4f2370537626e194",
+      "url": "https://api.gbif.org/v1/species/3797421",
+      "credit": {
+        "title": "Lycium europaeum L.",
+        "url": "https://www.gbif.org/species/3797421",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lycium europaeum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lycium+europaeum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lycium+europaeum&limit=100",
+      "status": 200
+    }
+  ]
+}

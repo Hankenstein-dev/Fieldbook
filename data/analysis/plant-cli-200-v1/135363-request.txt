@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":135363,"scientificName":"Lophostemon confertus","commonName":"Brush Box","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lophostemon confertus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lophostemon confertus (syn. Tristania conferta) is an evergreen tree native to Australia, though it is cultivated in the United States and elsewhere. Common names include brush box, Queensland box, Brisbane box, pink box, box scrub, and vinegartree. Its natural range in Australia is northeast New South Wales and coastal Queensland but it is commonly used as a street tree in Sydney, Melbourne, Perth and other cities in eastern Australia."},{"id":"s1:p2","text":"Description\nIn the wild its habitat ranges from moist open forest and rainforest ecotones, where it might reach heights of 40 metres or more, to coastal headlands where it acquires a stunted, wind-sheared habit. Dome-like in shape, it has a denser foliage with dark green, leathery leaves and hence provides more shade than eucalyptus trees. Moreover, it is considered safer than eucalypts because it rarely sheds limbs."},{"id":"s1:p3","text":"Habitat\nIt is considered useful as a street tree due to its disease and pest resilience, its high tolerance for smog, drought and poor drainage, and its minimal maintenance needs. It often requires lopping to accommodate overhead power lines, but survives pruning well. In form it is used as a replacement for the weedy camphor laurel (Cinnamomum camphora) while having a low potential for being weedy itself.{{cn|date=September 2024}}"},{"id":"s1:p4","text":"Taxonomy\nThe species was formally described in 1812 by Scottish botanist Robert Brown, based on plant material collected from the Hunter River region in New South Wales. Brown named the species Tristania conferta. The species was transferred to the genus Lophostemon in 1982."}]}]}

@@ -1,0 +1,22 @@
+{
+  "taxonId": 1227102,
+  "name": "Salix × nobrei",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:46:33.028669+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Salix+%C3%97+nobrei&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Salix+%C3%97+nobrei&limit=100",
+      "status": 200
+    }
+  ]
+}

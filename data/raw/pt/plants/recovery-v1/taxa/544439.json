@@ -1,0 +1,32 @@
+{
+  "taxonId": 544439,
+  "name": "Viburnum foetidum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:51.897409+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Viburnum foetidum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Stinking Viburnum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Viburnum+foetidum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Viburnum+foetidum&limit=100",
+      "status": 200
+    }
+  ]
+}

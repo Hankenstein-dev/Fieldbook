@@ -1,0 +1,33 @@
+{
+  "taxonId": 1196641,
+  "name": "Lysimachia",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:46:25.999694+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/259ad5143459dd79a5a6e8d1043874f23855740dc97654695d1ad13ac433a58c.json",
+      "title": "Lysimachia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/259ad5143459dd79a5a6e8d1043874f23855740dc97654695d1ad13ac433a58c.json",
+      "title": "Lysimachia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lysimachia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lysimachia&limit=100",
+      "status": 200
+    }
+  ]
+}

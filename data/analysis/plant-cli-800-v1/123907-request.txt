@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":123907,"scientificName":"Silene littorea","commonName":"Silene littorea","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Silene littorea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Silene littorea is a species of flowering plant within the family Caryophyllaceae. The species has the gynodioecy–gynomonoecy sexual system. It is one of the most studied species with this sexual system."},{"id":"s1:p2","text":" Description \nSilene littorea is a low growing annual plant reaching heights of around 15 cm tall. The plant is covered in sticky hairs known as trichomes. "},{"id":"s1:p3","text":" Flowers \nSilene littorea flowers are about 2 cm in diameter and possess five petals. The species exhibits flower colour polymorphism: with light pink, dark pink and white flowered colour morphs being present within Silene littorea populations. The flowers of Silene lottorea can either be female or hermaphordite. An individual plant can possess any three sexual phenotypes, with plants possessing either female only flowers, hermaphorodite only flowers or even a mix of both."},{"id":"s1:p4","text":" Distribution \nThe species is native to Morocco, Portugal, Spain. The population of this species has been observed to be declining in Spain. The species is rare in Gibraltr and restricted to eastern sandy slopes."},{"id":"s1:p5","text":" Habitat \nSilene littorea grows in sandy soils on coastal locations. It can often be found inhabiting coastal sand dunes."},{"id":"s1:p6","text":" Subspecies \nThe following subspecies are recognised:"},{"id":"s1:p7","text":" Silene littorea adscendens\n Silene littorea littorea"}]}]}

@@ -1,0 +1,39 @@
+{
+  "taxonId": 275622,
+  "name": "Pityrogramma ebenea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:52.436158+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Pityrogramma ebenea (L.) Proctor",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Circalittoral rock and other hard substrata (A4 level 2)\n\nInfralittoral rock and other hard substrata (A3 level 2)\n\nLittoral rock and other hard substrata (A1 level 2)\n\nMarine habitats (A level 1)\n\nSoutheastern Europe\n\nSouthwestern Europe",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/159500796.json",
+      "sha256": "e17d290ff0387e19aebb7c55bbd78e0e100df9ce1aed3af0325befee3ec9085a",
+      "url": "https://api.gbif.org/v1/species/159500796",
+      "credit": {
+        "title": "Pityrogramma ebenea (L.) Proctor",
+        "url": "https://www.gbif.org/species/159500796",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pityrogramma+ebenea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pityrogramma+ebenea&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "taxonId": 372376,
+  "name": "Sixalix atropurpurea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:45.624620+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/21e38899b778679924a2a1340ed4faedb25cd2e7b3bad18e7ed9dc3e3cf7621f.json",
+      "title": "Scabiosa atropurpurea",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/a3317a68b273e848430933f298d63f518f8d0b7329f60463b39c66f851950822.json",
+      "title": "Scabiosa atropurpurea",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/21e38899b778679924a2a1340ed4faedb25cd2e7b3bad18e7ed9dc3e3cf7621f.json",
+      "title": "Scabiosa atropurpurea",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sixalix atropurpurea"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Suspiros-roxos"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sixalix+atropurpurea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sixalix+atropurpurea&limit=100",
+      "status": 200
+    }
+  ]
+}

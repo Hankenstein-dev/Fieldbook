@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 55969,
+  "scientificName": "Viburnum opulus",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 55969,
+    "scientificName": "Viburnum opulus",
+    "commonName": "guelder-rose",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600790807/medium.jpg",
+      "attribution": "(c) christian_heintzen, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/600790807"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 55969,
+      "count": 47,
+      "name": "Viburnum opulus",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1622164,
+      "descendant_obs_count": 49,
+      "direct_obs_count": 47
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "700f19531e199625a579ee28f686709547cbe9629b46ce1f96203a497df84153"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Viburnum opulus",
+      "title": "Viburnum opulus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/845533c1c575ba6382b03df8d145a54e89d2c5f91cd1bad5671cd9d618d3743b.json",
+      "url": "https://en.wikipedia.org/wiki/Viburnum_opulus",
+      "revisionId": 1368191658,
+      "contentSha256": "b81b842674136ab261273abfe267192ea853e9323df7f23e77a4b650c3bea1d4"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Viburnum opulus",
+      "title": "Viburnum opulus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/845533c1c575ba6382b03df8d145a54e89d2c5f91cd1bad5671cd9d618d3743b.json",
+      "url": "https://pt.wikipedia.org/wiki/Viburnum_opulus",
+      "revisionId": 68991204,
+      "contentSha256": "14d447f3ef6f36ca1883034b2bc1bcd71fe4fd742dab50b88af73caa48bf6585"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868464,
+      "canonicalName": "Viburnum opulus",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868464",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868464.json",
+      "recordSha256": "f7b0af42adc44791c5f4a3d5a277c263ead8a05de3f6bcddd085504cbd3bfdee"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,22 @@
+{
+  "taxonId": 738692,
+  "name": "Veronica ligustrifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:50.350293+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Veronica+ligustrifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Veronica+ligustrifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

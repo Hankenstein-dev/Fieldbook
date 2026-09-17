@@ -1,0 +1,58 @@
+{
+  "taxonId": 467311,
+  "name": "Plantago arborescens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:45.249264+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Plantago arborescens",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Plantago arborescens''\n| imagem = Plantago arborescens La Palma.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Plantaginales]]\n| família = [[Plantaginaceae]]\n| género = ''[[Plantago]]''\n| espécie = '''''P. arborescens'''''\n| binomial = ''Plantago arborescens''\n| binomial_autoridade = Poir.\n}}\nPlantago arborescens é uma espécie de planta com flor pertencente à família Plantaginaceae. \n\nA autoridade científica da espécie é Poir., tendo sido publicada em Encycl. (J. Lamarck & al.) 5: 389. 1804.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Plantago arborescens subsp. maderensis - presente no Arquipélago da Madeira. Em termos de naturalidade é endémica da região Macaronésia. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/e5c6de6d94e9eddabf4ad09a2db2022b37749860f5bdba047e3c000c2e76478c.json",
+      "sha256": "1ae983ac3254a11ee9b1adce459581a13fd37f34d3aa54a0fcc8a4201d52d966",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55137488",
+      "revisionId": 55137488,
+      "credit": {
+        "title": "Plantago arborescens",
+        "url": "https://pt.wikipedia.org/wiki/Plantago_arborescens",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55137488",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Plantago arborescens Poir.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Plantago arborescens ist eine Pflanzenart aus der Gattung der Wegeriche (Plantago) innerhalb der Familie der Wegerichgewächse (Plantaginaceae).\n\nPlantago arborescens wächst als Zwergstrauch und erreicht Wuchshöhen bis zu 60 Zentimetern. Die einfachen und nadeförmligen Laubblätter sind bei einer Länge von 2 bis 6 Zentimetern sowie einer Breite von 0,75 bis 1,25 Zentimetern linealisch. Die Blattspreite ist fast kahl bis weich grauhaarig und am Rand bewimpert.\n\nPlantago arborescens kommt nur auf Madeira und auf den Kanarischen Inseln vor, ausgenommen Lanzarote und Fuerteventura. Sie wächst von der Küstenzone bis in mittlere Bergregionen um 1000 Metern.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165199571.json",
+      "sha256": "ddc36ef2946d8d055de9fc5755fc6d96b0415e4e9fbda649be09b0e3ed9c42ff",
+      "url": "https://api.gbif.org/v1/species/165199571",
+      "credit": {
+        "title": "Plantago arborescens Poir.",
+        "url": "https://www.gbif.org/species/165199571",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Plantago+arborescens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Plantago+arborescens&limit=100",
+      "status": 200
+    }
+  ]
+}

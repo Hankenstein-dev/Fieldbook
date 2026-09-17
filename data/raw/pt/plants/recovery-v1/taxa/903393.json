@@ -1,0 +1,28 @@
+{
+  "taxonId": 903393,
+  "name": "Gymnosporia cassinoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:56.816793+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/57bb230ba8daf079d63cc912f5eec6e4a4be29fc24d20c2715ae18fbfc490908.json",
+      "title": "Gymnosporia cassinoides",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gymnosporia+cassinoides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gymnosporia+cassinoides&limit=100",
+      "status": 200
+    }
+  ]
+}

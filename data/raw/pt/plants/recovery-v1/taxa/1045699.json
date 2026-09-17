@@ -1,0 +1,32 @@
+{
+  "taxonId": 1045699,
+  "name": "Santolina decumbens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:41.552389+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Santolina decumbens"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Provencal lavender-cotton"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Santolina+decumbens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Santolina+decumbens&limit=100",
+      "status": 200
+    }
+  ]
+}

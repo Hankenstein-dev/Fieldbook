@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":159408,"scientificName":"Brachythecium salebrosum","commonName":"Smooth-stalk Feather-moss","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Brachythecium salebrosum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=October 2022}}"},{"id":"s1:p2","text":"Brachythecium salebrosum is a species of moss in the Brachytheciaceae family. It is widely distributed throughout the world, except for in South-America and in tropical regions."},{"id":"s1:p3","text":"Brachythecium salebrosum is known to be able to use artificial light to grow in places which are otherwise devoid of natural light, such as Crystal Cave in Wisconsin."}]}]}

@@ -1,0 +1,51 @@
+{
+  "input": {
+    "taxonId": 1065403,
+    "scientificName": "Cenostigma eriostachys",
+    "commonName": "Sanillo",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cenostigma eriostachys (Benth.) Gagnon & G.P.Lewis",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Type. COSTA RICA, Cocos Island, Barclay s. n. (lectotype K!, designated by Lewis, 1998). Schizolobium covilleanum Pittier, Contr. U. S. Natl. Herb. 18: 231. 1917, pro parte (flowering material only). Type. PANAMA, Prov. Cocle, between Aguadulce and Chico River, Pittier 5105."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9358217.json",
+      "sha256": "062afcc23f17de758e4e1458a44bbfe791a7646587eb231a3b5e55e2ae9593dd",
+      "url": "https://api.gbif.org/v1/species/9358217",
+      "credit": {
+        "title": "Cenostigma eriostachys (Benth.) Gagnon & G.P.Lewis",
+        "url": "https://www.gbif.org/species/9358217",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1065403,
+    "name": "Cenostigma eriostachys",
+    "language": "unspecified",
+    "sourceTextTokens": 95,
+    "packetTokens": 198,
+    "standaloneInputTextTokens": 650,
+    "packetSha256": "fc76bfbc4aefa2cdd6107462a6fa787c52d68e64195cd4fbf45d841e53f841b3"
+  }
+}

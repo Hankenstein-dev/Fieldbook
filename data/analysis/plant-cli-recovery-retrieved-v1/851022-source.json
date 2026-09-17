@@ -1,0 +1,78 @@
+{
+  "input": {
+    "taxonId": 851022,
+    "scientificName": "Ocimum kilimandscharicum",
+    "commonName": "Ocimum kilimandscharicum",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Ocimum kilimandscharicum",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Ocimum kilimandscharicum, also known as camphor basil, is a basil species native to Kenya, Tanzania, Uganda, Sudan, and Ethiopia."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Ocimum kilimandscharicum Gurke",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Global untargeted metabolomics of aerial tissues (Fig. S 2 A) using LC – Orbitrap revealed a large number of putative metabolites in each tissue [young leaf (2,238), mature leaf (2,248), stem (2,213), bud (2,295), flower (2,367), anther and pistil (2,235), petal (2,287), sepal (2,307), seed (2,311)]. Maximum number of putative metabolites were detected in the flower followed by the seed and sepal, while least were detected in the stem. Overall, a total of 2588 putative metabolites were detected, out of which 1878 were uniformly present across all 9 tissues (Fig. S 2 B). Interestingly, 110 putative metabolites showed highly tissue-specific accumulation, that is, they were unique to a particular tissue only. The annotation of these 110 putative metabolites is shown in Table S 3. Of these, 59 putative metabolites were detected in the seed, 15 in anther and pistil, 11 in stem, nine in petal, five in young leaf, three each in sepal, bud, mature leaf, and two in flower (Fig. S 2 C). Over 700 putative metabolites were variably / differentially distributed, that is, detected in one to eight tissues. HCA was performed for these 710 differentially detected putative metabolites, which showed clustering of tissues according to their metabolite profiles (Fig. S 2 D). It was observed that all tissues were not only rich in metabolites but also had their own unique metabolic fingerprint. However, whether these metabolites were synthesized in the tissue or transported from a source tissue needs to be further understood. In a separate analysis using trichomes isolated from inflorescence, stem, and young leaves, we observed that trichomes accumulated lesser number of putative metabolites (619) than other aerial parts, which suggested functional specialization of metabolism. Number of putative metabolites detected in each tissue were as follows: trichomes of inflorescence (579), trichomes of leaves (599), and trichomes of stem (581). Of these, 551 putative metabolites were uniformly present in all three trichome types. Trichomes isolated from different tissues also exhibited differential metabolite profile. Eugenol and camphor pathway-specific metabolites and intermediates have been discussed below in relevant sub-sections."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/189cd4cab24458c9462aa49a28b7d0f6fa0b2372a928e727ebc7a783b3010346.json",
+      "sha256": "63072dc46092057fa177f6dc470359d34344f20bc8d4c304a759d126e7539ee4",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1361371325",
+      "revisionId": 1361371325,
+      "credit": {
+        "title": "Ocimum kilimandscharicum",
+        "url": "https://en.wikipedia.org/wiki/Ocimum_kilimandscharicum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1361371325",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/212736360.json",
+      "sha256": "065fc478626ffe424969428548db6b24008a80fae3c5eb65f623abf8d23df44b",
+      "url": "https://api.gbif.org/v1/species/212736360",
+      "credit": {
+        "title": "Ocimum kilimandscharicum Gurke",
+        "url": "https://www.gbif.org/species/212736360",
+        "attribution": "Singh P, Kalunke R M, Shukla A, Tzfadia O, Thulasiram H V, Giri A P, felipe (2020). Biosynthesis and tissue-specific partitioning of camphor and eugenol in Ocimum kilimandscharicum. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/vdvdyc accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/798399b5-078b-4fff-91e2-fc9a108b1fde",
+        "fetchedAt": "2026-09-15T08:37:39.190069+00:00",
+        "title": "Biosynthesis and tissue-specific partitioning of camphor and eugenol in Ocimum kilimandscharicum"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 851022,
+    "name": "Ocimum kilimandscharicum",
+    "language": "en,unspecified",
+    "sourceTextTokens": 541,
+    "packetTokens": 676,
+    "standaloneInputTextTokens": 1128,
+    "packetSha256": "f2ee294fd9ffbda78afd62d29fe4c725b8c1f8a76a8c64554e23a1dc6c5264e5"
+  }
+}

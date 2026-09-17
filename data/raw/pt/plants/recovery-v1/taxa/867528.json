@@ -1,0 +1,48 @@
+{
+  "taxonId": 867528,
+  "name": "Thelypteridoideae",
+  "rank": "subfamily",
+  "completedAt": "2026-09-15T07:44:37.915562+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/54e0a4e7617dc5a70875df0ecf31b79168c5143da3a30d48688cc9cf99d6835b.json",
+      "title": "Thelypteridaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/5cd792583118990cd20b33cc78a34771f37947066be3c5bdfb9ad6710228e6bf.json",
+      "title": "Thelypteridaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/54e0a4e7617dc5a70875df0ecf31b79168c5143da3a30d48688cc9cf99d6835b.json",
+      "title": "Thelypteridaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Thelypteridoideae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Maiden Ferns"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thelypteridoideae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thelypteridoideae&limit=100",
+      "status": 200
+    }
+  ]
+}

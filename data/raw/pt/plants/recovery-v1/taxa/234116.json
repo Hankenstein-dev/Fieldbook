@@ -1,0 +1,38 @@
+{
+  "taxonId": 234116,
+  "name": "Lobelia × speciosa",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:48.895308+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/cf2504b8f7156975057b276dbcce5c02ad54e5296af0e221643269b473e26adc.json",
+      "title": "Kardinals-Lobelie",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lobelia × speciosa"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hybrid Cardinal Flower"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lobelia+%C3%97+speciosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lobelia+%C3%97+speciosa&limit=100",
+      "status": 200
+    }
+  ]
+}

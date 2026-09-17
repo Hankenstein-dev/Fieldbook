@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 425438,
+  "scientificName": "Centaurea occasus",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 425438,
+    "scientificName": "Centaurea occasus",
+    "commonName": "Centaurea occasus",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://static.inaturalist.org/photos/21875064/medium.jpeg",
+      "attribution": "(c) Valter Jacinto, all rights reserved, uploaded by Valter Jacinto",
+      "license": "all-rights-reserved",
+      "sourceUrl": "https://www.inaturalist.org/photos/21875064"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 425438,
+      "count": 24,
+      "name": "Centaurea occasus",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1434721,
+      "descendant_obs_count": 24,
+      "direct_obs_count": 24
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "19519f14bc0a2a69780427c1724e3a87b851eb8f11124176843528f57c9f6312"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Centaurea occasus",
+      "title": "Centaurea occasus",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/3fa905d24cb6a8d16b8d91bc74aa6c4c7133b41681bd98657caf1d439055789f.json",
+      "url": "https://en.wikipedia.org/wiki/Centaurea_occasus",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Centaurea occasus",
+      "title": "Centaurea occasus",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/3fa905d24cb6a8d16b8d91bc74aa6c4c7133b41681bd98657caf1d439055789f.json",
+      "url": "https://pt.wikipedia.org/wiki/Centaurea_occasus",
+      "revisionId": 40455541,
+      "contentSha256": "b840bfbcfa612fcff5e9a7431cd343cd41597654caabc65c2cfdf4a282111384"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868891,
+      "canonicalName": "Centaurea occasus",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868891",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868891.json",
+      "recordSha256": "82bf93fe10f2db6a11bdd989be63924862a8a16169fbbc4027bc5a1968ea2898"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,59 @@
+{
+  "complete": true,
+  "count": 1,
+  "usage": {
+    "input_tokens": 8347,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 256,
+    "reasoning_output_tokens": 141,
+    "uncached_input_tokens": 2459
+  },
+  "validatedCount": 1,
+  "failedCount": 0,
+  "generationCompletedCount": 1,
+  "generationCallCount": 1,
+  "completedCallCount": 1,
+  "missingUsageCount": 0,
+  "nullSummaryCount": 0,
+  "startedAt": "2026-09-15T18:03:46.920849+00:00",
+  "completedAt": "2026-09-15T18:03:59.722981+00:00",
+  "elapsedWallSeconds": 12.802132,
+  "totalGenerationSeconds": 12.802014504006365,
+  "savedOutputTokens": 109,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T18:03:46.920849+00:00",
+      "completedAt": "2026-09-15T18:03:59.722981+00:00",
+      "elapsedSeconds": 12.802014504006365,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 738785,
+      "name": "Veronica × franciscana",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An evergreen hybrid shrub of garden origin, derived from Holantarctic Veronica elliptica and New Zealand Veronica speciosa. It has glossy dark-green leaves and dense clusters of blue-violet flowers with white throats. It tolerates salt spray and wind but is vulnerable to hard frost, especially inland.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ],
+  "usageUnit": "CLI call; counted once per batch",
+  "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+  "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+}

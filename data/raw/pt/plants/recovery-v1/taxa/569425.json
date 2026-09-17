@@ -1,0 +1,63 @@
+{
+  "taxonId": 569425,
+  "name": "Arctotis acaulis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:58.290752+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Arctotis acaulis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Arctotis acaulis is a species of flowering plant in the family Asteraceae and is an endemic species found in the Cape Provinces, South Africa.\n\nEtymology\nThe species name acaulis means without a stem, from Greek a which means without, and caulis meaning stem of a plant.{{source needed|reason='Caulis' is not Greek but Latin.|date=March 2025}} The name refers to the species growth habit.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1d5352192dfb20011bd4d4d3d694877d817b1ac03419dd075e033c22eaa2f82b.json",
+      "sha256": "60b8cecc1a17497282c194e4caed91a8879c4b866aa0368459332a8f5ddd49e0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1306192593",
+      "revisionId": 1306192593,
+      "credit": {
+        "title": "Arctotis acaulis",
+        "url": "https://en.wikipedia.org/wiki/Arctotis_acaulis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1306192593",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Arctotis acaulis L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Wijnands, Bot. Commelins: 67. 1983): [icon] \" Anemonospermos Afr. fol. plantaginis flore sulph. \" in Commelin, Hort. Med. Amstelaed. Pl. Rar.: 35, t. 35. 1706.\n\n\" Habitat ad Cap. b. spei. \" RCN: 6680.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7631258.json",
+      "sha256": "07f654b5d65ff6ae87af64b4dfaad3d249e2940c8a9b0d3b6ba79007d1f8916c",
+      "url": "https://api.gbif.org/v1/species/7631258",
+      "credit": {
+        "title": "Arctotis acaulis L.",
+        "url": "https://www.gbif.org/species/7631258",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Arctotis acaulis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Arctotis+acaulis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Arctotis+acaulis&limit=100",
+      "status": 200
+    }
+  ]
+}

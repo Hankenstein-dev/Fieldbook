@@ -1,0 +1,49 @@
+{
+  "taxonId": 1279863,
+  "name": "Myriocoleopsis minutissima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:50.129603+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Myriocoleopsis minutissima (Sm.) R.L.Zhu, Y.Yu & Pócs",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Myriocoleopsis minutissima (Sm.) R.L.Zhu, Y.Yu et Pócs, Phytotaxa 183 (4): 293, 2014 (see Yu et al. 2014). BASIONYM: Jungermannia minutissima Sm., Engl. Bot. 23: tab. 1633, 1806 (see Smith & Sowerby 1806).\n\nRECORDS. — Trabut (1941), Jelenc (1955 a): Forêts de la Calle. Bischler (2004): sine loco. Very rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9500140.json",
+      "sha256": "3facea2c4bb7a0bba763ab403732c2fabffbf2f833e9d8a9da2470b736d32b33",
+      "url": "https://api.gbif.org/v1/species/9500140",
+      "credit": {
+        "title": "Myriocoleopsis minutissima (Sm.) R.L.Zhu, Y.Yu & Pócs",
+        "url": "https://www.gbif.org/species/9500140",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Myriocoleopsis minutissima"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Minute Pouncewort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Myriocoleopsis+minutissima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Myriocoleopsis+minutissima&limit=100",
+      "status": 200
+    }
+  ]
+}

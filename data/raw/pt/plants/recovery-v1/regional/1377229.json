@@ -1,0 +1,38 @@
+{
+  "taxonId": 1377229,
+  "sources": [
+    {
+      "title": "Flora-On — Vulpia fasciculata",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Vulpia fasciculata. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia Prados, pinhais. Em dunas e solos arenosos do litoral.\n\nNão confundir com Não confundir com Vulpia membranacea qual se distingue por ter a panícula parcialmente coberta pela bainha foliar superior. Além disso possui o ovário e o fruto com pelos na zona apical (junto ao estilete) e anteras superiores a 1 mm de comprimento. Distingue-se de V. fontqueriana pelo aspeto do calo.\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1377229.json",
+      "sha256": "c445ddcba307bdc3178cd99c7c64aff06cc023a8231306aed99d67bc2dfed547",
+      "url": "https://flora-on.pt/?q=Vulpia+fasciculata",
+      "credit": {
+        "title": "Flora-On — Vulpia fasciculata",
+        "url": "https://flora-on.pt/?q=Vulpia+fasciculata",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Festuca+fasciculata",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Festuca+fasciculata&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Vulpia+fasciculata",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:46:05.614513+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 181543,
+  "name": "Pelargonium × hybridum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:37.262638+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0cf433d2bd5ffbe50d722325a335b7716a4d36e3a2a000b99324af60f6c6a1d5.json",
+      "title": "Pelargonium × hortorum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pelargonium × hybridum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "garden geranium"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pelargonium+%C3%97+hybridum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pelargonium+%C3%97+hybridum&limit=100",
+      "status": 200
+    }
+  ]
+}

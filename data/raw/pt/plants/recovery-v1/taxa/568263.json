@@ -1,0 +1,42 @@
+{
+  "taxonId": 568263,
+  "name": "Tillandsia bergeri",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:56.662600+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tillandsia bergeri",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Tillandsia bergeri is a species of flowering plant in the family Bromeliaceae. This species is native to Brazil.\n\n Taxonomy \n\nCultivars\nRecognized cultivars include:\n Tillandsia 'Bergos'\n Tillandsia 'Bob Whitman'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/c8a7dbd034e099b5d77e42565e4a36ac414ba48cfd74e68436c7a6384a986b6d.json",
+      "sha256": "b07bef61cce4808cca70b65c117f4cfe18c76e05f7e92ad8965163d088eca5ce",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1364482829",
+      "revisionId": 1364482829,
+      "credit": {
+        "title": "Tillandsia bergeri",
+        "url": "https://en.wikipedia.org/wiki/Tillandsia_bergeri",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1364482829",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tillandsia+bergeri&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tillandsia+bergeri&limit=100",
+      "status": 200
+    }
+  ]
+}

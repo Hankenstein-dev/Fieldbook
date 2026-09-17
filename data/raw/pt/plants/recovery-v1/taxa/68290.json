@@ -1,0 +1,38 @@
+{
+  "taxonId": 68290,
+  "name": "Polytrichum formosum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:44.269873+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b56a1a2986fc7db00a2bfe1d49bc804043ce8856569c87cd035d55b558ec9f7c.json",
+      "title": "Polytrichastrum formosum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Polytrichum formosum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bank Haircap Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Polytrichum+formosum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Polytrichum+formosum&limit=100",
+      "status": 200
+    }
+  ]
+}

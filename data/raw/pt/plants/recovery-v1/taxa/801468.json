@@ -1,0 +1,42 @@
+{
+  "taxonId": 801468,
+  "name": "Lamium gevorense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:45.908566+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lamium gevorense",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Lamium gevorense''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Lamiales]]\n| família = [[Lamiaceae]]\n| género = ''[[Lamium]]''\n| espécie = '''''L. gevorense'''''\n| binomial = ''Lamium gevorense''\n| binomial_autoridade = (Gómez Hern.) Gómez Hern. & A. Pujadas\n}}\nLamium gevorense é uma espécie de planta com flor pertencente à família Lamiaceae. \n\nA autoridade científica da espécie é (Gómez Hern.) Gómez Hern. & A. Pujadas, tendo sido publicada em Acta Botanica Malacitana 30: 160. 2005.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/722ff91c638a0c894c468ee73d4bd5e142ccdbf7511c13a4d3e0d50f5859045c.json",
+      "sha256": "2e8c468b51ce06b1d30152e10a1f6357caa7c8e051ad948f9ca7c116fecf3311",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40239001",
+      "revisionId": 40239001,
+      "credit": {
+        "title": "Lamium gevorense",
+        "url": "https://pt.wikipedia.org/wiki/Lamium_gevorense",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40239001",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lamium+gevorense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lamium+gevorense&limit=100",
+      "status": 200
+    }
+  ]
+}

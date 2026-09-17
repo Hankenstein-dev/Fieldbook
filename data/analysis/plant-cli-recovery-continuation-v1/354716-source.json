@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 354716,
+    "scientificName": "Puya coerulea",
+    "commonName": "Puya coerulea",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Puya coerulea",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Puya coerulea is a species of plant in the genus Puya. This species is endemic to Chile."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Subspecies\n P. c. var. violacea (Brongniart) Smith \n P. c. var. monteroana (Smith & Looser) Smith & Looser \n P. c. var. intermedia (Smith & Looser) Smith & Looser"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Puya coerulea Lindl.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Gualterio Looser has discovered from field observations that Puya violacea (Brongn.) Mez intergrades with the earlier P. coerulea Lindl. and can not be considered as more than a variety. With his usual modesty he has designated himself as second author of the following necessary combinations:"
+          },
+          {
+            "id": "s2:p2",
+            "text": "KEY TO THE VARIETIES OF P. COERULEA: 1. Floral bracts exceeding the centers of the sepals, ample. Var. coerulea 1. Floral bracts much exceeded by the sepals or even by the pedicels, rather narrow. 2. Inflorescence glabrous by anthesis. 3. Floral bracts shorter than the pedicels ........ Var. violacea 3. Floral bracts exceeding the pedicels......... Var. monteroana 2. Inflorescence densely and persistently white-tomentose. Var. intermedia ."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/2e90c3f0cd620d941f82773ac1d81178cbf28886828587d2d275783794e8da41.json",
+      "sha256": "6c778a19a2c02eb199eca8751fef3bbe51c892dd3c747e5feef6744bac25a035",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1365922046",
+      "revisionId": 1365922046,
+      "credit": {
+        "title": "Puya coerulea",
+        "url": "https://en.wikipedia.org/wiki/Puya_coerulea",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1365922046",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2696120.json",
+      "sha256": "85a05456328533750d9fbe0948657adeda05c8e0873f9d8a419e57cef83d2900",
+      "url": "https://api.gbif.org/v1/species/2696120",
+      "credit": {
+        "title": "Puya coerulea Lindl.",
+        "url": "https://www.gbif.org/species/2696120",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 354716,
+    "name": "Puya coerulea",
+    "language": "en,unspecified",
+    "sourceTextTokens": 272,
+    "packetTokens": 422,
+    "standaloneInputTextTokens": 874,
+    "packetSha256": "791d8467596fec56058e92d74774d57dfbb37e1f14d2b38fbc050e2cf703e8fa"
+  }
+}

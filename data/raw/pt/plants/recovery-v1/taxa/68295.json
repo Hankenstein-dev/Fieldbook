@@ -1,0 +1,38 @@
+{
+  "taxonId": 68295,
+  "name": "Polytrichastrum",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:37:43.967595+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8c7bccc67c6bb0aa0c05462698c4f8a069cac1b77598f5277d760f5af36c6ba9.json",
+      "title": "Polytrichaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/b9b64378fff3f8e1ff4d26a568455fa778b075742933b408e5f679d3447e1757.json",
+      "title": "Polytrichaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/8c7bccc67c6bb0aa0c05462698c4f8a069cac1b77598f5277d760f5af36c6ba9.json",
+      "title": "Polytrichum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Polytrichastrum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Polytrichastrum&limit=100",
+      "status": 200
+    }
+  ]
+}

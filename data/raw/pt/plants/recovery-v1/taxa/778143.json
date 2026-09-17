@@ -1,0 +1,58 @@
+{
+  "taxonId": 778143,
+  "name": "Valerianella microcarpa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:44.420965+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Valerianella microcarpa",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Valerianella microcarpa''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Dipsacales]]\n| família = [[Valerianaceae]]\n| género = ''[[Valerianella]]''\n| espécie = '''''V. microcarpa'''''\n| binomial = ''Valerianella microcarpa''\n| binomial_autoridade = Loisel.\n}}\nValerianella microcarpa é uma espécie de planta com flor pertencente à família Valerianaceae. \n\nA autoridade científica da espécie é Loisel., tendo sido publicada em Votice sur les plantes à ajouter a la flore de France 151. 1810.\n\nO seu nome comum é alface-brava-de-semente-miúda.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa das duas regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/89b67b7d72643b229f1ae7fa0c2e796df55a52b340141e902ef241ef99f76b30.json",
+      "sha256": "5e222cb565d5ea6c23e4d4d1fb0d69654ea01ea601d64dec47255d632f39e614",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40433252",
+      "revisionId": 40433252,
+      "credit": {
+        "title": "Valerianella microcarpa",
+        "url": "https://pt.wikipedia.org/wiki/Valerianella_microcarpa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40433252",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e9653fc87b0ff32950b5cd38c33b11013ab6593b0cfb7610cd117e46fd7efb60.json",
+      "title": "Valerianella",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/89b67b7d72643b229f1ae7fa0c2e796df55a52b340141e902ef241ef99f76b30.json",
+      "title": "Valerianella",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/e9653fc87b0ff32950b5cd38c33b11013ab6593b0cfb7610cd117e46fd7efb60.json",
+      "title": "Valerianella",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Valerianella+microcarpa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Valerianella+microcarpa&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "taxonId": 205994,
+  "name": "Phragmipedium caudatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:42.916655+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Phragmipedium caudatum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Phragmipedium caudatum, commonly called the Mandarin orchid, is a species of orchid occurring from Peru to Bolivia. It is the type species of the genus Phragmipedium.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/dbb1c3bd76efb806e3869da1ced0c66e3063137747e99262955de6b70e449ef4.json",
+      "sha256": "83483f76cddf5f82369c77d9dc8637393b2fbed3b2bda32515298274f7974748",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1350420013",
+      "revisionId": 1350420013,
+      "credit": {
+        "title": "Phragmipedium caudatum",
+        "url": "https://en.wikipedia.org/wiki/Phragmipedium_caudatum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1350420013",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Phragmipedium caudatum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n| nome = ''Phragmipedium caudatum''\n| cor =lightgreen\n| imagem =Phragmipedium caudatum Orchi 02.jpg\n| domínio = [[Eukaryota]]\n| reino = [[Plantae]]\n| divisão = [[Magnoliophyta]]\n| classe = [[Liliopsida]]\n| ordem = [[Asparagales]]\n| família = [[Orchidaceae]]\n| subfamília = [[Cypripedioideae]]\n| género = ''[[Phragmipedium]]''\n| espécie = '''''P. caudatum'''''\n| binomial = ''Phragmipedium caudatum''\n| binomial_autoridade = ([[Lindl.]]) [[Robert Allen Rolfe|Rolfe]] [[1896]]\n| sinónimos =<center>''Cypripedium caudatum''<br/>''Selenipedium caudatum''<br/>''Cypripedium warszewiczianum''<br/>''Selenipedium warszewiczianum''<br/>''Selen. caudatum'' var. ''giganteum''<br/>''Selen. caudatum'' var. ''roseum''<br/>''Selen. caudatum'' var. ''albertianum''<br/>''Paphiopedilum warszewiczianum''<br/>''Selen. caudatum'' var. ''uropedium''<br/>''Phrag. caudatum'' var. ''warszewiczianum''<br/>''Phrag. caudatum'' f. ''albertianum''</center>\n}}\n\nPhragmipedium caudatum é uma espécie de orquídea terrestre, família Orchidaceae, que habita o Peru e a Bolívia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/dbb1c3bd76efb806e3869da1ced0c66e3063137747e99262955de6b70e449ef4.json",
+      "sha256": "99a2612573974e992e7c59acc0248debe688ffd07a20cb07173d3672b9e489ea",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=71579288",
+      "revisionId": 71579288,
+      "credit": {
+        "title": "Phragmipedium caudatum",
+        "url": "https://pt.wikipedia.org/wiki/Phragmipedium_caudatum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=71579288",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Phragmipedium caudatum (Lindl.) Rolfe",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Phragmipedium caudatum, commonly called the Mandarin orchid, is a species of orchid occurring from Peru to Bolivia. It is the type species of the genus Phragmipedium.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165823323.json",
+      "sha256": "68e94e64fd4522fd3fe065b6b7bcb3bc6d6e37f577f5d10dc644bf2957795d43",
+      "url": "https://api.gbif.org/v1/species/165823323",
+      "credit": {
+        "title": "Phragmipedium caudatum (Lindl.) Rolfe",
+        "url": "https://www.gbif.org/species/165823323",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Phragmipedium+caudatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Phragmipedium+caudatum&limit=100",
+      "status": 200
+    }
+  ]
+}

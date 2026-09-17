@@ -1,0 +1,21 @@
+{
+  "attemptedCount": 800,
+  "completedTurns": 798,
+  "toolCalls": 0,
+  "failureTypes": {
+    "Sentence limit": 1,
+    "Expecting value: line 1 column 1 (char 0)": 79,
+    "CLI timeout after 100 seconds; no automatic retry": 2
+  },
+  "checks": [
+    "800 unique eligible species; zero overlap with either prior manifest",
+    "Both prior manifests unchanged",
+    "Approved prompt unchanged; all requests equal prompt plus frozen packet",
+    "All attempt/request/source/result/raw output/event/stderr files exist",
+    "Exactly one turn started per attempt; no duplicate turns or retry error events",
+    "Recorded usage matches CLI completion events (omitted zero-valued fields compare as zero)",
+    "All passing outputs revalidated by code",
+    "Readable HTML contains all 800 records"
+  ],
+  "coordinatingChatUsage": "Separate; not included or measured"
+}

@@ -1,0 +1,32 @@
+{
+  "taxonId": 1186388,
+  "name": "Lupinus × regalis",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:46:20.768907+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lupinus × regalis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Russell Lupine"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lupinus+%C3%97+regalis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lupinus+%C3%97+regalis&limit=100",
+      "status": 200
+    }
+  ]
+}

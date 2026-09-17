@@ -1,0 +1,42 @@
+{
+  "taxonId": 472454,
+  "name": "Armeria beirana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:47.683081+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Armeria beirana",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Armeria beirana''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Plumbaginales]]\n| família = [[Plumbaginaceae]]\n| género = ''[[Armeria]]''\n| espécie = '''''A. beirana'''''\n| binomial = ''Armeria beirana''\n| binomial_autoridade = Franco\n}}\nArmeria beirana é uma espécie de planta com flor pertencente à família Plumbaginaceae. \n\nA autoridade científica da espécie é Franco, tendo sido publicada em Nova Flora de Portugal 2: 561. 1984.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/48d48366ec3c75390e0f8a7bc9252a92a603a0924503a2ee34db8bde647e2a42.json",
+      "sha256": "821ef48e2b44495369dcbafe5aeb179ded0aa79ca8921187db1188775fdf5bb6",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069666",
+      "revisionId": 60069666,
+      "credit": {
+        "title": "Armeria beirana",
+        "url": "https://pt.wikipedia.org/wiki/Armeria_beirana",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069666",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Armeria+beirana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Armeria+beirana&limit=100",
+      "status": 200
+    }
+  ]
+}

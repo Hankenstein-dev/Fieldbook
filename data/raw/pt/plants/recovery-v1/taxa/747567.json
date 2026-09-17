@@ -1,0 +1,42 @@
+{
+  "taxonId": 747567,
+  "name": "Trifolium phleoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:39.802797+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Trifolium phleoides",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n | nome = ''Trifolium phleoides''\n | imagem =\n | imagem_legenda =\n | reino = [[Plantae]]\n | clado1 = [[Angiosperma|angiospérmicas]]\n | clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n | clado3 =\n | ordem = [[Fabales]]\n | família = [[Fabaceae]]\n | género = ''[[Trifolium]]''\n | espécie = '''''T. phleoides'''''\n | binomial = ''Trifolium phleoides''\n | binomial_autoridade = Pourr. ex Willd.\n}}\nTrifolium phleoides é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é Pourr. ex Willd., tendo sido publicada em Species Plantarum. Editio quarta 3(2): 1377. 1802.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Trifolium phleoides subsp. willkommii - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/ee37cf389fd9707903d549cf53bed1ce76ac03ad9530fc205537d559e10b2e3a.json",
+      "sha256": "ea081022d212fdc79f7b2256598474296c785d4916718f251e8717bf39f7edc1",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=58698930",
+      "revisionId": 58698930,
+      "credit": {
+        "title": "Trifolium phleoides",
+        "url": "https://pt.wikipedia.org/wiki/Trifolium_phleoides",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=58698930",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Trifolium+phleoides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Trifolium+phleoides&limit=100",
+      "status": 200
+    }
+  ]
+}

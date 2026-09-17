@@ -1,0 +1,46 @@
+[
+  {
+    "run": "data/analysis/plant-cli-recovery-continuation-v1",
+    "taxonId": 162822,
+    "originalResultSha256": "25ad0db17ee1494056b946634c0d11c312c228c569ccbd6fea5a48c332181780",
+    "output": {
+      "summary": "A flowering plant whose two named subspecies are native to mainland Portugal; subsp. exigua is also native to Madeira but introduced in the Azores. Both occur in annual grasslands, fallow ground, roadsides and wasteland, often on poor, somewhat disturbed soils. Subsp. exigua has tubercled seeds, while subsp. merinoi has transverse grooves and some tubercles.",
+      "humanEdibility": "unknown",
+      "edibilityNote": null,
+      "evidence": {
+        "summary": [
+          "s1:p1",
+          "s1:p5",
+          "s2:p2",
+          "s2:p4"
+        ],
+        "humanEdibility": []
+      }
+    },
+    "reason": "Original output has three sentences. Fixed validator to recognize capitalized Subsp. abbreviation. Original output unchanged.",
+    "correctedAt": "2026-09-15T17:07:21.766448+00:00",
+    "newGenerationCalls": 0,
+    "coordinatingChatUsage": "Not measured; separate from recorded generation usage."
+  },
+  {
+    "run": "data/analysis/plant-cli-recovery-continuation-v1",
+    "taxonId": 638337,
+    "originalResultSha256": "e448c3d56e7dc0b6797cf655753e20813451f12fcb4ee813e2e47db9e4df4d1d",
+    "output": {
+      "summary": "An underground-budding plant of unstated native origin. In Portugal it grows in meadows and pastures that are temporarily wet, on varied ground but especially sandy soils.",
+      "humanEdibility": "unknown",
+      "edibilityNote": null,
+      "evidence": {
+        "summary": [
+          "s1:p2",
+          "s1:p8"
+        ],
+        "humanEdibility": []
+      }
+    },
+    "reason": "Corrected nonexistent s1:p9 to s1:p8, the actual geophyte passage supporting the existing underground-budding description. Botanical wording unchanged.",
+    "correctedAt": "2026-09-15T17:07:21.767665+00:00",
+    "newGenerationCalls": 0,
+    "coordinatingChatUsage": "Not measured; separate from recorded generation usage."
+  }
+]

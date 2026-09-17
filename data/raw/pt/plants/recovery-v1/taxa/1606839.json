@@ -1,0 +1,38 @@
+{
+  "taxonId": 1606839,
+  "name": "Pinus",
+  "rank": "subsection",
+  "completedAt": "2026-09-15T07:48:40.621484+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8164a278fb36b2078d24ee71a76afbd8e9e5cba13000161503486961e1bcfdd5.json",
+      "title": "Pine",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/9ef35b3ca6c9bfef014a03f40613a6be3730f3c164d4ea3a89befb5cf4865a2a.json",
+      "title": "Pinheiro",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/8164a278fb36b2078d24ee71a76afbd8e9e5cba13000161503486961e1bcfdd5.json",
+      "title": "Pinheiro",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pinus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pinus&limit=100",
+      "status": 200
+    }
+  ]
+}

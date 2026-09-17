@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":345545,"scientificName":"Victoria cruziana","commonName":"Santa Cruz Waterlily","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Victoria cruziana","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Victoria cruziana (Santa Cruz water lily, water platter, yrupe, synonym Victoria argentina Burmeist.) is a tropical species of flowering plant, of the Nymphaeaceae family of water lilies native to South America, primarily Brazil, Bolivia, Argentina and Paraguay."},{"id":"s1:p2","text":"Description\nThe plant is a popular water garden plant in botanical gardens where its very large leaves can reach their fullest, up to 2 m wide with a thick rim up to 20 cm high, although rims up to 23 cm have been recorded. It can be grown in cooler waters than its sisters within the genus, the more familiar giant waterlily, Victoria amazonica and the recently discovered Victoria boliviana. A 25 cm diameter flower blooms for two days, arising from the underwater bud, as a white flower that turns to a deep pink on the second and final day of its bloom. V. cruziana is a thermogenetic or heat-producing plant. The floral stigma are attached to a cup that is protected by spines, and the floral cup begins heating up in the bud, then, as the flower opens, it releases a strong sweet scent to attract pollinating beetles of the genus Cyclocephala of the family Scarabaeidae, then continues to provide heat to the flower while the beetles are pollinating."},{"id":"s1:p3","text":"Cytology\nThe diploid chromosome count of Victoria cruziana is 2n = 24. The chloroplast genome is 158993 bp long."},{"id":"s1:p4","text":"Taxonomy\nVictoria cruziana was discovered in Bolivia on one of many expeditions through the country by Alcide d'Orbigny whose presence was sponsored by Andrés de Santa Cruz. The first collected specimens were returned to France where they were named in honor of Santa Cruz by Alcide's brother, Charles Henry Dessalines d'Orbigny.{{Citation needed|date=June 2013}}"},{"id":"s1:p5","text":"It was first described in 1840 by Alcide d'Orbigny in Annales des Sciences Naturelles; Botanique, Ser. 2, 13, p. 57. Synonyms for Victoria cruziana A.D.Orb. are: Victoria argentina Burmeist. noun nud., Victoria cruziana var. malmei F.Henkel et al., Victoria cruziana f. matogrossensis Malme, Victoria cruziana f. trickeri F.Henkel ex Malme, Victoria cruziana var. trickeri F.Henkel et al., Victoria regia var (A.D.Orb.) C.Lawson, Victoria trickeri (F.Henkel ex Malme) hort. ex Mutzek."}]}]}

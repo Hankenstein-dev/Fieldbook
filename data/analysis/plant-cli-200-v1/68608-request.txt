@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":68608,"scientificName":"Trentepohlia aurea","commonName":"Orange Rock Hair","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Trentepohlia aurea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Trentepohlia aurea, the orange rock hair, is a species of filamentous terrestrial green alga in the family Trentepohliaceae. It grows on a variety of substrates including rocks, old walls, concrete surfaces, tree bark, rotting wood, mosses, and wet soil. The orange coloration results from carotenoid pigments in the algal cells."},{"id":"s1:p2","text":"Trentepohlia aurea is the type species of the genus Trentepohlia. In the British Isles, it is the most widespread and abundant species of Trentepohlia.{{rp|478}} However, many records need to be reassessed, since the name has been broadly misapplied to specimens of other species, such as Trentepohlia abietina."},{"id":"s1:p3","text":"Description\nTrentepohlia aurea consists of small bushy tufts which range in color from golden yellow to orange-brown (dried specimens are duller). The thallus consists of a bunch of erect filaments, which arise from a reduced system of prostrate filaments. Erect filaments are up to 1.5 mm tall, and are unbranched or sparsely to densely branched. Erect filaments consist of cylindrical cells 10–20 (rarely 30) μm wide, 1.5 to 4 times as wide, while prostrate filaments are swollen and up to 18 μm wide."},{"id":"s1:p4","text":"Trentepohlia aurea has globular, ovoid or flask-shaped gametangia. They are 18–40 μm wide. Zoosporangia are 25–30 μm and 27–40 μm long."}]}]}

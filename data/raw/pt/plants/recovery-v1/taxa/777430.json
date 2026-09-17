@@ -1,0 +1,63 @@
+{
+  "taxonId": 777430,
+  "name": "Caulerpa chemnitzia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:44.327278+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Caulerpa chemnitzia",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Caulerpa chemnitzia is a species of seaweed in the Caulerpaceae family.\n\nIt is found along the coast in a large area extending from north of Perth to the Kimberley region of Western Australia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/256d9cf0a2b1be56db716e10e6dfa3cc815071c497d88b7f61f09fc34d202404.json",
+      "sha256": "36fc3295ec0e01ba9dc96edff088a6ffbe6845c6f1b5a715eda2417cb8cb89a2",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1219051739",
+      "revisionId": 1219051739,
+      "credit": {
+        "title": "Caulerpa chemnitzia",
+        "url": "https://en.wikipedia.org/wiki/Caulerpa_chemnitzia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1219051739",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Caulerpa chemnitzia (Esper) J.V.Lamour.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Caulerpa chemnitzia is a species of seaweed in the Caulerpaceae family. It is found along the coast in a large area extending from north of Perth to the Kimberley region of Western Australia.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165637968.json",
+      "sha256": "209996f833d6112eba1028d847a40e967e607fb9c3a33987e2892b4379a8eccd",
+      "url": "https://api.gbif.org/v1/species/165637968",
+      "credit": {
+        "title": "Caulerpa chemnitzia (Esper) J.V.Lamour.",
+        "url": "https://www.gbif.org/species/165637968",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Caulerpa chemnitzia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Caulerpa+chemnitzia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Caulerpa+chemnitzia&limit=100",
+      "status": 200
+    }
+  ]
+}

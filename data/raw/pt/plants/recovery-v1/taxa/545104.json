@@ -1,0 +1,58 @@
+{
+  "taxonId": 545104,
+  "name": "Vriesea carinata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:51.088987+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Vriesea carinata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Vriesea carinata is a plant species in the genus Vriesea.\n\nThe bromeliad is endemic to the Atlantic Forest biome (Mata Atlantica Brasileira), located in southeastern Brazil.\n\nCultivars\nGarden cultivars include:\n Vriesea 'Brachystachys-Splendens'\n Vriesea 'Cardinalis'\n Vriesea 'Christiane'\n Vriesea 'Crimson Glow'\n Vriesea 'Karamea Tipsy'\n Vriesea 'Kienastii'\n Vriesea 'Lucille'\n Vriesea 'Main Roads'\n Vriesea 'Mariae'\n Vriesea 'Marjolein'\n Vriesea 'Medio-Rosea'\n Vriesea 'Morreniana'\n Vriesea 'Nitida'\n Vriesea 'Pendant'\n Vriesea 'Pulchella'\n Vriesea 'Rose Marie'\n Vriesea 'Saffron Flame'\n Vriesea 'Serene'\n Vriesea 'Sweet One'\n Vriesea 'Tenuis'\n Vriesea 'Versaillensis'\n Vriesea 'Witte Senior'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/d4f15d0eaec210338d71c132778d3604746d0e327e1c6408796bb54f2a5671e0.json",
+      "sha256": "c5f84925ec0d5e0248dfb283569fa42cbe7a786d38259f777ed87b57772b4be0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1310744226",
+      "revisionId": 1310744226,
+      "credit": {
+        "title": "Vriesea carinata",
+        "url": "https://en.wikipedia.org/wiki/Vriesea_carinata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1310744226",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Vriesea carinata Wawra",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Vriesea carinata is a plant species in the genus Vriesea. The bromeliad is endemic to the Atlantic Forest biome (Mata Atlantica Brasileira), located in southeastern Brazil.\n\nGarden cultivars include: Vriesea 'Brachystachys-Splendens' Vriesea 'Cardinalis' Vriesea 'Christiane' Vriesea 'Crimson Glow' Vriesea 'Karamea Tipsy' Vriesea 'Kienastii' Vriesea 'Lucille' Vriesea 'Main Roads' Vriesea 'Mariae' Vriesea 'Marjolein' Vriesea 'Medio-Rosea' Vriesea 'Morreniana' Vriesea 'Nitida' Vriesea 'Pendant' Vriesea 'Pulchella' Vriesea 'Rose Marie' Vriesea 'Saffron Flame' Vriesea 'Serene' Vriesea 'Sweet One' Vriesea 'Tenuis' Vriesea 'Versaillensis' Vriesea 'Witte Senior'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165765039.json",
+      "sha256": "9a23f0586c65d41a79f80d28f2d65a900cdbcd4a0ca94ec576f77512a26938bc",
+      "url": "https://api.gbif.org/v1/species/165765039",
+      "credit": {
+        "title": "Vriesea carinata Wawra",
+        "url": "https://www.gbif.org/species/165765039",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vriesea+carinata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vriesea+carinata&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 543645,
+  "scientificName": "Bombycilaena erecta",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 543645,
+    "scientificName": "Bombycilaena erecta",
+    "commonName": "Upright Cudweed",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177257333/medium.jpeg",
+      "attribution": "(c) Вадим, some rights reserved (CC BY-NC), uploaded by Вадим",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/177257333"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 543645,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47605,
+        47604,
+        632790,
+        324787,
+        1410494,
+        514826,
+        543645
+      ],
+      "is_active": true,
+      "name": "Bombycilaena erecta",
+      "parent_id": 514826,
+      "ancestry": "48460/47126/211194/47125/47124/47605/47604/632790/324787/1410494/514826",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 177257333,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Вадим, some rights reserved (CC BY-NC), uploaded by Вадим",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177257333/square.jpeg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1762
+        },
+        "flags": [],
+        "attribution_name": "Вадим",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177257333/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177257333/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 959,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Upright Cudweed",
+      "conservation_status": {
+        "id": 163645,
+        "source_id": null,
+        "user_id": 3042,
+        "authority": "Lista Vermelha da Flora Vascular de Portugal Continental",
+        "status": "vu",
+        "status_name": "Vulnerável - D2 (VU)",
+        "geoprivacy": "obscured",
+        "iucn": 30,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "establishment_means": {
+        "id": 84052443,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=84&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:54.081248+00:00",
+    "retainedFrom": "data/models/http/251b063fb09e95c371256d1e62df83678ed89203cb9997ec4c8437f2c3d17948.json",
+    "recordSha256": "7cbf6316c59bb5031e4cae149c8b3765f3303a23e2d9092dbf89b5d01ed98b48"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Bombycilaena erecta",
+      "title": "Bombycilaena erecta",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/4161713ee12db154c6a99f4a8b9c83777de57b7693577d5f02fceade26b70a93.json",
+      "url": "https://en.wikipedia.org/wiki/Bombycilaena_erecta",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Bombycilaena erecta",
+      "title": "Bombycilaena erecta",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/4161713ee12db154c6a99f4a8b9c83777de57b7693577d5f02fceade26b70a93.json",
+      "url": "https://pt.wikipedia.org/wiki/Bombycilaena_erecta",
+      "revisionId": 40439319,
+      "contentSha256": "d04bea2efe5f93b4d4d22b64d44b6fcd3b43fa6f29a747aee3e993d806f9d001"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868879,
+      "canonicalName": "Bombycilaena erecta",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868879",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868879.json",
+      "recordSha256": "491502430345d08136e2cd9913b604ef652fcfcb970cf3c1fc7db8ed15b65bba"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

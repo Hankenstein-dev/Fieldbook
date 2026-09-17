@@ -1,0 +1,38 @@
+{
+  "taxonId": 699299,
+  "name": "Eucalyptus bicostata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:38.156847+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ba76df10950d663bf5862e8c2cec3a671b0a84ef33c822671525710111cc38b7.json",
+      "title": "Eucalyptus globulus subsp. bicostata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Eucalyptus bicostata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "eurabbie"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Eucalyptus+bicostata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Eucalyptus+bicostata&limit=100",
+      "status": 200
+    }
+  ]
+}

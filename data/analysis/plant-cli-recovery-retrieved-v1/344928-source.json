@@ -1,0 +1,97 @@
+{
+  "input": {
+    "taxonId": 344928,
+    "scientificName": "Juncus ranarius",
+    "commonName": "clustered toad rush",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Juncus ranarius",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Juncus ranarius is a species of flowering plant belonging to the rush family Juncaceae."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Its native range is Greenland, Subarctic and Temperate Eurasia, Northwestern Africa."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Flora-On — Juncus ranarius",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Flora-On botanical account for Juncus ranarius. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s2:p2",
+            "text": "Ecologia ainda sem informação"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Ligações externas Descrição na Flora Iberica"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Distância ao mar (n=3)"
+          },
+          {
+            "id": "s2:p5",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          },
+          {
+            "id": "s2:p6",
+            "text": "Tipo biológico Terófito"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/e4fddf76f6c0629a1aa295368558a7af45dec9a25acfaef6cbe61f2410963b02.json",
+      "sha256": "e9cd41c797bf00c0ec96be230cb9de0fc61cc2132a094c85f35698dfe141c544",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1215845542",
+      "revisionId": 1215845542,
+      "credit": {
+        "title": "Juncus ranarius",
+        "url": "https://en.wikipedia.org/wiki/Juncus_ranarius",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1215845542",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in account identity field",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/344928.json",
+      "sha256": "258bc141de71397e858d1c2b2921d0d65a98ed90edbf5c1f983e4b024dc51471",
+      "url": "https://flora-on.pt/?q=Juncus+ranarius",
+      "credit": {
+        "title": "Flora-On — Juncus ranarius",
+        "url": "https://flora-on.pt/?q=Juncus+ranarius",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 344928,
+    "name": "Juncus ranarius",
+    "language": "en,pt",
+    "sourceTextTokens": 118,
+    "packetTokens": 308,
+    "standaloneInputTextTokens": 760,
+    "packetSha256": "84a643dda4a02d4a1ba97c027e5d515d2a103bc9de0b78891a4f928e24ab1941"
+  }
+}

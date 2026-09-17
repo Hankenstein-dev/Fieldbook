@@ -1,0 +1,32 @@
+{
+  "taxonId": 733277,
+  "name": "Parvulipetala",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:43:46.546988+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Parvulipetala"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "minipetal storksbills"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Parvulipetala&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Parvulipetala&limit=100",
+      "status": 200
+    }
+  ]
+}

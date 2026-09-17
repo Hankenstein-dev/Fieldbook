@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":163869,"scientificName":"Hydrocleys nymphoides","commonName":"Water Poppy","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Hydrocleys nymphoides","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Hydrocleys nymphoides, the waterpoppy or water-poppy, is an aquatic plant species in the Alismataceae. It is widespread across South America, Central America, Puerto Rico, Trinidad and the Netherlands Antilles. It is cultivated in many places for used in decorative ponds and artificial aquatic habitats, and naturalized in Australia, New Zealand, South Africa, Fiji, New Caledonia, French Polynesia, Florida, Louisiana and Texas."}]}]}

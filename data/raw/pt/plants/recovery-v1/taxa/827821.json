@@ -1,0 +1,48 @@
+{
+  "taxonId": 827821,
+  "name": "Thymelaea procumbens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:46.874364+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Thymelaea procumbens",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Thymelaea procumbens''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Myrtales]]\n| família = [[Thymelaeaceae]]\n| género = ''[[Thymelaea]]''\n| espécie = '''''T. procumbens'''''\n| binomial = ''Thymelaea procumbens''\n| binomial_autoridade = A.Fern. & R.Fern.\n}}\nThymelaea procumbens é uma espécie de planta com flor pertencente à família Thymelaeaceae. \n\nA autoridade científica da espécie é A.Fern. & R.Fern., tendo sido publicada em Boletim da Sociedade Broteriana, sér. 2 26: 266–274, f. 1a, pl. 1–2, 3–8 [photographs]. 1952.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a8a0a530e88d91ebc163fe4715941762af50a61f47924fec9cae805fc4d86e34.json",
+      "sha256": "d1d6ccb4594a334c8ae031677f00237997d88ffc74e016af5a0eec362500ad88",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40212562",
+      "revisionId": 40212562,
+      "credit": {
+        "title": "Thymelaea procumbens",
+        "url": "https://pt.wikipedia.org/wiki/Thymelaea_procumbens",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40212562",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/a8a0a530e88d91ebc163fe4715941762af50a61f47924fec9cae805fc4d86e34.json",
+      "title": "Thymelaea procumbens",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thymelaea+procumbens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thymelaea+procumbens&limit=100",
+      "status": 200
+    }
+  ]
+}

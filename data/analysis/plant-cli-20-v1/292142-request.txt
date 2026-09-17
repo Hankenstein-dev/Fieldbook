@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":292142,"scientificName":"Musa balbisiana","commonName":"sweet wild banana","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Musa balbisiana","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Musa balbisiana, also known simply as plantain, is a wild-type species of banana. It is one of the ancestors of modern cultivated bananas, along with Musa acuminata."},{"id":"s1:p2","text":"Description\nIt grows lush leaves in clumps with a more upright habit than most cultivated bananas. Flowers grow in inflorescences coloured red to maroon. The fruit are between blue and green. They are considered inedible because of the seeds they contain."},{"id":"s1:p3","text":"Taxonomy\nIt was first scientifically described in 1820 by the Italian botanist Luigi Aloysius Colla."},{"id":"s1:p4","text":"Distribution\nIt is native to eastern South Asia, the eastern regions of the Indian subcontinent, northern Southeast Asia, and southern China. Introduced populations exist in the wild, far outside its native range."},{"id":"s1:p5","text":"Uses\nIt is assumed that wild bananas were cooked and eaten, as farmers would not have developed the cultivated banana otherwise. Seeded Musa balbisiana fruit are called butuhan ('with seeds') in the Philippines, and kluai tani (กล้วยตานี) in Thailand, where its leaves are used for packaging and crafts. Natural parthenocarpic clones occur through polyploidy and produce edible bananas, examples of which are wild saba bananas."},{"id":"s1:p6","text":"Genome\nMusa balbisiana contributed the B genome to the cultivated banana."},{"id":"s1:p7","text":"Wang et al., 2019 provides a genome, evolutionary analysis and functional genomics analysis. Wang et al. find evolution increasing ethylene production in the domesticated form."}]}]}

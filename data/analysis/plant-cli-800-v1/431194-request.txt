@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":431194,"scientificName":"Kalanchoe pumila","commonName":"Flour-dust plant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Kalanchoe pumila","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Kalanchoe pumila, the flower dust plant, is a species of flowering plant in the stonecrop family Crassulaceae, native to Madagascar. The Latin specific epithet pumila means dwarf or low-growing."},{"id":"s1:p2","text":"Description"},{"id":"s1:p3","text":"Growing to {{convert|20|cm|0|abbr=on}} tall and {{convert|45|cm|0|abbr=on}} wide, it is a spreading, dwarf succulent subshrub with arching stems of frosted leaves, and clusters of purple-veined pink flowers in spring. The plant forms dense clusters and sometimes grows epiphytically. It is completely glabrous and reaches heights of 20 to 30 centimeters. The shoots are erect, heavily branched and creeping."},{"id":"s1:p4","text":"The often densely packed, fleshy leaves are almost sessile and obovate. The leaf blade, completely covered with very fine, mealy, white wax, is 2 to 4 centimeters long and 1.5 to 2 centimeters wide. Its tip is blunt to almost pointed, the base is wedge-shaped. The purple leaf edge is notched in the upper part."},{"id":"s1:p5","text":"Inflorescence"},{"id":"s1:p6","text":"The inflorescences are few-flowered panicles between 2 and 7 centimeters wide which sit on waxy, 6 to 10 millimeter long flower stalks. The green or red-purple calyx tube is 0.5 to 1 millimeter long and has triangular to lanceolate, pointed tips that are 3 to 5 millimeters long and 1.5 to 2.6 millimeters wide. The bell-shaped, red to purple or pink corolla tube is 4 to 8.5 millimeters long and has spread out, obovate to elongated tips that are 7 to 10 millimeters long and 3 to 5 millimeters wide. The petals have a tip."},{"id":"s1:p7","text":"The kidney-shaped anthers are between 0.5 and 0.7 millimeters long. The style is 8 to 10 millimeters, the carpel about 1.5 millimeters long. The marginal nectar scales are rectangular to elongated."},{"id":"s1:p8","text":"Cultivation\nThis plant has gained the Royal Horticultural Society's Award of Garden Merit. As the minimum temperature for cultivation is {{convert|12|C|F|abbr=on}}, in temperate regions it is grown under glass as a houseplant. In its natural habitat, it grows on rocks, at an altitude of about 2000 m."}]}]}

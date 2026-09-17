@@ -1,0 +1,32 @@
+{
+  "taxonId": 78378,
+  "name": "Pelargonium panduriforme",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:51.261790+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pelargonium panduriforme"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Oak-leaved geranium"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pelargonium+panduriforme&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pelargonium+panduriforme&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "taxonId": 1569093,
+  "name": "Ponderosae",
+  "rank": "subsection",
+  "completedAt": "2026-09-15T07:48:24.042847+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ponderosae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "ponderosa pines and allies"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ponderosae&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ponderosae&limit=100",
+      "status": 200
+    }
+  ]
+}

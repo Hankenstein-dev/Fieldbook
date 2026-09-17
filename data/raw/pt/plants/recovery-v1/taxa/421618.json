@@ -1,0 +1,38 @@
+{
+  "taxonId": 421618,
+  "name": "Ajania pacifica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:04.636731+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/1dbf20911621797c18e6e2664cbecb26371d0292a543cd4bb94e061ef47b1cd7.json",
+      "title": "Chrysanthemum pacificum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ajania pacifica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pacific Chrysanthemum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ajania+pacifica&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ajania+pacifica&limit=100",
+      "status": 200
+    }
+  ]
+}

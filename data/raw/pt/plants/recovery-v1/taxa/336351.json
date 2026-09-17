@@ -1,0 +1,63 @@
+{
+  "taxonId": 336351,
+  "name": "Achillea distans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:43.594514+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Achillea distans",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use American English|date=August 2025}}\n\nAchillea distans is a perennial species of Achillea in the family Asteraceae. It is native to Europe.\n\n Description \nIt is a perennial plant that grows up to {{Convert|60|cm}} tall.\n\n Distribution and habitat \nIt is native to Europe and grows in the temperate biome. It can be found in light forests, on rocky forest edges and in shrubs. It also grows in meadows and fertile habitats.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1161713437e5f577ede96215205070c2fc2448eed80cf8370f23e574ab582270.json",
+      "sha256": "995947a4dfac86a26cf95f808d81e593877c8c87e3e8ddf444627d7e518645b5",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1353957024",
+      "revisionId": 1353957024,
+      "credit": {
+        "title": "Achillea distans",
+        "url": "https://en.wikipedia.org/wiki/Achillea_distans",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1353957024",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Achillea distans Willd.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Bluetezeit: 7 - 8 Standort und Verbreitung in der Schweiz: Lichte Waelder, Gebuesche / montan-alpin / Suedliches TI (Generoso?)\n\nOekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F maessig feucht Lichtzahl L halbschattig Salzzeichen -- Reaktionszahl R schwach sauer bis neutral (pH 4.5 - 7.5) Temperaturzahl T unter-subalpin und ober-montan Naehrstoffzahl N naehrstoffreich Kontinentalitaetszahl K subozeanisch bis subkontinental (mittlere Luftfeuchtigkeit, maessige Temperaturschwankungen und maessig tiefe Wintertemperaturen)\n\nArtbeschreibung: 20 - 80 cm hoch. Grundstaendige Blaetter 3 - 8 cm breit. An den obersten 12 cm des Staengels unter dem Bluetenstand 2 - 6 Blaetter. Mittelrippe der Staengelblaetter 2 - 4 mm breit, gefluegelt und gezaehnt. Blattabschnitte flach ausgebreitet, kaum bis ueber die Mitte geteilt, Zipfel und Zaehne 0,3 - 1 mm breit, 3 eckig. Zungenblueten hellrosa bis purpurn. Fruechte 2,5 - 3 mm lang.\n\nVerbreitung global: Mittel- und suedosteuropaeisch",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/224052917.json",
+      "sha256": "e29cf85930dc9b696cdbd82fe57efd99d16d6c682cc9c40eff4538e499d90e39",
+      "url": "https://api.gbif.org/v1/species/224052917",
+      "credit": {
+        "title": "Achillea distans Willd.",
+        "url": "https://www.gbif.org/species/224052917",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Achillea distans"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Achillea+distans&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Achillea+distans&limit=100",
+      "status": 200
+    }
+  ]
+}

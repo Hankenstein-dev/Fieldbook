@@ -1,0 +1,32 @@
+{
+  "taxonId": 411141,
+  "name": "Epilobium nummulariifolium",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:57.901391+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Epilobium nummulariifolium"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "New Zealand Willowherb"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Epilobium+nummulariifolium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Epilobium+nummulariifolium&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 342068,
+  "name": "Bassia tomentosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:38.733541+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Bassia tomentosa",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Bassia tomentosa''\n| imagem = Bassia tomentosa.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Caryophyllales]]\n| família = [[Chenopodiaceae]]\n| género = ''[[Bassia]]''\n| espécie = '''''B. tomentosa'''''\n| binomial = ''Bassia tomentosa''\n| binomial_autoridade = (Lowe) Maire & Weiller\n}}\nBassia tomentosa é uma espécie de planta com flor pertencente à família Chenopodiaceae. \n\nA autoridade científica da espécie é (Lowe) Maire & Weiller, tendo sido publicada em Fl. Afr. Nord 8: 53. 1962.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/bd5e406fbd8001791d13a26384d956913ea26c16a69e6cfbe4a4c352359fcbc0.json",
+      "sha256": "17b7d1016b7bc0356f63f3c9aabdb5e701f5571fe5cbbff44082de84d0e4f4e9",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62165263",
+      "revisionId": 62165263,
+      "credit": {
+        "title": "Bassia tomentosa",
+        "url": "https://pt.wikipedia.org/wiki/Bassia_tomentosa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62165263",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bassia+tomentosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bassia+tomentosa&limit=100",
+      "status": 200
+    }
+  ]
+}

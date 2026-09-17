@@ -1,0 +1,39 @@
+{
+  "taxonId": 882548,
+  "name": "Cochlopetalum",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:44:44.175833+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Paphiopedilum subgen. Cochlopetalum Hallier f. ex Pfitzer",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Paphiopedilum subgenus Cochlopetalum is a subgenus of the genus Paphiopedilum.\n\nPlants from this section are found in South East Asia in Indonesia and Malaysia.\n\nPaphiopedilum subgenus Cochlopetalum comprises the following species: Image Name Distribution Elevation (m) Paphiopedilum dodyanum Sumatra 1300 m Paphiopedilum glaucophyllum Indonesia, East and Southwest Java (Mount Semeru, Lumajang) and in Central Sumatra 200 - 700 m Paphiopedilum liemianum Sumatra (Gunong Sinabung), and Indonesia 550-1000 m Paphiopedilum moquetteanum Java 300 m Paphiopedilum primulinum Sumatra and Indonesia 0-520 m Paphiopedilum victoria-mariae Sumatra (Bukittinggi) 1980 m Paphiopedilum victoria-regina Panang, Guanong Marapi, Sumatra and Indonesia 790-1600 m",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/194785249.json",
+      "sha256": "fa316afa0e4540c022ee4f06f790037a2b40813b83b3d02bf1750d20b25a31b1",
+      "url": "https://api.gbif.org/v1/species/194785249",
+      "credit": {
+        "title": "Paphiopedilum subgen. Cochlopetalum Hallier f. ex Pfitzer",
+        "url": "https://www.gbif.org/species/194785249",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cochlopetalum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cochlopetalum&limit=100",
+      "status": 200
+    }
+  ]
+}

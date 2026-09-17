@@ -1,0 +1,42 @@
+{
+  "taxonId": 741011,
+  "sources": [
+    {
+      "title": "Flora-On — Silene laeta",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Silene laeta. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia Margens de charcos e outras zonas húmidas, em solos húmidos.\n\nLigações externas Descrição na Flora Iberica\n\nDistância ao mar (n=185)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Genista triacanthos , Quercus suber , Briza maxima , Cistus salviifolius , Daphne gnidium , Oxalis pes-caprae , Anagallis arvensis-(1) ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/741011.json",
+      "sha256": "fe62a933b214d1ba8783a2611f172e7deccfa6da22d9a12cc1fe00c0e8f11510",
+      "url": "https://flora-on.pt/?q=Silene+laeta",
+      "credit": {
+        "title": "Flora-On — Silene laeta",
+        "url": "https://flora-on.pt/?q=Silene+laeta",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Eudianthe+laeta",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Eudianthe+laeta&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Lychnis+laeta",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Silene+laeta",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:46:46.328973+00:00"
+}

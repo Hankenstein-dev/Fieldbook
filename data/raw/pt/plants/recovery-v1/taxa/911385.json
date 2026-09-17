@@ -1,0 +1,28 @@
+{
+  "taxonId": 911385,
+  "name": "Petrosedum orientale",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:53.612813+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/3689f56966be5d2ad6a8121bac7b9ef1dd5d2641fffcafc23198c79b9029455e.json",
+      "title": "Sedum montanum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Petrosedum+orientale&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Petrosedum+orientale&limit=100",
+      "status": 200
+    }
+  ]
+}

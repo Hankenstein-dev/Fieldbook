@@ -1,0 +1,115 @@
+{
+  "complete": true,
+  "count": 3,
+  "usage": {
+    "input_tokens": 10862,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 421,
+    "reasoning_output_tokens": 153,
+    "uncached_input_tokens": 4974
+  },
+  "validatedCount": 3,
+  "failedCount": 0,
+  "generationCompletedCount": 3,
+  "generationCallCount": 1,
+  "completedCallCount": 1,
+  "missingUsageCount": 0,
+  "nullSummaryCount": 0,
+  "startedAt": "2026-09-15T07:40:50.052781+00:00",
+  "completedAt": "2026-09-15T07:41:07.106526+00:00",
+  "elapsedWallSeconds": 17.053745,
+  "totalGenerationSeconds": 17.053620877999947,
+  "savedOutputTokens": 262,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedSeconds": 17.053620877999947,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 430959,
+      "name": "Dombeya cacuminum",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An evergreen tree endemic to Madagascar, it bears red to purple flowers that fall before withering. Its bark provides fibre for cordage and woven cloth and was formerly made into barkcloth.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedSeconds": 17.053620877999947,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 460193,
+      "name": "Potentilla hebiichigo",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A creeping perennial plant native to Asia, it has thin, yellowish-green leaves. Its fruiting receptacles are matte white or pink, with matte red to brown, rough-textured achenes.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:40:50.052781+00:00",
+      "completedAt": "2026-09-15T07:41:07.106526+00:00",
+      "elapsedSeconds": 17.053620877999947,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 1125546,
+      "name": "Fragaria hayatae",
+      "batchId": "batch-0001",
+      "usage": null,
+      "usageRef": "batch-0001-result.json",
+      "rawOutputFile": "batch-0001-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A herb endemic to Taiwan, it grows in thickets and along roadsides from medium to high altitudes. It is densely hairy, with coarsely sharp-toothed leaflets, white flowers and small achenes set on an enlarged, fleshy, globe-shaped base.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ],
+  "usageUnit": "CLI call; counted once per batch",
+  "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.",
+  "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."
+}

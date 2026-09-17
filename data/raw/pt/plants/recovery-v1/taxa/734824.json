@@ -1,0 +1,38 @@
+{
+  "taxonId": 734824,
+  "name": "Petrosedum amplexicaule",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:49.018492+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/c2ddd2c37d8632c29b321381eea2211ea6f7ddda1f10f94cb27d209bf15a9aba.json",
+      "title": "Sedum amplexicaule",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Petrosedum amplexicaule"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Clasping Stonecrop"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Petrosedum+amplexicaule&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Petrosedum+amplexicaule&limit=100",
+      "status": 200
+    }
+  ]
+}

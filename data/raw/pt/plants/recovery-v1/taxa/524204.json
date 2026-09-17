@@ -1,0 +1,55 @@
+{
+  "taxonId": 524204,
+  "name": "Koeleria cenisia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:42.216372+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Koeleria cenisia E. Rev.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Oekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F -- Lichtzahl L -- Salzzeichen -- Reaktionszahl R -- Temperaturzahl T -- Naehrstoffzahl N -- Kontinentalitaetszahl K --\n\nStatus Indigenat: - Liste der gefaehrdeten Pflanzen IUCN (nach Walter & Gillett 1997): Nein\n\nVolksname",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/224778337.json",
+      "sha256": "4ac0529292c2c4e58065aec8b111eac5f575c264a5b6e6bccc3157e59d58dc41",
+      "url": "https://api.gbif.org/v1/species/224778337",
+      "credit": {
+        "title": "Koeleria cenisia E. Rev.",
+        "url": "https://www.gbif.org/species/224778337",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Koeleria cenisia Reut. ex E.Rev.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Volksname\n\nStatus Indigenat: - Liste der gefaehrdeten Pflanzen IUCN (nach Walter & Gillett 1997): Nein\n\nOekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F -- Lichtzahl L -- Salzzeichen -- Reaktionszahl R -- Temperaturzahl T -- Naehrstoffzahl N -- Kontinentalitaetszahl K --",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4138384.json",
+      "sha256": "1f4f477b5636e9693d2580eb8fecc253a56f3ef380068013678794c46f19491c",
+      "url": "https://api.gbif.org/v1/species/4138384",
+      "credit": {
+        "title": "Koeleria cenisia Reut. ex E.Rev.",
+        "url": "https://www.gbif.org/species/4138384",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Koeleria+cenisia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Koeleria+cenisia&limit=100",
+      "status": 200
+    }
+  ]
+}

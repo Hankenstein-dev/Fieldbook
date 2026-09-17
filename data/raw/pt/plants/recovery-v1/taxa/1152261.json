@@ -1,0 +1,28 @@
+{
+  "taxonId": 1152261,
+  "name": "Floribunda",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:46:14.375503+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/a5d46499f4c5d61f327286e131a88fc68b87e3efb4922df87837d1f64e1c9140.json",
+      "title": "Cipocereus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Floribunda&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Floribunda&limit=100",
+      "status": 200
+    }
+  ]
+}

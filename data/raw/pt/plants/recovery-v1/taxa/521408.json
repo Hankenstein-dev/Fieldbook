@@ -1,0 +1,38 @@
+{
+  "taxonId": 521408,
+  "name": "Achillea pyrenaica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:41.814368+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/a46353a156b04feb17bdb94bff7e9a142a6e7625fcb2f94dda22ef7e5e33b97f.json",
+      "title": "Achillea ptarmica",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Achillea pyrenaica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pyrenean Sneezewort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Achillea+pyrenaica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Achillea+pyrenaica&limit=100",
+      "status": 200
+    }
+  ]
+}

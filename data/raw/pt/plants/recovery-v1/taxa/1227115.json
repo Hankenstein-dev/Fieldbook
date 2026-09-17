@@ -1,0 +1,55 @@
+{
+  "taxonId": 1227115,
+  "name": "Sonchus microcephalus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:33.612247+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sonchus microcephalus Mejias",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Sonchus microcephalus has the unusual chromosome number of 2n = 30. It has been explained by dysploid reduction from 2n = 32 of its closest relative, the allotetraploid S. oleraceus. Its basic number is therefore x = 15.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4249645.json",
+      "sha256": "160e4c2604cd342de14ca5501ba290bcfc2fe6dc658647158443742d8d1cea99",
+      "url": "https://api.gbif.org/v1/species/4249645",
+      "credit": {
+        "title": "Sonchus microcephalus Mejias",
+        "url": "https://www.gbif.org/species/4249645",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Sonchus microcephalus Mejías",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Sonchus microcephalus has the unusual chromosome number of 2n = 30. It has been explained by dysploid reduction from 2n = 32 of its closest relative, the allotetraploid S. oleraceus. Its basic number is therefore x = 15.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/100348791.json",
+      "sha256": "26ff5e05ab35da89b70538071d16b7d51e22a229ef05e8441a7a3e5e1d9d2131",
+      "url": "https://api.gbif.org/v1/species/100348791",
+      "credit": {
+        "title": "Sonchus microcephalus Mejías",
+        "url": "https://www.gbif.org/species/100348791",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sonchus+microcephalus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sonchus+microcephalus&limit=100",
+      "status": 200
+    }
+  ]
+}

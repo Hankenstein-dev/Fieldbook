@@ -1,0 +1,32 @@
+{
+  "taxonId": 204379,
+  "name": "Persicaria robustior",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:45.802577+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Persicaria robustior"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Stout Smartweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Persicaria+robustior&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Persicaria+robustior&limit=100",
+      "status": 200
+    }
+  ]
+}

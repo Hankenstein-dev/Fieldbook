@@ -1,0 +1,42 @@
+{
+  "taxonId": 861406,
+  "name": "Deschampsia argentea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:51.638929+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Deschampsia argentea",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Deschampsia argentea é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é (Lowe) Lowe, tendo sido publicada em Transactions of the Cambridge Philosophical Society 6: 529. 1838.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/9db777e4141ff2a61c5cbe07fa0331f7b665fc46ae016aaf4991f5ae2438c930.json",
+      "sha256": "57933711abbdbcdcefad099ab81d3826e423919c9a23f3ba1183fe28140900d4",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=65721283",
+      "revisionId": 65721283,
+      "credit": {
+        "title": "Deschampsia argentea",
+        "url": "https://pt.wikipedia.org/wiki/Deschampsia_argentea",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=65721283",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Deschampsia+argentea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Deschampsia+argentea&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":168242,"scientificName":"Rumex maritimus","commonName":"Golden Dock","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Rumex maritimus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Rumex maritimus, commonly called golden dock, bristle dock, or seashore dock, is an annual plant species of the genus Rumex. Rumex D maritimus grows in Argentina, Burma, Canada, China, and the United States. It is native to Canada and most of the 48 states. The life span of Rumex maritimus is rarely biennial in moist environments. This herb belongs to the family Polygonaceae."},{"id":"s1:p2","text":"Description \nRumex maritimus is composed of golden yellow or green/yellow inflorescences on its leaves and stem. The plant ranges to be 15 cm to 75 cm high from the base of the plant. The stems of the plant grows upward or laying close to the ground with pedicels as long as 3 to 8 cm. The leaves are wedged shaped, commonly narrow on both ends, but are rarely broadly wedded shaped. Its leaves range from 7 cm wide and 1.5 cm in height to 25 cm wide and 4 cm in height long containing blades that are lanceolate or lanceolate-linear. The flower of Rumex maritimus produces 15 to 30 triangular or rhombic triangular flowers ranging from 2.5 mm wide and .75 mm tall and 3mm wide to 1.2 mm tall."},{"id":"s1:p3","text":"Distribution and habitat\nRumex maritimus is very rare in Ireland but has been recorded from County Cork, Ireland, from about 1870. In Britain it is noted as local. According to the U.S. federal government the Connecticut 'seaside dock' is in special concern for endangerment and in New York 'golden dock' is endangered. Also according to the U.S. federal government Rumex is classified as a noxious weed. Rumex maritimus frequently grow in areas that flood with water. Shoots that are elongated are grown during mid summer or summer, while shoots that are not elongated reproduce during its flooding season because the water transports its seeds."},{"id":"s1:p4","text":"Uses \nMost organs in Rumex maritimus are used for medical purposes. The seeds are used as sex stimulants, aphrodisiac. The leaves are used to cure external burns and ringworm. The roots of Rumex maritimus are used to cure skin diseases. Rumex maritimus is used for foods; for example, seeds are ground into powder and are used for porridge. The leaves are cooked as a vegetable."}]}]}

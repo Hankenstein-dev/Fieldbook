@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":78817,"scientificName":"Ranunculus aquatilis","commonName":"common water-crowfoot","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Ranunculus aquatilis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Ranunculus aquatilis, the common water-crowfoot or white water-crowfoot, is a plant species of the genus Ranunculus, native throughout most of Europe and western North America, and also northwest Africa."},{"id":"s1:p2","text":"This is an aquatic plant, growing in mats on the surface of water. It has branching thread-like underwater leaves and toothed floater leaves. In fast flowing water the floaters may not be grown. The flowers are white petaled with yellow centres and are held a centimetre or two above the water. The floater leaves are used as props for the flowers and are grown at the same time."}]}]}

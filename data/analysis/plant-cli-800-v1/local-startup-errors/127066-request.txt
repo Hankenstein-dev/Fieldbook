@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":127066,"scientificName":"Youngia japonica","commonName":"Oriental false hawksbeard","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Youngia japonica","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Youngia japonica, commonly called Oriental false hawksbeard, is a species of flowering plant in the family Asteraceae. Native to eastern Asia, it is now found as a weed nearly worldwide."},{"id":"s1:p2","text":"Genomics\nA chromosome-level genome assembly of Youngia japonica was published in 2026. The genome is approximately 1.14 Gb in size, with the assembled sequences anchored onto 8 pseudo-chromosomes. The assembly has a BUSCO completeness of 95.4%, and 35,827 protein-coding genes were predicted."},{"id":"s1:p3","text":"Description\nIt is an annual that produces yellow flowers. In tropical areas, it can bloom year round, while in temperate areas it blooms in late spring and early summer. Plants are variable in height, ranging from {{convert|10|to|150|cm|in|0|abbr=on}} depending on growing conditions. Stems are usually solitary and erect. Basal leaves are large and pinnately divided. Its fruits are wind dispersed."},{"id":"s1:p4","text":"Distribution and habitat\nYoungia japonica is native to eastern Asia in China and Japan. However, it has been spread far from its initial range, and is now found as a non-native species nearly worldwide. It is present in Africa, Australia, Europe, North America, and South America. In the United States, it is spreading rapidly, although it is largely restricted to areas in the Southeast. It grows well in response to human disturbance, and is found in areas such as roadsides, cultivated fields and in lawns. In China, it is found in a variety of natural and disturbed habitats. It is known to penetrate into intact natural communities as an invasive species in the United States."},{"id":"s1:p5","text":"Taxonomy\nThree subspecies are recognized. They are:\nYoungia japonica subsp. elstonii - With many stem leaves. Not known to be weedy. \nYoungia japonica subsp. japonica - With few to no stem leaves. A weed found nearly worldwide.\nYoungia japonica subsp. longiflora - Has larger flowers. Not known to be weedy. This is considered the most distinct subspecies."},{"id":"s1:p6","text":"It has been reported to form intergeneric hybrids with Lapsanastrum humile in Japan."}]}]}

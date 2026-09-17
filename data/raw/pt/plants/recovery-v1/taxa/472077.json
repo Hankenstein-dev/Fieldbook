@@ -1,0 +1,32 @@
+{
+  "taxonId": 472077,
+  "name": "Lantana × hybrida",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:41:47.001010+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lantana × hybrida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "New Gold Lantana"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lantana+%C3%97+hybrida&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lantana+%C3%97+hybrida&limit=100",
+      "status": 200
+    }
+  ]
+}

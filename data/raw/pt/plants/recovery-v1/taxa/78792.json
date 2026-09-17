@@ -1,0 +1,47 @@
+{
+  "taxonId": 78792,
+  "name": "Pyracantha koidzumii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:42.908319+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Pyracantha koidzumii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Pyracantha koidzumii commonly known as Formosa firethorn or Taiwan firethorn, is a species of plant in the family Rosaceae. It is threatened by habitat loss.\n\nDescription and distribution\nThe species is {{convert|4|m}} tall and is native to Taiwan. However, it has been introduced to US states such as Alabama, Arkansas, Georgia, Florida and South Carolina.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/64a5d3534a977ff31b656294f6b29e3c18c7cc02ae5fa58dd01d47f57f8c485c.json",
+      "sha256": "869417695be1f376eeaca0793942c81bcfbf3ac30506a6e1fe32345af06af907",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1349129107",
+      "revisionId": 1349129107,
+      "credit": {
+        "title": "Pyracantha koidzumii",
+        "url": "https://en.wikipedia.org/wiki/Pyracantha_koidzumii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1349129107",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pyracantha koidzumii"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pyracantha+koidzumii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pyracantha+koidzumii&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 1008110,
+  "scientificName": "Trisetaria dufourei",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 1008110,
+    "scientificName": "Trisetaria dufourei",
+    "commonName": "Trisetaria dufourei",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71222850/medium.jpg",
+      "attribution": "(c) jmneiva, some rights reserved (CC BY-NC), uploaded by jmneiva",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/71222850"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 1008110,
+      "count": 1,
+      "name": "Trisetaria dufourei",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 493125,
+      "descendant_obs_count": 1,
+      "direct_obs_count": 1
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "ffcfd59d72760b3f5b3e3e63b4429a73c7183bd6d1482486318fae6b4a3614a9"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Trisetaria dufourei",
+      "title": "Trisetaria dufourei",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/b56bd67362e5edb8362cef0a073881bc3f82121d5cd8dc1449ea57c7751698f9.json",
+      "url": "https://en.wikipedia.org/wiki/Trisetaria_dufourei",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Trisetaria dufourei",
+      "title": "Trisetaria dufourei",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/b56bd67362e5edb8362cef0a073881bc3f82121d5cd8dc1449ea57c7751698f9.json",
+      "url": "https://pt.wikipedia.org/wiki/Trisetaria_dufourei",
+      "revisionId": 40550860,
+      "contentSha256": "1f72f3e6129ee91f9e037eff5cdb411b65204a9966b18195c8e5f57eb5a5df93"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868437,
+      "canonicalName": "Trisetaria dufourei",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868437",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868437.json",
+      "recordSha256": "3c2d53c463884a97557044120fa7350230c19d1fa19c505ac193b3b4787a2cb3"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

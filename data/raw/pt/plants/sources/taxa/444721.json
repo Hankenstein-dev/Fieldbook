@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 444721,
+  "scientificName": "Veronica nevadensis",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 444721,
+    "scientificName": "Veronica nevadensis",
+    "commonName": "Veronica nevadensis",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110273410/medium.jpeg",
+      "attribution": "(c) faluke, some rights reserved (CC BY-NC), uploaded by faluke",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/110273410"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 444721,
+      "count": 5,
+      "name": "Veronica nevadensis",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 738344,
+      "descendant_obs_count": 5,
+      "direct_obs_count": 5
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "2b0fc3e8291b9d7db7ac59aedf64a3fc9b4952c76511cc0e4da0b32e4af08500"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Veronica nevadensis",
+      "title": "Veronica nevadensis",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/5409e1fe6d7ed93dfcba92d611df5fbfa5fd1f72183dc2bc96ef77cf789c0de6.json",
+      "url": "https://en.wikipedia.org/wiki/Veronica_nevadensis",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Veronica nevadensis",
+      "title": "Veronica nevadensis",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/5409e1fe6d7ed93dfcba92d611df5fbfa5fd1f72183dc2bc96ef77cf789c0de6.json",
+      "url": "https://pt.wikipedia.org/wiki/Veronica_nevadensis",
+      "revisionId": 71611954,
+      "contentSha256": "295620bb87d3ee3b572eb1725388a2fdfd1ac59f0b22fbc492ebfb68502672ac"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868618,
+      "canonicalName": "Veronica nevadensis",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868618",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868618.json",
+      "recordSha256": "0ba6c003b86d862a218f4bdb0846a84ba534e6d89de939022769af1e901f9551"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

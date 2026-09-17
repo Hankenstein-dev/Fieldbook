@@ -1,0 +1,47 @@
+{
+  "taxonId": 559956,
+  "name": "Tritonia gladiolaris",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:55.903524+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tritonia gladiolaris",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Tritonia gladiolaris is a perennial flowering plant belonging to the genus Tritonia. The plant is native to KwaZulu-Natal, Lesotho, Mpumalanga, the Eastern Cape and the Western Cape.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/0426f32bf86b50c114bf094ef958e9d154aec568f6d6284981cc4664b63d0848.json",
+      "sha256": "9fc1caf2d1cc120a78cdeeff8f5bea622e4042f5e8c536185c8390477caeab83",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1357908538",
+      "revisionId": 1357908538,
+      "credit": {
+        "title": "Tritonia gladiolaris",
+        "url": "https://en.wikipedia.org/wiki/Tritonia_gladiolaris",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1357908538",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tritonia gladiolaris"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tritonia+gladiolaris&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tritonia+gladiolaris&limit=100",
+      "status": 200
+    }
+  ]
+}

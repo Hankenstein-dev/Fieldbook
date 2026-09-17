@@ -1,0 +1,55 @@
+{
+  "taxonId": 461329,
+  "name": "Hypnum uncinulatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:32.378584+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hypnum uncinulatum Jur.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT Excluded from Algeria. According to Ros et al. (2013), this species was erroneously listed by Ros et al. (1999) for Algeria caused by a misinterpretation of the name Hypnum cupressiforme var. uncinatum Boulay, which in fact is a synonym of Hypnum cupressiforme var. cupressiforme and not of Hypnum uncinulatum.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2681952.json",
+      "sha256": "2b919b9ade3fab91abae2b247b86465bc627e00d5972e7a1faaf8f83d5bc6fd9",
+      "url": "https://api.gbif.org/v1/species/2681952",
+      "credit": {
+        "title": "Hypnum uncinulatum Jur.",
+        "url": "https://www.gbif.org/species/2681952",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Hypnum uncinulatum Jur.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT Excluded from Algeria. According to Ros et al. (2013), this species was erroneously listed by Ros et al. (1999) for Algeria caused by a misinterpretation of the name Hypnum cupressiforme var. uncinatum Boulay, which in fact is a synonym of Hypnum cupressiforme var. cupressiforme and not of Hypnum uncinulatum.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098006.json",
+      "sha256": "aeb68c0aa73280b0003e5219612cb7ad91e7e5608296ea476a73ef956bd23b67",
+      "url": "https://api.gbif.org/v1/species/251098006",
+      "credit": {
+        "title": "Hypnum uncinulatum Jur.",
+        "url": "https://www.gbif.org/species/251098006",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hypnum+uncinulatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hypnum+uncinulatum&limit=100",
+      "status": 200
+    }
+  ]
+}

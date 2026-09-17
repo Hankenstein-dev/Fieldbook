@@ -1,0 +1,233 @@
+<title>Fieldbook in Pixels</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #f3f0e6;
+    --ground-2: #e7e2d2;
+    --ink: #2f2a2c;
+    --ink-2: #625a5d;
+    --line: #d4cdb8;
+    --accent: #c9553d;      /* Kenney roof red */
+    --accent-2: #5a9a3c;    /* grass */
+    --slate: #6f7b96;       /* slate roof */
+    --path: #c98a52;        /* dirt path */
+    --viewer-bg: #34302e;
+    --chip: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #1f1b1d; --ground-2: #2a2528; --ink: #ece6da; --ink-2: #b1a8a2; --line: #3f383b;
+      --accent: #e5735a; --accent-2: #8bc45c; --slate: #97a3bd; --path: #d9a066; --viewer-bg: #131011; --chip: #2a2528;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1f1b1d; --ground-2: #2a2528; --ink: #ece6da; --ink-2: #b1a8a2; --line: #3f383b;
+    --accent: #e5735a; --accent-2: #8bc45c; --slate: #97a3bd; --path: #d9a066; --viewer-bg: #131011; --chip: #2a2528;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink); font-family: "Source Sans 3", "Segoe UI", system-ui, sans-serif; font-size: 17px; line-height: 1.5; padding-inline: 16px; padding-block: 20px 48px; }
+  .wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 20px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+  h1 { font-family: "Pixelify Sans", "Press Start 2P", monospace; font-weight: 700; font-size: 2.2rem; margin: 0; letter-spacing: 0.01em; text-wrap: balance; }
+  header p { margin: 0; color: var(--ink-2); max-width: 60ch; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  button { font: inherit; cursor: pointer; border: 1px solid var(--line); background: var(--chip); color: var(--ink); padding: 6px 12px; border-radius: 4px; }
+  button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .zoom { display: flex; gap: 4px; margin-left: auto; align-items: center; }
+  .zoom button { min-width: 44px; font-family: "IBM Plex Mono", monospace; }
+  .zoom button[aria-pressed="true"] { background: var(--ink); color: var(--ground); border-color: var(--ink); }
+  .viewer { position: relative; width: 100%; aspect-ratio: 3 / 2; max-height: 78vh; background: var(--viewer-bg); border: 1px solid var(--line); overflow: hidden; touch-action: none; cursor: grab; }
+  .viewer.dragging { cursor: grabbing; }
+  canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; }
+  .hud { position: absolute; left: 10px; bottom: 10px; display: flex; gap: 8px; align-items: center; pointer-events: none; }
+  .hud span { background: rgba(20,16,17,.78); color: #f3f0e6; font-family: "IBM Plex Mono", monospace; font-size: 12px; padding: 3px 7px; border-radius: 3px; }
+  .scale { position: absolute; right: 10px; bottom: 10px; pointer-events: none; color: #f3f0e6; font-family: "IBM Plex Mono", monospace; font-size: 12px; text-align: center; }
+  .scale i { display: block; height: 6px; border: 2px solid #f3f0e6; border-top: 0; margin-bottom: 2px; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px 32px; }
+  h2 { font-family: "Pixelify Sans", monospace; font-weight: 500; font-size: 1.35rem; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  li b { font-weight: 600; }
+  .legend { display: grid; grid-template-columns: 22px 1fr; gap: 6px 10px; align-items: center; font-size: 15px; }
+  .sw { width: 20px; height: 20px; border-radius: 2px; border: 1px solid rgba(0,0,0,.2); }
+  table { border-collapse: collapse; font-family: "IBM Plex Mono", monospace; font-size: 14px; font-variant-numeric: tabular-nums; }
+  td, th { text-align: left; padding: 4px 14px 4px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 500; color: var(--ink-2); }
+  .cap { color: var(--ink-2); font-size: 14px; }
+  @media (max-width: 560px) { .zoom { margin-left: 0; } h1 { font-size: 1.8rem; } }
+  @media (prefers-reduced-motion: no-preference) { .tabs button, .zoom button { transition: background .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Fieldbook in Pixels</h1>
+    <p>Real Portugal geometry from the Protomaps tiles, rasterised to a 1.5 m grid and drawn with Kenney's CC0 Tiny Town tiles. Drag to pan, pinch or use the buttons to zoom.</p>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" role="tablist" aria-label="Area">
+      <button role="tab" id="tab-lagos" aria-selected="true" data-area="lagos">Lagos old town</button>
+      <button role="tab" id="tab-start" aria-selected="false" data-area="start">Ria de Alvor (app start point)</button>
+      <button role="tab" id="tab-odiaxere" aria-selected="false" data-area="odiaxere">Odiáxere farmland</button>
+    </div>
+    <div class="zoom" aria-label="Zoom">
+      <button id="zoom-1" data-zoom="1">1×</button>
+      <button id="zoom-2" data-zoom="2" aria-pressed="true">2×</button>
+      <button id="zoom-3" data-zoom="3">3×</button>
+    </div>
+  </div>
+
+  <div class="viewer" id="viewer">
+    <canvas id="c"></canvas>
+    <div class="hud"><span id="hud-area">Lagos old town</span><span id="hud-cells">360 m × 240 m</span></div>
+    <div class="scale"><i id="scale-bar" style="width:64px"></i><span>30 m</span></div>
+  </div>
+
+  <div class="cols">
+    <section>
+      <h2>What you are looking at</h2>
+      <ul>
+        <li><b>Every road, building and courtyard is real.</b> Each area is a 240 × 160 cell window cut from the zoom‑15 Protomaps build, so the plan matches what a normal map shows at the same spot.</li>
+        <li><b>Buildings show a south face.</b> Roof over the footprint, two wall rows with a door and windows on the southern edge, and a one‑cell roof overhang above the northern edge. That is the Stardew trick; no pitch, no 3D.</li>
+        <li><b>Trees are data too.</b> The trees in Lagos' squares are mapped tree points. Rural tree cover would come from forest and scrub polygons.</li>
+        <li><b>The walking character is a placeholder</b> drawn by hand at the window centre.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Tile sources</h2>
+      <div class="legend">
+        <span class="sw" style="background:#8bc45c"></span><span>Grass, flowers, dirt paths, roofs, walls, doors, trees: Kenney Tiny Town (CC0)</span>
+        <span class="sw" style="background:#4289c8"></span><span>Water, sand, wetland, rock, cobbled road: generated stand‑ins, the pack has none</span>
+        <span class="sw" style="background:#342c30"></span><span>Edges and outlines: drawn procedurally per cell, not from a tileset</span>
+      </div>
+    </section>
+    <section>
+      <h2>Findings that change the plan</h2>
+      <ul>
+        <li><b>The app's tiles are the wrong zoom for this.</b> In the same Lagos window the current zoom‑13 archives contain 1 building, zoom 14 has 3, zoom 15 has 247. A Stardew view needs zoom‑15 data, which means a bigger download or extracting it only around chosen zones.</li>
+        <li><b>The configured build has expired.</b> The 7 September Protomaps file returns 404; the preview used the 15 September build. The map build config needs the date bumped before any rebuild.</li>
+        <li><b>Diagonal streets staircase.</b> Stardew maps are authored axis‑aligned; real Lagos is not. At 1.5 m cells every diagonal road and wall shows steps. Options are larger cells, diagonal transition tiles in the tileset, or accepting it.</li>
+        <li><b>Old‑town blocks arrive merged.</b> OSM maps whole terraces as one polygon, so a block gets one door. Splitting fronts every few cells is a rendering rule, not a data fix.</li>
+        <li><b>Rural areas are quiet.</b> The start point is wetland with two footpaths and nothing else. Fields, scrub and reeds will need decorative sprites sown by landuse type to feel alive.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Assets still to find</h2>
+      <table>
+        <tr><th>Need</th><th>Why</th></tr>
+        <tr><td>Water and shoreline autotiles</td><td>coast, ria, streams, pools</td></tr>
+        <tr><td>Road and junction tileset</td><td>cobble or tarmac with 16 connectivity shapes</td></tr>
+        <tr><td>Sand, wetland, rock, farmland rows</td><td>Algarve ground types missing from Tiny Town</td></tr>
+        <tr><td>Walking character, 4 directions</td><td>heading turns the sprite, not the map</td></tr>
+        <tr><td>Mediterranean trees and scrub</td><td>cork oak, pine, carob, cistus rather than northern greens</td></tr>
+      </table>
+      <p class="cap">Kenney's Tiny Dungeon and Roguelike packs, the Liberated Pixel Cup tilesets, and itch.io farm packs cover most of these; anything paid is a one‑off cost the spec allows.</p>
+    </section>
+  </div>
+</div>
+
+<script>
+(() => {
+  const areas = {
+    lagos: { src: 'lagos.png', label: 'Lagos old town' },
+    start: { src: 'start.png', label: 'Ria de Alvor (app start point)' },
+    odiaxere: { src: 'odiaxere.png', label: 'Odiáxere farmland' },
+  };
+  const TILE = 16, CELL_M = 1.5;
+  const viewer = document.getElementById('viewer');
+  const canvas = document.getElementById('c');
+  const ctx = canvas.getContext('2d');
+  const images = {};
+  let area = 'lagos', zoom = 2, ox = 0, oy = 0, dpr = 1;
+
+  function load(name) {
+    if (images[name]) return Promise.resolve(images[name]);
+    return new Promise((res) => { const im = new Image(); im.onload = () => { images[name] = im; res(im); }; im.src = areas[name].src; });
+  }
+  function fit() {
+    const r = viewer.getBoundingClientRect();
+    dpr = Math.min(window.devicePixelRatio || 1, 3);
+    canvas.width = Math.round(r.width * dpr); canvas.height = Math.round(r.height * dpr);
+    draw();
+  }
+  function scaleFactor() { return zoom * dpr / 2; } // image px -> canvas px; 2× means one 16px tile is 16 CSS px
+  function centre() {
+    const im = images[area]; if (!im) return;
+    ox = (canvas.width - im.width * scaleFactor()) / 2; oy = (canvas.height - im.height * scaleFactor()) / 2;
+  }
+  function clamp() {
+    const im = images[area]; if (!im) return;
+    const s = scaleFactor(), w = im.width * s, h = im.height * s;
+    const minX = Math.min(0, canvas.width - w), minY = Math.min(0, canvas.height - h);
+    ox = Math.max(minX, Math.min(0, ox)); oy = Math.max(minY, Math.min(0, oy));
+    if (w < canvas.width) ox = (canvas.width - w) / 2;
+    if (h < canvas.height) oy = (canvas.height - h) / 2;
+  }
+  function draw() {
+    const im = images[area];
+    ctx.imageSmoothingEnabled = false;
+    ctx.fillStyle = getComputedStyle(viewer).backgroundColor;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    if (!im) return;
+    clamp();
+    const s = scaleFactor();
+    ctx.drawImage(im, Math.round(ox), Math.round(oy), Math.round(im.width * s), Math.round(im.height * s));
+    document.getElementById('scale-bar').style.width = (20 * TILE * zoom / 2) + 'px';
+  }
+  function setArea(name) {
+    area = name;
+    for (const b of document.querySelectorAll('.tabs button')) b.setAttribute('aria-selected', String(b.dataset.area === name));
+    document.getElementById('hud-area').textContent = areas[name].label;
+    load(name).then(() => { centre(); draw(); });
+  }
+  function setZoom(z, cx, cy) {
+    const im = images[area]; if (!im) { zoom = z; return; }
+    const before = scaleFactor();
+    const px = cx == null ? canvas.width / 2 : cx, py = cy == null ? canvas.height / 2 : cy;
+    const imgX = (px - ox) / before, imgY = (py - oy) / before;
+    zoom = z;
+    const after = scaleFactor();
+    ox = px - imgX * after; oy = py - imgY * after;
+    for (const b of document.querySelectorAll('.zoom button')) b.setAttribute('aria-pressed', String(+b.dataset.zoom === z));
+    draw();
+  }
+  document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => setArea(b.dataset.area)));
+  document.querySelectorAll('.zoom button').forEach(b => b.addEventListener('click', () => setZoom(+b.dataset.zoom)));
+
+  // pan and pinch
+  const pointers = new Map(); let lastDist = 0;
+  viewer.addEventListener('pointerdown', (e) => { viewer.setPointerCapture(e.pointerId); pointers.set(e.pointerId, { x: e.clientX, y: e.clientY }); viewer.classList.add('dragging'); });
+  viewer.addEventListener('pointermove', (e) => {
+    if (!pointers.has(e.pointerId)) return;
+    const prev = pointers.get(e.pointerId); const cur = { x: e.clientX, y: e.clientY };
+    if (pointers.size === 1) { ox += (cur.x - prev.x) * dpr; oy += (cur.y - prev.y) * dpr; draw(); }
+    pointers.set(e.pointerId, cur);
+    if (pointers.size === 2) {
+      const [a, b] = [...pointers.values()];
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (lastDist) {
+        const r = viewer.getBoundingClientRect();
+        const mx = ((a.x + b.x) / 2 - r.left) * dpr, my = ((a.y + b.y) / 2 - r.top) * dpr;
+        if (d > lastDist * 1.25 && zoom < 3) { setZoom(zoom + 1, mx, my); lastDist = d; }
+        else if (d < lastDist / 1.25 && zoom > 1) { setZoom(zoom - 1, mx, my); lastDist = d; }
+      } else lastDist = d;
+    }
+  });
+  const up = (e) => { pointers.delete(e.pointerId); if (pointers.size < 2) lastDist = 0; if (!pointers.size) viewer.classList.remove('dragging'); };
+  viewer.addEventListener('pointerup', up); viewer.addEventListener('pointercancel', up);
+  viewer.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const r = viewer.getBoundingClientRect();
+    const mx = (e.clientX - r.left) * dpr, my = (e.clientY - r.top) * dpr;
+    if (e.deltaY < 0 && zoom < 3) setZoom(zoom + 1, mx, my);
+    else if (e.deltaY > 0 && zoom > 1) setZoom(zoom - 1, mx, my);
+  }, { passive: false });
+
+  window.addEventListener('resize', fit);
+  fit();
+  setArea('lagos');
+  for (const k of Object.keys(areas)) load(k);
+})();
+</script>

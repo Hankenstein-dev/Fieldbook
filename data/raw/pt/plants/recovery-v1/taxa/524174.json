@@ -1,0 +1,58 @@
+{
+  "taxonId": 524174,
+  "name": "Rhigozum obovatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:46.457644+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Rhigozum obovatum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Rhigozum obovatum, the Karoo gold, is a perennial shrub or tree that is part of the Bignoniaceae family. The species is native to Namibia, South Africa and Zimbabwe. In South Africa, the plant occurs in Limpopo, Mpumalanga, Northern Cape, Eastern Cape, the Free State and the Western Cape.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/a71df7af81e86cfdb954b0039f808d8e11dc44ba1895e810d20a9516e6fb7ada.json",
+      "sha256": "987d0c90e25d9bdb52b7e22fbd5103d069b8b1ac42fe16cf606aecd697519acb",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1299002395",
+      "revisionId": 1299002395,
+      "credit": {
+        "title": "Rhigozum obovatum",
+        "url": "https://en.wikipedia.org/wiki/Rhigozum_obovatum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1299002395",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8804bc00d7174993a80e894449cba45fa2344fe4c263dc235600da4084abec16.json",
+      "title": "Rhigozum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/8804bc00d7174993a80e894449cba45fa2344fe4c263dc235600da4084abec16.json",
+      "title": "Rhigozum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rhigozum obovatum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhigozum+obovatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhigozum+obovatum&limit=100",
+      "status": 200
+    }
+  ]
+}

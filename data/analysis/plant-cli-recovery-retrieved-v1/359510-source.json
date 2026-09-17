@@ -1,0 +1,55 @@
+{
+  "input": {
+    "taxonId": 359510,
+    "scientificName": "Cladophora aegagropila",
+    "commonName": "Marimo moss balls",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cladophora aegagropila (Linnaeus 1753) Trevis.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "\" Habitat in Sueciae lacubus Dannemora, Stockholmiae & c. \" RCN: 8395."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Lectotype (van den Hoek, Revis. Eur. Sp. Cladophora: 51. 1963): Herb. Linn. No. 1277.49 (LINN)."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164002270.json",
+      "sha256": "860acbd0d5b7b91b7e0a2cef9412785d735e765ff0bb0efa92fe1505795c3c5d",
+      "url": "https://api.gbif.org/v1/species/164002270",
+      "credit": {
+        "title": "Cladophora aegagropila (Linnaeus 1753) Trevis.",
+        "url": "https://www.gbif.org/species/164002270",
+        "attribution": "Jarvis C, admin (2007). Chapter 7: Linnaean Plant Names and their Types (part C). Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.5281/zenodo.291971 accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/0bb2f033-2b79-4d87-803f-91694067c3f3",
+        "fetchedAt": "2026-09-15T07:52:26.104332+00:00",
+        "title": "Chapter 7: Linnaean Plant Names and their Types (part C)"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 359510,
+    "name": "Cladophora aegagropila",
+    "language": "unspecified",
+    "sourceTextTokens": 67,
+    "packetTokens": 178,
+    "standaloneInputTextTokens": 630,
+    "packetSha256": "6f722e67a4c3406c97cbb95ac6dc3c1b3f381f2efc33355d6fbd09598f7420c5"
+  }
+}

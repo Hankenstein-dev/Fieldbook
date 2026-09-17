@@ -1,0 +1,42 @@
+{
+  "taxonId": 859228,
+  "name": "Scrophularia lowei",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:48.383361+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Scrophularia lowei",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Scrophularia lowei''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Scrophularia]]''\n| espécie = '''''S. lowei'''''\n| binomial = ''Scrophularia lowei''\n| binomial_autoridade = Dalgaard\n}}\nScrophularia lowei é uma espécie de planta com flor pertencente à família Scrophulariaceae. \n\nA autoridade científica da espécie é Dalgaard, tendo sido publicada em Opera Bot. 51: 37. 1979.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/2c87fbe00b8e294e20fb733f1bb17f8db3c2b6316a16bda0bfa04e7691bdab74.json",
+      "sha256": "bff8c0b429aa1a2517709b7bd9cd96456d9f3869c38816f4cd16f214720b3e17",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177807",
+      "revisionId": 62177807,
+      "credit": {
+        "title": "Scrophularia lowei",
+        "url": "https://pt.wikipedia.org/wiki/Scrophularia_lowei",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177807",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Scrophularia+lowei&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Scrophularia+lowei&limit=100",
+      "status": 200
+    }
+  ]
+}

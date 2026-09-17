@@ -1,0 +1,38 @@
+{
+  "taxonId": 1197768,
+  "name": "Cistus calycinus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:27.281366+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/7205a4a38fa1de921f61ebb7bb38a984bf01f706158fc227c8b436a50d2727ee.json",
+      "title": "Halimium calycinum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cistus calycinus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sargacinha-amarela"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cistus+calycinus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cistus+calycinus&limit=100",
+      "status": 200
+    }
+  ]
+}

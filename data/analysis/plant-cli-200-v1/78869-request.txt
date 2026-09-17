@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":78869,"scientificName":"Ribes viburnifolium","commonName":"santa catalina island currant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Ribes viburnifolium","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Ribes viburnifolium, is an uncommon North American species in the gooseberry family. It is known by the common names Catalina currant, Santa Catalina Island currant, island gooseberry and evergreen currant."},{"id":"s1:p2","text":"Description\nRibes viburnifolium is a perennial shrub which grows low to the ground, extending long reddish stems horizontally. The leaves are dark green and shiny on their top surfaces, and lighter green or yellowish and leathery on the undersides. The leaves have glands which exude a sticky, citrus-scented sap."},{"id":"s1:p3","text":"Clusters of deep red flowers bloom in late winter and into early spring. The plant yields small red fruits later in the spring. The red fruit attracts birds. The flowers attract hummingbirds and insects."},{"id":"s1:p4","text":"Distribution and habitat"},{"id":"s1:p5","text":" Distribution \nRibes viburnifolium is native to the coast of Baja California and Southern California, from Smuggler's Canyon in the Tijuana Hills of San Diego County to El Rosario in central Baja California. The probable type locality is near Ensenada, from a 1882 collection by Marcus E. Jones. R. viburnifolium is also present on several islands in the region, including Catalina Island and Todos Santos in the Southern California Bight, and Cedros Island farther to the south off of the Vizcaino Peninsula. A persistent population from a planting exists in San Clemente Canyon, San Diego County."},{"id":"s1:p6","text":" Habitat \nThe mainland habitat of Ribes viburnifolium along the southern San Diego and northern Baja California coast consists of coastal sage scrub and coastal succulent scrub, with plants growing in canyons and arroyos with partial shade near the coast. On the Punta Banda, R. viburnifolium is found growing in moist, wind-swept, and foggy sage scrub and chaparral. On Cedros Island, this species is found in the pine groves north of the Gran Cañón."},{"id":"s1:p7","text":" Cultivation \n'Evergreen currant' has become a popular plant in drought-tolerant gardens."}]}]}

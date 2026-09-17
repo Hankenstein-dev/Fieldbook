@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":337787,"scientificName":"Pulicaria microcephala","commonName":"Pulicaria microcephala","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pulicaria microcephala","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Pulicaria microcephala is a species of flowering plant of the family Asteraceae endemic to the Berlengas archipelago in Portugal. It is a small and ramified plant occurring in clearings of scrubs in coastal cliffs. Its flowers are yellow, flowering between March and July. It is an endangered plant species, mainly threatened by the excessive nitrification of soils (due to the high density of seabirds) and invasive plant species, namely the ice plant."}]},{"id":"s2","title":"Lista Vermelha da Flora Vascular de Portugal Continental — Pulicaria microcephala","language":"unspecified","scope":"Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.","passages":[{"id":"s2:p1","text":"Pulicaria microcephala ERVA-PULGUEIRA-DAS-BERLENGAS * ® ASTERACEAE Pulicaria microcephala é um endemismo da ilha da Berlenga, onde se concentra toda a população global.Ocorre em prados em zonas abertas,expostas a exposição solar intensa e pouco influenciadas pela salsugem. É avaliado como Em Perigo porque apresenta extensão de ocorrência e área de ocupação muito reduzidas,porque se identificam duas localizações,porque se observa um declínio continuado da qualidade do seu habitat e a população é muito reduzida, estimando-se em menos de 250 indivíduos maduros. É ameaçada principalmente pela destruição causada pelos bandos de gaivotas que utilizam o planalto da ilha, assinalando-se outras ameaças, como a expansão do chorão-das-praias,o pisoteio desregrado originado pelos turistas,cuja maior intensidade é coincidente com o período de floração da planta. Assinala-se ainda a suscetibilidade a fatores estocásticos que poderão provocar o desaparecimento de núcleos.Sugere-se a criação de um viveiro de plantas que funcione como banco de sementes para ações de reforço populacional.Sugere-se também a colheita de sementes e armazenamento em dois bancos de germoplasma nacionais. Deverão ser mantidas ações de gestão de habitat, nomeadamente o controlo dos efetivos de gaivotas e o controlo da expansão do chorão-das-praias. Face ao incremento de procura turística, deverá ser aumentada a fiscalização de atividades potencialmente lesivas,principalmente na ilha Velha.A população deverá ser alvo de monitorização bienal.Sugere-se a realização de estudos que possam confirmar ou não a sua validade como espécie."}]}]}

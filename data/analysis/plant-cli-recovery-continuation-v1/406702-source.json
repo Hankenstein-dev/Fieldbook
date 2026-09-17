@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 406702,
+    "scientificName": "Tritonia crocata",
+    "commonName": "Blazing star",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Tritonia crocata",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Tritonia crocata is a plant species in the family Iridaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Tritonia crocata (L.) Ker Gawl. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Tritonia crocata (L.) Ker Gawl.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is SSW. & S. Cape Prov. It is a tuberous geophyte and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/0bb8110018c1c8021c209038c0dd594896df17314eb9316dce8ec10e4c4fe64b.json",
+      "sha256": "45d937fee8fafdb56a6d2c4abaa9ce7bb874f9dee171abb04fed5712802eb1b5",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1224577787",
+      "revisionId": 1224577787,
+      "credit": {
+        "title": "Tritonia crocata",
+        "url": "https://en.wikipedia.org/wiki/Tritonia_crocata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1224577787",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/406702-31f57499b29ff3cc.json",
+      "sha256": "31f57499b29ff3cceecf1e6e23bcb8b816cd1c484bd79129bbe3a2ff7d4630b4",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A441691-1",
+      "credit": {
+        "title": "Tritonia crocata (L.) Ker Gawl. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A441691-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 406702,
+    "name": "Tritonia crocata",
+    "language": "en,en",
+    "sourceTextTokens": 70,
+    "packetTokens": 218,
+    "standaloneInputTextTokens": 670,
+    "packetSha256": "86fd8229affac0eaf2999acac730da669f6288b4ee05ef58c2e796d8761e2874"
+  }
+}

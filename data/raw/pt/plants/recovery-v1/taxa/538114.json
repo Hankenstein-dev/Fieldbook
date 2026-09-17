@@ -1,0 +1,32 @@
+{
+  "taxonId": 538114,
+  "name": "Imbribryum miniatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:47.997268+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Imbribryum miniatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Glossy Red Bryum Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Imbribryum+miniatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Imbribryum+miniatum&limit=100",
+      "status": 200
+    }
+  ]
+}

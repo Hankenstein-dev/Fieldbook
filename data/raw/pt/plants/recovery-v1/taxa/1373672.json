@@ -1,0 +1,58 @@
+{
+  "taxonId": 1373672,
+  "name": "Canistropsis billbergioides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:41.920386+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Canistropsis billbergioides",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Canistropsis billbergioides is a species of flowering plant in the genus Canistropsis. This species is endemic to Brazil.\n\nTwo forms may be recognized:\nCanistropsis billbergioides f. azurea\nCanistropsis billbergioides f. billbergioides",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/8b598afca1cc2106ee2869905aaaad9e6dfba02efdce9d3d50305e3c2ed8573f.json",
+      "sha256": "ba3c45b32b8075061e9ab200dc8ed697a1ae8d378e1be492cc1ea291295e73d0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1121714275",
+      "revisionId": 1121714275,
+      "credit": {
+        "title": "Canistropsis billbergioides",
+        "url": "https://en.wikipedia.org/wiki/Canistropsis_billbergioides",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1121714275",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Canistropsis billbergioides (Schultes f.) Leme",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Canistropsis billbergioides is a species in the genus Canistropsis. This species is endemic to Brazil.\n\nFile:Canistropsis billbergioides pink 20090726.jpg|Pink form File:Canistropsis billbergioides forma azurea 20100209.jpg|forma azurea",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165587439.json",
+      "sha256": "bdc0b9c309553fd322b447e4235d340ab91f70d0f8ee25caeeaab5803e494e48",
+      "url": "https://api.gbif.org/v1/species/165587439",
+      "credit": {
+        "title": "Canistropsis billbergioides (Schultes f.) Leme",
+        "url": "https://www.gbif.org/species/165587439",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Canistropsis+billbergioides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Canistropsis+billbergioides&limit=100",
+      "status": 200
+    }
+  ]
+}

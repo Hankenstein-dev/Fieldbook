@@ -1,0 +1,47 @@
+{
+  "taxonId": 867549,
+  "name": "Atalantia buxifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:53.889571+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Atalantia buxifolia",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Atalantia buxifolia, synonym Severinia buxifolia, is a species of plant in the family Rutaceae, related to Citrus and Citropsis. Its common names include Chinese box-orange, box orange or boxthorn. It is native to southern China. It produces small black berries that resemble black currants. The fruits are eaten by birds that disperse its seeds. It is an evergreen in the wild.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1bbfd55a7fbd924bee99bded22e3cc105ae4e59858912a1aa684ab0861c5b733.json",
+      "sha256": "a64980541d0b995833d7c18ea51d5a07f73f185590f345899f3a1930d49f81ba",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1295851803",
+      "revisionId": 1295851803,
+      "credit": {
+        "title": "Atalantia buxifolia",
+        "url": "https://en.wikipedia.org/wiki/Atalantia_buxifolia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1295851803",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Atalantia buxifolia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Atalantia+buxifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Atalantia+buxifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "taxonId": 461353,
+  "name": "Anthoceros caucasicus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:35.438641+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Anthoceros caucasicus",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Europe\n\nRural mosaics, consisting of woods, hedges, pastures and crops (X8 level 2)\n\nSublittoral sediment (A5 level 2)\n\nTransport networks and other constructed hard-surfaced areas (J4 level 2)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/159499893.json",
+      "sha256": "4d56836d35463bac49a0414e52ca217d73ba22e8b09f58620e417e68c0338013",
+      "url": "https://api.gbif.org/v1/species/159499893",
+      "credit": {
+        "title": "Anthoceros caucasicus",
+        "url": "https://www.gbif.org/species/159499893",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Anthoceros+caucasicus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Anthoceros+caucasicus&limit=100",
+      "status": 200
+    }
+  ]
+}

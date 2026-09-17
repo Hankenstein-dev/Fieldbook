@@ -1,0 +1,48 @@
+{
+  "taxonId": 336494,
+  "name": "Fuchsia coccinea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:43.376714+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Fuchsia coccinea",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| imagem = \n| reino = [[Plantae]]\n| domínio = [[Eukaryota]]\n| ordem = [[Myrtales]]\n| divisão = [[Tracheophytes]]\n| infrarreino = [[Streptophyta]]\n| família = [[Onagraceae]]\n| género = [[Fuchsia]]\n| superdivisão = [[Embryophytes]]\n| subfilo = [[Euphyllophyta]]\n| superdomínio = [[Biota]]\n| superdomínio = [[Cytota]]\n| subreino = [[Viridiplantae]]\n| espécie = [[Fuchsia coccinea]]\n}}\nFuchsia coccinea é uma espécie de planta da família Onagraceae e do gênero Fuchsia. \n\n Taxonomia \nO táxon foi descrito oficialmente em 1789 por William Aiton.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/afb98e8f1f91216fb14dc187305fb70692eb538aaa3705254f80eb77b6d56779.json",
+      "sha256": "d8226c93e10626c6f2e5c9599667232c5ec01e9a2ff2d5ca578093cb2ce06290",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=72389934",
+      "revisionId": 72389934,
+      "credit": {
+        "title": "Fuchsia coccinea",
+        "url": "https://pt.wikipedia.org/wiki/Fuchsia_coccinea",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=72389934",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/afb98e8f1f91216fb14dc187305fb70692eb538aaa3705254f80eb77b6d56779.json",
+      "title": "Fuchsia coccinea",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fuchsia+coccinea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fuchsia+coccinea&limit=100",
+      "status": 200
+    }
+  ]
+}

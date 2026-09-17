@@ -1,0 +1,28 @@
+{
+  "taxonId": 467116,
+  "name": "Asphodelus serotinus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:44.362950+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/16bb3946d0f67926eaff1f115ef9f07b12039b9c32b1002d01b276fa41d94a7f.json",
+      "title": "Asphodelus serotinus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Asphodelus+serotinus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Asphodelus+serotinus&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":161761,"scientificName":"Deutzia scabra","commonName":"Deutzia","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Deutzia scabra","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Deutzia scabra, known as Fuzzy Deutzia or Pride-of-Rochester, is a species of flowering plant in the hydrangea family (Hydrangeaceae) native to Japan and introduced to mainland east Asia, Europe, and North America. In its native Japan, it is found from the Kantō region, westward to the islands of Kyushu and Shikoku. Its natural habitat is along forest edges and rocky openings. It is tolerant of disturbance and can be found growing out of stone walls, along roadsides, and in other waste areas."},{"id":"s1:p2","text":"Deutzia scabra is a deciduous shrub growing 1–2 meters in height. One way it differs from other Deutzia of Japan, is by its somewhat dimorphic leaves: those subtending the inflorescence being sessile and slightly clasping, while leaves lower down the stem are petiolate. It produces panicles of white flowers, blooming from May to July."},{"id":"s1:p3","text":"The cultivar 'Candidissima' bears double flowers, and is taller than the species at up to {{convert|4 |m|ft|abbr=on}}. It is a recipient of the Royal Horticultural Society's Award of Garden Merit. The pink flowered double 'Codsall Pink' has also received the award."}]}]}

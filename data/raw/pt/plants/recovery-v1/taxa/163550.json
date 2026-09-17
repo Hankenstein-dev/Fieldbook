@@ -1,0 +1,55 @@
+{
+  "taxonId": 163550,
+  "name": "Hedwigia ciliata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:54.310016+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hedwigia ciliata (Hedw.) P. Beauv.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882), Jelenc (1955 a): Bône; Djebel Mouzaïa; Djurdjura; Kabylie du Djurdjura, Tizi Ouzou; Massif de la Mahouna, Serdj el Aouda. Jelenc (1955 a): Atlas de Blida; Djidjelli; Édough; Kabylie du Djurdjura, Akfadou. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098579.json",
+      "sha256": "79b72244fb3c05abaa441dccd6d0e679aa178862fd833294ab47efd5c762c53e",
+      "url": "https://api.gbif.org/v1/species/251098579",
+      "credit": {
+        "title": "Hedwigia ciliata (Hedw.) P. Beauv.",
+        "url": "https://www.gbif.org/species/251098579",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/42c8beafb1a3a754e39162f812b5fe15b61f95baf34269d66bfe15436d117a05.json",
+      "title": "Hedwigia ciliata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hedwigia ciliata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ciliate Hoarmoss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hedwigia+ciliata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hedwigia+ciliata&limit=100",
+      "status": 200
+    }
+  ]
+}

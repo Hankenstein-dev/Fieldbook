@@ -1,0 +1,58 @@
+{
+  "taxonId": 560870,
+  "name": "Hieracium spathulatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:55.873284+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hieracium spathulatum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Hieracium spathulatum is a species of hawkweed in the family Asteraceae, native to Spain.\n\nSubspecies\nHieracium spathulatum subsp. albacetum (Arv.-Touv.) Greuter\nHieracium spathulatum subsp. ilergabonum (Pau) Greuter\nHieracium spathulatum subsp. spathulatum \nHieracium spathulatum subsp. spathulatiforme (Zahn) Greuter",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/3dbf1b197c38a44b5a0de38d1530bd40227d6c3ecbb22902688829b0964ae571.json",
+      "sha256": "0d7808ebcf13f49a45c4e9a8865e526be4b32f531330a542c47b515c6c091c54",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1092800141",
+      "revisionId": 1092800141,
+      "credit": {
+        "title": "Hieracium spathulatum",
+        "url": "https://en.wikipedia.org/wiki/Hieracium_spathulatum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1092800141",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Hieracium spathulatum Scheele, 1863",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Hieracium spathulatum is a species of hawkweed in the family Asteraceae, native to Spain.Scheele, George Heinrich Adolf 1863. Linnaea 32: 666-667 in Latin Subspecies Hieracium spathulatum subsp. albacetum (Arv.-Touv.) Greuter Hieracium spathulatum subsp. ilergabonum (Pau) Greuter Hieracium spathulatum subsp. spathulatum Hieracium spathulatum subsp. spathulatiforme (Zahn) Greuter",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165579786.json",
+      "sha256": "4b3a5e2c4c3168940d905d26bd2e7cffdfee9689d6dafcc2e19cd63ba0221780",
+      "url": "https://api.gbif.org/v1/species/165579786",
+      "credit": {
+        "title": "Hieracium spathulatum Scheele, 1863",
+        "url": "https://www.gbif.org/species/165579786",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hieracium+spathulatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hieracium+spathulatum&limit=100",
+      "status": 200
+    }
+  ]
+}

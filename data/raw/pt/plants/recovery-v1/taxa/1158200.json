@@ -1,0 +1,28 @@
+{
+  "taxonId": 1158200,
+  "name": "Frullania tamarisci",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:46:15.924804+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/a6edaa8fcd1bb97b98916d93e3ca900e4dcb4f363098b7595f9b57f97504d857.json",
+      "title": "Frullania tamarisci",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Frullania+tamarisci&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Frullania+tamarisci&limit=100",
+      "status": 200
+    }
+  ]
+}

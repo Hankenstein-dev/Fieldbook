@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":421593,"scientificName":"Scaevola albida","commonName":"white fanflower","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Scaevola albida","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Scaevola albida, commonly known as pale fan-flower or small-fruit fan-flower, is a flowering plant in the family Goodeniaceae, and is endemic to eastern Australia. It is a prostrate to ascending perennial herb with egg-shaped to elliptic leaves, sometimes with toothed edges, pale blue or white fan-shaped flowers and elliptic fruit."},{"id":"s1:p2","text":"Description\nScaevola albida is a prostrate to ascending perennial herb that typically grows up to {{cvt|50|cm}} high with stems sometimes covered with soft hairs. The leaves are elliptic to egg-shaped, wavy, bright green, semi-succulent and slightly hairy, {{cvt|0.6-5|cm}} long, {{cvt|1-25|mm}} wide, margins smooth or toothed, and sessile. The flowers are borne in upper leaf axils on stems up to {{cvt|25|cm}} long, with five white, pale blue or lilac petals, {{cvt|5-10|mm}} long with white, more or less flattened hairs on the outer surface. Flowering occurs mostly from October to January and the fruit is an urn-like shaped, usually one-seeded, papery fruit {{cvt|2-4|mm}} long."},{"id":"s1:p3","text":"Taxonomy and naming\nThi species was first formally described in 1794 by James Edward Smith who gave it the name Goodenia albida in the Transactions of the Linnean Society of London, from specimens collected by John White in Port Jackson. In 1917, George Claridge Druce transferred the species to Scaevola as S. albida in The Botanical Exchange Club and Society of the British Isles. The specific epithet (albida) means \"white\"."},{"id":"s1:p4","text":"Distribution and habitat\nPale fan-flower grows near coastal scrubland, grassy headlands and ranges in New South Wales, Tasmania, South Australia, Victoria and Queensland."}]}]}

@@ -1,0 +1,47 @@
+{
+  "taxonId": 897426,
+  "name": "Noccaea perfoliata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:55.939833+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Noccaea perfoliata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Noccaea perfoliata is a species of flowering plant in the family Brassicaceae. It is an annual native to southern, central, and southeastern Europe, North Africa, and western and central Asia from the eastern Mediterranean to the Altai, Xinjiang, and Pakistan.\n\n Sources \n{{Free-content attribution\n| title = Thlaspi perfoliatum\n| source = Encyclopedia of Life\n| documentURL = https://eol.org/pages/594106\n| license statement URL = https://eol.org/docs/what-is-eol/copyright-and-linking-policy\n| license = CC0\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/a95e5e2ff85f19cebfdfa529406b429d1440db0dc9033d5f45b5062e0e57ec65.json",
+      "sha256": "1e6bdebd3177907d86ef9c67ce8d7c55c5476c9bbb332aa9b5f9d544972d1796",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1315010530",
+      "revisionId": 1315010530,
+      "credit": {
+        "title": "Noccaea perfoliata",
+        "url": "https://en.wikipedia.org/wiki/Noccaea_perfoliata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1315010530",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Noccaea perfoliata"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Noccaea+perfoliata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Noccaea+perfoliata&limit=100",
+      "status": 200
+    }
+  ]
+}

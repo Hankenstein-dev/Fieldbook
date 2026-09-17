@@ -1,0 +1,28 @@
+{
+  "taxonId": 863130,
+  "name": "Semele menezesii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:35.607293+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/cc9d092b17283d2faa61ce944a84eab6b384f8212d8a5bc9ee698c311fd09261.json",
+      "title": "Semele androgyna",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Semele+menezesii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Semele+menezesii&limit=100",
+      "status": 200
+    }
+  ]
+}

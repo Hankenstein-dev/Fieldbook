@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 355819,
+  "scientificName": "Vallisneria spiralis",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 355819,
+    "scientificName": "Vallisneria spiralis",
+    "commonName": "Tapegrass",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60027138/medium.jpeg",
+      "attribution": "(c) Andrey Efremov, some rights reserved (CC BY-NC), uploaded by Andrey Efremov",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/60027138"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 355819,
+      "count": 28,
+      "name": "Vallisneria spiralis",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 123043,
+      "descendant_obs_count": 28,
+      "direct_obs_count": 28
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "5eeea8ea64606ef229fd6359c82e4c58496e51e4bfd897889ea06f618379fd5f"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Vallisneria spiralis",
+      "title": "Vallisneria spiralis",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/b75d44143b41d467e065a500eeab37591bc5c0df620168ee387fc769c166db62.json",
+      "url": "https://en.wikipedia.org/wiki/Vallisneria_spiralis",
+      "revisionId": 1373386622,
+      "contentSha256": "fe26933007230d216959ed4f642e2849b21629aa3925436535de3e3b336390ee"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868336,
+      "canonicalName": "Vallisneria spiralis",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868336",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868336.json",
+      "recordSha256": "ba037d6960bcb9e9df01529e9f2aa2b1590da8c02b6e21603e06d1903bafbcf9"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

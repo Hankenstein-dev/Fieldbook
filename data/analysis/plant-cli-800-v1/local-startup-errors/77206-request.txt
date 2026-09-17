@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":77206,"scientificName":"Galium mollugo","commonName":"Hedge Bedstraw","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Galium mollugo","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Galium mollugo, common name hedge bedstraw or false baby's breath, is a herbaceous perennial plant of the family Rubiaceae. It shares the name hedge bedstraw with the related European species, Galium album."},{"id":"s1:p2","text":"Description\nGalium mollugo can reach a height of {{cvt|15|-|100|cm}}. The stems are square in cross-section, more or less erect, with ascending branches. Starting from the axils of leaves, it has inflorescences of small, white flowers with a diameter around 1.0 to 1.5 cm, with four petals. Its flowering period extends from May to September in the Northern Hemisphere."},{"id":"s1:p3","text":"Habitat\nGalium mollugo commonly occurs in hedges, bushes, paths, meadows, and slopes, at elevations up to {{cvt|2100|m|abbr=on}} above sea level."},{"id":"s1:p4","text":"Distribution\nGalium mollugo is widely distributed in Europe and North Africa from Denmark to Portugal and Morocco, east to the Altay region of Siberia, and to the Caucasus. It is naturalized in the Russian Far East, New Zealand, Norfolk Island, Greenland, Argentina, Uruguay, and much of North America. It has been reported from the Rocky Mountains, the Cascade Range, the Sierra Nevadas, and the Appalachian Mountains, as well as the Great Lakes region. It is classified as a noxious weed in New York, Pennsylvania, and much of New England."}]}]}

@@ -1,0 +1,43 @@
+{
+  "taxonId": 965793,
+  "name": "Solidago",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:45:16.869273+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/4b389e6ab2e8936548285bf86054d22903ef2b38dcad58e35eeceab3d06f394b.json",
+      "title": "Solidago",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/4b389e6ab2e8936548285bf86054d22903ef2b38dcad58e35eeceab3d06f394b.json",
+      "title": "Solidago",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Solidago"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Solidago subg. Solidago"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Solidago&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Solidago&limit=100",
+      "status": 200
+    }
+  ]
+}

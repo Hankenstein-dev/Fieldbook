@@ -1,0 +1,38 @@
+{
+  "taxonId": 81793,
+  "name": "Glandularia canadensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:54.532020+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e2c5aa99bd124a81bac8e716061fae2922916d0ced30bdd7a3fea3fbd6aa8330.json",
+      "title": "Verbena canadensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Glandularia canadensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "rose vervain"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Glandularia+canadensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Glandularia+canadensis&limit=100",
+      "status": 200
+    }
+  ]
+}

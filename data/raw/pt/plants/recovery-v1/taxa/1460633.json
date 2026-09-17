@@ -1,0 +1,49 @@
+{
+  "taxonId": 1460633,
+  "name": "Phacocystis",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:47:41.877493+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Carex sect. Phacocystis Dumortier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Carex sect. Phacocystis is a section of the genus Carex, containing between 70 and 90 species worldwide. With 31 species in the North American flora, sedges in Carex sect. Phacocystis commonly occur in wetlands such as shorelines, marshes, and tundra.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165768933.json",
+      "sha256": "c51947eeee5917bfebd88af24b8005e60d9b2101c927b67c9606f35a5b6a8dba",
+      "url": "https://api.gbif.org/v1/species/165768933",
+      "credit": {
+        "title": "Carex sect. Phacocystis Dumortier",
+        "url": "https://www.gbif.org/species/165768933",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Phacocystis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Carex sect. Phacocystis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Phacocystis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Phacocystis&limit=100",
+      "status": 200
+    }
+  ]
+}

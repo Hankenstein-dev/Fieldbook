@@ -1,0 +1,42 @@
+{
+  "taxonId": 1149995,
+  "name": "Armeria humilis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:38.322990+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Armeria humilis",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Armeria humilis''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Plumbaginales]]\n| família = [[Plumbaginaceae]]\n| género = ''[[Armeria]]''\n| espécie = '''''A. humilis'''''\n| binomial = ''Armeria humilis''\n| binomial_autoridade = (Link) Schult.\n}}\nArmeria humilis é uma espécie de planta com flor pertencente à família Plumbaginaceae. \n\nA autoridade científica da espécie é (Link) Schult., tendo sido publicada em Systema Vegetabilium 6: 772. 1820.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Armeria humilis subsp. humilis - presente em Portugal Continental. Em termos de naturalidade é endémica da Península Ibérica. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.\n Armeria humilis subsp. odorata - presente em Portugal Continental. Em termos de naturalidade é endémica da Península Ibérica. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/1030e8e876670e2400411b6b98b519fd49c19508688aa4ecfa3d8f1f89162aa3.json",
+      "sha256": "9a9523ac25b974d02b3e1247908e544f80dbea04902901743f8675c0e98ac158",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55373147",
+      "revisionId": 55373147,
+      "credit": {
+        "title": "Armeria humilis",
+        "url": "https://pt.wikipedia.org/wiki/Armeria_humilis",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55373147",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Armeria+humilis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Armeria+humilis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "input": {
+    "taxonId": 588546,
+    "scientificName": "Lampranthus falcatus",
+    "commonName": "Sickle Brightfig",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Lampranthus falcatus",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Lampranthus falcatus, commonly known as the sickle brightfig, is a succulent belonging to the genus Lampranthus. The species is endemic to the Western Cape and forms part of the fynbos. It occurs from Tulbagh to Worcester and the Langeberg."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Lampranthus falcatus (L.) N.E.Br.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Lectotype (Hartmann, Ill. Handb. Succ. Pl., Aizoaceae F-Z: 86. 2001): [icon] \" Mesembryanthemum falcatum minimum, flore purpureo parvo \" in Dillenius, Hort. Eltham. 2: 288, t. 213, f. 276. 1732."
+          },
+          {
+            "id": "s2:p2",
+            "text": "\" Habitat in Africa. \" RCN: 3694."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/f350f1475f6c6fcb4a56d8eb23a42193e1a625d1bece0176039e2ad2a96f23c5.json",
+      "sha256": "cd291bf8af18f3bf48ad4d244f0ba143381a1e120673222bc4d31c68c5aa0b89",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1374106044",
+      "revisionId": 1374106044,
+      "credit": {
+        "title": "Lampranthus falcatus",
+        "url": "https://en.wikipedia.org/wiki/Lampranthus_falcatus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374106044",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3705777.json",
+      "sha256": "aaeae0e799ec17ff6b67dc803a6d570ca1ac635c52b778d73950bfd8687bc105",
+      "url": "https://api.gbif.org/v1/species/3705777",
+      "credit": {
+        "title": "Lampranthus falcatus (L.) N.E.Br.",
+        "url": "https://www.gbif.org/species/3705777",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 588546,
+    "name": "Lampranthus falcatus",
+    "language": "en,unspecified",
+    "sourceTextTokens": 150,
+    "packetTokens": 296,
+    "standaloneInputTextTokens": 748,
+    "packetSha256": "18200e251f53848be6ed625166a7b7bff62a4ae0c094924a4958deee2c230880"
+  }
+}

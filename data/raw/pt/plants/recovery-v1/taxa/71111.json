@@ -1,0 +1,55 @@
+{
+  "taxonId": 71111,
+  "name": "Filago pygmaea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:45.968905+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Filago pygmaea L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Das Zwergedelweiß (Filago pygmaea) ist eine Pflanzenart aus der Gattung Filzkräuter (Filago) innerhalb der Familie der Korbblütler (Asteraceae).\n\nVegetative Merkmale Das Zwergedelweiß wächst als einjährige krautige Pflanze und erreicht Wuchshöhen von 1 bis 4 Zentimetern. Es ist am Grunde verzweigt und graufilzig behaart. Die Stängelblätter sind 7–10 Millimeter lang und 3 Millimeter breit. Am Ende der Stängel sitzt eine Rosette aus abstehenden, spatelförmigen oder eiförmigen Blättern; sie isn stumpf oder kurz spitzig, abstehend und 5–15 Millimeter lang und 2–5 Millimeter breit. Generative Merkmale Diese Blätter umgeben ein 5 bis 35 Millimeter breites Büschel sitzender Blütenkörbe. Die mehr als 30 Hüllblätter sind bräunlich gelb, begrannt und kahl. Sie sind 3–4,3 Millimeter lang und 1,5–1,8 Millimeter breit und lanzettlich-eiförmig Die Blütenkörbe enthalten unscheinbaren Röhrenblüten, die etwa halb bis ein Drittel so lang sind wie die umgebenden Blätter der Rosette. Die Blütezeit reicht von April bis Juni.\n\nDie Erstveröffentlichung von Filago pygmaea erfolgte 1753 durch Carl von Linné. Ein Synonym von Filago pygmaea ist Evax pygmaea\n\nDas Zwergedelweiß kommt im Mittelmeerraum in Küstennähe in Grasfluren und Garigues vor. Sein Verbreitungsgebiet umfasst ursprünglich Marokko, Algerien, Tunesien, Libyen, Portugal, Spanien, die Balearen, Frankreich, Korsika, Sardinien, Sizilien, Malta, Italien, Kroatien, Bosnien-Herzegowina, Albanien, Montenegro, Griechenland, Kreta, die Ägäis, Zypern, die europäische und die asiatische Türkei, Syrien und Libanon. Auf den Kanarischen Inseln ist die Ursprünglichkeit zweifelhaft.\n\nDie sommerliche Trockenzeit wird als Samen überdauert.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165210769.json",
+      "sha256": "df4078c585b20a967569a9a9ec20d57d2174dd2dd8692a18531d14b8d8d70ade",
+      "url": "https://api.gbif.org/v1/species/165210769",
+      "credit": {
+        "title": "Filago pygmaea L.",
+        "url": "https://www.gbif.org/species/165210769",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/64af8f072ad0f834d75f4c0587e87b37c038b77a2567dda3688183dccf459835.json",
+      "title": "Zwergedelweiß",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Filago pygmaea"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "pygmy cudweed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Filago+pygmaea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Filago+pygmaea&limit=100",
+      "status": 200
+    }
+  ]
+}

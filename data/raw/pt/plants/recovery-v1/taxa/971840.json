@@ -1,0 +1,33 @@
+{
+  "taxonId": 971840,
+  "name": "Echinocereus",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:45:23.715136+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d3d8d751a329bbc04fa14117e40e517407e14dab05bd173b505676f2c02c4eb5.json",
+      "title": "Echinocereus",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/d3d8d751a329bbc04fa14117e40e517407e14dab05bd173b505676f2c02c4eb5.json",
+      "title": "Echinocereus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Echinocereus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Echinocereus&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":62211,"scientificName":"Potentilla recta","commonName":"sulphur cinquefoil","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Potentilla recta","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Distinguish|Potentilla erecta}}"},{"id":"s1:p2","text":"Potentilla recta, the sulphur cinquefoil or rough-fruited cinquefoil, is a species of cinquefoil. It is native to Eurasia but it is present in North America as an introduced species, ranging through almost the entire continent except the northernmost part of Canada and Alaska."},{"id":"s1:p3","text":"The plant probably originated in the Mediterranean Basin. In North America, it was first collected in the 19th century in Ontario and in 1914 in British Columbia. It is known as a minor noxious weed in some areas. It occurs in many types of habitat, including disturbed, weedy places."},{"id":"s1:p4","text":"Description\nSulphur cinquefoil is a perennial herb and is a tufted plant growing from a woody taproot or caudex. It produces upright to erect leafy stems up to {{convert|80|cm|0|abbr=on}} tall. The upper part of the stem is branched and densely hairy, and it also bears some glandular hairs. The lower leaves have long stalks and the stem leaves are arranged alternately and have short stalks. All the leaves are palmate, divided into usually six or seven leaflets, sometimes up to nine, with the uppermost ones just having three leaflets. The green to yellow-green leaves may be up to {{convert|15|cm|0|abbr=on}} long, with the central leaflet reaching {{convert|8|cm|1|abbr=on}} in length. The leaflets are linear-lanceolate, hairy in texture and toothed along the edges. The inflorescence is a cyme of several flowers which are generally light to pale yellow in color, with white to gold-flowered individuals occurring at times. Each flower has five calyx lobes, five broad, shallowly-notched petals, thirty stamens, many pistils and a separate gynoecium. The fruit is a receptacle containing several glossy, pale brown achenes. The plant may reproduce by seed or vegetatively by sprouting new shoots from its caudex. Sulphur cinquefoil flowers from June to August."},{"id":"s1:p5","text":"Distribution and habitat\nSulphur cinquefoil is native to much of Europe, Asia, and parts of North America, and it can be found in other parts of the world as an introduced species. Its natural habitat is arable fields, gardens, banks, hedgerows, wasteland, logging clearings, loading areas and occasionally shores."},{"id":"s1:p6","text":"Traditional use\nPotentilla recta is traditionally used as a tonic in Turkey."}]}]}

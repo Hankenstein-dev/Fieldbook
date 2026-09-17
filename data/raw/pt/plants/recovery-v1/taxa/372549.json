@@ -1,0 +1,38 @@
+{
+  "taxonId": 372549,
+  "name": "Ulva rigida",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:56.372774+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0f91aa8a1712a24a6d88526518492b7e8f25b3f016509d157cceb0802f523fad.json",
+      "title": "Ulva rigida",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ulva rigida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sea Lettuce"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ulva+rigida&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ulva+rigida&limit=100",
+      "status": 200
+    }
+  ]
+}

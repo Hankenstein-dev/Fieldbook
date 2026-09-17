@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":167075,"scientificName":"Plumeria obtusa","commonName":"Singapore graveyard flower","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Plumeria obtusa","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Plumeria obtusa, the Singapore graveyard flower, is a species of the genus Plumeria (Apocynaceae). It is native to the Neotropics, but widely cultivated for its ornamental and fragrant flowers around the world, where suitably warm climate exists."},{"id":"s1:p2","text":"Taxonomy\nPlumeria obtusa was described as a new species in 1753 by Carl Linnaeus. Its specific epithet \"obtusa\" means \"blunt\", in reference to its blunt-tipped leaves."},{"id":"s1:p3","text":"Description\nPlumeria obtusa is a small tree, growing {{cvt|10-15|ft|m|order=flip}} tall. Infrequently, individuals can grow to be {{cvt|25|ft|m|order=flip}}. Its flowers are white with yellow throats and each has five petals. The fragrant flowers bloom in clusters. Leaves are dark green, glossy, and up to {{cvt|8|in|cm|order=flip}} long. They are obovate, or teardrop-shaped."},{"id":"s1:p4","text":"Distribution\nPlumeria obtusa is native to the West Indies (including the Bahamas and the Greater Antilles), southern Mexico, Belize, and Guatemala. Cultivation is common in warmer parts of the world, including Florida, Southeast Asia, and coastal parts of the Arabian Peninsula. It is reportedly naturalized in China and India."},{"id":"s1:p5","text":"Common names\n châmpéi slük tiel - Khmer\n gulcampā - Dhivehi"},{"id":"s1:p6","text":"Uses\nThis plant is commonly used as an ornamental, grown for its flowers. In Cambodia the flowers are used to make necklaces and in offerings to the deities. In traditional medicine used in that country, a decoction of the bark is given in varying doses as a purgative or as a remedy against oedema."}]}]}

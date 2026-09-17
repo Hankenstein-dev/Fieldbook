@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 79160,
+    "scientificName": "Sparaxis grandiflora",
+    "commonName": "Plain harlequin-flower",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Sparaxis grandiflora",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Sparaxis grandiflora, the plain harlequin flower, is a species of flowering plant in the genus Sparaxis, family Iridaceae, found in the Western Cape province of South Africa. It has gained the Royal Horticultural Society's Award of Garden Merit."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Subspecies\nSparaxis grandiflora subsp. grandiflora\nSparaxis grandiflora subsp. acutiloba Goldblatt\nSparaxis grandiflora subsp. fimbriata (Lam.) Goldblatt\nSparaxis grandiflora subsp. violacea (Eckl.) Goldblatt"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Sparaxis grandiflora (D.Delaroche) Ker Gawl.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Lectotype (Goldblatt in Germishuisen, Fl. Southern Africa 7 (2: 1): 161. 1999): Herb. Linn. No. 58.19 (LINN)."
+          },
+          {
+            "id": "s2:p2",
+            "text": "\" Habitat ad Cap. b. spei. D. von Royen. \" RCN: 287."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/8942203cfd692d67b3e52636b779e308c0aaf90c4437606dfe23af2e276887b6.json",
+      "sha256": "323069129fdf4143ad4c1175d6735c17b5b05c0fcd0b8282b83632f6eeba7c81",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1177107812",
+      "revisionId": 1177107812,
+      "credit": {
+        "title": "Sparaxis grandiflora",
+        "url": "https://en.wikipedia.org/wiki/Sparaxis_grandiflora",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1177107812",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2745809.json",
+      "sha256": "3479bae6f9da9f37d50537980e83626183be342d45b82a045cd4ca13eedaa6e2",
+      "url": "https://api.gbif.org/v1/species/2745809",
+      "credit": {
+        "title": "Sparaxis grandiflora (D.Delaroche) Ker Gawl.",
+        "url": "https://www.gbif.org/species/2745809",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 79160,
+    "name": "Sparaxis grandiflora",
+    "language": "en,unspecified",
+    "sourceTextTokens": 191,
+    "packetTokens": 350,
+    "standaloneInputTextTokens": 802,
+    "packetSha256": "f3c7f749262eaa8ec8b212a7436cef303af64a3660fe69c9dcdc90758852bd83"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "taxonId": 715209,
+  "name": "Rhododendron kanehirae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:45.061859+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9160fc3206c5b527545899a6e3a3cf0946e02bb208566af87d7481c23ef2c361.json",
+      "title": "Rhododendron kanehirai",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhododendron+kanehirae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhododendron+kanehirae&limit=100",
+      "status": 200
+    }
+  ]
+}

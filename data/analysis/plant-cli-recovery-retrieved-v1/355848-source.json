@@ -1,0 +1,98 @@
+{
+  "input": {
+    "taxonId": 355848,
+    "scientificName": "Hypopterygium tamarisci",
+    "commonName": "Hypopterygium tamarisci",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Hypopterygium tamarisci",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Hypopterygium tamarisci is a species of moss in the family Hypopterygiaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Hypopterygium tamarisci (Sw.) Brid. ex Müll. Hal.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Australasia"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Cultivated areas of gardens and parks (I2 level 2)"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Greenhouse (added 21oct2005) (J100 level 2)"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Inland cliffs, rock pavements and outcrops (H3 level 2)"
+          },
+          {
+            "id": "s2:p5",
+            "text": "Pacific"
+          },
+          {
+            "id": "s2:p6",
+            "text": "Sublittoral sediment (A5 level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/5599518f83957e2123fd99f917c3ed41df2fbad31b35adf9ced6b198e2aaf3c7.json",
+      "sha256": "1af0eba837f680146196d6a686169a46f6e3007f388b880bd8d2c3de0c9f50ab",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1173434231",
+      "revisionId": 1173434231,
+      "credit": {
+        "title": "Hypopterygium tamarisci",
+        "url": "https://en.wikipedia.org/wiki/Hypopterygium_tamarisci",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1173434231",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/159500538.json",
+      "sha256": "500751afa810299a13b26f237d161d44c1696da9106d13b4ac28c09945d4c0e4",
+      "url": "https://api.gbif.org/v1/species/159500538",
+      "credit": {
+        "title": "Hypopterygium tamarisci (Sw.) Brid. ex Müll. Hal.",
+        "url": "https://www.gbif.org/species/159500538",
+        "attribution": "Roy D, Alderman D, Anastasiu P, Arianoutsou M, Augustin S, Bacher S, Başnou C, Beisel J, Bertolino S, Bonesi L, Bretagnolle F, Chapuis J L, Chauvel B, Chiron F, Clergeau P, Cooper J, Cunha T, Delipetrou P, Desprez-Loustau M, Détaint M, Devin S, Didžiulis V, Essl F, Galil B S, Genovesi P, Gherardi F, Gollasch S, Hejda M, Hulme P E, Josefsson M, Kark S, Kauhala K, Kenis M, Klotz S, Kobelt M, Kühn I, Lambdon P W, Larsson T, Lopez-Vaamonde C, Lorvelec O, Marchante H, Minchin D, Nentwig W, Occhipinti-Ambrogi A, Olenin S, Olenina I, Ovcharenko I, Panov V E, Pascal M, Pergl J, Perglová I, Pino J, Pyšek P, Rabitsch W, Rasplus J, Rathod B, Roques A, Roy H, Sauvard D, Scalera R, Shiganova T A, Shirley S, Shwartz A, Solarz W, Vilà M, Winter M, Yésou P, Zaiko A, Adriaens T, Desmet P, Reyserhove L (2020). DAISIE - Inventory of alien invasive species in Europe. Version 1.7. Research Institute for Nature and Forest (INBO). Checklist dataset https://doi.org/10.15468/ybwd3x accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/39f36f10-559b-427f-8c86-2d28afff68ca",
+        "fetchedAt": "2026-09-15T07:52:23.163195+00:00",
+        "title": "DAISIE - Inventory of alien invasive species in Europe"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 355848,
+    "name": "Hypopterygium tamarisci",
+    "language": "en,unspecified",
+    "sourceTextTokens": 89,
+    "packetTokens": 279,
+    "standaloneInputTextTokens": 731,
+    "packetSha256": "2302ce8bc7720bfd215a47796a5c87c6e23a144cfd6f91ea15e5b6a5328c47a8"
+  }
+}

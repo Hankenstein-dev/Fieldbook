@@ -1,0 +1,77 @@
+{
+  "taxonId": 341996,
+  "name": "Pterocephalidium diandrum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:36.813473+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Pterocephalidium",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Pterocephalidium is a monotypic genus of flowering plants belonging to the family Caprifoliaceae. The only species is Pterocephalidium diandrum.\n\nThe species is found in the Iberian Peninsula.",
+      "identityDecision": "Exact scientific identity in taxobox; common/translated article title",
+      "path": "data/raw/pt/plants/sources/articles/en/b9cce73aa9dfecb9de18a7dac0504559211b394f6e322d8b2ca829e82ed979ee.json",
+      "sha256": "806540d4e19dd5a270d52048b2745f74fcdd59a9acad4777750eac45d052fe10",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1311970136",
+      "revisionId": 1311970136,
+      "credit": {
+        "title": "Pterocephalidium",
+        "url": "https://en.wikipedia.org/wiki/Pterocephalidium",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1311970136",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Pterocephalidium diandrum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Pterocephalidium diandrum''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Dipsacales]]\n| família = [[Dipsacaceae]]\n| género = ''[[Pterocephalidium]]''\n| espécie = '''''P. diandrum'''''\n| binomial = ''Pterocephalidium diandrum''\n| binomial_autoridade = (Lag.) G.López\n}}\nPterocephalidium diandrum é uma espécie de planta com flor pertencente à família Dipsacaceae.\n\nA autoridade científica da espécie é (Lag.) G.López, tendo sido publicada em Anales del Jardín Botánico de Madrid 43: 251. 1987[1987].\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/b9cce73aa9dfecb9de18a7dac0504559211b394f6e322d8b2ca829e82ed979ee.json",
+      "sha256": "9c9e7902b85bf6be16422ff93e4dba18531cdca9e363226f24c6541f7871db32",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60070129",
+      "revisionId": 60070129,
+      "credit": {
+        "title": "Pterocephalidium diandrum",
+        "url": "https://pt.wikipedia.org/wiki/Pterocephalidium_diandrum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60070129",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Pterocephalidium diandrum (Lag.) G.López",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Pterocephalidium is a monotypic genus of flowering plants belonging to the family Caprifoliaceae. The only species is Pterocephalidium diandrum. The species is found in Iberian Peninsula.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/189073970.json",
+      "sha256": "e0444d4d64372917e1dc7aa415f1d53dfdcf15f2fbd963efff39ed8f41512ce2",
+      "url": "https://api.gbif.org/v1/species/189073970",
+      "credit": {
+        "title": "Pterocephalidium diandrum (Lag.) G.López",
+        "url": "https://www.gbif.org/species/189073970",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pterocephalidium+diandrum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pterocephalidium+diandrum&limit=100",
+      "status": 200
+    }
+  ]
+}

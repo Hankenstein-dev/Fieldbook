@@ -1,0 +1,63 @@
+{
+  "taxonId": 164421,
+  "name": "Lantana achyranthifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:56.495258+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lantana achyranthifolia",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Lantana achyranthifolia, the brushland shrubverbena, is a perennial woody shrub, and a member of the verbena family, Verbenaceae.\n\nEtymology\nThe name Lantana derives from the Latin name of the wayfaring tree Viburnum lantana, the flowers of which closely resemble Lantana.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/76c07ffb86a223cdd8e452922014b4861c83a4ef37053a98f6cdae0604d029ec.json",
+      "sha256": "2f4a9aa51dd30f866f8b889fba8ab9113a0231b7bd5379ad21131cdc9cea580d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1013626494",
+      "revisionId": 1013626494,
+      "credit": {
+        "title": "Lantana achyranthifolia",
+        "url": "https://en.wikipedia.org/wiki/Lantana_achyranthifolia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1013626494",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Lantana achyranthifolia Desf.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lantana achyranthifolia, the brushland shrubverbena, is a perennial woody shrub, and a member of the verbena family, Verbenaceae.\n\nThe name Lantana derives from the Latin name of the wayfaring tree Viburnum lantana, the flowers of which closely resemble Lantana.Gledhill, David (2008). \"The Names of Plants\". Cambridge University Press. (hardback), (paperback). pp 230",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165690521.json",
+      "sha256": "d813af234ee6c5c6a4b63ee8d3c042009c5837fe1bccaed9108f3e1d1e7e9366",
+      "url": "https://api.gbif.org/v1/species/165690521",
+      "credit": {
+        "title": "Lantana achyranthifolia Desf.",
+        "url": "https://www.gbif.org/species/165690521",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lantana achyranthifolia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lantana+achyranthifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lantana+achyranthifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

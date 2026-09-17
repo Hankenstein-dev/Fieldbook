@@ -1,0 +1,28 @@
+{
+  "taxonId": 712886,
+  "name": "Actinidia setosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:42.138563+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9a67f7ca451989f8da0d777678764da17b1e15a5292bcba69c1a52d5ce7b319f.json",
+      "title": "Actinidia chinensis var. setosa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Actinidia+setosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Actinidia+setosa&limit=100",
+      "status": 200
+    }
+  ]
+}

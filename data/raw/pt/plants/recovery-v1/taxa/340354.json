@@ -1,0 +1,32 @@
+{
+  "taxonId": 340354,
+  "name": "Heteromorpha arborescens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:31.780428+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Heteromorpha arborescens"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "parsleytree"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Heteromorpha+arborescens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Heteromorpha+arborescens&limit=100",
+      "status": 200
+    }
+  ]
+}

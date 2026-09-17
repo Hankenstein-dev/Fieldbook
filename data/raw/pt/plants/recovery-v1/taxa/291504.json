@@ -1,0 +1,39 @@
+{
+  "taxonId": 291504,
+  "name": "Mimosa candollei",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:03.456512+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Mimosa candollei R.Grether",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Considered as M. quadrivalvis var. leptocarpa by Barneby (1991), but segregated as a distinct species by Grether (2000). None of the other infraspecific taxa assigned to M. quadrivalvis by Barneby (1991) occur in Bolivia. Mimosa candollei is a widespread and weedy ruderal along roadsides and in abandoned pastures across much of seasonally dry South America.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2969714.json",
+      "sha256": "30b46c1f5bef99a3e18caa17ef5ac783e496917e973696288ec076831eb192e7",
+      "url": "https://api.gbif.org/v1/species/2969714",
+      "credit": {
+        "title": "Mimosa candollei R.Grether",
+        "url": "https://www.gbif.org/species/2969714",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Mimosa+candollei&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Mimosa+candollei&limit=100",
+      "status": 200
+    }
+  ]
+}

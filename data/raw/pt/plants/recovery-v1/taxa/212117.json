@@ -1,0 +1,33 @@
+{
+  "taxonId": 212117,
+  "name": "Fedia",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:39:47.301779+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/43e435b5ebd7d3ecd266997f3d51652412c14404c9945adcb35da29275c88ee6.json",
+      "title": "Valeriana",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/a5d4a44f1e5c9c35cdd5a47726948f1dd6959d9bc39b613c72f1df19bbd66443.json",
+      "title": "Valeriana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fedia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fedia&limit=100",
+      "status": 200
+    }
+  ]
+}

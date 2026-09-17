@@ -1,0 +1,22 @@
+{
+  "taxonId": 1362439,
+  "name": "Narcissus × alentejanus",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:02.294019+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Narcissus+%C3%97+alentejanus&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Narcissus+%C3%97+alentejanus&limit=100",
+      "status": 200
+    }
+  ]
+}

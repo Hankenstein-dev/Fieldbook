@@ -1,0 +1,38 @@
+{
+  "taxonId": 1045161,
+  "name": "Rosa luciae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:41.575795+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c7c14513701c18e329e53c8ad8d44f9a9539356c7ecb47064d917d5e3e552ea4.json",
+      "title": "Rosa lucieae",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rosa luciae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Memorial Rose"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rosa+luciae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rosa+luciae&limit=100",
+      "status": 200
+    }
+  ]
+}

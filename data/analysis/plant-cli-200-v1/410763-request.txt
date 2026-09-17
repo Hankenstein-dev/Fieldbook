@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":410763,"scientificName":"Luculia gratissima","commonName":"Luculia gratissima","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Luculia gratissima","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Luculia gratissima is a species of flowering plant in the family Rubiaceae. It is an ornamental plant that is found from the central Himalayas to northern Indo-China."},{"id":"s1:p2","text":"The Latin specific epithet gratissima means \"most pleasing\" or \"most agreeable\". "},{"id":"s1:p3","text":"It is a large shrub or even a small tree growing to {{convert|4|m|ft|abbr=on}} tall by {{convert|1.5|m|ft|abbr=on}} broad, with pointed ribbed leaves, and clustered fragrant pale pink flowers in autumn and winter. As it does not tolerate temperatures below {{convert|5|C|F|abbr=on}}, it requires cultivation under glass in temperate zones. However, it may be placed outside in a sheltered, sunny spot during the summer months. It is a recipient of the Royal Horticultural Society's Award of Garden Merit."}]}]}

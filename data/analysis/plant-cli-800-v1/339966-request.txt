@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":339966,"scientificName":"Cordyline stricta","commonName":"Slender Palm Lily","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cordyline stricta","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{For|another species called the narrow-leaved palm lily|Cordyline congesta{{!}}''Cordyline congesta''}}\n{{Use Australian English|date=August 2024}}"},{"id":"s1:p2","text":"Cordyline stricta, known as the slender palm lily or narrow-leaved palm lily, is an evergreen Australian plant. A shrub to 5 metres tall found in wet sclerophyll forest and rainforest, usually on the coastal lowlands. From near Bilpin, New South Wales further north to Queensland. C. stricta has become naturalised in Victoria."},{"id":"s1:p3","text":" Description \nLeaves are long and thin, 30 to 50 cm long, 1 to 2 cm wide. Mauve flowers form on panicles, 20 to 40 cm long. The flowering stem is 15 to 30 cm long. Fruit are purple to black, 10 to 15 mm in diameter. This is the only Australian species of Cordyline with black fruit."},{"id":"s1:p4","text":" Uses "},{"id":"s1:p5","text":" Cultivation \nCordyline stricta is widely planted in gardens and commercial landscapes for the ornamental value of both its foliage and flower heads and berries. Its tall, narrow growth makes it useful as a screen plant. C. stricta is adaptable to a wide range of climate and planting situations, from full sun to shade, and is moderately drought tolerant once established. It does not tolerate frost well."},{"id":"s1:p6","text":" Ecological \nCordyline stricta is a host plant for Yellow-streaked Swift caterpillars."}]}]}

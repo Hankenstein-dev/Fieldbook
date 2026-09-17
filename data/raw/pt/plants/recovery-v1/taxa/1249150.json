@@ -1,0 +1,32 @@
+{
+  "taxonId": 1249150,
+  "name": "Cenchrus × cupreus",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:46:40.472705+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cenchrus × cupreus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "purple fountain grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cenchrus+%C3%97+cupreus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cenchrus+%C3%97+cupreus&limit=100",
+      "status": 200
+    }
+  ]
+}

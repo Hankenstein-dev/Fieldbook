@@ -1,0 +1,48 @@
+{
+  "taxonId": 485740,
+  "name": "Fontanesia philliraeoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:03.377161+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/93649a4365b8d00be3d551d511ab845b2e4dad0c985225c9327f6145a47e651f.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/afa4bd1b65f23296bef9e64082df997f2c83c582df89d2c46d974801358c5c5e.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b70c2d25750e0153a80570e1056f7a9811b7c4121bd62ee37a2de0f837c889e9.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/618165c58b5318740ffba2cc457b651cc478a2e274ebde822064f271df957400.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/93649a4365b8d00be3d551d511ab845b2e4dad0c985225c9327f6145a47e651f.json",
+      "title": "Fontanesia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fontanesia+philliraeoides&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fontanesia+philliraeoides&limit=100",
+      "status": 200
+    }
+  ]
+}

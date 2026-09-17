@@ -1,0 +1,42 @@
+{
+  "taxonId": 138475,
+  "name": "Trifolium obscurum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:35.237083+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Trifolium obscurum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n | nome = ''Trifolium obscurum''\n | imagem =\n | imagem_legenda =\n | reino = [[Plantae]]\n | clado1 = [[Angiosperma|angiospérmicas]]\n | clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n | clado3 =\n | ordem = [[Fabales]]\n | família = [[Fabaceae]]\n | género = ''[[Trifolium]]''\n | espécie = '''''T. obscurum'''''\n | binomial = ''Trifolium obscurum''\n | binomial_autoridade = Savi\n}}\nTrifolium obscurum é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é Savi, tendo sido publicada em Obs. Trif. 31, f. 1.\n\nO seu nome comum é trevo.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/6f104a0bd4398b6a4abd65d47679da5ffa3ca0ca232e5b3bf4b91fc934ba21d1.json",
+      "sha256": "841020d92b2a9536f828028e3492c292eedca181d4dac292770dc92e7826b1cf",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=58698909",
+      "revisionId": 58698909,
+      "credit": {
+        "title": "Trifolium obscurum",
+        "url": "https://pt.wikipedia.org/wiki/Trifolium_obscurum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=58698909",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Trifolium+obscurum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Trifolium+obscurum&limit=100",
+      "status": 200
+    }
+  ]
+}

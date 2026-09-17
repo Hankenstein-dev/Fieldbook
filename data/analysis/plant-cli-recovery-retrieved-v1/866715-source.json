@@ -1,0 +1,55 @@
+{
+  "input": {
+    "taxonId": 866715,
+    "scientificName": "Thapsia foetida",
+    "commonName": "Thapsia foetida",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Thapsia foetida Linnaeus 1753",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "2. Thapsia foliolis multifidis basi angustatis. Hort. cliff. 105. Roy. lugdb. 113. Thapsia carotae effigie. Bauh. hist. 3. p. 187. Moris. hist. 3. p. 319. s. 9. t. 18. f. 7."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Habitat in Hispania. ♃"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164949041.json",
+      "sha256": "6d201c9f85161768e4bc74f36523dd6d3cbea249b0fe24209c460568292528b0",
+      "url": "https://api.gbif.org/v1/species/164949041",
+      "credit": {
+        "title": "Thapsia foetida Linnaeus 1753",
+        "url": "https://www.gbif.org/species/164949041",
+        "attribution": "Linnaeus C, admin (1753). Species plantarum: exhibentes plantas rite cognitas, ad genera relatas, cum differentiis specificis, nominibus trivialibus, synonymis selectis, locis natalibus, secundum systema sexuale digestas. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.5281/zenodo.3931989 accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/751112f9-dacb-4aa7-b6dd-94b531bd95b7",
+        "fetchedAt": "2026-09-15T07:52:25.765552+00:00",
+        "title": "Species plantarum: exhibentes plantas rite cognitas, ad genera relatas, cum differentiis specificis, nominibus trivialibus, synonymis selectis, locis natalibus, secundum systema sexuale digestas"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 866715,
+    "name": "Thapsia foetida",
+    "language": "unspecified",
+    "sourceTextTokens": 87,
+    "packetTokens": 192,
+    "standaloneInputTextTokens": 644,
+    "packetSha256": "71a7eee4fd261528cca8b1a7ae1b1cf4282ddd62c3ceb155166845a5ff2c9b99"
+  }
+}

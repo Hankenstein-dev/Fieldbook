@@ -1,0 +1,22 @@
+{
+  "taxonId": 1455887,
+  "name": "Plantago subspathulata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:39.554082+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Plantago+subspathulata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Plantago+subspathulata&limit=100",
+      "status": 200
+    }
+  ]
+}

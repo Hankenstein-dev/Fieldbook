@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":327083,"scientificName":"Gymnogongrus griffithsiae","commonName":"Gymnogongrus griffithsiae","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Gymnogongrus griffithsiae","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Gymnogongrus griffithsiae is a small uncommon seaweed."},{"id":"s1:p2","text":"Description\nThis small alga grows to 5 cm long from a small disc. The fronds are erect, stiff and branch dichotomously in 1 plane, the tips a little flattened. In colour it is dark purplish brown. The structure is multiaxial with elongated cells surrounded cortical cells."},{"id":"s1:p3","text":"Reproduction\nMale spermatangia are unknown.{{fv|date=December 2024}} Carpotetasporangial outgrowths, that is sporangia containing four spores, by a carposporophyte outgrowth which develops during the year."},{"id":"s1:p4","text":"Distribution\nFound in Great Britain and Ireland with a southern range, as far north as Lough Swilly. In the north Atlantic in the Azores in Europe to Massachusetts to Virginia in North America."},{"id":"s1:p5","text":"Habitat\nThe plants grow in rock pools of the lower littoral and in the upper sublittoral."},{"id":"s1:p6","text":"Possible confusion\nThis species is similar to Ahnfeltia plicata which usually has wiry irregular branching."}]}]}

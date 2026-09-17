@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":49569,"scientificName":"Tillandsia usneoides","commonName":"Spanish moss","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Tillandsia usneoides","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Info/Taxonomia\n|nome =''Tillandsia usneoides''<br><small>barbas-de-velho</small>\n|estado =\n|imagem =Spanish moss in Pender County, NC IMG 4472.JPG\n|imagem_legenda = ''Tillandsia usneoides'' no Moores Creek National Battlefield em Pender County, Carolina do Norte\n|domínio = [[Eukaryota]]\n|super_reino =\n|reino = [[Plantae]]\n|superdivisão = [[Spermatophyta]]\n|divisão = [[Angiosperma]]\n|subfilo =\n|superclasse =\n|classe = [[Liliopsida ]]\n|subclasse =\n|sem_classificação =\n|superordem =\n|ordem = [[Poales]]\n|subordem =\n|infraordem =\n|parvordem =\n|microordem =\n|superfamília =\n|família = [[Bromeliaceae]]\n|subfamília = [[Tillandsioideae]]\n|tribo =\n|género = ''[[Tillandsia]]''\n|subgénero =\n|espécie = '''''T. usneoides'''''\n|binomial = ''Tillandsia usneoides''\n|binomial_autoridade = [[Carl Linnaeus|L.]],1762\n|trinomial =\n|trinomial_autoridade =\n|sinónimos = *''Renealmia usneoides'' <small>L.</small>\n*''Dendropogon usneoides'' <small>(L.) Raf.</small>\n*''Strepsia usneoides'' <small>(L.) Nutt. ex Steud.</small>\n*''Tillandsia trichoides'' <small>Kunth</small>\n*''Tillandsia filiformis'' <small>Lodd. ex Schult. & Schult.f.</small>\n*''Tillandsia crinita'' <small>Willd. ex Beer</small>\n|mapa =\n|mapa_legenda =\n}}\nTillandsia usneoides, comummente designada barbas-de-velho ou barba-de-pau, é uma planta angiospérmica que cresce sobre grandes árvores, sobretudo o Quercus virginiana ou o Taxodium distichum no sueste dos Estados Unidos, desde o Texas e o norte da Florida até à Virgínia e ao sul do Arkansas. "},{"id":"s1:p2","text":"É também nativa de grande parte do México, Bermudas, Bahamas, América Central e do Sul e Caraíbas, tendo ainda sido introduzida em Queensland (Austrália) e na Polinésia Francesa."},{"id":"s1:p3","text":"Relevo no folclore e na cultura americana\nDevido à sua tendência a crescer em zonas húmidas do sul dos EUA, a planta é frequentemente associada à ambiência e ao visual do gótico sulista.{{carece de fontes|data=agosto de 2021}}"},{"id":"s1:p4","text":"{{Título em itálico}}\n{{Correlatos\n|commonscat = Tillandsia usneoides\n|wikiquotecat =\n|wikinoticiascat =\n|wikcionario =\n|wikispecies = Tillandsia usneoides\n|wikiversidade =\n|meta =\n|metacat =\n}}"},{"id":"s1:p5","text":"{{Bases de dados taxonómicos}}"}]}]}

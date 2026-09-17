@@ -1,0 +1,16 @@
+{
+  "catalogue": "config/generated/country-catalogue.json",
+  "output": "data/raw/{country}/{group}/sources",
+  "cachedTaxonomy": ["data/models/http", "data/zones/checklists"],
+  "languages": ["en", "pt"],
+  "fallbackLanguages": ["es", "de"],
+  "lookupHistoricalNames": true,
+  "batchSize": 50,
+  "gbifDatasets": [
+    {
+      "key": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "title": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope."
+    }
+  ]
+}

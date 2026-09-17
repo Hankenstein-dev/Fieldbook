@@ -1,0 +1,38 @@
+{
+  "taxonId": 406702,
+  "name": "Tritonia crocata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:55.623419+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0bb8110018c1c8021c209038c0dd594896df17314eb9316dce8ec10e4c4fe64b.json",
+      "title": "Tritonia crocata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tritonia crocata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Blazing star"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tritonia+crocata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tritonia+crocata&limit=100",
+      "status": 200
+    }
+  ]
+}

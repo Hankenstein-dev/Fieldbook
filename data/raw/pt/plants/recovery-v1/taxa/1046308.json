@@ -1,0 +1,33 @@
+{
+  "taxonId": 1046308,
+  "name": "Peperomia",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:45:42.415891+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/74f1b6c8907185ef8262dc2712798e12696d037ee6ac549042316ebcf0deba2c.json",
+      "title": "Peperomia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/2cdb6e5026a3ec263c8a76c2a02ce4ab34c00c6892dafc1f1db91aadb9bb090f.json",
+      "title": "Peperômia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Peperomia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Peperomia&limit=100",
+      "status": 200
+    }
+  ]
+}

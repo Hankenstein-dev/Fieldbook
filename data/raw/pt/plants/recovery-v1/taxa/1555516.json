@@ -1,0 +1,28 @@
+{
+  "taxonId": 1555516,
+  "name": "Mammillaria geminata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:12.144634+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/57977ef7bd1b6e85cad44a190df6f6f37ad896ab743676f0c388932e60ffa68f.json",
+      "title": "Mammillaria karwinskiana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Mammillaria+geminata&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Mammillaria+geminata&limit=100",
+      "status": 200
+    }
+  ]
+}

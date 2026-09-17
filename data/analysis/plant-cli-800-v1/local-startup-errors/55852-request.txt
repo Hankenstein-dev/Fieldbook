@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":55852,"scientificName":"Brunnera macrophylla","commonName":"Siberian bugloss","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Brunnera macrophylla","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Brunnera macrophylla, the Siberian bugloss, great forget-me-not, largeleaf brunnera or heartleaf, is a species of flowering plant in the family Boraginaceae, native to the Caucasus. It is a hardy, rhizomatous, herbaceous perennial, that can reach from 12 to 18 inches (30 to 45 cm) in height, and carries basal, simple cordate leaves on slender stems. Sprays of small blue flowers, similar to those seen in the related forget-me-nots, are borne from mid-Spring, and bloom for eight to ten weeks."},{"id":"s1:p2","text":"The plant is valued as groundcover in shady areas, and has clumps of large heart-shaped leaves of about six inches (15 cm); these usually have white or cream markings, and are present all season. Plants are happy in any shady area that stays relatively moist. It often self-seeds, appearing around the garden in other places. Clumps may be easily divided in early fall."},{"id":"s1:p3","text":"Brunnera macrophylla may be reflective of the ancient flora of forests around the Black Sea, based on chromosomal genetic evidence."},{"id":"s1:p4","text":"The Latin specific epithet macrophylla means \"larger-leaved\"."},{"id":"s1:p5","text":"The variegated cultivars 'Hadspen Cream' and 'Jack Frost' have gained the Royal Horticultural Society's Award of Garden Merit."}]}]}

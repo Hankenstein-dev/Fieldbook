@@ -1,0 +1,55 @@
+{
+  "input": {
+    "taxonId": 524205,
+    "scientificName": "Helictochloa bromoides",
+    "commonName": "Helictochloa bromoides",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Helictochloa bromoides (Gouan) Romero Zarco",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Europe"
+          },
+          {
+            "id": "s1:p2",
+            "text": "Helictochloa bromoides (Gouan) Romero Zarco subsp. bromoides (avènula de brolla). Estesa pel sud-oest d’Europa i el nord d’Àfrica.Es fa en brolles i pastures seques, sobre substrat calcari, a tots dos massissos."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/6559940.json",
+      "sha256": "9f7908bb50abc31b10e837110398cfc4271e5078c1ae0e0dbe4b4e7f853ed299",
+      "url": "https://api.gbif.org/v1/species/6559940",
+      "credit": {
+        "title": "Helictochloa bromoides (Gouan) Romero Zarco",
+        "url": "https://www.gbif.org/species/6559940",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 524205,
+    "name": "Helictochloa bromoides",
+    "language": "unspecified",
+    "sourceTextTokens": 72,
+    "packetTokens": 181,
+    "standaloneInputTextTokens": 633,
+    "packetSha256": "3b8dbe0413efebe4080c6c4e2ca5286855ec10dad2410c6f9889ba6631dfbed6"
+  }
+}

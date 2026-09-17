@@ -1,0 +1,69 @@
+{
+  "taxonId": 82650,
+  "name": "Centaurea pullata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:50.192231+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Centaurea pullata",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Centaurea pullata''\n| imagem = Centaurea pullata canada FlowersCloseup 01May2009 CampodeCalatrava.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Centaurea]]''\n| espécie = '''''C. pullata'''''\n| binomial = ''Centaurea pullata''\n| binomial_autoridade = L.\n}}\nCentaurea pullata é uma espécie de planta com flor pertencente à família Asteraceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Sp. Pl. 2: 911. 1753.\n\nOs seus nomes comuns são cardinho-das-almorreimas, centáurea-parda ou rapôntico-da-terra.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d99b6ae3f7fb4b7b41379fdd53e740863861ac7d20fb59a71657f3d6d939b171.json",
+      "sha256": "ae05d61d0ca12b03e9dc57b9b593908b0721afa90079b74b4498a24781b1cc7d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40455609",
+      "revisionId": 40455609,
+      "credit": {
+        "title": "Centaurea pullata",
+        "url": "https://pt.wikipedia.org/wiki/Centaurea_pullata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40455609",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Centaurea pullata L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Talavera in Lagascalia 12: 272. 1984): Herb. Linn. No. 1030.14 (LINN).\n\n\" Habitat in G. Narbonensi, Hispania. \" RCN: 6590.\n\nSouthwestern Europe\n\nNorthern Africa",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3127841.json",
+      "sha256": "b2aac29c002cd12be495338ca429aaa182306c3f4adb9f7a46847489a66d0983",
+      "url": "https://api.gbif.org/v1/species/3127841",
+      "credit": {
+        "title": "Centaurea pullata L.",
+        "url": "https://www.gbif.org/species/3127841",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d99b6ae3f7fb4b7b41379fdd53e740863861ac7d20fb59a71657f3d6d939b171.json",
+      "title": "Centaurea pullata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Centaurea pullata"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Centaurea+pullata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Centaurea+pullata&limit=100",
+      "status": 200
+    }
+  ]
+}

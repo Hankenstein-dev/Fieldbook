@@ -1,0 +1,38 @@
+{
+  "taxonId": 1305151,
+  "name": "Rhynchostegium alopecuroides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:46:54.672437+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/6ba4f729b5738ae7ab07c31d75a2fc5fe64de1d387a24e35a820a5d679e53411.json",
+      "title": "Platyhypnidium alopecuroides",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rhynchostegium alopecuroides"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Portuguese Feather-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhynchostegium+alopecuroides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhynchostegium+alopecuroides&limit=100",
+      "status": 200
+    }
+  ]
+}

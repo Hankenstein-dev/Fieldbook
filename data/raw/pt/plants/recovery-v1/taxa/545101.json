@@ -1,0 +1,42 @@
+{
+  "taxonId": 545101,
+  "name": "Vriesea incurvata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:50.843571+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Vriesea incurvata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Vriesea incurvata is a plant species in the genus Vriesea. This species is endemic to Brazil.\n\nCultivars\n Vriesea 'Albertii'\n Vriesea 'California Orange'\n Vriesea 'Eclatant'\n Vriesea 'Flammeche'\n Vriesea 'Fulgida'\n Vriesea 'Gloriosa'\n Vriesea 'L'eclatant'\n Vriesea 'Marcella'\n Vriesea 'Marechaliana'\n Vriesea 'Margaritae'\n Vriesea 'President Oscar Lamarche'\n Vriesea 'Rostrum Aquilae'\n Vriesea 'Seminole Chief'\n Vriesea 'Souvenir de Joseph Mawet'\n Vriesea 'Splendida'\n Vriesea 'Van Geertii'\n × Guzvriesea 'Elata'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/a68c82bd68c6f81ee83fff961c7e158cf7705917a1b7f2afbc5a740dff39c9f4.json",
+      "sha256": "86240a2460099745a53d8305c6579e64d3b8a8375d735cdb89b0efcd5c0cf8e5",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1310744810",
+      "revisionId": 1310744810,
+      "credit": {
+        "title": "Vriesea incurvata",
+        "url": "https://en.wikipedia.org/wiki/Vriesea_incurvata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1310744810",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vriesea+incurvata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vriesea+incurvata&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":1504192,"scientificName":"Helichrysum italicum","commonName":"curry plant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Helichrysum italicum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Helichrysum italicum is a species of flowering plant in the family Asteraceae. It is sometimes called the curry plant because of the strong fragrance of its leaves; other common names include Italian strawflower and immortelle. It grows on dry, rocky or sandy ground around the Mediterranean. The stems are woody at the base and can reach {{convert|60|cm|in}} or more in height. The clusters of yellow flowers are produced in summer, retain their colour after picking, and are used in dried flower arrangements."},{"id":"s1:p2","text":"Helichrysum italicum is sometimes used as a spice. Although called \"curry plant\" and bearing the aroma of curry powder, it is not related to this mixture of spices nor the curry tree (Murraya koenigii), and is not used as masala for curry dishes. Rather, it has a resinous, somewhat bitter aroma reminiscent of sage or wormwood. Its young shoots and leaves are used in a stew of Mediterranean meat, fish, or vegetable dishes until they have imparted their flavour and removed before serving. The plant is reportedly used in traditional medicine in several European countries—particularly Italy, Spain, Portugal and Bosnia and Herzegovina—for the treatment of allergies, colds, cough, inflammation, infections and sleeplessness."},{"id":"s1:p3","text":"Cultivation\nHelichrysum italicum is a tender perennial (USDA Zones 7–10). It is propagated by rooting semi-hardwood cuttings in summer and overwintering in frost-free conditions."},{"id":"s1:p4","text":"Sources"},{"id":"s1:p5","text":" David Burnie (1995) Wild Flowers of the Mediterranean. {{ISBN|0-7513-2761-1}}\n T. G. Tutin et al. (1968) Flora Europaea, Volume 2. {{ISBN|0-521-06662-X}}\n J. Mastelić, O. Politeo and I. Jerković Contribution to the Analysis of the Essential Oil of Helichrysum italicum (Roth) G. Don. – Determination of Ester Bonded Acids and Phenols Molecules 2008, 13(4), 795-803 {{doi|10.3390/molecules13040795|doi-access=free}}"}]}]}

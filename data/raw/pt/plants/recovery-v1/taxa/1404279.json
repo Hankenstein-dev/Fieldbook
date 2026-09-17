@@ -1,0 +1,42 @@
+{
+  "taxonId": 1404279,
+  "name": "Centaurea cordubensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:43.600082+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Centaurea cordubensis",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Centaurea cordubensis''\n| imagem = Centaurea cordubensis Inflorescencia 2011-6-23 SierraMadrona.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Centaurea]]''\n| espécie = '''''C. cordubensis'''''\n| binomial = ''Centaurea cordubensis''\n| binomial_autoridade = Font Quer\n}}\nCentaurea cordubensis é uma espécie de planta com flor pertencente à família Asteraceae. \n\nA autoridade científica da espécie é Font Quer, tendo sido publicada em Collect. Bot. (Barcelona) i. 310 (1947).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/54c4547c7a9adf1e181209eefc5e100648179fb2800d7a0e23525d230e6672eb.json",
+      "sha256": "adc0d0ca09a60e9dc8e2c100175f09a147c4452e3477a0394488b96cb428b8b9",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40454247",
+      "revisionId": 40454247,
+      "credit": {
+        "title": "Centaurea cordubensis",
+        "url": "https://pt.wikipedia.org/wiki/Centaurea_cordubensis",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40454247",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Centaurea+cordubensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Centaurea+cordubensis&limit=100",
+      "status": 200
+    }
+  ]
+}

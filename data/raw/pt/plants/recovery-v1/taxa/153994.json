@@ -1,0 +1,32 @@
+{
+  "taxonId": 153994,
+  "name": "Tinantia erecta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:32.770234+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tinantia erecta"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Upright tinantia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tinantia+erecta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tinantia+erecta&limit=100",
+      "status": 200
+    }
+  ]
+}

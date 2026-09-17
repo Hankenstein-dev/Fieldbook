@@ -1,0 +1,33 @@
+{
+  "taxonId": 1010713,
+  "name": "Petermannia",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:45:35.272542+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/7f0ab71addf076bd6ffc368b94b60d8d7b925853c311db768a73c8fd2de6bcd0.json",
+      "title": "Petermannia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/7f0ab71addf076bd6ffc368b94b60d8d7b925853c311db768a73c8fd2de6bcd0.json",
+      "title": "Petermannia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Petermannia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Petermannia&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "taxonId": 1445879,
+  "name": "Galium lucidum",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:36.899485+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/62cc71987f670237862f84ad1c02d08b510a03aa64d35842a64ebc99e796705b.json",
+      "title": "Galium lucidum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/62cc71987f670237862f84ad1c02d08b510a03aa64d35842a64ebc99e796705b.json",
+      "title": "Galium lucidum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Galium+lucidum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Galium+lucidum&limit=100",
+      "status": 200
+    }
+  ]
+}

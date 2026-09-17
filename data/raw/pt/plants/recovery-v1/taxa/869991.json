@@ -1,0 +1,38 @@
+{
+  "taxonId": 869991,
+  "name": "Lobivia silvestrii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:39.453223+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c9a4ef2b54a8322f14c40485f9fcf9b3ba3c844c36a02c65b792046f3ce5240f.json",
+      "title": "Echinopsis chamaecereus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lobivia silvestrii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Peanut Cactus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lobivia+silvestrii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lobivia+silvestrii&limit=100",
+      "status": 200
+    }
+  ]
+}

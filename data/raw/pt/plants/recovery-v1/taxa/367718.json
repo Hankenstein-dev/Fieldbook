@@ -1,0 +1,47 @@
+{
+  "taxonId": 367718,
+  "name": "Gladiolus cardinalis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:52.470564+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Gladiolus cardinalis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use South African English|date = June 2025}}\n\nGladiolus cardinalis, commonly called the waterfall lily, is a species of cormous flowering plant endemic to the Western Cape in South Africa.\n\nIt's also called the New Year lily ({{Lang-xx|af|Nuwejaarsblom}} in Afrikaans) and cardinal red sword lily.\n\n Range and habitat \nGladiolus cardinalis is found on the side of waterfalls in the south-western mountains of the Western Cape.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/d84ad43cef3c9f4b26156ce7754a5ad2dedb0c68a66dc360d722e497eddd00cf.json",
+      "sha256": "d29e8ff18e9e7f2007a095186dfa42b08a3bd0d1824766db6b660aecd2f93e0c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1297073020",
+      "revisionId": 1297073020,
+      "credit": {
+        "title": "Gladiolus cardinalis",
+        "url": "https://en.wikipedia.org/wiki/Gladiolus_cardinalis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1297073020",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gladiolus cardinalis"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gladiolus+cardinalis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gladiolus+cardinalis&limit=100",
+      "status": 200
+    }
+  ]
+}

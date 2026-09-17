@@ -1,0 +1,32 @@
+{
+  "taxonId": 1474978,
+  "name": "Cuneifolii",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:47:47.209098+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cuneifolii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sand Blackberries"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cuneifolii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cuneifolii&limit=100",
+      "status": 200
+    }
+  ]
+}

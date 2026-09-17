@@ -1,0 +1,43 @@
+{
+  "taxonId": 181862,
+  "name": "Salix × pendulina",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:38.862374+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/45d0005c2e878f3258c5234f1778f08c48bcc76a6e0f8f28467b19856577272a.json",
+      "title": "Salix babylonica",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/c8744c766be2c74d12e8fba738970e7f8ec97bb83dda9d6e40ed3b5d42f45cc1.json",
+      "title": "Salgueiro-chorão",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Salix × pendulina"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "weeping crack willow"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Salix+%C3%97+pendulina&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Salix+%C3%97+pendulina&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 82667,
+  "name": "Loeflingia baetica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:51.109269+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Loeflingia baetica",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Loeflingia baetica''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Caryophyllales]]\n| família = [[Caryophyllaceae]]\n| género = ''[[Loeflingia]]''\n| espécie = '''''L. baetica'''''\n| binomial = ''Loeflingia baetica''\n| binomial_autoridade = Lag.\n}}\nLoeflingia baetica é uma espécie de planta com flor pertencente à família Caryophyllaceae. \n\nA autoridade científica da espécie é Lag., tendo sido publicada em Periódico de la Sociedad Médico-Quirúrgica 4(1): 5. 1824.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/91efeff0d8503821e09899f438576dc23f3ff6e69a096b6865a5e551c00f379e.json",
+      "sha256": "a210e8befd5d10ae86d7dda0bcc19e60a4bd339ad004901681afe043760efae2",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069894",
+      "revisionId": 60069894,
+      "credit": {
+        "title": "Loeflingia baetica",
+        "url": "https://pt.wikipedia.org/wiki/Loeflingia_baetica",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069894",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Loeflingia+baetica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Loeflingia+baetica&limit=100",
+      "status": 200
+    }
+  ]
+}

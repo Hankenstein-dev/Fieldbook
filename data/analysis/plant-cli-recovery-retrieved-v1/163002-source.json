@@ -1,0 +1,110 @@
+{
+  "input": {
+    "taxonId": 163002,
+    "scientificName": "Fissidens exilis",
+    "commonName": "Pygmy Pocket-Moss",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Fissidens exilis",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Fissidens exilis is a species of moss belonging to the family Fissidentaceae."
+          },
+          {
+            "id": "s1:p2",
+            "text": "It has cosmopolitan distribution."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Fissidens exilis Hedw.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "terrestrial"
+          },
+          {
+            "id": "s2:p2",
+            "text": "plant"
+          },
+          {
+            "id": "s2:p3",
+            "text": "non cuddly"
+          },
+          {
+            "id": "s2:p4",
+            "text": "mobile"
+          },
+          {
+            "id": "s2:p5",
+            "text": "mesotrophic"
+          },
+          {
+            "id": "s2:p6",
+            "text": "longlived"
+          },
+          {
+            "id": "s2:p7",
+            "text": "eurytopic"
+          },
+          {
+            "id": "s2:p8",
+            "text": "RECORDS. — Corbière (1904), Jelenc (1955 a): La Bouzaréah. Jelenc (1955 a): Kabylie du Djurdjura, Aït Idjer. Rare."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/99ba02d9f115a8bffb3c146e6a7ed75441d30181610d16b30334d3455bf05c80.json",
+      "sha256": "b322b34be509881092becaf9cb60d467f2a895da7b3d6c3d3c37dcaf65acdc7d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1275625606",
+      "revisionId": 1275625606,
+      "credit": {
+        "title": "Fissidens exilis",
+        "url": "https://en.wikipedia.org/wiki/Fissidens_exilis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1275625606",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5283214.json",
+      "sha256": "61fb571da88a64e5d2e39aa64de7ab0578ee188c4a65ea46fccf63f6c9f82ea4",
+      "url": "https://api.gbif.org/v1/species/5283214",
+      "credit": {
+        "title": "Fissidens exilis Hedw.",
+        "url": "https://www.gbif.org/species/5283214",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 163002,
+    "name": "Fissidens exilis",
+    "language": "en,unspecified",
+    "sourceTextTokens": 96,
+    "packetTokens": 300,
+    "standaloneInputTextTokens": 752,
+    "packetSha256": "eabc0b131a5138b98b6e2b2914d93bdcabf169b16d62dc6bd7bc578fb62c609b"
+  }
+}

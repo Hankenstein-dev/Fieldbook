@@ -1,0 +1,43 @@
+{
+  "taxonId": 1080363,
+  "name": "Allium ampeloprasum",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:45:49.154578+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/445c544558ec03500d540255fcf5733652f2628ed94a0050107e8a601789034c.json",
+      "title": "Allium ampeloprasum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/f2ce4a2a16476abbbc7b0506ef73e23aea958ebc0292e750afdf112fea9ea6e7.json",
+      "title": "Alho-porro-bravo",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Allium ampeloprasum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Wild Leek Complex"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Allium+ampeloprasum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Allium+ampeloprasum&limit=100",
+      "status": 200
+    }
+  ]
+}

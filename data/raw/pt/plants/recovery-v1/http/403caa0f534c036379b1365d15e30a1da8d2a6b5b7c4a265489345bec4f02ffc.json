@@ -1,0 +1,80 @@
+{
+  "url": "https://api.gbif.org/v1/species/search?q=Rhyncholotus&limit=100",
+  "fetchedAt": "2026-09-15T07:47:57.921526+00:00",
+  "status": 200,
+  "sha256": "b274653767892643b9c7878c1d58fdc0746c6a2ffd8ba49c798b7056986c3527",
+  "data": {
+    "offset": 0,
+    "limit": 100,
+    "endOfRecords": true,
+    "count": 2,
+    "results": [
+      {
+        "key": 104839305,
+        "nameKey": 32145159,
+        "datasetKey": "046bbc50-cae2-47ff-aa43-729fbf53f7c5",
+        "parentKey": 160330036,
+        "parent": "Leguminosae",
+        "kingdom": "Plantae",
+        "family": "Leguminosae",
+        "kingdomKey": 160449676,
+        "familyKey": 160330036,
+        "scientificName": "Lotus subgen. Rhyncholotus Monod, 1980",
+        "canonicalName": "Rhyncholotus",
+        "authorship": "Monod, 1980",
+        "publishedIn": "Adansonia sér. 2, 19(4): 373, nom. 1980",
+        "nameType": "SCIENTIFIC",
+        "taxonomicStatus": "ACCEPTED",
+        "rank": "SUBGENUS",
+        "origin": "SOURCE",
+        "numDescendants": 0,
+        "numOccurrences": 0,
+        "taxonID": "urn:lsid:ipni.org:names:43546-1",
+        "habitats": [],
+        "nomenclaturalStatus": [],
+        "threatStatuses": [],
+        "descriptions": [],
+        "vernacularNames": [],
+        "synonym": false,
+        "higherClassificationMap": {
+          "160449676": "Plantae",
+          "160330036": "Leguminosae"
+        }
+      },
+      {
+        "key": 104839856,
+        "nameKey": 32112971,
+        "datasetKey": "046bbc50-cae2-47ff-aa43-729fbf53f7c5",
+        "parentKey": 160330036,
+        "parent": "Leguminosae",
+        "kingdom": "Plantae",
+        "family": "Leguminosae",
+        "kingdomKey": 160449676,
+        "familyKey": 160330036,
+        "scientificName": "Lotus sect. Rhyncholotus (Monod) D.D.Sokoloff, 2003",
+        "canonicalName": "Rhyncholotus",
+        "authorship": "(Monod) D.D.Sokoloff, 2003",
+        "publishedIn": "Byull. Moskovsk. Obshch. Isp. Prir., Otd. Biol. 108(3): 43. 2003 [14 Jul 2003]",
+        "nameType": "SCIENTIFIC",
+        "taxonomicStatus": "ACCEPTED",
+        "rank": "SECTION",
+        "origin": "SOURCE",
+        "numDescendants": 0,
+        "numOccurrences": 0,
+        "taxonID": "urn:lsid:ipni.org:names:77067712-1",
+        "habitats": [],
+        "nomenclaturalStatus": [],
+        "threatStatuses": [],
+        "descriptions": [],
+        "vernacularNames": [],
+        "synonym": false,
+        "higherClassificationMap": {
+          "160449676": "Plantae",
+          "160330036": "Leguminosae"
+        }
+      }
+    ],
+    "facets": []
+  },
+  "text": null
+}

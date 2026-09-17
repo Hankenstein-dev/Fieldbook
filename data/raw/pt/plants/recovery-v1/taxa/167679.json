@@ -1,0 +1,38 @@
+{
+  "taxonId": 167679,
+  "name": "Racomitrium canescens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:16.139799+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/14b513222d5755e1143c5599c74db09a0e3262da374ab3e750a5edd48964989a.json",
+      "title": "Graue Zackenmütze",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Racomitrium canescens"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hoary Fringe-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Racomitrium+canescens&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Racomitrium+canescens&limit=100",
+      "status": 200
+    }
+  ]
+}

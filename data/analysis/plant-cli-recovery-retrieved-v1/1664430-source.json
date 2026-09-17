@@ -1,0 +1,79 @@
+{
+  "input": {
+    "taxonId": 1664430,
+    "scientificName": "Begonia metallica",
+    "commonName": "Begonia metallica",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Begonia metallica W.G.Sm.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Type: — [Illustration] plate of “ Floral Magazine: Comprising Figures and Descriptions of Popular Garden Flowers pl. 197. 1876 ” (lectotype, designated here). Notes: — When described the new species Begonia metallica, W. G. Smith (1876) did not selected a type or cite any examined herbarium material, hence a lectotype is here designated (Art. 9.3 and 9.12 of ICN, Turland et al. 2018). Begonia metallica was synonymized with the Mexican species B. incarnata Link & Otto (1829: 37) by Govaerts (1996) without any commentary about the synonymization. B. metallica is totally different to B. incarnata and is here considered to be accepted at the species level; Smith et al. (1986) stated that B. metallica W. G. Smith occurs in Brazil rather than Mexico. The species has morphological characteristics in common with Begonia species from the south of Brazil, such as Begonia hammoniae Irmsch. (1953: 54)."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Begonia metallica W.G.Sm. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Begonia metallica W.G.Sm.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Brazil (Bahia). It is a subshrub or shrub and grows primarily in the wet tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4158239.json",
+      "sha256": "dc6c19ad4ea939604b603902b947c77a26d6177c39db64e63645276234f69d62",
+      "url": "https://api.gbif.org/v1/species/4158239",
+      "credit": {
+        "title": "Begonia metallica W.G.Sm.",
+        "url": "https://www.gbif.org/species/4158239",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1664430-3b3b68e6952ebe85.json",
+      "sha256": "3b3b68e6952ebe85d45df0b67e15e286508df459cd28d48ddc6f34c94aabcb1b",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A105191-1",
+      "credit": {
+        "title": "Begonia metallica W.G.Sm. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A105191-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/3.0/"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1664430,
+    "name": "Begonia metallica",
+    "language": "unspecified,en",
+    "sourceTextTokens": 278,
+    "packetTokens": 428,
+    "standaloneInputTextTokens": 880,
+    "packetSha256": "1c1e9421a93a1a755a3da7fb4d8ac817ca6cf92a044eec9180b3373cdf826ffe"
+  }
+}

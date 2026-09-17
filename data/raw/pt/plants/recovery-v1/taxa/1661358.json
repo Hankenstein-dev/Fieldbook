@@ -1,0 +1,22 @@
+{
+  "taxonId": 1661358,
+  "name": "Cistus × fernandesiae",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:51.744109+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cistus+%C3%97+fernandesiae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cistus+%C3%97+fernandesiae&limit=100",
+      "status": 200
+    }
+  ]
+}

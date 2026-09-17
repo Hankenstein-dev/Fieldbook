@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 1606308,
+    "scientificName": "Vachellia campeachiana",
+    "commonName": "Boat-spine Acacia",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Vachellia campeachiana",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Vachellia campeachiana é uma espécie de leguminosa do gênero Vachellia, pertencente à família Fabaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Vachellia campeachiana (Mill.) Seigler & Ebinger — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Vachellia campeachiana (Mill.) Seigler & Ebinger."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Mexico to Honduras, E. Cuba. It is a shrub or tree and grows primarily in the seasonally dry tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/8b4b876fa2a76ac970e52cab9cec7ee11e0a0304f3d5d327e0bd4cbc9d0531a8.json",
+      "sha256": "afcb510a370bc6f50dcb95d75fe928df64fbda892d370a450c6a147748fad053",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=71587845",
+      "revisionId": 71587845,
+      "credit": {
+        "title": "Vachellia campeachiana",
+        "url": "https://pt.wikipedia.org/wiki/Vachellia_campeachiana",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=71587845",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1606308-be57255aa712c3ec.json",
+      "sha256": "be57255aa712c3ece6ec5e9a5d0c7b43d6ee87050b83d5d1b1aa2f983bc5faa3",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60441199-2",
+      "credit": {
+        "title": "Vachellia campeachiana (Mill.) Seigler & Ebinger — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A60441199-2",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1606308,
+    "name": "Vachellia campeachiana",
+    "language": "pt,en",
+    "sourceTextTokens": 84,
+    "packetTokens": 240,
+    "standaloneInputTextTokens": 692,
+    "packetSha256": "d012e9296342b3d43234fb346404f7a97971b827632d84a9392ebb2360d29674"
+  }
+}

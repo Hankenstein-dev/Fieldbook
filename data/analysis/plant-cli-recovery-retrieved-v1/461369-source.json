@@ -1,0 +1,51 @@
+{
+  "input": {
+    "taxonId": 461369,
+    "scientificName": "Riccia perennis",
+    "commonName": "Riccia perennis",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Riccia perennis Steph.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "RECORDS. — Trabut (1916), Douin & Trabut (1919), Trabut (1941), Jelenc (1955 a), Chevassut & Quézel (1956): Fôret de la Réghaia aux environs d’Alger. Chevassut & Quézel (1956): La Rassauta. Jovet-Ast (1986), Bischler (2004): sine loco. Rare."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/8064113.json",
+      "sha256": "ad975810f8a18b8f4ca2aaf307f0174940eb4cb990ef9a779ca98e03c4de7be0",
+      "url": "https://api.gbif.org/v1/species/8064113",
+      "credit": {
+        "title": "Riccia perennis Steph.",
+        "url": "https://www.gbif.org/species/8064113",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 461369,
+    "name": "Riccia perennis",
+    "language": "unspecified",
+    "sourceTextTokens": 94,
+    "packetTokens": 178,
+    "standaloneInputTextTokens": 630,
+    "packetSha256": "ca665282b09d00f621ddb27816ff46796fb2468ec0e859ed9421cff03ebefa78"
+  }
+}

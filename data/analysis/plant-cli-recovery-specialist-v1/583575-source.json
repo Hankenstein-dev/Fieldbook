@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 583575,
+    "scientificName": "Delosperma testaceum",
+    "commonName": "Orange Sheepfig",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Delosperma testaceum",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Delosperma testaceum är en isörtsväxtart som först beskrevs av Adrian Hardy Haworth, och fick sitt nu gällande namn av Schwant.. Delosperma testaceum ingår i släktet Delosperma, och familjen isörtsväxter. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Isörtsväxter\ntestaceum"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Delosperma testaceum (Haw.) Schwantes — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Delosperma testaceum (Haw.) Schwantes."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Cape Prov. to Free State. It is a succulent subshrub and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/efc17280ec90583c0936f93c5864abfb2d565f9d1bc5c34077b7a857b1a0340b.json",
+      "sha256": "c9aaf26d3474d0679e0a33e9205c0b76abc9e0ece22c1de51c2477274b7b914f",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=57878354",
+      "revisionId": 57878354,
+      "credit": {
+        "title": "Delosperma testaceum",
+        "url": "https://sv.wikipedia.org/wiki/Delosperma_testaceum",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=57878354",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/583575-f81bce301c68c3ed.json",
+      "sha256": "f81bce301c68c3ed22979581514c8b7c2ec007ffec9a57e824ede1f042c625aa",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A361564-1",
+      "credit": {
+        "title": "Delosperma testaceum (Haw.) Schwantes — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A361564-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 583575,
+    "name": "Delosperma testaceum",
+    "language": "sv,en",
+    "sourceTextTokens": 145,
+    "packetTokens": 317,
+    "standaloneInputTextTokens": 769,
+    "packetSha256": "9f9f33f1d9af2adfef5233b89d59ee60589699812bf139efc15277289ebec50e"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "taxonId": 1516775,
+  "name": "Quercus coccifera",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:59.737688+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/f48fd7b7504425a9b4780b8659e1db0bb122ae71fad1bdcf633d8a55f0abd62e.json",
+      "title": "Quercus coccifera",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/f48fd7b7504425a9b4780b8659e1db0bb122ae71fad1bdcf633d8a55f0abd62e.json",
+      "title": "Quercus coccifera",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Quercus coccifera"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Kermes oak complex"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quercus+coccifera&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quercus+coccifera&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":337749,"scientificName":"Euphorbia grandicornis","commonName":"Grandthorn Noors","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Euphorbia grandicornis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Euphorbia grandicornis, the cow's horn plant, is a succulent plant of the Euphorbiaceae or spurge family. It is native to the KwaZulu-Natal province and the Northern Provinces of South Africa and to Mozambique and Eswatini."},{"id":"s1:p2","text":"The specific epithet \"grandicornis\" means \"with large horns,\" and refers to the pairs of spines, which look like the horns of a bull."},{"id":"s1:p3","text":" Description \nEuphorbia grandicornis is a shrub with succulent, spiny stems that reaches a size of 0.5–2 m in height. Small leaves are formed between the spines but later drop off; the stems do the bulk of the photosynthesis. It is much branched from the base, with thorns, the branches 3-angled, erect or ascending, very deeply constricted in segments, subsagittate-ovate or reniform-sagittate, 5–13 cm long and 5 – 15 cm in diameter."},{"id":"s1:p4","text":"The fruit is showy and pops open when ripe."},{"id":"s1:p5","text":"It is found in dense dry mixed forest, on granite slopes, and on rocks, at elevations of 40 to 700 meters."},{"id":"s1:p6","text":"Subspecies\nTwo subspecies are accepted:\nEuphorbia grandicornis subsp. grandicornis – Mozambique, Eswatini, Northern Provinces, and KwaZulu-Natal\nEuphorbia grandicornis subsp. sejuncta {{small|L.C.Leach}} – north-central Mozambique"},{"id":"s1:p7","text":" Uses \nIt is grown as a houseplant in temperate regions."},{"id":"s1:p8","text":"Chemical constituents of E. grandicornis have been studied for their use in cancer treatment."}]}]}

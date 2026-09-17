@@ -1,0 +1,43 @@
+{
+  "taxonId": 914234,
+  "name": "Citrus × taitensis",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:44:55.076937+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d791d94e649cbef94850cdcc01ef4fe44abc2df668daf5ae994424fcb0120664.json",
+      "title": "Rough lemon",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/29fe8531959bc87d24abac7b4a1557e001bcee6f8530d5b003769cf98f8b189b.json",
+      "title": "Rough lemon",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Citrus × taitensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "rough lemon"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Citrus+%C3%97+taitensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Citrus+%C3%97+taitensis&limit=100",
+      "status": 200
+    }
+  ]
+}

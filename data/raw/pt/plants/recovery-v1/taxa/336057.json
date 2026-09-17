@@ -1,0 +1,58 @@
+{
+  "taxonId": 336057,
+  "name": "Kohleria hirsuta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:42.273222+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Kohleria hirsuta",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|date=April 2025}}\n\nKohleria hirsuta, the woolly kohleria, is a species of flowering plant in the family Gesneriaceae, native to northern South America, and introduced to the Dominican Republic. In 1993, as its synonym Kohleria eriantha, it gained the Royal Horticultural Society's Award of Garden Merit as a hothouse plant, but this award appears to have been rescinded.\n\nSubtaxa\nThe following varieties are accepted:\nKohleria hirsuta var. hirsuta – entire range\nKohleria hirsuta var. longipes (Benth.) L.P.Kvist & L.E.Skog – Colombia",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/e709e33bf3da74f09883ab84ac47697c15b6e24440f5d32d889d0847d7639fe9.json",
+      "sha256": "5473edf68a9ac5c40e2e4d7ee60d5456b9bcf2f9d01d15f0f0e79ab32973ddfc",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1286954066",
+      "revisionId": 1286954066,
+      "credit": {
+        "title": "Kohleria hirsuta",
+        "url": "https://en.wikipedia.org/wiki/Kohleria_hirsuta",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1286954066",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Kohleria hirsuta (Kunth) Regel",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "habit\n\nOrnamental\n\nJAUM\n\nAlvaro Cogollo\n\nAC524\n\n\"Cogollo, A., comunicación personal, junio de 2021\"\n\nColombia, Ecuador a Surinam y Trinidad\n\nAndes, Valle del Cauca, Valle del Magdalena\n\n100 - 2700 msnm",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/6365157.json",
+      "sha256": "701132005e6dccc9106634b4ba1d385ec59325697c608b6102bffcd8dcbb8a57",
+      "url": "https://api.gbif.org/v1/species/6365157",
+      "credit": {
+        "title": "Kohleria hirsuta (Kunth) Regel",
+        "url": "https://www.gbif.org/species/6365157",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Kohleria+hirsuta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Kohleria+hirsuta&limit=100",
+      "status": 200
+    }
+  ]
+}

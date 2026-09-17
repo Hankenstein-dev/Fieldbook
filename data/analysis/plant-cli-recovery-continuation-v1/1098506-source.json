@@ -1,0 +1,90 @@
+{
+  "input": {
+    "taxonId": 1098506,
+    "scientificName": "Achillea aspleniifolia",
+    "commonName": "Achillea aspleniifolia",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Achillea aspleniifolia",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Achillea aspleniifolia is a species of flowering plant belonging to the family Asteraceae."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Its native range is Central and Southern Europe."
+          },
+          {
+            "id": "s1:p3",
+            "text": "Synonym:\n Achillea asplenifolia (orthographical variant){{citation needed|date=February 2021}}"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Achillea aspleniifolia Vent.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Lectotypus (designated here): [UNITED STATES]: Hort. Cels, Ventenat s. n. (G [G 00341485]!)."
+          },
+          {
+            "id": "s2:p2",
+            "text": "Notes. – Two different collections have been located in Ventenat’s herbarium at G. The plant collected by Michaux from his travel to North America (G [G 00341484]) and the plant cultivated in Cels’s garden. The latter is designated here as the lectotype as it is more complete and clearly served primarily for the description of Achillea aspleniifolia. No specimen has been located at P."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/ed0f5d50dc8c7737107fa3829174375a3958cde96ee3c2c7b5eb6dc27f843416.json",
+      "sha256": "08abd82a4cc0709f8212db9a8676f1ff9810c1298cb9afef4f2b13256803d021",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1282087629",
+      "revisionId": 1282087629,
+      "credit": {
+        "title": "Achillea aspleniifolia",
+        "url": "https://en.wikipedia.org/wiki/Achillea_aspleniifolia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1282087629",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7491603.json",
+      "sha256": "49d8afce9b417120b3cf55d2f97e7a00329635301324a3d4f0ed72fa0f32dd69",
+      "url": "https://api.gbif.org/v1/species/7491603",
+      "credit": {
+        "title": "Achillea aspleniifolia Vent.",
+        "url": "https://www.gbif.org/species/7491603",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1098506,
+    "name": "Achillea aspleniifolia",
+    "language": "en,unspecified",
+    "sourceTextTokens": 181,
+    "packetTokens": 352,
+    "standaloneInputTextTokens": 804,
+    "packetSha256": "c6b5bf6403544c8e30be4a7d274f4150feab246bf07caa8a56a95175abf3cb0d"
+  }
+}

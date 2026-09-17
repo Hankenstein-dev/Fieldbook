@@ -1,0 +1,47 @@
+{
+  "taxonId": 569006,
+  "name": "Watsonia pillansii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:57.818487+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Watsonia pillansii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Watsonia pillansii, the Pillans’ watsonia, is a plant belonging to the genus Watsonia. The species is endemic to KwaZulu-Natal, the Eastern Cape and the Western Cape.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/9ce3ab8f45bf46af210a2342adc0b1a5adcc217150ab64a3f7f3c7ddd382b9e6.json",
+      "sha256": "18fdad2032e2614cfbd6de5d1f4ef44c56f9e1c98ef15a62690983d3bfc7d14b",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1316522432",
+      "revisionId": 1316522432,
+      "credit": {
+        "title": "Watsonia pillansii",
+        "url": "https://en.wikipedia.org/wiki/Watsonia_pillansii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1316522432",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Watsonia pillansii"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Watsonia+pillansii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Watsonia+pillansii&limit=100",
+      "status": 200
+    }
+  ]
+}

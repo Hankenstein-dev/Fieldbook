@@ -1,0 +1,55 @@
+{
+  "taxonId": 1487550,
+  "name": "Riccia sommieri",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:49.747041+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riccia sommieri Levier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941), Jelenc (1955 a): Tiaret. Chevassut & Quézel (1956): Forêt de Pin d’Alep de Bäinem; Forêt de Pin d’Alep d’El Riath. Jovet-Ast (1986), Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7593927.json",
+      "sha256": "2de3453293c9a86351a9b89795fb75382f5ead4d65b066a0d6f93208d373292e",
+      "url": "https://api.gbif.org/v1/species/7593927",
+      "credit": {
+        "title": "Riccia sommieri Levier",
+        "url": "https://www.gbif.org/species/7593927",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Riccia sommieri Levier",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1941), Jelenc (1955 a): Tiaret. Chevassut & Quézel (1956): Forêt de Pin d’Alep de Bäinem; Forêt de Pin d’Alep d’El Riath. Jovet-Ast (1986), Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098651.json",
+      "sha256": "2abaac5af4e78707ad251053d0744270e85deeca7b528b9ebff34a242df50e51",
+      "url": "https://api.gbif.org/v1/species/251098651",
+      "credit": {
+        "title": "Riccia sommieri Levier",
+        "url": "https://www.gbif.org/species/251098651",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riccia+sommieri&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riccia+sommieri&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "taxonId": 1664430,
+  "name": "Begonia metallica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:52.135379+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Begonia metallica W.G.Sm.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Type: — [Illustration] plate of “ Floral Magazine: Comprising Figures and Descriptions of Popular Garden Flowers pl. 197. 1876 ” (lectotype, designated here). Notes: — When described the new species Begonia metallica, W. G. Smith (1876) did not selected a type or cite any examined herbarium material, hence a lectotype is here designated (Art. 9.3 and 9.12 of ICN, Turland et al. 2018). Begonia metallica was synonymized with the Mexican species B. incarnata Link & Otto (1829: 37) by Govaerts (1996) without any commentary about the synonymization. B. metallica is totally different to B. incarnata and is here considered to be accepted at the species level; Smith et al. (1986) stated that B. metallica W. G. Smith occurs in Brazil rather than Mexico. The species has morphological characteristics in common with Begonia species from the south of Brazil, such as Begonia hammoniae Irmsch. (1953: 54).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4158239.json",
+      "sha256": "dc6c19ad4ea939604b603902b947c77a26d6177c39db64e63645276234f69d62",
+      "url": "https://api.gbif.org/v1/species/4158239",
+      "credit": {
+        "title": "Begonia metallica W.G.Sm.",
+        "url": "https://www.gbif.org/species/4158239",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Begonia metallica , W. G. Smith 1876",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Type: — [Illustration] plate of “ Floral Magazine: Comprising Figures and Descriptions of Popular Garden Flowers pl. 197. 1876 ” (lectotype, designated here). Notes: — When described the new species Begonia metallica, W. G. Smith (1876) did not selected a type or cite any examined herbarium material, hence a lectotype is here designated (Art. 9.3 and 9.12 of ICN, Turland et al. 2018). Begonia metallica was synonymized with the Mexican species B. incarnata Link & Otto (1829: 37) by Govaerts (1996) without any commentary about the synonymization. B. metallica is totally different to B. incarnata and is here considered to be accepted at the species level; Smith et al. (1986) stated that B. metallica W. G. Smith occurs in Brazil rather than Mexico. The species has morphological characteristics in common with Begonia species from the south of Brazil, such as Begonia hammoniae Irmsch. (1953: 54).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/209434883.json",
+      "sha256": "aa61e0551b16129debad7b7123b876a29ee8f643ff33ef7dc003b79b65583ff4",
+      "url": "https://api.gbif.org/v1/species/209434883",
+      "credit": {
+        "title": "Begonia metallica , W. G. Smith 1876",
+        "url": "https://www.gbif.org/species/209434883",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/e6532b41e67ed9064172bcb88f92cfd0b2b459f4e0a91b72621f2cc2257d14e5.json",
+      "title": "Begonia incarnata",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5b40e82587cf7267c60635bcda7cce5cdbbda71abe800c6e6aff5c98f872aed4.json",
+      "title": "Begonia incarnata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Begonia+metallica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Begonia+metallica&limit=100",
+      "status": 200
+    }
+  ]
+}

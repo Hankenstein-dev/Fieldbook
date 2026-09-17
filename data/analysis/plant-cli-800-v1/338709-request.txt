@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":338709,"scientificName":"Cleome violacea","commonName":"Cleome violacea","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cleome violacea","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Info/Taxonomia\n| imagem =\n| imagem_legenda =\n| nome = ''Cleome violacea''\n| reino = [[Plantae]]\n| divisão = [[Magnoliophyta]]\n| classe = [[Magnoliopsida]]\n| ordem = [[Brassicales]]\n| família = [[Cleomaceae]]\n| género = ''[[Cleome]]''\n| espécie = '''''C. violacea'''''\n| binomial = ''Cleome violacea''\n| binomial_autoridade = [[Carolus Linnaeus|L.]] \n}}\nCleome violacea é uma espécie de plantas com flor pertencente à família Cleomaceae. É originária do Sul da Europa e Norte de África."},{"id":"s1:p2","text":"A espécie foi descrita por Lineu e publicada em Species Plantarum 2: 672. 1753., no ano de 1753."},{"id":"s1:p3","text":" Descrição \nÉ uma planta herbácea, terófila, que possui as folhas palmadas (folíolos dispostos como os dedos de uma mano) e o pistilo encontra-se num grande entre-nó, que se encontra logo acima dos estames. A floração dá-se de Abril a Agosto."},{"id":"s1:p4","text":" Distribuição \nEsta espécie encontra-se distribuída por quase todo o Sul e Oeste da Península Ibérica (com uma citação na Província de Barcelona), Portugal e Marrocos, podendo ser encontrada em matagais e em terrenos incultos."},{"id":"s1:p5","text":"Sinonímia\nCleome deflexa Ruiz & Pav. ex DC.\nDiorimasperma violacea (L.) Raf."}]}]}

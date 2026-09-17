@@ -1,0 +1,74 @@
+{
+  "taxonId": 544571,
+  "name": "Hyparrhenia sinaica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:50.198621+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Hyparrhenia sinaica",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Hyparrhenia sinaica''\n| imagem = Hyparrhenia sinaica Habitus 2010-7-06 LagunadelaMata.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Hyparrhenia]]''\n| espécie = '''''H. sinaica'''''\n| binomial = ''Hyparrhenia sinaica''\n| binomial_autoridade = (Delile) Llaurado ex G. Lopez Gonzales\n}}\nHyparrhenia sinaica é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é (Delile) Llaurado ex G. Lopez Gonzales, tendo sido publicada em Anales del Jardín Botánico de Madrid 51(2): 313. 1993[1994].\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa das duas regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/c2e9f27cb04f7168c1b2c3f77d4df10c577d19808674d1a83e73fc5abe5d4a48.json",
+      "sha256": "ec9a42d5e59b5785c84d194d7dacc2e42c7e266632ac449bdb5ad0a07ba0afeb",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54909212",
+      "revisionId": 54909212,
+      "credit": {
+        "title": "Hyparrhenia sinaica",
+        "url": "https://pt.wikipedia.org/wiki/Hyparrhenia_sinaica",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54909212",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Hyparrhenia sinaica (Delile) G. Lopez",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Hyparrhenia sinaica (Delile) G. López (abellatge petit). De la regió mediterrània i de l’Àsia sud-occidental. Creix en prats secs, clarianes de matolls, talussos, marges eixuts i altres indrets assolellats, tant en terrenys calcaris com silícics. Menys abundant que l’espècie congènere anteriorment comentada, i sovint convivint amb ella, es fa a tots dos massissos.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/242088580.json",
+      "sha256": "815d1539c654b4f7e3700acab45734c1d556766d8c31a3f8307f151c0cbc4e78",
+      "url": "https://api.gbif.org/v1/species/242088580",
+      "credit": {
+        "title": "Hyparrhenia sinaica (Delile) G. Lopez",
+        "url": "https://www.gbif.org/species/242088580",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Hyparrhenia sinaica (Delile) G.López",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Hyparrhenia sinaica (Delile) G. López (abellatge petit). De la regió mediterrània i de l’Àsia sud-occidental. Creix en prats secs, clarianes de matolls, talussos, marges eixuts i altres indrets assolellats, tant en terrenys calcaris com silícics. Menys abundant que l’espècie congènere anteriorment comentada, i sovint convivint amb ella, es fa a tots dos massissos.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7799335.json",
+      "sha256": "f53c6925ee6d237eef161535b7e0cad7b6e3fb5b1f7d1e2b7a1161bfa5d0257e",
+      "url": "https://api.gbif.org/v1/species/7799335",
+      "credit": {
+        "title": "Hyparrhenia sinaica (Delile) G.López",
+        "url": "https://www.gbif.org/species/7799335",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hyparrhenia+sinaica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hyparrhenia+sinaica&limit=100",
+      "status": 200
+    }
+  ]
+}

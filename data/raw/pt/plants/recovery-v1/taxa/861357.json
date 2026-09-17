@@ -1,0 +1,42 @@
+{
+  "taxonId": 861357,
+  "name": "Peucedanum lowei",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:49.137607+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Peucedanum lowei",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Peucedanum lowei''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Umbellales]]\n| família = [[Apiaceae]]\n| género = ''[[Peucedanum]]''\n| espécie = '''''P. lowei'''''\n| binomial = ''Peucedanum lowei''\n| binomial_autoridade = (Coss.) Menezes\n}}\nPeucedanum lowei é uma espécie de planta com flor pertencente à família Apiaceae. \n\nA autoridade científica da espécie é (Coss.) Menezes, tendo sido publicada em Brotéria. Sér. Bot. 1927, xxiii. 74.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/44ea21a210184f5cc919bc51aeec464fefe70f681abfae4f69d43a0b51cd2cc3.json",
+      "sha256": "d153dfc15a6c4a60317ff22fd9e8333e7c03f28aa5d64e3fa864246e92a73c31",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177751",
+      "revisionId": 62177751,
+      "credit": {
+        "title": "Peucedanum lowei",
+        "url": "https://pt.wikipedia.org/wiki/Peucedanum_lowei",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177751",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Peucedanum+lowei&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Peucedanum+lowei&limit=100",
+      "status": 200
+    }
+  ]
+}

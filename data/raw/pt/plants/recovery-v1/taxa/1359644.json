@@ -1,0 +1,28 @@
+{
+  "taxonId": 1359644,
+  "name": "Dichanthelium dichotomum",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:01.254647+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0a65a7ba5fa9c927401958ca5ff88fd0a951d0cd5f6875408a8fa2ca7e188916.json",
+      "title": "Dichanthelium dichotomum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dichanthelium+dichotomum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dichanthelium+dichotomum&limit=100",
+      "status": 200
+    }
+  ]
+}

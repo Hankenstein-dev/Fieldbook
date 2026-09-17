@@ -1,0 +1,42 @@
+{
+  "taxonId": 190605,
+  "name": "Cirsium latifolium",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:36.962627+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cirsium latifolium",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Cirsium latifolium''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Cirsium]]''\n| espécie = '''''C. latifolium'''''\n| binomial = ''Cirsium latifolium''\n| binomial_autoridade = Lowe\n}}\nCirsium latifolium é uma espécie de planta com flor pertencente à família Asteraceae. \n\nA autoridade científica da espécie é Lowe, tendo sido publicada em Transactions of the Cambridge Philosophical Society 4: 28. 1831.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nEncontra-se protegida por legislação portuguesa ou da Comunidade Europeia, nomeadamente pelo Anexo II e IV da Directiva Habitats.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/95d3fd714a9a922472032236bf62ce998af2c1afc36c38e5e9cf899825b3d165.json",
+      "sha256": "9bd6bd139b23ab4b7a1ab2ce1a206d7ebe1c17dfdff2eea8c6d947a5a380a349",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62178099",
+      "revisionId": 62178099,
+      "credit": {
+        "title": "Cirsium latifolium",
+        "url": "https://pt.wikipedia.org/wiki/Cirsium_latifolium",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62178099",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cirsium+latifolium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cirsium+latifolium&limit=100",
+      "status": 200
+    }
+  ]
+}

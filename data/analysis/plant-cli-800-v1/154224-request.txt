@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":154224,"scientificName":"Lysimachia nemorum","commonName":"Yellow Pimpernel","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lysimachia nemorum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lysimachia nemorum, the yellow pimpernel, is a perennial flowering plant in the family Primulaceae."},{"id":"s1:p2","text":"Description\nLysimachia nemorum is an evergreen creeping perennial herbaceous plant growing up to about {{Convert abbreviated|40|cm}}. The bright green leaves are opposite, ovate, pointed and without teeth or hairs. The yellow flowers are about 8mm across, borne singly on long stalks in the axil of each leaf. They have five very narrow sepals, five pointed petals and five stamens. The ovary is superior, forming a capsule.{{rp|114}}"},{"id":"s1:p3","text":"Distribution\nLysimachia nemorum is native to Great Britain and Ireland and the east of mainland Europe from the Pyrenees in the south to eastern Norway in the north. Its habitat is damp woodland."}]}]}

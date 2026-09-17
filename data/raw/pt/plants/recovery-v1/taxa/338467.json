@@ -1,0 +1,47 @@
+{
+  "taxonId": 338467,
+  "name": "Euphorbia portlandica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:58.598568+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Euphorbia portlandica",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Euphorbia portlandica é uma espécie de planta com flor pertencente à família Euphorbiaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 458. 1753.\n\n Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/5d14721f1d2a334b0990237fac52498d81e9767ed57c6486777a1e0c06f2f6e4.json",
+      "sha256": "b5148966ce46ad0657f6c652760ed63ed006dc5ede9fe498e08bc6f0a7fb1b37",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62903745",
+      "revisionId": 62903745,
+      "credit": {
+        "title": "Euphorbia portlandica",
+        "url": "https://pt.wikipedia.org/wiki/Euphorbia_portlandica",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62903745",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Euphorbia portlandica"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Euphorbia+portlandica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Euphorbia+portlandica&limit=100",
+      "status": 200
+    }
+  ]
+}

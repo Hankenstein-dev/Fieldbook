@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":400944,"scientificName":"Coleonema pulchrum","commonName":"Turps Capemay","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Coleonema pulchrum","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón \n| image = Caleonema pulchrum0.jpg\n| image_width = 240 px\n| regnum = [[Plantae]]\n| divisio = [[Magnoliophyta]]\n| classis = [[Magnoliopsida]]\n| subclassis = [[Rosidae]]\n| ordo = [[Sapindales]]\n| familia = [[Rutaceae]]\n| genus = '''''[[Coleonema]]'''''\n| species = C. pulchrum\n| binomial = Coleonema pulchrum\n| binomial_authority = [[Hook.]]\n}}\nColeonema pulchrum es una especie de plantas perteneciente a la familia Rutaceae. Son nativos de Sudáfrica."},{"id":"s1:p2","text":"Descripción\nEs un arbusto perennifolio que alcanza un tamaño de 0.7 - 1.3 m de altura. Se encuentra en Sudáfrica a una altitud de 300 - 1400 m."},{"id":"s1:p3","text":" Taxonomía \nColeonema pulchrum fue descrita por el botánico William Jackson Hooker y publicado en Bot. Mag. 61: t. 3340, en el año 1834.\nSinonimia\nDiosma angustifolia Hook."}]}]}

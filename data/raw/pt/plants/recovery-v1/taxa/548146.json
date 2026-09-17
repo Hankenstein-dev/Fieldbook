@@ -1,0 +1,55 @@
+{
+  "taxonId": 548146,
+  "name": "Cistus umbellatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:53.209142+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cistus umbellatus L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Habitat in Gallia, Hispania. ♄\n\n10. Cistus suffruticosus procumbens exstipulatus, foliis oppositis, floribus umbellatis. Cistus foliis linearibus non stipulatis, caule florali umbellato lignoso. Guett. stamp. 2. p. 180. Dalib. paris. 158. Cistus Ledon foliis thymi. Bauh. pin. 467. Ledon X. Clus. hist. 1. p. 81.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3595105.json",
+      "sha256": "b94c7e67947668ba95f7dcb6d5eafb17b6a0f8c40a1585affda9c12530760e93",
+      "url": "https://api.gbif.org/v1/species/3595105",
+      "credit": {
+        "title": "Cistus umbellatus L.",
+        "url": "https://www.gbif.org/species/3595105",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Cistus umbellatus Linnaeus 1753",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "10. Cistus suffruticosus procumbens exstipulatus, foliis oppositis, floribus umbellatis. Cistus foliis linearibus non stipulatis, caule florali umbellato lignoso. Guett. stamp. 2. p. 180. Dalib. paris. 158. Cistus Ledon foliis thymi. Bauh. pin. 467. Ledon X. Clus. hist. 1. p. 81.\n\nHabitat in Gallia, Hispania. ♄",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164946742.json",
+      "sha256": "1cfb2b3d8d68135cbc55678ba7842e27f6029caba1aff0b1024da4a0f5809a7a",
+      "url": "https://api.gbif.org/v1/species/164946742",
+      "credit": {
+        "title": "Cistus umbellatus Linnaeus 1753",
+        "url": "https://www.gbif.org/species/164946742",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cistus+umbellatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cistus+umbellatus&limit=100",
+      "status": 200
+    }
+  ]
+}

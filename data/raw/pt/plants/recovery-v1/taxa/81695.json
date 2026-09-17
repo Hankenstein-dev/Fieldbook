@@ -1,0 +1,63 @@
+{
+  "taxonId": 81695,
+  "name": "Anacamptis coriophora",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:46.975868+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Anacamptis coriophora",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Anacamptis coriophora, the bug orchid, is a species of orchid, found in Europe, the Mediterranean, and the Near East to Iran.\n\nTaxonomy\nOriginally this was identified as Orchis coriophora subsp. fragans (Pollini) K.Richt. and even today some authorities like Delforge use the original name to present it as the new species Orchis fragrans Pollini. However the large databases at Kew, World Ckecklist etc. agree that the correct and accepted name for this taxon is Anacamptis coriophora (L.) R.M.Bateman, Pridgeon & M.W.Chase without any distinction being made between subspecies.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/54837ca4c0dc67e4bbf9018049f1c12e2099283adad7fc8b0a740e79999df0b7.json",
+      "sha256": "15e2769348ac60fbec613c9dabfdefa58e301224966f6356f4daa0bb0416a296",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1354315619",
+      "revisionId": 1354315619,
+      "credit": {
+        "title": "Anacamptis coriophora",
+        "url": "https://en.wikipedia.org/wiki/Anacamptis_coriophora",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1354315619",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Anacamptis coriophora L. 1753",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Tubers subglobose or ellipsoid. Stem 15 - 40 cm, erect, with 4 - 7 leaves below and sheaths above. Leaves linear to narrowly lanceolate. Spike oblong or cylindrical, dense. Bracts lanceolate, 1 - veined, as long as or longer than ovary. All perianth-segments convergent into a galea; outer 5 - 10 mm, ovate-lanceolate or oblong, acute or acuminate, the inner somewhat longer; galea violet-brown. Labellum longer than wide, purplish-green, without spots, 3 - lobed; lateral lobes sub-rhombic, entire, crenate or denticulate; middle lobe oblong, entire. Spur conical, directed downwards, slightly incurved towards the apex, to twice as long as ovary. In — 36.\n\nS., C. & E. Europe, northwards to Belgium and Lithuania. Al Au Be B 1 Bu Co Cr Cz Ga Ge Gr He fHo Hs Hu It Ju Lu Po Rm Rs (B, C, W, K, E) Sa Si Tu.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/326445968.json",
+      "sha256": "559a1acf45008567b9cb043e0b333a016ef4c0fa3811f2ac6409c5da8a9a8dcd",
+      "url": "https://api.gbif.org/v1/species/326445968",
+      "credit": {
+        "title": "Anacamptis coriophora L. 1753",
+        "url": "https://www.gbif.org/species/326445968",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Anacamptis coriophora"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Anacamptis+coriophora&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Anacamptis+coriophora&limit=100",
+      "status": 200
+    }
+  ]
+}

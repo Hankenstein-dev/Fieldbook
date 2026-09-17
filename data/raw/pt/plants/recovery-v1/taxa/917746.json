@@ -1,0 +1,38 @@
+{
+  "taxonId": 917746,
+  "name": "Cirriphyllum crassinervium",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:57.964972+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/f5899baefd46aaa5cedfc25b820e62a64d33c53b78d42e8d63559b3dc0e487fa.json",
+      "title": "Dicknerviges Haarblattmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cirriphyllum crassinervium"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Beech Feather-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cirriphyllum+crassinervium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cirriphyllum+crassinervium&limit=100",
+      "status": 200
+    }
+  ]
+}

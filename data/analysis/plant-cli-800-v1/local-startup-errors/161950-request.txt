@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":161950,"scientificName":"Diplazium esculentum","commonName":"Vegetable Fern","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Diplazium esculentum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Diplazium esculentum, the vegetable fern, is an edible fern found throughout Asia and Oceania. It is probably one of the most commonly consumed ferns. "},{"id":"s1:p2","text":"The genus Diplazium is in the family Athyriaceae, in the eupolypods II clade of the order Polypodiales, in the class Polypodiopsida."},{"id":"s1:p3","text":"Description\nThis plant is a large perennial fern with an ascending rhizome of about 50{{nbsp}}cm high and covered with short rufous scales of about 1{{nbsp}}mm long. The plant is bipinnate with long brownish petioles, and the petiole base is black and covered with short scales. The frond can reach 1.5{{nbsp}}m in length, and the pinnae is about 8{{nbsp}}cm long and 2{{nbsp}}cm wide."},{"id":"s1:p4","text":"Uses\nThe young fronds are stir-fried and used in salads."},{"id":"s1:p5","text":"They may have mild amounts of fern toxins but no major toxic effects are recorded."},{"id":"s1:p6","text":"It is known as pakô (\"wing\") in the Philippines, pucuk paku and paku tanjung in Malaysia, sayur paku or pakis in Indonesia, phak koot ({{langx|th|ผักกูด}}) in Thailand, rau dớn in Vietnam, dhekia () in Assamese, Dhenki Shaak ({{langx|bn|ঢেঁকি শাক}}) in Bengali, paloi saag ({{langx|bn|পালই শাগ}}) in Eastern Bengali, ningro in Nepali, dingkia in Boro and linguda in northern India, referring to the curled fronds."},{"id":"s1:p7","text":"It is known as {{lang|haw|pohole}} or {{lang|haw|hō'i'o}} in Hawaiian cuisine.\nThe ferns grow in wet areas of shady valleys. The fern species Diplazium esculentum is believed to have been introduced and naturalized in Hawaii and was first reported collected in 1910. The fern also has medicinal uses."},{"id":"s1:p8","text":"Pharmacological effects\nThe extract also had alpha-glucosidase inhibitory activity."}]}]}

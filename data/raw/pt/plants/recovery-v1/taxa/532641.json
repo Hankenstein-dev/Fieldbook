@@ -1,0 +1,28 @@
+{
+  "taxonId": 532641,
+  "name": "Tillandsia incarnata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:48.871727+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b61cee7dea1d071eaa18dd702ae4e8c511f8c9b1ec6a868aab6d6011e6d7bdd8.json",
+      "title": "Tillandsia incarnata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tillandsia+incarnata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tillandsia+incarnata&limit=100",
+      "status": 200
+    }
+  ]
+}

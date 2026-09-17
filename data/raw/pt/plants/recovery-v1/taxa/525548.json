@@ -1,0 +1,55 @@
+{
+  "taxonId": 525548,
+  "name": "Allium canariense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:45.046577+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Allium canariense (Regel) N.Friesen & P.Schönfelder",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Type (lectotype, here designated): — SPAIN. Canary Islands. In Insulis canariensibus prope St. Sebastian, 18 November 1853, C. Maximowicz s. n. (LE 01010228!; Fig. 8).\n\nIf the subspecies obtusitepalum, despite the difficulties in morphological delimitation, will be accepted, the next nomenclature combination should be used:",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9401558.json",
+      "sha256": "2b957f4adbc4fbe4c6959dfb95827ede4e91c8bcbbbe0d7881ed2bdee90c5bcd",
+      "url": "https://api.gbif.org/v1/species/9401558",
+      "credit": {
+        "title": "Allium canariense (Regel) N.Friesen & P.Schönfelder",
+        "url": "https://www.gbif.org/species/9401558",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Allium canariense (N. Friesen & P. Schoenfelder 1875) N. Friesen & P. Schoenfelder 2015",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "If the subspecies obtusitepalum, despite the difficulties in morphological delimitation, will be accepted, the next nomenclature combination should be used:\n\nType (lectotype, here designated): — SPAIN. Canary Islands. In Insulis canariensibus prope St. Sebastian, 18 November 1853, C. Maximowicz s. n. (LE 01010228!; Fig. 8).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/188579868.json",
+      "sha256": "ca049698420d2d09e3c9ee41f1fa186fa3b01732ce78b67c6efc7f0af0223329",
+      "url": "https://api.gbif.org/v1/species/188579868",
+      "credit": {
+        "title": "Allium canariense (N. Friesen & P. Schoenfelder 1875) N. Friesen & P. Schoenfelder 2015",
+        "url": "https://www.gbif.org/species/188579868",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Allium+canariense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Allium+canariense&limit=100",
+      "status": 200
+    }
+  ]
+}

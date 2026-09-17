@@ -1,0 +1,49 @@
+{
+  "taxonId": 1065403,
+  "name": "Cenostigma eriostachys",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:46.040495+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cenostigma eriostachys (Benth.) Gagnon & G.P.Lewis",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Type. COSTA RICA, Cocos Island, Barclay s. n. (lectotype K!, designated by Lewis, 1998). Schizolobium covilleanum Pittier, Contr. U. S. Natl. Herb. 18: 231. 1917, pro parte (flowering material only). Type. PANAMA, Prov. Cocle, between Aguadulce and Chico River, Pittier 5105.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/9358217.json",
+      "sha256": "062afcc23f17de758e4e1458a44bbfe791a7646587eb231a3b5e55e2ae9593dd",
+      "url": "https://api.gbif.org/v1/species/9358217",
+      "credit": {
+        "title": "Cenostigma eriostachys (Benth.) Gagnon & G.P.Lewis",
+        "url": "https://www.gbif.org/species/9358217",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Cenostigma eriostachys"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sanillo"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cenostigma+eriostachys&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cenostigma+eriostachys&limit=100",
+      "status": 200
+    }
+  ]
+}

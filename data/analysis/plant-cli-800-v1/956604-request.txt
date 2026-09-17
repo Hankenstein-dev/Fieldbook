@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":956604,"scientificName":"Erythrostemon mexicanus","commonName":"Mexican holdback","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Erythrostemon mexicanus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Erythrostemon mexicanus, formerly Caesalpinia mexicana, is a species of plant in the genus Erythrostemon, within the pea family, Fabaceae. Common names include Mexican Bird of Paradise, Mexican holdback, Mexican caesalpinia, and tabachín del monte. It is native to the extreme lower Rio Grande Valley of Texas and to parts of Mexico: in the northeast and further south along the Gulf coast as well as the Pacific coast in Nayarit, Jalisco, Colima, and a small portion of Sinaloa."},{"id":"s1:p2","text":"Description\nMexican holdback is a small evergreen tree or large shrub, reaching a height of {{convert|3|-|4.6|m|ft|abbr=on}} and a spread of {{convert|1.8|-|3|m|ft|abbr=on}}. Leaves are bipinnately-compound and dark green. Each leaf has five to nine pinnae {{convert|4|-|9|cm|in|abbr=on}} in length. Pinnae are composed of four to five leaflets that are {{convert|1|-|2.5|cm|in|abbr=on}} long and {{convert|0.7|-|1.3|cm|in|abbr=on}} wide. Yellow, slightly fragrant flowers are produced on {{convert|7.6|-|15.2|cm|in|adj=on|abbr=on}} terminal spikes of 10 to 30. Blooming takes place from February to July, often continuing to October. The fruit is a dehiscent tan or yellow seedpod {{convert|5.1|-|7.6|cm|in|abbr=on}} in length."},{"id":"s1:p3","text":"Uses\nMexican holdback is cultivated as an ornamental because of its showy flowers, lush, fine-textured foliage, and drought tolerance."},{"id":"s1:p4","text":"Ecology\nErythrostemon mexicanus is the host plant for the caterpillars of the curve-winged metalmark (Emesis emesia)."}]}]}

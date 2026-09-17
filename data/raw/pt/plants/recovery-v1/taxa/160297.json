@@ -1,0 +1,55 @@
+{
+  "taxonId": 160297,
+  "name": "Centratherum punctatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:42.275231+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Centratherum punctatum Cass.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Voucher: A.G. Schulz 7963 (cited in Cabrera et al., 2009: 72).\n\nSubshrub.\n\nLas hojas y flores machacadas se usan para lavar redes de pesca y atraer a los peces.\n\nLa planta se usa caliente, humedecida con trago (aguardiente) y “punin”, para tratar el “espanto”.\n\nLa decocción de las hojas se usa para tratar el dolor de estómago.\n\nTallos\n\nNativa\n\nNE\n\nMéxico a Argentina\n\nInfusiones | oraciones y posterior se lava la casa. Se usa con albahaca y abrecaminos.\n\nHojas\n\nHierba\n\nHierba\n\nFlores\n\nCultural - tipo - baños\n\nCultural\n\nAmazonas | Antioquia | Arauca | Caldas | Caquetá | Casanare | Cauca | Cesar | Chocó | Guaviare | Nariño | Quindío | Tolima | Valle\n\n0 m - 1700 m\n\nMéxico a Argentina\n\nAmazonia, Andes, Guayana y Serranía de La Macarena, Llanura del Caribe, Orinoquia, Pacífico, Valle del Magdalena\n\n0 - 1700 msnm",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3090864.json",
+      "sha256": "18dce2ad3d03fd287edc395a8d35aa62622c29e04098d8bc171ba6f2bd914271",
+      "url": "https://api.gbif.org/v1/species/3090864",
+      "credit": {
+        "title": "Centratherum punctatum Cass.",
+        "url": "https://www.gbif.org/species/3090864",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/bacf0913add1527a987af98683205a4782d1e4b2fc668dab4afafa619de0c3af.json",
+      "title": "Centratherum punctatum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Centratherum punctatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Brazilian bachelor's button"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Centratherum+punctatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Centratherum+punctatum&limit=100",
+      "status": 200
+    }
+  ]
+}

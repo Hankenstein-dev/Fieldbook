@@ -1,0 +1,58 @@
+{
+  "taxonId": 1422787,
+  "name": "Canistropsis burchellii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:44.420639+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Canistropsis burchellii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Canistropsis burchellii is a species of flowering plant in the genus Canistropsis.\n\nThis bromeliad is endemic to the Atlantic Forest biome (Mata Atlantica Brasileira) within São Paulo (state), located in southeastern Brazil.\n\nCultivars and hybrids\n × Aechopsis 'Newk'\n × Neostropsis 'Fanfare'\n × Neostropsis 'Shadeball'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/8072ff3c2612acf512607e84379fd0f05c8cd49ca9537a9d17d29a44e98c7ce5.json",
+      "sha256": "af02467387614903e47b85cee1d6d157738de27ded89f92c68acb4d281bb1a2d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1139840516",
+      "revisionId": 1139840516,
+      "credit": {
+        "title": "Canistropsis burchellii",
+        "url": "https://en.wikipedia.org/wiki/Canistropsis_burchellii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1139840516",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Canistropsis burchellii (Baker) Leme",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Canistropsis burchellii is a species in the genus Canistropsis. The bromeliad is endemic to the Atlantic Forest biome (Mata Atlantica Brasileira) within São Paulo (state), located in southeastern Brazil.\n\nxAechopsis 'Newk' xNeostropsis 'Fanfare' xNeostropsis 'Shadeball'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165587437.json",
+      "sha256": "55ed09b1ca26af71788cd21dfa0e00e372a0043021177e353d54b46349e489cf",
+      "url": "https://api.gbif.org/v1/species/165587437",
+      "credit": {
+        "title": "Canistropsis burchellii (Baker) Leme",
+        "url": "https://www.gbif.org/species/165587437",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Canistropsis+burchellii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Canistropsis+burchellii&limit=100",
+      "status": 200
+    }
+  ]
+}

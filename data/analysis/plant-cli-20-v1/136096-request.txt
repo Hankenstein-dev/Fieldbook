@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":136096,"scientificName":"Encephalartos altensteinii","commonName":"Eastern Cape giant cycad","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Encephalartos altensteinii","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Encephalartos altensteinii is a species of palm-like cycad in the family Zamiaceae. It is endemic to South Africa. The species name altensteinii commemorates Altenstein, a 19th-century German chancellor and patron of science. It is commonly known as the breadtree, broodboom, Eastern Cape giant cycad or uJobane (Zulu). It is listed as vulnerable due to habitat destruction, use for traditional medicine and removal by collectors."},{"id":"s1:p2","text":"Description\n{{multiple image|| align = right | direction = vertical\n | width = 180\n | image1 = Encephalartos altensteinii kz3.jpg\n | alt1 = \n | image2 = Encephalartos altensteinii, vroulike keëls, Manie van der Schijff BT, a.jpg\n | alt2 = \n | footer = Male cones (above) and female cones (below)\n}}\nThis cycad grows up to {{convert|7|m|spell=in}} tall and may be branched or unbranched. The leaves are straight or curved backwards and up to {{convert|3|m|spell=in}} in length. The leaflets are rigid and fairly broad with one or both margins toothed. There are no prickles at the base of the leaf which distinguishes it from E. natalensis. There are usually two to five greenish-yellow cones up to {{convert|50|cm}} long, the female scales covered with protuberances. The cones are poisonous to humans. The seeds are scarlet and up to {{convert|4|cm|spell=in}} long."},{"id":"s1:p3","text":"Distribution and habitat\nThis species is widespread in the Eastern Cape and south-western KwaZulu-Natal provinces of South Africa. It favours sites near the coast including open scrub, steep rocky slopes, evergreen forests in valleys and river banks. It also occurs inland at a higher altitude in isolated sites in the Amatola Mountains."},{"id":"s1:p4","text":"The individual growing in the Palm House at Royal Botanic Gardens, Kew, UK is considered to be the oldest potted plant in the world, having arrived there in 1775. Other individuals have also reached a great age, with the one in Lednice Greenhouse, Czech Republic estimated to be 300 to 600 years old."}]}]}

@@ -1,0 +1,79 @@
+{
+  "taxonId": 519930,
+  "name": "Rosa squarrosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:44.486975+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Rosa squarrosa",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Rosa squarrosa''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rosales]]\n| família = [[Rosaceae]]\n| género = ''[[Rosa]]''\n| espécie = '''''R. squarrosa'''''\n| binomial = ''Rosa squarrosa''\n| binomial_autoridade = (A.Rau) Boreau\n}}\nRosa squarrosa é uma espécie de planta com flor pertencente à família Rosaceae. \n\nA autoridade científica da espécie é (A.Rau) Boreau, tendo sido publicada em Fl. Centre France ed. 3 2: 222 (1857).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/9d80c3f291cd586d38e33c8f1d714a79e6c498ac88538917526bdd4dab539bb9.json",
+      "sha256": "253a5d36ef81f9e82ef9321381803ece4582256dbef69b869f5ba4e7ea1fb53d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55198277",
+      "revisionId": 55198277,
+      "credit": {
+        "title": "Rosa squarrosa",
+        "url": "https://pt.wikipedia.org/wiki/Rosa_squarrosa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55198277",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Rosa squarrosa Rau",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Like 18 but leaflets compound-serrate, glandular on the mid-veins and sometimes over the entire lower surface; stipules, petiole and rhachis densely glandular; styles long-exserted, villous. Mainly in C. Europe; distribution not fully known. Au Be Br Bu Cz Ga Ge Gr He Hu Po Rm.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7699588.json",
+      "sha256": "f01fb50c630726f988eb582b3ecdd0d69d60a0ae3f505bb2369fb16ae040c52c",
+      "url": "https://api.gbif.org/v1/species/7699588",
+      "credit": {
+        "title": "Rosa squarrosa Rau",
+        "url": "https://www.gbif.org/species/7699588",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Rosa squarrosa (Rau) Rau",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Like 18 but leaflets compound-serrate, glandular on the mid-veins and sometimes over the entire lower surface; stipules, petiole and rhachis densely glandular; styles long-exserted, villous. Mainly in C. Europe; distribution not fully known. Au Be Br Bu Cz Ga Ge Gr He Hu Po Rm.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/117196043.json",
+      "sha256": "6bd2212c0cd6c663a05d9efd78d4463ac8ec226f51364a59a03a4af61d043a70",
+      "url": "https://api.gbif.org/v1/species/117196043",
+      "credit": {
+        "title": "Rosa squarrosa (Rau) Rau",
+        "url": "https://www.gbif.org/species/117196043",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rosa squarrosa"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rosa+squarrosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rosa+squarrosa&limit=100",
+      "status": 200
+    }
+  ]
+}

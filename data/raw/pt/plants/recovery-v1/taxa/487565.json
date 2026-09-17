@@ -1,0 +1,22 @@
+{
+  "taxonId": 487565,
+  "name": "Quercus × avellaniformis",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:42:09.832038+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quercus+%C3%97+avellaniformis&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quercus+%C3%97+avellaniformis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 192734,
+  "name": "Alyssum pintodasilvae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:42.841614+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/fb7f9a3edfe3a079e782b45c1f9a39a47d676b7f570f75c5a297d3f45a37dda9.json",
+      "title": "Alyssum serpyllifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ce08f77fada83765973430fff14f57fe8d565c3cd74e3ca5d70520d031dd089d.json",
+      "title": "Alyssum serpyllifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/ce08f77fada83765973430fff14f57fe8d565c3cd74e3ca5d70520d031dd089d.json",
+      "title": "Alyssum serpyllifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Alyssum+pintodasilvae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Alyssum+pintodasilvae&limit=100",
+      "status": 200
+    }
+  ]
+}

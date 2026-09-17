@@ -1,0 +1,38 @@
+{
+  "taxonId": 273647,
+  "name": "Bryoerythrophyllum recurvirostrum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:50.580393+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/ae9f01f84717573e04ebd486eb2470277e83c34d0c03a8d6447a7df43f69b75b.json",
+      "title": "Gemeines Rotblattmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bryoerythrophyllum recurvirostrum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Red Beard-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bryoerythrophyllum+recurvirostrum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bryoerythrophyllum+recurvirostrum&limit=100",
+      "status": 200
+    }
+  ]
+}

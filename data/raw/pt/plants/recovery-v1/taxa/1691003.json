@@ -1,0 +1,28 @@
+{
+  "taxonId": 1691003,
+  "name": "Musa",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:48:55.993472+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/8feeb37f94027cb8288e1dc3bb3f405459db78fabddc751d623e57c6ac711310.json",
+      "title": "Musa",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Musa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Musa&limit=100",
+      "status": 200
+    }
+  ]
+}

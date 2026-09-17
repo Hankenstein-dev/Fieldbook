@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 569425,
+    "scientificName": "Arctotis acaulis",
+    "commonName": "Flat African Daisy",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Arctotis acaulis",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Arctotis acaulis is a species of flowering plant in the family Asteraceae and is an endemic species found in the Cape Provinces, South Africa."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Etymology\nThe species name acaulis means without a stem, from Greek a which means without, and caulis meaning stem of a plant.{{source needed|reason='Caulis' is not Greek but Latin.|date=March 2025}} The name refers to the species growth habit."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Arctotis acaulis L.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Lectotype (Wijnands, Bot. Commelins: 67. 1983): [icon] \" Anemonospermos Afr. fol. plantaginis flore sulph. \" in Commelin, Hort. Med. Amstelaed. Pl. Rar.: 35, t. 35. 1706."
+          },
+          {
+            "id": "s2:p2",
+            "text": "\" Habitat ad Cap. b. spei. \" RCN: 6680."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1d5352192dfb20011bd4d4d3d694877d817b1ac03419dd075e033c22eaa2f82b.json",
+      "sha256": "60b8cecc1a17497282c194e4caed91a8879c4b866aa0368459332a8f5ddd49e0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1306192593",
+      "revisionId": 1306192593,
+      "credit": {
+        "title": "Arctotis acaulis",
+        "url": "https://en.wikipedia.org/wiki/Arctotis_acaulis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1306192593",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7631258.json",
+      "sha256": "07f654b5d65ff6ae87af64b4dfaad3d249e2940c8a9b0d3b6ba79007d1f8916c",
+      "url": "https://api.gbif.org/v1/species/7631258",
+      "credit": {
+        "title": "Arctotis acaulis L.",
+        "url": "https://www.gbif.org/species/7631258",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 569425,
+    "name": "Arctotis acaulis",
+    "language": "en,unspecified",
+    "sourceTextTokens": 186,
+    "packetTokens": 330,
+    "standaloneInputTextTokens": 782,
+    "packetSha256": "3141569ce04583d7a68e38fe896da88f2710cb2c64b583813020eaf6f1544f08"
+  }
+}

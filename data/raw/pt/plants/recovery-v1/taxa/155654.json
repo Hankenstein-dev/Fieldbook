@@ -1,0 +1,38 @@
+{
+  "taxonId": 155654,
+  "name": "Zygodon",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:38:33.415930+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/25cce436700282aa9c5e86e249c3f737482f408b298a30c8265c3270f5623ea9.json",
+      "title": "Zygodon",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Zygodon"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Yoke Mosses"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Zygodon&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Zygodon&limit=100",
+      "status": 200
+    }
+  ]
+}

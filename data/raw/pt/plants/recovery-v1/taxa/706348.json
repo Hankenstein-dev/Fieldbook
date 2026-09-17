@@ -1,0 +1,39 @@
+{
+  "taxonId": 706348,
+  "name": "Gigartina pistillata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:40.622055+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Gigartina pistillata (S.G.Gmel.) Stackh.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Neotype (Irvine in Spencer & al. in Taxon, in press): Herb. Linn. No. 1274.102 (LINN).\n\nNote: The specific epithet was spelled \" gigantinus \" in the protologue, subsequently corrected by Linnaeus in Syst. Nat. ed. 12 (1767).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2666168.json",
+      "sha256": "7d72b08a8ed3f46b4f5fe669f14f4763cc0a6d245c3ba09cbab30361b4e7645d",
+      "url": "https://api.gbif.org/v1/species/2666168",
+      "credit": {
+        "title": "Gigartina pistillata (S.G.Gmel.) Stackh.",
+        "url": "https://www.gbif.org/species/2666168",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gigartina+pistillata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gigartina+pistillata&limit=100",
+      "status": 200
+    }
+  ]
+}

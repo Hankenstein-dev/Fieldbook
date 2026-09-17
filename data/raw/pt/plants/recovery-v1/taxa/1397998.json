@@ -1,0 +1,43 @@
+{
+  "taxonId": 1397998,
+  "name": "Thesium",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:47:19.927111+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/f7e9f45f12f4931ec2b455fe9221d14ed9b3e6da2a95b8e535c0589f2fc23194.json",
+      "title": "Thesium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/f7e9f45f12f4931ec2b455fe9221d14ed9b3e6da2a95b8e535c0589f2fc23194.json",
+      "title": "Thesium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Thesium"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bastard Toadflaxes"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thesium&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thesium&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "taxonId": 286847,
+  "name": "Sedum brevifolium",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:56.575862+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sedum brevifolium",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Sedum brevifolium''\n| imagem = Sedum brevifolium 3.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rosales]]\n| família = [[Crassulaceae]]\n| género = ''[[Sedum]]''\n| espécie = '''''S. brevifolium'''''\n| binomial = ''Sedum brevifolium''\n| binomial_autoridade = DC.\n}}\nSedum brevifolium é uma espécie de planta com flor pertencente à família Crassulaceae. \n\nA autoridade científica da espécie é DC., tendo sido publicada em Mem. Soc. Agr. Dept. Seine 11: 79. 1808.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a730b35fd0fba64622128c058493c6d929b65a7afc4cb60364fdc074fe35dd44.json",
+      "sha256": "fd9ccbb95f63db8277ded9b0f032725024c8e17a0252467b4b2d667678d403e6",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069345",
+      "revisionId": 60069345,
+      "credit": {
+        "title": "Sedum brevifolium",
+        "url": "https://pt.wikipedia.org/wiki/Sedum_brevifolium",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069345",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/a730b35fd0fba64622128c058493c6d929b65a7afc4cb60364fdc074fe35dd44.json",
+      "title": "Sedum brevifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sedum brevifolium"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+brevifolium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+brevifolium&limit=100",
+      "status": 200
+    }
+  ]
+}

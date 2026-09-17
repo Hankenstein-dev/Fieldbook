@@ -1,0 +1,339 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T08:58:42.998777+00:00",
+  "completedAt": "2026-09-14T09:00:05.299284+00:00",
+  "elapsedSeconds": 82.30036246699999,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0003",
+  "taxonIds": [
+    52740,
+    169878,
+    48208,
+    54699,
+    636177,
+    563627,
+    338394,
+    486934,
+    120833,
+    353888
+  ],
+  "usage": {
+    "input_tokens": 13856,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2945,
+    "reasoning_output_tokens": 1687
+  },
+  "requestTextTokens": 6447,
+  "savedOutputTokens": 1252,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 52740,
+      "name": "Vaccinium corymbosum",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Deciduous shrub native to eastern Canada and the eastern and southern United States. It has glossy green leaves that turn brilliant red, orange, yellow or purple in autumn, and blue-black berries traditionally eaten in Native American cuisine where the plant grew naturally.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The berries were collected and eaten in Native American cuisine within the plant’s native range.",
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p4",
+            "s1:p7",
+            "s1:p18"
+          ],
+          "humanEdibility": [
+            "s1:p18"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 169878,
+      "name": "Tradescantia spathacea",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Herb native to Belize, Guatemala and southern Mexico. Its waxy leaves form dense rosettes, with dark or metallic green upper surfaces and glossy purple undersides. Small white flowers sit inside distinctive purple, boat-shaped bracts from spring to autumn.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 48208,
+      "name": "Clethra arborea",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Evergreen shrub or small tree native to Madeira, formerly present in the Canary Islands and introduced in the Azores. It has dense glossy foliage and fragrant white flowers resembling lily of the valley. The plant contains andromedotoxin and is toxic to humans.",
+        "humanEdibility": "no",
+        "edibilityNote": "The plant contains andromedotoxin and is toxic to humans, potentially causing diarrhoea or sudden death.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": [
+            "s1:p2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 54699,
+      "name": "Leptospermum scoparium",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering shrub or tree native to southeastern Australia and New Zealand. Its heavily branched stems carry small, evergreen, aromatic leaves whose colour varies by cultivar. Flowers are usually white or pink, though some cultivars have red or violet blooms.",
+        "humanEdibility": "yes",
+        "edibilityNote": "It is cultivated as a source for mānuka honey; no directly edible plant part is identified.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": [
+            "s1:p5"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 636177,
+      "name": "Fraxinus albicans",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Small deciduous tree native to North America, from eastern Texas and southern Oklahoma to Durango in Mexico. It grows naturally on dry, rocky slopes, often over limestone, and bears purple early-spring flowers on separate male and female trees.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 563627,
+      "name": "Aloe affinis",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering aloe endemic to Limpopo, Gauteng and Mpumalanga in South Africa. Each plant bears 16–20 leaves.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 338394,
+      "name": "Iris boissieri",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Iris native to Europe, mainly Spain and Portugal. It normally carries one blue-purple or deep-purple flower per stem in June, marked by a yellow or orange beard.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p9",
+            "s1:p10"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 486934,
+      "name": "Geranium lanuginosum",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant of Mediterranean distribution, native in mainland Portugal, where it was recorded only once in Peneda-Gerês in 1945. It is assessed as regionally extinct in Portugal after more than 70 years without another record and unsuccessful searches nearby.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p4",
+            "s1:p5",
+            "s2:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 120833,
+      "name": "Chamaecyparis formosensis",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Large conifer endemic to Taiwan’s central mountains. It is slow-growing and long-lived, with red-brown, stringy bark and foliage arranged in flat sprays. Its strongly scented, decay-resistant wood is highly valued, while habitat loss and excessive cutting threaten the species.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T08:58:42.998777+00:00",
+      "completedAt": "2026-09-14T09:00:05.299284+00:00",
+      "elapsedSeconds": 82.30036246699999,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 353888,
+      "name": "Westringia fruticosa",
+      "batchId": "batch-0003",
+      "usage": null,
+      "usageRef": "batch-0003-result.json",
+      "rawOutputFile": "batch-0003-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Shrub with no explicitly stated native origin, recorded near the coast in eastern Australia. Its white, hairy flowers have split upper petals and orange-to-purple spots below. It is notably tough and grows on cliffs beside the ocean.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

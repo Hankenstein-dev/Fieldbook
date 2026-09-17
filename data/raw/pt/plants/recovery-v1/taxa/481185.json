@@ -1,0 +1,32 @@
+{
+  "taxonId": 481185,
+  "name": "Polystichum neolobatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:50.248284+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Polystichum neolobatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Asian saber fern"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Polystichum+neolobatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Polystichum+neolobatum&limit=100",
+      "status": 200
+    }
+  ]
+}

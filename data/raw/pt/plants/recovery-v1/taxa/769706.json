@@ -1,0 +1,22 @@
+{
+  "taxonId": 769706,
+  "name": "Echium portosanctense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:54.443608+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Echium+portosanctense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Echium+portosanctense&limit=100",
+      "status": 200
+    }
+  ]
+}

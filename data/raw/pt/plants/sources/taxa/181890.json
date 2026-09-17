@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 181890,
+  "scientificName": "Beta macrocarpa",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 181890,
+    "scientificName": "Beta macrocarpa",
+    "commonName": "Large-fruited Beet",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://static.inaturalist.org/photos/38557240/medium.jpeg",
+      "attribution": "(c) mjcorreia, all rights reserved, uploaded by mjcorreia",
+      "license": "all-rights-reserved",
+      "sourceUrl": "https://www.inaturalist.org/photos/38557240"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 181890,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47366,
+        52327,
+        929252,
+        931352,
+        54499,
+        181890
+      ],
+      "is_active": true,
+      "name": "Beta macrocarpa",
+      "parent_id": 54499,
+      "ancestry": "48460/47126/211194/47125/47124/47366/52327/929252/931352/54499",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 38557240,
+        "license_code": null,
+        "attribution": "(c) mjcorreia, all rights reserved, uploaded by mjcorreia",
+        "url": "https://static.inaturalist.org/photos/38557240/square.jpeg",
+        "original_dimensions": {
+          "height": 1080,
+          "width": 1620
+        },
+        "flags": [],
+        "attribution_name": "mjcorreia",
+        "square_url": "https://static.inaturalist.org/photos/38557240/square.jpeg",
+        "medium_url": "https://static.inaturalist.org/photos/38557240/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 58,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Beta_macrocarpa",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Large-fruited Beet"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?lat=37.11181640625&lng=-8.59130859375&locale=en&page=14&per_page=200&radius=8.2",
+    "fetchedAt": "2026-09-09T18:03:31.778120+00:00",
+    "retainedFrom": "data/models/http/23a9473bbbbf39f84ea4544b4c1e4b40bca5e759795c4220dee317a3502fa14f.json",
+    "recordSha256": "8bfa4896c4146ede4cb128596a7a0fbe95875a231d3190f758e585425e141e3b"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Beta macrocarpa",
+      "title": "Beta macrocarpa",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/6367d604247a6c2d375fcfe8b74ca6676887b1a0a9026a31bfba06706450070d.json",
+      "url": "https://en.wikipedia.org/wiki/Beta_macrocarpa",
+      "revisionId": 1368070193,
+      "contentSha256": "a9175bcb46edf83251d203ce2b066ae98fc2e4adfe022b6dfdb35d9971263c98"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Beta macrocarpa",
+      "title": "Beta macrocarpa",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/6367d604247a6c2d375fcfe8b74ca6676887b1a0a9026a31bfba06706450070d.json",
+      "url": "https://pt.wikipedia.org/wiki/Beta_macrocarpa",
+      "revisionId": 60069773,
+      "contentSha256": "be7286136c8401990cb9c2c23740472e2418f4bbb0c0667b2ee6b60cd9d4d54e"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868955,
+      "canonicalName": "Beta macrocarpa",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868955",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868955.json",
+      "recordSha256": "cc9516edee39aee29166c07b593fca7dba1c97d62fca91cbe6ba65965defd131"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

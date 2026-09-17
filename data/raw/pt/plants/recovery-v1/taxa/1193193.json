@@ -1,0 +1,38 @@
+{
+  "taxonId": 1193193,
+  "name": "Merendera",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:46:23.166550+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3cb250f273f98105a9fa3b2de4837c1acfdf1b9c8c5ebe8dfedb650f1c1a6b8a.json",
+      "title": "Colchicum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/992031171c09dc9251611831f01ce4bf32bd29476bc8a9d6b6eb70ecc6bb8b75.json",
+      "title": "Colchicum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/3cb250f273f98105a9fa3b2de4837c1acfdf1b9c8c5ebe8dfedb650f1c1a6b8a.json",
+      "title": "Merendera",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Merendera&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Merendera&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "taxonId": 77136,
+    "scientificName": "Festuca bromoides",
+    "commonName": "brome fescue",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Vulpia bromoides",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Vulpia bromoides, squirreltail fescue,{{rp|170–171}} barren fescue{{rp|450}} or brome fescue, is a species of grass in the family Poaceae. It is a winter annual native to Europe, North Africa, and West Asia, but has been introduced to parts of the America, South Africa, Australia, New Zealand and isolated parts of East Asia."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Flora-On — Vulpia bromoides",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Flora-On botanical account for Vulpia bromoides. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s2:p2",
+            "text": "Ecologia Prados e pastagens secas, bermas de caminhos."
+          },
+          {
+            "id": "s2:p3",
+            "text": "Distância ao mar (n=80)"
+          },
+          {
+            "id": "s2:p4",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          },
+          {
+            "id": "s2:p5",
+            "text": "Espécies com distribuição semelhante Clinopodium vulgare , Hypochaeris radicata , Andryala integrifolia , Plantago lanceolata , Agrostis castellana , Umbilicus rupestris , Cytisus striatus ver todas"
+          },
+          {
+            "id": "s2:p6",
+            "text": "Tipo biológico Terófito"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Requested name explicitly listed as synonym; same-epithet genus transfer, not broader species lumping",
+      "path": "data/raw/pt/plants/sources/articles/en/5e5b7dcfe6825d5e0eb657d90bf6f2b5f60c7ca88467d57217a3c3ae5b804ae6.json",
+      "sha256": "116b1290985c4a97c4b6f9ee7cf7cf184661840b221e2aeaac6b2210ee1abba3",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1332028088",
+      "revisionId": 1332028088,
+      "credit": {
+        "title": "Vulpia bromoides",
+        "url": "https://en.wikipedia.org/wiki/Vulpia_bromoides",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1332028088",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/77136.json",
+      "sha256": "426a2c2563827d7a4e064434eea716d87f838daf3bea011e71af4897c0d4413f",
+      "url": "https://flora-on.pt/?q=Vulpia+bromoides",
+      "credit": {
+        "title": "Flora-On — Vulpia bromoides",
+        "url": "https://flora-on.pt/?q=Vulpia+bromoides",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 77136,
+    "name": "Festuca bromoides",
+    "language": "en,pt",
+    "sourceTextTokens": 223,
+    "packetTokens": 406,
+    "standaloneInputTextTokens": 858,
+    "packetSha256": "145cefdaf90f1bfce37dfc2c56763d93f6b9f08fbb61fdee67444041b427e390"
+  }
+}

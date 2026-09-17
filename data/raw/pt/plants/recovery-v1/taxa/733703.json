@@ -1,0 +1,32 @@
+{
+  "taxonId": 733703,
+  "name": "Leucospermum glabrum × tottum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:43:47.481236+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Leucospermum glabrum × tottum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Scarlet Ribbon"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Leucospermum+glabrum+%C3%97+tottum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Leucospermum+glabrum+%C3%97+tottum&limit=100",
+      "status": 200
+    }
+  ]
+}

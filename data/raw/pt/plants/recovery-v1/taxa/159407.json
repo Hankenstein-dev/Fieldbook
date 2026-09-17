@@ -1,0 +1,55 @@
+{
+  "taxonId": 159407,
+  "name": "Brachythecium rutabulum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:39.107780+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Brachythecium rutabulum (Hedw.) Schimp.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882): Atlas; Kabylie. Bescherelle (1882), Jelenc (1955 a): Bône; Édough; La Calle. Gandoger (1883), Trabut (1888): sine loco. Litschauer (1904), Jelenc (1955 a): Fort National, 1000 m; Im Tal des Qued-Kebir bei Blidah, 200 m. Corbière (1905): Environs de Constantine, djebel Ouach; Environs de Constantine, Les Pins; Environs de Constantine, Menidj; Environs de Constantine, route du Séminarie. Jelenc (1955 a): Alger, La Bouzaréa; Constantine; Kabylie du Djurdjura, Akfadou; Kabylie du Djurdjura, Tizi Ouzou. Boukhatem et al. (2017): El-Kala National Park, Tonga lake watershed. Mazari & Boulaacheb (2023): Setif, Megriss Mountain. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098153.json",
+      "sha256": "e48b68c30ae426b90363c4d67ec6be787e4c296bc42c8e64b2fd9254559d9fc9",
+      "url": "https://api.gbif.org/v1/species/251098153",
+      "credit": {
+        "title": "Brachythecium rutabulum (Hedw.) Schimp.",
+        "url": "https://www.gbif.org/species/251098153",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/1056d109ab5f77d9371bdf856a2eea6e2fffb6311292ae14fae82cfee7e5a644.json",
+      "title": "Gemeines Kurzbüchsenmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Brachythecium rutabulum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rough-stalked Feather-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Brachythecium+rutabulum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Brachythecium+rutabulum&limit=100",
+      "status": 200
+    }
+  ]
+}

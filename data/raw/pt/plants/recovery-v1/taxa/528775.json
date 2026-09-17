@@ -1,0 +1,38 @@
+{
+  "taxonId": 528775,
+  "name": "Dimorphotheca nudicaulis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:49.378013+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/6e799ccff034932873693d7e74146b617755235ee35b40dbf9e7275843a9aece.json",
+      "title": "Dimorphotheca nudicaulis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dimorphotheca nudicaulis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "African oxeye"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dimorphotheca+nudicaulis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dimorphotheca+nudicaulis&limit=100",
+      "status": 200
+    }
+  ]
+}

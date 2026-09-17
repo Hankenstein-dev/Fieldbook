@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "method": "Subscription subagent comparison; identical prompt and evidence, ten plants per isolated agent. No model API billing telemetry. Not a ten-independent-API-requests simulation.",
+  "prompt": "config/plant-content-prompt-v1.txt",
+  "promptSha256": "d13112c1beab2cd5e212d6dc77b65dd50e91c16a84a36d4b810d229e2a8de328",
+  "taxonIds": [
+    82689,
+    50868,
+    49322,
+    53169,
+    83816,
+    450279,
+    53717,
+    336677,
+    481305,
+    548146
+  ],
+  "variants": [
+    {
+      "id": "luna-low",
+      "model": "gpt-5.6-luna",
+      "reasoning": "low"
+    },
+    {
+      "id": "luna-high",
+      "model": "gpt-5.6-luna",
+      "reasoning": "high"
+    },
+    {
+      "id": "terra-low",
+      "model": "gpt-5.6-terra",
+      "reasoning": "low"
+    },
+    {
+      "id": "terra-high",
+      "model": "gpt-5.6-terra",
+      "reasoning": "high"
+    },
+    {
+      "id": "sol-high",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high"
+    },
+    {
+      "id": "astra-max",
+      "model": "gpt-6-astra",
+      "reasoning": "max"
+    }
+  ]
+}

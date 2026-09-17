@@ -1,0 +1,33 @@
+{
+  "taxonId": 1230244,
+  "name": "Ornithogalum",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:46:36.783466+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/273c22e476f85d57469521cc608eaa10ad5abb58b4065296eef69f6e076174ae.json",
+      "title": "Ornithogalum",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/273c22e476f85d57469521cc608eaa10ad5abb58b4065296eef69f6e076174ae.json",
+      "title": "Ornithogalum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ornithogalum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ornithogalum&limit=100",
+      "status": 200
+    }
+  ]
+}

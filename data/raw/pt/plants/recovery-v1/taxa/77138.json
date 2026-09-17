@@ -1,0 +1,38 @@
+{
+  "taxonId": 77138,
+  "name": "Festuca microstachys",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:48.203701+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/db8c7c26f06b434c3b4b729873d3baad1f30770f1937a0afbf06e38036559786.json",
+      "title": "Vulpia microstachys",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Festuca microstachys"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "small fescue"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+microstachys&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+microstachys&limit=100",
+      "status": 200
+    }
+  ]
+}

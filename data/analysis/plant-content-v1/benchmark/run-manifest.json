@@ -1,0 +1,59 @@
+{
+  "completedAt": "2026-09-12T18:21:06.203363+00:00",
+  "method": "Subscription subagent comparison; identical prompt and evidence, ten plants per isolated agent. No model API billing telemetry. Not a ten-independent-API-requests simulation.",
+  "promptSha256": "d13112c1beab2cd5e212d6dc77b65dd50e91c16a84a36d4b810d229e2a8de328",
+  "variants": [
+    {
+      "id": "luna-low",
+      "model": "gpt-5.6-luna",
+      "reasoning": "low"
+    },
+    {
+      "id": "luna-high",
+      "model": "gpt-5.6-luna",
+      "reasoning": "high"
+    },
+    {
+      "id": "terra-low",
+      "model": "gpt-5.6-terra",
+      "reasoning": "low"
+    },
+    {
+      "id": "terra-high",
+      "model": "gpt-5.6-terra",
+      "reasoning": "high"
+    },
+    {
+      "id": "sol-high",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high"
+    },
+    {
+      "id": "astra-max",
+      "model": "gpt-6-astra",
+      "reasoning": "max"
+    }
+  ],
+  "inputSha256": {
+    "82689": "10a64ca42a76b36a549b9d41d4be71fb81a919d69513f30cc4c26e58670b67be",
+    "50868": "e29263b9d627532f4eeff139e6a9cbd33cab2a3cec2f0a676ee00d97bbd02396",
+    "49322": "d3ab4dcb04a2cd8c1221e133a003f72c51f87b37f14007507a1a5941387b546d",
+    "53169": "69dda37ba6b7b24338938bd00731c9c660ac3dbcce94f5c9d338cdaf0c9d7f71",
+    "83816": "812f71aefe116cc8efc957853418cd469b29a1fbc57b1445d9215a36081c20ec",
+    "450279": "83f58cc7a95f3b6597e643225ca1e5e514b93810f80b2a198d5a72c30c34058c",
+    "53717": "ceafce07a4cfaf6338991fbd5d751ae991f8a3f3d24203ea25fcf04dcb184a40",
+    "336677": "89aa9a5317f3858a67c73768e5fd7d5f8713dcbd909fb6162aff7258596734bd",
+    "481305": "8ece0481316b6c40e4bcb4ea522c4cce699f4dd42ec6bbe0e6556b1ec3b12f3b",
+    "548146": "632d06bae85359828d2bf99f788982ae3f540f8f074d0d9273d31c4bef1f2ecd"
+  },
+  "outputSha256": {
+    "luna-low": "8a10f54f49af02ec41cd512890a8c7484d52abcfceee0f539d9fa229ba27d9de",
+    "luna-high": "83980467e4cebfaed58e35774424d0a29228f3d1a51563fddbfe659c7ef716fa",
+    "terra-low": "096004f7df18abc67068b7f46d7106876ce05f790c6a2fa7dce3d67e5bb71a78",
+    "terra-high": "b8c48686bd3f4da940bc0173905bd3168e6e320ce5de364cc2ed85f7739500b4",
+    "sol-high": "b120733069cd0f0f964606c791c5b3205a5c2ee8e1bc52ea13d2a3e911884c13",
+    "astra-max": "34a30b73c7cd5db39e478c3cc8350a571c951d6bae4595d74ab321103235dd10"
+  },
+  "apiCalls": 0,
+  "apiUsageTelemetry": null
+}

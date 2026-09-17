@@ -1,0 +1,71 @@
+{
+  "taxonId": 1123491,
+  "name": "Pulvigera lyellii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:57.166821+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Pulvigera lyellii (Hook. & Taylor) Plášek, Sawicki & Ochyra",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882): Atlas, troncs d’arbres; Bouzazi. Bescherelle (1882), Jelenc (1955 a): Kabylie du Djurdjura, Tizi Ouzou; La Calle. Corbière (1889): Blida, forêt des Beni-Salah, 1500 m. Corbière (1905): Environs de Constantine, djebel Ouach. Lapie (1909): Kabylie du Djurdjura, Beni Khalfoun. Jelenc (1949, 1967): Monts de Tlemcen, forêts de Zariflet et d’Hafir, 1000 - 1400 m. Jelenc (1955 a): Kabylie de Collo, djebel Goufi; Kabylie du Djurdjura, Aït Daoud; Monts de Constantine; Téniet el Had. Ahayoun et al. (2007): Djebel Bonti, Collo. Boukhatem et al. (2017): El-Kala National Park, Tonga lake watershed. Mazari & Boulaacheb (2023): Setif, Megriss Mountain. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/11081927.json",
+      "sha256": "31a25c62a5446dbd4b774f37fa1aa6e9df8f1e7ede7c3b08fc9f4f04070ee596",
+      "url": "https://api.gbif.org/v1/species/11081927",
+      "credit": {
+        "title": "Pulvigera lyellii (Hook. & Taylor) Plášek, Sawicki & Ochyra",
+        "url": "https://www.gbif.org/species/11081927",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Pulvigera lyellii (Hook. & Taylor) Plasek, Sawicki & Ochyra",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882): Atlas, troncs d’arbres; Bouzazi. Bescherelle (1882), Jelenc (1955 a): Kabylie du Djurdjura, Tizi Ouzou; La Calle. Corbière (1889): Blida, forêt des Beni-Salah, 1500 m. Corbière (1905): Environs de Constantine, djebel Ouach. Lapie (1909): Kabylie du Djurdjura, Beni Khalfoun. Jelenc (1949, 1967): Monts de Tlemcen, forêts de Zariflet et d’Hafir, 1000 - 1400 m. Jelenc (1955 a): Kabylie de Collo, djebel Goufi; Kabylie du Djurdjura, Aït Daoud; Monts de Constantine; Téniet el Had. Ahayoun et al. (2007): Djebel Bonti, Collo. Boukhatem et al. (2017): El-Kala National Park, Tonga lake watershed. Mazari & Boulaacheb (2023): Setif, Megriss Mountain. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098227.json",
+      "sha256": "f9366a9caeacbfc8a12ea1d7c95f00f68c03f2fac6e442c4689174eebb07d327",
+      "url": "https://api.gbif.org/v1/species/251098227",
+      "credit": {
+        "title": "Pulvigera lyellii (Hook. & Taylor) Plasek, Sawicki & Ochyra",
+        "url": "https://www.gbif.org/species/251098227",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/afea20aadb69fbc7b57e3434ec165d82d9be7398b239d09a6180d55af948f0c8.json",
+      "title": "Orthotrichum lyellii",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pulvigera lyellii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lyell's Bristle-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pulvigera+lyellii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pulvigera+lyellii&limit=100",
+      "status": 200
+    }
+  ]
+}

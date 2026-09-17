@@ -1,0 +1,38 @@
+{
+  "taxonId": 1442036,
+  "name": "Tacsonia",
+  "rank": "subgenus",
+  "completedAt": "2026-09-15T07:47:33.962017+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d8db317c1e18a36a46ab17fcbd56e610973ccbc07e3918c94d795992168b70cf.json",
+      "title": "Banana passionfruit",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Tacsonia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "banana passion fruit"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tacsonia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tacsonia&limit=100",
+      "status": 200
+    }
+  ]
+}

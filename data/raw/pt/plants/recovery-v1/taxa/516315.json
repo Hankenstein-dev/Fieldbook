@@ -1,0 +1,42 @@
+{
+  "taxonId": 516315,
+  "name": "Daucus setifolius",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:43.255629+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Daucus setifolius",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Daucus setifolius''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Umbellales]]\n| família = [[Apiaceae]]\n| género = ''[[Daucus]]''\n| espécie = '''''D. setifolius'''''\n| binomial = ''Daucus setifolius''\n| binomial_autoridade = Desf.\n}}\nDaucus setifolius é uma espécie de planta com flor pertencente à família Apiaceae. \n\nA autoridade científica da espécie é Desf., tendo sido publicada em Flora Atlantica 1: 244, t. 65. 1798.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/90604a0840aeb2195ee54b937c0cef99a1b0d6d474c3bfb2df571ff2e0c113fa.json",
+      "sha256": "755c740022805c81a80c9bc0093ec9fe1482f196096861104ac93372e0a9c64f",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54762617",
+      "revisionId": 54762617,
+      "credit": {
+        "title": "Daucus setifolius",
+        "url": "https://pt.wikipedia.org/wiki/Daucus_setifolius",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54762617",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Daucus+setifolius&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Daucus+setifolius&limit=100",
+      "status": 200
+    }
+  ]
+}

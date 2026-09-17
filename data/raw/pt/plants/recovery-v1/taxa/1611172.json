@@ -1,0 +1,38 @@
+{
+  "taxonId": 1611172,
+  "name": "Ophrys bilunulata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:43.691058+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/4981709d4f01bcbe5df0e56fcea3b5c40a119054d5c0ca8b49b1991a3b054a16.json",
+      "title": "Ophrys fusca",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ophrys bilunulata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Marble Bee-Orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ophrys+bilunulata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ophrys+bilunulata&limit=100",
+      "status": 200
+    }
+  ]
+}

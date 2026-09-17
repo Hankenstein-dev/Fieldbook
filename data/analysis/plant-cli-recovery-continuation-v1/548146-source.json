@@ -1,0 +1,83 @@
+{
+  "input": {
+    "taxonId": 548146,
+    "scientificName": "Cistus umbellatus",
+    "commonName": "Cistus umbellatus",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cistus umbellatus L.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Habitat in Gallia, Hispania. ♄"
+          },
+          {
+            "id": "s1:p2",
+            "text": "10. Cistus suffruticosus procumbens exstipulatus, foliis oppositis, floribus umbellatis. Cistus foliis linearibus non stipulatis, caule florali umbellato lignoso. Guett. stamp. 2. p. 180. Dalib. paris. 158. Cistus Ledon foliis thymi. Bauh. pin. 467. Ledon X. Clus. hist. 1. p. 81."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Cistus umbellatus L. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Cistus umbellatus L.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is W. Medit. S. Greece, Lebanon. It is a subshrub and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3595105.json",
+      "sha256": "b94c7e67947668ba95f7dcb6d5eafb17b6a0f8c40a1585affda9c12530760e93",
+      "url": "https://api.gbif.org/v1/species/3595105",
+      "credit": {
+        "title": "Cistus umbellatus L.",
+        "url": "https://www.gbif.org/species/3595105",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/548146-5e67f410cfb0d992.json",
+      "sha256": "5e67f410cfb0d9925de3958ca33619556dba7ad303113eb3419ecbe26b9ed1df",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A168528-1",
+      "credit": {
+        "title": "Cistus umbellatus L. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A168528-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 548146,
+    "name": "Cistus umbellatus",
+    "language": "unspecified,en",
+    "sourceTextTokens": 162,
+    "packetTokens": 317,
+    "standaloneInputTextTokens": 769,
+    "packetSha256": "0848b90c949662c67941b1db834eedc83355e9b6e261ab260a2e8418a95f524a"
+  }
+}

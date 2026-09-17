@@ -1,0 +1,55 @@
+{
+  "taxonId": 405718,
+  "name": "Riccia ciliata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:52.736824+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riccia ciliata Hoffm.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "terrestrial\n\nshortlived\n\nplant\n\npioneer vegetations\n\nnon cuddly\n\nmobile\n\nmesotrophic\n\nRECORDS. — Stephani (1885), Jovet-Ast (1986), Bischler (2004): sine loco. Trabut (1941), Jelenc (1955 a): Beni Khalfoum; Bône; Oran; Tiaret; Tlemcen. Trabut (1941), Jelenc (1955 a), Chevassut & Quézel (1956): Réghaia. Jelenc (1955 a): Ouarsenis, Téniet el Had; Rouiba; Saint Eugène; Tiguermount. Chevassut & Quézel (1956): Forêt de Pins d’Alep de Saint-Ferdinand. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7958926.json",
+      "sha256": "e1e4cb4b3d1a5ff69beab8ba9f75f2b9ceb2e6938c90c62dd6fc6137b2312e7a",
+      "url": "https://api.gbif.org/v1/species/7958926",
+      "credit": {
+        "title": "Riccia ciliata Hoffm.",
+        "url": "https://www.gbif.org/species/7958926",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Riccia ciliata Hoffm.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Stephani (1885), Jovet-Ast (1986), Bischler (2004): sine loco. Trabut (1941), Jelenc (1955 a): Beni Khalfoum; Bône; Oran; Tiaret; Tlemcen. Trabut (1941), Jelenc (1955 a), Chevassut & Quézel (1956): Réghaia. Jelenc (1955 a): Ouarsenis, Téniet el Had; Rouiba; Saint Eugène; Tiguermount. Chevassut & Quézel (1956): Forêt de Pins d’Alep de Saint-Ferdinand. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098628.json",
+      "sha256": "3a8be6445a8d3ca672906ecc23ef50fa919625e8c342a06187cd21c2f0ed4bb8",
+      "url": "https://api.gbif.org/v1/species/251098628",
+      "credit": {
+        "title": "Riccia ciliata Hoffm.",
+        "url": "https://www.gbif.org/species/251098628",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riccia+ciliata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riccia+ciliata&limit=100",
+      "status": 200
+    }
+  ]
+}

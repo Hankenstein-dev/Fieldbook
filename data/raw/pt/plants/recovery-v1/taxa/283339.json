@@ -1,0 +1,58 @@
+{
+  "taxonId": 283339,
+  "name": "Billbergia pallidiflora",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:54.577738+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Billbergia pallidiflora",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Billbergia pallidiflora is a species of flowering plant in the family Bromeliaceae. This species is native to Central America (Guatemala, El Salvador, Honduras, Nicaragua) and western Mexico (as far north as Sinaloa).",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/8e8b3131cac0ae1d2dcda1ccb5ac66ad25c942cfc1f94300bf35671b3f026663.json",
+      "sha256": "f0d70bc940ca2e5916e380f616451c9ac5ef2319339a64041261ea38860b8780",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1161610699",
+      "revisionId": 1161610699,
+      "credit": {
+        "title": "Billbergia pallidiflora",
+        "url": "https://en.wikipedia.org/wiki/Billbergia_pallidiflora",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1161610699",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Billbergia pallidiflora Liebmann",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Billbergia pallidiflora is a species of flowering plant in the family Bromeliaceae. This species is native to Central America (Guatemala, El Salvador, Honduras, Nicaragua) and western Mexico (as far north as Sinaloa).Pulido-Esparza, V.A., López-Ferrari, A.R. & Espejo-Serna, A. (2004). Flora Bromeliológia del estado de Guerrero, México: riqueza y distribución. Boletin de la Sociedad Botanica de México 75: 55-104.Espejo-Serna, A., López-Ferrari, A.R., Martínez-Correa, N. & Pulido-Esparza, V.A. (2007). Bromeliad flora of Oaxaca, Mexico: richness and distribution. Acta Botanica Mexicana 81: 71-147. Instituto de Ecología A.C..Nelson Sutherland, C.H. (2008). Catálogo de las plantes vasculares de Honduras. Espermatofitas: 1-1576. SERNA/Guaymuras, Tegucigalpa, Honduras.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165587409.json",
+      "sha256": "c1f4726f8138fa97206d4f7b706531389ebc543fabfc2cda2b97ef90d9a09446",
+      "url": "https://api.gbif.org/v1/species/165587409",
+      "credit": {
+        "title": "Billbergia pallidiflora Liebmann",
+        "url": "https://www.gbif.org/species/165587409",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Billbergia+pallidiflora&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Billbergia+pallidiflora&limit=100",
+      "status": 200
+    }
+  ]
+}

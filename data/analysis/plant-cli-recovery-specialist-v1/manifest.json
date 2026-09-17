@@ -1,0 +1,2146 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "count": 185,
+  "taxonIds": [
+    60234,
+    68290,
+    76294,
+    76620,
+    76822,
+    77138,
+    77239,
+    78378,
+    81793,
+    117801,
+    118814,
+    119295,
+    119541,
+    123577,
+    128572,
+    128801,
+    128802,
+    135409,
+    140364,
+    140505,
+    141381,
+    158090,
+    161873,
+    163712,
+    165862,
+    165998,
+    166093,
+    166958,
+    167299,
+    167597,
+    167676,
+    167679,
+    167681,
+    167927,
+    167978,
+    168497,
+    170285,
+    183054,
+    189479,
+    204379,
+    211188,
+    273754,
+    275804,
+    275987,
+    280348,
+    281120,
+    282763,
+    282773,
+    282845,
+    285312,
+    285553,
+    286991,
+    288654,
+    288695,
+    290750,
+    323026,
+    323425,
+    334203,
+    340077,
+    340354,
+    343403,
+    344257,
+    345393,
+    371528,
+    372718,
+    404157,
+    405402,
+    405619,
+    405726,
+    418548,
+    424481,
+    426108,
+    426408,
+    431288,
+    431617,
+    436598,
+    436602,
+    448567,
+    461281,
+    461288,
+    465291,
+    467267,
+    483248,
+    485606,
+    486109,
+    486276,
+    487244,
+    492828,
+    493110,
+    496075,
+    498751,
+    508221,
+    516100,
+    522183,
+    533158,
+    542827,
+    543094,
+    564872,
+    569319,
+    569865,
+    574852,
+    582804,
+    582956,
+    583575,
+    584239,
+    588996,
+    592834,
+    594187,
+    595521,
+    602447,
+    606234,
+    632490,
+    632491,
+    639653,
+    705307,
+    706346,
+    706353,
+    713204,
+    715209,
+    747501,
+    770218,
+    773014,
+    774366,
+    777721,
+    784685,
+    785895,
+    792545,
+    836902,
+    850360,
+    850434,
+    850962,
+    859218,
+    861350,
+    886557,
+    888366,
+    895239,
+    900882,
+    925605,
+    947945,
+    976085,
+    977758,
+    977762,
+    986562,
+    1007747,
+    1008575,
+    1010195,
+    1022911,
+    1027509,
+    1034347,
+    1044281,
+    1045699,
+    1065314,
+    1075724,
+    1075879,
+    1117846,
+    1130355,
+    1130922,
+    1149047,
+    1149077,
+    1149084,
+    1150892,
+    1187218,
+    1193953,
+    1197114,
+    1197768,
+    1252712,
+    1269740,
+    1273645,
+    1279259,
+    1405692,
+    1406669,
+    1411959,
+    1448449,
+    1468330,
+    1474090,
+    1501552,
+    1526151,
+    1529458,
+    1538932,
+    1540163,
+    1553405,
+    1562069,
+    1632151,
+    1642817,
+    1683702
+  ],
+  "batchSize": 10,
+  "timeoutSeconds": 300,
+  "promptSha256": "f8783051f00b663918ee82690a2413f4356dc634c28889ed58bc3f316caa3032",
+  "preparedAt": "2026-09-15T17:06:48.153364+00:00",
+  "purpose": "Recover actual blank cards and explicitly selected source-enriched short cards; all supplied ranks",
+  "taxa": [
+    {
+      "taxonId": 60234,
+      "name": "Samolus parviflorus",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 159,
+      "standaloneInputTextTokens": 611,
+      "packetSha256": "ee92db4e35ea41e83dced713f459e45dce12e7a8157f55dca360a78edf3d3278"
+    },
+    {
+      "taxonId": 68290,
+      "name": "Polytrichum formosum",
+      "language": "en",
+      "sourceTextTokens": 240,
+      "packetTokens": 358,
+      "standaloneInputTextTokens": 810,
+      "packetSha256": "1caa607b51cbdd4f24a560fbc90ff5534624b72a71f172a39b2d6bd39a3696cb"
+    },
+    {
+      "taxonId": 76294,
+      "name": "Chloris verticillata",
+      "language": "en",
+      "sourceTextTokens": 45,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "06fe62d1fd0a7598fc35e420d23f71288da060172142324c7a096453c8e6f252"
+    },
+    {
+      "taxonId": 76620,
+      "name": "Delosperma litorale",
+      "language": "cs",
+      "sourceTextTokens": 350,
+      "packetTokens": 477,
+      "standaloneInputTextTokens": 929,
+      "packetSha256": "d29e38ae54d0cb68c2e2622a1a3a19b02216330a184abd8a52eced4432764950"
+    },
+    {
+      "taxonId": 76822,
+      "name": "Ephedra foeminea",
+      "language": "en",
+      "sourceTextTokens": 46,
+      "packetTokens": 152,
+      "standaloneInputTextTokens": 604,
+      "packetSha256": "578c927f5dba9b97890d6131d1d1119350aacef6d49642cda35bb18d03b48900"
+    },
+    {
+      "taxonId": 77138,
+      "name": "Festuca microstachys",
+      "language": "en",
+      "sourceTextTokens": 48,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "154f289ba499e8f983002ae4c8ff46419f8a72e204b772e6e5b88a46abc6e8bd"
+    },
+    {
+      "taxonId": 77239,
+      "name": "Genista maderensis",
+      "language": "en",
+      "sourceTextTokens": 43,
+      "packetTokens": 150,
+      "standaloneInputTextTokens": 602,
+      "packetSha256": "e5324faba6cbb4292eb69f1283d7a8760e3fa0c4ed04bff68e87c9b27193cc95"
+    },
+    {
+      "taxonId": 78378,
+      "name": "Pelargonium panduriforme",
+      "language": "en",
+      "sourceTextTokens": 47,
+      "packetTokens": 160,
+      "standaloneInputTextTokens": 612,
+      "packetSha256": "69d7d57bafaddefe0a4410e18eabda34c5ffc9d211d1f92416e0b3ec72121dee"
+    },
+    {
+      "taxonId": 81793,
+      "name": "Glandularia canadensis",
+      "language": "en",
+      "sourceTextTokens": 48,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "9054a8825e23dc5371d4db3516549ab9488ba6e2c1bd7f1350e25d43f6070e7e"
+    },
+    {
+      "taxonId": 117801,
+      "name": "Gelidium pusillum",
+      "language": "en",
+      "sourceTextTokens": 253,
+      "packetTokens": 386,
+      "standaloneInputTextTokens": 838,
+      "packetSha256": "dc6f123e411195f54e423d336db083afd482f7b88b1a8de9fd78fc885c024c8f"
+    },
+    {
+      "taxonId": 118814,
+      "name": "Atriplex portulacoides",
+      "language": "en",
+      "sourceTextTokens": 48,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "7049a5614b21dd02316576c90a49784d1756ee5072cd84f303fd3c10d0338b88"
+    },
+    {
+      "taxonId": 119295,
+      "name": "Cyanotis tuberosa",
+      "language": "en,en",
+      "sourceTextTokens": 74,
+      "packetTokens": 232,
+      "standaloneInputTextTokens": 684,
+      "packetSha256": "280739ad6205fe4abe4cd16c280f2490b7c876f66a8693af7403a00aa4a725f2"
+    },
+    {
+      "taxonId": 119541,
+      "name": "Pelargonium fulgidum",
+      "language": "en,en",
+      "sourceTextTokens": 383,
+      "packetTokens": 591,
+      "standaloneInputTextTokens": 1043,
+      "packetSha256": "094735edf4710209789d0a7ec4d07ebc96d4f8ee36ff1a0b88b72ff566e25f86"
+    },
+    {
+      "taxonId": 123577,
+      "name": "Monochaetum vulcanicum",
+      "language": "sv,cs",
+      "sourceTextTokens": 573,
+      "packetTokens": 787,
+      "standaloneInputTextTokens": 1239,
+      "packetSha256": "9036b4c3d2b1e553979fb9aac15db718190a49c65f002427b9d208ee7fbcc30a"
+    },
+    {
+      "taxonId": 128572,
+      "name": "Anacolia menziesii",
+      "language": "sv",
+      "sourceTextTokens": 89,
+      "packetTokens": 209,
+      "standaloneInputTextTokens": 661,
+      "packetSha256": "7917b873713a36194c34320bc60e30a924c9948258ff5d48bebc4fcd3032591e"
+    },
+    {
+      "taxonId": 128801,
+      "name": "Scorpiurium circinatum",
+      "language": "uk,en",
+      "sourceTextTokens": 341,
+      "packetTokens": 566,
+      "standaloneInputTextTokens": 1018,
+      "packetSha256": "0c2be78cb53567ecb2773d21f03fe3158e603b801e31f831c7bb448d69154696"
+    },
+    {
+      "taxonId": 128802,
+      "name": "Scorpiurium",
+      "language": "uk",
+      "sourceTextTokens": 125,
+      "packetTokens": 239,
+      "standaloneInputTextTokens": 691,
+      "packetSha256": "3c388a9b1b7a80d02156c6e839d1502ca58eb572495bcecc128b554db4a557fc"
+    },
+    {
+      "taxonId": 135409,
+      "name": "Photinia nussia",
+      "language": "en",
+      "sourceTextTokens": 120,
+      "packetTokens": 226,
+      "standaloneInputTextTokens": 678,
+      "packetSha256": "b9f3b76d196507805fca8348aa8ef33cae2673b0948bb46dbfb9c6bb038d91f9"
+    },
+    {
+      "taxonId": 140364,
+      "name": "Trichoglottis smithii",
+      "language": "sv,en",
+      "sourceTextTokens": 121,
+      "packetTokens": 291,
+      "standaloneInputTextTokens": 743,
+      "packetSha256": "ba74e37b1e08f000430b440e9fe5bf897a7daf5763d8d0488641775821b23ec6"
+    },
+    {
+      "taxonId": 140505,
+      "name": "Oncidium tigrinum",
+      "language": "sv,en",
+      "sourceTextTokens": 128,
+      "packetTokens": 305,
+      "standaloneInputTextTokens": 757,
+      "packetSha256": "c46dfe2f5917a0c932677f66ee371183122fb2af861e751781b8194b0fccc1ef"
+    },
+    {
+      "taxonId": 141381,
+      "name": "Chamaedorea pochutlensis",
+      "language": "sv,en",
+      "sourceTextTokens": 125,
+      "packetTokens": 301,
+      "standaloneInputTextTokens": 753,
+      "packetSha256": "89cb82a0742e8bcbc0bfdf99eea40bcede3da7bd83f7703b2824a96a41a49d67"
+    },
+    {
+      "taxonId": 158090,
+      "name": "Agave desmetiana",
+      "language": "en",
+      "sourceTextTokens": 201,
+      "packetTokens": 333,
+      "standaloneInputTextTokens": 785,
+      "packetSha256": "1a0293845805c8e765c34a9e811d837b1a3bf587322c2308ccb90b6682ec96b6"
+    },
+    {
+      "taxonId": 161873,
+      "name": "Dicranum undulatum",
+      "language": "en",
+      "sourceTextTokens": 187,
+      "packetTokens": 313,
+      "standaloneInputTextTokens": 765,
+      "packetSha256": "00c0af46583ea6d819ca8ec801c592ea5144a41e5c38c08d95f5c17e9ae54f19"
+    },
+    {
+      "taxonId": 163712,
+      "name": "Heterocentron subtriplinervium",
+      "language": "en",
+      "sourceTextTokens": 64,
+      "packetTokens": 188,
+      "standaloneInputTextTokens": 640,
+      "packetSha256": "546dea30002d7fd0dbd93dcd88622279f7e24d174d993981593dfbfc965be9fa"
+    },
+    {
+      "taxonId": 165862,
+      "name": "Ophiopogon jaburan",
+      "language": "sv,en",
+      "sourceTextTokens": 620,
+      "packetTokens": 853,
+      "standaloneInputTextTokens": 1305,
+      "packetSha256": "7463fb2ae6ff7ef98ff1384562552cae6279b75595ee07671ea66fd11074e2e7"
+    },
+    {
+      "taxonId": 165998,
+      "name": "Oxymitra incrassata",
+      "language": "sv",
+      "sourceTextTokens": 93,
+      "packetTokens": 199,
+      "standaloneInputTextTokens": 651,
+      "packetSha256": "91dbb38ce5c2a586d2b41b122edcd7c9c0a570bb0e532d152938ba06011ee199"
+    },
+    {
+      "taxonId": 166093,
+      "name": "Panicum philadelphicum",
+      "language": "id,en",
+      "sourceTextTokens": 127,
+      "packetTokens": 295,
+      "standaloneInputTextTokens": 747,
+      "packetSha256": "4e62952d0204415e4243f62e9e79aea1f04eeea69e3d67983e886544c68dce0c"
+    },
+    {
+      "taxonId": 166958,
+      "name": "Plagiochasma rupestre",
+      "language": "sv,cs",
+      "sourceTextTokens": 402,
+      "packetTokens": 616,
+      "standaloneInputTextTokens": 1068,
+      "packetSha256": "b8724500d6802e72597f1d926aa46006e15cf1c9fa4c935843853f1118ac5163"
+    },
+    {
+      "taxonId": 167299,
+      "name": "Porella pinnata",
+      "language": "sv",
+      "sourceTextTokens": 70,
+      "packetTokens": 174,
+      "standaloneInputTextTokens": 626,
+      "packetSha256": "e51fd41653a6abc6713b1174c2dc2cd04537c2a0af9d727c561d470797dfd4a6"
+    },
+    {
+      "taxonId": 167597,
+      "name": "Pulicaria arabica",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 159,
+      "standaloneInputTextTokens": 611,
+      "packetSha256": "cefd452f30048bda0fd69c5a3603993571f790823443d0a3bc8dcee946d25262"
+    },
+    {
+      "taxonId": 167676,
+      "name": "Racomitrium aquaticum",
+      "language": "sv",
+      "sourceTextTokens": 95,
+      "packetTokens": 212,
+      "standaloneInputTextTokens": 664,
+      "packetSha256": "3b6112ba25ce055a4422d1978d8a8cbf27299605ec02c9ff1707db5e19837dba"
+    },
+    {
+      "taxonId": 167679,
+      "name": "Racomitrium canescens",
+      "language": "en",
+      "sourceTextTokens": 212,
+      "packetTokens": 341,
+      "standaloneInputTextTokens": 793,
+      "packetSha256": "f4522cc03f0da272d08fb44046231b9a871779c51b886bfda800d3bf69f770fe"
+    },
+    {
+      "taxonId": 167681,
+      "name": "Racomitrium elongatum",
+      "language": "en",
+      "sourceTextTokens": 354,
+      "packetTokens": 501,
+      "standaloneInputTextTokens": 953,
+      "packetSha256": "61541437247739e9db4668d1baf90ef90ed20542c0b978d6b8461d41e3cab02b"
+    },
+    {
+      "taxonId": 167927,
+      "name": "Riccia bifurca",
+      "language": "uk",
+      "sourceTextTokens": 163,
+      "packetTokens": 290,
+      "standaloneInputTextTokens": 742,
+      "packetSha256": "318aeceef20ef3c9bca64a8bee6d62db19facc5bb565c5f76f54c8bd467714b4"
+    },
+    {
+      "taxonId": 167978,
+      "name": "Rosa cinnamomea",
+      "language": "en",
+      "sourceTextTokens": 42,
+      "packetTokens": 145,
+      "standaloneInputTextTokens": 597,
+      "packetSha256": "0726a9947870ffb884626792c7d465b326919455168da8a15e6f0df7140152bf"
+    },
+    {
+      "taxonId": 168497,
+      "name": "Scapania compacta",
+      "language": "sv,en",
+      "sourceTextTokens": 303,
+      "packetTokens": 489,
+      "standaloneInputTextTokens": 941,
+      "packetSha256": "2f6549fcbebb7597c235ee53e0c15787be7955bf29e3a8a2c013d0a228aca971"
+    },
+    {
+      "taxonId": 170285,
+      "name": "Wahlenbergia marginata",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 164,
+      "standaloneInputTextTokens": 616,
+      "packetSha256": "d065e73bc297aab89dd0a8a233ce32a19085eb20b114189c13631761d881090f"
+    },
+    {
+      "taxonId": 183054,
+      "name": "Cystoclonium purpureum",
+      "language": "en",
+      "sourceTextTokens": 153,
+      "packetTokens": 274,
+      "standaloneInputTextTokens": 726,
+      "packetSha256": "cd98e033f3dc83980f315ee30ce7f18637924e0cc29b8a6a6f039ce373a67ee3"
+    },
+    {
+      "taxonId": 189479,
+      "name": "Armeria pseudarmeria",
+      "language": "en",
+      "sourceTextTokens": 57,
+      "packetTokens": 169,
+      "standaloneInputTextTokens": 621,
+      "packetSha256": "061cb8e352e1b9fb8caa2d17014e45b13705027c1944a3a18893b99b7d2fdc71"
+    },
+    {
+      "taxonId": 204379,
+      "name": "Persicaria robustior",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 166,
+      "standaloneInputTextTokens": 618,
+      "packetSha256": "bf7a637bb416b67c7cb8636c973c1e8134539d633a29da6f82580a5f6b19858b"
+    },
+    {
+      "taxonId": 211188,
+      "name": "Orchis olbiensis",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 164,
+      "standaloneInputTextTokens": 616,
+      "packetSha256": "deb8bbca9911c4241a578f30217c6e40bd399d6573e89e716a4c6424791b0663"
+    },
+    {
+      "taxonId": 273754,
+      "name": "Sedum ebracteatum",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 164,
+      "standaloneInputTextTokens": 616,
+      "packetSha256": "d695b9dd41f525765982611a83d2ce8d5d0af18716cfbf68d40e1e59c2ebff6a"
+    },
+    {
+      "taxonId": 275804,
+      "name": "Elaphoglossum decursivum",
+      "language": "en",
+      "sourceTextTokens": 57,
+      "packetTokens": 172,
+      "standaloneInputTextTokens": 624,
+      "packetSha256": "a476d1db4d3e90a826f6418b2aa853407f27a0f1ea60f43a228920d248bd46d4"
+    },
+    {
+      "taxonId": 275987,
+      "name": "Echeveria subcorymbosa",
+      "language": "en",
+      "sourceTextTokens": 52,
+      "packetTokens": 169,
+      "standaloneInputTextTokens": 621,
+      "packetSha256": "1d52768c56ca028c6343be11ad3edb0335433a8611a84dd4ed095f55910a470f"
+    },
+    {
+      "taxonId": 280348,
+      "name": "Dahlia sorensenii",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 161,
+      "standaloneInputTextTokens": 613,
+      "packetSha256": "b9cf4208a1df1213f19a7844fab70ae581319115ecf5943bd33d121f746070eb"
+    },
+    {
+      "taxonId": 281120,
+      "name": "Sanchezia parvibracteata",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 165,
+      "standaloneInputTextTokens": 617,
+      "packetSha256": "51fc07e636f2652eb1288fe4abefe6c219ba9820b3bf9ffa9031dbb4c9c8ed43"
+    },
+    {
+      "taxonId": 282763,
+      "name": "Echeveria simulans",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "9a2dc86bd11a9481a5d50aac2e04201512b69fc06fa90f0ed2742693766bd951"
+    },
+    {
+      "taxonId": 282773,
+      "name": "Sedum furfuraceum",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "d9a88c50bd89ce8cdcfd0e68aa75787a1abf063791f958cdd325ea8770a46da7"
+    },
+    {
+      "taxonId": 282845,
+      "name": "Echeveria pilosa",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 162,
+      "standaloneInputTextTokens": 614,
+      "packetSha256": "c7b1ef472ec3146c6212cdeb10627b944b867e72c6ed157121eaf4c4320e0587"
+    },
+    {
+      "taxonId": 285312,
+      "name": "Spigelia humboldtiana",
+      "language": "en",
+      "sourceTextTokens": 55,
+      "packetTokens": 169,
+      "standaloneInputTextTokens": 621,
+      "packetSha256": "c23587d96a89754b344513bba1cddfd786b92cd2c77e7d848b071e235f1d8459"
+    },
+    {
+      "taxonId": 285553,
+      "name": "Heterocentron elegans",
+      "language": "sv,en",
+      "sourceTextTokens": 154,
+      "packetTokens": 348,
+      "standaloneInputTextTokens": 800,
+      "packetSha256": "46e83d1c5c3584eb931193da431ad9c83d56f7356e97ec382bf209efcf748ad2"
+    },
+    {
+      "taxonId": 286991,
+      "name": "Salvia cinnabarina",
+      "language": "id",
+      "sourceTextTokens": 77,
+      "packetTokens": 179,
+      "standaloneInputTextTokens": 631,
+      "packetSha256": "69a9f0120d79edcb0a9472bb8eeef44137d6328e9e5e677135a7b00a17990962"
+    },
+    {
+      "taxonId": 288654,
+      "name": "Sinclairia discolor",
+      "language": "en",
+      "sourceTextTokens": 42,
+      "packetTokens": 145,
+      "standaloneInputTextTokens": 597,
+      "packetSha256": "0a6a262989d8928374987a495f3b20b9e70c5b57b009f041d4a975933accbb72"
+    },
+    {
+      "taxonId": 288695,
+      "name": "Dahlia excelsa",
+      "language": "en",
+      "sourceTextTokens": 43,
+      "packetTokens": 145,
+      "standaloneInputTextTokens": 597,
+      "packetSha256": "6d9984d1f129ab3ce04a309f24b9db5a449f50b063363b1954b165177fc5552f"
+    },
+    {
+      "taxonId": 290750,
+      "name": "Solandra nizandensis",
+      "language": "sv",
+      "sourceTextTokens": 78,
+      "packetTokens": 191,
+      "standaloneInputTextTokens": 643,
+      "packetSha256": "169a16cf0c4f13d41767f498945b730c05f02e6c8863d595debcefb4dff50e27"
+    },
+    {
+      "taxonId": 323026,
+      "name": "Caryota maxima",
+      "language": "sv",
+      "sourceTextTokens": 79,
+      "packetTokens": 199,
+      "standaloneInputTextTokens": 651,
+      "packetSha256": "8d6380ba803ebc2aa34a938e2d27f3e87a08f96cd5c81456640f4345b070b714"
+    },
+    {
+      "taxonId": 323425,
+      "name": "Luzula meridionalis",
+      "language": "sv",
+      "sourceTextTokens": 78,
+      "packetTokens": 184,
+      "standaloneInputTextTokens": 636,
+      "packetSha256": "36d2d6d5714cdff61cbfbe37bff5962e40c3caa18ee80c9f1bd4450cdfa5e6b5"
+    },
+    {
+      "taxonId": 334203,
+      "name": "Senecio santiagoensis",
+      "language": "id",
+      "sourceTextTokens": 78,
+      "packetTokens": 184,
+      "standaloneInputTextTokens": 636,
+      "packetSha256": "987b2825b17c5ddb23dbf1c35ebb9b5b264a8401b7f592ba6d5088b56357decb"
+    },
+    {
+      "taxonId": 340077,
+      "name": "Dyckia niederleinii",
+      "language": "en",
+      "sourceTextTokens": 46,
+      "packetTokens": 151,
+      "standaloneInputTextTokens": 603,
+      "packetSha256": "f0a73608f0942b10b1f5336b754abdaf8011d9715c2903fb06084186e4b03dbe"
+    },
+    {
+      "taxonId": 340354,
+      "name": "Heteromorpha arborescens",
+      "language": "en",
+      "sourceTextTokens": 62,
+      "packetTokens": 180,
+      "standaloneInputTextTokens": 632,
+      "packetSha256": "3aee21f1a34f4ad8326d59490c1698063d7cd8fc106c011160a5c9deccc51aba"
+    },
+    {
+      "taxonId": 343403,
+      "name": "Codium effusum",
+      "language": "fr",
+      "sourceTextTokens": 432,
+      "packetTokens": 582,
+      "standaloneInputTextTokens": 1034,
+      "packetSha256": "c26a180f1c0f0709da8f7ff903b73c1fbe9151137ad3e24c15db02fc9ad2a0bc"
+    },
+    {
+      "taxonId": 344257,
+      "name": "Strobilanthes maculata",
+      "language": "en",
+      "sourceTextTokens": 42,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "1415369f6b08c30a7626dae0fb0304637a3e78fbbf60aa442b3154e83e2707aa"
+    },
+    {
+      "taxonId": 345393,
+      "name": "Gracilaria gracilis",
+      "language": "fr",
+      "sourceTextTokens": 613,
+      "packetTokens": 805,
+      "standaloneInputTextTokens": 1257,
+      "packetSha256": "55293ae19e6b2526ad0fcf6fa5fb24021a1c4d667963b5dc386b9d1f0d23ae04"
+    },
+    {
+      "taxonId": 371528,
+      "name": "Platanthera pollostantha",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 170,
+      "standaloneInputTextTokens": 622,
+      "packetSha256": "bc052694618ecb86d28dc48cd4b9d28de4edf16be2df065db6180dac0abcc97d"
+    },
+    {
+      "taxonId": 372718,
+      "name": "Cladophora albida",
+      "language": "en",
+      "sourceTextTokens": 199,
+      "packetTokens": 339,
+      "standaloneInputTextTokens": 791,
+      "packetSha256": "c3d50789778fcf998ee9df05a3b2df0d82e8e9dd832ec1ce0aaa3c064566279b"
+    },
+    {
+      "taxonId": 404157,
+      "name": "Nephrolepis flexuosa",
+      "language": "en",
+      "sourceTextTokens": 43,
+      "packetTokens": 148,
+      "standaloneInputTextTokens": 600,
+      "packetSha256": "a326fa3bcaa6c0954c1bcbb703efbf9f5e67a273284a93b76ea7dc1afd00e4df"
+    },
+    {
+      "taxonId": 405402,
+      "name": "Pteris dentata",
+      "language": "en",
+      "sourceTextTokens": 55,
+      "packetTokens": 158,
+      "standaloneInputTextTokens": 610,
+      "packetSha256": "1db04e58f1939892930f81797f2aafd34c32e85df895c407a97067b7ded914b9"
+    },
+    {
+      "taxonId": 405619,
+      "name": "Raoulia subsericea",
+      "language": "en",
+      "sourceTextTokens": 44,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "eaaa6ae84c45216e4a420763d1fe31ac60123b72b83c9a2eea9ac0c9f1472e74"
+    },
+    {
+      "taxonId": 405726,
+      "name": "Romulea minutiflora",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "b09f81f4a20add47fde4616416451a87c744d4a685a7a70a1a54dc75b2798eac"
+    },
+    {
+      "taxonId": 418548,
+      "name": "Gazania leiopoda",
+      "language": "en",
+      "sourceTextTokens": 38,
+      "packetTokens": 144,
+      "standaloneInputTextTokens": 596,
+      "packetSha256": "c539a6f3d9b7c9a3e4cf243f1675d02db906ceb02e30c006cfb87fc9e130fc52"
+    },
+    {
+      "taxonId": 424481,
+      "name": "Ononis maweana",
+      "language": "sv",
+      "sourceTextTokens": 127,
+      "packetTokens": 230,
+      "standaloneInputTextTokens": 682,
+      "packetSha256": "8449a0aa4ed54b9369e4ea12b37293100dafa4bc1fb3e33d901f3097bee39fac"
+    },
+    {
+      "taxonId": 426108,
+      "name": "Boehmeria macrophylla",
+      "language": "zh",
+      "sourceTextTokens": 197,
+      "packetTokens": 307,
+      "standaloneInputTextTokens": 759,
+      "packetSha256": "9008ae8da4794807b7b0b71b27fdceb4b395cfa984294341656fbc490c701834"
+    },
+    {
+      "taxonId": 426408,
+      "name": "Philodendron lacerum",
+      "language": "sv,en",
+      "sourceTextTokens": 144,
+      "packetTokens": 335,
+      "standaloneInputTextTokens": 787,
+      "packetSha256": "5ac1c06445c1aee88b2622fc0bb121f7f84f4e7694ff71aa585c0f61b5fe09b4"
+    },
+    {
+      "taxonId": 431288,
+      "name": "Maytenus ilicifolia",
+      "language": "en",
+      "sourceTextTokens": 51,
+      "packetTokens": 164,
+      "standaloneInputTextTokens": 616,
+      "packetSha256": "f134da291f315402528ca0fd1a3bcf8f76485d3387792caf8b71778a032a640b"
+    },
+    {
+      "taxonId": 431617,
+      "name": "Sedum tetractinum",
+      "language": "sv,en",
+      "sourceTextTokens": 135,
+      "packetTokens": 319,
+      "standaloneInputTextTokens": 771,
+      "packetSha256": "6e3607be1a73948de7ad2a1ea8515baff4a9284cc23d5a7de426ac33133c0dbb"
+    },
+    {
+      "taxonId": 436598,
+      "name": "Isolepis digitata",
+      "language": "sv",
+      "sourceTextTokens": 88,
+      "packetTokens": 191,
+      "standaloneInputTextTokens": 643,
+      "packetSha256": "356f5d6b7c709c0e23200a132899ca6941df29fe6b7329abf6a9813a5cf600db"
+    },
+    {
+      "taxonId": 436602,
+      "name": "Juncus decipiens",
+      "language": "sv,en",
+      "sourceTextTokens": 159,
+      "packetTokens": 338,
+      "standaloneInputTextTokens": 790,
+      "packetSha256": "2d8a9de4e3bcb4b523cf5f888835cea7b93e47f9bfd070816077057a21d73074"
+    },
+    {
+      "taxonId": 448567,
+      "name": "Pityrogramma austroamericana",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "cf3a4246ff5a230d13c9f6b55e4d5d3db1c7d176fab0a69d8ab5a40f77a8bc6b"
+    },
+    {
+      "taxonId": 461281,
+      "name": "Ptychomitrium nigrescens",
+      "language": "sv",
+      "sourceTextTokens": 91,
+      "packetTokens": 200,
+      "standaloneInputTextTokens": 652,
+      "packetSha256": "ac93f07c3c628cfa25ab018250c6e9bed31143075fdf699c0ff0e8dc5c969ea2"
+    },
+    {
+      "taxonId": 461288,
+      "name": "Drepanolejeunea hamatifolia",
+      "language": "sv",
+      "sourceTextTokens": 94,
+      "packetTokens": 206,
+      "standaloneInputTextTokens": 658,
+      "packetSha256": "f3ece19bda409282fcdffb92419f8e0880db62e979dd515934feb2cc276de34e"
+    },
+    {
+      "taxonId": 465291,
+      "name": "Cladophora laetevirens",
+      "language": "fr",
+      "sourceTextTokens": 437,
+      "packetTokens": 596,
+      "standaloneInputTextTokens": 1048,
+      "packetSha256": "ea97787fbc9bf5dd1017d7d87c5fabf39e65d13178bcf847de478616470f280a"
+    },
+    {
+      "taxonId": 467267,
+      "name": "Rhodymenia pseudopalmata",
+      "language": "en",
+      "sourceTextTokens": 167,
+      "packetTokens": 307,
+      "standaloneInputTextTokens": 759,
+      "packetSha256": "c2d26686e40cd3cc80592608dc7fc8e3a2ecc1f92c7bdaec5f520ea77e5112af"
+    },
+    {
+      "taxonId": 483248,
+      "name": "Scrophularia alpestris",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 163,
+      "standaloneInputTextTokens": 615,
+      "packetSha256": "acdad133247d35768db5f7d32185e5dfc12263082ff8a5bfdc09372b6d0f02b4"
+    },
+    {
+      "taxonId": 485606,
+      "name": "Fissidens polyphyllus",
+      "language": "sv",
+      "sourceTextTokens": 98,
+      "packetTokens": 206,
+      "standaloneInputTextTokens": 658,
+      "packetSha256": "9556a6126caa0becd9ffc30de9c71220735f8181bdd625d0f3d267f16cee38dc"
+    },
+    {
+      "taxonId": 486109,
+      "name": "Dianthus ferrugineus",
+      "language": "sv,en",
+      "sourceTextTokens": 130,
+      "packetTokens": 307,
+      "standaloneInputTextTokens": 759,
+      "packetSha256": "ed01095b5fd5722b9e3474a377c390f29f53851f75a2c18ac6e03ca4b7215d32"
+    },
+    {
+      "taxonId": 486276,
+      "name": "Lamprothamnium papulosum",
+      "language": "en",
+      "sourceTextTokens": 410,
+      "packetTokens": 560,
+      "standaloneInputTextTokens": 1012,
+      "packetSha256": "554673c9113dafe63b09d8856db212542266c5d1d2c5a457c2a808aedf8560c3"
+    },
+    {
+      "taxonId": 487244,
+      "name": "Linum tenue",
+      "language": "sv,en",
+      "sourceTextTokens": 127,
+      "packetTokens": 303,
+      "standaloneInputTextTokens": 755,
+      "packetSha256": "8637d2aee9f0e464b36cada964395329612f7b3f831be7d8673bf61619549c49"
+    },
+    {
+      "taxonId": 492828,
+      "name": "Cynara syriaca",
+      "language": "en",
+      "sourceTextTokens": 35,
+      "packetTokens": 142,
+      "standaloneInputTextTokens": 594,
+      "packetSha256": "30843bb5a93827b67906fe64d7bac2165abd228d1bb0049506ebaac70e246d0e"
+    },
+    {
+      "taxonId": 493110,
+      "name": "Lupinus gussoneanus",
+      "language": "en",
+      "sourceTextTokens": 41,
+      "packetTokens": 150,
+      "standaloneInputTextTokens": 602,
+      "packetSha256": "3dc6ae60d00397ae012fa2212525f535f37d5f49b0661c4cf53ae022743132ce"
+    },
+    {
+      "taxonId": 496075,
+      "name": "Tricholaena teneriffae",
+      "language": "sv,en",
+      "sourceTextTokens": 157,
+      "packetTokens": 342,
+      "standaloneInputTextTokens": 794,
+      "packetSha256": "eeaa12c3eea1c3339453625c90284648556d0354741c73b9780b49afbb05487f"
+    },
+    {
+      "taxonId": 498751,
+      "name": "Anadyomene stellata",
+      "language": "fr",
+      "sourceTextTokens": 592,
+      "packetTokens": 794,
+      "standaloneInputTextTokens": 1246,
+      "packetSha256": "8d3dbd3458ca4563ef2a2340a99488a848ed4d6f093287d62e496a7c3753d39a"
+    },
+    {
+      "taxonId": 508221,
+      "name": "Callianthe megapotamica",
+      "language": "en",
+      "sourceTextTokens": 51,
+      "packetTokens": 163,
+      "standaloneInputTextTokens": 615,
+      "packetSha256": "6a9422da1c9b077824e5aec8900ccc9af565497433fde1206892843e8ea04931"
+    },
+    {
+      "taxonId": 516100,
+      "name": "Silene diversifolia",
+      "language": "en",
+      "sourceTextTokens": 44,
+      "packetTokens": 147,
+      "standaloneInputTextTokens": 599,
+      "packetSha256": "7cc692b5d0071f279acb37c3d4b66e57e43ea4a7f92c69cdb89f16d185274fd1"
+    },
+    {
+      "taxonId": 522183,
+      "name": "Rumex tuberosus",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 152,
+      "standaloneInputTextTokens": 604,
+      "packetSha256": "7a9e029f10e489a89b638b4d99c97c93a09ff27db762d8fc9d776342dd559e53"
+    },
+    {
+      "taxonId": 533158,
+      "name": "Schoenoplectiella erecta",
+      "language": "en",
+      "sourceTextTokens": 79,
+      "packetTokens": 194,
+      "standaloneInputTextTokens": 646,
+      "packetSha256": "a60e658bea29302015074fe8d270db731d1f30c8c75bbd9e6cb8f7c175d75a61"
+    },
+    {
+      "taxonId": 542827,
+      "name": "Oreopanax nymphaeifolius",
+      "language": "en",
+      "sourceTextTokens": 62,
+      "packetTokens": 196,
+      "standaloneInputTextTokens": 648,
+      "packetSha256": "4cfd9e772b8b5e157665846b734b6bf177e2a7f1a579d3568359bc746c59cb18"
+    },
+    {
+      "taxonId": 543094,
+      "name": "Lomentaria articulata",
+      "language": "en",
+      "sourceTextTokens": 118,
+      "packetTokens": 233,
+      "standaloneInputTextTokens": 685,
+      "packetSha256": "93741f3f08bb0a6a20a4894257c1d50237f217782353a9da2017bc4926fe7156"
+    },
+    {
+      "taxonId": 564872,
+      "name": "Asplenium lolegnamense",
+      "language": "en",
+      "sourceTextTokens": 43,
+      "packetTokens": 158,
+      "standaloneInputTextTokens": 610,
+      "packetSha256": "33a925dfcfeef64a10a6a1b77005bf14b7066a14a0d8ccf43b9390cc1121764d"
+    },
+    {
+      "taxonId": 569319,
+      "name": "Anisodontea scabrosa",
+      "language": "sv,en",
+      "sourceTextTokens": 164,
+      "packetTokens": 360,
+      "standaloneInputTextTokens": 812,
+      "packetSha256": "2cfaeec6c55e8b39cfde99d7201ccf21711baaf971ed5256e3792cb1f5cc9530"
+    },
+    {
+      "taxonId": 569865,
+      "name": "Delosperma inconspicuum",
+      "language": "sv",
+      "sourceTextTokens": 84,
+      "packetTokens": 193,
+      "standaloneInputTextTokens": 645,
+      "packetSha256": "2d86b17a00bdecef03755138aedfaafdccaa40c517a099eeb521f7d09fc0a215"
+    },
+    {
+      "taxonId": 574852,
+      "name": "Aristea bakeri",
+      "language": "en,en",
+      "sourceTextTokens": 65,
+      "packetTokens": 207,
+      "standaloneInputTextTokens": 659,
+      "packetSha256": "8360b2d80b92086e3ca307bd91b503706abc331405364ec6c1ced4dbd0713821"
+    },
+    {
+      "taxonId": 582804,
+      "name": "Corpuscularia britteniae",
+      "language": "sv",
+      "sourceTextTokens": 96,
+      "packetTokens": 202,
+      "standaloneInputTextTokens": 654,
+      "packetSha256": "d13b3d027cb65d49fa0c1b8720cc64e6ca6a113b20daa8ba1d177aa79a744553"
+    },
+    {
+      "taxonId": 582956,
+      "name": "Crassula rogersii",
+      "language": "sv,en",
+      "sourceTextTokens": 128,
+      "packetTokens": 315,
+      "standaloneInputTextTokens": 767,
+      "packetSha256": "fe9b4041c36b8b5e36dc174a5093ace74bcb50ad2bb534455d0e7947c0b8cc02"
+    },
+    {
+      "taxonId": 583575,
+      "name": "Delosperma testaceum",
+      "language": "sv,en",
+      "sourceTextTokens": 145,
+      "packetTokens": 317,
+      "standaloneInputTextTokens": 769,
+      "packetSha256": "9f9f33f1d9af2adfef5233b89d59ee60589699812bf139efc15277289ebec50e"
+    },
+    {
+      "taxonId": 584239,
+      "name": "Drosanthemum intermedium",
+      "language": "sv,en",
+      "sourceTextTokens": 138,
+      "packetTokens": 306,
+      "standaloneInputTextTokens": 758,
+      "packetSha256": "4f70526f555cfa56f346bb854dba306947431afdd9a2e0f9716c671beef4e2b7"
+    },
+    {
+      "taxonId": 588996,
+      "name": "Lessertia capensis",
+      "language": "sv",
+      "sourceTextTokens": 85,
+      "packetTokens": 184,
+      "standaloneInputTextTokens": 636,
+      "packetSha256": "b6124d9d6fe5afb7e366d17dc927c90fe9c7a836cdea3a4f6f5c54472980b022"
+    },
+    {
+      "taxonId": 592834,
+      "name": "Radula lindenbergiana",
+      "language": "sv",
+      "sourceTextTokens": 107,
+      "packetTokens": 221,
+      "standaloneInputTextTokens": 673,
+      "packetSha256": "fb756981f96dc701ff86d8fae87c74b611f6a45807daaf816ccd7f567bacd836"
+    },
+    {
+      "taxonId": 594187,
+      "name": "Senecio arenarius",
+      "language": "id,en",
+      "sourceTextTokens": 116,
+      "packetTokens": 280,
+      "standaloneInputTextTokens": 732,
+      "packetSha256": "b606154041416c997d8fb586bd13a07b2938de4adaa8474761d7885dd328340a"
+    },
+    {
+      "taxonId": 595521,
+      "name": "Thuidium assimile",
+      "language": "uk",
+      "sourceTextTokens": 151,
+      "packetTokens": 278,
+      "standaloneInputTextTokens": 730,
+      "packetSha256": "aa106cb5aa88a4337d5a2791645d5b877e71c51f7b743fc80a67c67bfdfef270"
+    },
+    {
+      "taxonId": 602447,
+      "name": "Cymbalaria glutinosa",
+      "language": "sv",
+      "sourceTextTokens": 91,
+      "packetTokens": 240,
+      "standaloneInputTextTokens": 692,
+      "packetSha256": "254fdbfd7abd373854ce7d6581893447b0639e7412803c946878ea77c825e9e6"
+    },
+    {
+      "taxonId": 606234,
+      "name": "Rhododendron formosanum",
+      "language": "en",
+      "sourceTextTokens": 43,
+      "packetTokens": 152,
+      "standaloneInputTextTokens": 604,
+      "packetSha256": "a7edab071140f60165e8ba2d823bfa6792783e36dba5ce62dbb0bf097de9b28d"
+    },
+    {
+      "taxonId": 632490,
+      "name": "Heterosiphonia plumosa",
+      "language": "en",
+      "sourceTextTokens": 219,
+      "packetTokens": 361,
+      "standaloneInputTextTokens": 813,
+      "packetSha256": "34de618065dc7bcdf5b2d49c3b2524a926550b7dafb93ee2bb9b0c1b89700329"
+    },
+    {
+      "taxonId": 632491,
+      "name": "Calliblepharis ciliata",
+      "language": "en",
+      "sourceTextTokens": 150,
+      "packetTokens": 272,
+      "standaloneInputTextTokens": 724,
+      "packetSha256": "451afa0ff162af4ceb8c1c841d27029232edd692f1285cd20b085c12427fa90e"
+    },
+    {
+      "taxonId": 639653,
+      "name": "Lonicera hypoglauca",
+      "language": "en",
+      "sourceTextTokens": 52,
+      "packetTokens": 162,
+      "standaloneInputTextTokens": 614,
+      "packetSha256": "8d904045c403c404662fa658464f291b7eb18a3953a6b90719492c5175239aac"
+    },
+    {
+      "taxonId": 705307,
+      "name": "Serjania glabrata",
+      "language": "en",
+      "sourceTextTokens": 54,
+      "packetTokens": 160,
+      "standaloneInputTextTokens": 612,
+      "packetSha256": "34d606ce05ae4089812336003e1b3af17a9829611a6705e8c6de06613de02a35"
+    },
+    {
+      "taxonId": 706346,
+      "name": "Calliblepharis jubata",
+      "language": "en",
+      "sourceTextTokens": 162,
+      "packetTokens": 286,
+      "standaloneInputTextTokens": 738,
+      "packetSha256": "f7cab15918e6259c6b26a4b22ba18ecf4caba13ab959a544a29b0071cca639da"
+    },
+    {
+      "taxonId": 706353,
+      "name": "Cryptopleura ramosa",
+      "language": "en",
+      "sourceTextTokens": 203,
+      "packetTokens": 343,
+      "standaloneInputTextTokens": 795,
+      "packetSha256": "94d22cb58f9b6e69454f47cb8e44911f981bd25984480ba1c3b969b9216ee55a"
+    },
+    {
+      "taxonId": 713204,
+      "name": "Salix fulvopubescens",
+      "language": "en",
+      "sourceTextTokens": 42,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "b84c92d02387594cbf4187a3ab5ef6415c069852fd7754a3992e02646c5d7696"
+    },
+    {
+      "taxonId": 715209,
+      "name": "Rhododendron kanehirae",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 164,
+      "standaloneInputTextTokens": 616,
+      "packetSha256": "39531230e4ceba0cc9a1864ccf5fa1779575dda6512f06cbbb39b82daed3182f"
+    },
+    {
+      "taxonId": 747501,
+      "name": "Bonnemaisonia asparagoides",
+      "language": "en,en",
+      "sourceTextTokens": 189,
+      "packetTokens": 376,
+      "standaloneInputTextTokens": 828,
+      "packetSha256": "fb8d75dd0f73db195601211a06c4d0ced0b85d376f659fd0b0cb6dd7820e5fd2"
+    },
+    {
+      "taxonId": 770218,
+      "name": "Iberodes kuzinskyana",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 180,
+      "standaloneInputTextTokens": 632,
+      "packetSha256": "727be9d2b8b21eb3200ca67216b10b4c29f38ab1946bc27647f1556b81caaef7"
+    },
+    {
+      "taxonId": 773014,
+      "name": "Sporobolus aculeatus",
+      "language": "en,en",
+      "sourceTextTokens": 83,
+      "packetTokens": 237,
+      "standaloneInputTextTokens": 689,
+      "packetSha256": "01a8691346a4560dafce127fd2f1c18d8718e30d20f48946819e4b22e3eeaf5b"
+    },
+    {
+      "taxonId": 774366,
+      "name": "Phyllostachys makinoi",
+      "language": "en",
+      "sourceTextTokens": 46,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "a4e09fec2d669dc3cacdff0bdac5a386e1577574b00b6012e7e76df45548e14c"
+    },
+    {
+      "taxonId": 777721,
+      "name": "Lonicera hildebrandtiana",
+      "language": "en",
+      "sourceTextTokens": 59,
+      "packetTokens": 171,
+      "standaloneInputTextTokens": 623,
+      "packetSha256": "e517fd0e60ec837f3eaa93f71725054ff8605c853b671117df96c0fe248a570f"
+    },
+    {
+      "taxonId": 784685,
+      "name": "Chenopodium betaceum",
+      "language": "en",
+      "sourceTextTokens": 46,
+      "packetTokens": 151,
+      "standaloneInputTextTokens": 603,
+      "packetSha256": "027c7d895fb36b2a8cc07d1fdd3ad783fb567bf8ffc1e58cdb669490214ff03b"
+    },
+    {
+      "taxonId": 785895,
+      "name": "Lithophyllum stictiforme",
+      "language": "fr",
+      "sourceTextTokens": 560,
+      "packetTokens": 746,
+      "standaloneInputTextTokens": 1198,
+      "packetSha256": "9ffe151bac4d753279e9c9d1c07d6b6879953b29e8628b1c34b9b3de260433ab"
+    },
+    {
+      "taxonId": 792545,
+      "name": "Quercus × coutinhoi",
+      "language": "sv",
+      "sourceTextTokens": 81,
+      "packetTokens": 198,
+      "standaloneInputTextTokens": 650,
+      "packetSha256": "b5d949cd49e91e98a4a9c03f4674704d0607d4101b52a085aef3dd7922a33595"
+    },
+    {
+      "taxonId": 836902,
+      "name": "Sabulina tenuifolia",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 168,
+      "standaloneInputTextTokens": 620,
+      "packetSha256": "6a0ae9c3ee221a560ad99608b73f8188a9bdf8cb77dfea5a0eeeaae98ee2f337"
+    },
+    {
+      "taxonId": 850360,
+      "name": "Rumex tolimensis",
+      "language": "sv,en",
+      "sourceTextTokens": 112,
+      "packetTokens": 277,
+      "standaloneInputTextTokens": 729,
+      "packetSha256": "be9da81a8a7cc7080da83f28df7e968f008ee6952edf5680a858ba769911a8bb"
+    },
+    {
+      "taxonId": 850434,
+      "name": "Maesa argentea",
+      "language": "sv",
+      "sourceTextTokens": 84,
+      "packetTokens": 187,
+      "standaloneInputTextTokens": 639,
+      "packetSha256": "62fc569c7eb909711d793a115e9032f897115370875160fba9196d988d43577b"
+    },
+    {
+      "taxonId": 850962,
+      "name": "Berberis sibirica",
+      "language": "uk,en",
+      "sourceTextTokens": 352,
+      "packetTokens": 529,
+      "standaloneInputTextTokens": 981,
+      "packetSha256": "dc13827dad5a58e6d12225601b342a220686d4a09c74fa7c6f9f41ffdb8d61f4"
+    },
+    {
+      "taxonId": 859218,
+      "name": "Cyrtomium laetevirens",
+      "language": "sv",
+      "sourceTextTokens": 90,
+      "packetTokens": 199,
+      "standaloneInputTextTokens": 651,
+      "packetSha256": "25972ad05a3e8b1ce3d679a57d955dc0d5fa7642fa815060328c3c62e0b9ab64"
+    },
+    {
+      "taxonId": 861350,
+      "name": "Rubus serrae",
+      "language": "en",
+      "sourceTextTokens": 37,
+      "packetTokens": 137,
+      "standaloneInputTextTokens": 589,
+      "packetSha256": "cb948e230a19e2b39aec638b4668eac326e13be7f84e984f67d9fc38bf390d4a"
+    },
+    {
+      "taxonId": 886557,
+      "name": "Freziera chrysophylla",
+      "language": "en",
+      "sourceTextTokens": 44,
+      "packetTokens": 151,
+      "standaloneInputTextTokens": 603,
+      "packetSha256": "63656313cb635e548738762cb7e98db4346a08114852c59ba532e1e189718de7"
+    },
+    {
+      "taxonId": 888366,
+      "name": "Sanchezia oblonga",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 165,
+      "standaloneInputTextTokens": 617,
+      "packetSha256": "aebbd93277bba848014da895e4e44c39e95d01f2361d6fc999e1e306f52b5cf0"
+    },
+    {
+      "taxonId": 895239,
+      "name": "Spergularia flaccida",
+      "language": "en",
+      "sourceTextTokens": 73,
+      "packetTokens": 192,
+      "standaloneInputTextTokens": 644,
+      "packetSha256": "7faac72e494188d1679b228e00a503438d92df01fffa06040c06f1d394e6a0a3"
+    },
+    {
+      "taxonId": 900882,
+      "name": "Dombeya spectabilis",
+      "language": "en",
+      "sourceTextTokens": 42,
+      "packetTokens": 145,
+      "standaloneInputTextTokens": 597,
+      "packetSha256": "5f589969662d9c750e9e42d79df95cfa40832c61cbdc2e6913101b0d0dfd7b2d"
+    },
+    {
+      "taxonId": 925605,
+      "name": "Malva durieui",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 153,
+      "standaloneInputTextTokens": 605,
+      "packetSha256": "333d6106fbc409faf3be27466ce5a271db259166f6341c816809a1de9dc0792a"
+    },
+    {
+      "taxonId": 947945,
+      "name": "Riccia warnstorfii",
+      "language": "sv",
+      "sourceTextTokens": 133,
+      "packetTokens": 249,
+      "standaloneInputTextTokens": 701,
+      "packetSha256": "a123f17d04a09a1a40d59887b8a7de2f509aff399d00d1c991df199b5b5c1a03"
+    },
+    {
+      "taxonId": 976085,
+      "name": "Rubia occidens",
+      "language": "en",
+      "sourceTextTokens": 56,
+      "packetTokens": 170,
+      "standaloneInputTextTokens": 622,
+      "packetSha256": "8b580322ac514b2f65c52317d6ea93397c52c29e7af22b14aa85e22cf13a4d2f"
+    },
+    {
+      "taxonId": 977758,
+      "name": "Trimezia coerulea",
+      "language": "en",
+      "sourceTextTokens": 58,
+      "packetTokens": 169,
+      "standaloneInputTextTokens": 621,
+      "packetSha256": "6f9c0e71f753a01884e5d27f11746e6dda82fee90b780c19f9815bad828dc6cc"
+    },
+    {
+      "taxonId": 977762,
+      "name": "Trimezia gracilis",
+      "language": "en",
+      "sourceTextTokens": 61,
+      "packetTokens": 172,
+      "standaloneInputTextTokens": 624,
+      "packetSha256": "38ebee2337c46dc9c7d33122325498f9fe13c0e89011b8afe9817dbded0a2290"
+    },
+    {
+      "taxonId": 986562,
+      "name": "Promenaea stapelioides",
+      "language": "sv,en",
+      "sourceTextTokens": 153,
+      "packetTokens": 346,
+      "standaloneInputTextTokens": 798,
+      "packetSha256": "02eeb525353becfc5f9d385d559e9f607fa814e3bb2dda4b2bf7d039c489c032"
+    },
+    {
+      "taxonId": 1007747,
+      "name": "Liagora viscida",
+      "language": "fr",
+      "sourceTextTokens": 391,
+      "packetTokens": 542,
+      "standaloneInputTextTokens": 994,
+      "packetSha256": "6e2b0c66224794106ee71ece4c5ebebb3590df96b04ee73b3eab93818d7ba1a3"
+    },
+    {
+      "taxonId": 1008575,
+      "name": "Opuntia bonaerensis",
+      "language": "en",
+      "sourceTextTokens": 53,
+      "packetTokens": 161,
+      "standaloneInputTextTokens": 613,
+      "packetSha256": "cf905e580b09ddf74e3204f93ccf2b4535bed5b1b2ab5b0952b91598e9dc8615"
+    },
+    {
+      "taxonId": 1010195,
+      "name": "Sonchus latifolius",
+      "language": "en",
+      "sourceTextTokens": 45,
+      "packetTokens": 166,
+      "standaloneInputTextTokens": 618,
+      "packetSha256": "4a2e10f682bc3faf0c2de8c3186cbb3d7e4e42f9954ffc6a3c482f82574032d2"
+    },
+    {
+      "taxonId": 1022911,
+      "name": "Gracilaria multipartita",
+      "language": "en",
+      "sourceTextTokens": 121,
+      "packetTokens": 250,
+      "standaloneInputTextTokens": 702,
+      "packetSha256": "6f843ed52bae34ca30e20b13821f0b429a0b76d4cb2e5ff7534afb338e1b9221"
+    },
+    {
+      "taxonId": 1027509,
+      "name": "Nitophyllum punctatum",
+      "language": "en",
+      "sourceTextTokens": 262,
+      "packetTokens": 390,
+      "standaloneInputTextTokens": 842,
+      "packetSha256": "8dde8f835146ee86a1b4e7821eb3648f7c40eb3c9dade2be272e6a6361f599dc"
+    },
+    {
+      "taxonId": 1034347,
+      "name": "Rhododendron crassum",
+      "language": "en",
+      "sourceTextTokens": 61,
+      "packetTokens": 172,
+      "standaloneInputTextTokens": 624,
+      "packetSha256": "fc504d0bbe51322cf8ed1eedd24baa85e754b63e163090e9597c298872a13eb7"
+    },
+    {
+      "taxonId": 1044281,
+      "name": "Micromeria maderensis",
+      "language": "en",
+      "sourceTextTokens": 45,
+      "packetTokens": 155,
+      "standaloneInputTextTokens": 607,
+      "packetSha256": "a9d591f21cf6eeb0dbbfa67d4a2c4ce2d58aa6927a08dab7b2a83bacf76917cb"
+    },
+    {
+      "taxonId": 1045699,
+      "name": "Santolina decumbens",
+      "language": "en",
+      "sourceTextTokens": 40,
+      "packetTokens": 146,
+      "standaloneInputTextTokens": 598,
+      "packetSha256": "ff8f3d6725cc9f39c1798275be967f8e89c98f9630b2c6452c740c07b015e01e"
+    },
+    {
+      "taxonId": 1065314,
+      "name": "Tara cacalaco",
+      "language": "en",
+      "sourceTextTokens": 48,
+      "packetTokens": 159,
+      "standaloneInputTextTokens": 611,
+      "packetSha256": "bfb80db18337aed918bc040f1c70dc9d99e27aada1f86022800e8230eb38b68c"
+    },
+    {
+      "taxonId": 1075724,
+      "name": "Dudresnaya verticillata",
+      "language": "en",
+      "sourceTextTokens": 170,
+      "packetTokens": 319,
+      "standaloneInputTextTokens": 771,
+      "packetSha256": "11092c73881595fe37e247690c56a96bf61b6234147a33e9cc79c920a54e3c8e"
+    },
+    {
+      "taxonId": 1075879,
+      "name": "Gloiocladia repens",
+      "language": "fr",
+      "sourceTextTokens": 310,
+      "packetTokens": 477,
+      "standaloneInputTextTokens": 929,
+      "packetSha256": "15ca2c1fc299e228ffc2b1e9561a3c54a231cfaab387ae621a12c2e294249a27"
+    },
+    {
+      "taxonId": 1117846,
+      "name": "Schinus lentiscifolia",
+      "language": "en",
+      "sourceTextTokens": 47,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "a0391a813892919e9332e2de923166de29e549c42c4b6fc997ed4da5bd010a06"
+    },
+    {
+      "taxonId": 1130355,
+      "name": "Iochroma gesnerioides",
+      "language": "sv,en",
+      "sourceTextTokens": 145,
+      "packetTokens": 317,
+      "standaloneInputTextTokens": 769,
+      "packetSha256": "da657a9f68d74e69751dbc165562148e58c61a0914c6063ef6af67e294272c45"
+    },
+    {
+      "taxonId": 1130922,
+      "name": "Fissidens azoricus",
+      "language": "sv",
+      "sourceTextTokens": 78,
+      "packetTokens": 188,
+      "standaloneInputTextTokens": 640,
+      "packetSha256": "b98dce4997d804c1e6610a6f3ac1c92d2dd09b7957fe14c780121a72977ec55b"
+    },
+    {
+      "taxonId": 1149047,
+      "name": "Leiotulus aureus",
+      "language": "sv",
+      "sourceTextTokens": 99,
+      "packetTokens": 203,
+      "standaloneInputTextTokens": 655,
+      "packetSha256": "3ae5e158426ff9cd0d6b6ae0970947032b41858bda9a7e9f282bd7cd281916f0"
+    },
+    {
+      "taxonId": 1149077,
+      "name": "Salicornia alpini",
+      "language": "en",
+      "sourceTextTokens": 44,
+      "packetTokens": 148,
+      "standaloneInputTextTokens": 600,
+      "packetSha256": "26457b01320078392c174233340ef9fbf262631c5b37a2da6c00653d41e1b907"
+    },
+    {
+      "taxonId": 1149084,
+      "name": "Salicornia pruinosa",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 173,
+      "standaloneInputTextTokens": 625,
+      "packetSha256": "7d5ccad24613587b125279ab10e10387933c35c7657fa839393bf25a65417334"
+    },
+    {
+      "taxonId": 1150892,
+      "name": "Dioon pectinatum",
+      "language": "en",
+      "sourceTextTokens": 40,
+      "packetTokens": 144,
+      "standaloneInputTextTokens": 596,
+      "packetSha256": "4633e202f9b455b040a06d93e79abcd954c09be865eb083a291bd9f2c57adff3"
+    },
+    {
+      "taxonId": 1187218,
+      "name": "Metacallophyllis laciniata",
+      "language": "en",
+      "sourceTextTokens": 180,
+      "packetTokens": 314,
+      "standaloneInputTextTokens": 766,
+      "packetSha256": "839662176de9a41ec1c0adf4af8debdc268461313cc304eaf32611a1bde99754"
+    },
+    {
+      "taxonId": 1193953,
+      "name": "Selinum broteroi",
+      "language": "en",
+      "sourceTextTokens": 39,
+      "packetTokens": 147,
+      "standaloneInputTextTokens": 599,
+      "packetSha256": "51777f77d6adbd3489206cfc413b9c9de0c8cc128aab47ccd32a35e3c3304719"
+    },
+    {
+      "taxonId": 1197114,
+      "name": "Senecio legionensis",
+      "language": "id,en",
+      "sourceTextTokens": 116,
+      "packetTokens": 279,
+      "standaloneInputTextTokens": 731,
+      "packetSha256": "6eda738d313ada2b85b739d06030cb681a69731d4541d6e732b4fd14c3cb4e65"
+    },
+    {
+      "taxonId": 1197768,
+      "name": "Cistus calycinus",
+      "language": "en",
+      "sourceTextTokens": 43,
+      "packetTokens": 147,
+      "standaloneInputTextTokens": 599,
+      "packetSha256": "e480cb204063d2ea7079ae0c82d8089bd85c9dff0d3e8f873973093028bf6252"
+    },
+    {
+      "taxonId": 1252712,
+      "name": "Pentanema montanum",
+      "language": "en",
+      "sourceTextTokens": 77,
+      "packetTokens": 205,
+      "standaloneInputTextTokens": 657,
+      "packetSha256": "acb5b0c65227868f4d6fe0ca98b7abab2624f3f980376e0a84423d2a5c2586a9"
+    },
+    {
+      "taxonId": 1269740,
+      "name": "Holcus pintodasilvae",
+      "language": "en",
+      "sourceTextTokens": 51,
+      "packetTokens": 164,
+      "standaloneInputTextTokens": 616,
+      "packetSha256": "939f0449720491cb6bf7eae20c1c23793d3c3ac67ee030dc2eecce06a52f3e30"
+    },
+    {
+      "taxonId": 1273645,
+      "name": "Erythroglossum laciniatum",
+      "language": "en",
+      "sourceTextTokens": 160,
+      "packetTokens": 308,
+      "standaloneInputTextTokens": 760,
+      "packetSha256": "7c7cd770218f8c7466fac80ebaa5c6f0598bee814e954bf565059f2f29103223"
+    },
+    {
+      "taxonId": 1279259,
+      "name": "Hedwigia striata",
+      "language": "en",
+      "sourceTextTokens": 222,
+      "packetTokens": 351,
+      "standaloneInputTextTokens": 803,
+      "packetSha256": "25ff47c819eccd0088b95037edbd2c4e66b4b0e67f04923f54a5145470edc96e"
+    },
+    {
+      "taxonId": 1405692,
+      "name": "Sulla glomerata",
+      "language": "en",
+      "sourceTextTokens": 51,
+      "packetTokens": 167,
+      "standaloneInputTextTokens": 619,
+      "packetSha256": "c3709d23a0984c46fffb5e8ba579e4da8d1b286229250584424925067f7e5c73"
+    },
+    {
+      "taxonId": 1406669,
+      "name": "Thamnopteris",
+      "language": "en",
+      "sourceTextTokens": 89,
+      "packetTokens": 195,
+      "standaloneInputTextTokens": 647,
+      "packetSha256": "e12be9e1a06f65ae455a811356f15ee8b8880b30b0d91ad18f8932326d1ef518"
+    },
+    {
+      "taxonId": 1411959,
+      "name": "Sporobolus versicolor",
+      "language": "en",
+      "sourceTextTokens": 56,
+      "packetTokens": 174,
+      "standaloneInputTextTokens": 626,
+      "packetSha256": "60f1731397a960789b509759225e7b37b8e3682cfa82adbf504adb34ca05a5f7"
+    },
+    {
+      "taxonId": 1448449,
+      "name": "Tanacetum partheniifolium",
+      "language": "en",
+      "sourceTextTokens": 55,
+      "packetTokens": 177,
+      "standaloneInputTextTokens": 629,
+      "packetSha256": "dc5bc676434302c9882b95543aaef75abd3c45ab0e5944cbdad4a5db12a35ccf"
+    },
+    {
+      "taxonId": 1468330,
+      "name": "Euphorbia santamariae",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 168,
+      "standaloneInputTextTokens": 620,
+      "packetSha256": "a69a5f28c597e1cec203decc0f51d7bb3bfb94207e96704ef8bd948f95e2beee"
+    },
+    {
+      "taxonId": 1474090,
+      "name": "Sideritis gomeraea",
+      "language": "en",
+      "sourceTextTokens": 49,
+      "packetTokens": 160,
+      "standaloneInputTextTokens": 612,
+      "packetSha256": "bcf01a18ae96ccd3edae82c0c67d5d1775d12bce45facacc3232b8648351b0de"
+    },
+    {
+      "taxonId": 1501552,
+      "name": "Gagea ellyptica",
+      "language": "en",
+      "sourceTextTokens": 59,
+      "packetTokens": 175,
+      "standaloneInputTextTokens": 627,
+      "packetSha256": "39c8badcd8c498f2bb1101ef7742fbb4c30074667b7bf78923467fa742247ab6"
+    },
+    {
+      "taxonId": 1526151,
+      "name": "Cistus × novus",
+      "language": "sv,en",
+      "sourceTextTokens": 130,
+      "packetTokens": 294,
+      "standaloneInputTextTokens": 746,
+      "packetSha256": "edd20b51701504f0382f03c3fb93909219c2f2f50e151c8b068fb2997c63ac34"
+    },
+    {
+      "taxonId": 1529458,
+      "name": "Macrophylla",
+      "language": "en",
+      "sourceTextTokens": 77,
+      "packetTokens": 173,
+      "standaloneInputTextTokens": 625,
+      "packetSha256": "667ee4252f9c56fffb83f8172c862bae57876770d77b19c2c3fc681f09bb29a1"
+    },
+    {
+      "taxonId": 1538932,
+      "name": "Ranunculus fucoides",
+      "language": "en",
+      "sourceTextTokens": 47,
+      "packetTokens": 154,
+      "standaloneInputTextTokens": 606,
+      "packetSha256": "5fee45b3c24ba501a3e86e2a44973f68754807129c3a0b5b62aa129defa7d9a9"
+    },
+    {
+      "taxonId": 1540163,
+      "name": "Odontarrhena serpyllifolia",
+      "language": "en",
+      "sourceTextTokens": 57,
+      "packetTokens": 184,
+      "standaloneInputTextTokens": 636,
+      "packetSha256": "89cfb6c2cf0fcafebab277fff2f56b742d6105a3b926e9e9e80e7ab72341e236"
+    },
+    {
+      "taxonId": 1553405,
+      "name": "Heteranthemis viscide-hirta",
+      "language": "en",
+      "sourceTextTokens": 50,
+      "packetTokens": 158,
+      "standaloneInputTextTokens": 610,
+      "packetSha256": "1407c980126fade14f929ca3e1499a6779f6549f9f69b4dc061d03161df0fee9"
+    },
+    {
+      "taxonId": 1562069,
+      "name": "Mutarda arvensis",
+      "language": "en",
+      "sourceTextTokens": 52,
+      "packetTokens": 158,
+      "standaloneInputTextTokens": 610,
+      "packetSha256": "da15d3410bac0259c47c9688bf041533eb1073b982b5dddaeb47f063e1b3bc5e"
+    },
+    {
+      "taxonId": 1632151,
+      "name": "Anacamptis fragrans",
+      "language": "en",
+      "sourceTextTokens": 54,
+      "packetTokens": 166,
+      "standaloneInputTextTokens": 618,
+      "packetSha256": "5fe3408909842975f4d5288852c72e1ebcdbf75f3263a39a936b6d717e39aa2d"
+    },
+    {
+      "taxonId": 1642817,
+      "name": "Helianthemum rotundifolium",
+      "language": "en",
+      "sourceTextTokens": 52,
+      "packetTokens": 168,
+      "standaloneInputTextTokens": 620,
+      "packetSha256": "9139f0382996280516bcf752767a66f2c6ada3acf8cd1fd3923e165f1bacac37"
+    },
+    {
+      "taxonId": 1683702,
+      "name": "Sagina filicaulis",
+      "language": "en",
+      "sourceTextTokens": 36,
+      "packetTokens": 140,
+      "standaloneInputTextTokens": 592,
+      "packetSha256": "7aa65f94d6b718060adce1b89368d409d9d07c2e43f7371deafe814fc05d4ae2"
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-0001",
+      "taxonIds": [
+        60234,
+        68290,
+        76294,
+        76620,
+        76822,
+        77138,
+        77239,
+        78378,
+        81793,
+        117801
+      ]
+    },
+    {
+      "id": "batch-0002",
+      "taxonIds": [
+        118814,
+        119295,
+        119541,
+        123577,
+        128572,
+        128801,
+        128802,
+        135409,
+        140364,
+        140505
+      ]
+    },
+    {
+      "id": "batch-0003",
+      "taxonIds": [
+        141381,
+        158090,
+        161873,
+        163712,
+        165862,
+        165998,
+        166093,
+        166958,
+        167299,
+        167597
+      ]
+    },
+    {
+      "id": "batch-0004",
+      "taxonIds": [
+        167676,
+        167679,
+        167681,
+        167927,
+        167978,
+        168497,
+        170285,
+        183054,
+        189479,
+        204379
+      ]
+    },
+    {
+      "id": "batch-0005",
+      "taxonIds": [
+        211188,
+        273754,
+        275804,
+        275987,
+        280348,
+        281120,
+        282763,
+        282773,
+        282845,
+        285312
+      ]
+    },
+    {
+      "id": "batch-0006",
+      "taxonIds": [
+        285553,
+        286991,
+        288654,
+        288695,
+        290750,
+        323026,
+        323425,
+        334203,
+        340077,
+        340354
+      ]
+    },
+    {
+      "id": "batch-0007",
+      "taxonIds": [
+        343403,
+        344257,
+        345393,
+        371528,
+        372718,
+        404157,
+        405402,
+        405619,
+        405726,
+        418548
+      ]
+    },
+    {
+      "id": "batch-0008",
+      "taxonIds": [
+        424481,
+        426108,
+        426408,
+        431288,
+        431617,
+        436598,
+        436602,
+        448567,
+        461281,
+        461288
+      ]
+    },
+    {
+      "id": "batch-0009",
+      "taxonIds": [
+        465291,
+        467267,
+        483248,
+        485606,
+        486109,
+        486276,
+        487244,
+        492828,
+        493110,
+        496075
+      ]
+    },
+    {
+      "id": "batch-0010",
+      "taxonIds": [
+        498751,
+        508221,
+        516100,
+        522183,
+        533158,
+        542827,
+        543094,
+        564872,
+        569319,
+        569865
+      ]
+    },
+    {
+      "id": "batch-0011",
+      "taxonIds": [
+        574852,
+        582804,
+        582956,
+        583575,
+        584239,
+        588996,
+        592834,
+        594187,
+        595521,
+        602447
+      ]
+    },
+    {
+      "id": "batch-0012",
+      "taxonIds": [
+        606234,
+        632490,
+        632491,
+        639653,
+        705307,
+        706346,
+        706353,
+        713204,
+        715209,
+        747501
+      ]
+    },
+    {
+      "id": "batch-0013",
+      "taxonIds": [
+        770218,
+        773014,
+        774366,
+        777721,
+        784685,
+        785895,
+        792545,
+        836902,
+        850360,
+        850434
+      ]
+    },
+    {
+      "id": "batch-0014",
+      "taxonIds": [
+        850962,
+        859218,
+        861350,
+        886557,
+        888366,
+        895239,
+        900882,
+        925605,
+        947945,
+        976085
+      ]
+    },
+    {
+      "id": "batch-0015",
+      "taxonIds": [
+        977758,
+        977762,
+        986562,
+        1007747,
+        1008575,
+        1010195,
+        1022911,
+        1027509,
+        1034347,
+        1044281
+      ]
+    },
+    {
+      "id": "batch-0016",
+      "taxonIds": [
+        1045699,
+        1065314,
+        1075724,
+        1075879,
+        1117846,
+        1130355,
+        1130922,
+        1149047,
+        1149077,
+        1149084
+      ]
+    },
+    {
+      "id": "batch-0017",
+      "taxonIds": [
+        1150892,
+        1187218,
+        1193953,
+        1197114,
+        1197768,
+        1252712,
+        1269740,
+        1273645,
+        1279259,
+        1405692
+      ]
+    },
+    {
+      "id": "batch-0018",
+      "taxonIds": [
+        1406669,
+        1411959,
+        1448449,
+        1468330,
+        1474090,
+        1501552,
+        1526151,
+        1529458,
+        1538932,
+        1540163
+      ]
+    },
+    {
+      "id": "batch-0019",
+      "taxonIds": [
+        1553405,
+        1562069,
+        1632151,
+        1642817,
+        1683702
+      ]
+    }
+  ]
+}

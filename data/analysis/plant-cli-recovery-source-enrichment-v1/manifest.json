@@ -1,0 +1,306 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "count": 25,
+  "taxonIds": [
+    49370,
+    49706,
+    52661,
+    53036,
+    53095,
+    53265,
+    53691,
+    54996,
+    55336,
+    56409,
+    56414,
+    62855,
+    67882,
+    72073,
+    119160,
+    122903,
+    142346,
+    157223,
+    157833,
+    166161,
+    169801,
+    335152,
+    418641,
+    485637,
+    491202
+  ],
+  "batchSize": 10,
+  "timeoutSeconds": 300,
+  "promptSha256": "f8783051f00b663918ee82690a2413f4356dc634c28889ed58bc3f316caa3032",
+  "preparedAt": "2026-09-15T18:14:58.537993+00:00",
+  "purpose": "Recover actual blank cards and explicitly selected source-enriched short cards; all supplied ranks",
+  "taxa": [
+    {
+      "taxonId": 49370,
+      "name": "Astragalus",
+      "language": "pt,en",
+      "sourceTextTokens": 1588,
+      "packetTokens": 1744,
+      "standaloneInputTextTokens": 2196,
+      "packetSha256": "7cc18914acfd922ca9d1c71931452d94af0b3245cae2608990e28ba9754b5365"
+    },
+    {
+      "taxonId": 49706,
+      "name": "Pieris",
+      "language": "pt,en",
+      "sourceTextTokens": 1172,
+      "packetTokens": 1332,
+      "standaloneInputTextTokens": 1784,
+      "packetSha256": "132eee2d40ac7660b1dac5db0f53101e1527705c8066a6e096b5a8d5547b614b"
+    },
+    {
+      "taxonId": 52661,
+      "name": "Dionaea",
+      "language": "de,en,en",
+      "sourceTextTokens": 894,
+      "packetTokens": 1163,
+      "standaloneInputTextTokens": 1615,
+      "packetSha256": "33e33fe7121820f244814d0db6bed447339b60cb24913cc59419c85585b05eab"
+    },
+    {
+      "taxonId": 53036,
+      "name": "Ambrosia",
+      "language": "en,en",
+      "sourceTextTokens": 2074,
+      "packetTokens": 2362,
+      "standaloneInputTextTokens": 2814,
+      "packetSha256": "f04cfb8599531b62e6943d9212d1c88c0e28dfd51dbd29511cd466e659da9931"
+    },
+    {
+      "taxonId": 53095,
+      "name": "Heracleum",
+      "language": "pt,en",
+      "sourceTextTokens": 1261,
+      "packetTokens": 1455,
+      "standaloneInputTextTokens": 1907,
+      "packetSha256": "753c8f545cf508cb609c3b1aa3d5cbc295472e1f62e30e8aa559edefa77b5c8c"
+    },
+    {
+      "taxonId": 53265,
+      "name": "Sinapis",
+      "language": "en,en",
+      "sourceTextTokens": 682,
+      "packetTokens": 815,
+      "standaloneInputTextTokens": 1267,
+      "packetSha256": "a188b1319ada4b51addc3d59abd2ba3b4a1639d7aa14483d203bdcedd6f18be3"
+    },
+    {
+      "taxonId": 53691,
+      "name": "Dianella",
+      "language": "pt,en",
+      "sourceTextTokens": 572,
+      "packetTokens": 719,
+      "standaloneInputTextTokens": 1171,
+      "packetSha256": "091d79a05eb46546d23c3fa53eb8a4661287427caf50f363e2d95fd890879d36"
+    },
+    {
+      "taxonId": 54996,
+      "name": "Sida",
+      "language": "pt,en",
+      "sourceTextTokens": 16365,
+      "packetTokens": 17809,
+      "standaloneInputTextTokens": 18261,
+      "packetSha256": "959a818a104d9bcd5d2399e6eef1c2077cf6e692abc5a217e9d835efd9bf1331"
+    },
+    {
+      "taxonId": 55336,
+      "name": "Fissidens curvatus",
+      "language": "sv,en",
+      "sourceTextTokens": 890,
+      "packetTokens": 1071,
+      "standaloneInputTextTokens": 1523,
+      "packetSha256": "55496d8267984a06bb47ab370fbd100741c2b35e81be8ff5d955f800cb46bd50"
+    },
+    {
+      "taxonId": 56409,
+      "name": "Riccia beyrichiana",
+      "language": "sv",
+      "sourceTextTokens": 129,
+      "packetTokens": 231,
+      "standaloneInputTextTokens": 683,
+      "packetSha256": "f4a117b2fb7a0c667c63776b20f0e2c4920187906ebec21c6adf2168f9b794c7"
+    },
+    {
+      "taxonId": 56414,
+      "name": "Riccia crystallina",
+      "language": "uk",
+      "sourceTextTokens": 182,
+      "packetTokens": 304,
+      "standaloneInputTextTokens": 756,
+      "packetSha256": "2a3bd83049750b025acb3381e216fd68b399c5d4cda0c066e1bf33f2f8689599"
+    },
+    {
+      "taxonId": 62855,
+      "name": "Tamarindus",
+      "language": "pt,en",
+      "sourceTextTokens": 1945,
+      "packetTokens": 2403,
+      "standaloneInputTextTokens": 2855,
+      "packetSha256": "2a62a60ab355075fbea6b14b6387ddb6412b3c135c8aa8a8d73724ee7c3dcea1"
+    },
+    {
+      "taxonId": 67882,
+      "name": "Ditrichum",
+      "language": "en,en",
+      "sourceTextTokens": 2407,
+      "packetTokens": 2675,
+      "standaloneInputTextTokens": 3127,
+      "packetSha256": "016f216fa9e6f612f13d46681ad8585ac5ebc339929aa058d36f6127efd2fd8d"
+    },
+    {
+      "taxonId": 72073,
+      "name": "Cota",
+      "language": "pt,en",
+      "sourceTextTokens": 1192,
+      "packetTokens": 1372,
+      "standaloneInputTextTokens": 1824,
+      "packetSha256": "45508e99d43eaa64bf9176c2d28c8693c69b7a339f9b343c1d6549a4ac282f97"
+    },
+    {
+      "taxonId": 119160,
+      "name": "Racomitrium",
+      "language": "en,en",
+      "sourceTextTokens": 1176,
+      "packetTokens": 1330,
+      "standaloneInputTextTokens": 1782,
+      "packetSha256": "c05828f10a478f092c36a9ac5a6594b2a0bd94d92ab4b9a1d640a984be8772b1"
+    },
+    {
+      "taxonId": 122903,
+      "name": "Glycine",
+      "language": "en,en",
+      "sourceTextTokens": 3583,
+      "packetTokens": 4114,
+      "standaloneInputTextTokens": 4566,
+      "packetSha256": "d15d79c32ed08c7cb8c9b718b0a70a38476fcab82b5e39b7b13cf3c1c36a5df2"
+    },
+    {
+      "taxonId": 142346,
+      "name": "Gloriosa",
+      "language": "pt,en",
+      "sourceTextTokens": 518,
+      "packetTokens": 723,
+      "standaloneInputTextTokens": 1175,
+      "packetSha256": "c0ca454b32de233e8c33011773fd764cc8a061ce50a0282a56395823c98d399c"
+    },
+    {
+      "taxonId": 157223,
+      "name": "Gymnostomum",
+      "language": "en,en",
+      "sourceTextTokens": 1360,
+      "packetTokens": 1537,
+      "standaloneInputTextTokens": 1989,
+      "packetSha256": "b7abeec01210cae302c6facbfb02580f2e64c8e6b5ca90c4e42bb2d32db2f6a9"
+    },
+    {
+      "taxonId": 157833,
+      "name": "Abutilon abutiloides",
+      "language": "en,en",
+      "sourceTextTokens": 474,
+      "packetTokens": 650,
+      "standaloneInputTextTokens": 1102,
+      "packetSha256": "f06ae2c53bf78ecf8ca3a8d169437f255f3c94cb43baa69e7f853e4238ceb91c"
+    },
+    {
+      "taxonId": 166161,
+      "name": "Parthenocissus heptaphylla",
+      "language": "sv,en,en",
+      "sourceTextTokens": 530,
+      "packetTokens": 771,
+      "standaloneInputTextTokens": 1223,
+      "packetSha256": "27d7adec8894f0cae6782d11aecf12522dc9de258f8916d45a1e84b2228fc6b9"
+    },
+    {
+      "taxonId": 169801,
+      "name": "Tortella humilis",
+      "language": "sv,en",
+      "sourceTextTokens": 1320,
+      "packetTokens": 1492,
+      "standaloneInputTextTokens": 1944,
+      "packetSha256": "71d01b808c01994b4e7077e9cbd297d37d6b207eb70e5f949963e606a9f412e3"
+    },
+    {
+      "taxonId": 335152,
+      "name": "Senna polyphylla",
+      "language": "sv,en",
+      "sourceTextTokens": 191,
+      "packetTokens": 413,
+      "standaloneInputTextTokens": 865,
+      "packetSha256": "28d314c8b15873dc5ebd2ab0c1da4b17f2cf190d60a6dbe18a85daa3e153e7d5"
+    },
+    {
+      "taxonId": 418641,
+      "name": "Pterygota",
+      "language": "en,en",
+      "sourceTextTokens": 1215,
+      "packetTokens": 1457,
+      "standaloneInputTextTokens": 1909,
+      "packetSha256": "822693b4570bcff941a63718a792fabc4064f254e999b8a586b52164dabc56b4"
+    },
+    {
+      "taxonId": 485637,
+      "name": "Luzula elegans",
+      "language": "uk,pt,en",
+      "sourceTextTokens": 266,
+      "packetTokens": 516,
+      "standaloneInputTextTokens": 968,
+      "packetSha256": "4ba49b2a9168ec27aa0152632598b775c12b83a2259ca2d5b07d65b558f22dce"
+    },
+    {
+      "taxonId": 491202,
+      "name": "Medicago × varia",
+      "language": "fr,en",
+      "sourceTextTokens": 251,
+      "packetTokens": 436,
+      "standaloneInputTextTokens": 888,
+      "packetSha256": "cec09c8fc60cece0b71b438a4e7fb7ab99d4c97b9402d5ea4c52e2e9e0a471e4"
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-0001",
+      "taxonIds": [
+        49370,
+        49706,
+        52661,
+        53036,
+        53095,
+        53265,
+        53691,
+        54996,
+        55336,
+        56409
+      ]
+    },
+    {
+      "id": "batch-0002",
+      "taxonIds": [
+        56414,
+        62855,
+        67882,
+        72073,
+        119160,
+        122903,
+        142346,
+        157223,
+        157833,
+        166161
+      ]
+    },
+    {
+      "id": "batch-0003",
+      "taxonIds": [
+        169801,
+        335152,
+        418641,
+        485637,
+        491202
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "taxonId": 1628703,
+  "name": "Falona echinata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:45.745006+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/44d407254f3b2d705a2d1f5427392f25c940f985285acdc9cf51f295937a1f7d.json",
+      "title": "Cynosurus echinatus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Falona echinata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "bristly dogtail grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Falona+echinata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Falona+echinata&limit=100",
+      "status": 200
+    }
+  ]
+}

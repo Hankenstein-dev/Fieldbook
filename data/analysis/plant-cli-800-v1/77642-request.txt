@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":77642,"scientificName":"Lathyrus palustris","commonName":"marsh pea","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lathyrus palustris","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lathyrus palustris is a species of wild pea known by the common name marsh pea. It is native to Europe, Asia, and North America. It is a perennial herb with leaves made up of oval-shaped or oblong leaflets a few centimeters long. It has branched, coiled tendrils. The plant bears an inflorescence of two to eight pinkish purple pea flowers each up to two centimeters wide. The fruit is a dehiscent legume pod."},{"id":"s1:p2","text":"Description\nLathyrus linifolius is a perennial plant with a sprawling or climbing stem that grows to {{convert|25|to|80|cm|0|abbr=on}} and is shallowly-winged and nearly hairless. The leaves are alternate with short winged stalks and long narrow stipules. The leaf blades are pinnate with two to four pairs of narrow lanceolate leaflets, entire margins and a terminal branching tendril. The inflorescence has a long stem and two to eight purple flowers, each {{convert|12|to|20|mm|1|abbr=on}} long. These have five sepals and five petals and are irregular. The uppermost petal is known as the \"standard\", the lateral two as the \"wings\" and the lowest two are joined to form the \"keel\". There are ten stamens and a single carpel. The fruit is a flat brown pod containing up to twelve seeds. This plant flowers in July and August."},{"id":"s1:p3","text":"Distribution and habitat\nLathyrus linifolius is native to Europe, parts of Asia and North America. Its typical habitat is in rich ground and this plant is found in damp meadows, on river banks, on the margins of ponds, by lakes and near the sea, and occasionally in coastal hedgerows. It often seems to grow among reeds (Phragmites australis).\nThe species epithet palustris is Latin for \"of the marsh\" and indicates its common habitat. Marsh Pea grows from long rhizomes that allows the plant to spread vegetatively. As the common name implies, Marsh Pea, it is found in wet to moist areas where it can receive adequate sun and also allows other plants to climb on."}]}]}

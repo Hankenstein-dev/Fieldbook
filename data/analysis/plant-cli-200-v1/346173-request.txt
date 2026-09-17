@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":346173,"scientificName":"Salvia guaranitica","commonName":"Anise-scented sage","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Salvia guaranitica","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Salvia guaranitica, the anise-scented sage or hummingbird sage, is a species of flowering plant in the sage family, Lamiaceae, native to a wide area of South America, including Brazil, Paraguay, Uruguay, and Argentina. It is cultivated all over the world, and is naturalized in New Zealand and Chile."},{"id":"s1:p2","text":"Description\nIt is a perennial subshrub growing {{convert|4|to|5|ft|m|abbr=on}} tall, spreading into a large patch via its spreading roots. The leaves are ovate, {{convert|4|cm|in|abbr=on}} long and nearly as wide, with a fresh mint green color, and an anise scent when crushed. The inflorescences are up to {{convert|25|cm|in|abbr=on}} long with flowers in various shades of blue, including an uncommonly true blue. In cold regions, flowering begins in mid summer and continues until frost."},{"id":"s1:p3","text":"Cultivation"},{"id":"s1:p4","text":"Salvia guaranitica is a popular ornamental plant in mild areas. It grows in either full or three quarter sunlight, in well-draining soil. Numerous cultivars have been selected, including 'Argentine Skies' (pale blue flowers), 'Black and Blue' (very dark violet blue calyx), 'Blue Ensign' (large blue flowers), and 'Purple Splendor' (Light purple flowers). "},{"id":"s1:p5","text":"The cultivar 'Blue Enigma', with pure blue flowers, has gained the Royal Horticultural Society's Award of Garden Merit."},{"id":"s1:p6","text":"The species name originates from the Guaraní people of Brazil, who reportedly used the leaves as a sedative."}]}]}

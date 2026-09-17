@@ -1,0 +1,42 @@
+{
+  "taxonId": 861347,
+  "name": "Sedum fusiforme",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:49.166447+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sedum fusiforme",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Sedum fusiforme''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rosales]]\n| família = [[Crassulaceae]]\n| género = ''[[Sedum]]''\n| espécie = '''''S. fusiforme'''''\n| binomial = ''Sedum fusiforme''\n| binomial_autoridade = Lowe\n}}\nSedum fusiforme é uma espécie de planta com flor pertencente à família Crassulaceae. \n\nA autoridade científica da espécie é Lowe, tendo sido publicada em Trans. Cambridge Philos. Soc. 4: 31. t. 3. f. 1. 1831.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago da Madeira.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d9e092cfdded5d4d2af9ef097730d2c89b36664474ab0b9615e57e7c3e0c3ff2.json",
+      "sha256": "77165ed488bb9084d5e13e21f0c9374996cbfed411e9887bebe3b1787f87c01c",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177817",
+      "revisionId": 62177817,
+      "credit": {
+        "title": "Sedum fusiforme",
+        "url": "https://pt.wikipedia.org/wiki/Sedum_fusiforme",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177817",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+fusiforme&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+fusiforme&limit=100",
+      "status": 200
+    }
+  ]
+}

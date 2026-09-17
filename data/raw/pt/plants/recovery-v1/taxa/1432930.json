@@ -1,0 +1,38 @@
+{
+  "taxonId": 1432930,
+  "name": "Quercus airensis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:45.499565+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ddfc8909484a38f1c40a82d22527b9d4f26d1eb159081eb2c5ed8507770ceef0.json",
+      "title": "Quercus airensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Quercus airensis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Downy-kermes Oak"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quercus+airensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quercus+airensis&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "taxonId": 1477514,
+  "name": "Parapholis cylindrica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:48.297677+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3bcd7ed868f831b49bdf88e18b5666eed1f7bd67878c7f99ff128ca7733c6464.json",
+      "title": "Hainardia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/864b95920da0bcea77e5d33df51ec53b30272f373cb08e35ea9b25de0fce5d9d.json",
+      "title": "Hainardia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/fe65ccafd49d8b4be945de81339c4ac7a2602adf3d72d4ae066ad0a0cb02ee37.json",
+      "title": "Hainardia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Parapholis cylindrica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Barb Grass"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Parapholis+cylindrica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Parapholis+cylindrica&limit=100",
+      "status": 200
+    }
+  ]
+}

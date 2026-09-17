@@ -1,0 +1,89 @@
+{
+  "input": {
+    "taxonId": 981258,
+    "scientificName": "Campanula matritensis",
+    "commonName": "Campanula matritensis",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Campanula matritensis",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "{{robotskapad|Lsjbot|klockväxt|datum=2014-07}}"
+          },
+          {
+            "id": "s1:p2",
+            "text": "Campanula matritensis är en klockväxtart som beskrevs av A.Dc. Campanula matritensis ingår i släktet blåklockor, och familjen klockväxter. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p3",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p4",
+            "text": "Kategori:Blåklockor\nmatritensis"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Campanula matritensis A.DC. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Campanula matritensis A.DC.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Iberian Peninsula. It is an annual and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/59787c8036bfee67963177684508b861850491550a669b7204e49891b30ab551.json",
+      "sha256": "13333b00a79755aecbdb09d600d4cf6c12af22419d05041dfcb5a444c56aacd8",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=55708057",
+      "revisionId": 55708057,
+      "credit": {
+        "title": "Campanula matritensis",
+        "url": "https://sv.wikipedia.org/wiki/Campanula_matritensis",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=55708057",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/981258-6893ec641307b0d6.json",
+      "sha256": "6893ec641307b0d60b05daf88b64b8f38d769b78466b679632b5936f3dc2c37f",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A140666-1",
+      "credit": {
+        "title": "Campanula matritensis A.DC. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A140666-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 981258,
+    "name": "Campanula matritensis",
+    "language": "sv,en",
+    "sourceTextTokens": 137,
+    "packetTokens": 316,
+    "standaloneInputTextTokens": 768,
+    "packetSha256": "0a4a34701f3f5b4bc279f124d9bc8abf175ca88a4e0f8a03f037b36b7296fa9d"
+  }
+}

@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "status": "editorial_proposal",
+  "authorship": "In-session drafts for template review; no separate model API benchmark. Not approved botanical records.",
+  "examples": [
+    {
+      "scientificName": "Arbutus unedo",
+      "inputPacketSha256": "998a4b44c953cfc485333cdd9905841a15782253a21ebfc3c1a3bdb5297289c2",
+      "output": {
+        "taxonId": 82689,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Evergreen shrub or small tree.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "Mediterranean Basin and western Europe.",
+            "scope": null,
+            "qualifiers": [
+              "The article questions whether the Irish populations are native; avoid a definitive Irish origin claim."
+            ],
+            "evidence": [
+              "s1:p2",
+              "s1:p16"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "appearance",
+            "value": "Rough-surfaced red berries.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p13"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "flowering",
+            "value": "Autumn flowering coincides with ripening fruit from the preceding year.",
+            "scope": null,
+            "qualifiers": [
+              "Do not turn this unscoped seasonal description into a local monthly calendar."
+            ],
+            "evidence": [
+              "s1:p11",
+              "s1:p13"
+            ]
+          },
+          {
+            "id": "f5",
+            "kind": "ecological_relationship",
+            "value": "Flowers are pollinated by bees.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p11"
+            ]
+          },
+          {
+            "id": "f6",
+            "kind": "ecological_relationship",
+            "value": "Fruit-eating birds disperse the seeds.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p13"
+            ]
+          },
+          {
+            "id": "f7",
+            "kind": "human_use",
+            "value": "Fruit used for jams and Portuguese medronho.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p33"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "documented_use",
+          "details": [
+            {
+              "part": "fruit",
+              "use": "Eaten fresh and made into jams and alcoholic drinks.",
+              "conditions": "The source describes mature fruit.",
+              "scope": null,
+              "evidence": [
+                "s1:p13",
+                "s1:p32",
+                "s1:p33"
+              ]
+            }
+          ]
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "The strawberry tree is an evergreen shrub or small tree native to the Mediterranean and western Europe. Its fruit takes about a year to ripen, so red berries can appear alongside the next crop of flowers. The fruit is used for jams and for medronho, the Portuguese spirit, while bees visit the flowers and birds help disperse the seeds.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7"
+        ],
+        "reviewFlags": []
+      }
+    },
+    {
+      "scientificName": "Quercus suber",
+      "inputPacketSha256": "81eeea4ff224954728d8e15c879825b89e5d4402bc853207e03908d4e048e9db",
+      "output": {
+        "taxonId": 50868,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Evergreen tree.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "Southwest Europe and northwest Africa.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "human_use",
+            "value": "Bark is harvested repeatedly for cork, usually every nine to twelve years.",
+            "scope": null,
+            "qualifiers": [
+              "Intervals vary with conditions; harvesting requires care and skill."
+            ],
+            "evidence": [
+              "s1:p1",
+              "s1:p36"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "ecological_relationship",
+            "value": "Insulating bark helps the tree survive fires and regrow its canopy.",
+            "scope": null,
+            "qualifiers": [
+              "Not a guarantee of survival in every fire."
+            ],
+            "evidence": [
+              "s1:p24"
+            ]
+          },
+          {
+            "id": "f5",
+            "kind": "habitat",
+            "value": "Managed cork oak landscapes called montados are valued for biodiversity.",
+            "scope": "Portugal",
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2",
+              "s1:p35"
+            ]
+          },
+          {
+            "id": "f6",
+            "kind": "human_use",
+            "value": "Acorns are used to feed pigs.",
+            "scope": null,
+            "qualifiers": [
+              "Animal feed is not evidence of human edibility."
+            ],
+            "evidence": [
+              "s1:p38"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "not_documented",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Cork oak is an evergreen tree native to southwest Europe and northwest Africa. Its thick bark can be harvested repeatedly for cork, usually at intervals of nine to twelve years. That bark also insulates the tree during fires, helping it survive and regrow its canopy. In Portugal, cork oak landscapes known as montados support a rich variety of plants and animals.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6"
+        ],
+        "reviewFlags": [
+          "The selected article describes pig feed, not human food use. Do not import general oak/acorn edibility from memory."
+        ]
+      }
+    },
+    {
+      "scientificName": "Carpobrotus edulis",
+      "inputPacketSha256": "b49347e5aca7e53e23b0e1f16e1b51c0a7f9abf81c0d937792a6e3d147ee4d9a",
+      "output": {
+        "taxonId": 49322,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Creeping, mat-forming succulent.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2",
+              "s1:p4"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "South Africa.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "appearance",
+            "value": "Yellow flowers open in bright morning sunlight and close at night.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p5"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "human_use",
+            "value": "Ripe fruit is eaten fresh or made into tart jam.",
+            "scope": "South Africa",
+            "qualifiers": [],
+            "evidence": [
+              "s1:p23"
+            ]
+          },
+          {
+            "id": "f5",
+            "kind": "regional_status",
+            "value": "Invasive in parts of the Mediterranean, Australia and California; dense growth competes with other plants.",
+            "scope": "Mediterranean, Australia and California",
+            "qualifiers": [
+              "Not a worldwide status or a current legal classification."
+            ],
+            "evidence": [
+              "s1:p12"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "documented_use",
+          "details": [
+            {
+              "part": "fruit",
+              "use": "Eaten fresh or made into jam.",
+              "conditions": "Ripe fruit.",
+              "scope": "South Africa",
+              "evidence": [
+                "s1:p23"
+              ]
+            },
+            {
+              "part": "leaves",
+              "use": "Described as edible.",
+              "conditions": null,
+              "scope": null,
+              "evidence": [
+                "s1:p23"
+              ]
+            }
+          ]
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Sour fig is a creeping succulent native to South Africa. It spreads into broad mats, and its yellow flowers open in bright morning sunshine and close at night. Its ripe fruit is traditionally eaten fresh or made into tart jam in South Africa. In parts of the Mediterranean and elsewhere, its spreading growth has become a problem, crowding out other plants.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5"
+        ],
+        "reviewFlags": [
+          "The traditional-medicine paragraph contains a citation-needed warning. No treatment efficacy extracted. Leaf edibility has less contextual detail than the fruit use.",
+          "The ripe-fruit and jam sentence also carries a citation-needed warning; the food-use label needs corroboration."
+        ]
+      }
+    },
+    {
+      "scientificName": "Oxalis pes-caprae",
+      "inputPacketSha256": "aad1885648b2777c7a18cabc52c891f18e733ecc8b6a3dc4d584792288e02548",
+      "output": {
+        "taxonId": 53169,
+        "status": "needs_review",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "appearance",
+            "value": "Yellow flowers.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "South Africa.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p3"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "ecological_relationship",
+            "value": "Produces many small underground bulbs; many populations outside its native range reproduce vegetatively without seed.",
+            "scope": "Native and introduced populations distinguished",
+            "qualifiers": [],
+            "evidence": [
+              "s1:p7",
+              "s1:p8"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "regional_status",
+            "value": "Invasive in parts of Europe, Australia and the United States.",
+            "scope": "Europe, Australia and United States",
+            "qualifiers": [
+              "Not a legal designation for every country."
+            ],
+            "evidence": [
+              "s1:p11"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "documented_use",
+          "details": [
+            {
+              "part": "leaves or roots",
+              "use": "Source reports use as food in some regions.",
+              "conditions": "The hazards section discusses oxalate risks and boiling, but is flagged as original research; this is not validated preparation guidance.",
+              "scope": "Unspecified regions",
+              "evidence": [
+                "s1:p15"
+              ]
+            },
+            {
+              "part": null,
+              "use": "Traditional ingredient in waterblommetjiebredie.",
+              "conditions": null,
+              "scope": "South Africa",
+              "evidence": [
+                "s1:p19"
+              ]
+            }
+          ]
+        },
+        "toxicity": {
+          "status": "reported",
+          "details": [
+            {
+              "part": null,
+              "affectedOrganism": "Livestock, including sheep",
+              "effect": "Reported poisoning and deaths after heavy grazing.",
+              "conditions": "Large intake in dense stands; source hazards section has an original-research warning.",
+              "scope": "Includes South Australian reports",
+              "evidence": [
+                "s1:p15",
+                "s1:p16",
+                "s1:p17"
+              ]
+            }
+          ]
+        },
+        "summary": "African wood-sorrel is a yellow-flowered plant native to South Africa. Much of its spread outside its native range happens underground: it produces numerous small bulbs, allowing populations to multiply even where they do not set seed. This helps explain why it has become a persistent invader in parts of Europe, Australia and the Americas.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ],
+        "reviewFlags": [
+          "Article has a general reference-improvement warning; hazards section is flagged as original research. Food and toxicity claims require stronger corroboration before reader-facing labels.",
+          "Summary excludes the disputed dietary and medical claims."
+        ]
+      }
+    },
+    {
+      "scientificName": "Ophrys apifera",
+      "inputPacketSha256": "2bea023d11df16a1822aba2ce2c6ea3b99155853a34fd93343318393ce92df4a",
+      "output": {
+        "taxonId": 83816,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Perennial herbaceous orchid.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "appearance",
+            "value": "Hairy flower lip resembles a bee.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p4"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "ecological_relationship",
+            "value": "Almost exclusively self-pollinating in northern populations; bee-mediated pollination is reported in the Mediterranean.",
+            "scope": "Northern range versus Mediterranean",
+            "qualifiers": [
+              "Do not generalise the pollination mode across the whole range."
+            ],
+            "evidence": [
+              "s1:p13"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "ecological_relationship",
+            "value": "Mycorrhizal fungi help supply nutrients.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p10"
+            ]
+          },
+          {
+            "id": "f5",
+            "kind": "habitat",
+            "value": "Semi-dry grassland, calcareous dunes and open woodland; also disturbed sites.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p9"
+            ]
+          },
+          {
+            "id": "f6",
+            "kind": "regional_status",
+            "value": "Occurs across central and southern Europe, North Africa and the Middle East.",
+            "scope": null,
+            "qualifiers": [
+              "Distribution is described; do not automatically relabel it native range."
+            ],
+            "evidence": [
+              "s1:p6"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "documented_use",
+          "details": [
+            {
+              "part": "root tubers",
+              "use": "The article attributes historical salep production to this species.",
+              "conditions": "Historical use; species-specific attribution needs corroboration.",
+              "scope": "Ottoman Empire",
+              "evidence": [
+                "s1:p17"
+              ]
+            }
+          ]
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "The bee orchid is a perennial orchid found across much of Europe, North Africa and the Middle East. Its flower includes a furry, bee-shaped lip that can act as a decoy for male bees. Yet northern populations largely pollinate themselves, while bee pollination is reported in the Mediterranean. Beneath the surface, the plant also depends on a partnership with fungi to obtain nutrients.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6"
+        ],
+        "reviewFlags": [
+          "Salep text shifts between this species and orchid products generally; confirm species attribution before exposing a food-use label. Medicinal and aphrodisiac beliefs are not efficacy evidence."
+        ]
+      }
+    },
+    {
+      "scientificName": "Armeria gaditana",
+      "inputPacketSha256": "f6f85385c0fae8ce6676a37f7749f9bbf5b51559258b1ddfd8d6017a889cbb08",
+      "output": {
+        "taxonId": 450279,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Flowering plant.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "Endemic to the southwest Iberian Peninsula.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s2:p1"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "habitat",
+            "value": "Meadows on sandy, somewhat damp soils.",
+            "scope": "Mainland Portugal; 2020 publication",
+            "qualifiers": [],
+            "evidence": [
+              "s2:p1"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "regional_status",
+            "value": "Assessed as Critically Endangered nationally after severe decline; the assessment describes one remaining eastern Algarve locality threatened by changes to soil water conditions.",
+            "scope": "Mainland Portugal; 2020 publication, assessments 2016–2019",
+            "qualifiers": [
+              "Historical national assessment, not global status or a current population census."
+            ],
+            "evidence": [
+              "s2:p1"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "not_documented",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Armeria gaditana is a flowering plant found only in the southwest of the Iberian Peninsula. It grows in meadows with sandy, somewhat damp soil. The 2020 mainland Portuguese Red List assessed it as Critically Endangered nationally, describing severe decline and a remaining site in the eastern Algarve. Its story is closely tied to the survival of that small area of suitable habitat.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ],
+        "reviewFlags": [
+          "Retain assessment date and mainland scope; do not repeat the historical individual count as a present-day fact."
+        ]
+      }
+    },
+    {
+      "scientificName": "Araucaria columnaris",
+      "inputPacketSha256": "5f0d42f8933e2fbb05c78e81dd62f1630b824d60827afd4678acccf1c2af78e3",
+      "output": {
+        "taxonId": 53717,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Conifer with a narrow, spire-shaped crown.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1",
+              "s1:p4"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "Endemic to New Caledonia.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "appearance",
+            "value": "Bark peels away in thin sheets or strips.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p4"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "appearance",
+            "value": "A 2017 study found a tendency to lean towards the equator.",
+            "scope": null,
+            "qualifiers": [
+              "Reported tendency, not an invariant rule or an explanation of its cause."
+            ],
+            "evidence": [
+              "s1:p6"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "not_documented",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Cook pine is a conifer native only to New Caledonia in the Pacific. It has a narrow, spire-shaped crown and bark that peels away in thin strips. A 2017 study found an unusual pattern in its posture: trees tended to lean towards the equator, southwards in the northern hemisphere and northwards in the southern hemisphere.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ],
+        "reviewFlags": []
+      }
+    },
+    {
+      "scientificName": "Solanum chenopodioides",
+      "inputPacketSha256": "f155d4fc46b5cbd0481489ce900391dc6d2a3e5f421de2478557071bae8ce562",
+      "output": {
+        "taxonId": 336677,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Shrub.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "South America.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "regional_status",
+            "value": "Naturalised in North America, Europe, Australia and New Zealand.",
+            "scope": "Named regions",
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "not_documented",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Whitetip nightshade is a shrub native to South America. It has become naturalised in North America, Europe, Australia and New Zealand.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3"
+        ],
+        "reviewFlags": [
+          "Selected English source is only a short introduction. No supported food-use or toxicity assessment; do not infer either from the name nightshade. Compare retained alternate-language material before accepting this as the best available overview."
+        ]
+      }
+    },
+    {
+      "scientificName": "Romulea rosea",
+      "inputPacketSha256": "86326ee0438bd1c5a8148250466bad678ff0b40f34cf8a520a4eea05665b98be",
+      "output": {
+        "taxonId": 68896,
+        "status": "draft",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Small herbaceous perennial, usually less than 20 cm tall.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "native_range",
+            "value": "Cape region of South Africa.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f3",
+            "kind": "appearance",
+            "value": "Grass-like leaves; pink flowers with a yellow throat.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f4",
+            "kind": "regional_status",
+            "value": "Naturalised in Europe, Australia, New Zealand and California.",
+            "scope": "Named regions",
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          },
+          {
+            "id": "f5",
+            "kind": "regional_status",
+            "value": "Considered an environmental weed in much of Australia.",
+            "scope": "Australia",
+            "qualifiers": [],
+            "evidence": [
+              "s1:p2"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "not_documented",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Romulea rosea is a small perennial from South Africa’s Cape region, with grass-like leaves and pink flowers with yellow centres. Usually less than twenty centimetres tall, it has become naturalised well beyond its original range, including Europe, Australia and New Zealand. In much of Australia it is regarded as an environmental weed.",
+        "summaryEvidence": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5"
+        ],
+        "reviewFlags": []
+      }
+    },
+    {
+      "scientificName": "Malephora lutea",
+      "inputPacketSha256": "862cae361a5d75bcffa5c2cf2caa400eb941edd9a8c1490bc266ab51e55b9b2f",
+      "output": {
+        "taxonId": 349245,
+        "status": "needs_review",
+        "facts": [
+          {
+            "id": "f1",
+            "kind": "growth_form",
+            "value": "Succulent in the stone-plant family Aizoaceae.",
+            "scope": null,
+            "qualifiers": [],
+            "evidence": [
+              "s1:p1"
+            ]
+          },
+          {
+            "id": "f2",
+            "kind": "ecological_relationship",
+            "value": "Flowers are visited by Fidelia kobrowi.",
+            "scope": null,
+            "qualifiers": [
+              "The source records visitation, not demonstrated pollination."
+            ],
+            "evidence": [
+              "s1:p1"
+            ]
+          }
+        ],
+        "foodUse": {
+          "status": "not_documented",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_documented",
+          "details": []
+        },
+        "summary": "Malephora lutea is a succulent in the stone-plant family. Its flowers are visited by Fidelia kobrowi, although the brief source description gives no further detail about this relationship.",
+        "summaryEvidence": [
+          "f1",
+          "f2"
+        ],
+        "reviewFlags": [
+          "Very sparse material. Native range is absent; more source material would make this a more useful overview. Visitation does not establish pollination."
+        ]
+      }
+    },
+    {
+      "scientificName": "Nerium oleander",
+      "inputPacketSha256": "6c45c951961c9ba8cc06aff8618b90089405d50eabe241a4b71ab8fc3eb802f8",
+      "output": {
+        "taxonId": 47563,
+        "status": "needs_review",
+        "facts": [],
+        "foodUse": {
+          "status": "not_assessed",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_assessed",
+          "details": []
+        },
+        "summary": null,
+        "summaryEvidence": [],
+        "reviewFlags": [
+          "Selected article is titled Nerium but its lead explicitly discusses Nerium oleander. This may be a valid species source; complete a passage-level scope and hazard review rather than treating the title mismatch as rejection or approval."
+        ]
+      }
+    },
+    {
+      "scientificName": "Ranunculus tuberosus",
+      "inputPacketSha256": "571628467be86e70f414e60dec4353c2e309c8f742de332eec63b5a801fbbe0b",
+      "output": {
+        "taxonId": 481305,
+        "status": "needs_review",
+        "facts": [],
+        "foodUse": {
+          "status": "not_assessed",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_assessed",
+          "details": []
+        },
+        "summary": null,
+        "summaryEvidence": [],
+        "reviewFlags": [
+          "Selected article primarily describes Ranunculus polyanthemos; tuberosus appears in its treatment of a subordinate taxon. Do not transfer the broader description automatically."
+        ]
+      }
+    },
+    {
+      "scientificName": "Cistus umbellatus",
+      "inputPacketSha256": "4a97a79a249e0abe448960aa4dd76e20111684e14f3872f05eb31f19802ca7c1",
+      "output": {
+        "taxonId": 548146,
+        "status": "insufficient_source",
+        "facts": [],
+        "foodUse": {
+          "status": "not_assessed",
+          "details": []
+        },
+        "toxicity": {
+          "status": "not_assessed",
+          "details": []
+        },
+        "summary": null,
+        "summaryEvidence": [],
+        "reviewFlags": [
+          "No narrative source in the saved packet; taxonomy alone cannot support the proposed paragraph."
+        ]
+      }
+    }
+  ]
+}

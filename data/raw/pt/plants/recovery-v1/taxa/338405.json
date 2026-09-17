@@ -1,0 +1,42 @@
+{
+  "taxonId": 338405,
+  "name": "Reseda media",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:57.439196+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Reseda media",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Reseda media''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Capparales]]\n| família = [[Resedaceae]]\n| género = ''[[Reseda]]''\n| espécie = '''''R. media'''''\n| binomial = ''Reseda media''\n| binomial_autoridade = Lag.\n}}\nReseda media é uma espécie de planta com flor pertencente à família Resedaceae. \n\nA autoridade científica da espécie é Lag., tendo sido publicada em Genera et species plantarum 17. 1816.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental, no Arquipélago dos Açores e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa de Portugal Continental e introduzida nos Arquipélago dos Açores e da Madeira.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/4fc6a8808d4a6d48d77a199455a0020b173975e175977085cc0d10c6f354c09f.json",
+      "sha256": "678a19611cbb59971b6f48a2df6f9fa4b69a0d6f041c6f56441aa8c855230c5d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177441",
+      "revisionId": 62177441,
+      "credit": {
+        "title": "Reseda media",
+        "url": "https://pt.wikipedia.org/wiki/Reseda_media",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177441",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Reseda+media&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Reseda+media&limit=100",
+      "status": 200
+    }
+  ]
+}

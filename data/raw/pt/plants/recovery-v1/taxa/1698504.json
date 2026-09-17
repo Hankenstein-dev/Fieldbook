@@ -1,0 +1,22 @@
+{
+  "taxonId": 1698504,
+  "name": "Quercus × almeidae",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:56.504095+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quercus+%C3%97+almeidae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quercus+%C3%97+almeidae&limit=100",
+      "status": 200
+    }
+  ]
+}

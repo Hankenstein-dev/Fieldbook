@@ -1,0 +1,102 @@
+{
+  "input": {
+    "taxonId": 336351,
+    "scientificName": "Achillea distans",
+    "commonName": "Tall Yarrow",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Achillea distans",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "{{Use American English|date=August 2025}}"
+          },
+          {
+            "id": "s1:p2",
+            "text": "Achillea distans is a perennial species of Achillea in the family Asteraceae. It is native to Europe."
+          },
+          {
+            "id": "s1:p3",
+            "text": " Description \nIt is a perennial plant that grows up to {{Convert|60|cm}} tall."
+          },
+          {
+            "id": "s1:p4",
+            "text": " Distribution and habitat \nIt is native to Europe and grows in the temperate biome. It can be found in light forests, on rocky forest edges and in shrubs. It also grows in meadows and fertile habitats."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Achillea distans Willd.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Bluetezeit: 7 - 8 Standort und Verbreitung in der Schweiz: Lichte Waelder, Gebuesche / montan-alpin / Suedliches TI (Generoso?)"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Oekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F maessig feucht Lichtzahl L halbschattig Salzzeichen -- Reaktionszahl R schwach sauer bis neutral (pH 4.5 - 7.5) Temperaturzahl T unter-subalpin und ober-montan Naehrstoffzahl N naehrstoffreich Kontinentalitaetszahl K subozeanisch bis subkontinental (mittlere Luftfeuchtigkeit, maessige Temperaturschwankungen und maessig tiefe Wintertemperaturen)"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Artbeschreibung: 20 - 80 cm hoch. Grundstaendige Blaetter 3 - 8 cm breit. An den obersten 12 cm des Staengels unter dem Bluetenstand 2 - 6 Blaetter. Mittelrippe der Staengelblaetter 2 - 4 mm breit, gefluegelt und gezaehnt. Blattabschnitte flach ausgebreitet, kaum bis ueber die Mitte geteilt, Zipfel und Zaehne 0,3 - 1 mm breit, 3 eckig. Zungenblueten hellrosa bis purpurn. Fruechte 2,5 - 3 mm lang."
+          },
+          {
+            "id": "s2:p4",
+            "text": "Verbreitung global: Mittel- und suedosteuropaeisch"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1161713437e5f577ede96215205070c2fc2448eed80cf8370f23e574ab582270.json",
+      "sha256": "995947a4dfac86a26cf95f808d81e593877c8c87e3e8ddf444627d7e518645b5",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1353957024",
+      "revisionId": 1353957024,
+      "credit": {
+        "title": "Achillea distans",
+        "url": "https://en.wikipedia.org/wiki/Achillea_distans",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1353957024",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/224052917.json",
+      "sha256": "e29cf85930dc9b696cdbd82fe57efd99d16d6c682cc9c40eff4538e499d90e39",
+      "url": "https://api.gbif.org/v1/species/224052917",
+      "credit": {
+        "title": "Achillea distans Willd.",
+        "url": "https://www.gbif.org/species/224052917",
+        "attribution": "Konrad Lauber, Gerhart Wagner, Andreas Gygax, plazi (2018). Flora Helvetica - Asteraceae. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/e3932j accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/8011f729-cae2-44a9-8412-ae9c7345c970",
+        "fetchedAt": "2026-09-15T07:52:21.621446+00:00",
+        "title": "Flora Helvetica - Asteraceae"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 336351,
+    "name": "Achillea distans",
+    "language": "en,unspecified",
+    "sourceTextTokens": 429,
+    "packetTokens": 616,
+    "standaloneInputTextTokens": 1068,
+    "packetSha256": "743ca1a07c491cc1a8629284c59437d0a8449997314c2b6347727b07859c0167"
+  }
+}

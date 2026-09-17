@@ -1,0 +1,38 @@
+{
+  "taxonId": 1632151,
+  "name": "Anacamptis fragrans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:46.488322+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5ca9c600eae70dc1ea2213bd0ed1a9f8b2b0f526318516ea45346057a73d81ce.json",
+      "title": "Anacamptis coriophora",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Anacamptis fragrans"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Scented Orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Anacamptis+fragrans&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Anacamptis+fragrans&limit=100",
+      "status": 200
+    }
+  ]
+}

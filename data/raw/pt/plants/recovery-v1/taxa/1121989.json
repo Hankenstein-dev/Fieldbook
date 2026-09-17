@@ -1,0 +1,63 @@
+{
+  "taxonId": 1121989,
+  "name": "Alleniella complanata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:36.744587+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Alleniella complanata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Alleniella complanata, the flat Neckera, is a species of moss belonging to the family Neckeraceae. This species of moss was found in the colon of the Tyrolean Iceman.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/38aeeab74fcbb79084f56bbe3f8a855ef6109a14eb216482ebb3967ecf3b5d67.json",
+      "sha256": "bef25a8e65c02f03e39237ac6f92b06ed518a4e1aa97d549b32b5653e3483201",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1231478252",
+      "revisionId": 1231478252,
+      "credit": {
+        "title": "Alleniella complanata",
+        "url": "https://en.wikipedia.org/wiki/Alleniella_complanata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1231478252",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Alleniella complanata (Hedw.) S. Olsson, Enroth & D. Quandt",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882): Djurjura. Bescherelle (1882), Jelenc (1955 a): Alger, forêt de Chaïba, à oued-el-Alleug; La Calle; Philippeville. Trabut (1888): sine loco. Corbière (1905): Environs de Constantine, oued Marsa. Jelenc (1955 a): Alger; Boufarik; Kabylie des Babor, Tababor; Kabylie du Djurdjura, Akfadou; Kabylie du Djurdjura, Izer Zouggaren; Khodjaberry. Ahayoun et al. (2007): Kabylie. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098090.json",
+      "sha256": "63d79ec0270a1f34c0ec4bbca09d90d7cc689b2ab86eaec4f79d2d4fc9df3b8a",
+      "url": "https://api.gbif.org/v1/species/251098090",
+      "credit": {
+        "title": "Alleniella complanata (Hedw.) S. Olsson, Enroth & D. Quandt",
+        "url": "https://www.gbif.org/species/251098090",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Alleniella complanata"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Alleniella+complanata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Alleniella+complanata&limit=100",
+      "status": 200
+    }
+  ]
+}

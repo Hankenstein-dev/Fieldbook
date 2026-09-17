@@ -1,0 +1,131 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "count": 10,
+  "taxonIds": [
+    199382,
+    857321,
+    873451,
+    911385,
+    928732,
+    1105526,
+    1226133,
+    1226172,
+    1297852,
+    1557568
+  ],
+  "batchSize": 10,
+  "timeoutSeconds": 300,
+  "promptSha256": "f8783051f00b663918ee82690a2413f4356dc634c28889ed58bc3f316caa3032",
+  "preparedAt": "2026-09-15T18:08:31.666913+00:00",
+  "purpose": "Recover actual blank cards and explicitly selected source-enriched short cards; all supplied ranks",
+  "taxa": [
+    {
+      "taxonId": 199382,
+      "name": "Gracilaria vermiculophylla",
+      "language": "en",
+      "sourceTextTokens": 241,
+      "packetTokens": 399,
+      "standaloneInputTextTokens": 851,
+      "packetSha256": "11f8af2fc8030e3692b556f5daba62b10c3bcfa6f22cc0ae9a622d34fb86beec"
+    },
+    {
+      "taxonId": 857321,
+      "name": "Callithamnion granulatum",
+      "language": "en",
+      "sourceTextTokens": 108,
+      "packetTokens": 257,
+      "standaloneInputTextTokens": 709,
+      "packetSha256": "5134c56f110fee911eac0b86143163a8816d3f0170490bdfa7213118b855144a"
+    },
+    {
+      "taxonId": 873451,
+      "name": "Cupressus pendula",
+      "language": "de",
+      "sourceTextTokens": 1334,
+      "packetTokens": 1569,
+      "standaloneInputTextTokens": 2021,
+      "packetSha256": "cc925e0c3ff16fe68300b01fbe6dc5ed97945a5e4daa765861941c50408cb46f"
+    },
+    {
+      "taxonId": 911385,
+      "name": "Petrosedum orientale",
+      "language": "it",
+      "sourceTextTokens": 285,
+      "packetTokens": 443,
+      "standaloneInputTextTokens": 895,
+      "packetSha256": "2c9856b94c2e13b36c64eeb454ee4321abe51ea59c329496297c9315382e3b84"
+    },
+    {
+      "taxonId": 928732,
+      "name": "Erodium aethiopicum",
+      "language": "es,en",
+      "sourceTextTokens": 573,
+      "packetTokens": 771,
+      "standaloneInputTextTokens": 1223,
+      "packetSha256": "9b9c04ba4c4a01b0b5e3fb8a931baa9661de4e0faa3dbd8af5029fed9166a6f4"
+    },
+    {
+      "taxonId": 1105526,
+      "name": "Polystachya thomensis",
+      "language": "fr",
+      "sourceTextTokens": 155,
+      "packetTokens": 283,
+      "standaloneInputTextTokens": 735,
+      "packetSha256": "c4f80decb2124ea4cf1c950c79a67f895d2695f492d60412e2f8bd811acd157d"
+    },
+    {
+      "taxonId": 1226133,
+      "name": "Rhodymenia holmesii",
+      "language": "en",
+      "sourceTextTokens": 88,
+      "packetTokens": 210,
+      "standaloneInputTextTokens": 662,
+      "packetSha256": "563c9d802e0c1074630de78771c76b24fde4c3c5139b8501f416bae2ede029c0"
+    },
+    {
+      "taxonId": 1226172,
+      "name": "Bornetia secundiflora",
+      "language": "fr,en",
+      "sourceTextTokens": 209,
+      "packetTokens": 424,
+      "standaloneInputTextTokens": 876,
+      "packetSha256": "76c09d783e2b56297f49706d9fef41fa95b48f2561e9b3d16c5846f05f2dd130"
+    },
+    {
+      "taxonId": 1297852,
+      "name": "Halurus equisetifolius",
+      "language": "en",
+      "sourceTextTokens": 156,
+      "packetTokens": 307,
+      "standaloneInputTextTokens": 759,
+      "packetSha256": "0f5fbdac95e729a5e99fdbff5a45d0d6854e0fd127b06ea8ed4173e53b6cf9b2"
+    },
+    {
+      "taxonId": 1557568,
+      "name": "Boreolithothamnion glaciale",
+      "language": "en",
+      "sourceTextTokens": 700,
+      "packetTokens": 1141,
+      "standaloneInputTextTokens": 1593,
+      "packetSha256": "2471e0a3868ab4097b8dbd715c55e9815a01a32531c97ea3412b6603c6e4165e"
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-0001",
+      "taxonIds": [
+        199382,
+        857321,
+        873451,
+        911385,
+        928732,
+        1105526,
+        1226133,
+        1226172,
+        1297852,
+        1557568
+      ]
+    }
+  ]
+}

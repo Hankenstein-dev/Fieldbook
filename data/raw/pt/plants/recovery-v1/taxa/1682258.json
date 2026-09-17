@@ -1,0 +1,33 @@
+{
+  "taxonId": 1682258,
+  "name": "Quercus petraea",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:55.145833+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9396b370d1684f277ded2185c90c00f7f62a3f92bf82b262e8dde675f4f2a7b1.json",
+      "title": "Quercus petraea",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/9396b370d1684f277ded2185c90c00f7f62a3f92bf82b262e8dde675f4f2a7b1.json",
+      "title": "Quercus petraea",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Quercus+petraea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Quercus+petraea&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "taxonId": 401314,
+  "name": "Delphinium ajacis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:48.766802+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/77e5d0d7fed3551fd1c74c5ffc4c8827c55926242f8623c1ff527d545728e944.json",
+      "title": "Consolida ajacis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/f025a5f8db92c277a1adcb3659e154df91ff42d7d6bf79755894b01ab1d43b5c.json",
+      "title": "Consolida ajacis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/77e5d0d7fed3551fd1c74c5ffc4c8827c55926242f8623c1ff527d545728e944.json",
+      "title": "Consolida ajacis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Delphinium ajacis"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "doubtful knight's-spur"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Delphinium+ajacis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Delphinium+ajacis&limit=100",
+      "status": 200
+    }
+  ]
+}

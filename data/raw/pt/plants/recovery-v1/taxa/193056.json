@@ -1,0 +1,42 @@
+{
+  "taxonId": 193056,
+  "name": "Gratiola linifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:38.759336+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Gratiola linifolia",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Gratiola linifolia''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Scrophulariales]]\n| família = [[Scrophulariaceae]]\n| género = ''[[Gratiola]]''\n| espécie = '''''G. linifolia'''''\n| binomial = ''Gratiola linifolia''\n| binomial_autoridade = Vahl\n}}\nGratiola linifolia é uma espécie de planta com flor pertencente à família Scrophulariaceae. \n\nA autoridade científica da espécie é Vahl, tendo sido publicada em Enumeratio Plantarum 1: 89. 1804.\n\nOs seus nomes comuns são dedaleira-menor, erva-do-pobre, graciosa, gracíola ou lenifólio.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/877c95e5add12221a086162ba8787351648b410ebd16aae1eff12ead3dee9b8d.json",
+      "sha256": "e5abddd010b7cac2485b0b75e123c3725d8d0ee2792ad3cfb62d5f126c5d4eaf",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54879992",
+      "revisionId": 54879992,
+      "credit": {
+        "title": "Gratiola linifolia",
+        "url": "https://pt.wikipedia.org/wiki/Gratiola_linifolia",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54879992",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gratiola+linifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gratiola+linifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

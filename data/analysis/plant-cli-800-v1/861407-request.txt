@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":861407,"scientificName":"Festuca donax","commonName":"Festuca donax","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Festuca donax","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Festuca donax is a species of grass. It is native to the Madeira archipelago in the Atlantic Ocean."},{"id":"s1:p2","text":"Description\nThe plant is perennial and caespitose with {{convert|60|–|120|cm}} long culms that grow in a clump. The ligule is {{convert|3|–|5|mm}} long and is going around the eciliate membrane. Leaf-blades are {{convert|5|–|10|cm}} broad with scabrous margins. The panicle is elliptic, open, inflorescenced and is {{convert|18|–|30|cm}} long. Spikelets are elliptic, solitary, {{convert|5.5|–|6.5|mm}} long, and carry fertile ones which have 2–3 fertile florets that are diminished at the apex."},{"id":"s1:p3","text":"The glumes are chartaceous, lanceolate, keelless, with acuminate apexes, with only difference is in size. The upper one is {{convert|5|–|6.2|mm}} long while the other one is {{convert|4.5|–|5.3|mm}} long. Fertile lemma is {{convert|4.4|–|5.2|mm}} long and is also chartaceous, ovate and keelless. Lemma itself is muticous with acute apex and scaberulous surface. Flowers have a hairy ovary and three stamens that are {{convert|3|mm}} long. The fruits are caryopses with an additional pericarp, which just like flowers is hairy as well. Hilum is linear."}]}]}

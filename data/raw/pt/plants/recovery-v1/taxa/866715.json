@@ -1,0 +1,55 @@
+{
+  "taxonId": 866715,
+  "name": "Thapsia foetida",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:36.376364+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Thapsia foetida Linnaeus 1753",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "2. Thapsia foliolis multifidis basi angustatis. Hort. cliff. 105. Roy. lugdb. 113. Thapsia carotae effigie. Bauh. hist. 3. p. 187. Moris. hist. 3. p. 319. s. 9. t. 18. f. 7.\n\nHabitat in Hispania. ♃",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164949041.json",
+      "sha256": "6d201c9f85161768e4bc74f36523dd6d3cbea249b0fe24209c460568292528b0",
+      "url": "https://api.gbif.org/v1/species/164949041",
+      "credit": {
+        "title": "Thapsia foetida Linnaeus 1753",
+        "url": "https://www.gbif.org/species/164949041",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Thapsia foetida L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Habitat in Hispania. ♃\n\n2. Thapsia foliolis multifidis basi angustatis. Hort. cliff. 105. Roy. lugdb. 113. Thapsia carotae effigie. Bauh. hist. 3. p. 187. Moris. hist. 3. p. 319. s. 9. t. 18. f. 7.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5538797.json",
+      "sha256": "18d2aa0dbfadb75be6452f2450457a8931761f4718412c87328015f4a41216df",
+      "url": "https://api.gbif.org/v1/species/5538797",
+      "credit": {
+        "title": "Thapsia foetida L.",
+        "url": "https://www.gbif.org/species/5538797",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thapsia+foetida&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thapsia+foetida&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 1554981,
+  "name": "Silene coutinhoi",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:49.652142+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Silene coutinhoi",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Silene coutinhoi''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Caryophyllales]]\n| família = [[Caryophyllaceae]]\n| género = ''[[Silene]]''\n| espécie = '''''S. coutinhoi'''''\n| binomial = ''Silene coutinhoi''\n| binomial_autoridade = Rothm. & P. Silva\n}}\nSilene coutinhoi é uma espécie de planta com flor pertencente à família Caryophyllaceae.\n\nA autoridade científica da espécie é Rothm. & P. Silva, tendo sido publicada em Feddes Repert. Spec. Nov. Regni Veg. 52: 279. 1943.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é um endemismo da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/046ed2a3dfa10a50ce172ce70f31382fab5a882c4af2665f151baae270ab2f85.json",
+      "sha256": "fc6f1573427c993fc239277133b11e929eb9b427d5ea701447584749c07095e2",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60070077",
+      "revisionId": 60070077,
+      "credit": {
+        "title": "Silene coutinhoi",
+        "url": "https://pt.wikipedia.org/wiki/Silene_coutinhoi",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60070077",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Silene+coutinhoi&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Silene+coutinhoi&limit=100",
+      "status": 200
+    }
+  ]
+}

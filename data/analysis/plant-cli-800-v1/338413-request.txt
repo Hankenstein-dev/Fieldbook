@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":338413,"scientificName":"Thesium pyrenaicum","commonName":"Meadow Bastard Toadflax","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Thesium pyrenaicum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Multiple issues|\n{{More citations needed|date=November 2025}}\n{{More footnotes needed|date=November 2025}}\n}}"},{"id":"s1:p2","text":"Thesium pyrenaicum is a species in the genus Thesium of the sandalwood family, Santalaceae. The genera and species of this family are usually semiparasites feeding on other plants. T. pyrenaicum or meadowflax is a perennial herb between {{cvt|15 and 50|cm}} high. It occurs in Western Europe. With standing stem(s) the leaves are lineal, with three veins, alternate, without stipules. The flowers, with 3-5 petals, are tube-shaped, and bloom in June and July. The petal tops roll in during the fruiting season. It has 5-9 stamen with distinct ovaries. The seeds are nutlike. The fruit is shorter than the flower."}]}]}

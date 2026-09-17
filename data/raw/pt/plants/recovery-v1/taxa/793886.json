@@ -1,0 +1,32 @@
+{
+  "taxonId": 793886,
+  "name": "Rhododendron × hybridum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:44:09.944020+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rhododendron × hybridum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "garden rhododendron"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rhododendron+%C3%97+hybridum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rhododendron+%C3%97+hybridum&limit=100",
+      "status": 200
+    }
+  ]
+}

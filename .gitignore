@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+data/raw/**/_http/
+
+node_modules/
+dist/
+*.tsbuildinfo
+test-results/
+playwright-report/
+.vite/
+.certs/
+data/diagnostics/
+
+public-android/
+dist-android/
+android/local.properties
+android/.gradle/
+android/**/build/
+android/app/src/debug/res/raw/fieldbook_test_ca.crt
+
+public-web/
+dist-web/
+artifacts/
+
+# Downloaded model weights and the recognition packs prepared from them.
+# Regenerate with scripts/prepare_identification.py and scripts/prepare_references.py;
+# public/models manifests and licences stay tracked.
+data/models/
+public/models/*.bin
+public/recognition-downloads/
+public/runtime/
+
+# Web build copied into the Android project by `npx cap sync`.
+android/app/src/main/assets/public/
+
+# Per-machine Claude Code settings.
+.claude/settings.local.json

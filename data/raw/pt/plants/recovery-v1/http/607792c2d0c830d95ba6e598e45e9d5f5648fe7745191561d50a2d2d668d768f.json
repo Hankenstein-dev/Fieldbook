@@ -1,0 +1,59 @@
+{
+  "url": "https://api.gbif.org/v1/species/7713490/synonyms?limit=100",
+  "fetchedAt": "2026-09-15T07:58:30.078063+00:00",
+  "status": 200,
+  "sha256": "5a4b206b00df80d2caa602cc6e69ded5fca32340a93733dd01e6dd62e977a977",
+  "data": {
+    "offset": 0,
+    "limit": 100,
+    "endOfRecords": true,
+    "results": [
+      {
+        "key": 9352235,
+        "nubKey": 9352235,
+        "nameKey": 16013696,
+        "taxonID": "gbif:9352235",
+        "sourceTaxonKey": 161126881,
+        "kingdom": "Plantae",
+        "phylum": "Marchantiophyta",
+        "order": "Marchantiales",
+        "family": "Targioniaceae",
+        "genus": "Targionia",
+        "species": "Targionia lorbeeriana",
+        "kingdomKey": 6,
+        "phylumKey": 9,
+        "classKey": 125,
+        "orderKey": 376,
+        "familyKey": 6106,
+        "genusKey": 2688581,
+        "speciesKey": 7713490,
+        "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "constituentKey": "0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
+        "parentKey": 2688581,
+        "parent": "Targionia",
+        "acceptedKey": 7713490,
+        "accepted": "Targionia lorbeeriana Müll.Frib.",
+        "basionymKey": 7713490,
+        "basionym": "Targionia lorbeeriana Müll.Frib.",
+        "scientificName": "Targionia hypophylla var. lorbeeriana (Müll.Frib.) Aleffi & Schumacker",
+        "canonicalName": "Targionia hypophylla lorbeeriana",
+        "authorship": "(Müll.Frib.) Aleffi & Schumacker",
+        "nameType": "SCIENTIFIC",
+        "rank": "VARIETY",
+        "origin": "SOURCE",
+        "taxonomicStatus": "HOMOTYPIC_SYNONYM",
+        "nomenclaturalStatus": [],
+        "remarks": "Originally found in sources as synonym of Targionia hypophylla L.",
+        "numDescendants": 0,
+        "lastCrawled": "2023-08-22T23:20:59.545+00:00",
+        "lastInterpreted": "2023-08-22T23:18:36.597+00:00",
+        "issues": [
+          "ORIGINAL_NAME_DERIVED",
+          "CONFLICTING_BASIONYM_COMBINATION"
+        ],
+        "class": "Marchantiopsida"
+      }
+    ]
+  },
+  "text": null
+}

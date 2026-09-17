@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":547474,"scientificName":"Onosma tricerosperma","commonName":"Onosma tricerosperma","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Onosma tricerosperma","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón\n| name = ''Onosma tricerosperma''\n| image = Onosma tricerosperma subsp granatensis Closeup SierraNevada.jpg\n| image_width = 270 px\n| image_caption = ''Onosma tricerosperma'' subsp. ''granatensis'' en [[Sierra Nevada (España)|Sierra Nevada]], España\n| regnum = [[Plantae]]\n| divisio = [[Magnoliophyta]]\n| classis = [[Magnoliopsida]]\n| ordo = [[Lamiales]]\n| familia = [[Boraginaceae]]\n| subfamilia = [[Boraginoideae]]\n| genus = [[Onosma]]\n| species = O. tricerosperma\n| binomial = ''Onosma tricerosperma''\n| binomial_authority = [[Lag.]]\n}}\nEl ojo de lobo (Onosma tricerosperma) es una planta de la familia de las boragináceas."},{"id":"s1:p2","text":"Descripción\nSimilar a Onosma frutescens pero con los tallos floríferos ramificados. Núculas verrugosas, por lo general con 3 cuernos cortos. Florece en primavera."},{"id":"s1:p3","text":"Hábitat\nZonas secas arenosas o rocosas."},{"id":"s1:p4","text":"Distribución\nCentro y sur de la península ibérica."},{"id":"s1:p5","text":"Subespecies\nOnosma tricerosperma Lag. subsp. granatensis (Debeaux & Degen) Stroh\nEs planta toda ella cubierta de cerdas canas, con las hojas estrechas y romas y con las flores péndulas, destacando la corola glabra, amarilla y tubuloso-acampanada. La especie posee los frutos dotados de cuernecitos que faltan en la subespecies. Crece en dominios calizos de altas montañas andaluzas, particularmente en las granadinas, prefiriendo pedregales de ladera e incluso comportándose como rupícola."}]}]}

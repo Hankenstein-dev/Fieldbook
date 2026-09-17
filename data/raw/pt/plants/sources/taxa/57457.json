@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 57457,
+  "scientificName": "Stachys palustris",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 57457,
+    "scientificName": "Stachys palustris",
+    "commonName": "Marsh Woundwort",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250702345/medium.jpg",
+      "attribution": "(c) Y Nielsen, some rights reserved (CC BY-NC), uploaded by Y Nielsen",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/250702345"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 57457,
+      "count": 45,
+      "name": "Stachys palustris",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 51229,
+      "descendant_obs_count": 45,
+      "direct_obs_count": 45
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "7e4cb7a2898c83bd521de8682515fee30e4424571908f07ca74e0b428a8140fa"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Stachys palustris",
+      "title": "Stachys palustris",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/17029b54cfbac30ba737076aab702031e159dc374913700ae3c23761755240e4.json",
+      "url": "https://en.wikipedia.org/wiki/Stachys_palustris",
+      "revisionId": 1346159244,
+      "contentSha256": "c974dfc5a3ca7de99c7911b8679fedcaf58b91c058642a7ac361f8ae18dba393"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Stachys palustris",
+      "title": "Stachys palustris",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/17029b54cfbac30ba737076aab702031e159dc374913700ae3c23761755240e4.json",
+      "url": "https://pt.wikipedia.org/wiki/Stachys_palustris",
+      "revisionId": 55247463,
+      "contentSha256": "6b26447fad1f5dfa52d8675f2c27d4bb5ff5edabcdd2a37dd2119ed094ac698c"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868637,
+      "canonicalName": "Stachys palustris",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868637",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868637.json",
+      "recordSha256": "018e8d42690345627784f053190fef36b3931634e1c1b0aa2139619f71c28c68"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

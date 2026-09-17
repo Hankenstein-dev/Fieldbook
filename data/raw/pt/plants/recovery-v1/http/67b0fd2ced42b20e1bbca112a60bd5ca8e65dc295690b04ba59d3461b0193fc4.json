@@ -1,0 +1,59 @@
+{
+  "url": "https://api.gbif.org/v1/species/2646524/synonyms?limit=100",
+  "fetchedAt": "2026-09-15T07:44:32.330633+00:00",
+  "status": 200,
+  "sha256": "2d5a1fa96a4bc433575eb384e6017cb22de8af7d96fe56c4d9998a5551de8a07",
+  "data": {
+    "offset": 0,
+    "limit": 100,
+    "endOfRecords": true,
+    "results": [
+      {
+        "key": 4269002,
+        "nubKey": 4269002,
+        "nameKey": 2628897,
+        "taxonID": "gbif:4269002",
+        "sourceTaxonKey": 117172649,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "order": "Zygnematales",
+        "family": "Closteriaceae",
+        "genus": "Closterium",
+        "species": "Closterium incurvum",
+        "kingdomKey": 6,
+        "phylumKey": 7819616,
+        "classKey": 333,
+        "orderKey": 642,
+        "familyKey": 8848,
+        "genusKey": 2646356,
+        "speciesKey": 2646524,
+        "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "constituentKey": "aacd816d-662c-49d2-ad1a-97e66e2a2908",
+        "parentKey": 2646356,
+        "parent": "Closterium",
+        "acceptedKey": 2646524,
+        "accepted": "Closterium incurvum Bréb.",
+        "basionymKey": 2646524,
+        "basionym": "Closterium incurvum Bréb.",
+        "scientificName": "Closterium venus var. incurvum (Bréb.) Willi Krieg.",
+        "canonicalName": "Closterium venus incurvum",
+        "authorship": "(Bréb.) Willi Krieg.",
+        "nameType": "SCIENTIFIC",
+        "rank": "VARIETY",
+        "origin": "SOURCE",
+        "taxonomicStatus": "HOMOTYPIC_SYNONYM",
+        "nomenclaturalStatus": [],
+        "remarks": "Originally found in sources as synonym of Closterium incurvum var. incurvum",
+        "numDescendants": 0,
+        "lastCrawled": "2023-08-22T23:20:59.545+00:00",
+        "lastInterpreted": "2023-08-22T23:18:54.482+00:00",
+        "issues": [
+          "ORIGINAL_NAME_DERIVED",
+          "CONFLICTING_BASIONYM_COMBINATION"
+        ],
+        "class": "Zygnematophyceae"
+      }
+    ]
+  },
+  "text": null
+}

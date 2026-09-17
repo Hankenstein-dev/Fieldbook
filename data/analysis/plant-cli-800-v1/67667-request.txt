@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":67667,"scientificName":"Pterocladiella capillacea","commonName":"Branched wing weed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pterocladiella capillacea","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Pterocladiella capillacea''\n| imagem =Pterocladiella capillacea Crouan.jpg\n| imagem_legenda = ''Pterocladiella capillacea''.\n| imagem_largura=250px\n| domínio = [[Eukaryota]]\n| reino = [[Archaeplastida]]\n| filo = [[Rhodophyta]]\n| filo_autoridade = [[Richard Wettstein|Wettstein]], 1922\n| subfilo=[[Eurhodophytina]]\n| classe=[[Florideophyceae]]\n| subclasse=[[Rhodymeniophycidae]]\n| ordem=[[Gelidiales]]\n| família=[[Pterocladiaceae]]\n| género=''[[Pterocladiella]]''\n| espécie=''P. capillacea''\n| binomial=''Pterocladiella capillacea''\n| binomial_autoridade= ([[S.G.Gmelin]]) Santelices & Hommersand\n| sinónimos=\n*''[[Fucus capillaceus]]'' <small>S.G.Gmelin 1768</small>\n*''Gelidium capillaceum <small>(S.G.Gmelin) Meneghini 1854</small>\n*''Pterocladia capillacea <small>(S.G.Gmelin) Bornet 1876</small>\n}}\nPterocladiella capillacea (S.G.Gmelin) Santelices & Hommersand é uma macroalga do grupo das Rhodophyta (algas vermelhas) com distribuição natural na zona entremarés inferior das costas do Atlântico Nordeste, incluindo as ilhas da Macaronésia, e do Mediterrâneo."},{"id":"s1:p2","text":"Descrição\nAlga cartilaginosa, de coloração vermelho-púrpura escura, com talos achatados, com c. 2 mm de espessura e até 20 cm de altura, formando tufos soltos sobre uma base em forma de rizoide. As frondes são pinadas ou bipinadas, frequentemente sem ramificação na região basal, com subdivisão oposta ou alternada, frequentemente com as ramificação reduzindo-se gradualmente em comprimento em direcção aos extremos da fronde."},{"id":"s1:p3","text":"O habitat típico são as poças de maré e as lagunas costeiras, ocorrendo sempre na parte inferior da região entremarés ou na zona subtidal de águas rasas."},{"id":"s1:p4","text":"{{Ref-section|Notas}}"}]}]}

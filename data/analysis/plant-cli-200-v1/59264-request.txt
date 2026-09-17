@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":59264,"scientificName":"Lathyrus cicera","commonName":"Red Vetchling","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lathyrus cicera","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Lathyrus cicera is a species of wild pea known by the common names red pea, red vetchling and flatpod peavine. It is native to Europe, North Africa, and the Middle East, and it is known from other places as an introduced species. This is a hairless annual herb producing a slightly winged stem. The leaves are each made up of two leaflike linear leaflets {{convert|3|to|6|cm|sp=us}} long. They also bear branched, curling tendrils. The inflorescence holds a single pea flower {{convert|1|to|1.5|cm|sp=us}} wide which is a varying shade of red. The fruit is a hairless dehiscent legume pod."},{"id":"s1:p2","text":"This is one pea species known to cause lathyrism; nevertheless, as cicerchia it figured among the comestibles enjoyed by the fortunate Milanese, listed at length by Bonvesin de la Riva in his \"Marvels of Milan\" (1288)."}]}]}

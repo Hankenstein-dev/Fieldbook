@@ -1,0 +1,234 @@
+{
+  "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=Q131674582&props=claims%7Csitelinks",
+  "fetchedAt": "2026-09-15T07:47:27.503167+00:00",
+  "status": 200,
+  "sha256": "79547c34695d0518447b4eff41869d31232d24fd89ec3bbd2d80d37596a9bbea",
+  "data": {
+    "entities": {
+      "Q131674582": {
+        "type": "item",
+        "id": "Q131674582",
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "06629d890d7ab0ff85c403d8aadf57ce9809c01f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 16521,
+                    "id": "Q16521"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q131674582$7c001e1d-47f9-2e79-c187-65e120bfd104",
+              "rank": "normal"
+            }
+          ],
+          "P225": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P225",
+                "hash": "64a623b20a5c2f0e106ddf6ca81df556425db8db",
+                "datavalue": {
+                  "value": "Centaurea lusitanica",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q131674582$8b2a6589-407d-b011-f19b-55504a44eb3f",
+              "rank": "normal"
+            }
+          ],
+          "P105": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P105",
+                "hash": "aebf3611b23ed90c7c0fc80f6cd1cb7be110ea59",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 7432,
+                    "id": "Q7432"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q131674582$d5a93d5a-47a2-38a8-5d70-e6fa7ff40ffe",
+              "rank": "normal"
+            }
+          ],
+          "P171": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "3dbb6d3dc43a00e0f659391e83c9908bc1931fde",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 156414,
+                    "id": "Q156414"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q131674582$0042022b-43b6-90b1-8cab-2c7e5c8cddb0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b3ffd4bf06490ec6dcd3d8b1a5a8fc27cb01440b",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "d8fbf8671e3c630db61bfac691068cfb6857f243",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 837615,
+                            "id": "Q837615"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "3d4e3f1d1090c67263743f725a7bdbab71513cee",
+                        "datavalue": {
+                          "value": "https://ceb.wikipedia.org/w/index.php?title=Centaurea_lusitanica&oldid=33599752",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P846": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P846",
+                "hash": "154df2f1a90790f0c827c6d1d4b5c28cd4aea57c",
+                "datavalue": {
+                  "value": "8118607",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q131674582$276b78cb-4564-96b2-4c59-b5efb08e5713",
+              "rank": "normal"
+            }
+          ],
+          "P10585": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P10585",
+                "hash": "f86f9541ccd5ce296ff316e2d13c2c7fab4673c8",
+                "datavalue": {
+                  "value": "S6WH",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q131674582$aa026f5a-4868-9b39-4e7e-4def91cff285",
+              "rank": "normal"
+            }
+          ],
+          "P961": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P961",
+                "hash": "858241a1052d720ba6481d1f2af411b235fe604f",
+                "datavalue": {
+                  "value": "190919-1",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q131674582$4f154460-40dd-a645-d561-8d64aead9974",
+              "rank": "normal"
+            }
+          ],
+          "P7715": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7715",
+                "hash": "abfd13bde578cc47de5f5625e0a503834e294557",
+                "datavalue": {
+                  "value": "wfo-0000046668",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q131674582$4cde2533-4e97-a7ae-8e35-f80b7cef1201",
+              "rank": "normal"
+            }
+          ],
+          "P5037": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5037",
+                "hash": "0e7d969af346e681d5bf0c81453bcef435aca753",
+                "datavalue": {
+                  "value": "urn:lsid:ipni.org:names:190919-1",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q131674582$e75918b0-4e43-c4ac-e3c8-37342ac80b64",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "cebwiki": {
+            "site": "cebwiki",
+            "title": "Centaurea lusitanica",
+            "badges": []
+          },
+          "ukwiki": {
+            "site": "ukwiki",
+            "title": "Centaurea lusitanica",
+            "badges": []
+          }
+        }
+      }
+    },
+    "success": 1
+  },
+  "text": null
+}

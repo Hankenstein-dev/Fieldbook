@@ -1,0 +1,48 @@
+{
+  "taxonId": 551907,
+  "name": "Juniperus × pfitzeriana",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:42:54.334271+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/76082481412cbe7e8b590fb301b8b480736091edb633cdeb34e90f067be203a1.json",
+      "title": "Juniperus chinensis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/4eafadc49c7721e1fd9cacc006bfe32d72c41ae566821bae8625941e3481ab4a.json",
+      "title": "Juniperus chinensis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/76082481412cbe7e8b590fb301b8b480736091edb633cdeb34e90f067be203a1.json",
+      "title": "Juniperus chinensis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Juniperus × pfitzeriana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pfitzer's juniper"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Juniperus+%C3%97+pfitzeriana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Juniperus+%C3%97+pfitzeriana&limit=100",
+      "status": 200
+    }
+  ]
+}

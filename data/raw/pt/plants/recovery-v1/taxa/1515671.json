@@ -1,0 +1,43 @@
+{
+  "taxonId": 1515671,
+  "name": "× Hesperotropsis leylandii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:58.689416+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/11140185492f2dc0abfa5c265cc23ee208951d81a1e83116acbdf033768104c7.json",
+      "title": "Leyland cypress",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/9c4b158a5a2112902a7319ffd42b519a5e6f74512817ca96151b5683290c7ee6.json",
+      "title": "Cupressus × leylandii",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "× Hesperotropsis leylandii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Leyland cypress"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=%C3%97+Hesperotropsis+leylandii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=%C3%97+Hesperotropsis+leylandii&limit=100",
+      "status": 200
+    }
+  ]
+}

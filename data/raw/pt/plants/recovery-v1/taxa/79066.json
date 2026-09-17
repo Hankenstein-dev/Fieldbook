@@ -1,0 +1,79 @@
+{
+  "taxonId": 79066,
+  "name": "Setaria adhaerens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:44.497745+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Setaria adhaerens",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Setaria adhaerens''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Setaria]]''\n| espécie = '''''S. adhaerens'''''\n| binomial = ''Setaria adhaerens''\n| binomial_autoridade = (Forssk.) Chiov.\n}}\nSetaria adhaerens é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é (Forssk.) Chiov., tendo sido publicada em Nuovo Giornale Botanico Italiano, n.s. 26: 77. 1919.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental e no Arquipélago dos Açores.\n\nEm termos de naturalidade é introduzida nas duas regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/2365582704b572cf885aa59a50a41ba128e5779a6393db5d7c548958e2ac3141.json",
+      "sha256": "8d1c85252463bb3571cee265c23ba3104689d73533f88363ea794b69b7597509",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=71608655",
+      "revisionId": 71608655,
+      "credit": {
+        "title": "Setaria adhaerens",
+        "url": "https://pt.wikipedia.org/wiki/Setaria_adhaerens",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=71608655",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Setaria adhaerens",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Africa\n\nAntarctic\n\nArable land and market gardens (I1 level 2)\n\nAsia-Temperate\n\nAsia-Tropical\n\nBroadleaved deciduous woodland (G1 level 2)\n\nCoastal dunes and sandy shores (B1 level 2)\n\nConstructed, industrial and other artificial habitats (J level 1)\n\nCultivated areas of gardens and parks (I2 level 2)\n\nLow density buildings (J2 level 2)\n\nSouthern America\n\nTransport networks and other constructed hard-surfaced areas (J4 level 2)\n\nWoodland fringes and clearings and tall forb stands (E5 level 2)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/159502078.json",
+      "sha256": "db23203ed6e2f2fa0d9614548f39e27b4b96e782061eaeef4fc1175fd45c9a4b",
+      "url": "https://api.gbif.org/v1/species/159502078",
+      "credit": {
+        "title": "Setaria adhaerens",
+        "url": "https://www.gbif.org/species/159502078",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d1ea0f694aca4c9fbec7b0c6015c0ea2ffe3a296fdadcdcd2624d642014d38dd.json",
+      "title": "Setaria",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/2365582704b572cf885aa59a50a41ba128e5779a6393db5d7c548958e2ac3141.json",
+      "title": "Setaria",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/d1ea0f694aca4c9fbec7b0c6015c0ea2ffe3a296fdadcdcd2624d642014d38dd.json",
+      "title": "Setaria",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Setaria adhaerens"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Setaria+adhaerens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Setaria+adhaerens&limit=100",
+      "status": 200
+    }
+  ]
+}

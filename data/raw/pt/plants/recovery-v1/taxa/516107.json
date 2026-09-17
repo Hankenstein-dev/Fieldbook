@@ -1,0 +1,42 @@
+{
+  "taxonId": 516107,
+  "name": "Silene marizii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:42.564373+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Silene marizii",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Silene marizii''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Caryophyllales]]\n| família = [[Caryophyllaceae]]\n| género = ''[[Silene]]''\n| espécie = '''''S. marizii'''''\n| binomial = ''Silene marizii''\n| binomial_autoridade = Samp.\n}}\nSilene marizii é uma espécie de planta com flor pertencente à família Caryophyllaceae. \n\nA autoridade científica da espécie é Samp., tendo sido publicada em Annaes Scientificos da Academia Polytecnica do Porto 4: 126. 1909.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/ecf500b4a738e1d74071f1655512ca8f160dc9788077ae865e303d29e66baeab.json",
+      "sha256": "edff6fe1c49ab543a4ec8a7f47024103ffc0337842ea32dd0d0318077d0a2c31",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60069831",
+      "revisionId": 60069831,
+      "credit": {
+        "title": "Silene marizii",
+        "url": "https://pt.wikipedia.org/wiki/Silene_marizii",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60069831",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Silene+marizii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Silene+marizii&limit=100",
+      "status": 200
+    }
+  ]
+}

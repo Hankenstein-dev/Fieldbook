@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 57312,
+    "scientificName": "Vicia ludoviciana",
+    "commonName": "slender vetch",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Vicia ludoviciana",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Vicia ludoviciana, also known by its common name slender vetch is a species from the genus Vicia."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Vicia ludoviciana Nutt. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Vicia ludoviciana Nutt.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is W. Central & S. U.S.A. to Mexico. It is a perennial and grows primarily in the subtropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/2c62fce0bd749632998367f8b2b2128958e9ee170365215378635c5032caf8a8.json",
+      "sha256": "005943ebe2797fc3972e255bbde0d7431c22fe5d20498955e8db78326ae62b07",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1346575582",
+      "revisionId": 1346575582,
+      "credit": {
+        "title": "Vicia ludoviciana",
+        "url": "https://en.wikipedia.org/wiki/Vicia_ludoviciana",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1346575582",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/57312-8cfc6ad8c4854311.json",
+      "sha256": "8cfc6ad8c4854311019e5ccdb0aef1d5479f4b6ca7835a0413a3448c2a045476",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A524900-1",
+      "credit": {
+        "title": "Vicia ludoviciana Nutt. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A524900-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 57312,
+    "name": "Vicia ludoviciana",
+    "language": "en,en",
+    "sourceTextTokens": 72,
+    "packetTokens": 214,
+    "standaloneInputTextTokens": 666,
+    "packetSha256": "21dead2ea140db177313fc5d69c6374d747d915606e5f19bb1353489070cb485"
+  }
+}

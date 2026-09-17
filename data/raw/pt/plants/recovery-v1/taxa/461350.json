@@ -1,0 +1,71 @@
+{
+  "taxonId": 461350,
+  "name": "Riccia huebeneriana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:41.664209+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riccia huebeneriana Lindenb.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT Jovet-Ast (1986) andBischler (2004) did not mention this species to have been reported from Algeria, which was inded reported under its synonym Riccia pseudo-frostii (Schiffn.) Müll. Frib.\n\nRECORDS. — Maire (1939), Jelenc (1955 a): Lac Freitis, dans la plaine des Senhadja. Very rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098633.json",
+      "sha256": "8939719847137481d90a85b7dca10c35016b0d886fd3e6c95850ec69695290b9",
+      "url": "https://api.gbif.org/v1/species/251098633",
+      "credit": {
+        "title": "Riccia huebeneriana Lindenb.",
+        "url": "https://www.gbif.org/species/251098633",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Riccia huebeneriana Lindenb.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "terrestrial\n\nshortlived\n\nplant\n\npioneer vegetations\n\nnon cuddly\n\nmobile\n\nmesotrophic\n\nRECORDS. — Maire (1939), Jelenc (1955 a): Lac Freitis, dans la plaine des Senhadja. Very rare.\n\nCOMMENT Jovet-Ast (1986) andBischler (2004) did not mention this species to have been reported from Algeria, which was inded reported under its synonym Riccia pseudo-frostii (Schiffn.) Müll. Frib.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5836563.json",
+      "sha256": "d622a86257fedb4cfed42c4a4e64edb2a06812e90c9bf6d1150534ee34ca0bc5",
+      "url": "https://api.gbif.org/v1/species/5836563",
+      "credit": {
+        "title": "Riccia huebeneriana Lindenb.",
+        "url": "https://www.gbif.org/species/5836563",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/8215339208bda1091d2739ed586d56ff546a0006923389b2f54f9ecea7eb42db.json",
+      "title": "Riccia huebeneriana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Riccia huebeneriana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Violet Crystalwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riccia+huebeneriana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riccia+huebeneriana&limit=100",
+      "status": 200
+    }
+  ]
+}

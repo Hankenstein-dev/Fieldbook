@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":206926,"scientificName":"Dasylirion berlandieri","commonName":"Berlandier's Sotol","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Dasylirion berlandieri","language":"de","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Dasylirion berlandieri ist eine Pflanzenart der Gattung Dasylirion in der Familie der Spargelgewächse (Asparagaceae). Ein englischer Trivialname ist „Berlandier’s Sotol“."},{"id":"s1:p2","text":" Beschreibung "},{"id":"s1:p3","text":"Dasylirion berlandieri bildet einen Stamm von 20 bis 50 cm Höhe. Die variablen, wachsartigen bläulichen Laubblätter sind 50 bis 120 cm lang und 10 bis 20 mm breit. Die unregelmäßig angeordneten Randdornen sind nach oben gerichtet."},{"id":"s1:p4","text":"Der rispige, holzige, schmale Blütenstand wird 2 bis 3,5 m hoch. Die zahlreichen Blüten sind grün bis gelbfarben. Die Blühperiode reicht von Mai bis Juni."},{"id":"s1:p5","text":"Die eiförmigen bis runden Kapselfrüchte enthalten einen Samen und sind 10 bis 12 mm lang und 8 bis 9 mm breit. Die dreikantigen hellbraunen Samen sind 3 bis 4 mm lang und 2,5 mm breit."},{"id":"s1:p6","text":" Verbreitung und Systematik "},{"id":"s1:p7","text":"Dasylirion berlandieri ist in Mexiko in Nuevo Leon, Tamaulipas und San Luis Potosi in Höhenlagen von 400 bis 1900 m verbreitet. Die Art wächst in offenem, flachen Gelände oder in offenem Waldland an steinigen Hängen vergesellschaftet mit Yucca filifera, Agave striata, Hesperaloe malacophylla."},{"id":"s1:p8","text":"Die Erstbeschreibung erfolgte 1879 durch Sereno Watson."},{"id":"s1:p9","text":"Das seltene und wenig bekannte Dasylirion berlandieri ist ein Mitglied der Sektion Glaucophyllum. Es ist im Nordosten von Mexiko verbreitet. Typisch sind die dünnen, variablen, wachsartigen bläulichen Blätter, die den kurzen Stamm bedecken. Aufgrund unterschiedlicher Bedingungen an den diversen Standorten sind Abweichungen im Erscheinungsbild erkennbar. Sie ähnelt Dasylirion palaciosii, das jedoch einen insgesamt schmaleren Blütenstand aufweist."},{"id":"s1:p10","text":" Nachweise"}]}]}

@@ -1,0 +1,51 @@
+{
+  "input": {
+    "taxonId": 461352,
+    "scientificName": "Riccia papillosa",
+    "commonName": "Riccia papillosa",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Riccia papillosa Moris",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "RECORDS. — Corbière (1905), Trabut (1941), Jelenc (1955 a): Environs de Constantine, Djebel Ouach. Trabut (1941), Jelenc (1955 a): Alger à la Réghaia. Jovet-Ast (1986), Bischler (2004): sine loco. Rare."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/7906741.json",
+      "sha256": "43b17bd80b3db84fb2af9b6a975e08fede266cff6b8551f65ea356d1011447d2",
+      "url": "https://api.gbif.org/v1/species/7906741",
+      "credit": {
+        "title": "Riccia papillosa Moris",
+        "url": "https://www.gbif.org/species/7906741",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 461352,
+    "name": "Riccia papillosa",
+    "language": "unspecified",
+    "sourceTextTokens": 75,
+    "packetTokens": 160,
+    "standaloneInputTextTokens": 612,
+    "packetSha256": "cae1555711013d0ff31e8e7d7addc6548dbf77bb6de7e1d7b8c4ff86ef578de1"
+  }
+}

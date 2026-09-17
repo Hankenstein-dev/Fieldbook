@@ -1,0 +1,55 @@
+{
+  "taxonId": 886458,
+  "name": "Lysimachia linum-stellatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:46.769984+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Lysimachia linum-stellatum L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Europe\n\nHabitat in Gallia. ☉\n\n8. Lysimachia calycibus corollam superantibus, caule erecto ramosissimo. Roy. lugdb. 416. Hort. ups. 37. Sauv. monsp. 130. Linum minimum stellatum. Bauh. pin. 214. prodr. 107. Magn. monsp. 163. t. 162.\n\nEurope (WGSRPD:1)",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4007682.json",
+      "sha256": "3324f1254f325ab4ecb55aa45f69abb4c204bb84b3251a2a4ba7fcfb6d42db62",
+      "url": "https://api.gbif.org/v1/species/4007682",
+      "credit": {
+        "title": "Lysimachia linum-stellatum L.",
+        "url": "https://www.gbif.org/species/4007682",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/efdd4a69461b566ab74b51ce07290dd9d6ce82bec528a3ac84ca35105e3085ea.json",
+      "title": "Sternlein",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Lysimachia linum-stellatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Star-flax"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Lysimachia+linum-stellatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Lysimachia+linum-stellatum&limit=100",
+      "status": 200
+    }
+  ]
+}

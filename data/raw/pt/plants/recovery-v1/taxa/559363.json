@@ -1,0 +1,38 @@
+{
+  "taxonId": 559363,
+  "name": "Babiana angustifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:56.439933+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/436c28bcdcc9d34e606421b8adc3c10d04e44f6febe1c41b5da49b9e1ac733d2.json",
+      "title": "Babiana angustifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Babiana angustifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Baboon Flower"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Babiana+angustifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Babiana+angustifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

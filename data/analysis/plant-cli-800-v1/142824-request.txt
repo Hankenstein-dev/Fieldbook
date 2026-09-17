@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":142824,"scientificName":"Athyrium niponicum","commonName":"Japanese painted fern","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Athyrium niponicum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Athyrium niponicum, the Japanese painted fern, is a species of fern native to eastern Asia."},{"id":"s1:p2","text":"This species was redefined as a member of genus Anisocampium in 2011 based on phylogenetic analyses, but the genus has since been sunk into Athyrium."},{"id":"s1:p3","text":"This deciduous fern has a creeping rhizome and a tuft-shape array of fronds. The fronds are variable in length, generally 30 to 75 centimeters long but occasionally over a meter in length. They have alternately arranged, subdivided pinnae. The spore-bearing sori on the undersides of the fertile pinnae are variable in shape, being \"oblong, hooked, J-shaped, or horseshoe-shaped\"."},{"id":"s1:p4","text":"The Latin specific epithet niponicum means \"relating to Japan (Nippon)\"."},{"id":"s1:p5","text":"This is a commonly cultivated fern, especially A. niponicum var. pictum. It thrives in many kinds of shady garden conditions and produces thick colonies of gray-green fronds with reddish midribs. 'Pictum' is also considered to be a cultivar; varieties and cultivars are bred to achieve midribs in many shades of red."},{"id":"s1:p6","text":"A. niponicum var. pictum has gained the Royal Horticultural Society's Award of Garden Merit. \nas has the cultivar 'Silver Falls'."}]}]}

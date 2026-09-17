@@ -1,0 +1,49 @@
+{
+  "taxonId": 163061,
+  "name": "Fossombronia angulosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:48.319884+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Fossombronia angulosa (Dicks.) Raddi",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Corbière (1889), Jelenc (1955 a): Blida. Corbière (1904): La Bouzaréah, près Alger, 110 m. Corbière (1904), Jelenc (1955 a): Mostaganem, 198 m. Lapie (1909), Jelenc (1955 a): Kabylie du Djurdjura, Fort National. Trabut (1941), Jelenc (1955 a): Alger; Bône; Edough; Tlemcen. Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2688724.json",
+      "sha256": "8667539b295e1db3e6062c7389bcfed36f793ae4a470523ad57efb34b4a5722f",
+      "url": "https://api.gbif.org/v1/species/2688724",
+      "credit": {
+        "title": "Fossombronia angulosa (Dicks.) Raddi",
+        "url": "https://www.gbif.org/species/2688724",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fossombronia angulosa"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Greater Frillwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Fossombronia+angulosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Fossombronia+angulosa&limit=100",
+      "status": 200
+    }
+  ]
+}

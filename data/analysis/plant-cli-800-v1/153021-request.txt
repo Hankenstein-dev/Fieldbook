@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":153021,"scientificName":"Cuphea ignea","commonName":"Cigar plant","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Cuphea ignea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Cuphea ignea, the cigar plant, cigar flower, firecracker plant, or Mexican cigar, sometimes referred to as cigarette plant or cigarette bush is a species of flowering plant in the genus Cuphea of the family Lythraceae. It is a tropical, densely branched evergreen subshrub. This species, native to Mexico and the West Indies, produces small, tubular, bright red to orange flowers. Each flower is tipped with a thin white rim and two small purple-black petals. The flowers, which are attractive to hummingbirds and butterflies, resemble lit cigars, hence the name ignea, which is Latin for \"fiery\".\nThe genus name Cuphea comes from the Greek word kyphos which means curved or humped; this is thought to refer to the shape of the seeds. The leaves are small, elliptical and of a bright green colour. It grows to about {{convert|60|cm|0|abbr=on}}."},{"id":"s1:p2","text":"Cultivation\nIn temperate climates Cuphea ignea requires a warm, sheltered spot, as it does not tolerate frost. Alternately it may be grown under glass or indoors as a houseplant. In the UK this plant has gained the Royal Horticultural Society's Award of Garden Merit (confirmed 2017)."},{"id":"s1:p3","text":"In the US, Cuphea ignea is winter hardy to USDA zones 10–12. It is somewhat drought tolerant, but prefers well-watered, well-drained soils."}]}]}

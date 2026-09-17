@@ -1,0 +1,42 @@
+{
+  "taxonId": 431626,
+  "name": "Solanum bonariense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:05.508745+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Solanum bonariense",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Solanum bonariense is a species of plant in the nightshade family. It is a shrub native to northeastern Argentina, southeastern and southern Brazil, and Uruguay.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/6b45f2ed28c1fbf5b4e72eb9f0883f6ee3c87cc53af4d43631e6d8e4432e5744.json",
+      "sha256": "a6210d932ed699fdde1d6eb1e08f1d4855a4d9ece476210361ac904dc8ba6b9c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1373937155",
+      "revisionId": 1373937155,
+      "credit": {
+        "title": "Solanum bonariense",
+        "url": "https://en.wikipedia.org/wiki/Solanum_bonariense",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1373937155",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Solanum+bonariense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Solanum+bonariense&limit=100",
+      "status": 200
+    }
+  ]
+}

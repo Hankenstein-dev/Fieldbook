@@ -1,0 +1,58 @@
+{
+  "taxonId": 1218637,
+  "name": "Aechmea warasii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:39.131792+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Aechmea warasii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Aechmea warasii is a plant species in the genus Aechmea. This species is endemic to the State of Espírito Santo in eastern Brazil.\n\nCultivars\nAechmea 'Angulation'\n Aechmea 'Greg Schol'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/c3f27a9a6ba0c3e3b208b16081ffd80e3e63d4d73c3a29df8e52b5f8b46adce1.json",
+      "sha256": "7c14d38654d5c310f2fcf06382f055b2f1f6ff11ed6e60e826c2661d506bc956",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1115762395",
+      "revisionId": 1115762395,
+      "credit": {
+        "title": "Aechmea warasii",
+        "url": "https://en.wikipedia.org/wiki/Aechmea_warasii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1115762395",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Aechmea warasii E.Pereira",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Aechmea warasii is a plant species in the genus Aechmea. This species is endemic to the State of Espírito Santo in eastern Brazil.Kew World Checklist of Selected Plant Families\n\nAechmea 'Angulation'BSI Cultivar Registry Retrieved 11 October 2009 Aechmea 'Greg Schol'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165611021.json",
+      "sha256": "1ec8d845c3f97cf4f81fc2a0e19ec10d677bbec5ddd78bbd1ffe3feaf603c652",
+      "url": "https://api.gbif.org/v1/species/165611021",
+      "credit": {
+        "title": "Aechmea warasii E.Pereira",
+        "url": "https://www.gbif.org/species/165611021",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aechmea+warasii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aechmea+warasii&limit=100",
+      "status": 200
+    }
+  ]
+}

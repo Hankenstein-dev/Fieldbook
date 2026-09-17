@@ -1,0 +1,38 @@
+{
+  "taxonId": 836902,
+  "name": "Sabulina tenuifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:22.366670+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/b4d90c528874e9516e8f3060179a12c30d16403159b80fb5870e2ce41c5216ea.json",
+      "title": "Minuartia hybrida",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sabulina tenuifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fine-leaved Sandwort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sabulina+tenuifolia&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sabulina+tenuifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

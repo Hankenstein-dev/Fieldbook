@@ -1,0 +1,28 @@
+{
+  "taxonId": 531639,
+  "name": "Colchicum multiflorum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:45.855793+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/ad1cf40237e0eafa55b20c5037be623a21520b798d8262133e8d6e7517689e1c.json",
+      "title": "Colchicum autumnale",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Colchicum+multiflorum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Colchicum+multiflorum&limit=100",
+      "status": 200
+    }
+  ]
+}

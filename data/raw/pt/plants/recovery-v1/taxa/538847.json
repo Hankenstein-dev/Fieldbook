@@ -1,0 +1,28 @@
+{
+  "taxonId": 538847,
+  "name": "Laelia undulata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:49.084787+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/410c6f293e8e868ee62d76803bd0c2834e1f1cc75731c35a6f13d100a536fbe0.json",
+      "title": "Laelia undulata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Laelia+undulata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Laelia+undulata&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":489726,"scientificName":"Erodium acaule","commonName":"Erodium acaule","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Erodium acaule","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Erodium acaule is a species of plant in the family Geraniaceae."},{"id":"s1:p2","text":"Description\nPerennial, acaulescent, 15–25 cm (6–10 in) high. Hairs spare, appressed. Root vertical, lignified. Leaves rosulate, lanceolate-oblong, spreading on soil, pinnatisect. Segments sessile, oblong-ovate, Pinnatilobed, in short and acute strips. Flowers 1.5 cm in diameter, bright pink. Petals equal, 2-3 times longer than calyx, rounded at apex. Beak of fruits 4–5 cm long."},{"id":"s1:p3","text":"Flowering\nNearly all the year round."},{"id":"s1:p4","text":"Habitat\nFields. waste ground."},{"id":"s1:p5","text":"Distribution\nCoast, lower and middle mountains, Beqaa valley in Lebanon."},{"id":"s1:p6","text":"Geographic area\nSyria, Lebanon, the Palestine region, the Eastern Mediterranean, and southern Europe."},{"id":"s1:p7","text":"The generic name is derived from the Greek erôdios, heron, since the fruit of this plant, which ends in a long bill, suggests the bill of a heron. The specific\nname, indicating that the plant is stemless, is formed of the privative prefix a and of the Greek kaulos, stem"}]}]}

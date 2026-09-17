@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":182174,"scientificName":"Sibthorpia europaea","commonName":"Cornish Moneywort","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Sibthorpia europaea","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Use dmy dates|date=April 2022}}"},{"id":"s1:p2","text":"Sibthorpia europaea is a species of flowering plant known by the common name Cornish moneywort. It can be found as a disjunct distribution in Western Europe from the Azores, Portugal and Spain to south-western Ireland and south-western United Kingdom. It also occurs in Crete, Pelion, Greece and tropical Africa. It is a prostrate perennial plant that is found in moist habitats."},{"id":"s1:p3","text":"Taxonomy\nThe genus Sibthorpia is named after Dr Humphry Sibthorp who was the Sherardian Professor of Botany at the University of Oxford from 1747 to 1783."},{"id":"s1:p4","text":"Description\nSibthorpia europaea is a small prostrate plant forming mats of thread-like stems which root as they creep across the ground. The mid-green hairy leaves are kidney-shaped and deeply notched. The flowers are tiny and develop singly in the leaf axils. They have relatively long stalks and five pinkish corolla-lobes, and appear from June onwards."},{"id":"s1:p5","text":"Distribution and habitat\nSibthorpia europaea has a discontinuous distribution in Western Europe and tropical Africa. It is known from County Kerry in southwestern Ireland, South Wales, Devon and Cornwall, East Sussex, Spain, Portugal, the Azores, Crete, Pelion (Greece) and tropical Africa. It may be that this unusual distribution represents remnants of a species that was more widespread in the Tertiary period. It typically inhabits moist, shady locations such as stream-banks, the sides of ditches, woodland, wet heathland, shady path verges, lawns and old walls and banks with a thin covering of soil. In Ireland it grows at altitudes up to {{convert|515|m|ft|0|abbr=on}} but populations seem to be dwindling as it faces competition from the more aggressive New Zealand willowherb."}]}]}

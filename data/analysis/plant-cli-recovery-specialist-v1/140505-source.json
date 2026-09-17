@@ -1,0 +1,89 @@
+{
+  "input": {
+    "taxonId": 140505,
+    "scientificName": "Oncidium tigrinum",
+    "commonName": "Oncidium tigrinum",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Oncidium tigrinum",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Oncidium tigrinum är en orkidéart som beskrevs av Juan José Martinez de Lexarza. Oncidium tigrinum ingår i släktet Oncidium och familjen orkidéer. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": " Externa länkar "
+          },
+          {
+            "id": "s1:p4",
+            "text": "Kategori:Orkidéer\ntigrinum"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Oncidium tigrinum Lex. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Oncidium tigrinum Lex.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Central & SW. Mexico. It is a pseudobulbous epiphyte and grows primarily in the seasonally dry tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/318f277ae5722b07631aacaf6b685d9bd25fa338ada4e0750006915faa22f38d.json",
+      "sha256": "64af38c485f79551e9d37af6c8026eecd4c143dee617bd2904ae25a395b71be0",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=55098700",
+      "revisionId": 55098700,
+      "credit": {
+        "title": "Oncidium tigrinum",
+        "url": "https://sv.wikipedia.org/wiki/Oncidium_tigrinum",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=55098700",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/140505-6dd80952ec1b13cf.json",
+      "sha256": "6dd80952ec1b13cfb36b4bc9f3453e32ab1b0a7ee886594595ed1a6329b3e764",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A647614-1",
+      "credit": {
+        "title": "Oncidium tigrinum Lex. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A647614-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 140505,
+    "name": "Oncidium tigrinum",
+    "language": "sv,en",
+    "sourceTextTokens": 128,
+    "packetTokens": 305,
+    "standaloneInputTextTokens": 757,
+    "packetSha256": "c46dfe2f5917a0c932677f66ee371183122fb2af861e751781b8194b0fccc1ef"
+  }
+}

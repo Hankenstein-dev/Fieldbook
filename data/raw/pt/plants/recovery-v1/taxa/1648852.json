@@ -1,0 +1,43 @@
+{
+  "taxonId": 1648852,
+  "name": "Medicago sphaerocarpos",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:50.338626+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/49fde9757704e9027b12403ef5fbbeeb59651f75700eae0bd5011b78c5d17e45.json",
+      "title": "Medicago murex",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/0ffd1be648688242ff68dbc64c964a176e934c815a29343e4765fc7423fef5f0.json",
+      "title": "Medicago murex",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Medicago sphaerocarpos"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sphere medick"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Medicago+sphaerocarpos&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Medicago+sphaerocarpos&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "taxonId": 524877,
+  "name": "Cachrys libanotis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:47.083676+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Cachrys libanotis",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Cachrys libanotis''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Umbellales]]\n| família = [[Apiaceae]]\n| género = ''[[Cachrys]]''\n| espécie = '''''C. libanotis'''''\n| binomial = ''Cachrys libanotis''\n| binomial_autoridade = L.\n}}\nCachrys libanotis é uma espécie de planta com flor pertencente à família Apiaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 1: 246. 1753.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a49e36611115b21db7a49b493b387d145ce87b641bd52be2b473f8ddb4d3263f.json",
+      "sha256": "5804be19c58a38346d62d199ccecbad2116eee35cee21dd8d4d0038080b4b270",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40211134",
+      "revisionId": 40211134,
+      "credit": {
+        "title": "Cachrys libanotis",
+        "url": "https://pt.wikipedia.org/wiki/Cachrys_libanotis",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40211134",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Cachrys libanotis L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Gruenberg-Fertig & al. in Taxon 22: 431, f. 4. 1973): Herb. Burser VIII: 30 (UPS).\n\nGeneritype of Cachrys Linnaeus.\n\n\" Habitat in Sicilia, Monspelii. \" RCN: 1981.\n\nHabitat in Sicilia, Monspelii. ♃\n\n1. Cachrys foliis pinnatis: foliolis acutis multifidis. Hort. cliff. 94. Roy. lugdb. 99. Sauv. monsp. 105. Cachrys semine fungoso sulcato plano minore, foliis peucedani angustis. Moris. hist. 3. p. 267. s. 9. t. 1. f. 3. 6. Libanotis ferulae folio, semine anguloso. Bauh. pin. 158.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3634812.json",
+      "sha256": "ac7378f453e13b364966eeb294e8886147cd41cdb70dca2ca7ae65ae261bcd84",
+      "url": "https://api.gbif.org/v1/species/3634812",
+      "credit": {
+        "title": "Cachrys libanotis L.",
+        "url": "https://www.gbif.org/species/3634812",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cachrys+libanotis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cachrys+libanotis&limit=100",
+      "status": 200
+    }
+  ]
+}

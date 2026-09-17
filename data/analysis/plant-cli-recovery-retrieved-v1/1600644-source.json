@@ -1,0 +1,98 @@
+{
+  "input": {
+    "taxonId": 1600644,
+    "scientificName": "Phonus lanatus",
+    "commonName": "Phonus lanatus",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Flora-On — Carthamus lanatus",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Flora-On botanical account for Carthamus lanatus. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s1:p2",
+            "text": "Ecologia Campos agrícolas, pousios e incultos. Planta ruderal em sítios secos."
+          },
+          {
+            "id": "s1:p3",
+            "text": "Ligações externas Descrição na Flora Iberica"
+          },
+          {
+            "id": "s1:p4",
+            "text": "Distância ao mar (n=443)"
+          },
+          {
+            "id": "s1:p5",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          },
+          {
+            "id": "s1:p6",
+            "text": "Espécies com distribuição semelhante Crepis vesicaria , Bartsia trixago , Phagnalon saxatile , Quercus rotundifolia , Calendula arvensis , Trifolium angustifolium , Foeniculum vulgare ver todas"
+          },
+          {
+            "id": "s1:p7",
+            "text": "Tipo biológico Terófito"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Phonus lanatus (L.) Hill — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Phonus lanatus (L.) Hill."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Macaronesia, S. Central & E. Europe to Medit. and W. Himalaya. It is an annual and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1600644.json",
+      "sha256": "03917a980bf9b0262668627dc8ccc375c85e9e202177bc9358b18a9541d021d7",
+      "url": "https://flora-on.pt/?q=Carthamus+lanatus",
+      "credit": {
+        "title": "Flora-On — Carthamus lanatus",
+        "url": "https://flora-on.pt/?q=Carthamus+lanatus",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1600644-4c33a8af80795d8c.json",
+      "sha256": "4c33a8af80795d8cd75546819694bcc90e089458db0c15477172a150f59301a9",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A237689-1",
+      "credit": {
+        "title": "Phonus lanatus (L.) Hill — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A237689-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1600644,
+    "name": "Phonus lanatus",
+    "language": "pt,en",
+    "sourceTextTokens": 207,
+    "packetTokens": 418,
+    "standaloneInputTextTokens": 870,
+    "packetSha256": "f3f630e084fa62efcf252eee7d5904166460b734f6324d7c0dbdd7571d631a17"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "artifactChecksPassed": true,
+  "plantCount": 3072,
+  "callCount": 308,
+  "completedCalls": 306,
+  "validatedCount": 3052,
+  "failureTypes": {
+    "CLI execution failure: exit=1, turns=0, messages=0, tool events=0": 10,
+    "Interrupted attempt; recovered saved events without retry": 10
+  },
+  "nullSummaryCount": 35,
+  "summaryWords": {
+    "median": 35,
+    "maximum": 75
+  },
+  "maximumSentences": 3,
+  "duplicateNonNullSummaries": 108,
+  "usage": {
+    "input_tokens": 4928871,
+    "cached_input_tokens": 1488640,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 717356,
+    "reasoning_output_tokens": 391611,
+    "uncached_input_tokens": 3440231
+  },
+  "missingUsageCalls": 2,
+  "scope": "Code checks only: frozen inputs, exact request composition, result mapping, artifacts, events, schema, limits, evidence-ID existence and usage accounting. Botanical accuracy and entailment are not established. No review model calls."
+}

@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 163469,
+    "scientificName": "Gymnostomum calcareum",
+    "commonName": "Blunt-leaf Tufa-moss",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Gymnostomum calcareum",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Gymnostomum calcareum is a species of moss belonging to the family Pottiaceae."
+          },
+          {
+            "id": "s1:p2",
+            "text": "It has cosmopolitan distribution."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Gymnostomum calcareum Nees & Hornsch.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "COMMENT Gymnostomum calcareum var. gracillimum Besch. nom. nud. was reported by Bescherelle (1882) and Jelenc (1955 a) from Alger. According to Ros et al. (2013), the identity of this name seems not to have been revised since. It is not a synonym of Hymenostylium gracillimum (Nees & Hornsch.) Köckinger & Jan Kučera."
+          },
+          {
+            "id": "s2:p2",
+            "text": "RECORDS. — Corbière (1904), Camus (1906), Jelenc (1955 a): Tlemcen. Corbière (1904), Jelenc (1955 a): Alger; Blida; Tiaret, Hauts-Plateaux. Corbière (1905): Environs de Constantine, Les Pins; Environs de Constantine, route de la Corniche. Corbière (1905), Whitehouse & Crundwell (1992): Environs de Constantine, Sidi M’Cid. Jelenc (1951, 1967): Massif du Tessala, pic de Tafaraoui, 600 m. Jelenc (1954 b, 1967): Sahel d’Alger, colline du Hamma. Jelenc (1954 b, 1955 a, 1967): Kabylie du Djurdjura, Monts de Saida, cascades de Tifrit. Jelenc (1955 a): Alger, Frais Vallon; Arba; Atlas de Blida, oued el Kebir, 200 m; Constantine; Djebel Chenoua; Kabylie du Djurdjura, Aït Idjer; Khodjaberry; Mascara; Médéa; Monts de Tlemcen, Mazer; Zaccar. Jelenc (1956, 1967): Sahel d’Alger, dans environs d’El Biar. Ros et al. (1990): Chiffa’s Gorge. Whitehouse & Crundwell (1992): Cascades of El Ourit, Tlemcen; Constantine, chemin des Touristes. Boukhatem et al. (2017): El-Kala National Park, Tonga lake watershed. Mazari & Boulaacheb (2023): Setif, Megriss Mountain. Common."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/d7d0a0bb0c64561550d9099230448e9c54ec4af4fbb96a3afb2113db3015b309.json",
+      "sha256": "9a41b620aa4b779135813094feb67d5f77913981997d1501bc16fa2f05420a4e",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1236566153",
+      "revisionId": 1236566153,
+      "credit": {
+        "title": "Gymnostomum calcareum",
+        "url": "https://en.wikipedia.org/wiki/Gymnostomum_calcareum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1236566153",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098474.json",
+      "sha256": "900e7f1ca2c40b79b548f303908df856250701ad0f4c52ef4155feb05eaf3514",
+      "url": "https://api.gbif.org/v1/species/251098474",
+      "credit": {
+        "title": "Gymnostomum calcareum Nees & Hornsch.",
+        "url": "https://www.gbif.org/species/251098474",
+        "attribution": "Ros R M, Olaf S R, Eloy O W, Cerón E, plazi (2024). Revisiting the Bryophyte Checklist of Algeria: Exploring Diversity and Distribution. Cryptogamie, Bryologie. Checklist dataset https://doi.org/10.15468/6xu7ry accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/febd8172-1ecf-4a6e-91a7-0456932f3afc",
+        "fetchedAt": "2026-09-15T07:52:21.984697+00:00",
+        "title": "Revisiting the Bryophyte Checklist of Algeria: Exploring Diversity and Distribution"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 163469,
+    "name": "Gymnostomum calcareum",
+    "language": "en,unspecified",
+    "sourceTextTokens": 505,
+    "packetTokens": 664,
+    "standaloneInputTextTokens": 1116,
+    "packetSha256": "e94b48ae0ed07ef03754aa6e6e8829eb9730fa23d1a157b19b0460adb7ec77e3"
+  }
+}

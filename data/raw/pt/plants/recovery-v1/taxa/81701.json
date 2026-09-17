@@ -1,0 +1,82 @@
+{
+  "taxonId": 81701,
+  "name": "Sedum rubens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:47.790683+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sedum rubens",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Sedum rubens is a species of annual herb in the family Crassulaceae. They are succulent plants. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 5.4 cm.\n\n Sources \n{{Free-content attribution\n| title = Sedum rubens\n| source = Encyclopedia of Life\n| documentURL = https://eol.org/pages/5545923\n| license statement URL = https://eol.org/docs/what-is-eol/copyright-and-linking-policy\n| license = CC0\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/bab5b9229595e82cdb320ed912b758a0364cf08a3de5f8f6579f2c8b622d15c1.json",
+      "sha256": "c40a4ebd0141575cb37f1bf876866be77cc2d39b71f57ea31cedba6254ca6854",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1264682931",
+      "revisionId": 1264682931,
+      "credit": {
+        "title": "Sedum rubens",
+        "url": "https://en.wikipedia.org/wiki/Sedum_rubens",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1264682931",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Sedum rubens",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Sedum rubens''\n| imagem = Sedum rubens kz3.JPG\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rosales]]\n| família = [[Crassulaceae]]\n| género = ''[[Sedum]]''\n| espécie = '''''S. rubens'''''\n| binomial = ''Sedum rubens''\n| binomial_autoridade = L.\n}}\nSedum rubens é uma espécie de planta com flor pertencente à família Crassulaceae. \n\nA autoridade científica da espécie é L., tendo sido publicada em Species Plantarum 432. 1753.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/bab5b9229595e82cdb320ed912b758a0364cf08a3de5f8f6579f2c8b622d15c1.json",
+      "sha256": "e733526da8f198db3862633349f40040c4c6136a7670b323528ddc787b3ae2c1",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=64612285",
+      "revisionId": 64612285,
+      "credit": {
+        "title": "Sedum rubens",
+        "url": "https://pt.wikipedia.org/wiki/Sedum_rubens",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=64612285",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Sedum rubens L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Sedum rubens is a species of annual herb in the family Crassulaceae. They are succulent plants. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 5.4 cm.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/194783387.json",
+      "sha256": "5a1349a3ac7613d71228d70d12d24c9a8c22f7cb1c801b33a558464d7c678c14",
+      "url": "https://api.gbif.org/v1/species/194783387",
+      "credit": {
+        "title": "Sedum rubens L.",
+        "url": "https://www.gbif.org/species/194783387",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sedum rubens"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+rubens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+rubens&limit=100",
+      "status": 200
+    }
+  ]
+}

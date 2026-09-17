@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 78999,
+  "scientificName": "Schoenoplectus triqueter",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 78999,
+    "scientificName": "Schoenoplectus triqueter",
+    "commonName": "Triangular Club-rush",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53935449/medium.jpeg",
+      "attribution": "(c) Keita Watanabe, some rights reserved (CC BY-NC), uploaded by Keita Watanabe",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/53935449"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 78999,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47163,
+        47162,
+        47161,
+        873509,
+        1653332,
+        47160,
+        78999
+      ],
+      "is_active": true,
+      "name": "Schoenoplectus triqueter",
+      "parent_id": 47160,
+      "ancestry": "48460/47126/211194/47125/47163/47162/47161/873509/1653332/47160",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 53935449,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Keita Watanabe, some rights reserved (CC BY-NC), uploaded by Keita Watanabe",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53935449/square.jpeg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1536
+        },
+        "flags": [],
+        "attribution_name": "Keita Watanabe",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53935449/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53935449/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 5,
+      "observations_count": 191,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Schoenoplectus_triqueter",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Triangular Club-rush",
+      "conservation_status": {
+        "id": 166208,
+        "source_id": null,
+        "user_id": 3042,
+        "authority": "Red Data Book",
+        "status": "vu",
+        "status_name": "Vulnerável (VU)",
+        "geoprivacy": null,
+        "iucn": 30,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      }
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=70&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:31.344886+00:00",
+    "retainedFrom": "data/models/http/0766a51dba9f1ffee903fd4438047ec48cf17773db0ac6ab537e8433bec9f771.json",
+    "recordSha256": "e32209304a567f310d8cf8a7d2c3129942ab46636907cc721073874f20075d2d"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Schoenoplectus triqueter",
+      "title": "Schoenoplectus triqueter",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/ac1086d7ce4da8896fcfec3187266ba68926dbaa469cd8a1ce0022cb7ff5b824.json",
+      "url": "https://en.wikipedia.org/wiki/Schoenoplectus_triqueter",
+      "revisionId": 1292707355,
+      "contentSha256": "34bb80be7791a4cfa9f40ea10755c161e0d451d7713067ef5464c3dfce33011f"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Schoenoplectus triqueter",
+      "title": "Schoenoplectus triqueter",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/ac1086d7ce4da8896fcfec3187266ba68926dbaa469cd8a1ce0022cb7ff5b824.json",
+      "url": "https://pt.wikipedia.org/wiki/Schoenoplectus_triqueter",
+      "revisionId": 59188104,
+      "contentSha256": "098a52f1111a7ea7ec606e9d7426c35f8d6574f7f4da629dcac64ca87fe7df35"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868424,
+      "canonicalName": "Schoenoplectus triqueter",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868424",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868424.json",
+      "recordSha256": "09a112eec869d5e74da83f7c59483f4c3bada9079e3f0e2447ccec0ea24fa30e"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

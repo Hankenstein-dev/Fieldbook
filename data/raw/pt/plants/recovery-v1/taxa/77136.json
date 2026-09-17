@@ -1,0 +1,43 @@
+{
+  "taxonId": 77136,
+  "name": "Festuca bromoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:48.185983+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/5e5b7dcfe6825d5e0eb657d90bf6f2b5f60c7ca88467d57217a3c3ae5b804ae6.json",
+      "title": "Vulpia bromoides",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/e1938e24b3daa6d7b9cead2a24b8a9c1c5a426acf6d428f49ca68378b0065546.json",
+      "title": "Vulpia bromoides",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Festuca bromoides"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "brome fescue"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+bromoides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+bromoides&limit=100",
+      "status": 200
+    }
+  ]
+}

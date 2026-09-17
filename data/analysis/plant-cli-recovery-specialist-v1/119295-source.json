@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 119295,
+    "scientificName": "Cyanotis tuberosa",
+    "commonName": "Sahyadri Dew-Grass",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cyanotis tuberosa",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Cyanotis tuberosa, is a species of plants in the Commelinaceae family."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Cyanotis tuberosa (Roxb.) Schult. & Schult.f. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Cyanotis tuberosa (Roxb.) Schult. & Schult.f.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is India. It is a tuberous geophyte and grows primarily in the seasonally dry tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/baa2d63ed19971c49082db12e7d0b39ca7ab12eae14b5d0e5f5bdd44a591de0d.json",
+      "sha256": "88298e97b0f7244ebd8258506defc76102b42289ac9bc1cda39b3ce02be73d34",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314023504",
+      "revisionId": 1314023504,
+      "credit": {
+        "title": "Cyanotis tuberosa",
+        "url": "https://en.wikipedia.org/wiki/Cyanotis_tuberosa",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314023504",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/119295-a55df48ca5ac3213.json",
+      "sha256": "a55df48ca5ac3213a6be4e7984f07f81b0bfe6acb2cb1b5ec30e4a0e78a71e90",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A172544-1",
+      "credit": {
+        "title": "Cyanotis tuberosa (Roxb.) Schult. & Schult.f. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A172544-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 119295,
+    "name": "Cyanotis tuberosa",
+    "language": "en,en",
+    "sourceTextTokens": 74,
+    "packetTokens": 232,
+    "standaloneInputTextTokens": 684,
+    "packetSha256": "280739ad6205fe4abe4cd16c280f2490b7c876f66a8693af7403a00aa4a725f2"
+  }
+}

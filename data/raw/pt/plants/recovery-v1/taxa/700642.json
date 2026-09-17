@@ -1,0 +1,38 @@
+{
+  "taxonId": 700642,
+  "name": "Torilis africana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:38.911002+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/fb4ec85131ee8c9fd7f2c611314d624b1492a11888a2da3df0e0f5be5605da8a.json",
+      "title": "Torilis arvensis subsp. purpurea",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Torilis africana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "African Hedgeparsley"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Torilis+africana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Torilis+africana&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":527602,"scientificName":"Dasispermum suffruticosum","commonName":"Dune Celery","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Dasispermum suffruticosum","language":"es","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Ficha de taxón\n|name = ''Dasispermum''\n|image = Dasispermum suffruticosum - Flickr - Ragnhild & Neil Crawford.jpg\n|image_caption = Dasispermum suffruticosum\n| regnum = [[Plantae]]\n| divisio = [[Magnoliophyta]]\n| classis = [[Magnoliopsida]]\n| subclassis = [[Rosidae]]\n| ordo = [[Apiales]]\n| familia = [[Apiaceae]]\n| subfamilia = [[Apioideae]]\n| tribus = [[Selineae]]\n|genus = '''''Dasispermum'''''\n|genus_authority = [[Neck.]] ex [[Raf.]]\n|species = '''''Dasispermum suffruticosum'''''\n| binomial_authority = ([[P.J.Bergius]]) [[B.L.Burtt]]\n| synonyms =\n* ''Heteroptilis'' E. Mey. ex Meisn.\n* ''Sonderina'' H. Wolff\n|}}\nDasispermum es un género monotípico de plantas herbáceas perteneciente a la familia de las apiáceas. Su única especie Dasispermum suffruticosum, es originaria de Sudáfrica."},{"id":"s1:p2","text":"Descripción\nEs una hierba muy glabra; con tallo erecto o postrado, estriado, ramificado, las hojas carnosas, bipinnatisectas; los foliolos cortos, obtusos o agudos. Las inflorescencias son terminales y laterales de umbelas de muchos rayos. El tallo cilíndrico y sufrútice. Hojas pecioladas, bi-pinnadas, con pinnas oblongas. Con pecíolo casi tan largo como la hoja. Las umbelas con 9-16 rayos."},{"id":"s1:p3","text":"Distribución\nSe encuentra en Sudáfrica en la orilla del mar y en las colinas de arena de Tablebay a Port Natal. "},{"id":"s1:p4","text":" Taxonomía \nDasispermum suffruticosum fue descrita por (P.J.Bergius) B.L.Burtt y publicado en Royal Botanical Garden Edinburgh 45(1): 93. 1988. \nCapnophyllum jacquinii DC. \nCicuta suffruticosa Poir. \nCnidium suffruticosum Cham. & Schltdl. \nConium africanum Jacq. \nConium jacquinii D.Dietr. \nConium rigidum Christm. \nConium rugosum Thunb. \nConium suffruticosum P.J.Bergius basónimo"}]}]}

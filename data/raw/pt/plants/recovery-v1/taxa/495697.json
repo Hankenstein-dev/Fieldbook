@@ -1,0 +1,38 @@
+{
+  "taxonId": 495697,
+  "name": "Ranunculus polyanthemos",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:12.261613+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3562c8071cc2953011abc9072e8e90d6acd84db9bbc4b24b92a0f35aebcefbfb.json",
+      "title": "Ranunculus polyanthemos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ranunculus polyanthemos"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Multi-flowered Buttercup"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ranunculus+polyanthemos&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ranunculus+polyanthemos&limit=100",
+      "status": 200
+    }
+  ]
+}

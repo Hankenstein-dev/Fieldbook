@@ -1,0 +1,38 @@
+{
+  "taxonId": 870037,
+  "name": "Trichocereus schickendantzii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:39.802744+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/7f597eeff0b092ef37ff5ffbc5730be5906413ecc5fe9d5367528f210ecf134a.json",
+      "title": "Echinopsis schickendantzii",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Trichocereus schickendantzii"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Columnar Torch Cactus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Trichocereus+schickendantzii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Trichocereus+schickendantzii&limit=100",
+      "status": 200
+    }
+  ]
+}

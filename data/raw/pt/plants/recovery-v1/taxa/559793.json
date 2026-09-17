@@ -1,0 +1,47 @@
+{
+  "taxonId": 559793,
+  "name": "Verbena incompta",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:55.051802+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Verbena incompta",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Verbena incompta, the purpletop vervain, is a species of plant from the genus Verbena. The species was described in 1995 by P.W. Michael.\n\nThe species is presumed to be of South American origin, but also appears in Italy and Spain.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/8be65462c4cb787a45f8ff74a5c090db958ece0cbd4e44021a761967b8c1a3ca.json",
+      "sha256": "d2db2b866c73ece3a12647492e33a74acb6adba481ac97a6a54d9d88ba626435",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1279707214",
+      "revisionId": 1279707214,
+      "credit": {
+        "title": "Verbena incompta",
+        "url": "https://en.wikipedia.org/wiki/Verbena_incompta",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1279707214",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Verbena incompta"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Verbena+incompta&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Verbena+incompta&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":915673,"scientificName":"Rumex spinosus","commonName":"Devil's Thorn","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Rumex spinosus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Rumex spinosus (synonym Emex spinosa), commonly known as devil's thorn, spiny dock, or lesser jack, is an annual herbaceous plant of the Polygonaceae. It originates in the warmer parts of the Old World, but now has spread with humans to other places. It is common in disturbed areas, especially in sandy soils. It has shown some weedy behaviour in restricted areas within southern Australia."},{"id":"s1:p2","text":"Description\nThe lesser jack tends to grow as a sprawling weed. The leaves are plain in shape, resembling spinach. The flowers of different sexes are clustered separately on the same plant.\nThe plant produces many seeds with a hard, prickly casing. These are produced both in clusters along the branches and at the base of the stem. The root is thick and succulent. At the end of the plant's life, the root dries up and pulls the seeds at the base of the stem into the ground. The spiny, durable seeds make the plant a nuisance around human habitats, much like the similarly shaped seeds of Tribulus terrestris."},{"id":"s1:p3","text":"Taxonomy\nRumex spinosus was first described by Carl Linnaeus in 1753. It was transferred to the genus Emex by Francisco Campderá in 1819. However in 2015, Schuster et al. demoted Emex to a subgenus of Rumex, restoring the species to Linnaeus's original genus. a move accepted by Plants of the World Online, among other sources."},{"id":"s1:p4","text":"Uses\nAlthough bitter, the root and leaves can be eaten."}]}]}

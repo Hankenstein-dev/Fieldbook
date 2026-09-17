@@ -1,0 +1,32 @@
+{
+  "taxonId": 977901,
+  "name": "Crocosmia masoniorum × paniculata",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:45:26.955714+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Crocosmia masoniorum × paniculata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Giant Zigzag Montbretia"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Crocosmia+masoniorum+%C3%97+paniculata&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Crocosmia+masoniorum+%C3%97+paniculata&limit=100",
+      "status": 200
+    }
+  ]
+}

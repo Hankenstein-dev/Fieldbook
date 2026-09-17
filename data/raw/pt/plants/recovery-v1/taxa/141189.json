@@ -1,0 +1,61 @@
+{
+  "taxonId": 141189,
+  "name": "Carex asturica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:36.437021+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Carex asturica",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|date=February 2024}}\n\nCarex asturica is a tussock-forming species of perennial sedge in the family Cyperaceae. It is native to parts of Spain and Portugal.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/845ba2c6707cda89806c9c804b451cf3859b8dbde4961381e08387ab4ea30509.json",
+      "sha256": "55e32b6c5d35595dc8473cbbf2ab5e8a19976f79740c206250bb326e09f35b97",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1201844591",
+      "revisionId": 1201844591,
+      "credit": {
+        "title": "Carex asturica",
+        "url": "https://en.wikipedia.org/wiki/Carex_asturica",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1201844591",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Carex asturica",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Carex asturica''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[monocotiledónea]]s\n| clado3 = [[comelinídeas]]\n| ordem = [[Poales]]\n| família = [[Cyperaceae]]\n| género = ''[[Carex]]''\n| espécie = '''''C. asturica'''''\n| binomial = ''Carex asturica''\n| binomial_autoridade = Boiss.\n}}\nCarex asturica é uma espécie de planta com flor pertencente à família Cyperaceae. \n\nA autoridade científica da espécie é Boiss., tendo sido publicada em Pugillus Plantarum Novarum Africae Borealis Hispaniaeque Australis 117. 1852.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/845ba2c6707cda89806c9c804b451cf3859b8dbde4961381e08387ab4ea30509.json",
+      "sha256": "4e32051e272f41b4b8819e8133922dc72fe672ac1cdd551fc59b4c2d4d466fa4",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40835299",
+      "revisionId": 40835299,
+      "credit": {
+        "title": "Carex asturica",
+        "url": "https://pt.wikipedia.org/wiki/Carex_asturica",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40835299",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Carex+asturica&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Carex+asturica&limit=100",
+      "status": 200
+    }
+  ]
+}

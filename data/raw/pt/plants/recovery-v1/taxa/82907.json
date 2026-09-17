@@ -1,0 +1,63 @@
+{
+  "taxonId": 82907,
+  "name": "Asparagus albus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:56.359196+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Asparagus albus",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Asparagus albus is a widespread species of flowering plant in the family Asparagaceae, native to the western and central Mediterranean. It is found in the coastal maquis shrubland biome, and in ruderal situations.\n\nTaxonomy\nAsparagus albus was formally described in 1753 by the Swedish naturalist Carl Linnaeus in the first volume of his Species Plantarum under its current binomial name. The specific epithet, albus, is Latin meaning \"white\".",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/6b0b3a96806ef0efcf14a853ecd6e3b47a1802e01039b390d5825a1a2c6bdc75.json",
+      "sha256": "29516e81f27f334ce3a9e068a37fd5af6da517df6a3c9a5477e1c197914d938b",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1313891772",
+      "revisionId": 1313891772,
+      "credit": {
+        "title": "Asparagus albus",
+        "url": "https://en.wikipedia.org/wiki/Asparagus_albus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1313891772",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Asparagus albus L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Valdes in Anales Inst. Bot. Cavanilles 32: 1090. 1975): Loefling? s. n., Herb. Linn. No. 434.7, larger fragment (LINN).\n\n\" Habitat in Lusitania, Hispania. \" RCN: 2466.\n\nHabitat in Lusitania, Hispania. ♄\n\n6. Asparagus aculeis solitariis, ramis flexuosis, foliis fasciculatis angulatis muticis deciduis. Asparagus aculeis solitariis, ramulis flexuosis binis oppositis spinosis foliosis, foliis fasciculatis. Roy. lugdb. 29. Asparagus aculeatus, spinis horridus. Bauh. pin. 490. Corduba tertia. Clus. hist. 2. p. 178.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2769019.json",
+      "sha256": "b12f61a78403e0992af9538d021676621cbffdbdf0fa5b510457f6f296d3676e",
+      "url": "https://api.gbif.org/v1/species/2769019",
+      "credit": {
+        "title": "Asparagus albus L.",
+        "url": "https://www.gbif.org/species/2769019",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Asparagus albus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Asparagus+albus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Asparagus+albus&limit=100",
+      "status": 200
+    }
+  ]
+}

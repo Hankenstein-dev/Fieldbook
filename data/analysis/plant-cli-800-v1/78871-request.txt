@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":78871,"scientificName":"Robinia neomexicana","commonName":"New Mexico locust","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Robinia neomexicana","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Robinia neomexicana, the New Mexican, New Mexico, Southwest, desert, pink, or rose locust, is a shrub or small tree in the subfamily Faboideae of the family Fabaceae."},{"id":"s1:p2","text":"Distribution\nRobinia neomexicana is native to the Southwestern United States (southeastern California and southwestern Utah, Virgin River region, east through Arizona and New Mexico, the Rio Grande valley, to far west Texas) and adjoining northern Mexico; from central New Mexico the range extends north into Colorado, mostly the eastern foothills of the Rocky Mountains. In Arizona, it ranges across the Arizona transition zone, the Mogollon Rim and White Mountains, and into western and southwestern New Mexico."},{"id":"s1:p3","text":"In California, it is uncommon below {{convert|1500|m|ft|abbr=on}} in canyons in the Mojave Desert and its sky island pinyon-juniper habitats (Pinus monophylla and Juniperus californica). Farther east, it is typically found between {{convert|1200|and|2600|m|ft|abbr=off|sp=us}} along streams, in the bottoms of valleys, and on the sides of canyons."},{"id":"s1:p4","text":"Description\nRobinia neomexicana grows to 5–10 m tall (rarely to 15 m) with bristly shoots. The leaves are 10–15 cm long, pinnate with 7–15 leaflets; they have a pair of sharp, reddish-brown thorns at the base. The flowers are showy and white or pink, and considered fragrant. Blooms are produced in spring or early summer in dense racemes 5–10 cm long that hang from the branches near the ends. The fruits are brown bean-like pods with bristles like those on the shoots."},{"id":"s1:p5","text":"Uses\nIn New Mexico, Pueblo Native Americans traditionally ate the flowers uncooked. The pods were also eaten raw and cooked by some Native Americans, such as the Mescalero and Chiricahua Apache."},{"id":"s1:p6","text":"Mule deer, cattle, and goats browse the plant foliage. Cattle also eat the plant's flowers. Squirrels and quail eat the locust's seeds."}]}]}

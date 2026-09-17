@@ -1,0 +1,42 @@
+{
+  "taxonId": 141214,
+  "name": "Carex oedipostyla",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:37.263832+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Carex oedipostyla",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Carex oedipostyla''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[monocotiledónea]]s\n| clado3 = [[comelinídeas]]\n| ordem = [[Poales]]\n| família = [[Cyperaceae]]\n| género = ''[[Carex]]''\n| espécie = '''''C. oedipostyla'''''\n| binomial = ''Carex oedipostyla''\n| binomial_autoridade = Duval-Jouve\n}}\nCarex oedipostyla é uma espécie de planta com flor pertencente à família Cyperaceae. \n\nA autoridade científica da espécie é Duval-Jouve, tendo sido publicada em Mémoires de la Section des Sciences; Académie des Sciences et Lettres de Montpellier 7: 442. 1869.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/8d928bac61ada2689ab590577045e1dc61e4560f166d9de38d72d609c164b06a.json",
+      "sha256": "b2576237370ad808548443ea5010c4bc9458e2d18036d5976b1d3916c91fed05",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40913161",
+      "revisionId": 40913161,
+      "credit": {
+        "title": "Carex oedipostyla",
+        "url": "https://pt.wikipedia.org/wiki/Carex_oedipostyla",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40913161",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Carex+oedipostyla&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Carex+oedipostyla&limit=100",
+      "status": 200
+    }
+  ]
+}

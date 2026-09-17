@@ -1,0 +1,71 @@
+{
+  "taxonId": 516431,
+  "name": "Caropsis verticillatoinundata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:42:38.309775+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Caropsis verticillatoinundata (Thore) Rauschert",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Caropsis verticillato-inundata é uma planta, que ocorre pontualmente em Portugal continental em locais temporariamente encharcados em terrenos arenosos, perto do litoral. É avaliada na categoria de Vulnerável pela sua reduzida extensão de ocorrência e área de ocupação, por se observar um declínio continuado da qualidade do seu habitat e por apenas se identificarem 10 localizações. A ocupação e transformação das zonas húmidas para atividades agrícolas, a drenagem, a construção de charcas, a instalação de infraestruturas, a poluição e outros fatores que contribuam para a nitrificação e ruderalização, e a expansão de exóticas são algumas das ameaças e pressões identificadas, suscetíveis de continuar a reduzir a qualidade e área do seu habitat, podendo levar ao desaparecimento de algumas localizações no futuro e agravando o seu risco de extinção. Para a sua conservação, deverão ser implementadas medidas, como gestão e restauro de habitat (corte de juncal / carriçal, pastoreio sazonal) e criação de uma microrreserva (Monte Batão), estabelecendo-se acordos de gestão com os proprietários, sempre que necessários. Sugere-se ainda a colheita de sementes de diferentes subpopulações para a conservação ex situ. Deverão ser realizados estudos demográficos e monitorizados os núcleos populacionais conhecidos.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3633638.json",
+      "sha256": "e485472a18bf13fe3f139c54d2d79183cdaf1836b42956cbdc6b9af5096860dc",
+      "url": "https://api.gbif.org/v1/species/3633638",
+      "credit": {
+        "title": "Caropsis verticillatoinundata (Thore) Rauschert",
+        "url": "https://www.gbif.org/species/3633638",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Caropsis verticillatoinundata (Thore) Rauschert",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Caropsis verticillatoinundata is a species of flowering plant in the Apiaceae, the only member of the genus Caropsis. It is endemic to Western Europe and Southwestern Europe.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165563751.json",
+      "sha256": "f3e09c817561463dca70035f9f0022ee0afe2733c80d9d4f21bc5684827db774",
+      "url": "https://api.gbif.org/v1/species/165563751",
+      "credit": {
+        "title": "Caropsis verticillatoinundata (Thore) Rauschert",
+        "url": "https://www.gbif.org/species/165563751",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/fbb6b9a0f5f444e4b30e3f78d88bf4501599c5e007f45d0f92f0085682d53729.json",
+      "title": "Caropsis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/58d4851a8174550691b5a821cefee0b99e8cdb55f39f64606e1c4a073b46df37.json",
+      "title": "Caropsis",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/fbb6b9a0f5f444e4b30e3f78d88bf4501599c5e007f45d0f92f0085682d53729.json",
+      "title": "Caropsis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Caropsis+verticillatoinundata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Caropsis+verticillatoinundata&limit=100",
+      "status": 200
+    }
+  ]
+}

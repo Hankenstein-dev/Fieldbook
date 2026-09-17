@@ -1,0 +1,28 @@
+{
+  "taxonId": 1505195,
+  "name": "Utricularia vulgaris",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:55.028965+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d5bb857eca9a2632f1dba48a75e27bc10e9624e9bb1fc6a01794c2e036de19cb.json",
+      "title": "Utricularia vulgaris",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Utricularia+vulgaris&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Utricularia+vulgaris&limit=100",
+      "status": 200
+    }
+  ]
+}

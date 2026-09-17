@@ -1,0 +1,47 @@
+{
+  "taxonId": 154014,
+  "name": "Sedum oxypetalum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:38.982630+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Sedum oxypetalum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|date=November 2023}}\n\nSedum oxypetalum, the dwarf tree stonecrop, is a species of flowering plant in the family Crassulaceae, native to Mexico. A semi-woody succulent shrub reaching {{cvt|0.6|m|ft|0}}, it has a tree-like growth form.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/4595319785af8e3b2c5b73141013e85077f4b05def718d07b75e5f07aa96facf.json",
+      "sha256": "69459c7e958cc0f21038e22a808af28dd08c80f3d74c6bf560875edee5e15040",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1183687640",
+      "revisionId": 1183687640,
+      "credit": {
+        "title": "Sedum oxypetalum",
+        "url": "https://en.wikipedia.org/wiki/Sedum_oxypetalum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1183687640",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sedum oxypetalum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sedum+oxypetalum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sedum+oxypetalum&limit=100",
+      "status": 200
+    }
+  ]
+}

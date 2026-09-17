@@ -1,0 +1,42 @@
+{
+  "taxonId": 735000,
+  "name": "Galium baeticum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:36.086387+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Galium baeticum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Galium baeticum''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Rubiales]]\n| família = [[Rubiaceae]]\n| género = ''[[Galium]]''\n| espécie = '''''G. baeticum'''''\n| binomial = ''Galium baeticum''\n| binomial_autoridade = (Rouy) Ehrend. & Krendl\n}}\nGalium baeticum é uma espécie de planta com flor pertencente à família Rubiaceae. \n\nA autoridade científica da espécie é (Rouy) Ehrend. & Krendl, tendo sido publicada em Bot. J. Linn. Soc. 68: 270 (1974).\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a28694fa3227f837359e5ff95f6b3a57caffc159bd2c255e33e6662a94b25cf7.json",
+      "sha256": "a4c898b8fc38cb39916cd0612c85c8589fd8f3d01998fa329a2b7777d10b085e",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=65162045",
+      "revisionId": 65162045,
+      "credit": {
+        "title": "Galium baeticum",
+        "url": "https://pt.wikipedia.org/wiki/Galium_baeticum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=65162045",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Galium+baeticum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Galium+baeticum&limit=100",
+      "status": 200
+    }
+  ]
+}

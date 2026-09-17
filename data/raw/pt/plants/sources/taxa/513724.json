@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 513724,
+  "scientificName": "Klasea pinnatifida",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 513724,
+    "scientificName": "Klasea pinnatifida",
+    "commonName": "Klasea pinnatifida",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111377706/medium.jpeg",
+      "attribution": "(c) faluke, some rights reserved (CC BY-NC), uploaded by faluke",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/111377706"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 513724,
+      "count": 1,
+      "name": "Klasea pinnatifida",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 186287,
+      "descendant_obs_count": 1,
+      "direct_obs_count": 1
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "866dbaa784a451d390d3a7bdb799c40291e52c7774ccc7a08d03e81503bf6c5c"
+  },
+  "coverageStatus": "articles_need_scope_review",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Klasea pinnatifida",
+      "title": "Klasea pinnatifida",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/c0ad39f1e6dad20a316ee0921880bb5c12ddf19bccf80077af965cf8e3e2efad.json",
+      "url": "https://en.wikipedia.org/wiki/Klasea_pinnatifida",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Klasea pinnatifida",
+      "title": "Serratula pinnatifida",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/pt/c0ad39f1e6dad20a316ee0921880bb5c12ddf19bccf80077af965cf8e3e2efad.json",
+      "url": "https://pt.wikipedia.org/wiki/Serratula_pinnatifida",
+      "revisionId": 57723883,
+      "contentSha256": "590d66a70978e16c24ce82d40960434900576fe841294990c2326c6a1e8103cf"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868870,
+      "canonicalName": "Klasea pinnatifida",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868870",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868870.json",
+      "recordSha256": "78d502661d04e11a097e4b74fc9477e7b4a04a705b4639b2e9e9be6762c71eed"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

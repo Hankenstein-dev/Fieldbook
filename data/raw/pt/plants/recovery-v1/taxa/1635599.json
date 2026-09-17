@@ -1,0 +1,32 @@
+{
+  "taxonId": 1635599,
+  "name": "Caulacanthus okamurae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:48:47.866088+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Caulacanthus okamurae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pom-pom weed"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Caulacanthus+okamurae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Caulacanthus+okamurae&limit=100",
+      "status": 200
+    }
+  ]
+}

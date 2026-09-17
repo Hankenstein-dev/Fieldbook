@@ -1,0 +1,38 @@
+{
+  "taxonId": 189479,
+  "name": "Armeria pseudarmeria",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:42.028868+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/cd586f2dbe2f2ac34c34a7701e6e8aff705a7bbf8d337043b0a4340e19cdc8f2.json",
+      "title": "Armeria pseudoarmeria",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Armeria pseudarmeria"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Estoril Thrift"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Armeria+pseudarmeria&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Armeria+pseudarmeria&limit=100",
+      "status": 200
+    }
+  ]
+}

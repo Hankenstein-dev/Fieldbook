@@ -1,0 +1,42 @@
+{
+  "taxonId": 338403,
+  "name": "Ranunculus nigrescens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:56.739041+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ranunculus nigrescens",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Ranunculus nigrescens''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Ranunculales]]\n| família = [[Ranunculaceae]]\n| género = ''[[Ranunculus]]''\n| espécie = '''''R. nigrescens'''''\n| binomial = ''Ranunculus nigrescens''\n| binomial_autoridade = Freyn\n}}\nRanunculus nigrescens é uma espécie de planta com flor pertencente à família Ranunculaceae. \n\nA autoridade científica da espécie é Freyn, tendo sido publicada em Prodromus Florae Hispanicae 3: 921. 1880.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é endémica da Península Ibérica.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/6a392170c0f6b3232313935e5c90edbb107a099d87bc4c8078f7cc03fbcdebb6.json",
+      "sha256": "dc2984d89c31eb3b082e66e7ea31f241ceab0323e614ae62af91caf336d370e9",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=60070013",
+      "revisionId": 60070013,
+      "credit": {
+        "title": "Ranunculus nigrescens",
+        "url": "https://pt.wikipedia.org/wiki/Ranunculus_nigrescens",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=60070013",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ranunculus+nigrescens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ranunculus+nigrescens&limit=100",
+      "status": 200
+    }
+  ]
+}

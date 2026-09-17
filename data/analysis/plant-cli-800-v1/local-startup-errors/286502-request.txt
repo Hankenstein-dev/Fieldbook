@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":286502,"scientificName":"Urera baccifera","commonName":"Scratchbush","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Urera baccifera","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Urera baccifera is a species of flowering plant in the nettle family known by many common names, including scratchbush, ortiga brava, pringamoza, mala mujer, chichicaste, nigua, guaritoto, ishanga, manman guêpes, and urtiga bronca. It is native to the Americas from Mexico through Central America into South America, as well as the Caribbean."},{"id":"s1:p2","text":"This species is a shrub or a small tree. It can reach five meters in height. The thin, toothed leaves are up to 25 centimeters long by 12.5 wide. The blades are borne on long petioles. The plant is covered in spines and stinging hairs. The inflorescence is a pink or purple cluster of flowers, and the plant is dioecious, with male and female parts on different plants. The spongy, juicy fruit is green or pinkish. The seeds are dispersed by fruit-eating birds and capuchin monkeys."},{"id":"s1:p3","text":"This plant grows in moist tropical forests. It is not very tolerant of shade, so it dies back when the overstory closes. It can be found in forests recently disturbed by fire."},{"id":"s1:p4","text":"In some areas, this plant is one of the first to bear fruit after the damage of a hurricane, and then it becomes an important food source for birds. The fruits also provide food for many species of ant. The ants also collect pearl bodies which form on the leaves, stems, and stalks of the plant. Ants performing this activity include species in genera such as Camponotus, Pheidole, Crematogaster, and Pseudomyrmex. When ants are present on a plant, they rid it of lepidopteran larvae which would feed upon it, such as Smyrna blomfildia, Urbanus esmeraldus, and Pleuroptya silicalis. This provides a benefit for both plant and ant in a mutualistic relationship."}]}]}

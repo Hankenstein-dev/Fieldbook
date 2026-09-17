@@ -1,0 +1,38 @@
+{
+  "taxonId": 163317,
+  "name": "Glandularia peruviana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:38:48.762196+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/96535d3d799e04203c9245427209ad1cbab3121fdaa4dcd7b7a44835420c555b.json",
+      "title": "Verbena peruviana",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Glandularia peruviana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Peruvian Mock Vervain"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Glandularia+peruviana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Glandularia+peruviana&limit=100",
+      "status": 200
+    }
+  ]
+}

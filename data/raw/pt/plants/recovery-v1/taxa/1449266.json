@@ -1,0 +1,32 @@
+{
+  "taxonId": 1449266,
+  "name": "Candicantes",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:47:38.277289+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Candicantes"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Series Candicantes"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Candicantes&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Candicantes&limit=100",
+      "status": 200
+    }
+  ]
+}

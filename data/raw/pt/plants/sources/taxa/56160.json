@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 56160,
+  "scientificName": "Valeriana officinalis",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 56160,
+    "scientificName": "Valeriana officinalis",
+    "commonName": "common valerian",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293453309/medium.jpeg",
+      "attribution": "no rights reserved, uploaded by peakaytea",
+      "license": "cc0",
+      "sourceUrl": "https://www.inaturalist.org/photos/293453309"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 56160,
+      "count": 7,
+      "name": "Valeriana officinalis",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1105640,
+      "descendant_obs_count": 7,
+      "direct_obs_count": 7
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "f1c4c047182c3515ed8028e67245e54cefbda31e9d810f8baffdd68e37ced3d6"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Valeriana officinalis",
+      "title": "Valerian (herb)",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/en/61472a245eceb39ee7cc873c105787113c5e96a07c36bf9dbf8e1a389ac951bf.json",
+      "url": "https://en.wikipedia.org/wiki/Valerian_(herb)",
+      "revisionId": 1371151632,
+      "contentSha256": "1c1599554e2c3f14ac106b51d184a46ec30e930f083b03b2785a0636401b4825"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Valeriana officinalis",
+      "title": "Valeriana officinalis",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/61472a245eceb39ee7cc873c105787113c5e96a07c36bf9dbf8e1a389ac951bf.json",
+      "url": "https://pt.wikipedia.org/wiki/Valeriana_officinalis",
+      "revisionId": 72341702,
+      "contentSha256": "c2c7704f7710e1ac45c1eaa1bfad1c8e38be2284aaa6cacc4a83ab009194040d"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868478,
+      "canonicalName": "Valeriana officinalis",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868478",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868478.json",
+      "recordSha256": "291efb68d5d1aab782590c612d7223d8be1f29cf2dc770da7ea7c4e4f89ba222"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

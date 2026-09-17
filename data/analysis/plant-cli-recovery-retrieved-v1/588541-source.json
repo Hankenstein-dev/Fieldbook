@@ -1,0 +1,86 @@
+{
+  "input": {
+    "taxonId": 588541,
+    "scientificName": "Lampranthus emarginatus",
+    "commonName": "Clusterleaf Brightfig",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Lampranthus emarginatus",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Lampranthus emarginatus, commonly known as the cluster-leaf brightfig, is a succulent plant belonging to the genus Lampranthus. The species is endemic to the Western Cape and forms part of the fynbos."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Lampranthus emarginatus (L.) N.E.Br.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "(Klak 708; trnL - F AJ 439038, ITS AJ 438245) Lampranthus filicaulis (Haw.) N. E. Br. (Bruyns 7176; trnL - F AJ 439030, ITS AJ 438239)"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Lectotype (Liede & Meve in Bradleya 8: 39. 1990): [icon] \" Mesembr. purpureum scabrum, staminibus expansis \" in Dillenius, Hort. Eltham. 2: 259, t. 197, f. 250. 1732."
+          },
+          {
+            "id": "s2:p3",
+            "text": "\" Habitat ad Cap. b. spei. \" RCN: 3684."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/47f92b5849ede7de2e2b1ff23a3c846868a80b3659e67c4d970cdea74a1327db.json",
+      "sha256": "69a20507bd2e0495ad203e4df7080e23ec812b16ac494ac568b733d7a33214e4",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1374297342",
+      "revisionId": 1374297342,
+      "credit": {
+        "title": "Lampranthus emarginatus",
+        "url": "https://en.wikipedia.org/wiki/Lampranthus_emarginatus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1374297342",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3705824.json",
+      "sha256": "1aafa20f82e2c62ab0c597afe0efe16565039f5d333e5d79cac6d9e038125ba1",
+      "url": "https://api.gbif.org/v1/species/3705824",
+      "credit": {
+        "title": "Lampranthus emarginatus (L.) N.E.Br.",
+        "url": "https://www.gbif.org/species/3705824",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 588541,
+    "name": "Lampranthus emarginatus",
+    "language": "en,unspecified",
+    "sourceTextTokens": 199,
+    "packetTokens": 356,
+    "standaloneInputTextTokens": 808,
+    "packetSha256": "3eaf60405b16a532fda252fddfe9a675602c3050afcca94c5d25310351ed267d"
+  }
+}

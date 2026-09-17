@@ -1,0 +1,33 @@
+{
+  "taxonId": 1274021,
+  "name": "Thrincia",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:46:45.644763+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/faa14b29e0ee10f1fd82a7aaaf7ade690843197cb261a69d249646a579e3da53.json",
+      "title": "Leontodon",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/c11666964abf03b8f9eee8e57bff1d9f6f7da4a26ec2becaddf4a1f7e4b93fc4.json",
+      "title": "Leontodon",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thrincia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thrincia&limit=100",
+      "status": 200
+    }
+  ]
+}

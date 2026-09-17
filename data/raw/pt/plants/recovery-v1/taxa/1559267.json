@@ -1,0 +1,28 @@
+{
+  "taxonId": 1559267,
+  "name": "Moerckia hibernica",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:48:19.961879+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/d4da08792a265bbbe6ac59ccad270e4579d2a36c8d8d892747b4d855374f39b4.json",
+      "title": "Moerckia hibernica",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Moerckia+hibernica&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Moerckia+hibernica&limit=100",
+      "status": 200
+    }
+  ]
+}

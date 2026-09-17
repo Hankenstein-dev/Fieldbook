@@ -1,0 +1,33 @@
+{
+  "taxonId": 872386,
+  "name": "Brassica ruvo",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:40.254419+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9b9b8175dc85d4d0b1dbe83c985a1a539cdfed0482d060224a0b3cca4983e668.json",
+      "title": "Rapini",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/24678117a14ca3ca619c418bc9c3d76860dedd0cb9439daea3a594a7d14836a5.json",
+      "title": "Grelo",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Brassica+ruvo&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Brassica+ruvo&limit=100",
+      "status": 200
+    }
+  ]
+}

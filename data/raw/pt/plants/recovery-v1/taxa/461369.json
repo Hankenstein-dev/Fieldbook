@@ -1,0 +1,55 @@
+{
+  "taxonId": 461369,
+  "name": "Riccia perennis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:37.016165+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Riccia perennis Steph.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1916), Douin & Trabut (1919), Trabut (1941), Jelenc (1955 a), Chevassut & Quézel (1956): Fôret de la Réghaia aux environs d’Alger. Chevassut & Quézel (1956): La Rassauta. Jovet-Ast (1986), Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/8064113.json",
+      "sha256": "ad975810f8a18b8f4ca2aaf307f0174940eb4cb990ef9a779ca98e03c4de7be0",
+      "url": "https://api.gbif.org/v1/species/8064113",
+      "credit": {
+        "title": "Riccia perennis Steph.",
+        "url": "https://www.gbif.org/species/8064113",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Riccia perennis Steph.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Trabut (1916), Douin & Trabut (1919), Trabut (1941), Jelenc (1955 a), Chevassut & Quézel (1956): Fôret de la Réghaia aux environs d’Alger. Chevassut & Quézel (1956): La Rassauta. Jovet-Ast (1986), Bischler (2004): sine loco. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098645.json",
+      "sha256": "baca5d25bc8375319eff340f59d7c51d6c6147457dab53e8fb3498e81d272868",
+      "url": "https://api.gbif.org/v1/species/251098645",
+      "credit": {
+        "title": "Riccia perennis Steph.",
+        "url": "https://www.gbif.org/species/251098645",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Riccia+perennis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Riccia+perennis&limit=100",
+      "status": 200
+    }
+  ]
+}

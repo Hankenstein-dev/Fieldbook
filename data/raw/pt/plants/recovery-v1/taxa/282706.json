@@ -1,0 +1,38 @@
+{
+  "taxonId": 282706,
+  "name": "Adiantum chilense",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:53.846730+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c31b3087dfcf06bd0950b1216fbb10ea528b001e22ad09be0c8d4ce2cb4b6de2.json",
+      "title": "Adiantum chilense",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Adiantum chilense"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chilean Maidenhair Fern"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Adiantum+chilense&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Adiantum+chilense&limit=100",
+      "status": 200
+    }
+  ]
+}

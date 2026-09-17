@@ -1,0 +1,22 @@
+{
+  "taxonId": 1610405,
+  "name": "Ophrys × rainei",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:42.646738+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ophrys+%C3%97+rainei&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ophrys+%C3%97+rainei&limit=100",
+      "status": 200
+    }
+  ]
+}

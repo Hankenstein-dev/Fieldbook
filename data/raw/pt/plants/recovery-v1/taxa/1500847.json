@@ -1,0 +1,28 @@
+{
+  "taxonId": 1500847,
+  "name": "Crocus clusii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:52.601616+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/288c3fe8b68b4813b1be42a481663324364bd1301914fdc1413a9fdb6ea05005.json",
+      "title": "Crocus serotinus",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Crocus+clusii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Crocus+clusii&limit=100",
+      "status": 200
+    }
+  ]
+}

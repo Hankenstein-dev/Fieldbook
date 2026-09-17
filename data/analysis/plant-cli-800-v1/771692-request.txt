@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":771692,"scientificName":"Carduus lusitanicus","commonName":"Carduus lusitanicus","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Carduus lusitanicus","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Carduus lusitanicus''\n| imagem = Carduus lusitanicus subsp. santacreui.jpg\n| imagem_legenda = ''C. lusitanicus'' subsp. ''santacreui''\n| reino = [[Plantae]]\n|clado1 = [[angiospérmicas]]\n|clado2 = [[eudicotiledóneas]]\n|clado3 = \n| ordem = [[Asterales]]\n| família = [[Asteraceae]]\n| género = ''[[Carduus]]''\n| espécie = '''''C. lusitanicus'''''\n| binomial = ''Carduus lusitanicus''\n| binomial_autoridade = \n}}\nCarduus lusitanicus é uma espécie de planta com flor pertencente à família Asteraceae. Trata-se de uma espécie hemicriptófita e terófita."},{"id":"s1:p2","text":"A espécie foi descrita por Georges C. Chr. Rouy e publicada em Illustrated Plants of Europe, sub pl. 437."},{"id":"s1:p3","text":"Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia."},{"id":"s1:p4","text":"Distribuição\nTrata-se de uma espécie nativa de Espanha e Portugal Continental."},{"id":"s1:p5","text":"Sinonímia\nSegundo o The Plant List, esta espécie tem os seguintes sinónimos:\n Carduus broteroi (Mariz) Welw. ex Cout.\n Carduus lusitanicus subsp. broteroi (Welw. ex Mariz) Devesa & Talavera\n Carduus lusitanicus subsp. santacreui Devesa & Talavera\n Carduus medius var. broteroi Welw. ex Mariz\n Carduus micropterus subsp. broteroi (Welw. ex Cout.) Kazmi"},{"id":"s1:p6","text":" Subespécies \nO Euro+Med Plantbase indica a existência das seguintes subespécies, fora a subespécie-tipo (Carduus lusitanicus subsp. lusitanicus):\n Carduus lusitanicus subsp. broteroi (Mariz) Devesa & Talavera\n Carduus lusitanicus subsp. santacreui Devesa & Talavera"},{"id":"s1:p7","text":"A subespécie-tipo é um endemismo da Península Ibérica, e a primeira subespécie listada após ela é um endemismo de Portugal Continental."}]}]}

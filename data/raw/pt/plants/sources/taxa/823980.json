@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 823980,
+  "scientificName": "Narcissus willkommii",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 823980,
+    "scientificName": "Narcissus willkommii",
+    "commonName": "Narcissus willkommii",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255169328/medium.jpeg",
+      "attribution": "(c) jmneiva, some rights reserved (CC BY-NC), uploaded by jmneiva",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/255169328"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 823980,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47163,
+        47218,
+        55849,
+        924654,
+        924794,
+        53597,
+        993245,
+        993283,
+        823980
+      ],
+      "is_active": true,
+      "name": "Narcissus willkommii",
+      "parent_id": 993283,
+      "ancestry": "48460/47126/211194/47125/47163/47218/55849/924654/924794/53597/993245/993283",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 255169328,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) jmneiva, some rights reserved (CC BY-NC), uploaded by jmneiva",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255169328/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "jmneiva",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255169328/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255169328/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 16,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "conservation_status": {
+        "id": 166106,
+        "source_id": null,
+        "user_id": 29729,
+        "authority": " Lista Vermelha da Flora Vascular de Portugal Continental",
+        "status": "en",
+        "status_name": "EN",
+        "geoprivacy": "obscured",
+        "iucn": 40,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "establishment_means": {
+        "id": 42713925,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=42&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:48:45.172941+00:00",
+    "retainedFrom": "data/models/http/26e51123202320fd2eee4c01e1703fa0abc7838e98e18d5466197a1af30f21d4.json",
+    "recordSha256": "2fe830da7bfb62c6c96aa31151f1b34242e9a79236ee2ebc0f9540a5a5a02c4b"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Narcissus willkommii",
+      "title": "Narcissus willkommii",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/9eb7aea51e37dac66d7c5385ae260685ce6dafb287fcce666a5d469f11b2fba7.json",
+      "url": "https://en.wikipedia.org/wiki/Narcissus_willkommii",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Narcissus willkommii",
+      "title": "Narcissus willkommii",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/9eb7aea51e37dac66d7c5385ae260685ce6dafb287fcce666a5d469f11b2fba7.json",
+      "url": "https://pt.wikipedia.org/wiki/Narcissus_willkommii",
+      "revisionId": 66340433,
+      "contentSha256": "e1714c12eb3a25b281dcae91b18868a0aa2d84c104cf8738d80cd06fec5c3507"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868375,
+      "canonicalName": "Narcissus willkommii",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868375",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868375.json",
+      "recordSha256": "46197c02e3fa92545177b7cb151fd42832165424e932fd384c8a7443c36d02b9"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

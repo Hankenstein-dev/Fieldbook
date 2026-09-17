@@ -1,0 +1,42 @@
+{
+  "taxonId": 1242060,
+  "name": "Aechmea miniata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:57:39.697718+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Aechmea miniata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Aechmea miniata is a species of flowering plant in the Bromeliaceae family. This species is native to the state of Bahia in eastern Brazil.\n\nCultivars\n Aechmea 'Cherokee Maid'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/5d532b80f0f2ac2610aad5bedc3ddb9aafc93ad0ae92d3d6f33e08b7b3082702.json",
+      "sha256": "9793ba8262d93cf9a156f4e13ad0e8be53f9f2926ce448f0599c90ce3450a048",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1334609160",
+      "revisionId": 1334609160,
+      "credit": {
+        "title": "Aechmea miniata",
+        "url": "https://en.wikipedia.org/wiki/Aechmea_miniata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1334609160",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aechmea+miniata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aechmea+miniata&limit=100",
+      "status": 200
+    }
+  ]
+}

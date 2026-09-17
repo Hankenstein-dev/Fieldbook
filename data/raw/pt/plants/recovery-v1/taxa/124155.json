@@ -1,0 +1,74 @@
+{
+  "taxonId": 124155,
+  "name": "Atrichum undulatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:17.410613+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Atrichum undulatum",
+      "language": "fr",
+      "scope": "verified_requested_taxon",
+      "clean": "{{À wikifier|date=décembre 2023}}\n\nAtrichum undulatum, l'Atric ondulé, est une espèce de mousse acrocarpe, de la famille des Polytrichaceae{{,}}. Elle est présente dans tout l'hémisphère Nord. C'est une espèce forestière commune en France, sauf dans la région méditerranéenne.\n\nLe nom latin est constitué de trichum qui signifie poil, et du préfixe privatif a en référence à la coiffe qui est glabre, contrairement aux Polytrichum, et de undulatum qui signifie ondulé, en référence aux feuilles.\n\n Description \nC'est une mousse acrocarpe, non ramifiée, qui forme des tapis lâches, composés de pieds non ramifiés allant jusqu'à {{Unité|7|cm}}.\n\n Gamétophyte \nLes feuilles sont linéaires, longues de {{Unité|1|cm}}, dentées, ondulées transversalement et se terminent en pointe. Fait rare chez les Polytrichacae, la nervure est étroite, et ne présente que quelques rangées de lamelles chlorophylliennes. La nervure est également dentée sur son revers{{,}}.\n\n Sporophyte \nLes capsules cylindriques sont portées par une soie de {{Unité|2|à=4|cm}}, et sont penchées à l'horizontale. Le péristome est constitué de 32 dents, et la capsule est fermée par une membrane, en plus de l'opercule{{,}}{{,}}.\n\n Identification \nLa nervure étroite avec les lamelles est caractéristique du genre. La capsule inclinée et les feuilles ondulées sont typiques de l'espèce.\n\n Distribution et menaces \nL'espèce est présente dans tout l'hémisphère Nord. En France métropolitaine, on la retrouve partout, mais elle est rare en région méditerranéenne. Elle n'est pas menacée en Europe, ni dans les régions de France où elle a été évaluée{{,}}.\n\n Écologie \nL'espèce se développe sur le sol frais, acidicline dans les contextes ombragés. On la trouve en forêt, dans les fourrés, les talus et sur les bords de chemin{{,}}{{,}}.\n\n Références \n{{Références}}\n\n{{Portail|botanique}}\n\nCatégorie:Polytrichaceae",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/fr/7a372345f943747a523788bb8423b5ded522497612abd0cfc2117b764a9ff8cf.json",
+      "sha256": "bad6b157a6004902ad3d83f26c5e0478ce7b95eab87b2eac194158b6bc13e8b6",
+      "url": "https://fr.wikipedia.org/w/index.php?oldid=238107334",
+      "revisionId": 238107334,
+      "credit": {
+        "title": "Atrichum undulatum",
+        "url": "https://fr.wikipedia.org/wiki/Atrichum_undulatum",
+        "revisionUrl": "https://fr.wikipedia.org/w/index.php?oldid=238107334",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+      }
+    },
+    {
+      "title": "Atrichum undulatum (Hedw.) P.Beauv.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "На почвенных обнажениях лесных оврагов.\n\nНа подстилке в сосновом парке (довольно обильно), субори, а также по берегу родникового ручья.\n\nterrestrial\n\nplant\n\nnon cuddly\n\nmobile\n\nmesotrophic\n\nlonglived\n\neurytopic\n\nRECORDS. — Bescherelle (1882), Jelenc (1955 a): Djebel Édough. Jelenc (1955 a): Alger; Kabylie du Djurdjura, Agoulmin Aberkan; Kabylie du Djurdjura, forêt d’Akfadou. Rare.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2673299.json",
+      "sha256": "2fd87a6d39cd45a1bab4adb3baff2f07d9af2f0ef9e82bd8280afa752f003c0e",
+      "url": "https://api.gbif.org/v1/species/2673299",
+      "credit": {
+        "title": "Atrichum undulatum (Hedw.) P.Beauv.",
+        "url": "https://www.gbif.org/species/2673299",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/7a372345f943747a523788bb8423b5ded522497612abd0cfc2117b764a9ff8cf.json",
+      "title": "Atrichum undulatum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Atrichum undulatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Catherine's moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Atrichum+undulatum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Atrichum+undulatum&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "taxonId": 557375,
+  "name": "Astragalus incanus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:53.690649+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Astragalus incanus",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Astragalus incanus é uma espécie de planta com flor pertencente à família Fabaceae.\n\nA autoridade científica da espécie é L., tendo sido publicada em Systema Naturae, Editio Decima 2: 1175. 1759.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:\n\n Astragalus incanus subsp. nummularioides - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/a62b22e50db536029305de42e45a276734d1b4445dffdc16938e2cf15a416957.json",
+      "sha256": "06c4ad4bb11f3de88941e7d6334f9ef5cadbf46cef5002950adec443dd396b2c",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=63740716",
+      "revisionId": 63740716,
+      "credit": {
+        "title": "Astragalus incanus",
+        "url": "https://pt.wikipedia.org/wiki/Astragalus_incanus",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=63740716",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Astragalus+incanus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Astragalus+incanus&limit=100",
+      "status": 200
+    }
+  ]
+}

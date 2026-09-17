@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":564178,"scientificName":"Aechmea recurvata","commonName":"Aechmea recurvata","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Aechmea recurvata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Aechmea recurvata is a plant species in the genus Aechmea. This species is native to southern Brazil, Paraguay, Uruguay and northern Argentina."},{"id":"s1:p2","text":"Varieties\nThree varieties are recognized:"},{"id":"s1:p3","text":"Aechmea recurvata var. benrathii (Mez) Reitz - Santa Catarina\nAechmea recurvata var. ortgiesii (Baker) Reitz - São Paulo\nAechmea recurvata var. recurvata - most of species range"},{"id":"s1:p4","text":"Cultivars\nThe species is widely cultivated as an ornamental. Many cultivars are recorded, including\n{{div col|colwidth=26em}}\n Aechmea 'A l'Orange'\n Aechmea 'Ametista'\n Aechmea 'Angulation'\n Aechmea 'Avarua'\n Aechmea 'Blue Bonnet'\n Aechmea 'Blue Imp'\n Aechmea 'Blue Pacific'\n Aechmea 'Brett Terrace'\n Aechmea 'Bronze Age'\n Aechmea 'Cardinalis'\n Aechmea 'Chardonnay'\n Aechmea 'Charles Hodgson'\n Aechmea 'Covata'\n Aechmea 'Covata Too'\n Aechmea 'Dee'\n Aechmea 'Donna Marie'\n Aechmea 'Echidna'\n Aechmea 'Flame'\n Aechmea 'Flaming Star'\n Aechmea 'Gemma'\n Aechmea 'Grapehead'\n Aechmea 'Karamea Topsy'\n Aechmea 'Kiwi Baker'\n Aechmea 'Light Rays'\n Aechmea 'Lotus'\n Aechmea 'Mary Brett'\n Aechmea 'Orangeade'\n Aechmea 'Paraguay'\n Aechmea 'Phoenix'\n Aechmea 'Pica'\n Aechmea 'Royal Robe'\n Aechmea 'Saturn'\n Aechmea 'Suave'\n Aechmea 'Sunrays'\n Aechmea 'Sunrise'\n Aechmea 'Tokuri'\n Aechmea 'Yellow Throat'\n × Billmea 'Barbara Ellen'\n × Billmea 'Casper'\n × Billmea 'Curlylocks'\n × Billmea 'Rosebud'\n × Neomea 'Dennis'\n × Neomea 'Olympiad'\n × Neomea 'Peter Kearney'\n × Quesmea 'Flame'\n{{div col end}}"}]}]}

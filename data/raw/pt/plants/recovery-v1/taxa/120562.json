@@ -1,0 +1,32 @@
+{
+  "taxonId": 120562,
+  "name": "Bauhinia macranthera",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:58.589896+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Bauhinia macranthera"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Chihuahuan orchid tree"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bauhinia+macranthera&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bauhinia+macranthera&limit=100",
+      "status": 200
+    }
+  ]
+}

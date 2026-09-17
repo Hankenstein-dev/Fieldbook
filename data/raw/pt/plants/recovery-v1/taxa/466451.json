@@ -1,0 +1,32 @@
+{
+  "taxonId": 466451,
+  "name": "Celosia spicata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:41.760560+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Celosia spicata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Flamingo Feather Flower"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Celosia+spicata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Celosia+spicata&limit=100",
+      "status": 200
+    }
+  ]
+}

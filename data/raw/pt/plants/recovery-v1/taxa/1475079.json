@@ -1,0 +1,22 @@
+{
+  "taxonId": 1475079,
+  "name": "Cynara × pacensis",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:46.701324+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Cynara+%C3%97+pacensis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Cynara+%C3%97+pacensis&limit=100",
+      "status": 200
+    }
+  ]
+}

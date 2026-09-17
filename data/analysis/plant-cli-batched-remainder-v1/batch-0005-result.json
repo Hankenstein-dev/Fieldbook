@@ -1,0 +1,354 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-14T09:00:56.323995+00:00",
+  "completedAt": "2026-09-14T09:02:17.681295+00:00",
+  "elapsedSeconds": 81.357149628,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0005",
+  "taxonIds": [
+    61481,
+    59301,
+    48229,
+    51447,
+    82893,
+    128137,
+    76766,
+    58991,
+    988425,
+    338097
+  ],
+  "usage": {
+    "input_tokens": 15942,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2924,
+    "reasoning_output_tokens": 1552
+  },
+  "requestTextTokens": 8533,
+  "savedOutputTokens": 1366,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 61481,
+      "name": "Viola riviniana",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Prostrate perennial flowering plant native to Eurasia and Africa. It has dark green, heart-shaped leaves and produces several violet flowers in May and June, often along woodland edges, grassland and shady hedge banks.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 59301,
+      "name": "Ranunculus sceleratus",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Annual flowering herb native to temperate and boreal North America and Eurasia, usually growing beside ponds, streams and other wet ground. It has deeply divided, mostly hairless leaves and small yellow flowers. All parts are considered poisonous, and ingestion can cause burning, pain, tongue inflammation and increased salivation.",
+        "humanEdibility": "no",
+        "edibilityNote": "All parts are considered poisonous; ingestion can irritate the skin and mucous membranes.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": [
+            "s1:p4"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 48229,
+      "name": "Ranunculus repens",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial flowering herb native to Europe, Asia and northwestern Africa. Its creeping stems root at their joints to form new plants, while its leaves may have variable pale markings and its flowers are glossy yellow. The plant is poisonous, although its poisons are lost when dried in hay.",
+        "humanEdibility": "no",
+        "edibilityNote": "The plant is poisonous when fresh, although its poisons are lost when dried in hay.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p7"
+          ],
+          "humanEdibility": [
+            "s1:p7"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51447,
+      "name": "Passiflora alata",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Evergreen vine native to the Amazon from Peru to eastern Brazil. Its four-winged stems bear fragrant flowers with curved red parts and purple-and-white fringes, followed by edible yellow to bright orange passion fruit prized by local people.",
+        "humanEdibility": "yes",
+        "edibilityNote": "It bears edible passion fruit that is highly prized by local people.",
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p3",
+            "s1:p4"
+          ],
+          "humanEdibility": [
+            "s1:p1",
+            "s1:p4"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 82893,
+      "name": "Linum setaceum",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 128137,
+      "name": "Limodorum abortivum",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Orchid native to mainland Europe, western Asia and the Mediterranean area. Its leaves are reduced to scales, and the adult plant is believed to depend entirely on fungi for nutrition. Seedlings develop underground for eight to ten years before flowering.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 76766,
+      "name": "Ehrharta calycina",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Variable perennial grass native to South Africa, Lesotho and Namibia. Its flower clusters begin pale and darken to purple or reddish with age, and it may or may not spread by underground stems. Outside its native range it sometimes becomes a noxious or invasive weed.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p6",
+            "s1:p8",
+            "s1:p9",
+            "s1:p10"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 58991,
+      "name": "Portulaca oleracea",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Succulent plant of unclear native origin, now ranging from North Africa and southern Europe through Asia to Australasia; much of this spread is assumed to be human-assisted, and its status in the Americas is uncertain. It has reddish, mostly ground-hugging stems and small yellow flowers that open briefly on sunny mornings. All parts are edible raw or cooked, and the seeds can be eaten or made into flour, though the leaves contain high oxalate levels.",
+        "humanEdibility": "yes",
+        "edibilityNote": "All parts are edible raw or cooked; seeds are also eaten raw or made into flour.",
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p15",
+            "s1:p23",
+            "s1:p25"
+          ],
+          "humanEdibility": [
+            "s1:p1",
+            "s1:p25",
+            "s1:p26",
+            "s1:p27"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 988425,
+      "name": "Bupleurum gerardi",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Flowering plant native to mainland Portugal.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3",
+            "s1:p4",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-14T09:00:56.323995+00:00",
+      "completedAt": "2026-09-14T09:02:17.681295+00:00",
+      "elapsedSeconds": 81.357149628,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 338097,
+      "name": "Juncus valvatus",
+      "batchId": "batch-0005",
+      "usage": null,
+      "usageRef": "batch-0005-result.json",
+      "rawOutputFile": "batch-0005-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "Perennial flowering herb found in southwestern Europe and North Africa; the variety represented in Portugal is endemic to mainland Portugal. A 1913 account describes large, nearly spherical clusters with up to 50 or more flowers, blooming from June to September in wet places and ditches in central and southern Portugal. The species is classed as Near Threatened.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p3",
+            "s1:p4",
+            "s1:p5",
+            "s1:p6"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

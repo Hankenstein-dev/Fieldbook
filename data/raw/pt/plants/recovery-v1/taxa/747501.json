@@ -1,0 +1,28 @@
+{
+  "taxonId": 747501,
+  "name": "Bonnemaisonia asparagoides",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:43:52.980937+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0d41c9c585c4ea65d2407df24b058b8f57df6ecf682e000c895ac033de082787.json",
+      "title": "Bonnemaisonia asparagoides",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Bonnemaisonia+asparagoides&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Bonnemaisonia+asparagoides&limit=100",
+      "status": 200
+    }
+  ]
+}

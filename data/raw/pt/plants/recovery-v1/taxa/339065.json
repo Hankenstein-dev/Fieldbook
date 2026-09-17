@@ -1,0 +1,33 @@
+{
+  "taxonId": 339065,
+  "name": "Smithora",
+  "rank": "genus",
+  "completedAt": "2026-09-15T07:40:30.190512+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/771b503beb0e7d52a38f92a9c7c452ae59bb7ad65a899b36c1619656e7e1632a.json",
+      "title": "Erythrotrichiaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/848738c3cda649758895c6b099c047007d9753d479d940e786dc898d30ee48df.json",
+      "title": "Erythrotrichiaceae",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Smithora&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Smithora&limit=100",
+      "status": 200
+    }
+  ]
+}

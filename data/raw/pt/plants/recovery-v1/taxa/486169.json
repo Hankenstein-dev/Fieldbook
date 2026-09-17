@@ -1,0 +1,38 @@
+{
+  "taxonId": 486169,
+  "name": "Dianthus pungens",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:53.027589+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/42e5b3933e5c8f58348d427ab4adc9c65377126f1d288705f7483404b136c18b.json",
+      "title": "Dianthus pungens",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dianthus pungens"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Common Stinging Pink"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dianthus+pungens&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dianthus+pungens&limit=100",
+      "status": 200
+    }
+  ]
+}

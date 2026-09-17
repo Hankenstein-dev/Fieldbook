@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":158234,"scientificName":"Althaea cannabina","commonName":"Hemp-leaved Mallow","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Althaea cannabina","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Althaea cannabina, commonly called palm-leaf marshmallow or hemp-leaved hollyhock, is a perennial herb belonging to the genus Althaea of the family Malvaceae. The leaves resemble those of hemp (Cannabis sativa), hence the specific epithet cannabina (\"hemp-like\")."},{"id":"s1:p2","text":"Description\nAlthaea cannabina reaches on average {{convert|40|-|200|cm}} of height. The stem is erect, cylindrical, pubescent and very branched. Lower leaves are petiolate, hairy and almost completely subdivided in three-five segments, linear or linear-lanceolate, toothed or lobed, up to {{convert|2|cm}} wide and {{convert|8|cm}} long. The upper leaves are simply lobed and toothed. The flowers are solitary or in clusters and grow in the axils of the leaves, on long pedicels up to {{convert|10|cm}} or on long peduncles up to {{convert|20|cm}}. They are usually pink or reddish-purple and heart-shaped, {{convert|8|-|10|mm}} wide and {{convert|13|-|15|mm}} long, with purple-red stamens. The flowering period extends from July through September."},{"id":"s1:p3","text":"Distribution\nAlthaea cannabina grows wild in central and southern Europe and in the Mediterranean Basin, from Portugal, north Africa and east to Turkey - except Balearic Islands, Corsica, Crete and Chipre - up to central Asia."},{"id":"s1:p4","text":"Habitat\nThese plants grow at an altitude of {{convert|0|-|800|m}} above sea level. They prefer coastal thickets, forest edges, meadows, weedy places, roads, wasteland, pastures and parks, especially with rocky and calcareous soils."},{"id":"s1:p5","text":" Botanical gallery"}]}]}

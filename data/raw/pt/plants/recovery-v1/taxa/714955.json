@@ -1,0 +1,38 @@
+{
+  "taxonId": 714955,
+  "name": "Gladiolus × hortulanus",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:43:45.435319+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/447d5908e1bb40e38425f873f5ae37460474c26288e68aa676f607e7d2af9f00.json",
+      "title": "Garten-Gladiole",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Gladiolus × hortulanus"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Large-flowered Gladiolus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Gladiolus+%C3%97+hortulanus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Gladiolus+%C3%97+hortulanus&limit=100",
+      "status": 200
+    }
+  ]
+}

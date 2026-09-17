@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":164415,"scientificName":"Lagenaria siceraria","commonName":"Calabash","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lagenaria siceraria","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Info/Taxonomia\n| nome = ''Lagenaria siceraria''\n| imagem = Courge encore verte.jpg\n| imagem_legenda = \n| estado = \n| estado_ref = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Cucurbitales]]\n| família = [[Cucurbitaceae]]\n| género = ''[[Lagenaria]]''\n| espécie = '''''L. siceraria'''''\n| binomial = ''L. siceraria''\n| binomial_autoridade = ([[Juan Ignacio Molina|Molina]]) Standl.\n}}"},{"id":"s1:p2","text":"Lagenaria siceraria é uma espécie de Lagenaria. É popularmente conhecida como porongo, purunga, purungo, porungo, porongueiro, porangueiro, cabaça, calabaça, abóbora-d'água, cabaceiro-amargoso, cabaça-amargosa, cabaça-de-trombeta, cabaça-purunga, cabaço-amargoso, cuietezeiro, cuietezeira, taquera, colombro e cocombro. É nativa da África e da Índia. Seus frutos são utilizados para se fazer cuias e cabaças."},{"id":"s1:p3","text":"Sinônimos\nSinônimos aceitos:\n Cucumis bicirrha J.R.Forst. ex Guill.\n Cucumis lagenaria (L.) Dumort.\n Cucumis mairei H.Lév.\n Cucurbita ciceraria Molina [variação da escrita]\n Cucurbita idolatrica Willd.\n Cucurbita idololatrica Willd.\n Cucurbita lagenaria L.\n Cucurbita leucantha Duchesne\n Cucurbita pyriformis M.Roem.\n Cucurbita siceraria Molina\n Cucurbita vittata Blume\n Lagenaria bicornuta Chakrav.\n Lagenaria idolatrica (Willd.) Ser. ex Cogn.\n Lagenaria lagenaria (L.) Cockerell [inválido]\n Lagenaria leucantha (Duchesne) Rusby\n Lagenaria microcarpa Naudin [inválido]\n Lagenaria vulgaris Ser."},{"id":"s1:p4","text":" Etimologia \n\"Porongo\", \"purunga\" e \"purungo\" vêm do quíchua poronco, \"vaso de barro com o gargalo estreito e comprido\", através do espanhol rioplatense porongo."},{"id":"s1:p5","text":"Descrição\nA Lagenaria siceraria é uma trepadeira anual e vigorosa com folhas grandes e aparência exuberante, tem rápido crescimento podendo florescer em apenas 2 meses após a semeadura. O caule grosso é sulcado longitudinalmente, a videira é ramificada e sobe por meio de gavinhas ao longo do tronco. A folhagem é coberta com pelos macios e tem um odor almiscarado quando esmagadas."},{"id":"s1:p6","text":"Galeria"}]}]}

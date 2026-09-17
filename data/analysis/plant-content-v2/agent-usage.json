@@ -1,0 +1,209 @@
+{
+  "complete": true,
+  "source": "Local Codex session token_usage_record events, deduplicated by response_id and checked against cumulative token_count.",
+  "scope": "The ten generation subagents only. Excludes parent preparation, orchestration and quality review. Includes agent system/tool context, repeated reads, code generation, validation and final messages.",
+  "billingNote": "Observed token usage, not a dollar bill or subscription quota calculation. Cached input is a subset of input; reasoning output is a subset of output. Do not add subsets again.",
+  "batches": [
+    {
+      "batch": "batch-01",
+      "agent": "/root/sol250_01",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:09:17.105Z",
+      "completedAt": "2026-09-13T10:12:17.520Z",
+      "responses": 18,
+      "usage": {
+        "input_tokens": 730609,
+        "cached_input_tokens": 676480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11602,
+        "reasoning_output_tokens": 2900,
+        "total_tokens": 742211
+      }
+    },
+    {
+      "batch": "batch-02",
+      "agent": "/root/sol250_02",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:09:23.967Z",
+      "completedAt": "2026-09-13T10:13:05.222Z",
+      "responses": 22,
+      "usage": {
+        "input_tokens": 1159553,
+        "cached_input_tokens": 1100800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14979,
+        "reasoning_output_tokens": 4765,
+        "total_tokens": 1174532
+      }
+    },
+    {
+      "batch": "batch-03",
+      "agent": "/root/sol250_03",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:09:30.862Z",
+      "completedAt": "2026-09-13T10:12:45.833Z",
+      "responses": 19,
+      "usage": {
+        "input_tokens": 771875,
+        "cached_input_tokens": 729728,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13151,
+        "reasoning_output_tokens": 2720,
+        "total_tokens": 785026
+      }
+    },
+    {
+      "batch": "batch-04",
+      "agent": "/root/sol250_04",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:14:57.281Z",
+      "completedAt": "2026-09-13T10:17:45.623Z",
+      "responses": 17,
+      "usage": {
+        "input_tokens": 648271,
+        "cached_input_tokens": 608512,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11359,
+        "reasoning_output_tokens": 2935,
+        "total_tokens": 659630
+      }
+    },
+    {
+      "batch": "batch-05",
+      "agent": "/root/sol250_05",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:15:03.054Z",
+      "completedAt": "2026-09-13T10:18:34.427Z",
+      "responses": 24,
+      "usage": {
+        "input_tokens": 985565,
+        "cached_input_tokens": 939904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14208,
+        "reasoning_output_tokens": 3317,
+        "total_tokens": 999773
+      }
+    },
+    {
+      "batch": "batch-06",
+      "agent": "/root/sol250_06",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:15:08.751Z",
+      "completedAt": "2026-09-13T10:18:15.434Z",
+      "responses": 27,
+      "usage": {
+        "input_tokens": 1202297,
+        "cached_input_tokens": 1153664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12067,
+        "reasoning_output_tokens": 3505,
+        "total_tokens": 1214364
+      }
+    },
+    {
+      "batch": "batch-07",
+      "agent": "/root/sol250_07",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:17:53.376Z",
+      "completedAt": "2026-09-13T10:21:09.642Z",
+      "responses": 18,
+      "usage": {
+        "input_tokens": 672552,
+        "cached_input_tokens": 604928,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13478,
+        "reasoning_output_tokens": 4881,
+        "total_tokens": 686030
+      }
+    },
+    {
+      "batch": "batch-08",
+      "agent": "/root/sol250_08",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:18:36.831Z",
+      "completedAt": "2026-09-13T10:22:40.801Z",
+      "responses": 22,
+      "usage": {
+        "input_tokens": 930846,
+        "cached_input_tokens": 850176,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13381,
+        "reasoning_output_tokens": 3544,
+        "total_tokens": 944227
+      }
+    },
+    {
+      "batch": "batch-09",
+      "agent": "/root/sol250_09",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:18:42.972Z",
+      "completedAt": "2026-09-13T10:21:51.492Z",
+      "responses": 19,
+      "usage": {
+        "input_tokens": 726767,
+        "cached_input_tokens": 686208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12142,
+        "reasoning_output_tokens": 2189,
+        "total_tokens": 738909
+      }
+    },
+    {
+      "batch": "batch-10",
+      "agent": "/root/sol250_10",
+      "model": "gpt-5.6-sol",
+      "reasoningEffort": "high",
+      "completed": true,
+      "startedAt": "2026-09-13T10:21:15.752Z",
+      "completedAt": "2026-09-13T10:24:32.852Z",
+      "responses": 25,
+      "usage": {
+        "input_tokens": 1120063,
+        "cached_input_tokens": 1067392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12693,
+        "reasoning_output_tokens": 3310,
+        "total_tokens": 1132756
+      }
+    }
+  ],
+  "totals": {
+    "input_tokens": 8948398,
+    "cached_input_tokens": 8417792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 129060,
+    "reasoning_output_tokens": 34066,
+    "total_tokens": 9077458,
+    "uncached_input_tokens": 530606,
+    "nonreasoning_output_tokens": 94994
+  },
+  "generationSessionWallSeconds": 915.747,
+  "perPlant": {
+    "input_tokens": 35793.592,
+    "cached_input_tokens": 33671.168,
+    "cache_write_input_tokens": 0.0,
+    "output_tokens": 516.24,
+    "reasoning_output_tokens": 136.264,
+    "total_tokens": 36309.832,
+    "uncached_input_tokens": 2122.424,
+    "nonreasoning_output_tokens": 379.976
+  }
+}

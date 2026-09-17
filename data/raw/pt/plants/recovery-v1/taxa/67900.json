@@ -1,0 +1,49 @@
+{
+  "taxonId": 67900,
+  "name": "Orthotrichum tenellum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:37:41.439767+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Orthotrichum tenellum Brid.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "RECORDS. — Bescherelle (1882), Jelenc (1955 a): Alger; Kabylie du Djurdjura, Tizi Ouzou; La Calle; Oued-el-Aneb, près Sidi-el-Akhdar; Philippeville. Gandoger (1883): sine loco. Corbière (1904), Jelenc (1955 a): Médéa. Corbière (1905): Constantine; Environs de Constantine, Le Hamma; Environs de Constantine, Sidi M’Cid. Corbière (1905), Jelenc (1955 a): Environs de Constantine, djebel Ouach. Jelenc (1951, 1967): Monts de Tlemcen, forêt de Tessera Mramet, 1400 m. Jelenc (1955 a): Édough; Khodjaberry; La Réghaia; Tlemcen, 1000 m. Frequent.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098194.json",
+      "sha256": "a6a6038c680f8991db25cd7fca191b4ba8647f9bc869d21e7cf14a50cbe98a8e",
+      "url": "https://api.gbif.org/v1/species/251098194",
+      "credit": {
+        "title": "Orthotrichum tenellum Brid.",
+        "url": "https://www.gbif.org/species/251098194",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Orthotrichum tenellum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Slender Bristle-moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Orthotrichum+tenellum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Orthotrichum+tenellum&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "input": {
+    "taxonId": 546074,
+    "scientificName": "Euphorbia angulata",
+    "commonName": "Euphorbia angulata",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Euphorbia angulata",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Euphorbia angulata é uma espécie de planta com flor pertencente à família Euphorbiaceae. "
+          },
+          {
+            "id": "s1:p2",
+            "text": "A autoridade científica da espécie é Jacq., tendo sido publicada em Collectanea 2: 309. 1789."
+          },
+          {
+            "id": "s1:p3",
+            "text": " Portugal \nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental."
+          },
+          {
+            "id": "s1:p4",
+            "text": "Em termos de naturalidade é nativa da região atrás indicada."
+          },
+          {
+            "id": "s1:p5",
+            "text": " Protecção \nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Euphorbia angulata Jacq.",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Volksname"
+          },
+          {
+            "id": "s2:p2",
+            "text": "Status Indigenat: - Liste der gefaehrdeten Pflanzen IUCN (nach Walter & Gillett 1997): Nein"
+          },
+          {
+            "id": "s2:p3",
+            "text": "Oekologische Zeigerwerte nach Landolt & al. (2010) Bodenfaktoren Klimafaktoren Salztoleranz Feuchtezahl F -- Lichtzahl L -- Salzzeichen -- Reaktionszahl R -- Temperaturzahl T -- Naehrstoffzahl N -- Kontinentalitaetszahl K --"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Flora-On — Euphorbia angulata",
+        "language": "pt",
+        "scope": "requested_taxon_regional_habitat_Portugal",
+        "passages": [
+          {
+            "id": "s3:p1",
+            "text": "Flora-On botanical account for Euphorbia angulata. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range."
+          },
+          {
+            "id": "s3:p2",
+            "text": "Ecologia Orlas ou sobcoberto de bosques e matagais caducifólios (carvalhais). Em locais sombrios, com solos ácidos e ricos em matéria orgânica."
+          },
+          {
+            "id": "s3:p3",
+            "text": "Ligações externas Descrição na Flora Iberica"
+          },
+          {
+            "id": "s3:p4",
+            "text": "Distância ao mar (n=12)"
+          },
+          {
+            "id": "s3:p5",
+            "text": "Preferências bioclimáticas explorar gráficos carregando... carregando..."
+          },
+          {
+            "id": "s3:p6",
+            "text": "Espécies com distribuição semelhante Genista falcata , Cytisus multiflorus , Cytisus scoparius , Prunus avium , Lavandula pedunculata , Sedum brevifolium , Quercus pyrenaica ver todas"
+          },
+          {
+            "id": "s3:p7",
+            "text": "Tipo biológico Hemicriptófito"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/6cc36f93b985e8f081a88b3adbdc4c81226066452e4081b55360634c4e239df0.json",
+      "sha256": "56f416f71e667044ae738a49d1032b164c5d841d9072083074125d0dcc80457b",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62903718",
+      "revisionId": 62903718,
+      "credit": {
+        "title": "Euphorbia angulata",
+        "url": "https://pt.wikipedia.org/wiki/Euphorbia_angulata",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62903718",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/3070391.json",
+      "sha256": "8756867b7b730427a41fbb7693908224178fe54d2d6b486201316f320ee79bfd",
+      "url": "https://api.gbif.org/v1/species/3070391",
+      "credit": {
+        "title": "Euphorbia angulata Jacq.",
+        "url": "https://www.gbif.org/species/3070391",
+        "attribution": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "fetchedAt": "2026-09-15T07:52:19.910771+00:00",
+        "title": "GBIF Backbone Taxonomy"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in account identity field",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/546074.json",
+      "sha256": "1f0681816df00fa8142fb1371f82d67e877495a14faa9faf19fc8a81ea9faee3",
+      "url": "https://flora-on.pt/?q=Euphorbia+angulata",
+      "credit": {
+        "title": "Flora-On — Euphorbia angulata",
+        "url": "https://flora-on.pt/?q=Euphorbia+angulata",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 546074,
+    "name": "Euphorbia angulata",
+    "language": "pt,unspecified,pt",
+    "sourceTextTokens": 369,
+    "packetTokens": 673,
+    "standaloneInputTextTokens": 1125,
+    "packetSha256": "9a702e06d3d679651ea014be8de1b7d5a1c2bc4241417bffce86c548b8e90223"
+  }
+}

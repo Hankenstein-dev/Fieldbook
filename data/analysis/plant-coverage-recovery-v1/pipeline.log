@@ -1,0 +1,2046 @@
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:01:01.734178+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 208, 'total': 449}}}
+{"supported_intro":794,"read_error_or_identity_review":75,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":884,"Scientific identity absent from returned account title":87,"No descriptive account sections extracted":32,"supported_account":79,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":67}
+{"processed":25,"total":246,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":246,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":246,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":246,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":246,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":246,"counts":{"verified_article":29,"unmatched_or_thin":121}}
+{"processed":175,"total":246,"counts":{"verified_article":32,"unmatched_or_thin":143}}
+{"processed":200,"total":246,"counts":{"verified_article":32,"unmatched_or_thin":168}}
+{"processed":225,"total":246,"counts":{"verified_article":32,"unmatched_or_thin":193}}
+{"processed":246,"total":246,"counts":{"verified_article":32,"unmatched_or_thin":214}}
+{"prepared":9,"output":"/home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-cli-recovery-auto-001-v1","packetTokens":4825}
+{'stage': 'generating', 'updatedAt': '2026-09-15T18:01:13.570953+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-001-v1', 'count': 9}
+9/9 plants; 1 calls; 9 passed, 0 failed
+{"complete": true, "count": 9, "usage": {"input_tokens": 12692, "cached_input_tokens": 0, "cache_write_input_tokens": 0, "output_tokens": 1776, "reasoning_output_tokens": 1034, "uncached_input_tokens": 12692}, "validatedCount": 9, "failedCount": 0, "generationCompletedCount": 9, "generationCallCount": 1, "completedCallCount": 1, "missingUsageCount": 0, "nullSummaryCount": 0, "startedAt": "2026-09-15T18:01:13.914755+00:00", "completedAt": "2026-09-15T18:02:00.113305+00:00", "elapsedWallSeconds": 46.19855, "totalGenerationSeconds": 46.19842714400147, "savedOutputTokens": 736, "usageUnit": "CLI call; counted once per batch", "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.", "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."}
+{'stage': 'publishing', 'updatedAt': '2026-09-15T18:02:00.213526+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-001-v1', 'count': 9}
+2026-09-15T18:02:00.302261+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-auto-001-v1 --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-specialist-round2-v1 --run data/analysis/plant-cli-recovery-specialist-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7880,"changedCount":9,"nullSummaryCount":19}
+2026-09-15T18:02:03.373679+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T18:02:08.376Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7872,
+  "withoutSummary": 651,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 752,
+  "routes": {
+    "summary_present": 7120,
+    "retrieve_additional_sources": 457,
+    "short_summary_review": 752,
+    "existing_source_identity_review": 79,
+    "existing_matched_source": 115
+  },
+  "missingByRank": {
+    "hybrid": 106,
+    "genushybrid": 2,
+    "species": 379,
+    "genus": 65,
+    "complex": 26,
+    "tribe": 6,
+    "subgenus": 16,
+    "section": 38,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 42,
+      "withoutSummary": 2
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 525,
+      "withoutSummary": 38
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 571,
+      "withoutSummary": 37
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 376,
+      "withoutSummary": 27
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 540,
+      "withoutSummary": 69
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 977,
+      "withoutSummary": 90
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 223,
+      "withoutSummary": 18
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 244,
+      "withoutSummary": 22
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 330,
+      "withoutSummary": 18
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 293,
+      "withoutSummary": 41
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 95,
+      "withoutSummary": 9
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 135,
+      "withoutSummary": 4
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 105,
+      "withoutSummary": 9
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 356,
+      "withoutSummary": 28
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 456,
+      "withoutSummary": 30
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 177,
+      "withoutSummary": 9
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 139,
+      "withoutSummary": 25
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 26,
+      "withoutSummary": 9
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 361,
+      "withoutSummary": 29
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 975,
+      "withoutSummary": 81
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 392,
+      "withoutSummary": 30
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 101,
+      "withoutSummary": 7
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 325,
+      "withoutSummary": 13
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 81,
+      "withoutSummary": 3
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 24,
+      "withoutSummary": 1
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T18:02:08.450247+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 3495, 'generationCalls': 352, 'formatPassed': 2518, 'formatFailed': 2, 'nullSummaries': 99, 'elapsedWallSeconds': 37462.214239}
+2026-09-15T18:02:08.915186+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-GDNlv7Kq.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-CcWPd_ij.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-h5plwuRe.js                       3.39 kB │ gzip:   1.43 kB
+dist-web/assets/Collection-COcXs-Ow.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-CgBEnml-.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-abuhmfC1.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-D3ytaIL4.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/index-jcXkfhY7.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-DyQ2yssg.js                   555.10 kB │ gzip: 140.73 kB
+dist-web/assets/plant-stories-007-BimAkPbL.js          611.48 kB │ gzip: 101.01 kB
+dist-web/assets/plant-stories-002-CVvLTNkL.js          747.01 kB │ gzip: 135.46 kB
+dist-web/assets/plant-stories-004-C-2kSimP.js          747.53 kB │ gzip: 125.90 kB
+dist-web/assets/plant-stories-003-C5NbrMWs.js          757.76 kB │ gzip: 133.82 kB
+dist-web/assets/plant-stories-005-mijSKW93.js          759.31 kB │ gzip: 124.12 kB
+dist-web/assets/plant-stories-001-D5p7hHy8.js          767.87 kB │ gzip: 139.76 kB
+dist-web/assets/plant-stories-000-CnSflsbc.js          769.73 kB │ gzip: 145.09 kB
+dist-web/assets/plant-stories-006-DyxtOQP4.js          929.94 kB │ gzip: 141.49 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 900ms
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (14090.31 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T18:02:14.095512+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-COcXs-Ow.js
+Uploaded assets/FieldMap-DyQ2yssg.js
+Uploaded assets/Identify-abuhmfC1.js
+Uploaded assets/Places-h5plwuRe.js
+Uploaded assets/SourceCredits-CcWPd_ij.js
+Uploaded assets/appearance-D3ytaIL4.js
+Uploaded assets/countryCatalogue-GDNlv7Kq.js
+Uploaded assets/index-jcXkfhY7.js
+Uploaded assets/nativeDatabase-CgBEnml-.js
+Uploaded assets/plant-stories-004-C-2kSimP.js
+Uploaded assets/plant-stories-005-mijSKW93.js
+Uploaded assets/plant-stories-007-BimAkPbL.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 14 files uploaded.
+2026-09-15T18:02:34.115421+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T18:02:39.596245+00:00 Published 9 attempted plants checkpoint
+2026-09-15T18:02:39.596477+00:00 Generator stopped; monitor exiting without retries
+{'stage': 'published', 'updatedAt': '2026-09-15T18:02:39.629782+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-001-v1', 'withSummary': 7872, 'withoutSummary': 651}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:02:39.678653+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}}
+{"supported_intro":796,"read_error_or_identity_review":75,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":903,"Scientific identity absent from returned account title":88,"No descriptive account sections extracted":32,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":251,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":251,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":251,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":251,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":251,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":251,"counts":{"verified_article":30,"unmatched_or_thin":120}}
+{"processed":175,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":167}}
+{"processed":225,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":192}}
+{"processed":250,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":217}}
+{"processed":251,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":218}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:02:43.594957+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:02:43.632036+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}}
+{"supported_intro":796,"read_error_or_identity_review":75,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":905,"Scientific identity absent from returned account title":89,"No descriptive account sections extracted":33,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":251,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":251,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":251,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":251,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":251,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":251,"counts":{"verified_article":30,"unmatched_or_thin":120}}
+{"processed":175,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":167}}
+{"processed":225,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":192}}
+{"processed":250,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":217}}
+{"processed":251,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":218}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:02:45.542726+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:02:45.584685+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}}
+{"supported_intro":797,"read_error_or_identity_review":75,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":909,"Scientific identity absent from returned account title":89,"No descriptive account sections extracted":33,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":251,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":251,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":251,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":251,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":251,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":251,"counts":{"verified_article":30,"unmatched_or_thin":120}}
+{"processed":175,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":167}}
+{"processed":225,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":192}}
+{"processed":250,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":217}}
+{"processed":251,"total":251,"counts":{"verified_article":33,"unmatched_or_thin":218}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:02:47.445570+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:02:47.483972+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 216, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:03:02.522521+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 224, 'total': 449}}}
+{"supported_intro":798,"read_error_or_identity_review":75,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":922,"Scientific identity absent from returned account title":89,"No descriptive account sections extracted":34,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":253,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":253,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":253,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":253,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":253,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":253,"counts":{"verified_article":31,"unmatched_or_thin":119}}
+{"processed":175,"total":253,"counts":{"verified_article":34,"unmatched_or_thin":141}}
+{"processed":200,"total":253,"counts":{"verified_article":34,"unmatched_or_thin":166}}
+{"processed":225,"total":253,"counts":{"verified_article":34,"unmatched_or_thin":191}}
+{"processed":250,"total":253,"counts":{"verified_article":34,"unmatched_or_thin":216}}
+{"processed":253,"total":253,"counts":{"verified_article":34,"unmatched_or_thin":219}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:03:05.235379+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 224, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:03:20.311411+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 228, 'total': 449}}}
+{"supported_intro":798,"read_error_or_identity_review":76,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":937,"Scientific identity absent from returned account title":90,"No descriptive account sections extracted":34,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":255,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":255,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":255,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":255,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":255,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":255,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":255,"counts":{"verified_article":34,"unmatched_or_thin":141}}
+{"processed":200,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":165}}
+{"processed":225,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":190}}
+{"processed":250,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":215}}
+{"processed":255,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":220}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:03:23.174361+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 228, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:03:23.215379+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 232, 'total': 449}}}
+{"supported_intro":798,"read_error_or_identity_review":76,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":942,"Scientific identity absent from returned account title":90,"No descriptive account sections extracted":34,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":255,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":255,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":255,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":255,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":255,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":255,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":255,"counts":{"verified_article":34,"unmatched_or_thin":141}}
+{"processed":200,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":165}}
+{"processed":225,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":190}}
+{"processed":250,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":215}}
+{"processed":255,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":220}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:03:25.125725+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 232, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:03:26.823878+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 236, 'total': 449}}}
+{"supported_intro":798,"read_error_or_identity_review":76,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":942,"Scientific identity absent from returned account title":90,"No descriptive account sections extracted":34,"supported_account":82,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":1,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":70}
+{"processed":25,"total":255,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":255,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":255,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":255,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":255,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":255,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":255,"counts":{"verified_article":34,"unmatched_or_thin":141}}
+{"processed":200,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":165}}
+{"processed":225,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":190}}
+{"processed":250,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":215}}
+{"processed":255,"total":255,"counts":{"verified_article":35,"unmatched_or_thin":220}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:03:28.734695+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 236, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:03:28.772426+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 236, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:03:43.819051+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 240, 'total': 449}}}
+{"supported_intro":798,"read_error_or_identity_review":76,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":949,"Scientific identity absent from returned account title":90,"No descriptive account sections extracted":36,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":256,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":256,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":256,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":256,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":256,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":256,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":256,"counts":{"verified_article":34,"unmatched_or_thin":141}}
+{"processed":200,"total":256,"counts":{"verified_article":35,"unmatched_or_thin":165}}
+{"processed":225,"total":256,"counts":{"verified_article":35,"unmatched_or_thin":190}}
+{"processed":250,"total":256,"counts":{"verified_article":35,"unmatched_or_thin":215}}
+{"processed":256,"total":256,"counts":{"verified_article":35,"unmatched_or_thin":221}}
+{"prepared":1,"output":"/home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-cli-recovery-auto-002-v1","packetTokens":480}
+{'stage': 'generating', 'updatedAt': '2026-09-15T18:03:46.682281+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-002-v1', 'count': 1}
+1/1 plants; 1 calls; 1 passed, 0 failed
+{"complete": true, "count": 1, "usage": {"input_tokens": 8347, "cached_input_tokens": 5888, "cache_write_input_tokens": 0, "output_tokens": 256, "reasoning_output_tokens": 141, "uncached_input_tokens": 2459}, "validatedCount": 1, "failedCount": 0, "generationCompletedCount": 1, "generationCallCount": 1, "completedCallCount": 1, "missingUsageCount": 0, "nullSummaryCount": 0, "startedAt": "2026-09-15T18:03:46.920849+00:00", "completedAt": "2026-09-15T18:03:59.722981+00:00", "elapsedWallSeconds": 12.802132, "totalGenerationSeconds": 12.802014504006365, "savedOutputTokens": 109, "usageUnit": "CLI call; counted once per batch", "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.", "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."}
+{'stage': 'publishing', 'updatedAt': '2026-09-15T18:03:59.832677+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-002-v1', 'count': 1}
+2026-09-15T18:03:59.915738+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-auto-001-v1 --run data/analysis/plant-cli-recovery-auto-002-v1 --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-specialist-round2-v1 --run data/analysis/plant-cli-recovery-specialist-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7881,"changedCount":1,"nullSummaryCount":19}
+2026-09-15T18:04:01.082508+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T18:04:04.408Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7873,
+  "withoutSummary": 650,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 752,
+  "routes": {
+    "summary_present": 7121,
+    "retrieve_additional_sources": 456,
+    "short_summary_review": 752,
+    "existing_source_identity_review": 79,
+    "existing_matched_source": 115
+  },
+  "missingByRank": {
+    "hybrid": 105,
+    "genushybrid": 2,
+    "species": 379,
+    "genus": 65,
+    "complex": 26,
+    "tribe": 6,
+    "subgenus": 16,
+    "section": 38,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 42,
+      "withoutSummary": 2
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 525,
+      "withoutSummary": 38
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 571,
+      "withoutSummary": 37
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 376,
+      "withoutSummary": 27
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 540,
+      "withoutSummary": 69
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 977,
+      "withoutSummary": 90
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 223,
+      "withoutSummary": 18
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 244,
+      "withoutSummary": 22
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 330,
+      "withoutSummary": 18
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 294,
+      "withoutSummary": 40
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 95,
+      "withoutSummary": 9
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 135,
+      "withoutSummary": 4
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 105,
+      "withoutSummary": 9
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 356,
+      "withoutSummary": 28
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 456,
+      "withoutSummary": 30
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 177,
+      "withoutSummary": 9
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 139,
+      "withoutSummary": 25
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 26,
+      "withoutSummary": 9
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 361,
+      "withoutSummary": 29
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 975,
+      "withoutSummary": 81
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 392,
+      "withoutSummary": 30
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 101,
+      "withoutSummary": 7
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 325,
+      "withoutSummary": 13
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 81,
+      "withoutSummary": 3
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 24,
+      "withoutSummary": 1
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T18:04:04.455363+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 3496, 'generationCalls': 353, 'formatPassed': 2519, 'formatFailed': 2, 'nullSummaries': 99, 'elapsedWallSeconds': 37581.823915}
+2026-09-15T18:04:04.820409+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-DTm9mFMo.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-DDbRNpge.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-B4T1WlIM.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-0PU0dM8E.js                   4.83 kB │ gzip:   1.88 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-COC5qDpA.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-CSuOIffz.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-BdgiSlB8.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/index-C5-onAdD.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-DgxiaaY3.js                   555.10 kB │ gzip: 140.72 kB
+dist-web/assets/plant-stories-007-Bp5tYMc-.js          612.11 kB │ gzip: 101.27 kB
+dist-web/assets/plant-stories-002-CVvLTNkL.js          747.01 kB │ gzip: 135.46 kB
+dist-web/assets/plant-stories-004-C-2kSimP.js          747.53 kB │ gzip: 125.90 kB
+dist-web/assets/plant-stories-003-C5NbrMWs.js          757.76 kB │ gzip: 133.82 kB
+dist-web/assets/plant-stories-005-mijSKW93.js          759.31 kB │ gzip: 124.12 kB
+dist-web/assets/plant-stories-001-D5p7hHy8.js          767.87 kB │ gzip: 139.76 kB
+dist-web/assets/plant-stories-000-CnSflsbc.js          769.73 kB │ gzip: 145.09 kB
+dist-web/assets/plant-stories-006-DyxtOQP4.js          929.94 kB │ gzip: 141.49 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 970ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (14090.92 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T18:04:09.102052+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-0PU0dM8E.js
+Uploaded assets/FieldMap-DgxiaaY3.js
+Uploaded assets/Identify-CSuOIffz.js
+Uploaded assets/Places-B4T1WlIM.js
+Uploaded assets/SourceCredits-DDbRNpge.js
+Uploaded assets/appearance-BdgiSlB8.js
+Uploaded assets/countryCatalogue-DTm9mFMo.js
+Uploaded assets/index-C5-onAdD.js
+Uploaded assets/nativeDatabase-COC5qDpA.js
+Uploaded assets/plant-stories-007-Bp5tYMc-.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 12 files uploaded.
+2026-09-15T18:04:25.561652+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T18:04:30.742050+00:00 Published 1 attempted plants checkpoint
+2026-09-15T18:04:30.744184+00:00 Generator stopped; monitor exiting without retries
+{'stage': 'published', 'updatedAt': '2026-09-15T18:04:30.778673+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-002-v1', 'withSummary': 7873, 'withoutSummary': 650}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:04:30.820964+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 256, 'total': 449}}}
+{"supported_intro":801,"read_error_or_identity_review":76,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":991,"Scientific identity absent from returned account title":91,"No descriptive account sections extracted":38,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":261,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":261,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":261,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":261,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":261,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":261,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":261,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":165}}
+{"processed":225,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":190}}
+{"processed":250,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":215}}
+{"processed":261,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":226}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:04:35.188206+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 256, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:04:35.229583+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 256, 'total': 449}}}
+{"supported_intro":801,"read_error_or_identity_review":76,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":995,"Scientific identity absent from returned account title":91,"No descriptive account sections extracted":38,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":261,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":261,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":261,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":261,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":261,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":261,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":261,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":165}}
+{"processed":225,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":190}}
+{"processed":250,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":215}}
+{"processed":261,"total":261,"counts":{"verified_article":35,"unmatched_or_thin":226}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:04:37.190256+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 256, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:04:37.230447+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 256, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:04:52.276336+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 264, 'total': 449}}}
+{"supported_intro":802,"read_error_or_identity_review":77,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1010,"Scientific identity absent from returned account title":91,"No descriptive account sections extracted":39,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":266,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":266,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":266,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":266,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":266,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":266,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":266,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":164}}
+{"processed":225,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":189}}
+{"processed":250,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":214}}
+{"processed":266,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":230}}
+1 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:04:56.242541+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 264, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:04:56.282012+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 264, 'total': 449}}}
+{"supported_intro":802,"read_error_or_identity_review":77,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1016,"Scientific identity absent from returned account title":91,"No descriptive account sections extracted":39,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":266,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":266,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":266,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":266,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":266,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":266,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":266,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":164}}
+{"processed":225,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":189}}
+{"processed":250,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":214}}
+{"processed":266,"total":266,"counts":{"verified_article":36,"unmatched_or_thin":230}}
+1 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:04:58.292946+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 264, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:04:58.334949+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 268, 'total': 449}}}
+{"supported_intro":802,"read_error_or_identity_review":77,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1016,"Scientific identity absent from returned account title":91,"No descriptive account sections extracted":39,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":267,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":267,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":267,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":267,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":267,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":267,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":267,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":267,"counts":{"verified_article":36,"unmatched_or_thin":164}}
+{"processed":225,"total":267,"counts":{"verified_article":36,"unmatched_or_thin":189}}
+{"processed":250,"total":267,"counts":{"verified_article":36,"unmatched_or_thin":214}}
+{"processed":267,"total":267,"counts":{"verified_article":36,"unmatched_or_thin":231}}
+1 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:00.696916+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 268, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:05:15.779305+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 272, 'total': 449}}}
+{"supported_intro":803,"read_error_or_identity_review":77,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1030,"Scientific identity absent from returned account title":92,"No descriptive account sections extracted":40,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":268,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":268,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":268,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":268,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":268,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":268,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":268,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":164}}
+{"processed":225,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":189}}
+{"processed":250,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":214}}
+{"processed":268,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":232}}
+1 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:18.241744+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 272, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:05:18.283445+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 272, 'total': 449}}}
+{"supported_intro":803,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1033,"Scientific identity absent from returned account title":93,"No descriptive account sections extracted":40,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":268,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":268,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":268,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":268,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":268,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":268,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":268,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":164}}
+{"processed":225,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":189}}
+{"processed":250,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":214}}
+{"processed":268,"total":268,"counts":{"verified_article":36,"unmatched_or_thin":232}}
+1 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:20.294598+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 272, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:05:35.374690+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 280, 'total': 449}}}
+{"supported_intro":804,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1048,"Scientific identity absent from returned account title":93,"No descriptive account sections extracted":40,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":271,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":271,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":271,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":271,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":271,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":271,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":271,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":163}}
+{"processed":225,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":188}}
+{"processed":250,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":213}}
+{"processed":271,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":234}}
+2 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:38.839882+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 280, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:05:38.891612+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 280, 'total': 449}}}
+{"supported_intro":804,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":5,"Provider or rank needs individual review":1052,"Scientific identity absent from returned account title":93,"No descriptive account sections extracted":40,"supported_account":83,"Genus needs its own exact account heading; member accounts excluded":8,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":71}
+{"processed":25,"total":271,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":271,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":271,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":271,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":271,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":271,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":271,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":163}}
+{"processed":225,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":188}}
+{"processed":250,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":213}}
+{"processed":271,"total":271,"counts":{"verified_article":37,"unmatched_or_thin":234}}
+2 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:40.952669+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 280, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:40.993510+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 280, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:05:56.035578+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 288, 'total': 449}}}
+{"supported_intro":805,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1026,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":54,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":273,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":273,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":273,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":273,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":273,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":273,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":273,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":273,"counts":{"verified_article":37,"unmatched_or_thin":163}}
+{"processed":225,"total":273,"counts":{"verified_article":37,"unmatched_or_thin":188}}
+{"processed":250,"total":273,"counts":{"verified_article":37,"unmatched_or_thin":213}}
+{"processed":273,"total":273,"counts":{"verified_article":37,"unmatched_or_thin":236}}
+6 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:05:58.848551+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 288, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:13.930829+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 292, 'total': 449}}}
+{"supported_intro":807,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1043,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":55,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":276,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":276,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":276,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":276,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":276,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":276,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":276,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":276,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":237}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:17.446055+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 292, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:17.487648+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 292, 'total': 449}}}
+{"supported_intro":807,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1047,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":55,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":276,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":276,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":276,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":276,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":276,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":276,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":276,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":276,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":237}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:19.548692+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 292, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:19.591650+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 296, 'total': 449}}}
+{"supported_intro":807,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1047,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":55,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":276,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":276,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":276,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":276,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":276,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":276,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":276,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":276,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":237}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:21.602375+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 296, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:36.685469+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 300, 'total': 449}}}
+{"supported_intro":808,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1058,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":55,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":276,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":276,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":276,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":276,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":276,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":276,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":276,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":276,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":237}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:38.646131+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 300, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:38.689471+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 300, 'total': 449}}}
+{"supported_intro":809,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1062,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":55,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":276,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":276,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":276,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":276,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":276,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":276,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":276,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":276,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":237}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:40.800955+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 300, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:40.850757+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 304, 'total': 449}}}
+{"supported_intro":809,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1064,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":56,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":276,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":276,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":276,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":276,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":276,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":276,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":276,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":276,"total":276,"counts":{"verified_article":39,"unmatched_or_thin":237}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:42.861997+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 304, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:06:42.908083+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 304, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:06:57.953661+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 308, 'total': 449}}}
+{"supported_intro":809,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1077,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":56,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":278,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":278,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":278,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":278,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":278,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":278,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":278,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":278,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":239}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:00.917170+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 308, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:00.958186+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 308, 'total': 449}}}
+{"supported_intro":810,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1081,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":56,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":278,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":278,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":278,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":278,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":278,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":278,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":278,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":278,"total":278,"counts":{"verified_article":39,"unmatched_or_thin":239}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:02.918754+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 308, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:02.960809+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 312, 'total': 449}}}
+{"supported_intro":810,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1082,"Scientific identity absent from returned account title":106,"No descriptive account sections extracted":56,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":279,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":279,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":279,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":279,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":279,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":279,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":279,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":279,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":279,"counts":{"verified_article":39,"unmatched_or_thin":186}}
+{"processed":250,"total":279,"counts":{"verified_article":39,"unmatched_or_thin":211}}
+{"processed":275,"total":279,"counts":{"verified_article":39,"unmatched_or_thin":236}}
+{"processed":279,"total":279,"counts":{"verified_article":39,"unmatched_or_thin":240}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:05.422922+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 312, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:20.506677+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 320, 'total': 449}}}
+{"supported_intro":812,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1092,"Scientific identity absent from returned account title":107,"No descriptive account sections extracted":56,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":281,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":281,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":281,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":281,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":281,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":281,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":281,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":281,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":281,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":241}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:23.470278+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 320, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:23.511930+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 320, 'total': 449}}}
+{"supported_intro":813,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1095,"Scientific identity absent from returned account title":107,"No descriptive account sections extracted":56,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":281,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":281,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":281,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":281,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":281,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":281,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":281,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":281,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":281,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":241}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:25.573238+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 320, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:25.617490+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 320, 'total': 449}}}
+{"supported_intro":813,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1098,"Scientific identity absent from returned account title":107,"No descriptive account sections extracted":57,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":281,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":281,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":281,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":281,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":281,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":281,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":281,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":281,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":281,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":241}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:27.679123+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 320, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:27.721706+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 324, 'total': 449}}}
+{"supported_intro":813,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1099,"Scientific identity absent from returned account title":107,"No descriptive account sections extracted":57,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":281,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":281,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":281,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":281,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":281,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":281,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":281,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":281,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":281,"total":281,"counts":{"verified_article":40,"unmatched_or_thin":241}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:29.732951+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 324, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:44.820890+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 328, 'total': 449}}}
+{"supported_intro":815,"read_error_or_identity_review":78,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1113,"Scientific identity absent from returned account title":107,"No descriptive account sections extracted":57,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":286,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":286,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":286,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":286,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":286,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":286,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":286,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":286,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":286,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":286,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":286,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":286,"total":286,"counts":{"verified_article":40,"unmatched_or_thin":246}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:48.837833+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 328, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:07:48.881274+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 332, 'total': 449}}}
+{"supported_intro":815,"read_error_or_identity_review":79,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1118,"Scientific identity absent from returned account title":108,"No descriptive account sections extracted":57,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":288,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":288,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":288,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":288,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":288,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":288,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":288,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":288,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":288,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":288,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":288,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":288,"total":288,"counts":{"verified_article":40,"unmatched_or_thin":248}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:51.844881+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 332, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:07:51.888492+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 332, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:08:06.936384+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 336, 'total': 449}}}
+{"supported_intro":817,"read_error_or_identity_review":79,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":9,"Provider or rank needs individual review":1131,"Scientific identity absent from returned account title":108,"No descriptive account sections extracted":59,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":289,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":289,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":289,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":289,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":289,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":289,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":289,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":289,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":289,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":249}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:08:09.398548+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 336, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:08:09.445035+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 336, 'total': 449}}}
+{"supported_intro":817,"read_error_or_identity_review":79,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1134,"Scientific identity absent from returned account title":108,"No descriptive account sections extracted":59,"supported_account":88,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":75}
+{"processed":25,"total":289,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":289,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":289,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":289,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":289,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":289,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":289,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":289,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":289,"total":289,"counts":{"verified_article":40,"unmatched_or_thin":249}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:08:11.506226+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 336, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:08:26.596353+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 344, 'total': 449}}}
+{"supported_intro":818,"read_error_or_identity_review":79,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1144,"Scientific identity absent from returned account title":110,"No descriptive account sections extracted":59,"supported_account":90,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":77}
+{"processed":25,"total":295,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":295,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":295,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":295,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":295,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":295,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":295,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":295,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":295,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":295,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":295,"counts":{"verified_article":40,"unmatched_or_thin":235}}
+{"processed":295,"total":295,"counts":{"verified_article":40,"unmatched_or_thin":255}}
+{"prepared":10,"output":"/home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-cli-recovery-auto-003-v1","packetTokens":5804}
+{'stage': 'generating', 'updatedAt': '2026-09-15T18:08:31.765846+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-003-v1', 'count': 10}
+10/10 plants; 1 calls; 10 passed, 0 failed
+{"complete": true, "count": 10, "usage": {"input_tokens": 13673, "cached_input_tokens": 5888, "cache_write_input_tokens": 0, "output_tokens": 2404, "reasoning_output_tokens": 1442, "uncached_input_tokens": 7785}, "validatedCount": 10, "failedCount": 0, "generationCompletedCount": 10, "generationCallCount": 1, "completedCallCount": 1, "missingUsageCount": 0, "nullSummaryCount": 0, "startedAt": "2026-09-15T18:08:32.029778+00:00", "completedAt": "2026-09-15T18:09:21.629893+00:00", "elapsedWallSeconds": 49.600115, "totalGenerationSeconds": 49.59991789599735, "savedOutputTokens": 956, "usageUnit": "CLI call; counted once per batch", "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.", "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."}
+{'stage': 'publishing', 'updatedAt': '2026-09-15T18:09:21.717251+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-003-v1', 'count': 10}
+2026-09-15T18:09:21.813273+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-auto-001-v1 --run data/analysis/plant-cli-recovery-auto-002-v1 --run data/analysis/plant-cli-recovery-auto-003-v1 --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-specialist-round2-v1 --run data/analysis/plant-cli-recovery-specialist-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7890,"changedCount":10,"nullSummaryCount":18}
+2026-09-15T18:09:23.030303+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T18:09:26.399Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7883,
+  "withoutSummary": 640,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 753,
+  "routes": {
+    "summary_present": 7130,
+    "retrieve_additional_sources": 450,
+    "short_summary_review": 753,
+    "existing_source_identity_review": 76,
+    "existing_matched_source": 114
+  },
+  "missingByRank": {
+    "hybrid": 105,
+    "genushybrid": 2,
+    "species": 369,
+    "genus": 65,
+    "complex": 26,
+    "tribe": 6,
+    "subgenus": 16,
+    "section": 38,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 42,
+      "withoutSummary": 2
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 525,
+      "withoutSummary": 38
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 573,
+      "withoutSummary": 35
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 377,
+      "withoutSummary": 26
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 542,
+      "withoutSummary": 67
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 979,
+      "withoutSummary": 88
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 223,
+      "withoutSummary": 18
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 245,
+      "withoutSummary": 21
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 330,
+      "withoutSummary": 18
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 295,
+      "withoutSummary": 39
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 95,
+      "withoutSummary": 9
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 135,
+      "withoutSummary": 4
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 105,
+      "withoutSummary": 9
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 356,
+      "withoutSummary": 28
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 456,
+      "withoutSummary": 30
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 177,
+      "withoutSummary": 9
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 139,
+      "withoutSummary": 25
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 26,
+      "withoutSummary": 9
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 362,
+      "withoutSummary": 28
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 975,
+      "withoutSummary": 81
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 392,
+      "withoutSummary": 30
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 101,
+      "withoutSummary": 7
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 325,
+      "withoutSummary": 13
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 81,
+      "withoutSummary": 3
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 24,
+      "withoutSummary": 1
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T18:09:26.453243+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 3506, 'generationCalls': 354, 'formatPassed': 2529, 'formatFailed': 2, 'nullSummaries': 99, 'elapsedWallSeconds': 37903.730827}
+2026-09-15T18:09:26.818296+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-ClDSyJBC.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-re0TLeZ8.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-Cx2EHrkh.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-D4FfriL4.js                   4.83 kB │ gzip:   1.89 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-SdjIS4YS.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-CCb0WN0h.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-Ce4TM5Ll.js                  29.94 kB │ gzip:  10.30 kB
+dist-web/assets/index--DgIZnKf.js                      382.00 kB │ gzip: 122.04 kB
+dist-web/assets/FieldMap-1trZ2hk6.js                   555.10 kB │ gzip: 140.72 kB
+dist-web/assets/plant-stories-007-DwOg4edc.js          618.11 kB │ gzip: 102.54 kB
+dist-web/assets/plant-stories-002-CVvLTNkL.js          747.01 kB │ gzip: 135.46 kB
+dist-web/assets/plant-stories-004-C-2kSimP.js          747.53 kB │ gzip: 125.90 kB
+dist-web/assets/plant-stories-003-C5NbrMWs.js          757.76 kB │ gzip: 133.82 kB
+dist-web/assets/plant-stories-005-mVm_uUlq.js          759.89 kB │ gzip: 124.27 kB
+dist-web/assets/plant-stories-001-D5p7hHy8.js          767.87 kB │ gzip: 139.76 kB
+dist-web/assets/plant-stories-000-CnSflsbc.js          769.73 kB │ gzip: 145.09 kB
+dist-web/assets/plant-stories-006-DyxtOQP4.js          929.94 kB │ gzip: 141.49 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 892ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (14097.35 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T18:09:31.246240+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-D4FfriL4.js
+Uploaded assets/FieldMap-1trZ2hk6.js
+Uploaded assets/Identify-CCb0WN0h.js
+Uploaded assets/Places-Cx2EHrkh.js
+Uploaded assets/SourceCredits-re0TLeZ8.js
+Uploaded assets/appearance-Ce4TM5Ll.js
+Uploaded assets/countryCatalogue-ClDSyJBC.js
+Uploaded assets/index--DgIZnKf.js
+Uploaded assets/nativeDatabase-SdjIS4YS.js
+Uploaded assets/plant-stories-005-mVm_uUlq.js
+Uploaded assets/plant-stories-007-DwOg4edc.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 13 files uploaded.
+2026-09-15T18:09:48.408509+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T18:09:53.494652+00:00 Published 10 attempted plants checkpoint
+2026-09-15T18:09:53.496096+00:00 Generator stopped; monitor exiting without retries
+{'stage': 'published', 'updatedAt': '2026-09-15T18:09:53.571820+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-003-v1', 'withSummary': 7883, 'withoutSummary': 640}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:09:53.624655+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 376, 'total': 449}}}
+{"supported_intro":823,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1219,"Scientific identity absent from returned account title":116,"No descriptive account sections extracted":60,"supported_account":91,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":78}
+{"processed":25,"total":307,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":307,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":307,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":307,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":307,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":307,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":307,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":307,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":307,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":307,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":307,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":307,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":307,"total":307,"counts":{"verified_article":41,"unmatched_or_thin":266}}
+5 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:10:00.348134+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 376, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:10:00.394668+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 380, 'total': 449}}}
+{"supported_intro":823,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1221,"Scientific identity absent from returned account title":116,"No descriptive account sections extracted":60,"supported_account":91,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":78}
+{"processed":25,"total":308,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":308,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":308,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":308,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":308,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":308,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":308,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":308,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":308,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":308,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":308,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":308,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":308,"total":308,"counts":{"verified_article":41,"unmatched_or_thin":267}}
+5 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:10:02.656052+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 380, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:10:02.702370+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 380, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:11:02.892374+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 380, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:12:03.072711+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 380, 'total': 449}}}
+{"supported_intro":823,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1224,"Scientific identity absent from returned account title":117,"No descriptive account sections extracted":60,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":308,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":308,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":308,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":308,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":308,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":308,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":308,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":308,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":308,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":308,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":308,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":308,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":308,"total":308,"counts":{"verified_article":41,"unmatched_or_thin":267}}
+6 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:12:05.334462+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 380, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:12:05.379304+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 384, 'total': 449}}}
+{"supported_intro":823,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1224,"Scientific identity absent from returned account title":117,"No descriptive account sections extracted":60,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":309,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":309,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":309,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":309,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":309,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":309,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":309,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":309,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":309,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":309,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":309,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":309,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":309,"total":309,"counts":{"verified_article":41,"unmatched_or_thin":268}}
+6 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:12:08.292527+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 384, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:12:08.341697+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 384, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:12:23.391238+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 392, 'total': 449}}}
+{"supported_intro":825,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1235,"Scientific identity absent from returned account title":118,"No descriptive account sections extracted":60,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":311,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":311,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":311,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":311,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":311,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":311,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":311,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":311,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":311,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":311,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":311,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":311,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":311,"total":311,"counts":{"verified_article":41,"unmatched_or_thin":270}}
+6 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:12:26.705958+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 392, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:12:26.753016+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 396, 'total': 449}}}
+{"supported_intro":825,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1238,"Scientific identity absent from returned account title":120,"No descriptive account sections extracted":60,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":311,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":311,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":311,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":311,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":311,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":311,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":311,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":311,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":311,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":311,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":311,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":311,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":311,"total":311,"counts":{"verified_article":41,"unmatched_or_thin":270}}
+6 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:12:29.114862+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 396, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:12:44.210231+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 404, 'total': 449}}}
+{"supported_intro":826,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1250,"Scientific identity absent from returned account title":121,"No descriptive account sections extracted":61,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":315,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":315,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":315,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":315,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":315,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":315,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":315,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":315,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":315,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":315,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":315,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":315,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":315,"total":315,"counts":{"verified_article":41,"unmatched_or_thin":274}}
+7 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:12:48.727781+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 404, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:03.824488+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 412, 'total': 449}}}
+{"supported_intro":827,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1265,"Scientific identity absent from returned account title":121,"No descriptive account sections extracted":61,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":321,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":321,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":321,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":321,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":321,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":321,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":321,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":321,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":321,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":321,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":321,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":321,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":321,"total":321,"counts":{"verified_article":41,"unmatched_or_thin":280}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:09.144212+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 412, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:09.191013+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 412, 'total': 449}}}
+{"supported_intro":828,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1272,"Scientific identity absent from returned account title":121,"No descriptive account sections extracted":61,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":321,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":321,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":321,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":321,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":321,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":321,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":321,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":321,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":321,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":321,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":321,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":321,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":321,"total":321,"counts":{"verified_article":41,"unmatched_or_thin":280}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:11.652994+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 412, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:11.705605+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 416, 'total': 449}}}
+{"supported_intro":828,"read_error_or_identity_review":80,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1272,"Scientific identity absent from returned account title":121,"No descriptive account sections extracted":61,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":324,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":324,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":324,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":324,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":324,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":324,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":324,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":324,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":324,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":324,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":324,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":324,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":324,"total":324,"counts":{"verified_article":42,"unmatched_or_thin":282}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:15.873299+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 416, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:15.935984+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 416, 'total': 449}}}
+{"supported_intro":828,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1276,"Scientific identity absent from returned account title":121,"No descriptive account sections extracted":61,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":324,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":324,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":324,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":324,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":324,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":324,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":324,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":324,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":324,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":324,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":324,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":324,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":324,"total":324,"counts":{"verified_article":42,"unmatched_or_thin":282}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:18.448334+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 416, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:18.496201+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 416, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:33.544340+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}}
+{"supported_intro":829,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1290,"Scientific identity absent from returned account title":122,"No descriptive account sections extracted":62,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":329,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":329,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":329,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":329,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":329,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":329,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":329,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":329,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":329,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":287}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:38.613636+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:38.662764+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}}
+{"supported_intro":829,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1294,"Scientific identity absent from returned account title":122,"No descriptive account sections extracted":62,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":329,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":329,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":329,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":329,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":329,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":329,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":329,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":329,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":329,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":287}}
+8 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:41.225259+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:41.287020+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}}
+{"supported_intro":830,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1297,"Scientific identity absent from returned account title":122,"No descriptive account sections extracted":63,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":329,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":329,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":329,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":329,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":329,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":329,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":329,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":329,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":329,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":287}}
+9 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:43.849570+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:43.899839+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}}
+{"supported_intro":830,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1298,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":63,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":329,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":329,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":329,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":329,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":329,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":329,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":329,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":329,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":329,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":329,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":329,"total":329,"counts":{"verified_article":42,"unmatched_or_thin":287}}
+9 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:46.462530+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 424, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:46.512580+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 428, 'total': 449}}}
+{"supported_intro":830,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1299,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":63,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":331,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":331,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":331,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":331,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":331,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":331,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":331,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":331,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":331,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":331,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":331,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":331,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":331,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":331,"total":331,"counts":{"verified_article":42,"unmatched_or_thin":289}}
+9 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:49.425716+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 428, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:13:49.473398+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 428, 'total': 449}}}
+{"supported_intro":831,"read_error_or_identity_review":81,"no_descriptive_intro":105}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1303,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":63,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":331,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":331,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":331,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":331,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":331,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":331,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":331,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":331,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":331,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":331,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":331,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":331,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":331,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":331,"total":331,"counts":{"verified_article":42,"unmatched_or_thin":289}}
+9 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:13:52.036089+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 428, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:14:07.130155+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 436, 'total': 449}}}
+{"supported_intro":831,"read_error_or_identity_review":81,"no_descriptive_intro":106}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1313,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":63,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":332,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":332,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":332,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":332,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":332,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":332,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":332,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":332,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":332,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":332,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":332,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":332,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":332,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":332,"total":332,"counts":{"verified_article":42,"unmatched_or_thin":290}}
+9 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:14:10.043329+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 436, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:14:10.091584+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 436, 'total': 449}}}
+{"supported_intro":832,"read_error_or_identity_review":81,"no_descriptive_intro":106}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1316,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":64,"supported_account":92,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":79}
+{"processed":25,"total":332,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":332,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":332,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":332,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":332,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":332,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":332,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":332,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":332,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":332,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":332,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":332,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":332,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":332,"total":332,"counts":{"verified_article":42,"unmatched_or_thin":290}}
+9 fresh packets ready; waiting to fill a group of 10.
+{'stage': 'waiting_for_discovery', 'updatedAt': '2026-09-15T18:14:12.603972+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 436, 'total': 449}}, 'note': 'No generation is running; waiting for further saved source reads.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:14:12.652828+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 440, 'total': 449}}}
+{"supported_intro":832,"read_error_or_identity_review":81,"no_descriptive_intro":106}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1318,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":64,"supported_account":93,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":3,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":80}
+{"processed":25,"total":332,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":332,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":332,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":332,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":332,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":332,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":332,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":332,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":332,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":332,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":332,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":332,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":332,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":332,"total":332,"counts":{"verified_article":42,"unmatched_or_thin":290}}
+{"prepared":10,"output":"/home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-cli-recovery-auto-004-v1","packetTokens":2796}
+{'stage': 'generating', 'updatedAt': '2026-09-15T18:14:15.365518+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-004-v1', 'count': 10}
+10/10 plants; 1 calls; 10 passed, 0 failed
+{"complete": true, "count": 10, "usage": {"input_tokens": 10665, "cached_input_tokens": 5888, "cache_write_input_tokens": 0, "output_tokens": 1775, "reasoning_output_tokens": 852, "uncached_input_tokens": 4777}, "validatedCount": 10, "failedCount": 0, "generationCompletedCount": 10, "generationCallCount": 1, "completedCallCount": 1, "missingUsageCount": 0, "nullSummaryCount": 0, "startedAt": "2026-09-15T18:14:15.635631+00:00", "completedAt": "2026-09-15T18:14:51.397756+00:00", "elapsedWallSeconds": 35.762125, "totalGenerationSeconds": 35.76196189199982, "savedOutputTokens": 917, "usageUnit": "CLI call; counted once per batch", "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.", "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."}
+{'stage': 'publishing', 'updatedAt': '2026-09-15T18:14:51.479321+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-004-v1', 'count': 10}
+2026-09-15T18:14:51.568679+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/merge_plant_recovery_content.py --run data/analysis/plant-cli-recovery-auto-001-v1 --run data/analysis/plant-cli-recovery-auto-002-v1 --run data/analysis/plant-cli-recovery-auto-003-v1 --run data/analysis/plant-cli-recovery-auto-004-v1 --run data/analysis/plant-cli-recovery-continuation-v1 --run data/analysis/plant-cli-recovery-local-v1 --run data/analysis/plant-cli-recovery-quota-reset-v1 --run data/analysis/plant-cli-recovery-retrieved-v1 --run data/analysis/plant-cli-recovery-specialist-round2-v1 --run data/analysis/plant-cli-recovery-specialist-v1 --run data/analysis/plant-cli-recovery-strawberries-v1
+{"count":7899,"changedCount":10,"nullSummaryCount":17}
+2026-09-15T18:14:52.785733+00:00 Running node scripts/audit_plant_card_coverage.mjs /home/hankenstein/dev/SideBants/Fieldbook/data/analysis/plant-card-release-v2/coverage
+{
+  "generatedAt": "2026-09-15T18:14:56.184Z",
+  "basis": "Actual buildCollection and sortCollection functions, current app content files; base catalogue without device-only additions. Live publication is verified separately.",
+  "totalVisibleEntries": 8523,
+  "withSummary": 7893,
+  "withoutSummary": 630,
+  "sourceAbsenceEstablished": 0,
+  "shortSummaryReviewCount": 759,
+  "routes": {
+    "summary_present": 7134,
+    "retrieve_additional_sources": 444,
+    "short_summary_review": 759,
+    "existing_source_identity_review": 73,
+    "existing_matched_source": 113
+  },
+  "missingByRank": {
+    "hybrid": 104,
+    "genushybrid": 2,
+    "species": 360,
+    "genus": 65,
+    "complex": 26,
+    "tribe": 6,
+    "subgenus": 16,
+    "section": 38,
+    "subsection": 7,
+    "family": 4,
+    "subtribe": 1,
+    "subfamily": 1
+  },
+  "alphabeticalCoverage": {
+    "U": {
+      "total": 44,
+      "withSummary": 42,
+      "withoutSummary": 2
+    },
+    "A": {
+      "total": 563,
+      "withSummary": 526,
+      "withoutSummary": 37
+    },
+    "B": {
+      "total": 608,
+      "withSummary": 573,
+      "withoutSummary": 35
+    },
+    "G": {
+      "total": 403,
+      "withSummary": 377,
+      "withoutSummary": 26
+    },
+    "P": {
+      "total": 609,
+      "withSummary": 542,
+      "withoutSummary": 67
+    },
+    "C": {
+      "total": 1067,
+      "withSummary": 981,
+      "withoutSummary": 86
+    },
+    "D": {
+      "total": 241,
+      "withSummary": 225,
+      "withoutSummary": 16
+    },
+    "E": {
+      "total": 266,
+      "withSummary": 245,
+      "withoutSummary": 21
+    },
+    "F": {
+      "total": 348,
+      "withSummary": 331,
+      "withoutSummary": 17
+    },
+    "H": {
+      "total": 334,
+      "withSummary": 296,
+      "withoutSummary": 38
+    },
+    "I": {
+      "total": 104,
+      "withSummary": 95,
+      "withoutSummary": 9
+    },
+    "J": {
+      "total": 139,
+      "withSummary": 135,
+      "withoutSummary": 4
+    },
+    "K": {
+      "total": 114,
+      "withSummary": 105,
+      "withoutSummary": 9
+    },
+    "L": {
+      "total": 384,
+      "withSummary": 356,
+      "withoutSummary": 28
+    },
+    "M": {
+      "total": 486,
+      "withSummary": 457,
+      "withoutSummary": 29
+    },
+    "N": {
+      "total": 186,
+      "withSummary": 177,
+      "withoutSummary": 9
+    },
+    "O": {
+      "total": 164,
+      "withSummary": 140,
+      "withoutSummary": 24
+    },
+    "Q": {
+      "total": 35,
+      "withSummary": 26,
+      "withoutSummary": 9
+    },
+    "R": {
+      "total": 390,
+      "withSummary": 362,
+      "withoutSummary": 28
+    },
+    "S": {
+      "total": 1056,
+      "withSummary": 975,
+      "withoutSummary": 81
+    },
+    "T": {
+      "total": 422,
+      "withSummary": 393,
+      "withoutSummary": 29
+    },
+    "V": {
+      "total": 108,
+      "withSummary": 101,
+      "withoutSummary": 7
+    },
+    "W": {
+      "total": 338,
+      "withSummary": 325,
+      "withoutSummary": 13
+    },
+    "X": {
+      "total": 5,
+      "withSummary": 3,
+      "withoutSummary": 2
+    },
+    "Y": {
+      "total": 84,
+      "withSummary": 81,
+      "withoutSummary": 3
+    },
+    "Z": {
+      "total": 25,
+      "withSummary": 24,
+      "withoutSummary": 1
+    }
+  },
+  "note": "Presence and word counts are structural checks, not a claim of useful botanical completeness. Short summaries are review candidates, not automatically invalid."
+}
+2026-09-15T18:14:56.258667+00:00 Running /home/hankenstein/dev/SideBants/Fieldbook/.venv/bin/python scripts/report_plant_recovery.py
+{'attemptedTaxa': 3516, 'generationCalls': 355, 'formatPassed': 2539, 'formatFailed': 2, 'nullSummaries': 99, 'elapsedWallSeconds': 38233.49869}
+2026-09-15T18:14:56.673834+00:00 Running npm run build:web
+
+> fieldbook@0.1.0 build:web
+> node scripts/prepare-web.mjs && tsc -b && vite build --mode web && node scripts/check-web-build.mjs
+
+vite v8.2.2 building client environment for web...
+transforming...
+✓ 1979 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-web/manifest.webmanifest                            0.37 kB
+dist-web/index.html                                      1.94 kB │ gzip:   0.65 kB
+dist-web/assets/worker-dttPl4wO.js                     148.28 kB
+dist-web/assets/maplibre-gl-worker-CobTyBCT.js         486.83 kB
+dist-web/assets/index-CdUjqy16.css                      39.91 kB │ gzip:   9.12 kB
+dist-web/assets/map-CKRTiAqP.css                        82.86 kB │ gzip:  10.71 kB
+dist-web/assets/countryCatalogue-CiNTbsji.js             0.14 kB │ gzip:   0.13 kB
+dist-web/assets/definitions-DlpntO5o.js                  0.35 kB │ gzip:   0.25 kB
+dist-web/assets/web-C38zoA2N.js                          0.36 kB │ gzip:   0.24 kB
+dist-web/assets/web-O9JXJXdO.js                          1.19 kB │ gzip:   0.54 kB
+dist-web/assets/web-DTYw0kM-.js                          2.08 kB │ gzip:   0.85 kB
+dist-web/assets/SourceCredits-B-EYbR-F.js                2.49 kB │ gzip:   1.09 kB
+dist-web/assets/Places-DcgNrzju.js                       3.39 kB │ gzip:   1.42 kB
+dist-web/assets/Collection-BzAi6Qem.js                   4.83 kB │ gzip:   1.88 kB
+dist-web/assets/workbox-window.prod.es5-Bd17z0YL.js      5.65 kB │ gzip:   2.20 kB
+dist-web/assets/dist-BsIsPsxN.js                         7.75 kB │ gzip:   3.10 kB
+dist-web/assets/web-Bc7Mo60X.js                          8.47 kB │ gzip:   2.83 kB
+dist-web/assets/web-B7XKMZ-s.js                          9.46 kB │ gzip:   1.30 kB
+dist-web/assets/nativeDatabase-Cb9-JQG0.js              19.57 kB │ gzip:   5.05 kB
+dist-web/assets/Identify-5q1EkLbg.js                    21.27 kB │ gzip:   7.85 kB
+dist-web/assets/appearance-BkhnGAS-.js                  29.94 kB │ gzip:  10.31 kB
+dist-web/assets/index-euiOpKT8.js                      382.00 kB │ gzip: 122.05 kB
+dist-web/assets/FieldMap-CRhvoq21.js                   555.10 kB │ gzip: 140.72 kB
+dist-web/assets/plant-stories-007-DYJNrFCB.js          622.99 kB │ gzip: 103.38 kB
+dist-web/assets/plant-stories-002-CVvLTNkL.js          747.01 kB │ gzip: 135.46 kB
+dist-web/assets/plant-stories-004-C-2kSimP.js          747.53 kB │ gzip: 125.90 kB
+dist-web/assets/plant-stories-003-C5NbrMWs.js          757.76 kB │ gzip: 133.82 kB
+dist-web/assets/plant-stories-005-mVm_uUlq.js          759.89 kB │ gzip: 124.27 kB
+dist-web/assets/plant-stories-001-D5p7hHy8.js          767.87 kB │ gzip: 139.76 kB
+dist-web/assets/plant-stories-000-CnSflsbc.js          769.73 kB │ gzip: 145.09 kB
+dist-web/assets/plant-stories-006-CeY8MrKN.js          930.35 kB │ gzip: 141.60 kB
+dist-web/assets/map-krAmKGbf.js                      1,018.38 kB │ gzip: 272.79 kB
+dist-web/assets/catalogue-DGun_9ro.js                2,142.14 kB │ gzip: 570.18 kB
+dist-web/assets/country-catalogue-AU7SumYa.js        3,356.29 kB │ gzip: 463.12 kB
+
+✓ built in 1.02s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1200 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+PWA v1.3.0
+mode      generateSW
+precache  41 entries (14102.51 KiB)
+files generated
+  dist-web/sw.js
+  dist-web/workbox-1b18e67d.js
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+2026-09-15T18:15:01.162635+00:00 Running npm run deploy:web
+
+> fieldbook@0.1.0 deploy:web
+> node scripts/deploy-web.mjs
+
+Hosted build checked: 59 files, 241.4 MB; no offline model assets; recognition key inclusion checked against explicit browser opt-in.
+Uploaded assets/Collection-BzAi6Qem.js
+Uploaded assets/FieldMap-CRhvoq21.js
+Uploaded assets/Identify-5q1EkLbg.js
+Uploaded assets/Places-DcgNrzju.js
+Uploaded assets/SourceCredits-B-EYbR-F.js
+Uploaded assets/appearance-BkhnGAS-.js
+Uploaded assets/countryCatalogue-CiNTbsji.js
+Uploaded assets/index-euiOpKT8.js
+Uploaded assets/nativeDatabase-Cb9-JQG0.js
+Uploaded assets/plant-stories-006-CeY8MrKN.js
+Uploaded assets/plant-stories-007-DYJNrFCB.js
+Uploaded index.html
+Uploaded sw.js
+Verified https://fieldbook.demos.boombop.io: app, service worker, manifest and map ranges. 13 files uploaded.
+2026-09-15T18:15:19.826933+00:00 Running node scripts/check-strawberry-cards.mjs https://fieldbook.demos.boombop.io
+PASS: all 11 strawberry search results have summaries; badges and natural food-use paragraphs match saved content; icon-only map and star actions work.
+2026-09-15T18:15:24.456147+00:00 Published 10 attempted plants checkpoint
+2026-09-15T18:15:24.457780+00:00 Generator stopped; monitor exiting without retries
+{'stage': 'published', 'updatedAt': '2026-09-15T18:15:24.507785+00:00', 'run': 'data/analysis/plant-cli-recovery-auto-004-v1', 'withSummary': 7893, 'withoutSummary': 630}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:15:24.573220+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 449, 'total': 449}}}
+{"supported_intro":833,"read_error_or_identity_review":81,"no_descriptive_intro":106}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1335,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":64,"supported_account":93,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":4,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":80}
+{"processed":25,"total":337,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":337,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":337,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":337,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":337,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":337,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":337,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":337,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":337,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":337,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":337,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":337,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":337,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":337,"total":337,"counts":{"verified_article":42,"unmatched_or_thin":295}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'needs_source_review', 'updatedAt': '2026-09-15T18:15:29.342524+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 449, 'total': 449}}, 'note': 'All planned discovery queues were read. No further unattempted packets meet the current source checks. Remaining blanks are not proven to lack information.'}
+{'stage': 'preparing_sources', 'updatedAt': '2026-09-15T18:16:32.557239+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 449, 'total': 449}}}
+{"supported_intro":833,"read_error_or_identity_review":81,"no_descriptive_intro":106}
+{"counts":{"Extract is too thin":10,"Provider or rank needs individual review":1335,"Scientific identity absent from returned account title":123,"No descriptive account sections extracted":64,"supported_account":93,"Genus needs its own exact account heading; member accounts excluded":11,"Account describes an infraspecific taxon, not the whole requested taxon":4,"Source calls the subject a cultivar; species scope needs review":1},"uniqueSupportedTaxa":80}
+{"processed":25,"total":337,"counts":{"verified_article":7,"unmatched_or_thin":18}}
+{"processed":50,"total":337,"counts":{"verified_article":15,"unmatched_or_thin":35}}
+{"processed":75,"total":337,"counts":{"verified_article":18,"unmatched_or_thin":57}}
+{"processed":100,"total":337,"counts":{"verified_article":22,"unmatched_or_thin":78}}
+{"processed":125,"total":337,"counts":{"verified_article":26,"unmatched_or_thin":99}}
+{"processed":150,"total":337,"counts":{"verified_article":32,"unmatched_or_thin":118}}
+{"processed":175,"total":337,"counts":{"verified_article":33,"unmatched_or_thin":142}}
+{"processed":200,"total":337,"counts":{"verified_article":39,"unmatched_or_thin":161}}
+{"processed":225,"total":337,"counts":{"verified_article":40,"unmatched_or_thin":185}}
+{"processed":250,"total":337,"counts":{"verified_article":40,"unmatched_or_thin":210}}
+{"processed":275,"total":337,"counts":{"verified_article":41,"unmatched_or_thin":234}}
+{"processed":300,"total":337,"counts":{"verified_article":41,"unmatched_or_thin":259}}
+{"processed":325,"total":337,"counts":{"verified_article":42,"unmatched_or_thin":283}}
+{"processed":337,"total":337,"counts":{"verified_article":42,"unmatched_or_thin":295}}
+No fresh descriptive packets ready; no generation launched.
+{'stage': 'needs_source_review', 'updatedAt': '2026-09-15T18:16:35.119848+00:00', 'discovery': {'kew': {'completed': 1240, 'total': 1240}, 'ranked': {'completed': 97, 'total': 97}, 'nonvascular': {'completed': 227, 'total': 227}, 'vascular': {'completed': 449, 'total': 449}}, 'note': 'All planned discovery queues were read. No further unattempted packets meet the current source checks. Remaining blanks are not proven to lack information.'}

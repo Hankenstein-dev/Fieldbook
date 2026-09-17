@@ -1,0 +1,55 @@
+{
+  "taxonId": 410507,
+  "name": "Kniphofia ensifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:56.667615+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Kniphofia ensifolia Baker",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Die Schwertblättrige Fackellilie (Kniphofia ensifolia) ist eine Pflanzenart aus der Gattung der Fackellilien (Kniphofia) in der Unterfamilie der Affodillgewächse (Asphodelaceae).\n\nDie Schwertblättrige Fackellilie ist eine wuchsstarke, ausdauernde, krautige Pflanze, die Wuchshöhen von 60 bis 200 Zentimeter erreicht. Sie bildet ein Rhizom aus. Die graublauen Blätter sind feingezähnt und 15 bis 35 Millimeter breit. Der Blütenstand misst 9 bis 20 × 4 Zentimeter und ist dicht zylindrisch. Die Knospen sind blassrot bis rotgrün gefärbt. Die Blüten sind weiß bis grünlichweiß, seltener auch gelblich, und 15 bis 20 Millimeter lang. Die Blütezeit reicht wahrscheinlich von August bis September.\n\nDie Schwertblättrige Fackellilie wird selten als Zierpflanze genutzt. Die Art ist seit spätestens 1786 in Kultur.\n\nMan kann zwei Unterarten unterscheiden: Kniphofia ensifolia subsp. autumnalis : Sie kommt nur in der südafrikanischen Provinz Freistaat vor. Kniphofia ensifolia subsp. ensifolia: Sie ist in Südafrika weiter verbreitet.\n\nDie Schwertblättrige Fackellilie kommt im südlichen Afrika an Bachufern und auf schwarzem, lehmigem Sumpfboden vor.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165186757.json",
+      "sha256": "a11cffe117a5ad59706f5f583f76e4926d6963d1466cad69f07efe2bcc4e7913",
+      "url": "https://api.gbif.org/v1/species/165186757",
+      "credit": {
+        "title": "Kniphofia ensifolia Baker",
+        "url": "https://www.gbif.org/species/165186757",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/3e33d8ef6f2173582aa4cc99301dd21d7baa2d81d34a8aa6abffcc565d8db066.json",
+      "title": "Schwertblättrige Fackellilie",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Kniphofia ensifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sword Poker"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Kniphofia+ensifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Kniphofia+ensifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

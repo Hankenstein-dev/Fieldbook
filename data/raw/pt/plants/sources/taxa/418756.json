@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 418756,
+  "scientificName": "Vicia capreolata",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 418756,
+    "scientificName": "Vicia capreolata",
+    "commonName": "Vicia capreolata",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469066600/medium.jpeg",
+      "attribution": "(c) fmunoz, some rights reserved (CC BY)",
+      "license": "cc-by",
+      "sourceUrl": "https://www.inaturalist.org/photos/469066600"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 418756,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47123,
+        47122,
+        507502,
+        633087,
+        52472,
+        418756
+      ],
+      "is_active": true,
+      "name": "Vicia capreolata",
+      "parent_id": 52472,
+      "ancestry": "48460/47126/211194/47125/47124/47123/47122/507502/633087/52472",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 469066600,
+        "license_code": "cc-by",
+        "attribution": "(c) fmunoz, some rights reserved (CC BY)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469066600/square.jpeg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1536
+        },
+        "flags": [],
+        "attribution_name": "fmunoz",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469066600/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469066600/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 8,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "conservation_status": {
+        "id": 66116,
+        "place_id": null,
+        "source_id": null,
+        "user_id": null,
+        "authority": "IUCN Red List",
+        "status": "en",
+        "status_name": "endangered",
+        "geoprivacy": "obscured",
+        "iucn": 40
+      },
+      "establishment_means": {
+        "id": 5070626,
+        "establishment_means": "endemic",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "endemic"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=52&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:02.479586+00:00",
+    "retainedFrom": "data/models/http/1e35073c33727adc23460f00907b74c57d9a71092dc61e1cb1e3e7bc6e58fbb8.json",
+    "recordSha256": "af304b2517d23a256d83b5f7c8dad2d3c8600b187bb9ccc63eb800c756a72863"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Vicia capreolata",
+      "title": "Vicia capreolata",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/a76a5005c55941583e4ea7c86187f2ef65f6bf5e7e00f99951428a217c25cf5a.json",
+      "url": "https://en.wikipedia.org/wiki/Vicia_capreolata",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Vicia capreolata",
+      "title": "Vicia capreolata",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/a76a5005c55941583e4ea7c86187f2ef65f6bf5e7e00f99951428a217c25cf5a.json",
+      "url": "https://pt.wikipedia.org/wiki/Vicia_capreolata",
+      "revisionId": 40212690,
+      "contentSha256": "5384f852008b0109edf1857bc19f53b75b452f6bc42d348574989bfd6973a4e9"
+    }
+  ],
+  "botanicalSources": [],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

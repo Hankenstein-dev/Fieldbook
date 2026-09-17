@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":360047,"scientificName":"Rosa arvensis","commonName":"Field Rose","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Rosa arvensis","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Distinguish|Rosa agrestis}}"},{"id":"s1:p2","text":"Rosa arvensis, the field rose, is a species of wild rose native to Western, Central and Southern Europe."},{"id":"s1:p3","text":"Names\nThe plant is variously known as the field rose and white-flowered trailing rose. "},{"id":"s1:p4","text":" Classification \nThe following synonyms were recognised in October 2018:\n Rosa pervirens (Rosa arvensis × sempervirens)\n Rosa × polliniana (Rosa arvensis × gallica)\n Rosa repens"},{"id":"s1:p5","text":"Rosa arvensis is closely related to Rosa sempervirens {{small|L.}} and Rosa phoenicia {{small|Boiss}}."},{"id":"s1:p6","text":"Description"},{"id":"s1:p7","text":"The plant can grow to be between {{convert|3|and|3.7|m|ft}} tall. Its flowers are white, {{convert|4|to|5|cm|in}} across, and its fruits ('hips') are red. It blooms in the summer (July in England, May–June in Bulgaria). Rosa arvensis is a vigorous, thorny, rambling shrub with long arching or scrambling purple stems and slightly fragrant, single creamy-white flowers produced in one flush in midsummer, followed by oval orange-red hips."},{"id":"s1:p8","text":"Distribution\nRosa arvensis was first identified in England and has been subsequently observed elsewhere in Europe. In England, it can be seen principally in hedges and thickets, while in Bulgaria, it also forms part of the understory of deciduous forests."},{"id":"s1:p9","text":"It is found in most of the British Isles, France and Belgium, the Pyrenees (at altitudes up to 1000 m) and in more scattered localities elsewhere in Spain, in the west and south of Germany, the foothills of the Alps (up to 1330 m in the Central and Eastern Alps, up to 1400 m in the Maritime Alps), in Italy, Western Hungary, in the Little Carpathians of Slovakia, the Carpathians of Romania, most of the Balkan Peninsula (in Bulgaria up to 1000 m). It has been reported in isolated occurrences in North-western Africa, southern Anatolia and the Levant, but it is likely these are instead instances of R. phoenicia. In Caucasia it is present only as a cultivated plant."}]}]}

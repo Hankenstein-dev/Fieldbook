@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":82856,"scientificName":"Rhamnus alaternus","commonName":"Mediterranean buckthorn","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Rhamnus alaternus","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Rhamnus alaternus is a species of flowering plant in the buckthorn family Rhamnaceae, known by the common names Italian buckthorn or Mediterranean buckthorn. It is a hardy medium-sized evergreen shrub with fragrant flowers."},{"id":"s1:p2","text":"Etymology\nThe specific Latin name alaternus, is from the Latin word for the plant. Its origin is obscure but is often suggested to be of Etruscan or pre-Indo-European Mediterranean origin."},{"id":"s1:p3","text":"Description\nRhamnus alaternus is an evergreen shrub {{convert|1|-|5|m}} high. The stems have reddish bark and pubescent young branches, rounded and compact foliage with alternating leaves, {{convert|2|-|6|cm}} long, sometimes nearly opposite, oval or lanceolate, leathery, shiny green, yellowish-green underneath."},{"id":"s1:p4","text":"The small fragrant flowers are gathered in a short axillary yellow-green raceme. The flowering period extends from February to April. Fruits are obovoidal red-brownish drupes of about {{convert|3|-|4|mm}}, containing from 2 to 4 seeds. The drupes darken to black when ripe."},{"id":"s1:p5","text":"Distribution and habitat\nThis species is widespread in thermophilic evergreen bush and scrubland of the Mediterranean climate regions, from Gran Canaria, Morocco and Portugal in the west, to the Levant in the east, from sea level up to {{convert|1300|m|abbr=on}} altitude."},{"id":"s1:p6","text":"Invasiveness\nIn Australia, where it was introduced as a garden shrub, it has become a serious invasive woody weed in many areas, especially coastal parts of SE Australia. Here it displaces native shrubs of similar size such as the sea box, Alyxia buxifolia (an endemic plant which had an important medicinal role for aboriginal people). It prevents subshrubs and herbaceous ground cover native plants from surviving due to the heavy shade and competition for moisture and nutrients. It can form dense thickets with very low biodiversity."},{"id":"s1:p7","text":"Cultivation\nThis species is cultivated as an ornamental garden shrub, valued for its glossy evergreen leaves and red berries. The variegated cultivar 'Argenteovariegata' has gained the Royal Horticultural Society's Award of Garden Merit."},{"id":"s1:p8","text":"Subspecies\n Rhamnus alaternus subsp. alaternus\n Rhamnus alaternus subsp. myrtifolia (Willk.) Maire\n Rhamnus alaternus subsp. pendula (Pamp.) Jafri"}]}]}

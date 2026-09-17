@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 85027,
+  "scientificName": "Lilium martagon",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 85027,
+    "scientificName": "Lilium martagon",
+    "commonName": "Martagon Lily",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51715/medium.jpg",
+      "attribution": "(c) Hermann Falkner, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/51715"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 85027,
+      "count": 22,
+      "name": "Lilium martagon",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1542830,
+      "descendant_obs_count": 22,
+      "direct_obs_count": 22
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "33c578b5b5c50cc2e3483738997da8d591e86b50d3cbe02d08c6938d9e8eddf7"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Lilium martagon",
+      "title": "Lilium martagon",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/27333e4f3c8d6c7dfc01055de800369fb7fc453ff46b3dea13793404910701a7.json",
+      "url": "https://en.wikipedia.org/wiki/Lilium_martagon",
+      "revisionId": 1306409905,
+      "contentSha256": "20fda5f44010f62912c71f93764911c0d246f2286bf6c5dba0b3e1349bf99189"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Lilium martagon",
+      "title": "Lilium martagon",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/27333e4f3c8d6c7dfc01055de800369fb7fc453ff46b3dea13793404910701a7.json",
+      "url": "https://pt.wikipedia.org/wiki/Lilium_martagon",
+      "revisionId": 68465582,
+      "contentSha256": "7bea666a8a0f265a9472d38f28bfa8333bca5442fefed3409b9ab9f1e9a3e07a"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868360,
+      "canonicalName": "Lilium martagon",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868360",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868360.json",
+      "recordSha256": "00ec5b7bb8b99eb1c678cf411a8333993882cfe08139baa3a8cc7da29830ee4a"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

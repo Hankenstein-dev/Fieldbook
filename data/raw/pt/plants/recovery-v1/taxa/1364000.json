@@ -1,0 +1,22 @@
+{
+  "taxonId": 1364000,
+  "name": "Dombeya × cayeuxii",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:04.285624+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dombeya+%C3%97+cayeuxii&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dombeya+%C3%97+cayeuxii&limit=100",
+      "status": 200
+    }
+  ]
+}

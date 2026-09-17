@@ -1,0 +1,28 @@
+{
+  "taxonId": 939982,
+  "name": "Hebe",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:45:08.082248+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/6649f3fdc6f8bcafe177d41113236608b1626a0f0313e3a2385d477f5b94267c.json",
+      "title": "Hebe",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hebe&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hebe&limit=100",
+      "status": 200
+    }
+  ]
+}

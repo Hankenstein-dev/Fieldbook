@@ -1,0 +1,22 @@
+{
+  "taxonId": 957455,
+  "name": "Jasione blepharodon",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:10.659706+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Jasione+blepharodon&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Jasione+blepharodon&limit=100",
+      "status": 200
+    }
+  ]
+}

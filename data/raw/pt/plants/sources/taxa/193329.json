@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 193329,
+  "scientificName": "Herniaria algarvica",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 193329,
+    "scientificName": "Herniaria algarvica",
+    "commonName": "Herniaria algarvica",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396676033/medium.jpg",
+      "attribution": "(c) Francisco de Sousa, some rights reserved (CC BY-NC), uploaded by Francisco de Sousa",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/396676033"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 193329,
+      "count": 4,
+      "name": "Herniaria algarvica",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 58103,
+      "descendant_obs_count": 4,
+      "direct_obs_count": 4
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "eb90b4f863e0487c726b91b720040b8477d22b94ac60b0fc8fe6febfd066b75e"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Herniaria algarvica",
+      "title": "Herniaria algarvica",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/25652b0b51345a6c4340869eab3812fadd05e96d4ed6e2575bdf89c384d4b875.json",
+      "url": "https://en.wikipedia.org/wiki/Herniaria_algarvica",
+      "revisionId": 1315007723,
+      "contentSha256": "39e7611915dc00292678e0f68433af34864718290a7b21530fc7eecff351b653"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Herniaria algarvica",
+      "title": "Herniaria algarvica",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/25652b0b51345a6c4340869eab3812fadd05e96d4ed6e2575bdf89c384d4b875.json",
+      "url": "https://pt.wikipedia.org/wiki/Herniaria_algarvica",
+      "revisionId": 67338943,
+      "contentSha256": "24e831f83adf5b0daf948a9f78c306a7efb72b9f6150c7cc5befdc965ff47081"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314869010,
+      "canonicalName": "Herniaria algarvica",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314869010",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314869010.json",
+      "recordSha256": "c18a41da55402aa3196a990d150653f8043b60b659ba2ff4ed4ca3afd82f3d89"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

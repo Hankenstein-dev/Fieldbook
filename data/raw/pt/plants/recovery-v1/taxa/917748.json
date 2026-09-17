@@ -1,0 +1,74 @@
+{
+  "taxonId": 917748,
+  "name": "Tetrastichium fontanum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:57.903969+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tetrastichium fontanum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n|nome=''Tetrastichium fontanum''\n|imagem=\n|imagem_legenda=\n|imagem_largura=250px\n|reino= [[Plantae]]\n|filo= [[Bryophyta]]\n|subfilo= [[Bryophytina]]\n|classe= [[Bryopsida]]\n|ordem= [[Hookeriales]]\n|família= [[Hookeriaceae]]\n|género= ''[[Tetrastichium]]''\n|espécie='''T. fontanum'''\n|binomial=''Tetrastichium fontanum''\n|binomial_autoridade= ([[Mitt.]]) [[Jules Cardot|Cardot]], 1908\n}}\nTetrastichium fontanum (Mitt.) Cardot, 1908 é um musgo pleurocárpico pertencente à família Hookeriaceae da ordem Hookeriales. Não está listada qualquer subespécie no Catalogue of Life.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/1381f9c3055f6dbbeba825353a09fa3020f4693e1ba7b007f8d592ea71193574.json",
+      "sha256": "9d2bf4b07087bd2baa268afbe2324cbc1ddb64851911a1e38e151720581f7e1d",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=57220114",
+      "revisionId": 57220114,
+      "credit": {
+        "title": "Tetrastichium fontanum",
+        "url": "https://pt.wikipedia.org/wiki/Tetrastichium_fontanum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=57220114",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Tetrastichium fontanum (Mitt.) Cardot",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT Excluded from Algeria. It was reported byJelenc (1955 a) from Tassili n’Adrar, point d’eau Tig Hert, à l’ouest de Tamada, 600 m, but in the Addenda of the publication, the author rectified the identification to Vesicularia reimersiana Bizot & P. de la Varde.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5280022.json",
+      "sha256": "91070b1251db22abdde5779ae6953472a4a139a1950d6dd6c0535ab07fbed203",
+      "url": "https://api.gbif.org/v1/species/5280022",
+      "credit": {
+        "title": "Tetrastichium fontanum (Mitt.) Cardot",
+        "url": "https://www.gbif.org/species/5280022",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Tetrastichium fontanum (Mitt.) Cardot 1908",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "COMMENT Excluded from Algeria. It was reported byJelenc (1955 a) from Tassili n’Adrar, point d’eau Tig Hert, à l’ouest de Tamada, 600 m, but in the Addenda of the publication, the author rectified the identification to Vesicularia reimersiana Bizot & P. de la Varde.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/251098158.json",
+      "sha256": "008eea6f470bdca638c016dbb0fcd349325926c2c011dbda7ee2811b2d919d2a",
+      "url": "https://api.gbif.org/v1/species/251098158",
+      "credit": {
+        "title": "Tetrastichium fontanum (Mitt.) Cardot 1908",
+        "url": "https://www.gbif.org/species/251098158",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tetrastichium+fontanum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tetrastichium+fontanum&limit=100",
+      "status": 200
+    }
+  ]
+}

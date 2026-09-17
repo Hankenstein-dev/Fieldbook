@@ -1,0 +1,44 @@
+{
+  "startedAt": "2026-09-13T11:09:02.390279+00:00",
+  "model": "gpt-5.6-sol",
+  "reasoningEffort": "high",
+  "totalCalls": 10,
+  "selection": "Five deliberately selected paired cases; not a representative accuracy-rate estimate. Same source per prompt, one fresh agent per output.",
+  "sharedWrapper": "Return your answer directly in one final response. Do not use tools, read files, delegate, or add commentary.",
+  "cases": [
+    {
+      "pair": 1,
+      "taxonId": 583831,
+      "case": "sparse_identity",
+      "name": "Dimorphotheca spectabilis"
+    },
+    {
+      "pair": 2,
+      "taxonId": 292142,
+      "case": "conditional_food",
+      "name": "Musa balbisiana"
+    },
+    {
+      "pair": 3,
+      "taxonId": 61963,
+      "case": "food_quantity",
+      "name": "Oxalis debilis"
+    },
+    {
+      "pair": 4,
+      "taxonId": 430364,
+      "case": "conflicting_origin",
+      "name": "Hibiscus elatus"
+    },
+    {
+      "pair": 5,
+      "taxonId": 340357,
+      "case": "cultivar_scope",
+      "name": "Rotheca myricoides"
+    }
+  ],
+  "completedAt": "2026-09-13T11:17:02.624955+00:00",
+  "verifiedResponses": 10,
+  "verifiedToolCalls": 0,
+  "report": "docs/plant-prompt-comparison.md"
+}

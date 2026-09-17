@@ -1,0 +1,48 @@
+{
+  "taxonId": 181542,
+  "name": "Pelargonium × domesticum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:39:37.123523+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/148ea92588ad0b327a512cb240307b69f6a3ffd151b82239cfd5c5da43205786.json",
+      "title": "Pelargonium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/39740351e87c17bb88892ee14bc31fa6d570e3987dab84ad136540edf4adf3c1.json",
+      "title": "Pelargonium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/148ea92588ad0b327a512cb240307b69f6a3ffd151b82239cfd5c5da43205786.json",
+      "title": "Pelargonium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Pelargonium × domesticum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "regal pelargonium"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Pelargonium+%C3%97+domesticum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Pelargonium+%C3%97+domesticum&limit=100",
+      "status": 200
+    }
+  ]
+}

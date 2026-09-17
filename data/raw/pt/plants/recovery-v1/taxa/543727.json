@@ -1,0 +1,42 @@
+{
+  "taxonId": 543727,
+  "name": "Porphyra linearis",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:49.706095+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Porphyra linearis",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{one source|date=September 2025}}\n\nPorphyra linearis is a red alga found in the coastal waters of Japan. It has only four chromosomes (2n=4){{Clarify|date=September 2025|reason=Reference text need checking by a French speaker }} a very low number shared only with the unrelated Haplopappus gracilis.{{cn|date=September 2025}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/dede635755e76c419fc92fd935ec9f7494c81c9f4c1cd20e099d863b07c1d8e6.json",
+      "sha256": "427e5716b5310a24314508e170905e036aa0cc570c5366651955232275004ed0",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1312631914",
+      "revisionId": 1312631914,
+      "credit": {
+        "title": "Porphyra linearis",
+        "url": "https://en.wikipedia.org/wiki/Porphyra_linearis",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1312631914",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Porphyra+linearis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Porphyra+linearis&limit=100",
+      "status": 200
+    }
+  ]
+}

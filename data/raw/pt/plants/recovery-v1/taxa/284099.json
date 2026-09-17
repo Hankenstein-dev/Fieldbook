@@ -1,0 +1,58 @@
+{
+  "taxonId": 284099,
+  "name": "Tillandsia deppeana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:55.340855+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Tillandsia deppeana",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Tillandsia deppeana is a species of flowering plant in the genus Tillandsia. This species is endemic to Mexico.\n\nCultivars\n Tillandsia 'Mayan Torch'\n Tillandsia 'Sentry'\n Tillandsia 'Wildfire'\n × Vrieslandsia 'Inca Chief'\n × Vrieslandsia 'Mayan Chief'\n × Vrieslandsia 'Nedra'\n × Vrieslandsia 'Stargazer'",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/6ac1056d23810c6fe38046be5c47ea9b44fff35877abf5aae0f039ba6abac07b.json",
+      "sha256": "c6466d1ec4a71b61193061131ba485cb32215f2b72c6665bda7042c4277ab2b6",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1116308603",
+      "revisionId": 1116308603,
+      "credit": {
+        "title": "Tillandsia deppeana",
+        "url": "https://en.wikipedia.org/wiki/Tillandsia_deppeana",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1116308603",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Tillandsia deppeana Steudel",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Tillandsia deppeana is a species in the genus Tillandsia. This species is endemic to Mexico.\n\nTillandsia 'Mayan Torch' Tillandsia 'Sentry' Tillandsia 'Wildfire' xVrieslandsia 'Inca Chief' xVrieslandsia 'Mayan Chief' xVrieslandsia 'Nedra' xVrieslandsia 'Stargazer'",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165587755.json",
+      "sha256": "06928dac468f3d6e7e2699ec8adc15c871001fd649809a14761456a6c748a64c",
+      "url": "https://api.gbif.org/v1/species/165587755",
+      "credit": {
+        "title": "Tillandsia deppeana Steudel",
+        "url": "https://www.gbif.org/species/165587755",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Tillandsia+deppeana&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Tillandsia+deppeana&limit=100",
+      "status": 200
+    }
+  ]
+}

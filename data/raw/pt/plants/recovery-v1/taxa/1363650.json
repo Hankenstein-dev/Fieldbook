@@ -1,0 +1,32 @@
+{
+  "taxonId": 1363650,
+  "name": "Hylotelephium × mottramianum",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:03.070384+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hylotelephium × mottramianum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Autumn Joy"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Hylotelephium+%C3%97+mottramianum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Hylotelephium+%C3%97+mottramianum&limit=100",
+      "status": 200
+    }
+  ]
+}

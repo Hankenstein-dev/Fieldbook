@@ -1,0 +1,38 @@
+{
+  "taxonId": 967517,
+  "name": "Celtica",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:45:15.887000+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/abea0b27858b6e2d3ff4ee2568a2ab3434ebaf6dfb259a0edf815a60b9da04e2.json",
+      "title": "Celta",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Celtica"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "western dandelions"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Celtica&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Celtica&limit=100",
+      "status": 200
+    }
+  ]
+}

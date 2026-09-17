@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 468833,
+  "scientificName": "Armeria macrophylla",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 468833,
+    "scientificName": "Armeria macrophylla",
+    "commonName": "Armeria macrophylla",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://static.inaturalist.org/photos/2107237/medium.jpg",
+      "attribution": "(c) Valter Jacinto, all rights reserved",
+      "license": "all-rights-reserved",
+      "sourceUrl": "https://www.inaturalist.org/photos/2107237"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 468833,
+      "count": 139,
+      "name": "Armeria macrophylla",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 60479,
+      "descendant_obs_count": 139,
+      "direct_obs_count": 139
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "80d6d01186e4335778071befa5ef27a1fd7f128efcded8430d08f7fa2cfdc743"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Armeria macrophylla",
+      "title": "Armeria macrophylla",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/fda5dc97ff4ef4f3dea968c77b58d67f5a768ff0004ad0562526cb6c075da9a5.json",
+      "url": "https://en.wikipedia.org/wiki/Armeria_macrophylla",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Armeria macrophylla",
+      "title": "Armeria macrophylla",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/fda5dc97ff4ef4f3dea968c77b58d67f5a768ff0004ad0562526cb6c075da9a5.json",
+      "url": "https://pt.wikipedia.org/wiki/Armeria_macrophylla",
+      "revisionId": 60069662,
+      "contentSha256": "88906af8ad0070bddd33b3f12ee472eb39c2b8da456459c3cea67a5d4ce4c69c"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868974,
+      "canonicalName": "Armeria macrophylla",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868974",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868974.json",
+      "recordSha256": "697f16797fc497e8df014636609975ef7e1553addcfef881cec8fa90d6372f17"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

@@ -1,0 +1,33 @@
+{
+  "taxonId": 785941,
+  "name": "Porphyra dioica",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:44:02.725647+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/6420f1f88d2715cbe3b0ff61cce17b09df810643fa993fca199d0e3726c10e71.json",
+      "title": "Porphyra",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/ade6487959da1102b699cdda2b8c6530d7a1cfbf45ef02f2ae0e21cd37a1abd5.json",
+      "title": "Porphyra",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Porphyra+dioica&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Porphyra+dioica&limit=100",
+      "status": 200
+    }
+  ]
+}

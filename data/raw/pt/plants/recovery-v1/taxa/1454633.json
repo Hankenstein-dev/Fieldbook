@@ -1,0 +1,60 @@
+{
+  "taxonId": 1454633,
+  "name": "Ophrys iricolor",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:40.380971+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ophrys iricolor Desf.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Die Regenbogen-Ragwurz (Ophrys iricolor ) ist eine Art der Gattung Ragwurzen (Ophrys) und damit der Familie der Orchideen. Sie blüht von Februar bis April, aber meist zwei Wochen später als die Braune Ragwurz (Ophrys fusca). Sie wird von manchen Autoren auch als Unterart eingestuft: Ophrys fusca subsp. iricolor\n\nDiese mehrjährige krautige Pflanze erreicht Wuchshöhen zwischen 10 und 35 cm hoch. Der Blütenstand umfasst eine bis fünf Blüten. Die Kelchblätter sind grün gefärbt. Die Lippe wirkt durch die Haare samtig und ist schwarz-violett und auf der Unterseite braunrot gefärbt. Der extrem schmale Rand ist unbehaart und meist dunkler. Diese Art weist ein leuchtend blaues Mal in der Form von zwei eiförmigen Flächen auf. Oft wirkt dieses verwaschen oder schwärzlich bis purpurn marmoriert. Ganz selten taucht auch ein blasser Rand an dem Mal auf. Die Chromosomenzahl beträgt 2n = 36.\n\nMan findet die Regenbogen-Ragwurz in lichten Kiefernwäldern, Garriguen und Macchien mit meist kalkreichen Böden bis zu einer Höhe von 1100 Metern NN. Das Verbreitungsgebiet erstreckt sich über das östliche Mittelmeergebiet.\n\nMan kann drei Unterarten unterscheiden: Regenbogen-Ragwurz (Ophrys iricolor subsp. iricolor): Sie kommt in Griechenland, in der westlichen Türkei, in Zypern, im Libanon, im nordwestlichen Syrien und in Israel in Höhenlagen zwischen 0 und 1100 Metern Meereshöhe vor. Kleinblütige Regenbogen-Ragurz (Ophrys iricolor subsp. maxima ): Sie kommt im nördlichen Tunesien, im nördlichen Algerien, in Korsika und Sardinien in Höhenlagen zwischen 0 und 950 Metern Meereshöhe vor. Mesara-Regenbogen-Ragwurz (Ophrys iricolor subsp. mesaritica ): Sie kommt in Kreta und vielleicht auch auf den Kykladen vor. Sie gedeiht in Höhenlagen zwischen 0 und 950 Metern Meereshöhe.\n\nAls Bestäuber wurde die Biene Andrena morio beobachtet.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/100335646.json",
+      "sha256": "0d9039324c216b3c783e3d60636463053b4261810c02262c99c3c873eaa48122",
+      "url": "https://api.gbif.org/v1/species/100335646",
+      "credit": {
+        "title": "Ophrys iricolor Desf.",
+        "url": "https://www.gbif.org/species/100335646",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/06978ded797b0e0a1843a3a2617add7352b2ae78ec24e362b85dba08b9ab7652.json",
+      "title": "Ophrys fusca",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/fc360ebd68819c5d18ba05a78badf50d1dac2b966b68542d568965cb440e09af.json",
+      "title": "Ophrys fusca",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ophrys iricolor"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rainbow Bee-Orchid"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ophrys+iricolor&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ophrys+iricolor&limit=100",
+      "status": 200
+    }
+  ]
+}

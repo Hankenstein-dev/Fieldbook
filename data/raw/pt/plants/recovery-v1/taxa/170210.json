@@ -1,0 +1,38 @@
+{
+  "taxonId": 170210,
+  "name": "Vicia hybrida",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:32.447764+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/32802c479dd95f76cd59dc46c9524612c1772b17d1a821e1eb6c18c1ee88b1d3.json",
+      "title": "Hybrid-Wicke",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Vicia hybrida"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hairy Yellow-vetch"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Vicia+hybrida&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Vicia+hybrida&limit=100",
+      "status": 200
+    }
+  ]
+}

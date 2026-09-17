@@ -1,0 +1,79 @@
+{
+  "taxonId": 343442,
+  "name": "Rumex lunaria",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:44.554147+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Rumex lunaria",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Rumex lunaria is a species of flowering plant in the family Polygonaceae, native to the Canary Islands. It has been introduced to Italy, Sardinia and Sicily. It was first described by Carl Linnaeus.\n\n{{multiple image |align=center |total_width=800\n|image1 = La Palma - El Paso - Calle de Las Moraditas - Lava from Montaña Quemada 02 ies.jpg\n|caption1 = In habitat in [[La Palma]]\n|image2 = Rumex lunaria devant le monte Corona.jpg\n|caption2 = In habitat in [[Lanzarote]]\n|image3 = Rumex lunaria (Puntallana) 06.jpg\n|caption3 = Flowers\n|image4 = Rumex lunaria TenerifeLosGigantes IMG 5530.JPG\n|caption4 = Fruit\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/7db857aa0cd4e4d66b0612a7b632fb4ad42c557eb0d22e0fb13fc2cf3c044504.json",
+      "sha256": "c6e5431e1691d0b3e16b30c670395bcbdaf9ef7ca7633cd9cccd7c9c69551b14",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1351953674",
+      "revisionId": 1351953674,
+      "credit": {
+        "title": "Rumex lunaria",
+        "url": "https://en.wikipedia.org/wiki/Rumex_lunaria",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1351953674",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Rumex lunaria L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Rumex lunaria is a species of flowering plant in the family Polygonaceae, native to the Canary Islands. It has been introduced to Italy, Sardinia and Sicily. It was first described by Carl Linnaeus.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165829713.json",
+      "sha256": "f6c21ba7cf88eec4cc5a44a6e388decc0f0ec8f3e7d705e538291cac3d4a5a50",
+      "url": "https://api.gbif.org/v1/species/165829713",
+      "credit": {
+        "title": "Rumex lunaria L.",
+        "url": "https://www.gbif.org/species/165829713",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Rumex lunaria L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Der Kanaren-Ampfer (Rumex lunaria, deutsch auch Mondampfer, kanarisch Vinagrera bzw. auf El Hierro Calcosa) ist eine Pflanzenart der Gattung Ampfer (Rumex) und gehört zur Familie der Knöterichgewächse (Polygonaceae).\n\nDer immergrüne Strauch erreicht Wuchshöhen zwischen 100 und 300 Zentimetern. Die fleischigen, tiefgrünen Laubblätter sind gestielt und wechselständig angeordnet. Ihre Form ist breit eiförmig bis herzförmig, wobei sie oft breiter als lang sind. Der Blattrand ist ganzrandig. Die Früchte werden 5 bis 9 Millimeter lang und haben rötlichbraune, rundliche Valven, die am Grund herzförmig sind. Sie haben nur eine Schwiele. Blütezeit ist von Dezember bis Mai. Die Chromosomenzahl beträgt 2n = 36.\n\nDer Kanaren-Ampfer wächst endemisch auf den Kanarischen Inseln, in Italien kommt er stellenweise eingebürgert vor. Die Art bevorzugt als Standort Felsen und Geröll, aber auch Ruderalstellen.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/100364519.json",
+      "sha256": "34150e169a6acb5e0fda41c9981d961bd106a1511008598f2298eb60751f8919",
+      "url": "https://api.gbif.org/v1/species/100364519",
+      "credit": {
+        "title": "Rumex lunaria L.",
+        "url": "https://www.gbif.org/species/100364519",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Rumex lunaria"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Rumex+lunaria&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Rumex+lunaria&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "input": {
+    "taxonId": 1526151,
+    "scientificName": "Cistus × novus",
+    "commonName": "Cistus × novus",
+    "rank": "hybrid",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cistus novus",
+        "language": "sv",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Cistus novus är en solvändeväxtart som beskrevs av Rouy, Fouc. och Gaut.. Cistus novus ingår i släktet Cistus och familjen solvändeväxter. Inga underarter finns listade i Catalogue of Life."
+          },
+          {
+            "id": "s1:p2",
+            "text": " Källor "
+          },
+          {
+            "id": "s1:p3",
+            "text": "Kategori:Solvändeväxter\nnovus"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Cistus × novus Rouy — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Cistus × novus Rouy."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this hybrid is France. It is a shrub and grows primarily in the subtropical biome. The hybrid formula is C. crispus × C. salviifolius."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/recovery-v1/articles/sv/4ebb1cf2474d38e984abc5095d0d7f82ebe3f9f3a1808f3eceed7dd368ddbdde.json",
+      "sha256": "986f9bfe282642f6d6ae443eb03acfa06af691539d6d21d20289d5e3726a3d1d",
+      "url": "https://sv.wikipedia.org/w/index.php?oldid=57675482",
+      "revisionId": 57675482,
+      "credit": {
+        "title": "Cistus novus",
+        "url": "https://sv.wikipedia.org/wiki/Cistus_novus",
+        "revisionUrl": "https://sv.wikipedia.org/w/index.php?oldid=57675482",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.sv"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/1526151-d660433dd7eeddcd.json",
+      "sha256": "d660433dd7eeddcd212a208af2ee6f5c0e159af5293c9b9de12572253cf75ecd",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A168386-1",
+      "credit": {
+        "title": "Cistus × novus Rouy — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A168386-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/3.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 1526151,
+    "name": "Cistus × novus",
+    "language": "sv,en",
+    "sourceTextTokens": 130,
+    "packetTokens": 294,
+    "standaloneInputTextTokens": 746,
+    "packetSha256": "edd20b51701504f0382f03c3fb93909219c2f2f50e151c8b068fb2997c63ac34"
+  }
+}

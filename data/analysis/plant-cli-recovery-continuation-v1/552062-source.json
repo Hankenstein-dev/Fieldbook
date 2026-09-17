@@ -1,0 +1,98 @@
+{
+  "input": {
+    "taxonId": 552062,
+    "scientificName": "Furcraea andina",
+    "commonName": "Furcraea andina",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Furcraea andina",
+        "language": "en",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Furcraea andina is a species of flowering plant in the family Asparagaceae. It is native to Ecuador, Peru and Bolivia in South America. The fibres in its leaves, known as fique, are used in making ropes."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Furcraea andina Trel., 1915",
+        "language": "unspecified",
+        "scope": "exact_canonical_name_and_rank",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "El escapo floral se usa para elaborar escaleras, corrales para aves, postes y chozas."
+          },
+          {
+            "id": "s2:p2",
+            "text": "La infusión de la raíz combate hongos de la piel, úlceras, hematomas, inflamación del hígado y dolor estomacal."
+          },
+          {
+            "id": "s2:p3",
+            "text": "La infusión de la raíz se usa en casos de enfriamiento."
+          },
+          {
+            "id": "s2:p4",
+            "text": "La raíz y las hojas sirven para elaborar jabón y champú."
+          },
+          {
+            "id": "s2:p5",
+            "text": "Las fibras de las hojas y del escapo floral se usan para elaborar sogas o cuerdas, chilpes, rodapies, lonas, alfombras, carteras, zapatos y bolsos."
+          },
+          {
+            "id": "s2:p6",
+            "text": "Se usa para tratar el sarpullido."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/7dbf9863cdfe15d423295824d0f01b4662283e88bc810f15de3a6c7304abab07.json",
+      "sha256": "ab482e749e26a1b6907f91a2c6e1209c237860f1f157c9fd203b12458738bd4c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1182523190",
+      "revisionId": 1182523190,
+      "credit": {
+        "title": "Furcraea andina",
+        "url": "https://en.wikipedia.org/wiki/Furcraea_andina",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1182523190",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/308491988.json",
+      "sha256": "6ec570b2cdf58e2fb796b93bd294dc87de19e8abd2e6843bc78ce66b4313834d",
+      "url": "https://api.gbif.org/v1/species/308491988",
+      "credit": {
+        "title": "Furcraea andina Trel., 1915",
+        "url": "https://www.gbif.org/species/308491988",
+        "attribution": "Ministerio de Ambiente y Energía de Ecuador - MAE (2025). Listado de plantas de uso y aprovechamiento sostenible en Ecuador. Checklist dataset https://doi.org/10.60545/eifqjo accessed via GBIF.org on 2026-09-15.",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "datasetProvenance": {
+        "url": "https://api.gbif.org/v1/dataset/aca4230a-0a97-4662-8f06-c0d681628c93",
+        "fetchedAt": "2026-09-15T07:52:30.057513+00:00",
+        "title": "Listado de plantas de uso y aprovechamiento sostenible en Ecuador"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 552062,
+    "name": "Furcraea andina",
+    "language": "en,unspecified",
+    "sourceTextTokens": 182,
+    "packetTokens": 367,
+    "standaloneInputTextTokens": 819,
+    "packetSha256": "9006af201c294e44dbe26f3fe64ce28a7018744f62500a834fb09ce1414e5b49"
+  }
+}

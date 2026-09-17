@@ -1,0 +1,33 @@
+{
+  "taxonId": 1256743,
+  "name": "Codonoprasum",
+  "rank": "subsection",
+  "completedAt": "2026-09-15T07:46:41.786740+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/9616d2fdbd5346ff4400ad6721297ffd7756ec89ce7c2a7748c98bb15ee36a80.json",
+      "title": "Allium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/04ea1f0fe298d9fb9d453ef852d6a1dc8cec60a79fe3495e7b3398cb6d281a2c.json",
+      "title": "Allium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Codonoprasum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Codonoprasum&limit=100",
+      "status": 200
+    }
+  ]
+}

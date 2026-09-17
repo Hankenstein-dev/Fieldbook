@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 1183511,
+  "scientificName": "Crepis pusilla",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 1183511,
+    "scientificName": "Crepis pusilla",
+    "commonName": "Crepis pusilla",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110835423/medium.jpeg",
+      "attribution": "(c) fotis-samaritakis, some rights reserved (CC BY-NC), uploaded by fotis-samaritakis",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/110835423"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 1183511,
+      "count": 11,
+      "name": "Crepis pusilla",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 54051,
+      "descendant_obs_count": 11,
+      "direct_obs_count": 11
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "7131af1b3217111dcc06bb735d6bb8fbaa8e0778809158d508351dec330c83cf"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Crepis pusilla",
+      "title": "Crepis pusilla",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/e74e4096424e8a768da97fc8af91e51b0b114015f44dfd74a0ea7735d419dfa0.json",
+      "url": "https://en.wikipedia.org/wiki/Crepis_pusilla",
+      "revisionId": 1371711859,
+      "contentSha256": "a50680262a5924e08591ab69596b3fb0d473cf05b2e7564f0b81c4c627b1001d"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Crepis pusilla",
+      "title": "Crepis pusilla",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/e74e4096424e8a768da97fc8af91e51b0b114015f44dfd74a0ea7735d419dfa0.json",
+      "url": "https://pt.wikipedia.org/wiki/Crepis_pusilla",
+      "revisionId": 54745077,
+      "contentSha256": "6f1e894c87b06a32cec7dc7af4800e446ad4dbf34216181f7033840b4eb2169f"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868886,
+      "canonicalName": "Crepis pusilla",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868886",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868886.json",
+      "recordSha256": "4b3c96b5815308b8bd1bd2d5d9ca69d59324e2b4124c5887eefc5cd709cc8cc1"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

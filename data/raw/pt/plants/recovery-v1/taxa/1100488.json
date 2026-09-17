@@ -1,0 +1,55 @@
+{
+  "taxonId": 1100488,
+  "name": "Festuca maritima",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:52.067733+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Festuca maritima L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Habitat in Hispania. ☉\n\nGr. vix spitamaeum. Flores omnino spicati, secundi, aristis capillaribus: spiculae sexflorae. Folia subulata: vaginis striatis.\n\n6. Festuca spica lineari secunda recta, floribus adpressis subaristatis. Loefl. Gramen exile duriusculum maritimum. Scheuch. gr. 272.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/4120648.json",
+      "sha256": "66cc20a79f8d5a81395706ebb0abf0ba902d5c2bdfa332729529c7f87602d8de",
+      "url": "https://api.gbif.org/v1/species/4120648",
+      "credit": {
+        "title": "Festuca maritima L.",
+        "url": "https://www.gbif.org/species/4120648",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/9b1f0e43ccacb67516d62276ef39c727c0d12f9373efca4428d0b54d472a1a9c.json",
+      "title": "Vulpia unilateralis",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Festuca maritima"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "mat-grass fescue"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+maritima&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+maritima&limit=100",
+      "status": 200
+    }
+  ]
+}

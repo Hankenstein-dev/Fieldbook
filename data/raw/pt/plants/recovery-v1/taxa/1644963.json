@@ -1,0 +1,33 @@
+{
+  "taxonId": 1644963,
+  "name": "Iridorchis",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:48:48.777315+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/cdb22c9c4beb3027011874d1a44d8b8d730dd29b0c6fb751725b5ab1cb172b23.json",
+      "title": "Cymbidium",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/6b5c056a9d5329f5e9740ae3f15d17b6ab909e12e878a833c33c7243a1eb2bfd.json",
+      "title": "Cymbidium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Iridorchis&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Iridorchis&limit=100",
+      "status": 200
+    }
+  ]
+}

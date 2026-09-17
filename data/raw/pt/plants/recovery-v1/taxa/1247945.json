@@ -1,0 +1,43 @@
+{
+  "taxonId": 1247945,
+  "name": "Symphytum officinale",
+  "rank": "complex",
+  "completedAt": "2026-09-15T07:46:40.173300+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/bab0538ef1b4d9e37f42a4f54c25f6b9f398accd6e9bac2f3cc2f1051a4e24ec.json",
+      "title": "Symphytum officinale",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/c48246ff065f1637ab1e0022ed7c4bf1facb5ac68ba1d4a64d6ce448a77a4cd2.json",
+      "title": "Confrei",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Symphytum officinale"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Common, Russian and Rough Comfreys"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Symphytum+officinale&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Symphytum+officinale&limit=100",
+      "status": 200
+    }
+  ]
+}

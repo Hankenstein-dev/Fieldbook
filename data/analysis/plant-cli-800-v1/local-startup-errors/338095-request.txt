@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":338095,"scientificName":"Silene scabriflora","commonName":"Silene scabriflora","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Silene scabriflora","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Silene scabriflora''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Caryophyllales]]\n| família = [[Caryophyllaceae]]\n| género = ''[[Silene]]''\n| espécie = '''''S. scabriflora'''''\n| binomial = ''Silene scabriflora''\n| binomial_autoridade = \n}}\nSilene scabriflora é uma espécie de planta com flor pertencente à família Caryophyllaceae. "},{"id":"s1:p2","text":"A autoridade científica da espécie é Brot., tendo sido publicada em Fl. Lusit. 2: 184. 1805."},{"id":"s1:p3","text":" Portugal "},{"id":"s1:p4","text":"Trata-se de uma espécie presente no território português, nomeadamente os seguintes táxones infraespecíficos:"},{"id":"s1:p5","text":" Silene scabriflora subsp. scabriflora - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia.\n Silene scabriflora subsp. tuberculata - presente em Portugal Continental. Em termos de naturalidade é nativa da região atrás referida. Não se encontra protegida por legislação portuguesa ou da Comunidade Europeia."}]}]}

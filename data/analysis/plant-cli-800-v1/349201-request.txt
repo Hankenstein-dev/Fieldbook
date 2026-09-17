@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":349201,"scientificName":"Hypericum patulum","commonName":"goldencup St. John's wort","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Hypericum patulum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Hypericum patulum, known as goldencup St. John's wort or yellow mosqueta, is a species of flowering plant in Hypericum sect. Ascyreia."},{"id":"s1:p2","text":" Taxonomy \nHypericum patulum was originally described by Carl Peter Thunberg in 1784. It was first published in Systema Vegetabilium later that year by Johan Andreas Murray."},{"id":"s1:p3","text":"The species has a sporophytic and gametopythic chromosome count of 18 each."},{"id":"s1:p4","text":" Subordinate taxa \nHypericum patulum has 5 accepted variants as subordinate taxa:\n H. patulum var. attenuatum Choisy 1824\n H. patulum var. forrestii Chitt. 1923\n H. patulum var. henryi Bean 1905\n H. patulum var. hookerianum (Wight & Arn.) Kuntze 1891\n H. patulum var. uralum (Buch.-Ham. ex D. Don) Koehne 1893"},{"id":"s1:p5","text":" Cultivars \nHypericum patulum is cultivated as a garden plant under the name Hypericum 'Hidcote' or Hypericum x hidcoteense 'Hidcote'. It is grown for its large, bright flowers and its attractiveness to pollinators such as bees and small birds."},{"id":"s1:p6","text":" Distribution and habitat \nThe species is native only to the Guizhou and Sichuan provinces of China, but it has been naturalized in Japan, Taiwan, and India, as well as in Australia and South Africa. The species is also widely cultivated for garden use in temperate regions."},{"id":"s1:p7","text":"The species is found at elevations of {{Convert|1200-3600|m|ft|sp=us}} in dry and open habitats, especially in thickets, on scrubby slopes, and on cliffs."},{"id":"s1:p8","text":" Description \nPlants of the species are shrubs that grow from {{Convert|0.3-1.5|m|ft|1|sp=us}} tall. They grow in a bushy fashion, with spreading branches that are sometimes weakly frondose. The stems are 4-lined or 4-angled when the plant is young but later become 2-lined, and sometimes become terete. The leaves are thick and paper-like and are rather glaucous, with short laminar glands, streaks, and dots. Its inflorescence is 1–15-flowered that blossom from 1 or 2 nodes. The flowers are flat-topped, and sometimes have a short terminal internode and branches that come from the middle of the stem. The petals are a golden yellow color, without any tinge of red. The stamen fascicles, each with 50–70 stamens, grow to be up to 7–12 mm, and are about half as long as the petals. The seeds are dark brown and grow from 1–1.2 millimeters long."}]}]}

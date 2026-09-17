@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":778144,"scientificName":"Valerianella multidentata","commonName":"Valerianella multidentata","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Lista Vermelha da Flora Vascular de Portugal Continental — Valerianella multidentata","language":"unspecified","scope":"Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.","passages":[{"id":"s1:p1","text":"Valerianella multidentata é uma pequena erva anual endémica da Península Ibérica, que habita em solos calcários secos, em ambientes abertos e soalheiros e locais desmatados. Em Portugal só é conhecida numa única subpopulação na serra calcária a sul de Sousel, a 320 km das subpopulações espanholas mais próximas. A população nacional é composta por vários núcleos populacionais próximos, dois dos quais podem ter alguns milhares de indivíduos, mas os restantes são todos mais pequenos. O maior núcleo ocorre num único olival de sequeiro que é desmatado ocasionalmente. É avaliada como Em Perigo porque tem uma área de ocupação e uma extensão de ocorrência de 12 km 2, apenas duas localizações e se iniciou recentemente um processo de declínio continuado da área e qualidade do habitat, que se suspeita que continue no futuro. A intensificação agrícola que está a acontecer em alguns olivais das redondezas (inclusivamente na serra) constitui uma ameaça potencialmente grave, pois qualquer alteração de uso do solo na serra pode facilmente levar a planta próximo da extinção em Portugal. Propõe-se que seja criada uma microrreserva para a conservação deste olival, onde se deverá manter a gestão atual, livre de agroquímicos e de pastoreio, a qual beneficiará também duas outras espécies ameaçadas que partilham o mesmo habitat e distribuição. Paralelamente, deve ser estudada a hipótese de se criar uma área protegida maior, que englobe toda a cordilheira calcária desta região (Sousel-Vila Viçosa). Os aceiros da serra devem ser mantidos. Sugere-se ainda que seja feita mais prospeção dirigida nestas serras calcárias e que sejam recolhidas sementes para salvaguarda do património genético."}]}]}

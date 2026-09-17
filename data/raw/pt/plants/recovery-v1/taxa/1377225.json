@@ -1,0 +1,28 @@
+{
+  "taxonId": 1377225,
+  "name": "Festuca alopecuros",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:09.499455+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/af07b30fdbd0c4e2031df8059ad7b747cd95e226c1883f1288e86bb73bbbbe42.json",
+      "title": "Vulpia alopecuros",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+alopecuros&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+alopecuros&limit=100",
+      "status": 200
+    }
+  ]
+}

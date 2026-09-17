@@ -1,0 +1,459 @@
+{
+  "method": "25 random records selected before outputs; additional targeted records kept separate. Human-style model review against supplied passages, not independent botanical verification or a publication approval. Original outputs preserved.",
+  "categories": {
+    "usable_draft": "No substantive issue found in this source comparison; still a draft.",
+    "thin_but_faithful": "Faithful but source cannot support a rich discovery paragraph.",
+    "editorial_revision": "Source mostly supports content, but wording, jargon, freshness attribution or emphasis needs attention.",
+    "semantic_revision": "Claim support, scope, uncertainty or structured classification needs correction."
+  },
+  "records": [
+    {
+      "taxonId": 136096,
+      "selection": "random",
+      "assessment": "editorial_revision",
+      "notes": "The cycad identity, South African range, cone toxicity and 1775 Kew arrival are supported. The current-sounding vulnerable listing and oldest-potted-plant record need source attribution or dates.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p4"
+      ],
+      "scientificName": "Encephalartos altensteinii"
+    },
+    {
+      "taxonId": 273596,
+      "selection": "random",
+      "assessment": "editorial_revision",
+      "notes": "Faithful description, range and name meaning. Tepals and sepal-like are unnecessarily technical for the intended introductory paragraph.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p4"
+      ],
+      "scientificName": "Ferocactus macrodiscus"
+    },
+    {
+      "taxonId": 583831,
+      "selection": "random",
+      "assessment": "thin_but_faithful",
+      "notes": "Correct short identity and endemic range; only 33 source tokens, so no interesting detail was available.",
+      "checkedPassages": [
+        "s1:p1"
+      ],
+      "scientificName": "Dimorphotheca spectabilis"
+    },
+    {
+      "taxonId": 348605,
+      "selection": "random",
+      "assessment": "editorial_revision",
+      "notes": "Correctly keeps Portuguese endemism and protection at subspecies level. Nominate subspecies and legal annex numbers dominate a paragraph intended for casual discovery.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p5"
+      ],
+      "scientificName": "Festuca brigantina"
+    },
+    {
+      "taxonId": 47602,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Useful account of wind dispersal, asexual lineages and taproot regeneration. Food parts and preparation remain separate; no toxicity is inferred from silence.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p5",
+        "s1:p36",
+        "s1:p38",
+        "s1:p44",
+        "s1:p45",
+        "s1:p46"
+      ],
+      "scientificName": "Taraxacum officinale"
+    },
+    {
+      "taxonId": 292142,
+      "selection": "targeted",
+      "assessment": "semantic_revision",
+      "notes": "Food status is conflicting even though seeded wild fruit and edible seedless clones are different conditions, not contradictory evidence about the same form. Details preserve that distinction. Prefer documented_use with explicit clone restriction; do not count a historical assumption as established use.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p5"
+      ],
+      "scientificName": "Musa balbisiana"
+    },
+    {
+      "taxonId": 61963,
+      "selection": "targeted",
+      "assessment": "semantic_revision",
+      "notes": "Summary changes elastic seed integument into elastic fruit capsules, which the supplied passage does not support. It also mentions edibility without the quantity qualifier present in the food/toxicity fields; a standalone paragraph should retain that qualifier or omit the food claim. Toxicity part attribution is broader than the source's plant-level statement.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p3",
+        "s1:p10"
+      ],
+      "scientificName": "Oxalis debilis"
+    },
+    {
+      "taxonId": 48233,
+      "selection": "targeted",
+      "assessment": "editorial_revision",
+      "notes": "Flag correctly identifies uncited morphology, but prose states it without source qualification and the flag mentions tubers only, although the frond description is from the same uncited section.",
+      "checkedPassages": [
+        "s1:p2"
+      ],
+      "scientificName": "Nephrolepis cordifolia"
+    },
+    {
+      "taxonId": 156142,
+      "selection": "targeted",
+      "assessment": "editorial_revision",
+      "notes": "German evidence translated faithfully, including habitat and altitude scope. Sporophytes remains unexplained jargon.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p4",
+        "s1:p5"
+      ],
+      "scientificName": "Sciuro-hypnum plumosum"
+    },
+    {
+      "taxonId": 400944,
+      "selection": "targeted",
+      "assessment": "editorial_revision",
+      "notes": "Spanish source supports shrub type, origin, height and description date. Taxonomic author/date pads a thin account; better to stop after the useful description.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3"
+      ],
+      "scientificName": "Coleonema pulchrum"
+    },
+    {
+      "taxonId": 969515,
+      "selection": "targeted",
+      "assessment": "editorial_revision",
+      "notes": "Spanish source supports all substantive claims, but most prose is nomenclatural history. Etymology is a better short hook than the transfer date.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p3",
+        "s1:p5"
+      ],
+      "scientificName": "Avellinia festucoides"
+    },
+    {
+      "taxonId": 1024536,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Readable description; leaf arrangement is translated into ordinary language. Brittle stems are independently supported by p8, so the unused etymology warning in p7 does not require a flag.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p4",
+        "s1:p7",
+        "s1:p8"
+      ],
+      "scientificName": "Rabelera holostea"
+    },
+    {
+      "taxonId": 135849,
+      "selection": "random",
+      "assessment": "editorial_revision",
+      "notes": "Identity, Queensland origin and measurements are supported; no cycad toxicity invented. Keeled leaves is unexplained, and the paragraph is mostly measurements despite an available tallest-in-genus hook.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p4"
+      ],
+      "scientificName": "Macrozamia moorei"
+    },
+    {
+      "taxonId": 340357,
+      "selection": "random",
+      "assessment": "semantic_revision",
+      "notes": "Species called evergreen, but the only explicit evergreen-shrub statement applies to cultivar Ugandense in p2. The cited passages do not establish species-wide evergreen habit. Other ecology details are supported, and medicinal/animal-feeding text was correctly not converted to human food or efficacy.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p8",
+        "s1:p10",
+        "s1:p11",
+        "s1:p14",
+        "s1:p16",
+        "s1:p17",
+        "s1:p20"
+      ],
+      "scientificName": "Rotheca myricoides"
+    },
+    {
+      "taxonId": 282861,
+      "selection": "random",
+      "assessment": "thin_but_faithful",
+      "notes": "Withheld a paragraph on the 43-token source containing family, ornamental use and synonyms. Honest abstention, but similar thin records elsewhere receive identity-only paragraphs: define a consistent minimum-information rule.",
+      "checkedPassages": [
+        "s1:p1"
+      ],
+      "scientificName": "Alonsoa meridionalis"
+    },
+    {
+      "taxonId": 122323,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Useful morphology and cockatoo hook; historical foliage/cone chewing remains scoped to an 1889 account rather than promoted as modern food advice. Naming the Ngunnawal people would retain more precise attribution for boomerangs.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p4",
+        "s1:p5",
+        "s1:p6",
+        "s1:p7"
+      ],
+      "scientificName": "Allocasuarina verticillata"
+    },
+    {
+      "taxonId": 362150,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Summary follows the supplied origin, leaf texture and soil-colour passages. This checks fidelity to the saved article, not independent botanical accuracy of its soil-colour claim. No family-based toxicity inferred.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p4"
+      ],
+      "scientificName": "Hydrangea aspera"
+    },
+    {
+      "taxonId": 164027,
+      "selection": "random",
+      "assessment": "editorial_revision",
+      "notes": "Distinctive uneven-petal hook is supported. Gene identifier and unexplained sepals are too technical; say the larger petals produce extra cells, matching proliferation rather than ambiguously saying cell growth.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p3",
+        "s1:p4",
+        "s1:p5"
+      ],
+      "scientificName": "Iberis amara"
+    },
+    {
+      "taxonId": 423622,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Faithful concise shrub/tree identity and Madagascar habitat range. Does not pad the short source with taxonomy history or invented uses.",
+      "checkedPassages": [
+        "s1:p1"
+      ],
+      "scientificName": "Phyllarthron bojerianum"
+    },
+    {
+      "taxonId": 944246,
+      "selection": "targeted",
+      "assessment": "semantic_revision",
+      "notes": "Conservative abstention appears avoidable: p2 explicitly distinguishes T. acanthocoma from T. brasiliensis and attributes natural range and habitat to the requested taxon. Taxonomic disagreement alone need not block a short, carefully scoped draft. Keep the taxonomy issue for review rather than discard clearly attributed evidence.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p4",
+        "s1:p5"
+      ],
+      "scientificName": "Trithrinax acanthocoma"
+    },
+    {
+      "taxonId": 338622,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Combines the short English article with the Portuguese botanical account. National status, population estimate and assessment period remain explicitly scoped; no remembered daffodil toxicity is added. The flag repeats a date already clear in the paragraph.",
+      "checkedPassages": [
+        "s1:p2",
+        "s2:p1"
+      ],
+      "scientificName": "Narcissus gaditanus"
+    },
+    {
+      "taxonId": 53771,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Supported compact account of flat sprays, native range and garden use. Keeps may-be-becoming-invasive uncertainty and does not infer edibility or toxicity from fruit or family.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p3"
+      ],
+      "scientificName": "Cotoneaster horizontalis"
+    },
+    {
+      "taxonId": 85422,
+      "selection": "random",
+      "assessment": "editorial_revision",
+      "notes": "Faithful to the 60-token source and does not invent origin or uses. The paragraph is mostly Latin hybrid names; explain crossbreeding in ordinary language if this is to be a discovery card.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2"
+      ],
+      "scientificName": "Prunella laciniata"
+    },
+    {
+      "taxonId": 169447,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Short but useful tallest-in-genus and flower/fruit description. Uses North American occurrence without overclaiming an explicitly native range.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2"
+      ],
+      "scientificName": "Symphoricarpos microphyllus"
+    },
+    {
+      "taxonId": 437618,
+      "selection": "random",
+      "assessment": "semantic_revision",
+      "notes": "Ants appear to tend aphids and scale insects in p7 becomes definite tending in the summary, dropping source uncertainty. Other habitat and ant/fig observations are supported. The draft omits the exact wasp-species claim carrying a citation warning.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p3",
+        "s1:p5",
+        "s1:p7"
+      ],
+      "scientificName": "Ficus subpisocarpa"
+    },
+    {
+      "taxonId": 494399,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Clear translation of colony structure and asexual reproduction. Correctly retains that its widespread occurrence/species complexity limits its usefulness as an indicator rather than reversing that claim.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p5",
+        "s1:p6"
+      ],
+      "scientificName": "Pseudopediastrum boryanum"
+    },
+    {
+      "taxonId": 425782,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Source supports climbing habit, occurrence and simple flower/fruit description. Does not infer food use from lolly berry or medical efficacy from an Ayurvedic name. Common-name list could be trimmed as a preference.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2"
+      ],
+      "scientificName": "Salacia chinensis"
+    },
+    {
+      "taxonId": 512008,
+      "selection": "random",
+      "assessment": "thin_but_faithful",
+      "notes": "Withholds the paragraph on a 48-token source dominated by an uncorroborated claim about one form. Does not transfer Maltese endemism to the species or invent parasitic ecology from memory.",
+      "checkedPassages": [
+        "s1:p1"
+      ],
+      "scientificName": "Orobanche densiflora"
+    },
+    {
+      "taxonId": 823684,
+      "selection": "targeted",
+      "assessment": "usable_draft",
+      "notes": "The non-toxic listing remains explicitly limited to cats and dogs, with unspecified plant part left null. Animal feeding is not treated as human food. Paragraph is source-faithful but could explain styles/stamens/rhizomes more plainly.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p4",
+        "s1:p5",
+        "s1:p7",
+        "s1:p8"
+      ],
+      "scientificName": "Chrysojasminum fruticans"
+    },
+    {
+      "taxonId": 55734,
+      "selection": "targeted",
+      "assessment": "semantic_revision",
+      "notes": "Food and contact/ingestion hazard details track the source. However, the summary says faster-growing plants struggle on its dry ground; p3 says the stonecrop cannot compete with vigorous faster-growing species and is adapted to thin dry soils. The competitor-struggle explanation is an unsupported addition.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p3",
+        "s1:p5"
+      ],
+      "scientificName": "Sedum acre"
+    },
+    {
+      "taxonId": 76288,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Preserves uncertain native range and historical British farming context. Does not turn an isolated chemical toxicity statement or historic medicine into species food/toxicity claims.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p10",
+        "s1:p13",
+        "s1:p16",
+        "s1:p18",
+        "s1:p19",
+        "s1:p22"
+      ],
+      "scientificName": "Chenopodium vulvaria"
+    },
+    {
+      "taxonId": 320730,
+      "selection": "random",
+      "assessment": "semantic_revision",
+      "notes": "Paragraph correctly distinguishes sweetener compounds/extracts and historical use. In structured food details, the historical-use entry specifies leaves but its cited p10 names the plant without specifying the part; leave part null or obtain explicit historical part evidence. Also reword leaves are widely cultivated to plant is grown for its leaves.",
+      "checkedPassages": [
+        "s1:p3",
+        "s1:p4",
+        "s1:p7",
+        "s1:p8",
+        "s1:p10",
+        "s1:p12",
+        "s1:p13",
+        "s1:p14"
+      ],
+      "scientificName": "Stevia rebaudiana"
+    },
+    {
+      "taxonId": 430364,
+      "selection": "random",
+      "assessment": "semantic_revision",
+      "notes": "Draft repeats p2's Puerto Rico native claim without addressing p9, which narrows the native range to Jamaica/Cuba and describes first Puerto Rican plantings in the 1940s alongside introductions elsewhere. Omit the disputed native locality or flag the inconsistency. Flower-colour and wood-use hooks are supported.",
+      "checkedPassages": [
+        "s1:p1",
+        "s1:p2",
+        "s1:p4",
+        "s1:p5",
+        "s1:p6",
+        "s1:p8",
+        "s1:p9"
+      ],
+      "scientificName": "Hibiscus elatus"
+    },
+    {
+      "taxonId": 342039,
+      "selection": "random",
+      "assessment": "usable_draft",
+      "notes": "Concise account of occurrence, scarce local growth and scented-wood/tanning uses follows both substantive passages. Does not invent a native range or human food claim. Semi-parasitic could be explained in a later wording pass.",
+      "checkedPassages": [
+        "s1:p2",
+        "s1:p3"
+      ],
+      "scientificName": "Osyris lanceolata"
+    }
+  ],
+  "counts": {
+    "random": {
+      "editorial_revision": 6,
+      "thin_but_faithful": 3,
+      "usable_draft": 12,
+      "semantic_revision": 4
+    },
+    "targeted": {
+      "semantic_revision": 4,
+      "editorial_revision": 4,
+      "usable_draft": 1
+    }
+  }
+}

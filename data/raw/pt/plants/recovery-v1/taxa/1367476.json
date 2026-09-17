@@ -1,0 +1,43 @@
+{
+  "taxonId": 1367476,
+  "name": "Aphanes",
+  "rank": "section",
+  "completedAt": "2026-09-15T07:47:08.523636+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ea9f32afd5e3f3a3f9327f05d12fbef9fce8fa61dd2f11c2c8dcb2d398db7589.json",
+      "title": "Aphanes",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/ea9f32afd5e3f3a3f9327f05d12fbef9fce8fa61dd2f11c2c8dcb2d398db7589.json",
+      "title": "Aphanes",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Aphanes"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Parsley-pierts"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aphanes&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aphanes&limit=100",
+      "status": 200
+    }
+  ]
+}

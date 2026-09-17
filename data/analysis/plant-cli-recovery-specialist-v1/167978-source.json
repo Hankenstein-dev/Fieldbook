@@ -1,0 +1,50 @@
+{
+  "input": {
+    "taxonId": 167978,
+    "scientificName": "Rosa cinnamomea",
+    "commonName": "Cinnamon Rose",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Rosa cinnamomea L. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Plants of the World Online account: Rosa cinnamomea L.."
+          },
+          {
+            "id": "s1:p2",
+            "text": "The native range of this species is Europe to Siberia and Caucasus. It is a shrub and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/167978-eac794bab65df373.json",
+      "sha256": "eac794bab65df373c0a5ed5ae6532ed501254f2f9609911f5dfd1b74fe67e2ae",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A732074-1",
+      "credit": {
+        "title": "Rosa cinnamomea L. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A732074-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 167978,
+    "name": "Rosa cinnamomea",
+    "language": "en",
+    "sourceTextTokens": 42,
+    "packetTokens": 145,
+    "standaloneInputTextTokens": 597,
+    "packetSha256": "0726a9947870ffb884626792c7d465b326919455168da8a15e6f0df7140152bf"
+  }
+}

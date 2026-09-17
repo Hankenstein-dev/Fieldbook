@@ -1,0 +1,61 @@
+{
+  "taxonId": 417328,
+  "name": "Festuca elegans",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:00.560303+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Festuca elegans",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Festuca elegans is a species of grass in the family Poaceae. This species is native to Morocco, Portugal, and Spain. Is perennial and prefers temperate biomes. Festuca elegans was first described in 1838.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/f61e430ae5364adfdece974d1201109aa35d895dcbc3d20e9fa4c4c771294d60.json",
+      "sha256": "72a558d03c4f3ef3ef19f98945b5518aadefd653210f85cda18e53f7a438060a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1309834719",
+      "revisionId": 1309834719,
+      "credit": {
+        "title": "Festuca elegans",
+        "url": "https://en.wikipedia.org/wiki/Festuca_elegans",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1309834719",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Festuca elegans",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Festuca elegans''\n| imagem = Festuca elegans EnfoqueEspigas 2011-6-23 SierraMadrona.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Festuca]]''\n| espécie = '''''F. elegans'''''\n| binomial = ''Festuca elegans''\n| binomial_autoridade = Boiss.\n}}\nFestuca elegans é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é Boiss., tendo sido publicada em Elenchus Plantarum Novarum 92. 1838.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nEncontra-se protegida por legislação portuguesa ou da Comunidade Europeia, nomeadamente pelo Anexo II e IV da Directiva Habitats.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/f61e430ae5364adfdece974d1201109aa35d895dcbc3d20e9fa4c4c771294d60.json",
+      "sha256": "67939053dbfee230d428b1c17af6aef38e26a25698f3c8e471e86f10e3b3b698",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=54839565",
+      "revisionId": 54839565,
+      "credit": {
+        "title": "Festuca elegans",
+        "url": "https://pt.wikipedia.org/wiki/Festuca_elegans",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=54839565",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Festuca+elegans&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Festuca+elegans&limit=100",
+      "status": 200
+    }
+  ]
+}

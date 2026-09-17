@@ -1,0 +1,50 @@
+{
+  "input": {
+    "taxonId": 606234,
+    "scientificName": "Rhododendron formosanum",
+    "commonName": "Formosan rhododendron",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Rhododendron formosanum Hemsl. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Plants of the World Online account: Rhododendron formosanum Hemsl.."
+          },
+          {
+            "id": "s1:p2",
+            "text": "The native range of this species is S. Taiwan. It is a shrub or tree and grows primarily in the temperate biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/606234-216a4abbcd793b57.json",
+      "sha256": "216a4abbcd793b5795a73e6d391290c3427cdf566d32750a580cbc4fb5a94d26",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A332442-1",
+      "credit": {
+        "title": "Rhododendron formosanum Hemsl. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A332442-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 606234,
+    "name": "Rhododendron formosanum",
+    "language": "en",
+    "sourceTextTokens": 43,
+    "packetTokens": 152,
+    "standaloneInputTextTokens": 604,
+    "packetSha256": "a7edab071140f60165e8ba2d823bfa6792783e36dba5ce62dbb0bf097de9b28d"
+  }
+}

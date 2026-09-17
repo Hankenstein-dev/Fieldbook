@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 324716,
+  "scientificName": "Silene ciliata",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 324716,
+    "scientificName": "Silene ciliata",
+    "commonName": "Elegant Catchfly",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://static.inaturalist.org/photos/5149446/medium.jpg",
+      "attribution": "(c) tomopteris, all rights reserved, uploaded by tomopteris",
+      "license": "all-rights-reserved",
+      "sourceUrl": "https://www.inaturalist.org/photos/5149446"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 324716,
+      "count": 19,
+      "name": "Silene ciliata",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 1395969,
+      "descendant_obs_count": 19,
+      "direct_obs_count": 19
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "b8e7d60c50b46843d48cc6203a0468793398238ad735f8595ce4230446f780e7"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Silene ciliata",
+      "title": "Silene ciliata",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/1817e0c9c8354bc6e07456facf98127885697ef277aa0ea752a021e97b03721a.json",
+      "url": "https://en.wikipedia.org/wiki/Silene_ciliata",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Silene ciliata",
+      "title": "Silene ciliata",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/1817e0c9c8354bc6e07456facf98127885697ef277aa0ea752a021e97b03721a.json",
+      "url": "https://pt.wikipedia.org/wiki/Silene_ciliata",
+      "revisionId": 60070080,
+      "contentSha256": "f7edd8a149e0f64593f30c7c461611a644a4b5a20490315b18233c25d5cd6571"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314869004,
+      "canonicalName": "Silene ciliata",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314869004",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314869004.json",
+      "recordSha256": "76c4cc7d46366824115708bd2d600a3c546d6ab9289a27d93b5b9fbe521d1e7d"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

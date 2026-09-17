@@ -1,0 +1,47 @@
+{
+  "taxonId": 198902,
+  "name": "Elatine hydropiper",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:40.522290+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Elatine hydropiper",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Elatine hydropiper, known as the eight-stamened waterwort, is a species of flowering plant belonging to the family Elatinaceae. \n\nIts native range is Europe to Russian Far East.\n\nIt was first described by Swedish botanist Carl Linnaeus in 1753.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/aeb61be562fdc233b079684bf481d6993b8bf2081724c0e38574c10fee2eacda.json",
+      "sha256": "02a993992d24fff7e8033105983979957c31b88d06a12848b946b9eee3945b7c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1306381687",
+      "revisionId": 1306381687,
+      "credit": {
+        "title": "Elatine hydropiper",
+        "url": "https://en.wikipedia.org/wiki/Elatine_hydropiper",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1306381687",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Elatine hydropiper"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Elatine+hydropiper&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Elatine+hydropiper&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "taxonId": 1640341,
+  "name": "Nepenthes graciliflora × ventricosa",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:48:47.906877+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/3a80fc604bdf8e95c26158badca2bd0af0da33021e55b5ecb30373d4436f257f.json",
+      "title": "Nepenthes × ventrata",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Nepenthes+graciliflora+%C3%97+ventricosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Nepenthes+graciliflora+%C3%97+ventricosa&limit=100",
+      "status": 200
+    }
+  ]
+}

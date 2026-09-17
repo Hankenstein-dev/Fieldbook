@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":909773,"scientificName":"Phlomoides tuberosa","commonName":"Tuberous Jerusalem sage","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Phlomoides tuberosa","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Phlomoides tuberosa (syn. Phlomis tuberosa), the sage-leaf mullein, is a perennial herbaceous flowering plant in the family Lamiaceae, native to China, Kazakhstan, Kyrgyzstan, Mongolia, Russia, south west Asia and Europe. Enlarged, tuberous roots give rise to erect stems to 150 cm bearing purple-red flowers."},{"id":"s1:p2","text":"Chemistry\nPhytochemical analyses of Phlomoides tuberosa leaves have found flavonoids apigenin, apigenin-7-O-glucuronide, luteolin, luteolin-7-O-glucoside, luteolin-7-О-glucuronide, orientin, isoorientin, phenylpropanoids acteoside (verbascoside), forsythoside B, decaffeoyl-acteoside, leucosceptoside A, marthynoside, neolignanes, iridoids sesamoside, 5-desoxy-sesamoside, shanzhiside methyl ester, lamalbide, 8-O-acetyl-shanzhiside, phloyoside I, chlorotuberoside, sterols, triterpenes oleanolic acid, ursolic acid. Dried leaves of plants collected in Buryatia yielded 0.02% of essential oil with a weak aroma with dominant phytol, linalool, eugenol and caryophyllene oxide. The seed has yielded 11.8% of oil, including 3.3% gadoleic acid and some fatty acids containing the unusual allene group, 25.1% laballenic acid and 2.9% phlomic acid. The roots shown the presence of oligosaccharides raffinose, stachyose, verbascose, flavonoids luteolin, linarin, quercitrin, phenylpropanoids acteoside, isoacteoside (isoverbascoside), forsythoside B, chlorogenic acid, decaffeoyl-acteosyde, iridoids shazhiside methyl ester, 8-O-acetyl-shanzhiside methyl ester, 8-O-acetyl-shanzhigenin methyl ester, floyoside I, phlotuberosides I and II, phlorigidoside C, diterpenes (abietanes, labdanes)."},{"id":"s1:p3","text":"Cultivation\nThis plant is grown in full sun, but may tolerate some shade. The cultivar 'Amazone' has won the Royal Horticultural Society's Award of Garden Merit."},{"id":"s1:p4","text":"Uses\nThe Kalmyks are said to have eaten the cooked root, calling the plant bodmon sok. Another source for Mongolia has the plant used as a folk restorative medicine against intoxication, tuberculosis, pulmonary and cardiovascular diseases and rheumatoid arthritis. Buryat lamas used some part of the plant to treat diarrhoea, eye and lung disease and as a sedative."}]}]}

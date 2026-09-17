@@ -1,0 +1,346 @@
+{
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "startedAt": "2026-09-15T07:50:22.171321+00:00",
+  "completedAt": "2026-09-15T07:51:54.177448+00:00",
+  "elapsedSeconds": 92.005909277,
+  "turns": 1,
+  "toolCalls": 0,
+  "id": "batch-0009",
+  "taxonIds": [
+    51306,
+    51428,
+    51430,
+    51618,
+    51637,
+    51734,
+    51737,
+    51742,
+    51756,
+    51769
+  ],
+  "usage": {
+    "input_tokens": 49701,
+    "cached_input_tokens": 5888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4768,
+    "reasoning_output_tokens": 3566
+  },
+  "requestTextTokens": 42290,
+  "savedOutputTokens": 1196,
+  "recovered": false,
+  "failure": null,
+  "results": [
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51306,
+      "name": "Linum usitatissimum",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An annual flowering crop reported as native from the eastern Mediterranean to India, common flax is known only as a cultivated plant. Its slender stems yield smooth, strong fibres used for linen, while its seeds are eaten or processed into edible flaxseed oil.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Seeds are eaten or ground into meal; flaxseed oil is edible, though solvent-processed oil has also long been used for painting and varnishing.",
+        "evidence": {
+          "summary": [
+            "s1:p4",
+            "s1:p7",
+            "s1:p13",
+            "s1:p34",
+            "s1:p35",
+            "s1:p37"
+          ],
+          "humanEdibility": [
+            "s1:p34",
+            "s1:p37",
+            "s3:p2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51428,
+      "name": "Chaetomorpha",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A genus of green algae with a probably worldwide distribution, Chaetomorpha occurs in marine or brackish water and only very rarely in fresh water. Its visible filaments are unbranched and only one cell thick, with thick-walled cylindrical or barrel-shaped cells.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p2",
+            "s1:p5"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51430,
+      "name": "Cladophorales",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An order of green algae found mainly in marine habitats, Cladophorales has also made four transitions into fresh water, while only two genera are terrestrial. Its attached filaments are one cell thick, contain many nuclei and range from unbranched to profusely branched.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1",
+            "s1:p3"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51618,
+      "name": "Myrrhis odorata",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A herbaceous perennial native to the mountains of southern and central Europe, from the Pyrenees to the Caucasus. Its feathery leaves and softly hairy growth smell strongly of aniseed when crushed. Leaves are sometimes eaten raw or cooked; roots are cooked like parsnips, and seeds are chewed raw.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Leaves are eaten raw or cooked, roots are cooked like parsnips, and seeds are chewed raw.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4",
+            "s1:p5",
+            "s1:p7"
+          ],
+          "humanEdibility": [
+            "s1:p7"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51637,
+      "name": "Digitaria",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A grass genus native to tropical and warm-temperate regions, Digitaria comprises slender annual and perennial plants with long, finger-like flower clusters. Seeds of named members—including two fonio species, Digitaria sanguinalis and Digitaria compacta—are eaten in several forms.",
+        "humanEdibility": "yes",
+        "edibilityNote": "Edible seeds include fonio species, D. sanguinalis and D. compacta; they may be toasted, made into flour or porridge, or fermented into beer.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": [
+            "s1:p3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51734,
+      "name": "Physalis philadelphica",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A perennial nightshade plant originating in Mexico, Physalis philadelphica bears small spherical green or green-purple fruit and is generally farmed as an annual. Its yellow flowers have blue anthers, and each berry fills or bursts a ten-ribbed husk. The fruit is a Mexican staple eaten raw or cooked, notably in salsa verde.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The fruit is eaten raw or cooked in Mexican dishes, notably salsa verde.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p27"
+          ],
+          "humanEdibility": [
+            "s1:p2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51737,
+      "name": "Solanum lycopersicum",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A mostly annual vine originating in western South America, the tomato bears an edible berry eaten as a vegetable. Its thousands of cultivars differ greatly in size, colour, shape and flavour, while breeding for uniform red ripening has reduced sweetness and flavour.",
+        "humanEdibility": "yes",
+        "edibilityNote": "The fruit is eaten as a vegetable and used in sauces, soups, salads, condiments, curries, juice and other drinks.",
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p3"
+          ],
+          "humanEdibility": [
+            "s1:p2",
+            "s1:p4"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51742,
+      "name": "Aegopodium",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "An herb genus native to Europe and western Asia, Aegopodium has about twelve species. It bears compound flower clusters in spring and summer that attract many kinds of insect pollinators, followed by winged or ribbed nuts that separate when ripe.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p1"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51756,
+      "name": "Phormium",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A perennial genus of two species, Phormium includes one species endemic to New Zealand and another native to New Zealand and Norfolk Island. Its tough, sword-shaped leaves provide long fibres, while tall stalks bear curved tube-like flowers that turn bright red and produce abundant nectar.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p7",
+            "s1:p8",
+            "s1:p15"
+          ],
+          "humanEdibility": []
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "startedAt": "2026-09-15T07:50:22.171321+00:00",
+      "completedAt": "2026-09-15T07:51:54.177448+00:00",
+      "elapsedSeconds": 92.005909277,
+      "turns": 1,
+      "toolCalls": 0,
+      "taxonId": 51769,
+      "name": "Gaillardia",
+      "batchId": "batch-0009",
+      "usage": null,
+      "usageRef": "batch-0009-result.json",
+      "rawOutputFile": "batch-0009-output.txt",
+      "validated": true,
+      "validationError": null,
+      "output": {
+        "summary": "A flowering-plant genus native to North and South America, Gaillardia includes annual or perennial herbs and subshrubs. Its usually solitary flower heads can be yellow, orange, red, purple, brown, white or multicoloured, and many cultivars are grown ornamentally.",
+        "humanEdibility": "unknown",
+        "edibilityNote": null,
+        "evidence": {
+          "summary": [
+            "s1:p2",
+            "s1:p4"
+          ],
+          "humanEdibility": []
+        }
+      }
+    }
+  ]
+}

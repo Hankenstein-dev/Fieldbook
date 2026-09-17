@@ -1,0 +1,38 @@
+{
+  "taxonId": 1405692,
+  "name": "Sulla glomerata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:47:17.731652+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/ed3b016b54a4a5f3d43da7e54c6d559b3de3d14c383356f0e78f0e5f6a4ffe12.json",
+      "title": "Hedysarum glomeratum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Sulla glomerata"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Clustered Sulla"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Sulla+glomerata&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Sulla+glomerata&limit=100",
+      "status": 200
+    }
+  ]
+}

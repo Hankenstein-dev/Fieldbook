@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 481760,
+  "scientificName": "Peucedanum oreoselinum",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 481760,
+    "scientificName": "Peucedanum oreoselinum",
+    "commonName": "Mountain Parsley",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106845747/medium.jpeg",
+      "attribution": "(c) Patrick Hacker, some rights reserved (CC BY), uploaded by Patrick Hacker",
+      "license": "cc-by",
+      "sourceUrl": "https://www.inaturalist.org/photos/106845747"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 481760,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        48700,
+        48699,
+        790553,
+        790592,
+        156616,
+        481760
+      ],
+      "is_active": true,
+      "name": "Peucedanum oreoselinum",
+      "parent_id": 156616,
+      "ancestry": "48460/47126/211194/47125/47124/48700/48699/790553/790592/156616",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 106845747,
+        "license_code": "cc-by",
+        "attribution": "(c) Patrick Hacker, some rights reserved (CC BY), uploaded by Patrick Hacker",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106845747/square.jpeg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1998
+        },
+        "flags": [],
+        "attribution_name": "Patrick Hacker",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106845747/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106845747/medium.jpeg"
+      },
+      "taxon_changes_count": 1,
+      "taxon_schemes_count": 1,
+      "observations_count": 5032,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 1
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Mountain Parsley",
+      "conservation_status": {
+        "id": 163675,
+        "source_id": null,
+        "user_id": 3042,
+        "authority": "Red Data Book",
+        "status": "vu",
+        "status_name": "Vulnerável - D2 (VU)",
+        "geoprivacy": "obscured",
+        "iucn": 30,
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "establishment_means": {
+        "id": 45599252,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=58&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:49:12.479715+00:00",
+    "retainedFrom": "data/models/http/11b5bac007a4f676de016bce65a2288579aa8dbaf8873b7be13b674465e7a38f.json",
+    "recordSha256": "a19cd7bcca2865f5c92f7aeb705613491b2c2d74ddbfc890d5f252b268a33252"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Peucedanum oreoselinum",
+      "title": "Peucedanum oreoselinum",
+      "status": "missing",
+      "scope": "unavailable",
+      "path": "articles/en/8be7cf737987bc725a5956918f866d28e8e1a72bc1c0e6a9897bcefb3b3a572a.json",
+      "url": "https://en.wikipedia.org/wiki/Peucedanum_oreoselinum",
+      "revisionId": null,
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Peucedanum oreoselinum",
+      "title": "Peucedanum oreoselinum",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/8be7cf737987bc725a5956918f866d28e8e1a72bc1c0e6a9897bcefb3b3a572a.json",
+      "url": "https://pt.wikipedia.org/wiki/Peucedanum_oreoselinum",
+      "revisionId": 60070116,
+      "contentSha256": "8438a44935c19544262aaef2f49c853f26d3c4c68c01a7479fcf80a3296de160"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868512,
+      "canonicalName": "Peucedanum oreoselinum",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868512",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868512.json",
+      "recordSha256": "3abcb7482a1353db739e3aadb89da5b65a89033468b7d7f05cf543fde956bddb"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

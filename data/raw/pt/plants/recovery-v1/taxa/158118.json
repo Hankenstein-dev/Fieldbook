@@ -1,0 +1,63 @@
+{
+  "taxonId": 158118,
+  "name": "Aglaonema commutatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:42.021844+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Aglaonema commutatum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Aglaonema commutatum, the poison dart plant, is a species of flowering plant in the Chinese evergreen genus Aglaonema, family Araceae. It is native to the Philippines and northeastern Sulawesi, and has been introduced to other tropical locales, including Cuba, Puerto Rico, Trinidad and Tobago, Comoros, the Chagos Archipelago, India, Bangladesh, and the Cook Islands. Its hybrid cultivar 'Silver Queen' (with A. nitidum) has gained the Royal Horticultural Society's Award of Garden Merit as a houseplant.\n\nSubtaxa\nThe following varieties are accepted:\nAglaonema commutatum var. commutatum – central Luzon\nAglaonema commutatum var. elegans {{small|(Engl.) Nicolson}} – central Luzon\nAglaonema commutatum var. maculatum {{small|(Hook.f.) Nicolson}} – central Luzon\nAglaonema commutatum var. warburgii {{small|(Engl.) Nicolson}} – northeast Sulawesi\n{{gallery\n|Starr 070906-8788 Aglaonema commutatum crop.jpg|'Silver Queen' hybrid cultivar. \n|Aglaonema commutatum - Saigon Zoo and Botanical Gardens - Ho Chi Minh City, Vietnam - DSC01286.JPG|A cultivar with red-edged leaves, ‘Siam Aurora’.\n|白馬粗肋草 Aglaonema commutatum 'White Tip' -香港公園 Hong Kong Park- (14599546520).jpg|Flower.\n|Aglaonema commutatum, Botanischer Garten Dresden (2).jpg|Close-up of fruit.\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/9387f5cb7c2b25cadb1b30c3f7e10d6c364f177ebc66bd88e70de71bddea711c.json",
+      "sha256": "6ff216a4a96b10b771bf98357f30bf6230bddb1c0309411196dedbddfe0810a1",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1368287677",
+      "revisionId": 1368287677,
+      "credit": {
+        "title": "Aglaonema commutatum",
+        "url": "https://en.wikipedia.org/wiki/Aglaonema_commutatum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1368287677",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Aglaonema commutatum Schott",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Nativa de SE Asia; cultivada como ornamental\n\nAndes, Islas Caribeñas, Llanura del Caribe, Orinoquia, Valle del Cauca, Valle del Magdalena\n\n100 - 1600 msnm\n\nSí\n\nExótica\n\nCultivada\n\nPlantas vasculares\n\nNativa de SE Asia | cultivada como ornamental\n\nFALSO\n\nFALSO\n\nAsia\n\nAndina | Caribe | Orinoquia | Insular\n\n100 - 1600 msnm",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2866467.json",
+      "sha256": "a484a7451cbdf4aa7435ed152b9ba350648be01a9abdcb2c9a9a939c943e25ac",
+      "url": "https://api.gbif.org/v1/species/2866467",
+      "credit": {
+        "title": "Aglaonema commutatum Schott",
+        "url": "https://www.gbif.org/species/2866467",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Aglaonema commutatum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Aglaonema+commutatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Aglaonema+commutatum&limit=100",
+      "status": 200
+    }
+  ]
+}

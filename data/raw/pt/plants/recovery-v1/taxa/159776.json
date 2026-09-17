@@ -1,0 +1,38 @@
+{
+  "taxonId": 159776,
+  "name": "Campylium stellatum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:45.313879+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/0d10a3be9b74ba3e792c29912c339af9a537329a7b5e8a1dbb775b359c3f2398.json",
+      "title": "Campylium stellatum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Campylium stellatum"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Yellow Starry Fen Moss"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Campylium+stellatum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Campylium+stellatum&limit=100",
+      "status": 200
+    }
+  ]
+}

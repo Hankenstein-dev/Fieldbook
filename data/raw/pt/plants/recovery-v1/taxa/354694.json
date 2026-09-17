@@ -1,0 +1,77 @@
+{
+  "taxonId": 354694,
+  "name": "Begonia aconitifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:48.682297+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Begonia aconitifolia",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Begonia aconitifolia is a species of plant in the family Begoniaceae, endemic to Brazil. It grows up to 1 meter in height, with panicles of pink flowers.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/1da2deb6a0e9c6356c0ddc751b25071f6fa44842e655d873c5336857c68b5ad9.json",
+      "sha256": "8e6d65f8121991ff7d34f7054b23e8956ff648ff31d7b064e3b22a81b055247a",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1328125841",
+      "revisionId": 1328125841,
+      "credit": {
+        "title": "Begonia aconitifolia",
+        "url": "https://en.wikipedia.org/wiki/Begonia_aconitifolia",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1328125841",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Begonia aconitifolia",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "Begonia aconitifolia é uma espécie de Begonia.\n\nSinônimos\n Begonia faureana Garnier\n Begonia kimusiana C.Chev. [inválido] \n Begonia sceptrum Rodigas \n Begonia faureana var. argentea Linden \n Begonia faureana var. metallica Rodigas",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/1da2deb6a0e9c6356c0ddc751b25071f6fa44842e655d873c5336857c68b5ad9.json",
+      "sha256": "76ee7d4aa65274c5b0b0a045cd44abc89e2fed518189f17d276b344322906aee",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=63409158",
+      "revisionId": 63409158,
+      "credit": {
+        "title": "Begonia aconitifolia",
+        "url": "https://pt.wikipedia.org/wiki/Begonia_aconitifolia",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=63409158",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Begonia aconitifolia A.DC.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Begonia aconitifolia is a species of plant in the family Begoniaceae, endemic to Brazil. It grows up to 1 meter in height, with panicles of pink flowers.\n\nBegonia faureana Garnier Begonia faureana var. argentea Linden Begonia faureana var. metallica Rodigas Begonia kimusiana C.Chev. Begonia sceptrum Rodigas",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165627773.json",
+      "sha256": "d4bf71b9270d04321bed76220fa703ba9e10553466f076a9885bb85b4808bf23",
+      "url": "https://api.gbif.org/v1/species/165627773",
+      "credit": {
+        "title": "Begonia aconitifolia A.DC.",
+        "url": "https://www.gbif.org/species/165627773",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Begonia+aconitifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Begonia+aconitifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

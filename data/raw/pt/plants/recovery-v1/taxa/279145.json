@@ -1,0 +1,22 @@
+{
+  "taxonId": 279145,
+  "name": "Casimiroa tetrameria",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:56.050082+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Casimiroa+tetrameria&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Casimiroa+tetrameria&limit=100",
+      "status": 200
+    }
+  ]
+}

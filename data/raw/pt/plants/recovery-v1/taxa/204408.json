@@ -1,0 +1,47 @@
+{
+  "taxonId": 204408,
+  "name": "Schenkia spicata",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:42.967202+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Schenkia spicata",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Schenkia spicata is a species of annual herb in the family Gentianaceae. It has a very wide Old World distribution, ranging from north Africa, through Europe and into Asia.\n\nIt was first published as Gentiana spicata by Carl Linnaeus in his 1753 Species plantarum. It was later transferred into Erythraea and then Centaurium, under a broad circumscription of the latter genus that was subsequently found to be polyphyletic. In 2004 Centaurium was split into four genera, with C. spicatum becoming Schenkia spicata. At the same time, it was noted that European and Australian specimens ascribed to this species are in fact different taxa; for example, all Australian specimens studied were tetraploid, whereas all European specimens studied were diploid. Therefore, the Australian specimens were segregated into a new species, Schenkia australis.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/fa6ac85671762b25d13dd0721d57d9fc2218b1c1c01336a121713d6cef5fcfec.json",
+      "sha256": "3c40d0c49ce6fee57d3ecec5aafbd5f63b254c197fb7e2b765e68de41002c341",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1312054604",
+      "revisionId": 1312054604,
+      "credit": {
+        "title": "Schenkia spicata",
+        "url": "https://en.wikipedia.org/wiki/Schenkia_spicata",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1312054604",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Schenkia spicata"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Schenkia+spicata&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Schenkia+spicata&limit=100",
+      "status": 200
+    }
+  ]
+}

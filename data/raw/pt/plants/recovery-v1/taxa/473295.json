@@ -1,0 +1,74 @@
+{
+  "taxonId": 473295,
+  "name": "Thymelaea villosa",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:54:48.457764+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Thymelaea villosa",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Thymelaea villosa''\n| imagem = Thymelaea villosa Habitus 2012-6-22 Valderrepisa SierraMadrona.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Myrtales]]\n| família = [[Thymelaeaceae]]\n| género = ''[[Thymelaea]]''\n| espécie = '''''T. villosa'''''\n| binomial = ''Thymelaea villosa''\n| binomial_autoridade = (L.) Endl.\n}}\nThymelaea villosa é uma espécie de planta com flor pertencente à família Thymelaeaceae. \n\nA autoridade científica da espécie é (L.) Endl., tendo sido publicada em Genera Plantarum Suppl. 4(2): 66. 1847.\n\nOs seus nomes comuns são cnídio, timeleia-peluda ou trovisco-alvar.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/d520d540d6c6ef4c493a74bf589f46d7ef2f90a21414d0505825014c3aa088c0.json",
+      "sha256": "7a221efc5caf06d71e683d9da24be88d6db52b7563c2dda9c6f441f3721d09ad",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40212565",
+      "revisionId": 40212565,
+      "credit": {
+        "title": "Thymelaea villosa",
+        "url": "https://pt.wikipedia.org/wiki/Thymelaea_villosa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40212565",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Thymelaea villosa (Linnaeus 1762) Endl.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "\" Habitat in Lusitania, Hispania. Alstroemer. \" RCN: 2820.\n\nLectotype (Kit Tan in Notes Roy. Bot. Gard. Edinburgh 38: 229. 1980): Alstroemer 235, Herb. Linn. No. 500.5 (LINN).",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/164004411.json",
+      "sha256": "f6e6ec18df4205c565b70f663a92428025aaf3e0d74d62519e99a8e89c93eee6",
+      "url": "https://api.gbif.org/v1/species/164004411",
+      "credit": {
+        "title": "Thymelaea villosa (Linnaeus 1762) Endl.",
+        "url": "https://www.gbif.org/species/164004411",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Thymelaea villosa (L.) Endl.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Lectotype (Kit Tan in Notes Roy. Bot. Gard. Edinburgh 38: 229. 1980): Alstroemer 235, Herb. Linn. No. 500.5 (LINN).\n\n\" Habitat in Lusitania, Hispania. Alstroemer. \" RCN: 2820.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5523455.json",
+      "sha256": "9d2f02950de7c39a5ff71baf608b19ec972c4510b46b10a51f78e097076b7338",
+      "url": "https://api.gbif.org/v1/species/5523455",
+      "credit": {
+        "title": "Thymelaea villosa (L.) Endl.",
+        "url": "https://www.gbif.org/species/5523455",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Thymelaea+villosa&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Thymelaea+villosa&limit=100",
+      "status": 200
+    }
+  ]
+}

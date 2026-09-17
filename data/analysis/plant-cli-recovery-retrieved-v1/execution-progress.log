@@ -1,0 +1,6 @@
+10/50 plants; 1 calls; 10 passed, 0 failed
+20/50 plants; 2 calls; 10 passed, 10 failed
+30/50 plants; 3 calls; 10 passed, 20 failed
+40/50 plants; 4 calls; 10 passed, 30 failed
+50/50 plants; 5 calls; 10 passed, 40 failed
+{"complete": false, "count": 50, "usage": {"input_tokens": 18940, "cached_input_tokens": 5888, "cache_write_input_tokens": 0, "output_tokens": 2366, "reasoning_output_tokens": 1552, "uncached_input_tokens": 13052}, "validatedCount": 10, "failedCount": 40, "generationCompletedCount": 10, "generationCallCount": 5, "completedCallCount": 1, "missingUsageCount": 4, "nullSummaryCount": 3, "startedAt": "2026-09-15T08:39:53.122755+00:00", "completedAt": "2026-09-15T08:40:45.124507+00:00", "elapsedWallSeconds": 52.001752, "totalGenerationSeconds": 51.94835989999956, "savedOutputTokens": 808, "usageUnit": "CLI call; counted once per batch", "scope": "CLI generation processes only. Includes CLI instructions; excludes coordinating chat and Python. Cached/reasoning counts are subsets. Botanical accuracy has not been reviewed.", "validation": "JSON object/schema, whitespace word counts, deterministic sentence-boundary heuristic, paragraph count, evidence-ID existence and required evidence; no LLM review."}

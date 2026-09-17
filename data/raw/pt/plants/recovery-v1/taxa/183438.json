@@ -1,0 +1,72 @@
+{
+  "taxonId": 183438,
+  "name": "Exaculum pusillum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:36.136761+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Exaculum",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Exaculum is a monotypic genus of flowering plants belonging to the family Gentianaceae. The only species is Exaculum pusillum.\n\nIts native range is Southwestern Europe to Western and Central Mediterranean.",
+      "identityDecision": "Exact scientific identity in taxobox; common/translated article title",
+      "path": "data/raw/pt/plants/sources/articles/en/ca2be6a6d79e3c23b837b91f05e7111ff1fb328cb90498dcd3d57ac0cd318fa0.json",
+      "sha256": "5a82890a8c7c2bbb18f4657718140ee811014e79d181345d557ab3f4db70235c",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1139846881",
+      "revisionId": 1139846881,
+      "credit": {
+        "title": "Exaculum",
+        "url": "https://en.wikipedia.org/wiki/Exaculum",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1139846881",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Exaculum pusillum",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Exaculum pusillum''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[eudicotiledóneas]]\n| clado3 = \n| ordem = [[Gentianales]]\n| família = [[Gentianaceae]]\n| género = ''[[Exaculum]]''\n| espécie = '''''E. pusillum'''''\n| binomial = ''Exaculum pusillum''\n| binomial_autoridade = (Lam.) Caruel\n}}\nExaculum pusillum é uma espécie de planta com flor pertencente à família Gentianaceae. \n\nA autoridade científica da espécie é (Lam.) Caruel, tendo sido publicada em Flora italiana, ossia descrizione delle piante 6: ?. 1886.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/ca2be6a6d79e3c23b837b91f05e7111ff1fb328cb90498dcd3d57ac0cd318fa0.json",
+      "sha256": "f9e90c26c47af11592ee0dec69170e96fd35cb13a961ce88ec187b97112348e4",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=57618775",
+      "revisionId": 57618775,
+      "credit": {
+        "title": "Exaculum pusillum",
+        "url": "https://pt.wikipedia.org/wiki/Exaculum_pusillum",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=57618775",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/c78e249b5474494330a8d2f99f851eada17363f70592880e05a853469c7be217.json",
+      "title": "Exaculum",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Exaculum pusillum"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Exaculum+pusillum&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Exaculum+pusillum&limit=100",
+      "status": 200
+    }
+  ]
+}

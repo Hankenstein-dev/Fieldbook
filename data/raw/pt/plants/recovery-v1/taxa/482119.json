@@ -1,0 +1,32 @@
+{
+  "taxonId": 482119,
+  "name": "Jubula hutchinsiae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:53.396845+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Jubula hutchinsiae"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Hutchins' Hollywort"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Jubula+hutchinsiae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Jubula+hutchinsiae&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "taxonId": 569596,
+  "name": "Dimorphotheca jucunda",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:55:58.213620+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Dimorphotheca jucunda",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Dimorphotheca jucunda, the delightful African daisy, is a species of flowering plant in the family Asteraceae. It is native to South Africa, Lesotho and Eswatini, and introduced to Ireland and Tasmania. As its synonym Osteospermum jucundum, it and two of its cultivars, 'Blackthorn Seedling' and 'Langtrees' have gained the Royal Horticultural Society's Award of Garden Merit.\n\n{{Gallery\n|Trailing Mauve Daisies (Dimorphotheca jucunda) clump between rocks ... (32533647285).jpg|In the wild in South Africa\n|IMG 4183-Dimorphotheca jucunda.jpg|Close-up of flower\n|IMG 0460-Dimorphotheca jucunda.jpg|At the [[Gothenburg Botanical Garden]]\n|Trailing Mauve Daisy (Dimorphotheca jucunda) (32533690505).jpg|Close-up of flower in the wild in Africa\n}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/f39cba2c6140c80ba89db44a00a94b10d2e8152b47a0fe308422b9e23d5afc3b.json",
+      "sha256": "6a72c0acb90e7d905bf4a2230f07c6f73b72e0b054c12eec63312bf68d56be92",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1370400872",
+      "revisionId": 1370400872,
+      "credit": {
+        "title": "Dimorphotheca jucunda",
+        "url": "https://en.wikipedia.org/wiki/Dimorphotheca_jucunda",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1370400872",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Dimorphotheca jucunda E.Phillips",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Dimorphotheca jucunda, the delightful African daisy, is a species of flowering plant in the family Asteraceae. It is native to South Africa, Lesotho and Eswatini, and introduced to Ireland and Tasmania. As its synonym Osteospermum jucundum, it and two of its cultivars, 'Blackthorn Seedling' and 'Langtrees' have gained the Royal Horticultural Society's Award of Garden Merit.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/183697836.json",
+      "sha256": "cec453d08398b61a83e121d2ceed7d514165d66f3b4699e0fdf4a9329fc40cfd",
+      "url": "https://api.gbif.org/v1/species/183697836",
+      "credit": {
+        "title": "Dimorphotheca jucunda E.Phillips",
+        "url": "https://www.gbif.org/species/183697836",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dimorphotheca jucunda"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dimorphotheca+jucunda&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dimorphotheca+jucunda&limit=100",
+      "status": 200
+    }
+  ]
+}

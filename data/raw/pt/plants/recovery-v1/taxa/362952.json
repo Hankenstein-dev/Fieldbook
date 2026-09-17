@@ -1,0 +1,55 @@
+{
+  "taxonId": 362952,
+  "name": "Dypsis decaryi",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:42.554052+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Dypsis decaryi (Jum.) Beentje & J.Dransf.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "SE Madagascar; cultivada en los trópicos\n\n500 - 1500 msnm\n\nExótica\n\nCultivada\n\nSE Madagascar | cultivada en los trópicos\n\nPlantas vasculares\n\nFALSO\n\nFALSO\n\nAndina | Orinoquia | Pacifico\n\n500 - 1500 msnm",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2736002.json",
+      "sha256": "9893467bfcd1fb2729c18cb43cd44d4afeb75eede56f0553551aa9fa731fc278",
+      "url": "https://api.gbif.org/v1/species/2736002",
+      "credit": {
+        "title": "Dypsis decaryi (Jum.) Beentje & J.Dransf.",
+        "url": "https://www.gbif.org/species/2736002",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/11bf4d1cbbd4d7566705fa98b61a4f2949345b1b151c4577f745cd0ee6f888b4.json",
+      "title": "Chrysalidocarpus decaryi",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Dypsis decaryi"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Triangle palm"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Dypsis+decaryi&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Dypsis+decaryi&limit=100",
+      "status": 200
+    }
+  ]
+}

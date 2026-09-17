@@ -1,0 +1,79 @@
+{
+  "taxonId": 142818,
+  "name": "Blechnum occidentale",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:50:37.822246+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Blechnum occidentale",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Use dmy dates|cs1-dates=ly|date=June 2020}}\n\nBlechnum occidentale is a fern in the family Blechnaceae. Its native range is from Mexico through Central America and the Caribbean to tropical South America.\n\nBlechnum scaberulum and Blechnum sodiroi have been regarded as separate species, but are now regarded as synonyms of Blechnum occidentale.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/ba22ee9e5b5844a76462f30a1dd16f7a380d35cc2f665f481b60ecaadfb76ab7.json",
+      "sha256": "8a7733fa27e055e30fbe4e80383fb4148063925d45711cfac01bc930455a1f2d",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314513253",
+      "revisionId": 1314513253,
+      "credit": {
+        "title": "Blechnum occidentale",
+        "url": "https://en.wikipedia.org/wiki/Blechnum_occidentale",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314513253",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Blechnum occidentale L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Valley mires, poor fens and transition mires (D2 level 2)\n\nSouthern America\n\nNorthern America\n\nAsia-Tropical\n\nAfrica\n\nSi\n\nNE\n\nHumedal de planicie\n\nHierba\n\nRamiro Fonnegra G. & et al.\n\nMedicinal\n\nCOL\n\nAC4863\n\n256719\n\n\"Instituto Humboldt, 2014\"\n\nAntillas, Suramérica, Australia, Hawai, Sri Lanka\n\nAndes, Guayana y Serranía de La Macarena, Llanura del Caribe, Pacífico, Sierra Nevada de Santa Marta, Valle del Magdalena\n\n50 - 2850 msnm\n\nLectotype (Proctor in Howard, Fl. Lesser Antilles 2: 156. 1977): Herb. Linn. No. 1247.1 (LINN), see above, right.\n\nGeneritype of Blechnum Linnaeus (vide Smith, Hist. File. 300. 1875).\n\n\" Habitat in America meridionali. \" RCN: 7815.\n\nNote: Linnaeus evidently transposed the epithets \" occidentale \" and \" orientale \" in describing his two species of Blechnum in 1753.\n\nPara las mujeres cuando dan a luz.\n\nLas hojas alivian el dolor de huesos.\n\nHierba",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/2651529.json",
+      "sha256": "24d33a5d07a0dcf9ef18e3920b2acf2f1090b38999885b907c003f71a2a52340",
+      "url": "https://api.gbif.org/v1/species/2651529",
+      "credit": {
+        "title": "Blechnum occidentale L.",
+        "url": "https://www.gbif.org/species/2651529",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    },
+    {
+      "title": "Blechnum occidentale L.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "50 - 2850 msnm\n\nAndes, Guayana y Serranía de La Macarena, Llanura del Caribe, Pacífico, Sierra Nevada de Santa Marta, Valle del Magdalena\n\nAntillas, Suramérica, Australia, Hawai, Sri Lanka",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/166181277.json",
+      "sha256": "b8efe68e8bfc89b28082756907b8d7d876e20625280b813b8083c9c7b2e2f68f",
+      "url": "https://api.gbif.org/v1/species/166181277",
+      "credit": {
+        "title": "Blechnum occidentale L.",
+        "url": "https://www.gbif.org/species/166181277",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Blechnum occidentale"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Blechnum+occidentale&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Blechnum+occidentale&limit=100",
+      "status": 200
+    }
+  ]
+}

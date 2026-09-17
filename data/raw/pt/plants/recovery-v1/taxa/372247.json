@@ -1,0 +1,32 @@
+{
+  "taxonId": 372247,
+  "name": "Allium fraseri",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:40:44.675439+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Allium fraseri"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Fraser's Wild Onion"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Allium+fraseri&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Allium+fraseri&limit=100",
+      "status": 200
+    }
+  ]
+}

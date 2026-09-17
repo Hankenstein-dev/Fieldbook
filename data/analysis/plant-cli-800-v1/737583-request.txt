@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":737583,"scientificName":"Echium boissieri","commonName":"Echium boissieri","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Echium boissieri","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Echium boissieri is a species of flowering plant in the borage family Boraginaceae. It is native to the western Mediterranean Basin in the Iberian Peninsula and Northwest Africa. It is single-stemmed and can reach up to {{convert|2.5|m|abbr=on}} in height."}]},{"id":"s2","title":"Lista Vermelha da Flora Vascular de Portugal Continental — Echium boissieri","language":"unspecified","scope":"Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.","passages":[{"id":"s2:p1","text":"Echium boissieri é uma herbácea monocárpica de grande porte, que ocorre em cultivos de sequeiro e olivais abandonados e em taludes de estradas e bermas de caminhos. Tem apenas quatro subpopulações isoladas e muito circunscritas, duas das quais têm apenas poucas dezenas de indivíduos. A maior subpopulação é composta por diversos núcleos muito pequenos ao longo de taludes de estrada e bermas de caminhos, e quatro núcleos mais numerosos em olivais abandonados, tendo o maior destes núcleos cerca de 200 indivíduos. Avalia-se como Vulnerável porque tem uma extensão de ocorrência e área de ocupação baixas, 10 localizações, e um declínio continuado da área do habitat, que permite inferir e projetar um declínio populacional. Adicionalmente, a população nacional estima-se em menos de 2500 indivíduos, não tendo nenhuma das subpopulações mais de 1000, o que suporta mais esta categoria. A ameaça mais grave é a expansão e intensificação agrícolas em larga escala no Baixo Alentejo, que está a pôr em risco a sobrevivência do maior núcleo conhecido (e vários outros mais pequenos), que se restringe a uma pequena ilha de olivais de sequeiro cercada por grandes explorações de agricultura intensiva de regadio, algumas muito recentes. Adicionalmente, a limpeza de taludes de estrada com herbicida e obras de beneficiação ou alargamento de estradas ameaçam também muitos núcleos no Baixo Alentejo e Algarve. É urgente designar uma área protegida para a conservação do maior núcleo conhecido (e seus satélites) perto de Beja, que deve integrar uma rede de conservação de habitats arvenses de sequeiro. Urge também alertar os municípios para a conservação dos valores existentes nos taludes das estradas."}]}]}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":61027,"scientificName":"Centaurium tenuiflorum","commonName":"Slender Centaury","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Centaurium tenuiflorum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Centaurium tenuiflorum, the slender centaury, is a species of annual herb in the family Gentianaceae. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 17 cm tall. It is native to the Mediterranean basin, Western Asia to the Transcaucasus, Iran, and western Himalayas, Macaronesia, Great Britain, the Crimean Peninsula, Chad, and Socotra. "},{"id":"s1:p2","text":"The species was first described as Erythraea tenuiflora by Johann Centurius Hoffmannsegg and Johann Heinrich Friedrich Link in 1813. In 1907 Karl Fritsch reassigned it to genus Centaurium as Centaurium tenuiflorum."},{"id":"s1:p3","text":"Subspecies\nFour subspecies are accepted.\nCentaurium tenuiflorum subsp. acutiflorum {{small|(Schott) Zeltner}} – Mediterranean basin to Crimea, Iran, Transcaucasus, and western Himalayas\nCentaurium tenuiflorum subsp. anglicum {{small|T.C.G.Rich & McVeigh}} – southern Great Britain\nCentaurium tenuiflorum subsp. tenuiflorum – Mediterranean basin, Chad, Azores, Canary Islands, Madeira, and Socotra\nCentaurium tenuiflorum subsp. viridense {{small|(Bolle) O.Erikss., A.Hansen & Sunding}} – Cape Verde Islands"},{"id":"s1:p4","text":" Sources \n{{Free-content attribution\n| title = Centaurium tenuiflorum\n| source = Encyclopedia of Life\n| documentURL = https://eol.org/pages/6856176\n| license statement URL = https://eol.org/docs/what-is-eol/copyright-and-linking-policy\n| license = CC0\n}}"}]}]}

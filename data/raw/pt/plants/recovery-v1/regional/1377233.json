@@ -1,0 +1,42 @@
+{
+  "taxonId": 1377233,
+  "sources": [
+    {
+      "title": "Flora-On — Vulpia membranacea",
+      "language": "pt",
+      "scope": "requested_taxon_regional_habitat_Portugal",
+      "clean": "Flora-On botanical account for Vulpia membranacea. Geographic scope: Portugal; habitat descriptions and native status on this site refer to Portugal, not the global native range.\n\nEcologia Prados e pastagens secas, pousios, incultos. Em solos arenosos, geralmente nitrofilizados, quer no litoral quer em zonas mais interiores.\n\nNão confundir com Não confundir com Vulpia fasciculata, da qual se distingue por ter a panícula claramente distanciada da bainha foliar superior. Além disso possui o ovário e o fruto glabro e anteras inferiores a 1 mm de comprimento.\n\nDistância ao mar (n=16)\n\nPreferências bioclimáticas explorar gráficos carregando... carregando...\n\nEspécies com distribuição semelhante Quercus suber , Briza maxima , Tuberaria guttata , Oxalis pes-caprae , Hedypnois cretica-(2) , Urginea maritima , Pistacia lentiscus ver todas",
+      "identityDecision": "Exact scientific name in account identity field; documented same-epithet genus transfer in GBIF synonym list",
+      "path": "data/raw/pt/plants/recovery-v1/regional-originals/1377233.json",
+      "sha256": "7a226e1ececd7113c87a769ec8590b22532ceb05b37f3cf910eca1f4f3b887c8",
+      "url": "https://flora-on.pt/?q=Vulpia+membranacea",
+      "credit": {
+        "title": "Flora-On — Vulpia membranacea",
+        "url": "https://flora-on.pt/?q=Vulpia+membranacea",
+        "attribution": "Flora-On, Sociedade Portuguesa de Botânica",
+        "licenseUrl": "https://flora-on.pt/sobre.html"
+      }
+    }
+  ],
+  "searches": [
+    {
+      "url": "https://flora-on.pt/?q=Festuca+membranacea",
+      "status": 200
+    },
+    {
+      "url": "https://api.gbif.org/v1/species/match?name=Festuca+membranacea&strict=true",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Stipa+membranacea",
+      "status": 200
+    },
+    {
+      "url": "https://flora-on.pt/?q=Vulpia+membranacea",
+      "status": 200
+    }
+  ],
+  "state": "supported_regional_habitat",
+  "searchExhausted": false,
+  "completedAt": "2026-09-15T07:47:09.697715+00:00"
+}

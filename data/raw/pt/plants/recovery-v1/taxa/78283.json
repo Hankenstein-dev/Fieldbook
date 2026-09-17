@@ -1,0 +1,82 @@
+{
+  "taxonId": 78283,
+  "name": "Ornithopus pinnatus",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:49:42.014126+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Ornithopus pinnatus",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "{{use dmy dates|date=November 2021}}\n\nOrnithopus pinnatus, the orange birdsfoot, is a plant in the Fabaceae family. It was first described as Scorpiurus pinnata in 1768 by Philip Miller in The Gardeners Dictionary. In 1907, George Claridge Druce assigned it to the genus Ornithopus. \n\nIt is native to Western Europe, the Mediterranean Region and Macaronesia but is found elsewhere as an introduced species.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/78ab39ff80db36a441a1435d2a16a3838f0b57d36b5a071c04bde12f6cce6d21.json",
+      "sha256": "55a10da0f6dd3d00c615b79c7ce27f79dd29ab92cf0b4b0b76c4e5e888b4d2fc",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1139857529",
+      "revisionId": 1139857529,
+      "credit": {
+        "title": "Ornithopus pinnatus",
+        "url": "https://en.wikipedia.org/wiki/Ornithopus_pinnatus",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1139857529",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Ornithopus pinnatus",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Ornithopus pinnatus''\n| imagem = Ornithopus pinnatus - Flickr - Kevin Thiele.jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[Eudicotiledôneas|eudicotiledóneas]]\n| clado3 = \n| ordem = [[Fabales]]\n| família = [[Fabaceae]]\n| género = ''[[Ornithopus]]''\n| espécie = '''''O. pinnatus'''''\n| binomial = ''Ornithopus pinnatus''\n| binomial_autoridade = (Mill.) Druce\n}}\nOrnithopus pinnatus é uma espécie de planta com flor pertencente à família Fabaceae. \n\nA autoridade científica da espécie é (Mill.) Druce, tendo sido publicada em Journal of Botany, British and Foreign 45: 420. 1907.\n\nOs seus nomes comuns são serradela-delgada ou serradela-lanuda.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental, no Arquipélago dos Açores e no Arquipélago da Madeira.\n\nEm termos de naturalidade é nativa das três regiões atrás indicadas.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/78ab39ff80db36a441a1435d2a16a3838f0b57d36b5a071c04bde12f6cce6d21.json",
+      "sha256": "18231e4d422ba0f012b54b4f392301ffba7344b815bda95cbfb006d511235055",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=62177387",
+      "revisionId": 62177387,
+      "credit": {
+        "title": "Ornithopus pinnatus",
+        "url": "https://pt.wikipedia.org/wiki/Ornithopus_pinnatus",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=62177387",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "title": "Ornithopus pinnatus (Mill.) Druce",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Inflorescència sense fulla involucrant; fulles totes peciolades, amb 3-7 parells de folíols laterals. Herba glabrescent, multicaule, anual, difusa; fulles imparipinnades, amb els folíols oblongs; estípules molt petites, linears, les superiors sovint nul.les; 1-5 flors grogues, de 6-8 mm, en glomèrul llargament pedunculat; fruit de 2-3,5 cm, arcuat, glabrescent, poc comprimit, amb (6)8-12 segments separats per constriccions poc marcades; bec terminal curt. Th. e. 4-30(50) cm. IV-V.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/5358260.json",
+      "sha256": "a11c0c14b88d32907aad84b77866483e8e6ee941343d8427f15b306f98b6f786",
+      "url": "https://api.gbif.org/v1/species/5358260",
+      "credit": {
+        "title": "Ornithopus pinnatus (Mill.) Druce",
+        "url": "https://www.gbif.org/species/5358260",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Ornithopus pinnatus"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Ornithopus+pinnatus&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Ornithopus+pinnatus&limit=100",
+      "status": 200
+    }
+  ]
+}

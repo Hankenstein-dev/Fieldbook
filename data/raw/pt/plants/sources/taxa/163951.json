@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 163951,
+  "scientificName": "Hyoscyamus niger",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 163951,
+    "scientificName": "Hyoscyamus niger",
+    "commonName": "black henbane",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318097960/medium.jpeg",
+      "attribution": "(c) Antoine Guilbaud, some rights reserved (CC BY-NC), uploaded by Antoine Guilbaud",
+      "license": "cc-by-nc",
+      "sourceUrl": "https://www.inaturalist.org/photos/318097960"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 163951,
+      "count": 2,
+      "name": "Hyoscyamus niger",
+      "rank": "species",
+      "rank_level": 10,
+      "is_active": true,
+      "iconic_taxon_name": "Plantae",
+      "parent_id": 157625,
+      "descendant_obs_count": 2,
+      "direct_obs_count": 2
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/taxonomy?locale=en&place_id=7122",
+    "fetchedAt": "2026-09-09T18:08:21.621022+00:00",
+    "retainedFrom": "data/models/http/355298cb4bdbfc75613869375d87ca1398fee37f188e61925744fad1773bfcf0.json",
+    "recordSha256": "8ce1a7b478b67bec6307014efdd2af2e9abc4d75be75002955ef02b38ba6f290"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Hyoscyamus niger",
+      "title": "Hyoscyamus niger",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/fabec7b6dbbeffb4ea27fccdb0db2c5472cc8de5781b1bb15b2a75cc42826c9e.json",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamus_niger",
+      "revisionId": 1368639005,
+      "contentSha256": "97bd4a2fdcd7b50b435662aff6c3becff463c8950c6199500d22dc573b076301"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Hyoscyamus niger",
+      "title": "Hyoscyamus niger",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/pt/fabec7b6dbbeffb4ea27fccdb0db2c5472cc8de5781b1bb15b2a75cc42826c9e.json",
+      "url": "https://pt.wikipedia.org/wiki/Hyoscyamus_niger",
+      "revisionId": 69189264,
+      "contentSha256": "4838b8d992d08710c5e8906c5bad99705985a0dc1d9f1319d743bad8e921a4de"
+    }
+  ],
+  "botanicalSources": [
+    {
+      "provider": "GBIF",
+      "datasetKey": "348616c0-d882-4bf0-84ed-bfb73d499a80",
+      "datasetTitle": "Lista Vermelha da Flora Vascular de Portugal Continental",
+      "usageKey": 314868526,
+      "canonicalName": "Hyoscyamus niger",
+      "scope": "Mainland Portugal; 2020 publication, assessments conducted 2016–2019. Preserve regional and historical scope.",
+      "match": "exact_canonical_name_and_rank",
+      "reviewStatus": "unreviewed",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "citation": {
+        "text": "Andre Carapeto % Ana Francisco, Paulo Pereira, Miguel Porto, felipe (2020). Lista Vermelha da Flora Vascular de Portugal Continental. Plazi.org taxonomic treatments database. Checklist dataset https://doi.org/10.15468/ge693f accessed via GBIF.org on 2026-09-12.",
+        "citationProvidedBySource": false
+      },
+      "sourceUrl": "https://www.gbif.org/species/314868526",
+      "path": "supplementary/gbif/348616c0-d882-4bf0-84ed-bfb73d499a80/records/314868526.json",
+      "recordSha256": "7b7f413e58fa18f006982aa81d960d33146cdef98e7245008a1cf63c2dea7bf6"
+    }
+  ],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

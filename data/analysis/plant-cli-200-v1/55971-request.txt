@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":55971,"scientificName":"Tanacetum vulgare","commonName":"tansy","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Tanacetum vulgare","language":"pt","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{Mais notas|data=junho de 2024}}\n{{Info/Taxonomia\n |nome = ''Tanacetum vulgare'' \n |cor =lightgreen\n |imagem = Illustration Tanacetum vulgare0.jpg\n |imagem_legenda = \n |reino = [[Plantae]]\n |divisão = [[Spermatophyta]]\n |classe = [[Magnoliatae]]\n |ordem = [[Asterales]]\n |família = [[Asteraceae]]\n |género = ''[[Tanacetum]]''\n |espécie = '''''T. vulgare'''''\n |binomial = Tanacetum vulgare\n |binomial_autoridade = [[Carolus Linnaeus|L.]]\n |subdivisão_nome = [[Subespécie]]s\n |subdivisão = \n}}"},{"id":"s1:p2","text":"Tanacetum vulgare, conhecida pelos nomes populares de atanásia, atanásia-das-boticas, catinga-de-mulata, erva-lombrigueira, erva-das-moscas, erva-de-santa-maria, erva-de-são-marcos, erva-dos-vermes, palma-crespa, palminha, tanaceto e outros, é uma planta herbácea perene nativa da Ásia (China, Japão, Cazaquistão, Coréias, Mongólia, Sibéria, Rússia, Turcomenistão) e Europa. Foi introduzida em outras partes do mundo, como a América do Norte, e em algumas áreas se tornou invasiva."},{"id":"s1:p3","text":" Características \nÉ uma planta herbácea perene robusta que possui talo ereto de 60 a 90 cm de altura. As folhas pinadas com numerosos folíolos profundamente dentados, e nervura principal alada, são de cor verde-escuro e aromáticas. As flores, produzidas no verão, são pequenas, de cor amarelo dourado, agrupadas em capítulos, formando corimbo denso e aplanado; por seu odor fresco e acentuado, são usadas em essências e cosméticos."},{"id":"s1:p4","text":" Uso na medicina popular \nTanacetum vulgare tem diversos usos na medicina popular. \nÉ usada como vermicida e para tratar hemorróidas. A infusão das flores é um anti-helmíntico recomendado contra as ascaridíase e oxiuro. Em aplicação externa, na forma de azeite, é empregada para combater o reumatismo. Também é usada para combater taquicardia e epilepsia. Além disso, é abortiva, dada a sua toxicidade, quando consumida em grande quantidade."},{"id":"s1:p5","text":"Uso culinário \nÉ uma das ervas utilizadas para adicionar aroma e sabor amargo aos vermutes. Também é empregada em preparações culinárias doces e salgadas."}]}]}

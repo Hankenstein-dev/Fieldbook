@@ -1,0 +1,53 @@
+{
+  "taxonId": 343009,
+  "name": "Carex vulcani",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:53:43.321098+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Carex vulcani",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Carex vulcani''\n| imagem = Flora Azorica (Tab. III) (7216330366).jpg\n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[Angiosperma|angiospérmicas]]\n| clado2 = [[monocotiledónea]]s\n| clado3 = [[comelinídeas]]\n| ordem = [[Poales]]\n| família = [[Cyperaceae]]\n| género = ''[[Carex]]''\n| espécie = '''''C. vulcani'''''\n| binomial = ''Carex vulcani''\n| binomial_autoridade = Hochst. ex Seub.\n}}\nCarex vulcani é uma espécie de planta com flor pertencente à família Cyperaceae. \n\nA autoridade científica da espécie é Hochst. ex Seub., tendo sido publicada em Flora Azorica 22. 1840.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente no Arquipélago dos Açores.\n\nEm termos de naturalidade é endémica da região atrás referida.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/83bf97a52768eb2c9aa9fddc5fb9e2c7ef78bac5ad2bac414c2202953d151923.json",
+      "sha256": "28d0a653525bc8850ea5643f8531c714c9dd2f6a410383d2c78f16247666d5ce",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=57341182",
+      "revisionId": 57341182,
+      "credit": {
+        "title": "Carex vulcani",
+        "url": "https://pt.wikipedia.org/wiki/Carex_vulcani",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=57341182",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/83bf97a52768eb2c9aa9fddc5fb9e2c7ef78bac5ad2bac414c2202953d151923.json",
+      "title": "Carex vulcani",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Carex vulcani"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Carex+vulcani&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Carex+vulcani&limit=100",
+      "status": 200
+    }
+  ]
+}

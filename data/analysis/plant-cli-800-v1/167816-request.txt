@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":167816,"scientificName":"Rhododendron japonicum","commonName":"Japanese Azalea","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Rhododendron japonicum","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Rhododendron japonicum, the Japanese azalea, is a species of flowering plant in the family Ericaceae, native to Japan. A deciduous shrub reaching {{cvt|8|ft|m|1}} but usually half that, it is found in grasslands and open scrub, never in dense thickets or woodlands. It is very similar to the Chinese endemic Rhododendron molle, to the extent that its cultivars are customarily grouped with the cultivars of R.molle.\nIt is popularly cultivated as a bonsai tree.\n{{Gallery\n|Rhododendron japonicum 0zz.jpg|At the [[United States National Arboretum]]\n|Rhododendron japonicum f. flavum 01.jpg|Putative form ''Rhododendron japonicum'' f. ''flavum''\n|Rhododendron molle subsp japonicum4.jpg|Mass effect\n}}"}]}]}

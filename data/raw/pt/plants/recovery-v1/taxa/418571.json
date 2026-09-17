@@ -1,0 +1,38 @@
+{
+  "taxonId": 418571,
+  "name": "Opuntia bergeriana",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:00.785231+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/es/9fc8d3c6854f10ce51e3a0a6ce66fbcd8bea2251576f8a6306dca99905c44548.json",
+      "title": "Opuntia elatior",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Opuntia bergeriana"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Red-flower Pricklypear"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Opuntia+bergeriana&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Opuntia+bergeriana&limit=100",
+      "status": 200
+    }
+  ]
+}

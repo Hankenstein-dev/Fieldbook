@@ -1,0 +1,58 @@
+{
+  "taxonId": 277635,
+  "name": "Begonia mazae",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:51.348673+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Begonia mazae",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Begonia mazae is a species of flowering plant in the family Begoniaceae, native to southeastern Mexico. In its tropical forest habitat it grows in extremely dense shade.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/d98bac68e61e4c5d5a48728e4da1568afc5bf5210d4b3489cfaf8b8f9eccbb9e.json",
+      "sha256": "d0b39e764698319b17935d3a02350b17cdad8b204446bd7af0a925279b2152c2",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1342828027",
+      "revisionId": 1342828027,
+      "credit": {
+        "title": "Begonia mazae",
+        "url": "https://en.wikipedia.org/wiki/Begonia_mazae",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1342828027",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Begonia mazae Ziesenh.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Begonia mazae is a species of flowering plant in the family Begoniaceae, native to southeastern Mexico. In its tropical forest habitat it grows in extremely dense shade.",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/184540033.json",
+      "sha256": "4b6be42a750abdf25d9cffc1fdc0fd18479d52ce70038e27733ffa5efedfbaa3",
+      "url": "https://api.gbif.org/v1/species/184540033",
+      "credit": {
+        "title": "Begonia mazae Ziesenh.",
+        "url": "https://www.gbif.org/species/184540033",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Begonia+mazae&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Begonia+mazae&limit=100",
+      "status": 200
+    }
+  ]
+}

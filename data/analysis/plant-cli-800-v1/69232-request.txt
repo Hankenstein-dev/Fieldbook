@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":69232,"scientificName":"Alocasia cucullata","commonName":"Buddha's Hand Taro","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Alocasia cucullata","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Alocasia cucullata is a species of flowering plant in the arum family, Araceae. It is known by the common names Chinese taro, Chinese ape, Buddha's hand, and hooded dwarf elephant ear. It is kept as an ornamental plant."},{"id":"s1:p2","text":"The native range of the species is unclear, as it is known only from cultivation and from specimens growing around human habitation and in disturbed areas. It is grown in many parts of Asia, such as China, India, Sri Lanka, and Burma."},{"id":"s1:p3","text":"Description\nThis aroid plant is a perennial herb producing thick, erect stems up to 6 centimeters wide that branch from the bases and grow up to a meter tall. It produces bunches of leaves on long, sheathed petioles which are generally up to about 30 centimeters long but are known to reach 80. The wide, roughly heart-shaped leaf blade is up to 40 by 28 centimeters and has 4 main veins running from the center to the edge on each side. The plant rarely flowers. When it develops, the inflorescence may be solitary or paired. It arises on a peduncle 20 to 30 centimeters long and is wrapped in a green to blue-green spathe. The yellowish or bluish-green spadix is up to 14 centimeters long. Fruiting is also rare, but the plant may produce red berries each 6 to 8 millimeters wide."},{"id":"s1:p4","text":"Biology\nThe flowers are pollinated by the drosophilid flies Colocasiomyia alocasiae and C. xenalocasiae, at least in Japan."},{"id":"s1:p5","text":"The plant easily reproduces vegetatively sprouting up when pieces of stem or root enter the soil."},{"id":"s1:p6","text":"It is susceptible to bacterial leaf spot disease caused by Pantoea agglomerans."},{"id":"s1:p7","text":"This species has been introduced to many regions, including much of the Pacific, where it can be found in Hawaii, Micronesia, Fiji, French Polynesia, and Guam. It has also been introduced to parts of Central America."},{"id":"s1:p8","text":"Human uses\nIt has some uses in traditional Chinese medicine. It is applied externally to treat snakebite, abscesses, rheumatism, and arthritis. It is poisonous due to the presence of calcium oxalate crystals."},{"id":"s1:p9","text":"This plant is considered to bring good luck, so it is kept at Buddhist temples in Laos and Thailand."}]}]}

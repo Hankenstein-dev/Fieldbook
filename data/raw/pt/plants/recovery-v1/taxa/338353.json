@@ -1,0 +1,45 @@
+{
+  "taxonId": 338353,
+  "name": "Allium scorzonerifolium",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:52:53.544806+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Allium scorzonerifolium Desf. ex Redouté",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Allium scorzonerifolium is a yellow-flowered species of wild onion native to Spain, Portugal, and Morocco.Redouté, Pierre Joseph. 1803. Les Liliacées 2: plate 92Fernandes, Rosette Mercedes Saraiva Batarda. 1955. Boletim da Sociedade Broteriana II, 27: 192Dobignard, D. & Chatelain, C. (2010). Index synonymique de la flore d'Afrique du nord 1: 1-455. Éditions des conservatoire et jardin botaniques, Genève.Flora-on, Sociedade Portuguesa de Botânica, Allium scorzonerifolium in Portuguese, color photos, range map of species distribution with Portugal, etc.Flora Vascular, Allium scorzonerifolium description in Spanish, color photos; range map of species distribution with Spain, etc",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165774230.json",
+      "sha256": "6bd4a381cd8e2ab3604eda10ef40474702f7361c4e9b70bfef5ccc8926109b60",
+      "url": "https://api.gbif.org/v1/species/165774230",
+      "credit": {
+        "title": "Allium scorzonerifolium Desf. ex Redouté",
+        "url": "https://www.gbif.org/species/165774230",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/c1c5c51e7ff493da3c449052b4d481b821e37327750c8781bb83e487843398ef.json",
+      "title": "Allium scorzonerifolium",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Allium+scorzonerifolium&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Allium+scorzonerifolium&limit=100",
+      "status": 200
+    }
+  ]
+}

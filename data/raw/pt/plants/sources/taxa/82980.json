@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "taxonId": 82980,
+  "scientificName": "Quercus faginea",
+  "rank": "species",
+  "catalogueRecord": {
+    "id": 82980,
+    "scientificName": "Quercus faginea",
+    "commonName": "Portuguese oak",
+    "alternativeNames": [],
+    "group": "plants",
+    "rank": "species",
+    "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461869897/medium.jpeg",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY), uploaded by Duarte Frade",
+      "license": "cc-by",
+      "sourceUrl": "https://www.inaturalist.org/photos/461869897"
+    }
+  },
+  "taxonomy": {
+    "taxon": {
+      "id": 82980,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47126,
+      "ancestor_ids": [
+        48460,
+        47126,
+        211194,
+        47125,
+        47124,
+        47853,
+        47852,
+        47851,
+        861029,
+        861033,
+        1577571,
+        82980
+      ],
+      "is_active": true,
+      "name": "Quercus faginea",
+      "parent_id": 1577571,
+      "ancestry": "48460/47126/211194/47125/47124/47853/47852/47851/861029/861033/1577571",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 461869897,
+        "license_code": "cc-by",
+        "attribution": "(c) Duarte Frade, some rights reserved (CC BY), uploaded by Duarte Frade",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461869897/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Duarte Frade",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461869897/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461869897/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 8550,
+      "flag_counts": {
+        "resolved": 2,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": 96797,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Quercus_faginea",
+      "iconic_taxon_name": "Plantae",
+      "preferred_common_name": "Portuguese oak",
+      "establishment_means": {
+        "id": 4268984,
+        "establishment_means": "native",
+        "place": {
+          "id": 7122,
+          "name": "Portugal",
+          "display_name": "Portugal",
+          "ancestry": "97391"
+        }
+      },
+      "preferred_establishment_means": "native"
+    },
+    "sourceUrl": "https://api.inaturalist.org/v1/observations/species_counts?locale=en&page=1&per_page=200&place_id=7122",
+    "fetchedAt": "2026-09-08T20:47:15.737834+00:00",
+    "retainedFrom": "data/models/http/20f13f25c89af6ecbc2d30896d15324076c7c1ac94da7e92bc3e2d8a788e1467.json",
+    "recordSha256": "b918902c49ecde61f13e4e08cf1bf1b1ead21c52fc1ad547d3b936ba02cd23f5"
+  },
+  "coverageStatus": "article_title_matched",
+  "reviewStatus": "unreviewed",
+  "sources": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "requestedTitle": "Quercus faginea",
+      "title": "Quercus faginea",
+      "status": "available",
+      "scope": "title_matches_scientific_name",
+      "path": "articles/en/d43758149fe680d8cf053cada98bdcbfffed7442f991142ff14c558aa072edf8.json",
+      "url": "https://en.wikipedia.org/wiki/Quercus_faginea",
+      "revisionId": 1362963097,
+      "contentSha256": "eb0f32b8277ca5d079b63513e501328d81301c38f650b5f732636e347cdfdfc5"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "pt",
+      "requestedTitle": "Carvalho-português",
+      "title": "Carvalho-português",
+      "status": "available",
+      "scope": "needs_taxon_review",
+      "path": "articles/pt/f6b264f234a8f38bbf709e72c5031c7ed93d4dc78c0cf80c2ef062ce6c3c8a35.json",
+      "url": "https://pt.wikipedia.org/wiki/Carvalho-portugu%C3%AAs",
+      "revisionId": 70511093,
+      "contentSha256": "ff42b08c1e277f82ddce91813a17a2e2f24f52639e3857c8e689cb3dbe809a60"
+    }
+  ],
+  "botanicalSources": [],
+  "sourceMaterialStatus": "taxon_matched_text",
+  "gap": null
+}

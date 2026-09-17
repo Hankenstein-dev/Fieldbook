@@ -1,0 +1,22 @@
+{
+  "taxonId": 430349,
+  "name": "Callithamnion tetragonum",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:11.777466+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Callithamnion+tetragonum&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Callithamnion+tetragonum&limit=100",
+      "status": 200
+    }
+  ]
+}

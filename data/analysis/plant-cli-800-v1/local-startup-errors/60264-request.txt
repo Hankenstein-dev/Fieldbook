@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":60264,"scientificName":"Triglochin maritima","commonName":"common arrowgrass","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Triglochin maritima","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Triglochin maritima is a species of flowering plant in the arrowgrass family Juncaginaceae. It is found in brackish marshes, freshwater marshes, wet sandy beaches, fens, damp grassland and bogs. It has a circumboreal distribution, occurring throughout the northern Northern Hemisphere. In the British Isles it is common on the coast, but very rare inland."},{"id":"s1:p2","text":"Description\nIt is similar to marsh arrowgrass (Triglochin palustris) but has the following differences: it has stolons, is stouter. The leaves are fleshy and not furrowed above. It is not very aromatic. The raceme is more dense and like sea plantain. The flowers are fleshier. The fruits are oval, 4 mm long, 2 mm wide."},{"id":"s1:p3","text":"It varies in height from {{cvt|8-30|in|mm|order=flip|round=50}}. It flowers in May to August; flowers are greenish, 3 petalled, edged with purple, {{cvt|1/8|in|mm|0|order=flip}} across, in a long spike. Common names include seaside arrowgrass, common arrowgrass, sea arrowgrass and shore arrowgrass.{{Citation needed|date=May 2021}}"},{"id":"s1:p4","text":"It can be an annual or perennial."},{"id":"s1:p5","text":"Triglochin concinna is a synonym of this species."},{"id":"s1:p6","text":"This plant is believed to be toxic, as it can produce cyanide. However, this is usually when the plant is distressed in drought conditions or due to over harvesting, usually by grazing animals. There is a common belief that this species has been known to cause losses in cattle, with green leaves being more toxic than dried material, yet sheep and deer graze on the plant, especially in rural seaside areas. It could be that belief in the plants' toxicity is apocryphal and based on anecdotal evidence."}]}]}

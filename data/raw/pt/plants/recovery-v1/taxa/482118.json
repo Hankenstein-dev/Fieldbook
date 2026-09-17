@@ -1,0 +1,38 @@
+{
+  "taxonId": 482118,
+  "name": "Frullania fragilifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:41:52.230401+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/de/8f3f2f749f7ac882139a920f167e91a0b00e25e16ff55710d101007c1c572feb.json",
+      "title": "Bruchblättriges Wassersackmoos",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Frullania fragilifolia"
+    },
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Spotty Fingers"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Frullania+fragilifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Frullania+fragilifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "taxonId": 925605,
+  "name": "Malva durieui",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:45:02.815587+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Malva+durieui&limit=5",
+      "status": 200
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Malva+durieui&limit=100",
+      "status": 200
+    }
+  ]
+}

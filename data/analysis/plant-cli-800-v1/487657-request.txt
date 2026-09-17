@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":487657,"scientificName":"Camellia oleifera","commonName":"Tea-oil Camellia","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Camellia oleifera","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Camellia oleifera, which originated in China, is notable as an important source of edible oil (known as tea oil or camellia oil) obtained from its seeds. It is commonly known as the oil-seed camellia or tea oil camellia, though to a lesser extent other species of camellia are used in oil production too."},{"id":"s1:p2","text":"It is widely distributed in China and is cultivated extensively there. It is found in forests, thickets, banks of streams and foothills at elevations of 500 to 1,300 metres."},{"id":"s1:p3","text":"This species looks much similar to Camellia sasanqua except the dark green, evergreen leaves are a bit larger, three to five inches long and two to three inches wide. Single, white, fragrant flowers are produced in mid to late fall, and this large shrub or small tree will reach a height of 20 feet with thin, upright, multiple trunks and branches.\nThe crown forms a rounded or oval vase with lower branches removed."},{"id":"s1:p4","text":"Uses\n{{Main|Tea seed oil}}\nThe seeds of Camellia oleifera can be pressed to yield tea seed oil, a sweetish seasoning and cooking oil. In tea seed oil, oleic acid, a monounsaturated fatty acid comprises ~80% of the total fatty acid content - the oil is similar in composition to olive oil. After the tea seed oil is extracted, the seed itself still serves a purpose. The Camellia oil cake is used as an anti-inflammatory and antioxidant."},{"id":"s1:p5","text":"Tea oil is also known as \"tea seed oil\" when sold as cooking oil in supermarkets throughout Australia, New Zealand and the United States."},{"id":"s1:p6","text":"It can also be used in textile manufacture, in soap making and, when burned in an oil lamp, as a source of light. Camellia oil is also traditionally used to protect Japanese woodworking tools and cutlery from corrosion and is currently sold for that purpose."}]}]}

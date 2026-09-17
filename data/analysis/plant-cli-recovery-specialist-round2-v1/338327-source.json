@@ -1,0 +1,77 @@
+{
+  "input": {
+    "taxonId": 338327,
+    "scientificName": "Aloe macrocarpa",
+    "commonName": "Aloe macrocarpa",
+    "rank": "species",
+    "sourceMatchStatus": "recovery_identity_checked",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Aloe macrocarpa",
+        "language": "pt",
+        "scope": "verified_requested_taxon",
+        "passages": [
+          {
+            "id": "s1:p1",
+            "text": "Aloe macrocarpa é uma espécie de liliopsida do gênero Aloe, pertencente à família Asphodelaceae."
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Aloe macrocarpa Tod. — Plants of the World Online",
+        "language": "en",
+        "scope": "requested_taxon_Kew_account",
+        "passages": [
+          {
+            "id": "s2:p1",
+            "text": "Plants of the World Online account: Aloe macrocarpa Tod.."
+          },
+          {
+            "id": "s2:p2",
+            "text": "The native range of this species is Mali to Djibouti. It is a succulent subshrub or shrub and grows primarily in the seasonally dry tropical biome."
+          }
+        ]
+      }
+    ]
+  },
+  "sourceProvenance": [
+    {
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/2ac85e52f1c713a3400a8b743c5f0c5c637ea92ac5f1e478a7b08cf7d5bd058a.json",
+      "sha256": "d449b4ecb9afb59841c79b92ccfcb7123cdb172afab1634eb08fef3fefdda78f",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=55698837",
+      "revisionId": 55698837,
+      "credit": {
+        "title": "Aloe macrocarpa",
+        "url": "https://pt.wikipedia.org/wiki/Aloe_macrocarpa",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=55698837",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    },
+    {
+      "identityDecision": "Exact scientific name in primary account heading; no use of synonym target or member-species account",
+      "path": "data/raw/pt/plants/recovery-v1/kew-originals/338327-5c6ca483d1cc844d.json",
+      "sha256": "5c6ca483d1cc844d7b1678e8f9b3fcdb1016ab770fb2cbb376049386ab55eff6",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A529625-1",
+      "credit": {
+        "title": "Aloe macrocarpa Tod. — Plants of the World Online",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A529625-1",
+        "attribution": "Plants of the World Online, Royal Botanic Gardens, Kew",
+        "licenseUrl": "http://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ],
+  "measurement": {
+    "taxonId": 338327,
+    "name": "Aloe macrocarpa",
+    "language": "pt,en",
+    "sourceTextTokens": 72,
+    "packetTokens": 214,
+    "standaloneInputTextTokens": 666,
+    "packetSha256": "9bf9fe996316ca04b6f0f7df5c9c3b285ece3d8cd0ca39db89b8f7616bf66411"
+  }
+}

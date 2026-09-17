@@ -1,0 +1,22 @@
+{
+  "taxonId": 1484379,
+  "name": "Leontodon × friasi",
+  "rank": "hybrid",
+  "completedAt": "2026-09-15T07:47:48.978453+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Leontodon+%C3%97+friasi&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Leontodon+%C3%97+friasi&limit=100",
+      "status": 200
+    }
+  ]
+}

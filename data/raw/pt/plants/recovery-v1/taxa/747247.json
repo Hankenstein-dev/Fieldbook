@@ -1,0 +1,42 @@
+{
+  "taxonId": 747247,
+  "name": "Trisetaria panicea",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:56:37.610351+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Trisetaria panicea",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Título em itálico}}\n{{Info/Taxonomia\n| nome = ''Trisetaria panicea''\n| imagem = \n| imagem_legenda = \n| reino = [[Plantae]]\n| clado1 = [[angiospérmicas]]\n| clado2 = [[monocotiledóneas]]\n| clado3 = \n| ordem = [[Poales]]\n| família = [[Poaceae]]\n| género = ''[[Trisetaria]]''\n| espécie = '''''T. panicea'''''\n| binomial = ''Trisetaria panicea''\n| binomial_autoridade = (Lam.) Paunero\n}}\nTrisetaria panicea é uma espécie de planta com flor pertencente à família Poaceae. \n\nA autoridade científica da espécie é (Lam.) Paunero, tendo sido publicada em Anales del Jardín Botánico de Madrid 9: 524. 1950.\n\n Portugal \n\nTrata-se de uma espécie presente no território português, nomeadamente em Portugal Continental.\n\nEm termos de naturalidade é nativa da região atrás indicada.\n\n Protecção \n\nNão se encontra protegida por legislação portuguesa ou da Comunidade Europeia.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/c7b53070f7f78a69676c448ea09246931b2ba7f62ccf757be532561a3f69745a.json",
+      "sha256": "c84941b04c21bcf5ac14259b14f601fc4da158061fc130068fde33e704c5130f",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=40550944",
+      "revisionId": 40550944,
+      "credit": {
+        "title": "Trisetaria panicea",
+        "url": "https://pt.wikipedia.org/wiki/Trisetaria_panicea",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=40550944",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Trisetaria+panicea&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Trisetaria+panicea&limit=100",
+      "status": 200
+    }
+  ]
+}

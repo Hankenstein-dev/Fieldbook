@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":165838,"scientificName":"Omalotheca sylvatica","commonName":"Woodland Cudweed","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Omalotheca sylvatica","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Omalotheca sylvatica, synonyms including Gnaphalium sylvaticum, is a species of plant in the family Asteraceae. It is commonly known as heath cudweed, wood cudweed, golden motherwort, chafeweed, owl's crown, and woodland arctic cudweed. It is widespread across the temperate Northern Hemisphere, throughout North America and Eurasia. The species was first formally described by Carl Linnaeus in 1753 as Gnaphalium sylvaticum."},{"id":"s1:p2","text":"Description\nIt is a perennial herb with short runners, growing to 8 to 60 cm tall. Its leaves are lanceolate in shape, pointed, 2 to 8 cm long, with a single vein. They have no hair on top, but are woolly hairy below. The upper leaves become progressively shorter and narrower. The flower heads are 6 mm long. The bracts of the flower heads have a green centre, and chaffy brown edges. The florets are pale brown. The achenes are hairy with reddish pappus hairs. It flowers from July until September."}]}]}

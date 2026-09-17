@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":521488,"scientificName":"Pelargonium papilionaceum","commonName":"butterfly pelargonium","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pelargonium papilionaceum","language":"de","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Pelargonium papilionaceum, auch als Schmetterlingspelargonie bekannt, ist eine Pflanzenart aus der Gattung der Pelargonien (Pelargonium) innerhalb der Familie der Storchschnabelgewächse (Geraniaceae). Sie ist in Südafrika beheimatet."},{"id":"s1:p2","text":" Beschreibung "},{"id":"s1:p3","text":" Vegetative Merkmale \nPelargonium papilionaceum wächst als aufrechte, mehrjährige Pflanze und kann bis 2 Meter hoch werden. Die nicht sukkulente Art bildet verholzende Triebe aus. Die mit weichen Haaren besetzten Seitentriebe sind krautig und tragen die herzförmigen Blätter. Diese werden bis 70 Millimeter lang und bis 100 Millimeter breit. Der Blattrand ist fein gezähnt oder ganzrandig."},{"id":"s1:p4","text":" Generative Merkmale \nDer doldenartige Blütenstand besteht aus 5 bis 12 Einzelblüten. Diese sind hellrosa bis karminrot gefärbt und besitzen zwei große obere Kronblätter und drei kleinere untere. Auf den oberen Kronblättern ist ein dunkelvioletter Fleck vorhanden."},{"id":"s1:p5","text":" Vorkommen \nDas Verbreitungsgebiet von Pelargonium papilionaceum liegt in den südlichen Gebieten der südafrikanische Provinzen Westkap und Ostkap. Das Vorkommen reicht von Stellenbosch bis Makhanda. Die Pflanzen wachsen an Waldrändern und halbschattigen Stellen in der Nähe von Bächen."},{"id":"s1:p6","text":" Systematik \nDie Erstbeschreibung als Geranium papilionaceum erfolgte 1753 durch Carl von Linné. Charles Louis L’Héritier de Brutelle stellte die Art 1789 in die von ihm neu geschaffene Gattung Pelargonium."},{"id":"s1:p7","text":"Die Art wird in der Roten Liste der gefährdeten Pflanzenarten Südafrikas als „Least Concern“ = „nicht gefährdet“ bewertet."}]}]}

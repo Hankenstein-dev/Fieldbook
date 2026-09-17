@@ -1,0 +1,63 @@
+{
+  "taxonId": 185514,
+  "name": "Greyia sutherlandii",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:36.011025+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Greyia sutherlandii",
+      "language": "en",
+      "scope": "verified_requested_taxon",
+      "clean": "Greyia sutherlandii, also known as Natal bottlebrush, is a species of flowering plant in the family Francoaceae. It is native to South Africa, Eswatini, and Lesotho.\n\n Appearance \nGreyia sutherlandii is a small to medium-sized tree that can reach heights of up to 10 meters (30 feet). It has distinctive bottlebrush-like flower clusters and elliptical leaves.",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/en/3fb47e1fd8d1a428e055020928dab1bc98155e0209f17564991e4f7e351b7ba9.json",
+      "sha256": "d6b6a2767ae7394cbe3d74fac1692d7c25335b0fd0fd84d70fcc5e0893bc7b46",
+      "url": "https://en.wikipedia.org/w/index.php?oldid=1314980976",
+      "revisionId": 1314980976,
+      "credit": {
+        "title": "Greyia sutherlandii",
+        "url": "https://en.wikipedia.org/wiki/Greyia_sutherlandii",
+        "revisionUrl": "https://en.wikipedia.org/w/index.php?oldid=1314980976",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      }
+    },
+    {
+      "title": "Greyia sutherlandii Hook. & Harv.",
+      "language": "unspecified",
+      "scope": "exact_canonical_name_and_rank",
+      "clean": "Greyia sutherlandii, also known as Natal bottlebrush, is a species of plant in the Francoaceae family. It is endemic to South Africa.Plants of the World Online. Available at: http://www.plantsoftheworldonline.org/taxon/urn:lsid:ipni.org:names:783197-1 [accessed 16/02/21]",
+      "identityDecision": "Exact GBIF canonical name and rank; no accepted-name substitution",
+      "path": "data/raw/pt/plants/recovery-v1/gbif/165676357.json",
+      "sha256": "914e2d02659cbc61f8140e5203f2b0b920c723f452deb0f95900d340879e338d",
+      "url": "https://api.gbif.org/v1/species/165676357",
+      "credit": {
+        "title": "Greyia sutherlandii Hook. & Harv.",
+        "url": "https://www.gbif.org/species/165676357",
+        "attribution": "GBIF source dataset",
+        "licenseUrl": ""
+      }
+    }
+  ],
+  "identityReview": [],
+  "searches": [
+    {
+      "provider": "Wikipedia",
+      "language": "en",
+      "title": "Greyia sutherlandii"
+    },
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Greyia+sutherlandii&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Greyia+sutherlandii&limit=100",
+      "status": 200
+    }
+  ]
+}

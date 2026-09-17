@@ -1,0 +1,53 @@
+{
+  "taxonId": 287634,
+  "name": "Jacaranda acutifolia",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:51:56.578863+00:00",
+  "state": "supported_source_ready",
+  "searchExhausted": false,
+  "sources": [
+    {
+      "title": "Jacaranda acutifolia",
+      "language": "pt",
+      "scope": "verified_requested_taxon",
+      "clean": "{{Info/Taxonomia\n |nome = ''Jacaranda acutifolia''\n |imagem = Jacaranda acutifolia.jpg\n |cor =lightgreen\n |reino = [[Plantae]]\n |divisão = [[Magnoliophyta]]\n |classe = [[Magnoliopsida]]\n |ordem = [[Lamiales]]\n |família = [[Bignoniaceae]]\n |género = ''[[Jacaranda]]''\n |espécie = '''''J. acutifolia'''''\n |binomial = ''Jacaranda acutifolia''\n |binomial_autoridade = Bonpl. 1805\n}}\nJacaranda acutifolia é uma árvore nativa da Bolívia, Peru, México e EUA (Flórida).\n\n{{Esboço-lamiales}}\n{{Controle de autoridade}}",
+      "identityDecision": "Scientific article title matches; supplied rank retained",
+      "path": "data/raw/pt/plants/sources/articles/pt/f6ac3bb62f9917a7e98775550f9100304e83dc603fdae7d6d75e1db9be27a0a8.json",
+      "sha256": "81554e2708fdcea63c74f4492aa6a49b9ec2d253e7af5b93614ab74aa09d6351",
+      "url": "https://pt.wikipedia.org/w/index.php?oldid=67787300",
+      "revisionId": 67787300,
+      "credit": {
+        "title": "Jacaranda acutifolia",
+        "url": "https://pt.wikipedia.org/wiki/Jacaranda_acutifolia",
+        "revisionUrl": "https://pt.wikipedia.org/w/index.php?oldid=67787300",
+        "attribution": "Wikipedia contributors",
+        "license": "Creative Commons Attribution-Share Alike 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.pt"
+      }
+    }
+  ],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/f6ac3bb62f9917a7e98775550f9100304e83dc603fdae7d6d75e1db9be27a0a8.json",
+      "title": "Jacaranda mimosifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    },
+    {
+      "path": "data/raw/pt/plants/sources/articles/pt/e870bd48cd7fc60cd3ba728b6b4eb91f96c0cdfb1e653abefb3e764ca1f63ffc.json",
+      "title": "Jacarandá-mimoso",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Jacaranda+acutifolia&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Jacaranda+acutifolia&limit=100",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "taxonId": 204923,
+  "name": "Agave vivipara",
+  "rank": "species",
+  "completedAt": "2026-09-15T07:39:45.511712+00:00",
+  "state": "broader_search_required",
+  "searchExhausted": false,
+  "sources": [],
+  "identityReview": [
+    {
+      "path": "data/raw/pt/plants/sources/articles/en/b4bbcca662bc00e64f3929d9ad2895175fff675eea1b4299269f0065f54e7675.json",
+      "title": "Agave angustifolia",
+      "reason": "Identity/rank or descriptive content not established"
+    }
+  ],
+  "searches": [
+    {
+      "provider": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search=Agave+vivipara&limit=5",
+      "status": 429
+    },
+    {
+      "provider": "GBIF descriptive datasets",
+      "url": "https://api.gbif.org/v1/species/search?q=Agave+vivipara&limit=100",
+      "status": 200
+    }
+  ]
+}

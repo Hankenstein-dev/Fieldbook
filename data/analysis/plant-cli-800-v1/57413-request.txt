@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":57413,"scientificName":"Narcissus bulbocodium","commonName":"hoop-petticoat daffodil","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Narcissus bulbocodium","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"Narcissus bulbocodium, the petticoat daffodil or hoop-petticoat daffodil, is a species of flowering plant in the family Amaryllidaceae, native to southern and western France, Portugal, and Spain. Some sources say that the species is also native to Morocco, but this is based on populations formerly thought to be varieties of N. bulbocodium but now regarded as separate species."},{"id":"s1:p2","text":" Description \nNarcissus bulbocodium is a variable, small, hardy bulbous perennial, growing to {{convert|10|-|15|cm|0|abbr=on}} tall, with grass-like leaves, and deep yellow trumpet-shaped flowers in mid-Spring. The flower is unusual in that the central trumpet (corona) is exceptionally large in relation to the outer section (perianth) consisting of tiny pointed segments.\nThe specific epithet bulbocodium means \"woolly bulb\". At 12 mm it has the smallest floral diameter amongst Narcissus."},{"id":"s1:p3","text":"Hybrids\nNarcissus bulbocodium is a parent of several hybrids, including:\nN. × abilioi Fern.Casas (N. bulbocodium × N. jonquilla)\nN. × brevitubulosus A.Fern. (N. bulbocodium × N. asturiensis)\nN. × montcaunicus Fern.Casas (N. bulbocodium × N. eugeniae)\nN. × lopezii Fern.Casas (N. obvallaris × N. bulbocodium)\nN. × rozeirae Fern.Casas & Pérez-Chisc. (N. bulbocodium × N. pallidulus)\nN. × barrae Fern.Casas (N. cantabricus 'Redouté' × N. bulbocodium)"},{"id":"s1:p4","text":"Cultivation\nNarcissus bulbocodium is widely planted in gardens, and can be naturalised in grass. It requires relatively dry conditions during the summer dormant period, so is suitable for planting beneath deciduous trees. Numerous varieties and cultivars exist, including N. bulbocodium subsp. bulbocodium var. conspicuus (pale yellow flowers) and 'Golden Bells', a vigorous cultivar with long-lasting deep yellow flowers."},{"id":"s1:p5","text":"Narcissus bulbocodium has gained the Royal Horticultural Society's Award of Garden Merit."}]}]}

@@ -1,0 +1,19 @@
+Use only the supplied plant information. Return JSON only.
+
+Write one paragraph: maximum 75 words and three sentences. Start with plant type and explicitly supported native origin, then 1–2 distinctive features worth remembering. Use plain English; avoid jargon, filler, naming history and measurement lists. Keep sparse summaries short; use null if only naming information exists.
+
+Preserve uncertainty and qualifications about location, time, plant parts and varieties. Omit disputed claims. Do not invent causal explanations.
+
+humanEdibility:
+- yes: explicit human food use is documented.
+- no: explicitly inedible or poisonous when eaten, without a qualified edible use.
+- unknown: evidence is absent, unclear or contradictory.
+
+Different parts or preparations are not contradictions. Medicinal or animal use is not human food use. In edibilityNote, retain relevant parts, preparation and historical context in ≤30 words; otherwise null. If food use appears in the paragraph, retain its essential qualifications there too.
+
+Return:
+{"summary":"...","humanEdibility":"yes|no|unknown","edibilityNote":null,"evidence":{"summary":["passage IDs"],"humanEdibility":["passage IDs"]}}
+Use supporting passage IDs only; empty lists when no claim is made.
+
+PLANT INFORMATION
+{"taxonId":166880,"scientificName":"Pimpinella saxifraga","commonName":"Burnet-saxifrage","rank":"species","sourceMatchStatus":"taxon_matched_text","sources":[{"id":"s1","title":"Pimpinella saxifraga","language":"en","scope":"title_matches_scientific_name","passages":[{"id":"s1:p1","text":"{{redirect|Lesser burnet|the southern South American plant|Acaena tenera}}"},{"id":"s1:p2","text":"Pimpinella saxifraga, known as burnet-saxifrage, solidstem burnet saxifrage, lesser burnet is a plant species in the family Apiaceae, a native of the British Isles and temperate Europe and Western Asia. It is neither a burnet, which its leaves resemble, nor a saxifrage although it has a similar herbal effect as a diuretic."},{"id":"s1:p3","text":"The plant makes up a large part of the turf in some of southern England's chalk downs. It is highly nutritious for sheep and cattle, and in the past was cultivated on calcareous soils for fodder."},{"id":"s1:p4","text":"John Gerard's Herball (1597) commends the plant's properties, and states that it is: \"A speciall helpe to defend the heart from noysome vapours and from the infection of the Plague or Pestilence, and all other contagious diseases for which purpose it is of great effect, the juice thereof being taken in some drink...it is a capital wound herb for all sorts of wounds, both of the head and body, either inward or outward, used either in juice or decoction of the herb, or by the powder of the herb or root...\""}]}]}

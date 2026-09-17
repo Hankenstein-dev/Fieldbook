@@ -1,0 +1,1 @@
+219 local CLI startup failures, all with empty event logs and reserved-provider configuration errors before any model request. No generation calls or token usage. Configuration corrected before generation. All original artifacts retained here.
